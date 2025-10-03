@@ -8,6 +8,7 @@ from core.system_v7_ultimate import IntelligenceSystemV7
 
 
 def test_v7_smoke_cycle_runs():
+    """Smoke test for V7 instantiation and basic cycle."""
     v7 = IntelligenceSystemV7()
     r = v7.run_cycle()
     assert 'mnist' in r and 'cartpole' in r
