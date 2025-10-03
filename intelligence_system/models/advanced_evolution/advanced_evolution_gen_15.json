@@ -1,0 +1,273 @@
+{
+  "generation": 15,
+  "population": [
+    {
+      "genome": {
+        "learning_rate": 0.01012523845111914,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": 252.20153297958032,
+      "age": 3,
+      "mutations": 10
+    },
+    {
+      "genome": {
+        "learning_rate": 0.01012523845111914,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": 252.20153297958032,
+      "age": 2,
+      "mutations": 11
+    },
+    {
+      "genome": {
+        "learning_rate": 0.01012523845111914,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 12
+    },
+    {
+      "genome": {
+        "learning_rate": 0.01012523845111914,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 12
+    },
+    {
+      "genome": {
+        "learning_rate": 0.01012523845111914,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 12
+    },
+    {
+      "genome": {
+        "learning_rate": 0.01012523845111914,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 12
+    },
+    {
+      "genome": {
+        "learning_rate": 0.01012523845111914,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 11
+    },
+    {
+      "genome": {
+        "learning_rate": 0.009421246854821961,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 13
+    },
+    {
+      "genome": {
+        "learning_rate": 0.01012523845111914,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 11
+    },
+    {
+      "genome": {
+        "learning_rate": 0.01012523845111914,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 12
+    },
+    {
+      "genome": {
+        "learning_rate": 0.01012523845111914,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 12
+    },
+    {
+      "genome": {
+        "learning_rate": 0.01012523845111914,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 12
+    },
+    {
+      "genome": {
+        "learning_rate": 0.009421246854821961,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.47164668631737267
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 7
+    },
+    {
+      "genome": {
+        "learning_rate": 0.01012523845111914,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 12
+    },
+    {
+      "genome": {
+        "learning_rate": 0.01012523845111914,
+        "hidden_size": 251.6488187002335,
+        "dropout": 0.5425890408957066
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 13
+    }
+  ],
+  "best_individual": {
+    "genome": {
+      "learning_rate": 0.01012523845111914,
+      "hidden_size": 251.6488187002335,
+      "dropout": 0.5425890408957066
+    },
+    "fitness": 252.20153297958032,
+    "age": 0,
+    "mutations": 10
+  },
+  "best_fitness": 252.20153297958032,
+  "history": [
+    {
+      "generation": 1,
+      "best_fitness": 251.8826235250932,
+      "avg_fitness": 249.5472742169979,
+      "std_fitness": 2.335349308095317,
+      "population_size": 15
+    },
+    {
+      "generation": 2,
+      "best_fitness": 251.8826235250932,
+      "avg_fitness": 251.8826235250932,
+      "std_fitness": 0.0,
+      "population_size": 15
+    },
+    {
+      "generation": 3,
+      "best_fitness": 252.1287131704961,
+      "avg_fitness": 252.1287131704961,
+      "std_fitness": 0.0,
+      "population_size": 15
+    },
+    {
+      "generation": 4,
+      "best_fitness": 252.1287131704961,
+      "avg_fitness": 252.1287131704961,
+      "std_fitness": 0.0,
+      "population_size": 15
+    },
+    {
+      "generation": 5,
+      "best_fitness": 252.1298866334057,
+      "avg_fitness": 252.1292999019509,
+      "std_fitness": 0.0005867314548027025,
+      "population_size": 15
+    },
+    {
+      "generation": 6,
+      "best_fitness": 252.1298866334057,
+      "avg_fitness": 252.1298866334057,
+      "std_fitness": 0.0,
+      "population_size": 15
+    },
+    {
+      "generation": 7,
+      "best_fitness": 252.1298866334057,
+      "avg_fitness": 252.1298866334057,
+      "std_fitness": 0.0,
+      "population_size": 15
+    },
+    {
+      "generation": 8,
+      "best_fitness": 252.1298866334057,
+      "avg_fitness": 252.1298866334057,
+      "std_fitness": 0.0,
+      "population_size": 15
+    },
+    {
+      "generation": 9,
+      "best_fitness": 252.1298866334057,
+      "avg_fitness": 252.1298866334057,
+      "std_fitness": 0.0,
+      "population_size": 15
+    },
+    {
+      "generation": 10,
+      "best_fitness": 252.1298866334057,
+      "avg_fitness": 252.1298866334057,
+      "std_fitness": 0.0,
+      "population_size": 15
+    },
+    {
+      "generation": 11,
+      "best_fitness": 252.1298866334057,
+      "avg_fitness": 252.1298866334057,
+      "std_fitness": 0.0,
+      "population_size": 15
+    },
+    {
+      "generation": 12,
+      "best_fitness": 252.1298866334057,
+      "avg_fitness": 252.1298866334057,
+      "std_fitness": 0.0,
+      "population_size": 15
+    },
+    {
+      "generation": 13,
+      "best_fitness": 252.20153297958032,
+      "avg_fitness": 252.165709806493,
+      "std_fitness": 0.035823173087308646,
+      "population_size": 15
+    },
+    {
+      "generation": 14,
+      "best_fitness": 252.20153297958032,
+      "avg_fitness": 252.20153297958032,
+      "std_fitness": 0.0,
+      "population_size": 15
+    },
+    {
+      "generation": 15,
+      "best_fitness": 252.20153297958032,
+      "avg_fitness": 252.20153297958032,
+      "std_fitness": 0.0,
+      "population_size": 15
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "operational": {
+    "cycle": 29,
+    "best_mnist": 98.17,
+    "best_cartpole": 488.4,
+    "ia3_score": 46.07916666666668
+  },
+  "meta": {
+    "master_I": 38962.17529819099,
+    "consciousness": 38962.17529819099,
+    "omega": 0.23,
+    "caos": 1.8625672345775575,
+    "linf": 0.4689983010483879,
+    "sigma_valid": true
+  },
+  "synergies": [
+    {
+      "synergy": "meta_autocoding",
+      "success": true,
+      "amplification": 2.5,
+      "details": {
+        "analysis": {
+          "bottleneck": "ia3_general",
+          "severity": 0.13921527777777776,
+          "recommendation": "Improve overall system intelligence (enable more components)",
+          "confidence": 1.0,
+          "meta_state": {
+            "consciousness": 35468.01182376991,
+            "caos": 1.8625672345775575
+          }
+        },
+        "directive": {
+          "action": "enable_component",
+          "target": "multimodal",
+          "params": {
+            "activate": true
+          },
+          "priority": 8
+        },
+        "applied": true
+      }
+    },
+    {
+      "synergy": "consciousness_incompletude",
+      "success": true,
+      "amplification": 2.0,
+      "details": {
+        "consciousness": 35468.01182376991,
+        "intervention_strength": 1.0
+      }
+    },
+    {
+      "synergy": "omega_darwin",
+      "success": true,
+      "amplification": 3.0,
+      "details": {
+        "omega_direction": {
+          "target_consciousness": 1.0,
+          "target_caos": 3.99,
+          "target_linf": 1.0,
+          "urgency": 1.0,
+          "current_distance": 35468.076016638144
+        },
+        "boost": 2.0
+      }
+    },
+    {
+      "synergy": "selfreference_replay",
+      "success": true,
+      "amplification": 2.0,
+      "details": {
+        "replay_size": 10000,
+        "meta_patterns": 5
+      }
+    },
+    {
+      "synergy": "recursive_maml",
+      "success": false,
+      "amplification": 2.5,
+      "details": {
+        "reason": "max_recursion"
+      }
+    }
+  ]
+}

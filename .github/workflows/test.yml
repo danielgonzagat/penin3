@@ -1,0 +1,32 @@
+name: Test PENIN3
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install system deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-dev build-essential
+      - name: Install Python deps
+        run: |
+          pip install --upgrade pip
+          pip install -r penin3/requirements.txt
+          pip install pytest pytest-cov
+      - name: Run tests
+        run: |
+          pytest -q \
+            penin3/tests/test_penin3_system.py \
+            penin3/tests/test_acfa_league_basic.py \
+            penin3/tests/test_v7_smoke.py \
+            penin3/tests/test_penin3_acfa_flow.py \
+            --maxfail=1 --disable-warnings -q

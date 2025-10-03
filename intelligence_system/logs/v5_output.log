@@ -1,0 +1,439 @@
+✓ Incompletude Infinita carregada automaticamente
+2025-10-01 17:35:57,121 - __main__ - INFO - 🔥 LAUNCHING INTELLIGENCE SYSTEM V5.0 - EXTRACTED MERGE
+2025-10-01 17:35:57,121 - __main__ - INFO -    New: Evolution, Self-modification, Neuronal farm
+2025-10-01 17:35:57,121 - __main__ - INFO - 
+2025-10-01 17:35:57,121 - __main__ - INFO - ================================================================================
+2025-10-01 17:35:57,121 - __main__ - INFO - 🚀 INTELLIGENCE SYSTEM V5.0 - EXTRACTED ALGORITHMS MERGE
+2025-10-01 17:35:57,121 - __main__ - INFO - ================================================================================
+2025-10-01 17:35:57,121 - __main__ - INFO -    V4.0 base: 7 components
+2025-10-01 17:35:57,121 - __main__ - INFO -    V5.0 new: 4 extracted algorithms
+2025-10-01 17:35:57,121 - __main__ - INFO - ================================================================================
+2025-10-01 17:35:57,122 - core.database - INFO - ✅ Database initialized: /root/intelligence_system/data/intelligence.db
+2025-10-01 17:35:57,214 - models.mnist_classifier - INFO - 📂 Model loaded from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 17:35:57,215 - models.mnist_classifier - INFO - ✅ Loaded existing model from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 17:35:57,401 - agents.cleanrl_ppo_agent - INFO - 📂 PPO agent loaded from /root/intelligence_system/models/ppo_cartpole.pth
+2025-10-01 17:35:57,401 - agents.cleanrl_ppo_agent - INFO - ✅ Loaded PPO agent from /root/intelligence_system/models/ppo_cartpole.pth
+2025-10-01 17:35:57,401 - apis.litellm_wrapper - INFO - 🚀 LiteLLM Wrapper initialized (available: True)
+2025-10-01 17:35:57,401 - meta.dspy_meta_prompter - WARNING - DSPy initialization failed: module 'dspy' has no attribute 'OpenAI'
+2025-10-01 17:35:57,401 - meta.dspy_meta_prompter - INFO - 🔄 DSPy Meta-Prompter initialized (DSPy: True)
+2025-10-01 17:35:57,406 - meta.agent_behavior_learner - INFO - 📂 Agent Behavior Learner loaded
+2025-10-01 17:35:57,406 - meta.agent_behavior_learner - INFO - ✅ Loaded Agent Behavior Learner from /root/intelligence_system/models/meta_learner.pth
+2025-10-01 17:35:57,406 - meta.godelian_antistagnation - INFO - 🔄 Gödelian Anti-Stagnation initialized
+2025-10-01 17:35:57,406 - orchestration.langgraph_orchestrator - INFO - 🔄 Agent Orchestrator initialized (simple mode)
+2025-10-01 17:35:57,408 - extracted_algorithms.neural_evolution_core - INFO - 🧬 Evolutionary Optimizer initialized
+2025-10-01 17:35:57,408 - extracted_algorithms.neural_evolution_core - INFO -    Population: 10, Mutation: 0.3
+2025-10-01 17:35:57,408 - extracted_algorithms.self_modification_engine - INFO - 🔧 Self-Modification Engine initialized
+2025-10-01 17:35:57,408 - extracted_algorithms.self_modification_engine - INFO -    Max mods/cycle: 2
+2025-10-01 17:35:57,408 - extracted_algorithms.self_modification_engine - INFO -    Allowed ops: 6
+2025-10-01 17:35:57,409 - extracted_algorithms.self_modification_engine - INFO - 🧠 Neuronal Farm initialized
+2025-10-01 17:35:57,409 - extracted_algorithms.self_modification_engine - INFO -    Population: 20-100
+2025-10-01 17:35:57,409 - __main__ - INFO - ✅ System V5.0 initialized at cycle 117
+2025-10-01 17:35:57,409 - __main__ - INFO - 📊 Best MNIST: 97.7% | Best CartPole: 27.2
+2025-10-01 17:35:57,409 - __main__ - INFO - 🧬 NEW: Evolutionary optimizer, Self-modifier, Neuronal farm active
+2025-10-01 17:35:57,409 - __main__ - INFO - 🚀 Starting V5.0 continuous operation...
+2025-10-01 17:35:57,409 - __main__ - INFO - 📊 System status: {'cycle': 117, 'version': '5.0', 'best_mnist': 97.71, 'best_cartpole': 27.2, 'cycles_stagnant': 0, 'v4_integrations': {'ppo': True, 'litellm': True, 'meta_learner': True, 'godelian': True, 'langgraph': True, 'dspy': True}, 'v5_extracted': {'neural_evolution': True, 'self_modification': True, 'neuronal_farm': True}, 'ia3_score_estimated': 50.0}
+2025-10-01 17:35:57,409 - __main__ - INFO - 
+2025-10-01 17:35:57,409 - __main__ - INFO - ================================================================================
+2025-10-01 17:35:57,409 - __main__ - INFO - 🔄 CYCLE 118 (V5.0 - EXTRACTED MERGE)
+2025-10-01 17:35:57,409 - __main__ - INFO - ================================================================================
+2025-10-01 17:35:57,409 - __main__ - INFO - 🧠 Training MNIST...
+/root/intelligence_system/models/mnist_classifier.py:87: RuntimeWarning: coroutine 'backward_with_incompletude' was never awaited
+  loss.backward()
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+2025-10-01 17:37:08,059 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 17:37:08,059 - __main__ - INFO - 🎮 Training CartPole with PPO...
+/root/intelligence_system/agents/cleanrl_ppo_agent.py:148: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:253.)
+  states_tensor = torch.FloatTensor(self.states)
+/root/intelligence_system/agents/cleanrl_ppo_agent.py:180: RuntimeWarning: coroutine 'backward_with_incompletude' was never awaited
+  loss.backward()
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+2025-10-01 17:37:08,673 - __main__ - INFO -    Last: 26.0 | Avg(100): 22.6
+2025-10-01 17:37:08,673 - __main__ - INFO - 🧠 Meta-learning...
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/loss.py:616: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/root/intelligence_system/meta/agent_behavior_learner.py:123: RuntimeWarning: coroutine 'backward_with_incompletude' was never awaited
+  loss.backward()
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+2025-10-01 17:37:08,677 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 17:37:08,677 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 17:38:08,735 - __main__ - INFO - 
+2025-10-01 17:38:08,735 - __main__ - INFO - ================================================================================
+2025-10-01 17:38:08,735 - __main__ - INFO - 🔄 CYCLE 119 (V5.0 - EXTRACTED MERGE)
+2025-10-01 17:38:08,735 - __main__ - INFO - ================================================================================
+2025-10-01 17:38:08,736 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 17:39:17,910 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 17:39:17,911 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 17:39:18,679 - __main__ - INFO -    Last: 63.0 | Avg(100): 25.5
+2025-10-01 17:39:18,679 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 17:39:18,682 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 17:39:18,682 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 17:40:18,751 - __main__ - INFO - 
+2025-10-01 17:40:18,751 - __main__ - INFO - ================================================================================
+2025-10-01 17:40:18,751 - __main__ - INFO - 🔄 CYCLE 120 (V5.0 - EXTRACTED MERGE)
+2025-10-01 17:40:18,751 - __main__ - INFO - ================================================================================
+2025-10-01 17:40:18,751 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 17:41:24,705 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 17:41:24,705 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 17:41:24,934 - __main__ - INFO -    Last: 15.0 | Avg(100): 23.6
+2025-10-01 17:41:24,934 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 17:41:24,937 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 17:41:24,937 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 17:41:24,937 - __main__ - INFO - 🌐 Consulting APIs...
+[92m17:41:24 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-10-01 17:41:24,956 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-10-01 17:41:25,427 - openai._base_client - INFO - Retrying request to /chat/completions in 0.407569 seconds
+2025-10-01 17:41:25,836 - openai._base_client - INFO - Retrying request to /chat/completions in 0.971445 seconds
+2025-10-01 17:41:26,818 - apis.litellm_wrapper - WARNING - LiteLLM call failed for gpt-4o-mini: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2025-10-01 17:41:26,820 - apis.litellm_wrapper - WARNING - LiteLLM call failed for mistral-large-latest: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call.
+[92m17:41:26 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= gemini-2.0-flash-exp; provider = vertex_ai
+2025-10-01 17:41:26,821 - LiteLLM - INFO - 
+LiteLLM completion() model= gemini-2.0-flash-exp; provider = vertex_ai
+2025-10-01 17:41:30,155 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-10-01 17:41:34,162 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-10-01 17:41:38,971 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-10-01 17:41:38,971 - google.auth._default - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[92m17:41:38 - LiteLLM:ERROR[0m: vertex_llm_base.py:494 - Failed to load vertex credentials. Check to see if credentials containing partial/invalid information. Error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 490, in get_access_token
+    _credentials, credential_project_id = self.load_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 114, in load_auth
+    creds, creds_project_id = self._credentials_from_default_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 160, in _credentials_from_default_auth
+    return google_auth.default(scopes=scopes)
+  File "/usr/local/lib/python3.10/dist-packages/google/auth/_default.py", line 685, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-10-01 17:41:38,972 - LiteLLM - ERROR - Failed to load vertex credentials. Check to see if credentials containing partial/invalid information. Error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 490, in get_access_token
+    _credentials, credential_project_id = self.load_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 114, in load_auth
+    creds, creds_project_id = self._credentials_from_default_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 160, in _credentials_from_default_auth
+    return google_auth.default(scopes=scopes)
+  File "/usr/local/lib/python3.10/dist-packages/google/auth/_default.py", line 685, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-10-01 17:41:38,975 - apis.litellm_wrapper - WARNING - LiteLLM call failed for gemini-2.0-flash-exp: litellm.APIConnectionError: Your default credentials were not found. To set up Application Default C
+2025-10-01 17:41:38,977 - apis.litellm_wrapper - WARNING - LiteLLM call failed for deepseek-chat: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call.
+[92m17:41:38 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= claude-3-5-sonnet-20241022; provider = anthropic
+2025-10-01 17:41:38,978 - LiteLLM - INFO - 
+LiteLLM completion() model= claude-3-5-sonnet-20241022; provider = anthropic
+2025-10-01 17:41:39,418 - apis.litellm_wrapper - WARNING - LiteLLM call failed for claude-3-5-sonnet-20241022: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_er
+2025-10-01 17:41:39,419 - apis.litellm_wrapper - WARNING - LiteLLM call failed for grok-beta: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call.
+2025-10-01 17:41:39,420 - apis.litellm_wrapper - INFO - ✅ Consulted 0/6 APIs successfully
+2025-10-01 17:41:39,420 - __main__ - INFO -    ✅ Consulted 0 APIs
+2025-10-01 17:41:39,420 - __main__ - INFO - 🧬 Evolving architecture...
+2025-10-01 17:41:39,422 - extracted_algorithms.neural_evolution_core - INFO - 🧬 Gen 1: best=1.0736, avg=0.3209
+2025-10-01 17:41:39,422 - __main__ - INFO -    Gen 1: best=1.0736
+2025-10-01 17:41:39,422 - __main__ - INFO - 🧠 Evolving neuronal farm...
+2025-10-01 17:41:39,431 - extracted_algorithms.self_modification_engine - INFO - 🧬 Generation 1: 10 survivors, 90 offspring
+2025-10-01 17:41:39,431 - __main__ - INFO -    Gen 1: pop=100, fitness=0.6001
+2025-10-01 17:41:39,435 - __main__ - INFO - 💾 Saving all models...
+2025-10-01 17:41:39,440 - models.mnist_classifier - INFO - 💾 Model saved to /root/intelligence_system/models/mnist_model.pth
+2025-10-01 17:41:39,446 - agents.cleanrl_ppo_agent - INFO - 💾 PPO agent saved to /root/intelligence_system/models/ppo_cartpole.pth
+2025-10-01 17:41:39,452 - meta.agent_behavior_learner - INFO - 💾 Agent Behavior Learner saved
+2025-10-01 17:41:39,455 - extracted_algorithms.neural_evolution_core - INFO - 💾 Checkpoint saved: /root/intelligence_system/models/evolution/evolution_gen_1.json
+2025-10-01 17:41:39,456 - __main__ - INFO -    ✅ All models saved
+2025-10-01 17:42:39,515 - __main__ - INFO - 
+2025-10-01 17:42:39,515 - __main__ - INFO - ================================================================================
+2025-10-01 17:42:39,516 - __main__ - INFO - 🔄 CYCLE 121 (V5.0 - EXTRACTED MERGE)
+2025-10-01 17:42:39,516 - __main__ - INFO - ================================================================================
+2025-10-01 17:42:39,516 - __main__ - INFO - 🧠 Training MNIST...
+/root/intelligence_system/models/mnist_classifier.py:87: RuntimeWarning: coroutine 'backward_with_incompletude' was never awaited
+  loss.backward()
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+2025-10-01 17:43:44,949 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 17:43:44,949 - __main__ - INFO - 🎮 Training CartPole with PPO...
+/root/intelligence_system/agents/cleanrl_ppo_agent.py:180: RuntimeWarning: coroutine 'backward_with_incompletude' was never awaited
+  loss.backward()
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+2025-10-01 17:43:45,406 - __main__ - INFO -    Last: 12.0 | Avg(100): 22.1
+2025-10-01 17:43:45,407 - __main__ - INFO - 🧠 Meta-learning...
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/loss.py:616: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/root/intelligence_system/meta/agent_behavior_learner.py:123: RuntimeWarning: coroutine 'backward_with_incompletude' was never awaited
+  loss.backward()
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+2025-10-01 17:43:45,409 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 17:43:45,410 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 17:44:45,467 - __main__ - INFO - 
+2025-10-01 17:44:45,467 - __main__ - INFO - ================================================================================
+2025-10-01 17:44:45,467 - __main__ - INFO - 🔄 CYCLE 122 (V5.0 - EXTRACTED MERGE)
+2025-10-01 17:44:45,467 - __main__ - INFO - ================================================================================
+2025-10-01 17:44:45,467 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 17:45:50,428 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 17:45:50,428 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 17:45:50,665 - __main__ - INFO -    Last: 12.0 | Avg(100): 21.4
+2025-10-01 17:45:50,665 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 17:45:50,668 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 17:45:50,668 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 17:46:50,731 - __main__ - INFO - 
+2025-10-01 17:46:50,731 - __main__ - INFO - ================================================================================
+2025-10-01 17:46:50,731 - __main__ - INFO - 🔄 CYCLE 123 (V5.0 - EXTRACTED MERGE)
+2025-10-01 17:46:50,731 - __main__ - INFO - ================================================================================
+2025-10-01 17:46:50,731 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 17:47:54,271 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 17:47:54,272 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 17:47:54,874 - __main__ - INFO -    Last: 22.0 | Avg(100): 21.1
+2025-10-01 17:47:54,876 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 17:47:54,879 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 17:47:54,879 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 17:48:54,939 - __main__ - INFO - 
+2025-10-01 17:48:54,939 - __main__ - INFO - ================================================================================
+2025-10-01 17:48:54,939 - __main__ - INFO - 🔄 CYCLE 124 (V5.0 - EXTRACTED MERGE)
+2025-10-01 17:48:54,939 - __main__ - INFO - ================================================================================
+2025-10-01 17:48:54,940 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 17:49:57,861 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 17:49:57,862 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 17:49:58,172 - __main__ - INFO -    Last: 15.0 | Avg(100): 20.5
+2025-10-01 17:49:58,173 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 17:49:58,175 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 17:49:58,176 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 17:49:58,176 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 17:49:58,176 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.29%)
+2025-10-01 17:49:58,176 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 17:50:58,239 - __main__ - INFO - 
+2025-10-01 17:50:58,239 - __main__ - INFO - ================================================================================
+2025-10-01 17:50:58,239 - __main__ - INFO - 🔄 CYCLE 125 (V5.0 - EXTRACTED MERGE)
+2025-10-01 17:50:58,240 - __main__ - INFO - ================================================================================
+2025-10-01 17:50:58,240 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 17:52:02,081 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 17:52:02,081 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 17:52:02,760 - __main__ - INFO -    Last: 31.0 | Avg(100): 21.6
+2025-10-01 17:52:02,761 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 17:52:02,763 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 17:52:02,763 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 17:52:02,764 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 17:52:02,764 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.29%)
+2025-10-01 17:52:02,764 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 17:52:02,764 - __main__ - INFO - 🧠 Evolving neuronal farm...
+2025-10-01 17:52:02,768 - extracted_algorithms.self_modification_engine - INFO - 🧬 Generation 2: 50 survivors, 50 offspring
+2025-10-01 17:52:02,769 - __main__ - INFO -    Gen 2: pop=100, fitness=0.5058
+2025-10-01 17:53:02,835 - __main__ - INFO - 
+2025-10-01 17:53:02,835 - __main__ - INFO - ================================================================================
+2025-10-01 17:53:02,835 - __main__ - INFO - 🔄 CYCLE 126 (V5.0 - EXTRACTED MERGE)
+2025-10-01 17:53:02,835 - __main__ - INFO - ================================================================================
+2025-10-01 17:53:02,835 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 17:54:07,004 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 17:54:07,004 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 17:54:07,315 - __main__ - INFO -    Last: 15.0 | Avg(100): 20.6
+2025-10-01 17:54:07,315 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 17:54:07,318 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 17:54:07,318 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 17:54:07,318 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 17:54:07,318 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.29%)
+2025-10-01 17:54:07,319 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 17:55:07,387 - __main__ - INFO - 
+2025-10-01 17:55:07,387 - __main__ - INFO - ================================================================================
+2025-10-01 17:55:07,387 - __main__ - INFO - 🔄 CYCLE 127 (V5.0 - EXTRACTED MERGE)
+2025-10-01 17:55:07,387 - __main__ - INFO - ================================================================================
+2025-10-01 17:55:07,387 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 17:56:12,046 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 17:56:12,046 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 17:56:12,557 - __main__ - INFO -    Last: 19.0 | Avg(100): 20.2
+2025-10-01 17:56:12,558 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 17:56:12,560 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 17:56:12,560 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 17:56:12,560 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 17:56:12,561 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.29%)
+2025-10-01 17:56:12,561 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 17:57:12,631 - __main__ - INFO - 
+2025-10-01 17:57:12,631 - __main__ - INFO - ================================================================================
+2025-10-01 17:57:12,631 - __main__ - INFO - 🔄 CYCLE 128 (V5.0 - EXTRACTED MERGE)
+2025-10-01 17:57:12,631 - __main__ - INFO - ================================================================================
+2025-10-01 17:57:12,631 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 17:58:18,324 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 17:58:18,325 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 17:58:19,176 - __main__ - INFO -    Last: 23.0 | Avg(100): 21.0
+2025-10-01 17:58:19,176 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 17:58:19,179 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 17:58:19,179 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 17:58:19,179 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 17:58:19,179 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.29%)
+2025-10-01 17:58:19,179 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 17:59:19,255 - __main__ - INFO - 
+2025-10-01 17:59:19,255 - __main__ - INFO - ================================================================================
+2025-10-01 17:59:19,255 - __main__ - INFO - 🔄 CYCLE 129 (V5.0 - EXTRACTED MERGE)
+2025-10-01 17:59:19,255 - __main__ - INFO - ================================================================================
+2025-10-01 17:59:19,255 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 18:00:25,048 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 18:00:25,048 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 18:00:25,704 - __main__ - INFO -    Last: 30.0 | Avg(100): 20.9
+2025-10-01 18:00:25,705 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 18:00:25,708 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 18:00:25,708 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 18:00:25,708 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 18:00:25,708 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.29%)
+2025-10-01 18:00:25,708 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 18:01:25,771 - __main__ - INFO - 
+2025-10-01 18:01:25,771 - __main__ - INFO - ================================================================================
+2025-10-01 18:01:25,771 - __main__ - INFO - 🔄 CYCLE 130 (V5.0 - EXTRACTED MERGE)
+2025-10-01 18:01:25,771 - __main__ - INFO - ================================================================================
+2025-10-01 18:01:25,771 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 18:02:30,644 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 18:02:30,644 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 18:02:31,251 - __main__ - INFO -    Last: 29.0 | Avg(100): 21.2
+2025-10-01 18:02:31,251 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 18:02:31,254 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 18:02:31,254 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 18:02:31,254 - __main__ - INFO - 🌐 Consulting APIs...
+[92m18:02:31 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-10-01 18:02:31,256 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-10-01 18:02:31,261 - openai._base_client - INFO - Retrying request to /chat/completions in 0.458816 seconds
+2025-10-01 18:02:31,722 - openai._base_client - INFO - Retrying request to /chat/completions in 0.897198 seconds
+2025-10-01 18:02:32,623 - apis.litellm_wrapper - WARNING - LiteLLM call failed for gpt-4o-mini: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2025-10-01 18:02:32,624 - apis.litellm_wrapper - WARNING - LiteLLM call failed for mistral-large-latest: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call.
+[92m18:02:32 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= gemini-2.0-flash-exp; provider = vertex_ai
+2025-10-01 18:02:32,625 - LiteLLM - INFO - 
+LiteLLM completion() model= gemini-2.0-flash-exp; provider = vertex_ai
+2025-10-01 18:02:35,627 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-10-01 18:02:39,548 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-10-01 18:02:44,694 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-10-01 18:02:44,695 - google.auth._default - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[92m18:02:44 - LiteLLM:ERROR[0m: vertex_llm_base.py:494 - Failed to load vertex credentials. Check to see if credentials containing partial/invalid information. Error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 490, in get_access_token
+    _credentials, credential_project_id = self.load_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 114, in load_auth
+    creds, creds_project_id = self._credentials_from_default_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 160, in _credentials_from_default_auth
+    return google_auth.default(scopes=scopes)
+  File "/usr/local/lib/python3.10/dist-packages/google/auth/_default.py", line 685, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-10-01 18:02:44,695 - LiteLLM - ERROR - Failed to load vertex credentials. Check to see if credentials containing partial/invalid information. Error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 490, in get_access_token
+    _credentials, credential_project_id = self.load_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 114, in load_auth
+    creds, creds_project_id = self._credentials_from_default_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 160, in _credentials_from_default_auth
+    return google_auth.default(scopes=scopes)
+  File "/usr/local/lib/python3.10/dist-packages/google/auth/_default.py", line 685, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-10-01 18:02:44,697 - apis.litellm_wrapper - WARNING - LiteLLM call failed for gemini-2.0-flash-exp: litellm.APIConnectionError: Your default credentials were not found. To set up Application Default C
+2025-10-01 18:02:44,699 - apis.litellm_wrapper - WARNING - LiteLLM call failed for deepseek-chat: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call.
+[92m18:02:44 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= claude-3-5-sonnet-20241022; provider = anthropic
+2025-10-01 18:02:44,700 - LiteLLM - INFO - 
+LiteLLM completion() model= claude-3-5-sonnet-20241022; provider = anthropic
+2025-10-01 18:02:44,896 - apis.litellm_wrapper - WARNING - LiteLLM call failed for claude-3-5-sonnet-20241022: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_er
+2025-10-01 18:02:44,898 - apis.litellm_wrapper - WARNING - LiteLLM call failed for grok-beta: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call.
+2025-10-01 18:02:44,898 - apis.litellm_wrapper - INFO - ✅ Consulted 0/6 APIs successfully
+2025-10-01 18:02:44,898 - __main__ - INFO -    ✅ Consulted 0 APIs
+2025-10-01 18:02:44,898 - __main__ - INFO - 🧬 Evolving architecture...
+2025-10-01 18:02:44,900 - extracted_algorithms.neural_evolution_core - INFO - 🧬 Gen 2: best=1.0770, avg=0.7444
+2025-10-01 18:02:44,900 - __main__ - INFO -    Gen 2: best=1.0770
+2025-10-01 18:02:44,900 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 18:02:44,900 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.29%)
+2025-10-01 18:02:44,900 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 18:02:44,900 - __main__ - INFO - 🧠 Evolving neuronal farm...
+2025-10-01 18:02:44,905 - extracted_algorithms.self_modification_engine - INFO - 🧬 Generation 3: 50 survivors, 50 offspring
+2025-10-01 18:02:44,906 - __main__ - INFO -    Gen 3: pop=100, fitness=0.9535
+2025-10-01 18:02:44,909 - __main__ - INFO - 💾 Saving all models...
+2025-10-01 18:02:44,921 - models.mnist_classifier - INFO - 💾 Model saved to /root/intelligence_system/models/mnist_model.pth
+2025-10-01 18:02:44,928 - agents.cleanrl_ppo_agent - INFO - 💾 PPO agent saved to /root/intelligence_system/models/ppo_cartpole.pth
+2025-10-01 18:02:44,933 - meta.agent_behavior_learner - INFO - 💾 Agent Behavior Learner saved
+2025-10-01 18:02:44,935 - extracted_algorithms.neural_evolution_core - INFO - 💾 Checkpoint saved: /root/intelligence_system/models/evolution/evolution_gen_2.json
+2025-10-01 18:02:44,936 - __main__ - INFO -    ✅ All models saved
+2025-10-01 18:03:44,995 - __main__ - INFO - 
+2025-10-01 18:03:44,995 - __main__ - INFO - ================================================================================
+2025-10-01 18:03:44,995 - __main__ - INFO - 🔄 CYCLE 131 (V5.0 - EXTRACTED MERGE)
+2025-10-01 18:03:44,995 - __main__ - INFO - ================================================================================
+2025-10-01 18:03:44,995 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 18:04:57,708 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 18:04:57,708 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 18:04:58,402 - __main__ - INFO -    Last: 18.0 | Avg(100): 21.6
+2025-10-01 18:04:58,402 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 18:04:58,405 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 18:04:58,405 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 18:04:58,405 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 18:04:58,405 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.29%)
+2025-10-01 18:04:58,405 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 18:05:58,483 - __main__ - INFO - 
+2025-10-01 18:05:58,483 - __main__ - INFO - ================================================================================
+2025-10-01 18:05:58,483 - __main__ - INFO - 🔄 CYCLE 132 (V5.0 - EXTRACTED MERGE)
+2025-10-01 18:05:58,483 - __main__ - INFO - ================================================================================
+2025-10-01 18:05:58,483 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 18:07:05,448 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 18:07:05,449 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 18:07:06,823 - __main__ - INFO -    Last: 17.0 | Avg(100): 22.1
+2025-10-01 18:07:06,823 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 18:07:06,826 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 18:07:06,826 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 18:07:06,826 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 18:07:06,826 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.29%)
+2025-10-01 18:07:06,826 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 18:08:06,887 - __main__ - INFO - 
+2025-10-01 18:08:06,887 - __main__ - INFO - ================================================================================
+2025-10-01 18:08:06,887 - __main__ - INFO - 🔄 CYCLE 133 (V5.0 - EXTRACTED MERGE)
+2025-10-01 18:08:06,887 - __main__ - INFO - ================================================================================
+2025-10-01 18:08:06,887 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 18:09:16,035 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 18:09:16,035 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 18:09:16,612 - __main__ - INFO -    Last: 18.0 | Avg(100): 21.9
+2025-10-01 18:09:16,613 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 18:09:16,616 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 18:09:16,616 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 18:09:16,616 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 18:09:16,616 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.29%)
+2025-10-01 18:09:16,616 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 18:10:16,683 - __main__ - INFO - 
+2025-10-01 18:10:16,683 - __main__ - INFO - ================================================================================
+2025-10-01 18:10:16,683 - __main__ - INFO - 🔄 CYCLE 134 (V5.0 - EXTRACTED MERGE)
+2025-10-01 18:10:16,683 - __main__ - INFO - ================================================================================
+2025-10-01 18:10:16,683 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 18:11:30,983 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 18:11:30,983 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 18:11:31,609 - __main__ - INFO -    Last: 29.0 | Avg(100): 21.7
+2025-10-01 18:11:31,610 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 18:11:31,612 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 18:11:31,612 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 18:11:31,612 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 18:11:31,613 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.29%)
+2025-10-01 18:11:31,613 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 18:12:31,679 - __main__ - INFO - 
+2025-10-01 18:12:31,679 - __main__ - INFO - ================================================================================
+2025-10-01 18:12:31,679 - __main__ - INFO - 🔄 CYCLE 135 (V5.0 - EXTRACTED MERGE)
+2025-10-01 18:12:31,679 - __main__ - INFO - ================================================================================
+2025-10-01 18:12:31,679 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 18:13:43,703 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 18:13:43,703 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 18:13:44,326 - __main__ - INFO -    Last: 28.0 | Avg(100): 21.9
+2025-10-01 18:13:44,327 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 18:13:44,329 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 18:13:44,329 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 18:13:44,329 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 18:13:44,330 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.29%)
+2025-10-01 18:13:44,330 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 18:13:44,330 - __main__ - INFO - 🧠 Evolving neuronal farm...
+2025-10-01 18:13:44,335 - extracted_algorithms.self_modification_engine - INFO - 🧬 Generation 4: 50 survivors, 50 offspring
+2025-10-01 18:13:44,336 - __main__ - INFO -    Gen 4: pop=100, fitness=0.9634
+2025-10-01 18:14:44,403 - __main__ - INFO - 
+2025-10-01 18:14:44,403 - __main__ - INFO - ================================================================================
+2025-10-01 18:14:44,403 - __main__ - INFO - 🔄 CYCLE 136 (V5.0 - EXTRACTED MERGE)
+2025-10-01 18:14:44,403 - __main__ - INFO - ================================================================================
+2025-10-01 18:14:44,404 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 18:15:57,110 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 18:15:57,110 - __main__ - INFO - 🎮 Training CartPole with PPO...
+2025-10-01 18:15:58,528 - __main__ - INFO -    Last: 36.0 | Avg(100): 22.2
+2025-10-01 18:15:58,528 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 18:15:58,530 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 18:15:58,530 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 18:15:58,531 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 18:15:58,531 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.29%)
+2025-10-01 18:15:58,531 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 18:16:58,603 - __main__ - INFO - 
+2025-10-01 18:16:58,603 - __main__ - INFO - ================================================================================
+2025-10-01 18:16:58,604 - __main__ - INFO - 🔄 CYCLE 137 (V5.0 - EXTRACTED MERGE)
+2025-10-01 18:16:58,604 - __main__ - INFO - ================================================================================
+2025-10-01 18:16:58,604 - __main__ - INFO - 🧠 Training MNIST...

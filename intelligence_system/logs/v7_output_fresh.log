@@ -1,0 +1,207 @@
+✓ Incompletude Infinita carregada automaticamente
+2025-10-01 21:24:55,000 - __main__ - INFO - 🔥 LAUNCHING INTELLIGENCE SYSTEM V7.0 - ULTIMATE MERGE
+2025-10-01 21:24:55,000 - __main__ - INFO -    18 components: V4 base + V5 extracted + V6 NEW + V7 ULTIMATE
+2025-10-01 21:24:55,000 - __main__ - INFO -    New: Supreme Auditor, TEIS Components, Dynamic Layers, Curriculum
+2025-10-01 21:24:55,000 - __main__ - INFO - 
+2025-10-01 21:24:55,000 - __main__ - INFO - ================================================================================
+2025-10-01 21:24:55,000 - __main__ - INFO - 🚀 INTELLIGENCE SYSTEM V7.0 - ULTIMATE MERGE
+2025-10-01 21:24:55,000 - __main__ - INFO - ================================================================================
+2025-10-01 21:24:55,000 - __main__ - INFO -    V4.0: 7 components
+2025-10-01 21:24:55,000 - __main__ - INFO -    V5.0: +3 extracted algorithms
+2025-10-01 21:24:55,000 - __main__ - INFO -    V6.0: +4 NEW (Validator, Adv Evo, Multi-System, DB Knowledge)
+2025-10-01 21:24:55,001 - __main__ - INFO -    V7.0: +4 ULTIMATE (Supreme Auditor, TEIS, Dynamic Layers, Curriculum)
+2025-10-01 21:24:55,001 - __main__ - INFO -    TOTAL: 18 COMPONENTS
+2025-10-01 21:24:55,001 - __main__ - INFO - ================================================================================
+2025-10-01 21:24:55,001 - core.database - INFO - ✅ Database initialized: /root/intelligence_system/data/intelligence.db
+2025-10-01 21:24:55,011 - models.mnist_classifier - INFO - 📂 Model loaded from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 21:24:55,011 - models.mnist_classifier - INFO - ✅ Loaded existing model from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 21:24:55,093 - agents.dqn_cartpole_agent - INFO - 🆕 Created new DQN agent
+2025-10-01 21:24:55,093 - apis.litellm_wrapper - INFO - 🚀 LiteLLM Wrapper initialized (available: True)
+2025-10-01 21:24:55,099 - meta.agent_behavior_learner - INFO - 📂 Agent Behavior Learner loaded
+2025-10-01 21:24:55,099 - meta.agent_behavior_learner - INFO - ✅ Loaded Agent Behavior Learner from /root/intelligence_system/models/meta_learner.pth
+2025-10-01 21:24:55,099 - meta.godelian_antistagnation - INFO - 🔄 Gödelian Anti-Stagnation initialized
+2025-10-01 21:24:55,099 - orchestration.langgraph_orchestrator - INFO - 🔄 Agent Orchestrator initialized (simple mode)
+2025-10-01 21:24:55,100 - extracted_algorithms.neural_evolution_core - INFO - 🧬 Evolutionary Optimizer initialized
+2025-10-01 21:24:55,100 - extracted_algorithms.neural_evolution_core - INFO -    Population: 10, Mutation: 0.3
+2025-10-01 21:24:55,100 - extracted_algorithms.self_modification_engine - INFO - 🔧 Self-Modification Engine initialized
+2025-10-01 21:24:55,100 - extracted_algorithms.self_modification_engine - INFO -    Max mods/cycle: 2
+2025-10-01 21:24:55,100 - extracted_algorithms.self_modification_engine - INFO -    Allowed ops: 6
+2025-10-01 21:24:55,101 - extracted_algorithms.self_modification_engine - INFO - 🧠 Neuronal Farm initialized
+2025-10-01 21:24:55,101 - extracted_algorithms.self_modification_engine - INFO -    Population: 20-100
+2025-10-01 21:24:55,101 - extracted_algorithms.code_validator - INFO - 🔒 Internal Code Validator initialized (with whitelist)
+2025-10-01 21:24:55,101 - extracted_algorithms.advanced_evolution_engine - INFO - 🧬 Advanced Evolution Engine initialized
+2025-10-01 21:24:55,101 - extracted_algorithms.advanced_evolution_engine - INFO -    Population: 15, Elite: 2
+2025-10-01 21:24:55,101 - extracted_algorithms.advanced_evolution_engine - INFO -    Crossover: 0.5, Mutation: 0.2
+2025-10-01 21:24:55,102 - extracted_algorithms.multi_system_coordinator - INFO - 🎯 Multi-System Coordinator initialized
+2025-10-01 21:24:55,102 - extracted_algorithms.multi_system_coordinator - INFO -    Max systems: 5
+2025-10-01 21:24:55,102 - core.database_knowledge_engine - INFO - 🧠 Database Knowledge Engine initialized
+2025-10-01 21:24:55,113 - core.database_knowledge_engine - INFO -    knowledge: 7,453 rows from 4 databases
+2025-10-01 21:24:55,113 - core.database_knowledge_engine - INFO -    models: 9,255 rows from 12 databases
+2025-10-01 21:24:55,113 - core.database_knowledge_engine - INFO -    trajectories: 3,394 rows from 5 databases
+2025-10-01 21:24:55,113 - extracted_algorithms.supreme_intelligence_auditor - INFO - 🧠 Intelligence Scorer initialized
+2025-10-01 21:24:55,114 - extracted_algorithms.teis_autodidata_components - INFO - 📚 Curriculum Learner initialized
+2025-10-01 21:24:55,114 - extracted_algorithms.teis_autodidata_components - INFO - 🔄 Transfer Learner initialized
+2025-10-01 21:24:55,117 - extracted_algorithms.dynamic_neuronal_layer - INFO - 🧠 Dynamic Layer MNIST_DYN initialized with 64 neurons
+2025-10-01 21:24:55,117 - __main__ - INFO - ✅ System V7.0 initialized at cycle 242
+2025-10-01 21:24:55,117 - __main__ - INFO - 📊 Best MNIST: 98.0% | Best CartPole: 32.4
+2025-10-01 21:24:55,117 - __main__ - INFO - 🧬 18 COMPONENTS ACTIVE (V7.0 ULTIMATE)
+2025-10-01 21:24:55,117 - __main__ - INFO - 🎯 IA³ Score: ~74% (14/19 characteristics)
+2025-10-01 21:24:55,117 - __main__ - INFO - 🚀 Starting V7.0 ULTIMATE continuous operation...
+2025-10-01 21:24:55,117 - __main__ - INFO - 📊 System status: {'cycle': 242, 'version': '7.0', 'best_mnist': 97.97, 'best_cartpole': 32.4, 'cycles_stagnant': 0, 'components': {'v4_base': 7, 'v5_extracted': 3, 'v6_new': 4, 'v7_ultimate': 4, 'total': 18}, 'ia3_score_estimated': 74.0, 'experience_replay_size': 0, 'curriculum_difficulty': 0.0, 'dynamic_neurons': 64}
+2025-10-01 21:24:55,117 - __main__ - INFO - 
+2025-10-01 21:24:55,117 - __main__ - INFO - ================================================================================
+2025-10-01 21:24:55,118 - __main__ - INFO - 🔄 CYCLE 243 (V7.0 - ULTIMATE)
+2025-10-01 21:24:55,118 - __main__ - INFO - ================================================================================
+2025-10-01 21:24:55,118 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 21:25:13,710 - __main__ - INFO -    Train: 99.73% | Test: 97.90%
+2025-10-01 21:25:13,710 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+/root/intelligence_system/agents/dqn_cartpole_agent.py:55: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:253.)
+  states = torch.FloatTensor([e[0] for e in batch])
+2025-10-01 21:25:14,060 - __main__ - INFO -    Last: 15.0 | Avg(100): 22.2 | Difficulty: 0.00
+2025-10-01 21:25:14,060 - __main__ - INFO - 🧠 Meta-learning...
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/loss.py:616: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+2025-10-01 21:26:14,129 - __main__ - INFO - 
+2025-10-01 21:26:14,129 - __main__ - INFO - ================================================================================
+2025-10-01 21:26:14,129 - __main__ - INFO - 🔄 CYCLE 244 (V7.0 - ULTIMATE)
+2025-10-01 21:26:14,129 - __main__ - INFO - ================================================================================
+2025-10-01 21:26:14,129 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 21:26:31,564 - __main__ - INFO -    Train: 99.74% | Test: 97.69%
+2025-10-01 21:26:31,565 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:26:32,038 - __main__ - INFO -    Last: 12.0 | Avg(100): 18.1 | Difficulty: 0.00
+2025-10-01 21:26:32,038 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 21:27:32,097 - __main__ - INFO - 
+2025-10-01 21:27:32,097 - __main__ - INFO - ================================================================================
+2025-10-01 21:27:32,097 - __main__ - INFO - 🔄 CYCLE 245 (V7.0 - ULTIMATE)
+2025-10-01 21:27:32,098 - __main__ - INFO - ================================================================================
+2025-10-01 21:27:32,098 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 21:27:49,771 - __main__ - INFO -    Train: 99.78% | Test: 97.72%
+2025-10-01 21:27:49,772 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:27:50,099 - __main__ - INFO -    Last: 8.0 | Avg(100): 16.1 | Difficulty: 0.00
+2025-10-01 21:27:50,099 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 21:27:50,102 - __main__ - INFO - 🧠 Evolving neurons...
+2025-10-01 21:27:50,107 - extracted_algorithms.self_modification_engine - INFO - 🧬 Generation 1: 10 survivors, 90 offspring
+2025-10-01 21:27:50,108 - __main__ - INFO -    Gen 1: pop=100
+2025-10-01 21:28:50,171 - __main__ - INFO - 
+2025-10-01 21:28:50,171 - __main__ - INFO - ================================================================================
+2025-10-01 21:28:50,171 - __main__ - INFO - 🔄 CYCLE 246 (V7.0 - ULTIMATE)
+2025-10-01 21:28:50,171 - __main__ - INFO - ================================================================================
+2025-10-01 21:28:50,171 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 21:29:05,750 - __main__ - INFO -    Train: 99.67% | Test: 97.57%
+2025-10-01 21:29:05,750 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:29:06,113 - __main__ - INFO -    Last: 14.0 | Avg(100): 16.2 | Difficulty: 0.00
+2025-10-01 21:29:06,113 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 21:30:06,178 - __main__ - INFO - 
+2025-10-01 21:30:06,178 - __main__ - INFO - ================================================================================
+2025-10-01 21:30:06,178 - __main__ - INFO - 🔄 CYCLE 247 (V7.0 - ULTIMATE)
+2025-10-01 21:30:06,178 - __main__ - INFO - ================================================================================
+2025-10-01 21:30:06,179 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 21:30:22,024 - __main__ - INFO -    Train: 99.71% | Test: 97.95%
+2025-10-01 21:30:22,024 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:30:22,390 - __main__ - INFO -    Last: 12.0 | Avg(100): 16.4 | Difficulty: 0.00
+2025-10-01 21:30:22,390 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 21:31:22,457 - __main__ - INFO - 
+2025-10-01 21:31:22,457 - __main__ - INFO - ================================================================================
+2025-10-01 21:31:22,457 - __main__ - INFO - 🔄 CYCLE 248 (V7.0 - ULTIMATE)
+2025-10-01 21:31:22,457 - __main__ - INFO - ================================================================================
+2025-10-01 21:31:22,457 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 21:31:38,423 - __main__ - INFO -    Train: 99.80% | Test: 97.64%
+2025-10-01 21:31:38,423 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:31:38,787 - __main__ - INFO -    Last: 10.0 | Avg(100): 16.0 | Difficulty: 0.00
+2025-10-01 21:31:38,787 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 21:32:38,794 - __main__ - INFO - 
+2025-10-01 21:32:38,794 - __main__ - INFO - ================================================================================
+2025-10-01 21:32:38,794 - __main__ - INFO - 🔄 CYCLE 249 (V7.0 - ULTIMATE)
+2025-10-01 21:32:38,794 - __main__ - INFO - ================================================================================
+2025-10-01 21:32:38,795 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 21:32:54,967 - __main__ - INFO -    Train: 99.72% | Test: 97.81%
+2025-10-01 21:32:54,968 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:32:55,346 - __main__ - INFO -    Last: 23.0 | Avg(100): 16.3 | Difficulty: 0.00
+2025-10-01 21:32:55,346 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 21:32:55,350 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 21:32:55,350 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.19%)
+2025-10-01 21:32:55,350 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 21:33:55,411 - __main__ - INFO - 
+2025-10-01 21:33:55,411 - __main__ - INFO - ================================================================================
+2025-10-01 21:33:55,411 - __main__ - INFO - 🔄 CYCLE 250 (V7.0 - ULTIMATE)
+2025-10-01 21:33:55,411 - __main__ - INFO - ================================================================================
+2025-10-01 21:33:55,411 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 21:34:12,278 - __main__ - INFO -    Train: 99.72% | Test: 97.89%
+2025-10-01 21:34:12,278 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:34:12,695 - __main__ - INFO -    Last: 20.0 | Avg(100): 17.7 | Difficulty: 0.00
+2025-10-01 21:34:12,695 - __main__ - INFO - 🧠 Meta-learning...
+2025-10-01 21:34:12,699 - __main__ - INFO - 🌐 Consulting APIs...
+[92m21:34:12 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-10-01 21:34:12,713 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-10-01 21:34:13,130 - openai._base_client - INFO - Retrying request to /chat/completions in 0.418125 seconds
+2025-10-01 21:34:13,549 - openai._base_client - INFO - Retrying request to /chat/completions in 0.802446 seconds
+2025-10-01 21:34:14,360 - apis.litellm_wrapper - WARNING - LiteLLM call failed for gpt-4o-mini: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2025-10-01 21:34:14,361 - apis.litellm_wrapper - WARNING - LiteLLM call failed for mistral-large-latest: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call.
+[92m21:34:14 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= gemini-2.0-flash-exp; provider = vertex_ai
+2025-10-01 21:34:14,362 - LiteLLM - INFO - 
+LiteLLM completion() model= gemini-2.0-flash-exp; provider = vertex_ai
+2025-10-01 21:34:17,407 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-10-01 21:34:21,399 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-10-01 21:34:26,317 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-10-01 21:34:26,317 - google.auth._default - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[92m21:34:26 - LiteLLM:ERROR[0m: vertex_llm_base.py:494 - Failed to load vertex credentials. Check to see if credentials containing partial/invalid information. Error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 490, in get_access_token
+    _credentials, credential_project_id = self.load_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 114, in load_auth
+    creds, creds_project_id = self._credentials_from_default_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 160, in _credentials_from_default_auth
+    return google_auth.default(scopes=scopes)
+  File "/usr/local/lib/python3.10/dist-packages/google/auth/_default.py", line 685, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-10-01 21:34:26,317 - LiteLLM - ERROR - Failed to load vertex credentials. Check to see if credentials containing partial/invalid information. Error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 490, in get_access_token
+    _credentials, credential_project_id = self.load_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 114, in load_auth
+    creds, creds_project_id = self._credentials_from_default_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 160, in _credentials_from_default_auth
+    return google_auth.default(scopes=scopes)
+  File "/usr/local/lib/python3.10/dist-packages/google/auth/_default.py", line 685, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-10-01 21:34:26,320 - apis.litellm_wrapper - WARNING - LiteLLM call failed for gemini-2.0-flash-exp: litellm.APIConnectionError: Your default credentials were not found. To set up Application Default C
+2025-10-01 21:34:26,321 - apis.litellm_wrapper - WARNING - LiteLLM call failed for deepseek-chat: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call.
+[92m21:34:26 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= claude-3-5-sonnet-20241022; provider = anthropic
+2025-10-01 21:34:26,321 - LiteLLM - INFO - 
+LiteLLM completion() model= claude-3-5-sonnet-20241022; provider = anthropic
+2025-10-01 21:34:26,619 - apis.litellm_wrapper - WARNING - LiteLLM call failed for claude-3-5-sonnet-20241022: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_er
+2025-10-01 21:34:26,620 - apis.litellm_wrapper - WARNING - LiteLLM call failed for grok-beta: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call.
+2025-10-01 21:34:26,620 - apis.litellm_wrapper - INFO - ✅ Consulted 0/6 APIs successfully
+2025-10-01 21:34:26,620 - __main__ - INFO -    ✅ Consulted 0 APIs
+2025-10-01 21:34:26,620 - __main__ - INFO - 🧬 Evolving (simple)...
+2025-10-01 21:34:26,622 - extracted_algorithms.neural_evolution_core - INFO - 🧬 Gen 1: best=1.0691, avg=0.8536
+2025-10-01 21:34:26,622 - __main__ - INFO -    Gen 1: best=1.0691
+2025-10-01 21:34:26,623 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 21:34:26,623 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.11%)
+2025-10-01 21:34:26,623 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 21:34:26,623 - __main__ - INFO - 🧠 Evolving neurons...
+2025-10-01 21:34:26,629 - extracted_algorithms.self_modification_engine - INFO - 🧬 Generation 2: 50 survivors, 50 offspring
+2025-10-01 21:34:26,629 - __main__ - INFO -    Gen 2: pop=100
+2025-10-01 21:34:26,629 - __main__ - INFO - 🧬 Advanced evolution (V7.0)...
+2025-10-01 21:34:26,629 - extracted_algorithms.advanced_evolution_engine - WARNING - ⚠️  Empty population after evaluation! Skipping this generation...
+2025-10-01 21:34:26,630 - __main__ - ERROR - ❌ Cycle error: Sample larger than population or is negative
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 564, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 234, in run_cycle
+    results['advanced_evolution'] = self._advanced_evolve()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 449, in _advanced_evolve
+    evo_stats = self.advanced_evolution.evolve_generation(fitness_fn)
+  File "/root/intelligence_system/extracted_algorithms/advanced_evolution_engine.py", line 205, in evolve_generation
+    parent1 = self.tournament_select()
+  File "/root/intelligence_system/extracted_algorithms/advanced_evolution_engine.py", line 134, in tournament_select
+    tournament = random.sample(self.population, self.tournament_k)
+  File "/usr/lib/python3.10/random.py", line 482, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative

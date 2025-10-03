@@ -1,0 +1,577 @@
+✓ Incompletude Infinita carregada automaticamente
+2025-10-01 21:36:15,126 - __main__ - INFO - 🔥 LAUNCHING INTELLIGENCE SYSTEM V7.0 - ULTIMATE MERGE
+2025-10-01 21:36:15,126 - __main__ - INFO -    18 components: V4 base + V5 extracted + V6 NEW + V7 ULTIMATE
+2025-10-01 21:36:15,126 - __main__ - INFO -    New: Supreme Auditor, TEIS Components, Dynamic Layers, Curriculum
+2025-10-01 21:36:15,126 - __main__ - INFO - 
+2025-10-01 21:36:15,126 - __main__ - INFO - ================================================================================
+2025-10-01 21:36:15,126 - __main__ - INFO - 🚀 INTELLIGENCE SYSTEM V7.0 - ULTIMATE MERGE
+2025-10-01 21:36:15,126 - __main__ - INFO - ================================================================================
+2025-10-01 21:36:15,126 - __main__ - INFO -    V4.0: 7 components
+2025-10-01 21:36:15,126 - __main__ - INFO -    V5.0: +3 extracted algorithms
+2025-10-01 21:36:15,126 - __main__ - INFO -    V6.0: +4 NEW (Validator, Adv Evo, Multi-System, DB Knowledge)
+2025-10-01 21:36:15,126 - __main__ - INFO -    V7.0: +4 ULTIMATE (Supreme Auditor, TEIS, Dynamic Layers, Curriculum)
+2025-10-01 21:36:15,126 - __main__ - INFO -    TOTAL: 18 COMPONENTS
+2025-10-01 21:36:15,126 - __main__ - INFO - ================================================================================
+2025-10-01 21:36:15,127 - core.database - INFO - ✅ Database initialized: /root/intelligence_system/data/intelligence.db
+2025-10-01 21:36:15,141 - models.mnist_classifier - INFO - 📂 Model loaded from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 21:36:15,141 - models.mnist_classifier - INFO - ✅ Loaded existing model from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 21:36:15,224 - agents.dqn_cartpole_agent - INFO - 🆕 Created new DQN agent
+2025-10-01 21:36:15,224 - apis.litellm_wrapper - INFO - 🚀 LiteLLM Wrapper initialized (available: True)
+2025-10-01 21:36:15,229 - meta.agent_behavior_learner - INFO - 📂 Agent Behavior Learner loaded
+2025-10-01 21:36:15,229 - meta.agent_behavior_learner - INFO - ✅ Loaded Agent Behavior Learner from /root/intelligence_system/models/meta_learner.pth
+2025-10-01 21:36:15,229 - meta.godelian_antistagnation - INFO - 🔄 Gödelian Anti-Stagnation initialized
+2025-10-01 21:36:15,229 - orchestration.langgraph_orchestrator - INFO - 🔄 Agent Orchestrator initialized (simple mode)
+2025-10-01 21:36:15,230 - extracted_algorithms.neural_evolution_core - INFO - 🧬 Evolutionary Optimizer initialized
+2025-10-01 21:36:15,230 - extracted_algorithms.neural_evolution_core - INFO -    Population: 10, Mutation: 0.3
+2025-10-01 21:36:15,230 - extracted_algorithms.self_modification_engine - INFO - 🔧 Self-Modification Engine initialized
+2025-10-01 21:36:15,230 - extracted_algorithms.self_modification_engine - INFO -    Max mods/cycle: 2
+2025-10-01 21:36:15,230 - extracted_algorithms.self_modification_engine - INFO -    Allowed ops: 6
+2025-10-01 21:36:15,231 - extracted_algorithms.self_modification_engine - INFO - 🧠 Neuronal Farm initialized
+2025-10-01 21:36:15,231 - extracted_algorithms.self_modification_engine - INFO -    Population: 20-100
+2025-10-01 21:36:15,231 - extracted_algorithms.code_validator - INFO - 🔒 Internal Code Validator initialized (with whitelist)
+2025-10-01 21:36:15,231 - extracted_algorithms.advanced_evolution_engine - INFO - 🧬 Advanced Evolution Engine initialized
+2025-10-01 21:36:15,232 - extracted_algorithms.advanced_evolution_engine - INFO -    Population: 15, Elite: 2
+2025-10-01 21:36:15,232 - extracted_algorithms.advanced_evolution_engine - INFO -    Crossover: 0.5, Mutation: 0.2
+2025-10-01 21:36:15,232 - extracted_algorithms.multi_system_coordinator - INFO - 🎯 Multi-System Coordinator initialized
+2025-10-01 21:36:15,232 - extracted_algorithms.multi_system_coordinator - INFO -    Max systems: 5
+2025-10-01 21:36:15,232 - core.database_knowledge_engine - INFO - 🧠 Database Knowledge Engine initialized
+2025-10-01 21:36:15,244 - core.database_knowledge_engine - INFO -    knowledge: 7,453 rows from 4 databases
+2025-10-01 21:36:15,244 - core.database_knowledge_engine - INFO -    models: 9,255 rows from 12 databases
+2025-10-01 21:36:15,244 - core.database_knowledge_engine - INFO -    trajectories: 3,394 rows from 5 databases
+2025-10-01 21:36:15,244 - extracted_algorithms.supreme_intelligence_auditor - INFO - 🧠 Intelligence Scorer initialized
+2025-10-01 21:36:15,244 - extracted_algorithms.teis_autodidata_components - INFO - 📚 Curriculum Learner initialized
+2025-10-01 21:36:15,244 - extracted_algorithms.teis_autodidata_components - INFO - 🔄 Transfer Learner initialized
+2025-10-01 21:36:15,247 - extracted_algorithms.dynamic_neuronal_layer - INFO - 🧠 Dynamic Layer MNIST_DYN initialized with 64 neurons
+2025-10-01 21:36:15,247 - __main__ - INFO - ✅ System V7.0 initialized at cycle 249
+2025-10-01 21:36:15,247 - __main__ - INFO - 📊 Best MNIST: 98.0% | Best CartPole: 32.4
+2025-10-01 21:36:15,247 - __main__ - INFO - 🧬 18 COMPONENTS ACTIVE (V7.0 ULTIMATE)
+2025-10-01 21:36:15,247 - __main__ - INFO - 🎯 IA³ Score: ~74% (14/19 characteristics)
+2025-10-01 21:36:15,247 - __main__ - INFO - 🚀 Starting V7.0 ULTIMATE continuous operation...
+2025-10-01 21:36:15,247 - __main__ - INFO - 📊 System status: {'cycle': 249, 'version': '7.0', 'best_mnist': 97.97, 'best_cartpole': 32.4, 'cycles_stagnant': 0, 'components': {'v4_base': 7, 'v5_extracted': 3, 'v6_new': 4, 'v7_ultimate': 4, 'total': 18}, 'ia3_score_estimated': 74.0, 'experience_replay_size': 0, 'curriculum_difficulty': 0.0, 'dynamic_neurons': 64}
+2025-10-01 21:36:15,247 - __main__ - INFO - 
+2025-10-01 21:36:15,247 - __main__ - INFO - ================================================================================
+2025-10-01 21:36:15,247 - __main__ - INFO - 🔄 CYCLE 250 (V7.0 - ULTIMATE)
+2025-10-01 21:36:15,247 - __main__ - INFO - ================================================================================
+2025-10-01 21:36:15,247 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:36:30,184 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'
+2025-10-01 21:36:30,185 - __main__ - ERROR - ❌ Cycle error: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 48, in orchestrate_cycle
+    results['mnist'] = mnist_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 297, in _train_mnist
+    self.dynamic_layer.replicate_best_neurons()
+AttributeError: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'. Did you mean: '_replicate_neuron'?
+2025-10-01 21:37:30,243 - __main__ - INFO - 
+2025-10-01 21:37:30,243 - __main__ - INFO - ================================================================================
+2025-10-01 21:37:30,243 - __main__ - INFO - 🔄 CYCLE 251 (V7.0 - ULTIMATE)
+2025-10-01 21:37:30,243 - __main__ - INFO - ================================================================================
+2025-10-01 21:37:30,243 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:37:45,130 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:37:45,130 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:37:45,132 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:37:45,132 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:38:45,194 - __main__ - INFO - 
+2025-10-01 21:38:45,194 - __main__ - INFO - ================================================================================
+2025-10-01 21:38:45,194 - __main__ - INFO - 🔄 CYCLE 252 (V7.0 - ULTIMATE)
+2025-10-01 21:38:45,194 - __main__ - INFO - ================================================================================
+2025-10-01 21:38:45,194 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:38:59,931 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:38:59,932 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+/root/intelligence_system/agents/dqn_cartpole_agent.py:55: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:253.)
+  states = torch.FloatTensor([e[0] for e in batch])
+2025-10-01 21:38:59,951 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:38:59,951 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:40:00,011 - __main__ - INFO - 
+2025-10-01 21:40:00,011 - __main__ - INFO - ================================================================================
+2025-10-01 21:40:00,011 - __main__ - INFO - 🔄 CYCLE 253 (V7.0 - ULTIMATE)
+2025-10-01 21:40:00,011 - __main__ - INFO - ================================================================================
+2025-10-01 21:40:00,011 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:40:14,783 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:40:14,783 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:40:14,808 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:40:14,808 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:41:14,867 - __main__ - INFO - 
+2025-10-01 21:41:14,867 - __main__ - INFO - ================================================================================
+2025-10-01 21:41:14,867 - __main__ - INFO - 🔄 CYCLE 254 (V7.0 - ULTIMATE)
+2025-10-01 21:41:14,867 - __main__ - INFO - ================================================================================
+2025-10-01 21:41:14,868 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:41:29,589 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:41:29,590 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:41:29,616 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:41:29,616 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:42:29,678 - __main__ - INFO - 
+2025-10-01 21:42:29,678 - __main__ - INFO - ================================================================================
+2025-10-01 21:42:29,678 - __main__ - INFO - 🔄 CYCLE 255 (V7.0 - ULTIMATE)
+2025-10-01 21:42:29,678 - __main__ - INFO - ================================================================================
+2025-10-01 21:42:29,678 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:42:44,511 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'
+2025-10-01 21:42:44,512 - __main__ - ERROR - ❌ Cycle error: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 48, in orchestrate_cycle
+    results['mnist'] = mnist_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 297, in _train_mnist
+    self.dynamic_layer.replicate_best_neurons()
+AttributeError: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'. Did you mean: '_replicate_neuron'?
+2025-10-01 21:43:44,573 - __main__ - INFO - 
+2025-10-01 21:43:44,573 - __main__ - INFO - ================================================================================
+2025-10-01 21:43:44,573 - __main__ - INFO - 🔄 CYCLE 256 (V7.0 - ULTIMATE)
+2025-10-01 21:43:44,574 - __main__ - INFO - ================================================================================
+2025-10-01 21:43:44,574 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:43:59,371 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:43:59,372 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:43:59,395 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:43:59,395 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:44:59,455 - __main__ - INFO - 
+2025-10-01 21:44:59,455 - __main__ - INFO - ================================================================================
+2025-10-01 21:44:59,455 - __main__ - INFO - 🔄 CYCLE 257 (V7.0 - ULTIMATE)
+2025-10-01 21:44:59,455 - __main__ - INFO - ================================================================================
+2025-10-01 21:44:59,455 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:45:14,589 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:45:14,589 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:45:14,616 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:45:14,616 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:46:14,678 - __main__ - INFO - 
+2025-10-01 21:46:14,678 - __main__ - INFO - ================================================================================
+2025-10-01 21:46:14,678 - __main__ - INFO - 🔄 CYCLE 258 (V7.0 - ULTIMATE)
+2025-10-01 21:46:14,678 - __main__ - INFO - ================================================================================
+2025-10-01 21:46:14,678 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:46:29,578 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:46:29,578 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:46:29,610 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:46:29,611 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:47:29,672 - __main__ - INFO - 
+2025-10-01 21:47:29,673 - __main__ - INFO - ================================================================================
+2025-10-01 21:47:29,673 - __main__ - INFO - 🔄 CYCLE 259 (V7.0 - ULTIMATE)
+2025-10-01 21:47:29,673 - __main__ - INFO - ================================================================================
+2025-10-01 21:47:29,673 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:47:44,735 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:47:44,736 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:47:44,759 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:47:44,759 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:48:44,820 - __main__ - INFO - 
+2025-10-01 21:48:44,821 - __main__ - INFO - ================================================================================
+2025-10-01 21:48:44,823 - __main__ - INFO - 🔄 CYCLE 260 (V7.0 - ULTIMATE)
+2025-10-01 21:48:44,823 - __main__ - INFO - ================================================================================
+2025-10-01 21:48:44,823 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:49:00,044 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'
+2025-10-01 21:49:00,044 - __main__ - ERROR - ❌ Cycle error: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 48, in orchestrate_cycle
+    results['mnist'] = mnist_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 297, in _train_mnist
+    self.dynamic_layer.replicate_best_neurons()
+AttributeError: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'. Did you mean: '_replicate_neuron'?
+2025-10-01 21:50:00,106 - __main__ - INFO - 
+2025-10-01 21:50:00,106 - __main__ - INFO - ================================================================================
+2025-10-01 21:50:00,106 - __main__ - INFO - 🔄 CYCLE 261 (V7.0 - ULTIMATE)
+2025-10-01 21:50:00,106 - __main__ - INFO - ================================================================================
+2025-10-01 21:50:00,106 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:50:14,751 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:50:14,751 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:50:14,778 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:50:14,778 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:51:14,840 - __main__ - INFO - 
+2025-10-01 21:51:14,841 - __main__ - INFO - ================================================================================
+2025-10-01 21:51:14,841 - __main__ - INFO - 🔄 CYCLE 262 (V7.0 - ULTIMATE)
+2025-10-01 21:51:14,841 - __main__ - INFO - ================================================================================
+2025-10-01 21:51:14,841 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:51:30,043 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:51:30,043 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:51:30,071 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:51:30,071 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:52:30,133 - __main__ - INFO - 
+2025-10-01 21:52:30,133 - __main__ - INFO - ================================================================================
+2025-10-01 21:52:30,133 - __main__ - INFO - 🔄 CYCLE 263 (V7.0 - ULTIMATE)
+2025-10-01 21:52:30,134 - __main__ - INFO - ================================================================================
+2025-10-01 21:52:30,134 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:52:45,667 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:52:45,667 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:52:45,721 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:52:45,721 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:53:45,783 - __main__ - INFO - 
+2025-10-01 21:53:45,783 - __main__ - INFO - ================================================================================
+2025-10-01 21:53:45,783 - __main__ - INFO - 🔄 CYCLE 264 (V7.0 - ULTIMATE)
+2025-10-01 21:53:45,783 - __main__ - INFO - ================================================================================
+2025-10-01 21:53:45,783 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:54:01,212 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:54:01,212 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:54:01,240 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:54:01,240 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:55:01,302 - __main__ - INFO - 
+2025-10-01 21:55:01,302 - __main__ - INFO - ================================================================================
+2025-10-01 21:55:01,302 - __main__ - INFO - 🔄 CYCLE 265 (V7.0 - ULTIMATE)
+2025-10-01 21:55:01,302 - __main__ - INFO - ================================================================================
+2025-10-01 21:55:01,302 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:55:18,840 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'
+2025-10-01 21:55:18,840 - __main__ - ERROR - ❌ Cycle error: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 48, in orchestrate_cycle
+    results['mnist'] = mnist_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 297, in _train_mnist
+    self.dynamic_layer.replicate_best_neurons()
+AttributeError: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'. Did you mean: '_replicate_neuron'?
+2025-10-01 21:56:18,902 - __main__ - INFO - 
+2025-10-01 21:56:18,902 - __main__ - INFO - ================================================================================
+2025-10-01 21:56:18,902 - __main__ - INFO - 🔄 CYCLE 266 (V7.0 - ULTIMATE)
+2025-10-01 21:56:18,902 - __main__ - INFO - ================================================================================
+2025-10-01 21:56:18,902 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:56:36,929 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:56:36,930 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:56:36,958 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:56:36,958 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:57:37,020 - __main__ - INFO - 
+2025-10-01 21:57:37,020 - __main__ - INFO - ================================================================================
+2025-10-01 21:57:37,020 - __main__ - INFO - 🔄 CYCLE 267 (V7.0 - ULTIMATE)
+2025-10-01 21:57:37,020 - __main__ - INFO - ================================================================================
+2025-10-01 21:57:37,020 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:57:53,984 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:57:53,984 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:57:54,019 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:57:54,019 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:58:54,079 - __main__ - INFO - 
+2025-10-01 21:58:54,079 - __main__ - INFO - ================================================================================
+2025-10-01 21:58:54,079 - __main__ - INFO - 🔄 CYCLE 268 (V7.0 - ULTIMATE)
+2025-10-01 21:58:54,079 - __main__ - INFO - ================================================================================
+2025-10-01 21:58:54,080 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 21:59:12,306 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 21:59:12,306 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 21:59:12,334 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 21:59:12,334 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:00:12,395 - __main__ - INFO - 
+2025-10-01 22:00:12,395 - __main__ - INFO - ================================================================================
+2025-10-01 22:00:12,395 - __main__ - INFO - 🔄 CYCLE 269 (V7.0 - ULTIMATE)
+2025-10-01 22:00:12,395 - __main__ - INFO - ================================================================================
+2025-10-01 22:00:12,395 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 22:00:31,639 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 22:00:31,639 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 22:00:31,668 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:00:31,668 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:01:31,730 - __main__ - INFO - 
+2025-10-01 22:01:31,730 - __main__ - INFO - ================================================================================
+2025-10-01 22:01:31,730 - __main__ - INFO - 🔄 CYCLE 270 (V7.0 - ULTIMATE)
+2025-10-01 22:01:31,730 - __main__ - INFO - ================================================================================
+2025-10-01 22:01:31,731 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 22:01:50,839 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'
+2025-10-01 22:01:50,839 - __main__ - ERROR - ❌ Cycle error: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 48, in orchestrate_cycle
+    results['mnist'] = mnist_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 297, in _train_mnist
+    self.dynamic_layer.replicate_best_neurons()
+AttributeError: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'. Did you mean: '_replicate_neuron'?
+2025-10-01 22:02:50,899 - __main__ - INFO - 
+2025-10-01 22:02:50,899 - __main__ - INFO - ================================================================================
+2025-10-01 22:02:50,899 - __main__ - INFO - 🔄 CYCLE 271 (V7.0 - ULTIMATE)
+2025-10-01 22:02:50,899 - __main__ - INFO - ================================================================================
+2025-10-01 22:02:50,899 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 22:03:10,490 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 22:03:10,491 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 22:03:10,519 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:03:10,519 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:04:10,581 - __main__ - INFO - 
+2025-10-01 22:04:10,581 - __main__ - INFO - ================================================================================
+2025-10-01 22:04:10,581 - __main__ - INFO - 🔄 CYCLE 272 (V7.0 - ULTIMATE)
+2025-10-01 22:04:10,582 - __main__ - INFO - ================================================================================
+2025-10-01 22:04:10,582 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 22:04:29,613 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 22:04:29,613 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 22:04:29,641 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:04:29,641 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:05:29,703 - __main__ - INFO - 
+2025-10-01 22:05:29,704 - __main__ - INFO - ================================================================================
+2025-10-01 22:05:29,704 - __main__ - INFO - 🔄 CYCLE 273 (V7.0 - ULTIMATE)
+2025-10-01 22:05:29,704 - __main__ - INFO - ================================================================================
+2025-10-01 22:05:29,704 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 22:05:50,444 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 22:05:50,445 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 22:05:50,499 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:05:50,500 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:06:50,561 - __main__ - INFO - 
+2025-10-01 22:06:50,562 - __main__ - INFO - ================================================================================
+2025-10-01 22:06:50,562 - __main__ - INFO - 🔄 CYCLE 274 (V7.0 - ULTIMATE)
+2025-10-01 22:06:50,562 - __main__ - INFO - ================================================================================
+2025-10-01 22:06:50,562 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 22:07:10,259 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 22:07:10,259 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 22:07:10,297 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:07:10,297 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:08:10,359 - __main__ - INFO - 
+2025-10-01 22:08:10,359 - __main__ - INFO - ================================================================================
+2025-10-01 22:08:10,359 - __main__ - INFO - 🔄 CYCLE 275 (V7.0 - ULTIMATE)
+2025-10-01 22:08:10,359 - __main__ - INFO - ================================================================================
+2025-10-01 22:08:10,359 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 22:08:28,191 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'
+2025-10-01 22:08:28,192 - __main__ - ERROR - ❌ Cycle error: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 48, in orchestrate_cycle
+    results['mnist'] = mnist_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 297, in _train_mnist
+    self.dynamic_layer.replicate_best_neurons()
+AttributeError: 'DynamicNeuronalLayer' object has no attribute 'replicate_best_neurons'. Did you mean: '_replicate_neuron'?
+2025-10-01 22:09:28,253 - __main__ - INFO - 
+2025-10-01 22:09:28,253 - __main__ - INFO - ================================================================================
+2025-10-01 22:09:28,253 - __main__ - INFO - 🔄 CYCLE 276 (V7.0 - ULTIMATE)
+2025-10-01 22:09:28,253 - __main__ - INFO - ================================================================================
+2025-10-01 22:09:28,253 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 22:09:46,678 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 22:09:46,679 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 22:09:46,754 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:09:46,754 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:10:46,816 - __main__ - INFO - 
+2025-10-01 22:10:46,816 - __main__ - INFO - ================================================================================
+2025-10-01 22:10:46,816 - __main__ - INFO - 🔄 CYCLE 277 (V7.0 - ULTIMATE)
+2025-10-01 22:10:46,816 - __main__ - INFO - ================================================================================
+2025-10-01 22:10:46,816 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-01 22:11:02,849 - __main__ - INFO -    Train: 99.48% | Test: 97.57%
+2025-10-01 22:11:02,850 - __main__ - INFO - 🎮 Training CartPole (V7.0 DQN ULTIMATE)...
+2025-10-01 22:11:02,894 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:11:02,894 - __main__ - ERROR - ❌ Cycle error: 'CurriculumLearner' object has no attribute 'task_history'
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 603, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 212, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v7_ultimate.py", line 375, in _train_cartpole_ultimate
+    self.curriculum_learner.task_history.append({
+AttributeError: 'CurriculumLearner' object has no attribute 'task_history'
+2025-10-01 22:12:02,955 - __main__ - INFO - 
+2025-10-01 22:12:02,955 - __main__ - INFO - ================================================================================
+2025-10-01 22:12:02,955 - __main__ - INFO - 🔄 CYCLE 278 (V7.0 - ULTIMATE)
+2025-10-01 22:12:02,955 - __main__ - INFO - ================================================================================
+2025-10-01 22:12:02,955 - __main__ - INFO - 🧠 Training MNIST (V7 Dynamic)...

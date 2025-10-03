@@ -1,0 +1,99 @@
+{
+  "operational": {
+    "cycle": 2,
+    "best_mnist": 98.17,
+    "best_cartpole": 448.15,
+    "ia3_score": 42.38055555555556
+  },
+  "meta": {
+    "master_I": 4201.812449077414,
+    "consciousness": 4201.812449077414,
+    "omega": 0.198,
+    "caos": 1.683521604331349,
+    "linf": 0.41712826022454086,
+    "sigma_valid": true
+  },
+  "synergies": [
+    {
+      "synergy": "meta_autocoding",
+      "success": true,
+      "amplification": 2.5,
+      "details": {
+        "analysis": {
+          "bottleneck": "cartpole",
+          "severity": 0.10370000000000001,
+          "recommendation": "Increase exploration or PPO epochs",
+          "confidence": 1.0,
+          "meta_state": {
+            "consciousness": 2797.323573347088,
+            "caos": 1.683521604331349
+          }
+        },
+        "directive": {
+          "action": "modify_hyperparameter",
+          "target": "cartpole",
+          "params": {
+            "n_epochs": 10
+          },
+          "priority": 1
+        },
+        "applied": true
+      }
+    },
+    {
+      "synergy": "consciousness_incompletude",
+      "success": true,
+      "amplification": 2.0,
+      "details": {
+        "consciousness": 2797.323573347088,
+        "intervention_strength": 1.0
+      }
+    },
+    {
+      "synergy": "omega_darwin",
+      "success": true,
+      "amplification": 3.0,
+      "details": {
+        "omega_direction": {
+          "target_consciousness": 1.0,
+          "target_caos": 3.99,
+          "target_linf": 1.0,
+          "urgency": 1.0,
+          "current_distance": 2797.4845098476826
+        },
+        "boost": 2.0
+      }
+    },
+    {
+      "synergy": "selfreference_replay",
+      "success": true,
+      "amplification": 2.0,
+      "details": {
+        "replay_size": 10000,
+        "meta_patterns": 5
+      }
+    },
+    {
+      "synergy": "recursive_maml",
+      "success": true,
+      "amplification": 2.0,
+      "details": {
+        "recursion_depth": 2,
+        "max_recursion": 3,
+        "maml": {
+          "status": "trained",
+          "loss": 2.2089943885803223,
+          "shots": 3,
+          "history": [
+            {
+              "meta_loss": 2.2089943885803223,
+              "mean_support_loss": 1.968966007232666,
+              "mean_query_loss": 2.2089943885803223,
+              "n_tasks": 2
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

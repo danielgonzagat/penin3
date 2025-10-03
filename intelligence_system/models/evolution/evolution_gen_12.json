@@ -1,0 +1,628 @@
+{
+  "generation": 12,
+  "population": [
+    {
+      "layers": [
+        128,
+        64,
+        64
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.013387654929910547,
+      "dropout": 0.02754396102450303,
+      "fitness": 1.0,
+      "age": 1
+    },
+    {
+      "layers": [
+        128,
+        40,
+        64,
+        13
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.014735116908618744,
+      "dropout": 0.049688498890048075,
+      "fitness": 1.0,
+      "age": 3
+    },
+    {
+      "layers": [
+        115,
+        128,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.011684913247617756,
+      "dropout": 0.02754396102450303,
+      "fitness": 1.0,
+      "age": 1
+    },
+    {
+      "layers": [
+        128,
+        40,
+        64,
+        13
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.014735116908618744,
+      "dropout": 0.049688498890048075,
+      "fitness": 0.9999999999999997,
+      "age": 3
+    },
+    {
+      "layers": [
+        128,
+        40,
+        64
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.011684913247617756,
+      "dropout": 0.02754396102450303,
+      "fitness": 0.9999999999999967,
+      "age": 1
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.015169473508089145,
+      "dropout": 0.026986093226633086,
+      "fitness": 0.9999999999995444,
+      "age": 1
+    },
+    {
+      "layers": [
+        128,
+        40,
+        64,
+        13
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.014735116908618744,
+      "dropout": 0.049688498890048075,
+      "fitness": 0.999999999996046,
+      "age": 3
+    },
+    {
+      "layers": [
+        128,
+        64,
+        64
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.011684913247617756,
+      "dropout": 0.02754396102450303,
+      "fitness": 0.9999999999625624,
+      "age": 1
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.012040192951202348,
+      "dropout": 0.005399423158957986,
+      "fitness": 0.9999999952525807,
+      "age": 5
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.01829875406497594,
+      "dropout": 0.04857276329430819,
+      "fitness": 0.9999999694211219,
+      "age": 2
+    },
+    {
+      "layers": [
+        115,
+        75,
+        13
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.010636895311306193,
+      "dropout": 0.02275853005842219,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        56,
+        32,
+        13
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.014416396285600631,
+      "dropout": 0.08160338667863942,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.008634709586616768,
+      "dropout": 0.005399423158957986,
+      "fitness": 0.9999980638469879,
+      "age": 5
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.006162434590436307,
+      "dropout": 0.005399423158957986,
+      "fitness": 0.999999932871475,
+      "age": 5
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.008634709586616768,
+      "dropout": 0.005399423158957986,
+      "fitness": 0.9999999632732894,
+      "age": 1
+    },
+    {
+      "layers": [
+        32,
+        128,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.010159811417117262,
+      "dropout": 0.016471692091730508,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        13
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.008270309839548864,
+      "dropout": 0.05945884881309437,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.010337451268909559,
+      "dropout": 0.005399423158957986,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        41,
+        64,
+        128,
+        16
+      ],
+      "activation": "tanh",
+      "learning_rate": 0.014287678558489109,
+      "dropout": 0.005399423158957986,
+      "fitness": 0.9999987773129533,
+      "age": 5
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.01829875406497594,
+      "dropout": 0.04857276329430819,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        128,
+        64,
+        64
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.012713923940556447,
+      "dropout": 0.016471692091730508,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.010904236378391415,
+      "dropout": 0.0,
+      "fitness": 0.999999932871475,
+      "age": 5
+    },
+    {
+      "layers": [
+        128,
+        64,
+        64
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.01253628408876415,
+      "dropout": 0.02754396102450303,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.014278564218999847,
+      "dropout": 0.02726502712556806,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        128,
+        40,
+        64,
+        13
+      ],
+      "activation": "relu",
+      "learning_rate": 0.01093848523355051,
+      "dropout": 0.06737009437263358,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        64,
+        61
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.016516935486797342,
+      "dropout": 0.049130631092178134,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        128,
+        41,
+        16,
+        64
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.014952295208353944,
+      "dropout": 0.03833729605834058,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.013466731825796354,
+      "dropout": 0.0,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        13
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.01409767566258252,
+      "dropout": 0.11351827446723076,
+      "fitness": 0.9999997010227446,
+      "age": 3
+    },
+    {
+      "layers": [
+        128,
+        40,
+        64,
+        13
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.014735116908618744,
+      "dropout": 0.049688498890048075,
+      "fitness": 0.9999999999999997,
+      "age": 3
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.015169473508089145,
+      "dropout": 0.026986093226633086,
+      "fitness": 0.9999999999995444,
+      "age": 1
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.025505282316445936,
+      "dropout": 0.026986093226633086,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.015169473508089145,
+      "dropout": 0.026986093226633086,
+      "fitness": 0.9999999999995444,
+      "age": 1
+    },
+    {
+      "layers": [
+        128,
+        40,
+        64,
+        13
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.014735116908618744,
+      "dropout": 0.049688498890048075,
+      "fitness": 0.9999999999999997,
+      "age": 3
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.013466731825796354,
+      "dropout": 0.026986093226633086,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.008634709586616768,
+      "dropout": 0.005399423158957986,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.013771231667742044,
+      "dropout": 0.005399423158957986,
+      "fitness": 0.9999999632732894,
+      "age": 1
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.008634709586616768,
+      "dropout": 0.005399423158957986,
+      "fitness": 0.9999907263809291,
+      "age": 1
+    },
+    {
+      "layers": [
+        128,
+        64,
+        64
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.011011182258263658,
+      "dropout": 0.016471692091730508,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        128,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.010159811417117262,
+      "dropout": 0.016471692091730508,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        128,
+        64,
+        64
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.013387654929910547,
+      "dropout": 0.02754396102450303,
+      "fitness": 1.0,
+      "age": 1
+    },
+    {
+      "layers": [
+        128,
+        40,
+        64
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.011684913247617756,
+      "dropout": 0.02754396102450303,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        132,
+        64
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.007888281572549522,
+      "dropout": 0.045225556507088545,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.01829875406497594,
+      "dropout": 0.04857276329430819,
+      "fitness": 0.9999999694211219,
+      "age": 2
+    },
+    {
+      "layers": [
+        115,
+        64,
+        64
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.011862553099410051,
+      "dropout": 0.016471692091730508,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.011528877540319334,
+      "dropout": 0.036105824866860814,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.008634709586616768,
+      "dropout": 0.005399423158957986,
+      "fitness": 0.9999998653592144,
+      "age": 5
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.008634709586616768,
+      "dropout": 0.005399423158957986,
+      "fitness": 0.9999999632732894,
+      "age": 1
+    },
+    {
+      "layers": [
+        128,
+        64,
+        64
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.01253628408876415,
+      "dropout": 0.02754396102450303,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        32,
+        64,
+        16
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.008634709586616768,
+      "dropout": 0.005399423158957986,
+      "fitness": 0.9999965675672229,
+      "age": 5
+    }
+  ],
+  "best_genome": {
+    "layers": [
+      128,
+      40,
+      64,
+      13
+    ],
+    "activation": "gelu",
+    "learning_rate": 0.014735116908618744,
+    "dropout": 0.049688498890048075,
+    "fitness": 1.0,
+    "age": 2
+  },
+  "best_fitness": 1.0
+}

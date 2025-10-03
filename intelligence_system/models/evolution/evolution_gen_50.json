@@ -1,0 +1,116 @@
+{
+  "generation": 50,
+  "population": [
+    {
+      "layers": [
+        8
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.002087705757265646,
+      "dropout": 0.1692779110897203,
+      "fitness": 1.028965232442509,
+      "age": 6
+    },
+    {
+      "layers": [
+        8
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.0027152889159050963,
+      "dropout": 0.15191378999354455,
+      "fitness": 1.0175616015168871,
+      "age": 1
+    },
+    {
+      "layers": [
+        8
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.002087705757265646,
+      "dropout": 0.1692779110897203,
+      "fitness": 1.028965232442509,
+      "age": 6
+    },
+    {
+      "layers": [
+        8
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.0021892908596598194,
+      "dropout": 0.12772470876095715,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        8
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.002296900143478796,
+      "dropout": 0.16348987072432836,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        8
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.002506094529691946,
+      "dropout": 0.15770183035893645,
+      "fitness": 1.0143078535528023,
+      "age": 3
+    },
+    {
+      "layers": [
+        8
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.002506094529691946,
+      "dropout": 0.15770183035893645,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        8
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.0027152889159050963,
+      "dropout": 0.15191378999354455,
+      "fitness": 1.0175616015168871,
+      "age": 1
+    },
+    {
+      "layers": [
+        8
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.002506094529691946,
+      "dropout": 0.15770183035893645,
+      "fitness": 1.0143078535528023,
+      "age": 3
+    },
+    {
+      "layers": [
+        8
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.0028646484854032675,
+      "dropout": 0.16059585054163242,
+      "fitness": 0.0,
+      "age": 0
+    }
+  ],
+  "best_genome": {
+    "layers": [
+      8
+    ],
+    "activation": "tanh",
+    "learning_rate": 0.0026965174333853942,
+    "dropout": 0.14400250532883874,
+    "fitness": 1.0807553660613949,
+    "age": 3
+  },
+  "best_fitness": 1.0807553660613949
+}

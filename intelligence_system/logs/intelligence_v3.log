@@ -1,0 +1,96 @@
+2025-10-01 15:03:48,333 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:03:48,334 - core.system_v3_integrated - INFO - 🚀 INTELLIGENCE SYSTEM V3.0 - MEGA-MERGE EDITION
+2025-10-01 15:03:48,334 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:03:48,334 - core.system_v3_integrated - INFO -    PPO: False
+2025-10-01 15:03:48,334 - core.system_v3_integrated - INFO -    LiteLLM: True
+2025-10-01 15:03:48,334 - core.system_v3_integrated - INFO -    Meta-Learner: True
+2025-10-01 15:03:48,334 - core.system_v3_integrated - INFO -    Gödelian: True
+2025-10-01 15:03:48,334 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:03:48,335 - core.database - INFO - ✅ Database initialized: /root/intelligence_system/data/intelligence.db
+2025-10-01 15:03:48,381 - models.mnist_classifier - INFO - 📂 Model loaded from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 15:03:48,381 - models.mnist_classifier - INFO - ✅ Loaded existing model from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 15:03:48,507 - agents.dqn_agent - INFO - 📂 DQN agent loaded from /root/intelligence_system/models/dqn_cartpole.pth
+2025-10-01 15:03:48,507 - agents.dqn_agent - INFO - ✅ Loaded existing DQN model from /root/intelligence_system/models/dqn_cartpole.pth
+2025-10-01 15:03:48,507 - core.system_v3_integrated - INFO - ⚠️  Using fallback DQN agent
+2025-10-01 15:03:48,507 - apis.litellm_wrapper - INFO - 🚀 LiteLLM Wrapper initialized (available: True)
+2025-10-01 15:03:48,507 - core.system_v3_integrated - INFO - ✅ Using LiteLLM API wrapper (6 APIs unified)
+2025-10-01 15:04:38,030 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:04:38,030 - core.system_v3_integrated - INFO - 🚀 INTELLIGENCE SYSTEM V3.0 - MEGA-MERGE EDITION
+2025-10-01 15:04:38,030 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:04:38,030 - core.system_v3_integrated - INFO -    PPO: True
+2025-10-01 15:04:38,030 - core.system_v3_integrated - INFO -    LiteLLM: True
+2025-10-01 15:04:38,030 - core.system_v3_integrated - INFO -    Meta-Learner: True
+2025-10-01 15:04:38,030 - core.system_v3_integrated - INFO -    Gödelian: True
+2025-10-01 15:04:38,030 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:04:38,030 - core.database - INFO - ✅ Database initialized: /root/intelligence_system/data/intelligence.db
+2025-10-01 15:04:38,061 - models.mnist_classifier - INFO - 📂 Model loaded from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 15:04:38,061 - models.mnist_classifier - INFO - ✅ Loaded existing model from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 15:05:25,799 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:05:25,799 - core.system_v3_integrated - INFO - 🚀 INTELLIGENCE SYSTEM V3.0 - MEGA-MERGE EDITION
+2025-10-01 15:05:25,800 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:05:25,800 - core.system_v3_integrated - INFO -    PPO: True
+2025-10-01 15:05:25,800 - core.system_v3_integrated - INFO -    LiteLLM: True
+2025-10-01 15:05:25,800 - core.system_v3_integrated - INFO -    Meta-Learner: True
+2025-10-01 15:05:25,800 - core.system_v3_integrated - INFO -    Gödelian: True
+2025-10-01 15:05:25,800 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:05:25,800 - core.database - INFO - ✅ Database initialized: /root/intelligence_system/data/intelligence.db
+2025-10-01 15:05:25,846 - models.mnist_classifier - INFO - 📂 Model loaded from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 15:05:25,846 - models.mnist_classifier - INFO - ✅ Loaded existing model from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 15:05:25,953 - agents.cleanrl_ppo_agent - INFO - 🆕 Created new PPO agent (CleanRL-based)
+2025-10-01 15:05:25,954 - core.system_v3_integrated - INFO - ✅ Using CleanRL PPO agent
+2025-10-01 15:05:25,954 - apis.litellm_wrapper - INFO - 🚀 LiteLLM Wrapper initialized (available: True)
+2025-10-01 15:05:25,954 - core.system_v3_integrated - INFO - ✅ Using LiteLLM API wrapper (6 APIs unified)
+2025-10-01 15:05:25,955 - meta.agent_behavior_learner - INFO - 🆕 Created new Agent Behavior Learner
+2025-10-01 15:05:25,955 - core.system_v3_integrated - INFO - ✅ Meta-learner initialized
+2025-10-01 15:05:25,955 - meta.godelian_antistagnation - INFO - 🔄 Gödelian Anti-Stagnation initialized
+2025-10-01 15:05:25,955 - core.system_v3_integrated - INFO - ✅ Gödelian anti-stagnation initialized
+2025-10-01 15:05:25,955 - core.system_v3_integrated - INFO - ✅ System V3.0 initialized at cycle 63
+2025-10-01 15:05:25,955 - core.system_v3_integrated - INFO - 📊 Best MNIST: 10.0% | Best CartPole: 20.0
+2025-10-01 15:05:25,955 - core.system_v3_integrated - INFO - 
+2025-10-01 15:05:25,955 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:05:25,955 - core.system_v3_integrated - INFO - 🔄 CYCLE 64
+2025-10-01 15:05:25,955 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:05:25,955 - core.system_v3_integrated - INFO - 🧠 Training MNIST...
+2025-10-01 15:08:04,574 - core.system_v3_integrated - INFO -    Train: 92.41% | Test: 95.81%
+2025-10-01 15:08:04,576 - core.system_v3_integrated - INFO - 🎮 Training CartPole with PPO (CleanRL)...
+2025-10-01 15:08:04,842 - core.system_v3_integrated - INFO -    Last: 12.0 | Avg(100): 27.2 | PPO
+2025-10-01 15:08:04,842 - core.system_v3_integrated - INFO - 🧠 Meta-learning cycle...
+2025-10-01 15:08:04,849 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 15:08:04,849 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 15:08:04,849 - core.system_v3_integrated - INFO -    Meta-action: increase_learning | Reward: 0.000 | Patterns: 0
+2025-10-01 15:08:04,851 - core.system_v3_integrated - INFO -    🏆 NEW MNIST RECORD: 95.81%
+2025-10-01 15:08:04,851 - core.system_v3_integrated - INFO -    🏆 NEW CARTPOLE RECORD: 27.2
+2025-10-01 15:11:16,668 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:11:16,669 - core.system_v3_integrated - INFO - 🚀 INTELLIGENCE SYSTEM V3.0 - MEGA-MERGE EDITION
+2025-10-01 15:11:16,669 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:11:16,669 - core.system_v3_integrated - INFO -    PPO: True
+2025-10-01 15:11:16,669 - core.system_v3_integrated - INFO -    LiteLLM: True
+2025-10-01 15:11:16,669 - core.system_v3_integrated - INFO -    Meta-Learner: True
+2025-10-01 15:11:16,669 - core.system_v3_integrated - INFO -    Gödelian: True
+2025-10-01 15:11:16,669 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:11:16,670 - core.database - INFO - ✅ Database initialized: /root/intelligence_system/data/intelligence.db
+2025-10-01 15:11:16,709 - models.mnist_classifier - INFO - 📂 Model loaded from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 15:11:16,709 - models.mnist_classifier - INFO - ✅ Loaded existing model from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 15:11:16,841 - agents.cleanrl_ppo_agent - INFO - 🆕 Created new PPO agent (CleanRL-based)
+2025-10-01 15:11:16,841 - core.system_v3_integrated - INFO - ✅ Using CleanRL PPO agent
+2025-10-01 15:11:16,841 - apis.litellm_wrapper - INFO - 🚀 LiteLLM Wrapper initialized (available: True)
+2025-10-01 15:11:16,842 - core.system_v3_integrated - INFO - ✅ Using LiteLLM API wrapper (6 APIs unified)
+2025-10-01 15:11:16,842 - meta.agent_behavior_learner - INFO - 🆕 Created new Agent Behavior Learner
+2025-10-01 15:11:16,842 - core.system_v3_integrated - INFO - ✅ Meta-learner initialized
+2025-10-01 15:11:16,843 - meta.godelian_antistagnation - INFO - 🔄 Gödelian Anti-Stagnation initialized
+2025-10-01 15:11:16,843 - core.system_v3_integrated - INFO - ✅ Gödelian anti-stagnation initialized
+2025-10-01 15:11:16,843 - core.system_v3_integrated - INFO - ✅ System V3.0 initialized at cycle 64
+2025-10-01 15:11:16,843 - core.system_v3_integrated - INFO - 📊 Best MNIST: 95.8% | Best CartPole: 27.2
+2025-10-01 15:11:16,843 - core.system_v3_integrated - INFO - 
+2025-10-01 15:11:16,843 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:11:16,843 - core.system_v3_integrated - INFO - 🔄 CYCLE 65
+2025-10-01 15:11:16,843 - core.system_v3_integrated - INFO - ================================================================================
+2025-10-01 15:11:16,843 - core.system_v3_integrated - INFO - 🧠 Training MNIST...
+2025-10-01 15:14:59,724 - core.system_v3_integrated - INFO -    Train: 92.50% | Test: 96.07%
+2025-10-01 15:14:59,724 - core.system_v3_integrated - INFO - 🎮 Training CartPole with PPO (CleanRL)...
+2025-10-01 15:15:00,446 - core.system_v3_integrated - INFO -    Last: 13.0 | Avg(100): 13.2 | PPO
+2025-10-01 15:15:00,446 - core.system_v3_integrated - INFO - 🧠 Meta-learning cycle...
+2025-10-01 15:15:00,450 - meta.agent_behavior_learner - INFO - 🧠 Added 16 neurons to layer 0
+2025-10-01 15:15:00,450 - meta.agent_behavior_learner - INFO - 📈 Architecture grew (low performance)
+2025-10-01 15:15:00,450 - core.system_v3_integrated - INFO -    Meta-action: decrease_learning | Reward: 0.000 | Patterns: 0
+2025-10-01 15:15:00,463 - core.system_v3_integrated - INFO -    🏆 NEW MNIST RECORD: 96.07%

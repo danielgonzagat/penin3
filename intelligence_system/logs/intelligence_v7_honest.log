@@ -1,0 +1,43 @@
+2025-10-02 12:43:50,738 - core.system_v7_honest - INFO - ================================================================================
+2025-10-02 12:43:50,738 - core.system_v7_honest - INFO - 🔬 INTELLIGENCE SYSTEM V7.0 - HONEST VERSION
+2025-10-02 12:43:50,738 - core.system_v7_honest - INFO - ================================================================================
+2025-10-02 12:43:50,738 - core.system_v7_honest - INFO -    WORKING: 6 components
+2025-10-02 12:43:50,738 - core.system_v7_honest - INFO -    REMOVED: 18 broken components
+2025-10-02 12:43:50,738 - core.system_v7_honest - INFO -    TEATRO: 0%
+2025-10-02 12:43:50,738 - core.system_v7_honest - INFO -    CÓDIGO ÚTIL: ~25%
+2025-10-02 12:43:50,738 - core.system_v7_honest - INFO - ================================================================================
+2025-10-02 12:43:50,739 - core.database - INFO - ✅ Database initialized: /root/intelligence_system/data/intelligence.db
+2025-10-02 12:44:14,444 - core.system_v7_honest - INFO - ================================================================================
+2025-10-02 12:44:14,444 - core.system_v7_honest - INFO - 🔬 INTELLIGENCE SYSTEM V7.0 - HONEST VERSION
+2025-10-02 12:44:14,444 - core.system_v7_honest - INFO - ================================================================================
+2025-10-02 12:44:14,444 - core.system_v7_honest - INFO -    WORKING: 6 components
+2025-10-02 12:44:14,444 - core.system_v7_honest - INFO -    REMOVED: 18 broken components
+2025-10-02 12:44:14,444 - core.system_v7_honest - INFO -    TEATRO: 0%
+2025-10-02 12:44:14,444 - core.system_v7_honest - INFO -    CÓDIGO ÚTIL: ~25%
+2025-10-02 12:44:14,444 - core.system_v7_honest - INFO - ================================================================================
+2025-10-02 12:44:14,445 - core.database - INFO - ✅ Database initialized: /root/intelligence_system/data/intelligence.db
+2025-10-02 12:44:14,454 - models.mnist_classifier - INFO - 📂 Model loaded from /root/intelligence_system/models/mnist_model.pth
+2025-10-02 12:44:14,454 - models.mnist_classifier - INFO - ✅ Loaded existing model from /root/intelligence_system/models/mnist_model.pth
+2025-10-02 12:44:14,532 - agents.cleanrl_ppo_agent - INFO - 🆕 Created new PPO agent (CleanRL-based)
+2025-10-02 12:44:14,533 - extracted_algorithms.neural_evolution_core - INFO - 🧬 Evolutionary Optimizer initialized
+2025-10-02 12:44:14,533 - extracted_algorithms.neural_evolution_core - INFO -    Population: 10, Mutation: 0.3
+2025-10-02 12:44:14,534 - extracted_algorithms.self_modification_engine - INFO - 🧠 Neuronal Farm initialized
+2025-10-02 12:44:14,534 - extracted_algorithms.self_modification_engine - INFO -    Population: 20-100
+2025-10-02 12:44:14,534 - core.system_v7_honest - INFO - ✅ System V7.0 HONEST initialized at cycle 868
+2025-10-02 12:44:14,534 - core.system_v7_honest - INFO - 📊 Best MNIST: 98.2% | Best CartPole: 500.0
+2025-10-02 12:44:14,534 - core.system_v7_honest - INFO - 🧬 6 WORKING COMPONENTS ACTIVE!
+2025-10-02 12:44:14,534 - core.system_v7_honest - INFO - 
+2025-10-02 12:44:14,534 - core.system_v7_honest - INFO - ================================================================================
+2025-10-02 12:44:14,534 - core.system_v7_honest - INFO - 🔄 CYCLE 869 (V7.0 HONEST)
+2025-10-02 12:44:14,534 - core.system_v7_honest - INFO - ================================================================================
+2025-10-02 12:44:14,534 - core.system_v7_honest - INFO - 🧠 Training MNIST...
+2025-10-02 12:44:29,202 - core.system_v7_honest - INFO -    Train: 100.00% | Test: 98.16%
+2025-10-02 12:44:29,203 - core.system_v7_honest - INFO - 🎮 Training CartPole (PPO)...
+2025-10-02 12:44:29,653 - core.system_v7_honest - INFO -    Last: 74.0 | Avg(100): 24.7
+2025-10-02 12:44:29,660 - core.system_v7_honest - INFO - 💾 Saving final state...
+2025-10-02 12:44:29,660 - core.system_v7_honest - INFO - 💾 Saving models...
+2025-10-02 12:44:29,664 - models.mnist_classifier - INFO - 💾 Model saved to /root/intelligence_system/models/mnist_model.pth
+2025-10-02 12:44:29,665 - agents.cleanrl_ppo_agent - INFO - 💾 PPO agent saved (avg=24.7, best=24.7)
+2025-10-02 12:44:29,666 - extracted_algorithms.neural_evolution_core - INFO - 💾 Checkpoint saved: /root/intelligence_system/models/evolution_honest/evolution_gen_0.json
+2025-10-02 12:44:29,666 - core.system_v7_honest - INFO -    ✅ Models saved
+2025-10-02 12:44:29,666 - core.system_v7_honest - INFO - ✅ Shutdown complete

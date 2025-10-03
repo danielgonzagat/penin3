@@ -1,0 +1,363 @@
+✓ Incompletude Infinita carregada automaticamente
+2025-10-01 18:56:33,192 - __main__ - INFO - 🔥 LAUNCHING INTELLIGENCE SYSTEM V6.0 - IA³ COMPLETE
+2025-10-01 18:56:33,192 - __main__ - INFO -    13 components: V4 base + V5 extracted + V6 NEW
+2025-10-01 18:56:33,192 - __main__ - INFO -    IA³ Score: ~58% (11/19)
+2025-10-01 18:56:33,192 - __main__ - INFO - 
+2025-10-01 18:56:33,192 - __main__ - INFO - ================================================================================
+2025-10-01 18:56:33,192 - __main__ - INFO - 🚀 INTELLIGENCE SYSTEM V6.0 - IA³ COMPLETE MERGE
+2025-10-01 18:56:33,192 - __main__ - INFO - ================================================================================
+2025-10-01 18:56:33,192 - __main__ - INFO -    V4.0: 7 components
+2025-10-01 18:56:33,192 - __main__ - INFO -    V5.0: +3 extracted (Neural Evo, Self-Mod, Neuronal Farm)
+2025-10-01 18:56:33,192 - __main__ - INFO -    V6.0: +3 NEW (Code Validator, Advanced Evo, Multi-System)
+2025-10-01 18:56:33,192 - __main__ - INFO -    TOTAL: 13 components
+2025-10-01 18:56:33,192 - __main__ - INFO - ================================================================================
+2025-10-01 18:56:33,193 - core.database - INFO - ✅ Database initialized: /root/intelligence_system/data/intelligence.db
+2025-10-01 18:56:33,227 - models.mnist_classifier - INFO - 📂 Model loaded from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 18:56:33,227 - models.mnist_classifier - INFO - ✅ Loaded existing model from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 18:56:33,357 - agents.advanced_ppo_agent - WARNING - ⚠️  Could not load model: 'network'
+2025-10-01 18:56:33,357 - agents.advanced_ppo_agent - INFO - 🚀 Advanced PPO Agent initialized
+2025-10-01 18:56:33,357 - agents.advanced_ppo_agent - INFO -    Hidden size: 128
+2025-10-01 18:56:33,357 - agents.advanced_ppo_agent - INFO -    Batch size: 64
+2025-10-01 18:56:33,357 - agents.advanced_ppo_agent - INFO -    Steps per update: 128
+2025-10-01 18:56:33,358 - agents.advanced_ppo_agent - INFO -    Epochs per update: 4
+2025-10-01 18:56:33,358 - apis.litellm_wrapper - INFO - 🚀 LiteLLM Wrapper initialized (available: True)
+2025-10-01 18:56:33,358 - meta.dspy_meta_prompter - WARNING - DSPy initialization failed: module 'dspy' has no attribute 'OpenAI'
+2025-10-01 18:56:33,358 - meta.dspy_meta_prompter - INFO - 🔄 DSPy Meta-Prompter initialized (DSPy: True)
+2025-10-01 18:56:33,363 - meta.agent_behavior_learner - INFO - 📂 Agent Behavior Learner loaded
+2025-10-01 18:56:33,363 - meta.agent_behavior_learner - INFO - ✅ Loaded Agent Behavior Learner from /root/intelligence_system/models/meta_learner.pth
+2025-10-01 18:56:33,363 - meta.godelian_antistagnation - INFO - 🔄 Gödelian Anti-Stagnation initialized
+2025-10-01 18:56:33,363 - orchestration.langgraph_orchestrator - INFO - 🔄 Agent Orchestrator initialized (simple mode)
+2025-10-01 18:56:33,364 - extracted_algorithms.neural_evolution_core - INFO - 🧬 Evolutionary Optimizer initialized
+2025-10-01 18:56:33,364 - extracted_algorithms.neural_evolution_core - INFO -    Population: 10, Mutation: 0.3
+2025-10-01 18:56:33,364 - extracted_algorithms.self_modification_engine - INFO - 🔧 Self-Modification Engine initialized
+2025-10-01 18:56:33,364 - extracted_algorithms.self_modification_engine - INFO -    Max mods/cycle: 2
+2025-10-01 18:56:33,364 - extracted_algorithms.self_modification_engine - INFO -    Allowed ops: 6
+2025-10-01 18:56:33,365 - extracted_algorithms.self_modification_engine - INFO - 🧠 Neuronal Farm initialized
+2025-10-01 18:56:33,365 - extracted_algorithms.self_modification_engine - INFO -    Population: 20-100
+2025-10-01 18:56:33,365 - extracted_algorithms.code_validator - INFO - 🔒 Internal Code Validator initialized
+2025-10-01 18:56:33,365 - extracted_algorithms.advanced_evolution_engine - INFO - 🧬 Advanced Evolution Engine initialized
+2025-10-01 18:56:33,365 - extracted_algorithms.advanced_evolution_engine - INFO -    Population: 15, Elite: 2
+2025-10-01 18:56:33,365 - extracted_algorithms.advanced_evolution_engine - INFO -    Crossover: 0.5, Mutation: 0.2
+2025-10-01 18:56:33,365 - extracted_algorithms.multi_system_coordinator - INFO - 🎯 Multi-System Coordinator initialized
+2025-10-01 18:56:33,365 - extracted_algorithms.multi_system_coordinator - INFO -    Max systems: 5
+2025-10-01 18:56:33,365 - core.database_knowledge_engine - INFO - 🧠 Database Knowledge Engine initialized
+2025-10-01 18:56:33,383 - core.database_knowledge_engine - INFO -    knowledge: 7,453 rows from 4 databases
+2025-10-01 18:56:33,383 - core.database_knowledge_engine - INFO -    models: 9,255 rows from 12 databases
+2025-10-01 18:56:33,383 - core.database_knowledge_engine - INFO -    trajectories: 3,394 rows from 5 databases
+2025-10-01 18:56:33,383 - __main__ - INFO - ✅ Database Knowledge Engine active (20,102 rows)
+2025-10-01 18:56:33,383 - __main__ - INFO - ✅ System V6.0 initialized at cycle 156
+2025-10-01 18:56:33,383 - __main__ - INFO - 📊 Best MNIST: 97.7% | Best CartPole: 27.2
+2025-10-01 18:56:33,384 - __main__ - INFO - 🚀 Using ADVANCED PPO (134K params)
+2025-10-01 18:56:33,384 - __main__ - INFO - 🧬 14 COMPONENTS ACTIVE (added DB Knowledge Engine)
+2025-10-01 18:56:33,384 - __main__ - INFO - 🎯 IA³ Score: ~63% (11/19 characteristics)
+2025-10-01 18:56:33,384 - __main__ - INFO - 🚀 Starting V6.0 continuous operation...
+2025-10-01 18:56:33,384 - __main__ - INFO - 📊 System status: {'cycle': 156, 'version': '6.0', 'best_mnist': 97.71, 'best_cartpole': 27.2, 'cycles_stagnant': 0, 'components': {'v4_base': 7, 'v5_extracted': 3, 'v6_new': 3, 'total': 13}, 'ia3_characteristics': {'total': 19, 'achieved': 11, 'score_percent': 58.0}, 'algorithms_active': {'ppo': True, 'meta_learning': True, 'neural_evolution': True, 'self_modification': True, 'neuronal_farm': True, 'code_validator': True, 'advanced_evolution': True, 'multi_coordinator': True}}
+2025-10-01 18:56:33,384 - __main__ - INFO - 
+2025-10-01 18:56:33,384 - __main__ - INFO - ================================================================================
+2025-10-01 18:56:33,384 - __main__ - INFO - 🔄 CYCLE 157 (V6.0 - IA³ COMPLETE)
+2025-10-01 18:56:33,384 - __main__ - INFO - ================================================================================
+2025-10-01 18:56:33,384 - __main__ - INFO - 🧠 Training MNIST...
+/root/intelligence_system/models/mnist_classifier.py:87: RuntimeWarning: coroutine 'backward_with_incompletude' was never awaited
+  loss.backward()
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+2025-10-01 18:57:33,765 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 18:57:33,766 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 18:57:33,767 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 18:57:33,768 - __main__ - ERROR - ❌ Cycle error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 567, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 200, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 280, in _train_cartpole
+    action, log_prob, value = self.rl_agent.select_action(state)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 154, in select_action
+    action_probs, value = self.network(state_tensor)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 61, in forward
+    features = self.features(state)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py", line 244, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2815, in batch_norm
+    _verify_batch_size(input.size())
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2781, in _verify_batch_size
+    raise ValueError(
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 18:58:33,839 - __main__ - INFO - 
+2025-10-01 18:58:33,839 - __main__ - INFO - ================================================================================
+2025-10-01 18:58:33,839 - __main__ - INFO - 🔄 CYCLE 158 (V6.0 - IA³ COMPLETE)
+2025-10-01 18:58:33,839 - __main__ - INFO - ================================================================================
+2025-10-01 18:58:33,839 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 18:59:32,664 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 18:59:32,665 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 18:59:32,665 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 18:59:32,666 - __main__ - ERROR - ❌ Cycle error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 567, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 200, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 280, in _train_cartpole
+    action, log_prob, value = self.rl_agent.select_action(state)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 154, in select_action
+    action_probs, value = self.network(state_tensor)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 61, in forward
+    features = self.features(state)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py", line 244, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2815, in batch_norm
+    _verify_batch_size(input.size())
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2781, in _verify_batch_size
+    raise ValueError(
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 19:00:32,723 - __main__ - INFO - 
+2025-10-01 19:00:32,723 - __main__ - INFO - ================================================================================
+2025-10-01 19:00:32,723 - __main__ - INFO - 🔄 CYCLE 159 (V6.0 - IA³ COMPLETE)
+2025-10-01 19:00:32,723 - __main__ - INFO - ================================================================================
+2025-10-01 19:00:32,723 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 19:01:29,236 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 19:01:29,236 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 19:01:29,237 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 19:01:29,237 - __main__ - ERROR - ❌ Cycle error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 567, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 200, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 280, in _train_cartpole
+    action, log_prob, value = self.rl_agent.select_action(state)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 154, in select_action
+    action_probs, value = self.network(state_tensor)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 61, in forward
+    features = self.features(state)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py", line 244, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2815, in batch_norm
+    _verify_batch_size(input.size())
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2781, in _verify_batch_size
+    raise ValueError(
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 19:02:29,295 - __main__ - INFO - 
+2025-10-01 19:02:29,295 - __main__ - INFO - ================================================================================
+2025-10-01 19:02:29,296 - __main__ - INFO - 🔄 CYCLE 160 (V6.0 - IA³ COMPLETE)
+2025-10-01 19:02:29,296 - __main__ - INFO - ================================================================================
+2025-10-01 19:02:29,296 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 19:03:12,231 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 19:03:12,232 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 19:03:12,232 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 19:03:12,232 - __main__ - ERROR - ❌ Cycle error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 567, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 200, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 280, in _train_cartpole
+    action, log_prob, value = self.rl_agent.select_action(state)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 154, in select_action
+    action_probs, value = self.network(state_tensor)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 61, in forward
+    features = self.features(state)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py", line 244, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2815, in batch_norm
+    _verify_batch_size(input.size())
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2781, in _verify_batch_size
+    raise ValueError(
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 19:04:12,291 - __main__ - INFO - 
+2025-10-01 19:04:12,291 - __main__ - INFO - ================================================================================
+2025-10-01 19:04:12,291 - __main__ - INFO - 🔄 CYCLE 161 (V6.0 - IA³ COMPLETE)
+2025-10-01 19:04:12,291 - __main__ - INFO - ================================================================================
+2025-10-01 19:04:12,291 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 19:05:14,648 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 19:05:14,649 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 19:05:14,650 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 19:05:14,650 - __main__ - ERROR - ❌ Cycle error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 567, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 200, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 280, in _train_cartpole
+    action, log_prob, value = self.rl_agent.select_action(state)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 154, in select_action
+    action_probs, value = self.network(state_tensor)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 61, in forward
+    features = self.features(state)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py", line 244, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2815, in batch_norm
+    _verify_batch_size(input.size())
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2781, in _verify_batch_size
+    raise ValueError(
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 19:06:14,711 - __main__ - INFO - 
+2025-10-01 19:06:14,711 - __main__ - INFO - ================================================================================
+2025-10-01 19:06:14,711 - __main__ - INFO - 🔄 CYCLE 162 (V6.0 - IA³ COMPLETE)
+2025-10-01 19:06:14,711 - __main__ - INFO - ================================================================================
+2025-10-01 19:06:14,712 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 19:07:11,655 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 19:07:11,656 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 19:07:11,657 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 19:07:11,657 - __main__ - ERROR - ❌ Cycle error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 567, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 200, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 280, in _train_cartpole
+    action, log_prob, value = self.rl_agent.select_action(state)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 154, in select_action
+    action_probs, value = self.network(state_tensor)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 61, in forward
+    features = self.features(state)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py", line 244, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2815, in batch_norm
+    _verify_batch_size(input.size())
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2781, in _verify_batch_size
+    raise ValueError(
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 19:08:11,715 - __main__ - INFO - 
+2025-10-01 19:08:11,715 - __main__ - INFO - ================================================================================
+2025-10-01 19:08:11,715 - __main__ - INFO - 🔄 CYCLE 163 (V6.0 - IA³ COMPLETE)
+2025-10-01 19:08:11,715 - __main__ - INFO - ================================================================================
+2025-10-01 19:08:11,715 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 19:09:08,783 - __main__ - INFO -    Train: 99.27% | Test: 97.71%
+2025-10-01 19:09:08,784 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 19:09:08,785 - orchestration.langgraph_orchestrator - ERROR - Orchestration error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 19:09:08,785 - __main__ - ERROR - ❌ Cycle error: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+Traceback (most recent call last):
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 567, in run_forever
+    results = self.run_cycle()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 200, in run_cycle
+    results = self.orchestrator.orchestrate_cycle(
+  File "/root/intelligence_system/orchestration/langgraph_orchestrator.py", line 51, in orchestrate_cycle
+    results['cartpole'] = cartpole_fn()
+  File "/root/intelligence_system/core/system_v6_ia3_complete.py", line 280, in _train_cartpole
+    action, log_prob, value = self.rl_agent.select_action(state)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 154, in select_action
+    action_probs, value = self.network(state_tensor)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/intelligence_system/agents/advanced_ppo_agent.py", line 61, in forward
+    features = self.features(state)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py", line 244, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/batchnorm.py", line 193, in forward
+    return F.batch_norm(
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2815, in batch_norm
+    _verify_batch_size(input.size())
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2781, in _verify_batch_size
+    raise ValueError(
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 128])
+2025-10-01 19:10:08,843 - __main__ - INFO - 
+2025-10-01 19:10:08,843 - __main__ - INFO - ================================================================================
+2025-10-01 19:10:08,843 - __main__ - INFO - 🔄 CYCLE 164 (V6.0 - IA³ COMPLETE)
+2025-10-01 19:10:08,843 - __main__ - INFO - ================================================================================
+2025-10-01 19:10:08,843 - __main__ - INFO - 🧠 Training MNIST...

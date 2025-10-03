@@ -1,0 +1,175 @@
+{
+  "generation": 1,
+  "population": [
+    {
+      "genome": {
+        "learning_rate": 0.0013507167838969427,
+        "hidden_size": 255.26550499769098,
+        "dropout": 0.04920044379365568
+      },
+      "fitness": 255.31605615826854,
+      "age": 1,
+      "mutations": 0
+    },
+    {
+      "genome": {
+        "learning_rate": 0.009032906794541164,
+        "hidden_size": 244.65547357427147,
+        "dropout": 0.06833575246363915
+      },
+      "fitness": 244.73284223352965,
+      "age": 1,
+      "mutations": 0
+    },
+    {
+      "genome": {
+        "learning_rate": 0.0015634318549519746,
+        "hidden_size": 177.06250774843483,
+        "dropout": 0.14804086965749047
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 1
+    },
+    {
+      "genome": {
+        "learning_rate": 0.006175941608139462,
+        "hidden_size": 228.5373179237636,
+        "dropout": 0.24587345289915286
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 1
+    },
+    {
+      "genome": {
+        "learning_rate": 0.0013507167838969427,
+        "hidden_size": 255.26550499769098,
+        "dropout": 0.42275461199977027
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 1
+    },
+    {
+      "genome": {
+        "learning_rate": 0.0001340163482269481,
+        "hidden_size": 211.02328108136243,
+        "dropout": 0.04920044379365568
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 1
+    },
+    {
+      "genome": {
+        "learning_rate": 0.0001340163482269481,
+        "hidden_size": 244.65547357427147,
+        "dropout": 0.42275461199977027
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 1
+    },
+    {
+      "genome": {
+        "learning_rate": 0.009032906794541164,
+        "hidden_size": 211.02328108136243,
+        "dropout": 0.06833575246363915
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 1
+    },
+    {
+      "genome": {
+        "learning_rate": 0.006175941608139462,
+        "hidden_size": 228.5373179237636,
+        "dropout": 0.24587345289915286
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 1
+    },
+    {
+      "genome": {
+        "learning_rate": 0.0010518484837832172,
+        "hidden_size": 204.33613450448297,
+        "dropout": 0.006716878504697044
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 1
+    },
+    {
+      "genome": {
+        "learning_rate": 0.0001340163482269481,
+        "hidden_size": 211.02328108136243,
+        "dropout": 0.42275461199977027
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 1
+    },
+    {
+      "genome": {
+        "learning_rate": 0.0001340163482269481,
+        "hidden_size": 211.02328108136243,
+        "dropout": 0.42275461199977027
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 1
+    },
+    {
+      "genome": {
+        "learning_rate": 0.006175941608139462,
+        "hidden_size": 228.5373179237636,
+        "dropout": 0.24587345289915286
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 1
+    },
+    {
+      "genome": {
+        "learning_rate": 0.0015634318549519746,
+        "hidden_size": 177.06250774843483,
+        "dropout": 0.14804086965749047
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 1
+    },
+    {
+      "genome": {
+        "learning_rate": 0.006175941608139462,
+        "hidden_size": 228.5373179237636,
+        "dropout": 0.24587345289915286
+      },
+      "fitness": null,
+      "age": 0,
+      "mutations": 1
+    }
+  ],
+  "best_individual": {
+    "genome": {
+      "learning_rate": 0.0013507167838969427,
+      "hidden_size": 255.26550499769098,
+      "dropout": 0.04920044379365568
+    },
+    "fitness": 255.31605615826854,
+    "age": 0,
+    "mutations": 0
+  },
+  "best_fitness": 255.31605615826854,
+  "history": [
+    {
+      "generation": 1,
+      "best_fitness": 255.31605615826854,
+      "avg_fitness": 250.02444919589908,
+      "std_fitness": 5.291606962369443,
+      "population_size": 15
+    }
+  ]
+}

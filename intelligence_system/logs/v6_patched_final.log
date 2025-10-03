@@ -1,0 +1,344 @@
+✓ Incompletude Infinita carregada automaticamente
+2025-10-01 20:40:03,439 - __main__ - INFO - 🔥 LAUNCHING INTELLIGENCE SYSTEM V6.0 - IA³ COMPLETE
+2025-10-01 20:40:03,439 - __main__ - INFO -    13 components: V4 base + V5 extracted + V6 NEW
+2025-10-01 20:40:03,439 - __main__ - INFO -    IA³ Score: ~58% (11/19)
+2025-10-01 20:40:03,439 - __main__ - INFO - 
+2025-10-01 20:40:03,439 - __main__ - INFO - ================================================================================
+2025-10-01 20:40:03,439 - __main__ - INFO - 🚀 INTELLIGENCE SYSTEM V6.0 - IA³ COMPLETE MERGE
+2025-10-01 20:40:03,439 - __main__ - INFO - ================================================================================
+2025-10-01 20:40:03,439 - __main__ - INFO -    V4.0: 7 components
+2025-10-01 20:40:03,439 - __main__ - INFO -    V5.0: +3 extracted (Neural Evo, Self-Mod, Neuronal Farm)
+2025-10-01 20:40:03,439 - __main__ - INFO -    V6.0: +3 NEW (Code Validator, Advanced Evo, Multi-System)
+2025-10-01 20:40:03,439 - __main__ - INFO -    TOTAL: 13 components
+2025-10-01 20:40:03,439 - __main__ - INFO - ================================================================================
+2025-10-01 20:40:03,440 - core.database - INFO - ✅ Database initialized: /root/intelligence_system/data/intelligence.db
+2025-10-01 20:40:03,460 - models.mnist_classifier - INFO - 📂 Model loaded from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 20:40:03,460 - models.mnist_classifier - INFO - ✅ Loaded existing model from /root/intelligence_system/models/mnist_model.pth
+2025-10-01 20:40:03,554 - agents.cleanrl_ppo_agent - INFO - 📂 PPO agent loaded from /root/intelligence_system/models/ppo_cartpole.pth
+2025-10-01 20:40:03,554 - agents.cleanrl_ppo_agent - INFO - ✅ Loaded PPO agent from /root/intelligence_system/models/ppo_cartpole.pth
+2025-10-01 20:40:03,554 - apis.litellm_wrapper - INFO - 🚀 LiteLLM Wrapper initialized (available: True)
+2025-10-01 20:40:03,554 - meta.dspy_meta_prompter - WARNING - DSPy initialization failed: module 'dspy' has no attribute 'OpenAI'
+2025-10-01 20:40:03,554 - meta.dspy_meta_prompter - INFO - 🔄 DSPy Meta-Prompter initialized (DSPy: True)
+2025-10-01 20:40:03,558 - meta.agent_behavior_learner - INFO - 📂 Agent Behavior Learner loaded
+2025-10-01 20:40:03,558 - meta.agent_behavior_learner - INFO - ✅ Loaded Agent Behavior Learner from /root/intelligence_system/models/meta_learner.pth
+2025-10-01 20:40:03,558 - meta.godelian_antistagnation - INFO - 🔄 Gödelian Anti-Stagnation initialized
+2025-10-01 20:40:03,559 - orchestration.langgraph_orchestrator - INFO - 🔄 Agent Orchestrator initialized (simple mode)
+2025-10-01 20:40:03,559 - extracted_algorithms.neural_evolution_core - INFO - 🧬 Evolutionary Optimizer initialized
+2025-10-01 20:40:03,559 - extracted_algorithms.neural_evolution_core - INFO -    Population: 10, Mutation: 0.3
+2025-10-01 20:40:03,559 - extracted_algorithms.self_modification_engine - INFO - 🔧 Self-Modification Engine initialized
+2025-10-01 20:40:03,560 - extracted_algorithms.self_modification_engine - INFO -    Max mods/cycle: 2
+2025-10-01 20:40:03,560 - extracted_algorithms.self_modification_engine - INFO -    Allowed ops: 6
+2025-10-01 20:40:03,560 - extracted_algorithms.self_modification_engine - INFO - 🧠 Neuronal Farm initialized
+2025-10-01 20:40:03,560 - extracted_algorithms.self_modification_engine - INFO -    Population: 20-100
+2025-10-01 20:40:03,560 - extracted_algorithms.code_validator - INFO - 🔒 Internal Code Validator initialized (with whitelist)
+2025-10-01 20:40:03,560 - extracted_algorithms.advanced_evolution_engine - INFO - 🧬 Advanced Evolution Engine initialized
+2025-10-01 20:40:03,560 - extracted_algorithms.advanced_evolution_engine - INFO -    Population: 15, Elite: 2
+2025-10-01 20:40:03,561 - extracted_algorithms.advanced_evolution_engine - INFO -    Crossover: 0.5, Mutation: 0.2
+2025-10-01 20:40:03,561 - extracted_algorithms.multi_system_coordinator - INFO - 🎯 Multi-System Coordinator initialized
+2025-10-01 20:40:03,561 - extracted_algorithms.multi_system_coordinator - INFO -    Max systems: 5
+2025-10-01 20:40:03,561 - core.database_knowledge_engine - INFO - 🧠 Database Knowledge Engine initialized
+2025-10-01 20:40:03,573 - core.database_knowledge_engine - INFO -    knowledge: 7,453 rows from 4 databases
+2025-10-01 20:40:03,573 - core.database_knowledge_engine - INFO -    models: 9,255 rows from 12 databases
+2025-10-01 20:40:03,573 - core.database_knowledge_engine - INFO -    trajectories: 3,394 rows from 5 databases
+2025-10-01 20:40:03,573 - __main__ - INFO - ✅ Database Knowledge Engine active (20,102 rows)
+2025-10-01 20:40:03,573 - __main__ - INFO - ✅ System V6.0 initialized at cycle 209
+2025-10-01 20:40:03,573 - __main__ - INFO - 📊 Best MNIST: 97.8% | Best CartPole: 28.8
+2025-10-01 20:40:03,573 - __main__ - INFO - 🧬 14 COMPONENTS ACTIVE (added DB Knowledge Engine)
+2025-10-01 20:40:03,573 - __main__ - INFO - 🎯 IA³ Score: ~63% (11/19 characteristics)
+2025-10-01 20:40:03,573 - __main__ - INFO - 🚀 Starting V6.0 continuous operation...
+2025-10-01 20:40:03,574 - __main__ - INFO - 📊 System status: {'cycle': 209, 'version': '6.0', 'best_mnist': 97.79, 'best_cartpole': 28.8, 'cycles_stagnant': 0, 'components': {'v4_base': 7, 'v5_extracted': 3, 'v6_new': 3, 'total': 13}, 'ia3_characteristics': {'total': 19, 'achieved': 11, 'score_percent': 58.0}, 'algorithms_active': {'ppo': True, 'meta_learning': True, 'neural_evolution': True, 'self_modification': True, 'neuronal_farm': True, 'code_validator': True, 'advanced_evolution': True, 'multi_coordinator': True}}
+2025-10-01 20:40:03,574 - __main__ - INFO - 
+2025-10-01 20:40:03,574 - __main__ - INFO - ================================================================================
+2025-10-01 20:40:03,574 - __main__ - INFO - 🔄 CYCLE 210 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:40:03,574 - __main__ - INFO - ================================================================================
+2025-10-01 20:40:03,574 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:40:21,034 - __main__ - INFO -    Train: 99.31% | Test: 97.66%
+2025-10-01 20:40:21,034 - __main__ - INFO - 🎮 Training CartPole...
+/root/intelligence_system/agents/cleanrl_ppo_agent.py:148: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:253.)
+  states_tensor = torch.FloatTensor(self.states)
+2025-10-01 20:40:21,172 - __main__ - INFO -    Last: 16.0 | Avg(100): 28.2
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/loss.py:616: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+2025-10-01 20:40:21,176 - __main__ - INFO - 🧬 Evolving (simple)...
+2025-10-01 20:40:21,177 - extracted_algorithms.neural_evolution_core - INFO - 🧬 Gen 1: best=1.0731, avg=0.8531
+2025-10-01 20:40:21,177 - __main__ - INFO -    Gen 1: best=1.0731
+2025-10-01 20:40:21,177 - __main__ - INFO - 🧠 Evolving neurons...
+2025-10-01 20:40:21,182 - extracted_algorithms.self_modification_engine - INFO - 🧬 Generation 1: 10 survivors, 90 offspring
+2025-10-01 20:40:21,182 - __main__ - INFO -    Gen 1: pop=100
+2025-10-01 20:40:21,182 - __main__ - INFO - 🧬 Advanced evolution (V6.0)...
+2025-10-01 20:40:21,182 - extracted_algorithms.advanced_evolution_engine - INFO - ✅ Initialized population of 15
+2025-10-01 20:40:21,182 - extracted_algorithms.advanced_evolution_engine - INFO - 🧬 Gen 1: best=1.0247, avg=1.0236
+2025-10-01 20:40:21,182 - __main__ - INFO -    Gen 1: best=1.0247
+2025-10-01 20:40:21,183 - __main__ - INFO - 📚 Using integrated database knowledge...
+2025-10-01 20:40:21,183 - core.database_knowledge_engine - INFO - 📦 Extracted 20 weight samples for transfer learning
+2025-10-01 20:40:21,185 - core.database_knowledge_engine - INFO - 📈 Extracted 50 experience samples for replay
+2025-10-01 20:40:21,186 - core.database_knowledge_engine - INFO - 💡 Extracted 30 knowledge patterns
+2025-10-01 20:40:21,186 - __main__ - INFO -    Loaded: 20 weights, 50 experiences, 30 patterns
+2025-10-01 20:40:21,186 - __main__ - INFO -    Applied transfer learning to MNIST
+2025-10-01 20:40:21,189 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:40:21,191 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:40:21,192 - __main__ - INFO - 💾 Saving all models...
+2025-10-01 20:40:21,197 - models.mnist_classifier - INFO - 💾 Model saved to /root/intelligence_system/models/mnist_model.pth
+2025-10-01 20:40:21,199 - agents.cleanrl_ppo_agent - INFO - 💾 PPO agent saved to /root/intelligence_system/models/ppo_cartpole.pth
+2025-10-01 20:40:21,200 - meta.agent_behavior_learner - INFO - 💾 Agent Behavior Learner saved
+2025-10-01 20:40:21,200 - extracted_algorithms.neural_evolution_core - INFO - 💾 Checkpoint saved: /root/intelligence_system/models/evolution/evolution_gen_1.json
+2025-10-01 20:40:21,201 - extracted_algorithms.advanced_evolution_engine - INFO - 💾 Advanced evolution checkpoint saved: /root/intelligence_system/models/advanced_evolution/advanced_evolution_gen_1.json
+2025-10-01 20:40:21,201 - __main__ - INFO -    ✅ All models saved
+2025-10-01 20:41:21,259 - __main__ - INFO - 
+2025-10-01 20:41:21,259 - __main__ - INFO - ================================================================================
+2025-10-01 20:41:21,259 - __main__ - INFO - 🔄 CYCLE 211 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:41:21,260 - __main__ - INFO - ================================================================================
+2025-10-01 20:41:21,260 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:41:37,367 - __main__ - INFO -    Train: 99.39% | Test: 97.79%
+2025-10-01 20:41:37,368 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:41:37,441 - __main__ - INFO -    Last: 14.0 | Avg(100): 22.4
+2025-10-01 20:41:37,448 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:41:37,450 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:42:37,513 - __main__ - INFO - 
+2025-10-01 20:42:37,513 - __main__ - INFO - ================================================================================
+2025-10-01 20:42:37,513 - __main__ - INFO - 🔄 CYCLE 212 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:42:37,513 - __main__ - INFO - ================================================================================
+2025-10-01 20:42:37,513 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:42:53,420 - __main__ - INFO -    Train: 99.39% | Test: 97.83%
+2025-10-01 20:42:53,420 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:42:53,492 - __main__ - INFO -    Last: 15.0 | Avg(100): 20.6
+2025-10-01 20:42:53,498 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:42:53,500 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:42:53,503 - __main__ - INFO -    🏆 NEW MNIST RECORD: 97.83%
+2025-10-01 20:43:53,563 - __main__ - INFO - 
+2025-10-01 20:43:53,564 - __main__ - INFO - ================================================================================
+2025-10-01 20:43:53,564 - __main__ - INFO - 🔄 CYCLE 213 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:43:53,564 - __main__ - INFO - ================================================================================
+2025-10-01 20:43:53,564 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:44:09,795 - __main__ - INFO -    Train: 99.46% | Test: 97.88%
+2025-10-01 20:44:09,795 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:44:09,906 - __main__ - INFO -    Last: 17.0 | Avg(100): 20.8
+2025-10-01 20:44:09,912 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:44:09,914 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:44:09,917 - __main__ - INFO -    🏆 NEW MNIST RECORD: 97.88%
+2025-10-01 20:45:09,975 - __main__ - INFO - 
+2025-10-01 20:45:09,975 - __main__ - INFO - ================================================================================
+2025-10-01 20:45:09,975 - __main__ - INFO - 🔄 CYCLE 214 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:45:09,975 - __main__ - INFO - ================================================================================
+2025-10-01 20:45:09,976 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:45:26,885 - __main__ - INFO -    Train: 99.54% | Test: 97.54%
+2025-10-01 20:45:26,886 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:45:26,962 - __main__ - INFO -    Last: 29.0 | Avg(100): 20.3
+2025-10-01 20:45:26,969 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:45:26,971 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:46:27,013 - __main__ - INFO - 
+2025-10-01 20:46:27,013 - __main__ - INFO - ================================================================================
+2025-10-01 20:46:27,013 - __main__ - INFO - 🔄 CYCLE 215 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:46:27,013 - __main__ - INFO - ================================================================================
+2025-10-01 20:46:27,014 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:46:44,554 - __main__ - INFO -    Train: 99.46% | Test: 97.61%
+2025-10-01 20:46:44,554 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:46:44,665 - __main__ - INFO -    Last: 14.0 | Avg(100): 20.4
+2025-10-01 20:46:44,679 - __main__ - INFO - 🧠 Evolving neurons...
+2025-10-01 20:46:44,683 - extracted_algorithms.self_modification_engine - INFO - 🧬 Generation 2: 50 survivors, 50 offspring
+2025-10-01 20:46:44,683 - __main__ - INFO -    Gen 2: pop=100
+2025-10-01 20:46:44,686 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:46:44,688 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:47:44,751 - __main__ - INFO - 
+2025-10-01 20:47:44,751 - __main__ - INFO - ================================================================================
+2025-10-01 20:47:44,751 - __main__ - INFO - 🔄 CYCLE 216 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:47:44,751 - __main__ - INFO - ================================================================================
+2025-10-01 20:47:44,751 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:48:02,266 - __main__ - INFO -    Train: 99.60% | Test: 97.58%
+2025-10-01 20:48:02,266 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:48:02,361 - __main__ - INFO -    Last: 43.0 | Avg(100): 20.1
+2025-10-01 20:48:02,368 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:48:02,370 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:49:02,432 - __main__ - INFO - 
+2025-10-01 20:49:02,433 - __main__ - INFO - ================================================================================
+2025-10-01 20:49:02,433 - __main__ - INFO - 🔄 CYCLE 217 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:49:02,433 - __main__ - INFO - ================================================================================
+2025-10-01 20:49:02,433 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:49:18,413 - __main__ - INFO -    Train: 99.66% | Test: 97.74%
+2025-10-01 20:49:18,413 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:49:18,479 - __main__ - INFO -    Last: 17.0 | Avg(100): 19.3
+2025-10-01 20:49:18,495 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:49:18,497 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:50:18,560 - __main__ - INFO - 
+2025-10-01 20:50:18,561 - __main__ - INFO - ================================================================================
+2025-10-01 20:50:18,561 - __main__ - INFO - 🔄 CYCLE 218 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:50:18,561 - __main__ - INFO - ================================================================================
+2025-10-01 20:50:18,561 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:50:35,478 - __main__ - INFO -    Train: 99.67% | Test: 97.67%
+2025-10-01 20:50:35,478 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:50:35,552 - __main__ - INFO -    Last: 13.0 | Avg(100): 19.1
+2025-10-01 20:50:35,559 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:50:35,561 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:51:35,612 - __main__ - INFO - 
+2025-10-01 20:51:35,612 - __main__ - INFO - ================================================================================
+2025-10-01 20:51:35,612 - __main__ - INFO - 🔄 CYCLE 219 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:51:35,612 - __main__ - INFO - ================================================================================
+2025-10-01 20:51:35,612 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:51:51,875 - __main__ - INFO -    Train: 99.55% | Test: 97.82%
+2025-10-01 20:51:51,876 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:51:51,951 - __main__ - INFO -    Last: 22.0 | Avg(100): 19.0
+2025-10-01 20:51:51,957 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:51:51,959 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:52:52,021 - __main__ - INFO - 
+2025-10-01 20:52:52,021 - __main__ - INFO - ================================================================================
+2025-10-01 20:52:52,021 - __main__ - INFO - 🔄 CYCLE 220 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:52:52,021 - __main__ - INFO - ================================================================================
+2025-10-01 20:52:52,021 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:53:08,964 - __main__ - INFO -    Train: 99.69% | Test: 97.93%
+2025-10-01 20:53:08,964 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:53:09,053 - __main__ - INFO -    Last: 17.0 | Avg(100): 18.7
+2025-10-01 20:53:09,056 - __main__ - INFO - 🌐 Consulting APIs...
+[92m20:53:09 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-10-01 20:53:09,069 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-10-01 20:53:09,284 - openai._base_client - INFO - Retrying request to /chat/completions in 0.420522 seconds
+2025-10-01 20:53:09,706 - openai._base_client - INFO - Retrying request to /chat/completions in 0.918457 seconds
+2025-10-01 20:53:10,634 - apis.litellm_wrapper - WARNING - LiteLLM call failed for gpt-4o-mini: litellm.InternalServerError: InternalServerError: OpenAIException - Connection error.
+2025-10-01 20:53:10,635 - apis.litellm_wrapper - WARNING - LiteLLM call failed for mistral-large-latest: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call.
+[92m20:53:10 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= gemini-2.0-flash-exp; provider = vertex_ai
+2025-10-01 20:53:10,636 - LiteLLM - INFO - 
+LiteLLM completion() model= gemini-2.0-flash-exp; provider = vertex_ai
+2025-10-01 20:53:13,684 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-10-01 20:53:17,639 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-10-01 20:53:22,831 - google.auth.compute_engine._metadata - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-10-01 20:53:22,831 - google.auth._default - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[92m20:53:22 - LiteLLM:ERROR[0m: vertex_llm_base.py:494 - Failed to load vertex credentials. Check to see if credentials containing partial/invalid information. Error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 490, in get_access_token
+    _credentials, credential_project_id = self.load_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 114, in load_auth
+    creds, creds_project_id = self._credentials_from_default_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 160, in _credentials_from_default_auth
+    return google_auth.default(scopes=scopes)
+  File "/usr/local/lib/python3.10/dist-packages/google/auth/_default.py", line 685, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-10-01 20:53:22,832 - LiteLLM - ERROR - Failed to load vertex credentials. Check to see if credentials containing partial/invalid information. Error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 490, in get_access_token
+    _credentials, credential_project_id = self.load_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 114, in load_auth
+    creds, creds_project_id = self._credentials_from_default_auth(
+  File "/usr/local/lib/python3.10/dist-packages/litellm/llms/vertex_ai/vertex_llm_base.py", line 160, in _credentials_from_default_auth
+    return google_auth.default(scopes=scopes)
+  File "/usr/local/lib/python3.10/dist-packages/google/auth/_default.py", line 685, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-10-01 20:53:22,837 - apis.litellm_wrapper - WARNING - LiteLLM call failed for gemini-2.0-flash-exp: litellm.APIConnectionError: Your default credentials were not found. To set up Application Default C
+2025-10-01 20:53:22,840 - apis.litellm_wrapper - WARNING - LiteLLM call failed for deepseek-chat: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call.
+[92m20:53:22 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= claude-3-5-sonnet-20241022; provider = anthropic
+2025-10-01 20:53:22,841 - LiteLLM - INFO - 
+LiteLLM completion() model= claude-3-5-sonnet-20241022; provider = anthropic
+2025-10-01 20:53:23,129 - apis.litellm_wrapper - WARNING - LiteLLM call failed for claude-3-5-sonnet-20241022: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_er
+2025-10-01 20:53:23,130 - apis.litellm_wrapper - WARNING - LiteLLM call failed for grok-beta: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call.
+2025-10-01 20:53:23,130 - apis.litellm_wrapper - INFO - ✅ Consulted 0/6 APIs successfully
+2025-10-01 20:53:23,131 - __main__ - INFO -    ✅ Consulted 0 APIs
+2025-10-01 20:53:23,131 - __main__ - INFO - 🧬 Evolving (simple)...
+2025-10-01 20:53:23,132 - extracted_algorithms.neural_evolution_core - INFO - 🧬 Gen 2: best=1.0792, avg=0.5322
+2025-10-01 20:53:23,133 - __main__ - INFO -    Gen 2: best=1.0792
+2025-10-01 20:53:23,133 - __main__ - INFO - 🧠 Evolving neurons...
+2025-10-01 20:53:23,138 - extracted_algorithms.self_modification_engine - INFO - 🧬 Generation 3: 50 survivors, 50 offspring
+2025-10-01 20:53:23,138 - __main__ - INFO -    Gen 3: pop=100
+2025-10-01 20:53:23,138 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 20:53:23,138 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.07%)
+2025-10-01 20:53:23,138 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 20:53:23,138 - __main__ - INFO - 🧬 Advanced evolution (V6.0)...
+2025-10-01 20:53:23,139 - extracted_algorithms.advanced_evolution_engine - INFO - 🧬 Gen 2: best=1.0273, avg=1.0271
+2025-10-01 20:53:23,139 - __main__ - INFO -    Gen 2: best=1.0273
+2025-10-01 20:53:23,143 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:53:23,146 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:53:23,149 - __main__ - INFO -    🏆 NEW MNIST RECORD: 97.93%
+2025-10-01 20:53:23,149 - __main__ - INFO - 💾 Saving all models...
+2025-10-01 20:53:23,154 - models.mnist_classifier - INFO - 💾 Model saved to /root/intelligence_system/models/mnist_model.pth
+2025-10-01 20:53:23,157 - agents.cleanrl_ppo_agent - INFO - 💾 PPO agent saved to /root/intelligence_system/models/ppo_cartpole.pth
+2025-10-01 20:53:23,159 - meta.agent_behavior_learner - INFO - 💾 Agent Behavior Learner saved
+2025-10-01 20:53:23,159 - extracted_algorithms.neural_evolution_core - INFO - 💾 Checkpoint saved: /root/intelligence_system/models/evolution/evolution_gen_2.json
+2025-10-01 20:53:23,160 - extracted_algorithms.advanced_evolution_engine - INFO - 💾 Advanced evolution checkpoint saved: /root/intelligence_system/models/advanced_evolution/advanced_evolution_gen_2.json
+2025-10-01 20:53:23,160 - __main__ - INFO -    ✅ All models saved
+2025-10-01 20:54:23,220 - __main__ - INFO - 
+2025-10-01 20:54:23,221 - __main__ - INFO - ================================================================================
+2025-10-01 20:54:23,221 - __main__ - INFO - 🔄 CYCLE 221 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:54:23,221 - __main__ - INFO - ================================================================================
+2025-10-01 20:54:23,221 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:54:39,827 - __main__ - INFO -    Train: 99.71% | Test: 97.78%
+2025-10-01 20:54:39,828 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:54:39,942 - __main__ - INFO -    Last: 13.0 | Avg(100): 19.1
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/loss.py:616: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+2025-10-01 20:54:39,949 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:54:39,951 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:55:40,014 - __main__ - INFO - 
+2025-10-01 20:55:40,014 - __main__ - INFO - ================================================================================
+2025-10-01 20:55:40,014 - __main__ - INFO - 🔄 CYCLE 222 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:55:40,014 - __main__ - INFO - ================================================================================
+2025-10-01 20:55:40,014 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:55:58,419 - __main__ - INFO -    Train: 99.76% | Test: 97.70%
+2025-10-01 20:55:58,419 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:55:58,515 - __main__ - INFO -    Last: 11.0 | Avg(100): 19.5
+2025-10-01 20:55:58,522 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:55:58,524 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:56:58,589 - __main__ - INFO - 
+2025-10-01 20:56:58,589 - __main__ - INFO - ================================================================================
+2025-10-01 20:56:58,589 - __main__ - INFO - 🔄 CYCLE 223 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:56:58,589 - __main__ - INFO - ================================================================================
+2025-10-01 20:56:58,589 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:57:14,708 - __main__ - INFO -    Train: 99.60% | Test: 97.51%
+2025-10-01 20:57:14,708 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:57:14,821 - __main__ - INFO -    Last: 23.0 | Avg(100): 19.6
+2025-10-01 20:57:14,833 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:57:14,835 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:58:14,895 - __main__ - INFO - 
+2025-10-01 20:58:14,895 - __main__ - INFO - ================================================================================
+2025-10-01 20:58:14,895 - __main__ - INFO - 🔄 CYCLE 224 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:58:14,895 - __main__ - INFO - ================================================================================
+2025-10-01 20:58:14,895 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:58:33,260 - __main__ - INFO -    Train: 99.76% | Test: 97.56%
+2025-10-01 20:58:33,261 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:58:33,366 - __main__ - INFO -    Last: 17.0 | Avg(100): 19.6
+2025-10-01 20:58:33,374 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:58:33,376 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 20:59:33,441 - __main__ - INFO - 
+2025-10-01 20:59:33,441 - __main__ - INFO - ================================================================================
+2025-10-01 20:59:33,441 - __main__ - INFO - 🔄 CYCLE 225 (V6.0 - IA³ COMPLETE)
+2025-10-01 20:59:33,441 - __main__ - INFO - ================================================================================
+2025-10-01 20:59:33,441 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 20:59:50,522 - __main__ - INFO -    Train: 99.77% | Test: 97.67%
+2025-10-01 20:59:50,523 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 20:59:50,660 - __main__ - INFO -    Last: 19.0 | Avg(100): 19.9
+2025-10-01 20:59:50,681 - __main__ - INFO - 🧠 Evolving neurons...
+2025-10-01 20:59:50,686 - extracted_algorithms.self_modification_engine - INFO - 🧬 Generation 4: 50 survivors, 50 offspring
+2025-10-01 20:59:50,686 - __main__ - INFO -    Gen 4: pop=100
+2025-10-01 20:59:50,686 - __main__ - INFO - 📚 Using integrated database knowledge...
+2025-10-01 20:59:50,687 - core.database_knowledge_engine - INFO - 📦 Extracted 20 weight samples for transfer learning
+2025-10-01 20:59:50,689 - core.database_knowledge_engine - INFO - 📈 Extracted 50 experience samples for replay
+2025-10-01 20:59:50,691 - core.database_knowledge_engine - INFO - 💡 Extracted 30 knowledge patterns
+2025-10-01 20:59:50,691 - __main__ - INFO -    Loaded: 20 weights, 50 experiences, 30 patterns
+2025-10-01 20:59:50,691 - __main__ - INFO -    Applied transfer learning to MNIST
+2025-10-01 20:59:50,694 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 20:59:50,696 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 21:00:50,758 - __main__ - INFO - 
+2025-10-01 21:00:50,758 - __main__ - INFO - ================================================================================
+2025-10-01 21:00:50,758 - __main__ - INFO - 🔄 CYCLE 226 (V6.0 - IA³ COMPLETE)
+2025-10-01 21:00:50,758 - __main__ - INFO - ================================================================================
+2025-10-01 21:00:50,758 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 21:01:07,572 - __main__ - INFO -    Train: 99.62% | Test: 97.87%
+2025-10-01 21:01:07,572 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 21:01:07,667 - __main__ - INFO -    Last: 15.0 | Avg(100): 19.8
+2025-10-01 21:01:07,677 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 21:01:07,679 - __main__ - WARNING - ⚠️  System integrity check failed!
+2025-10-01 21:02:07,744 - __main__ - INFO - 
+2025-10-01 21:02:07,744 - __main__ - INFO - ================================================================================
+2025-10-01 21:02:07,744 - __main__ - INFO - 🔄 CYCLE 227 (V6.0 - IA³ COMPLETE)
+2025-10-01 21:02:07,744 - __main__ - INFO - ================================================================================
+2025-10-01 21:02:07,744 - __main__ - INFO - 🧠 Training MNIST...
+2025-10-01 21:02:26,190 - __main__ - INFO -    Train: 99.75% | Test: 97.75%
+2025-10-01 21:02:26,190 - __main__ - INFO - 🎮 Training CartPole...
+2025-10-01 21:02:26,326 - __main__ - INFO -    Last: 21.0 | Avg(100): 20.0
+2025-10-01 21:02:26,331 - __main__ - INFO - 🔧 Self-modifying...
+2025-10-01 21:02:26,331 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 1 modifications (gap=0.25%)
+2025-10-01 21:02:26,331 - __main__ - INFO -    Proposed 1 modifications
+2025-10-01 21:02:26,335 - extracted_algorithms.code_validator - WARNING - 🚨 Security risk detected: eval(
+2025-10-01 21:02:26,337 - __main__ - WARNING - ⚠️  System integrity check failed!

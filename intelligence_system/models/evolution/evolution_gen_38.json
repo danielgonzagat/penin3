@@ -1,0 +1,195 @@
+{
+  "generation": 38,
+  "population": [
+    {
+      "layers": [
+        75
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0010690953145233552,
+      "dropout": 0.2228130491785937,
+      "fitness": 0.6750193238258362,
+      "age": 2
+    },
+    {
+      "layers": [
+        75
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0009362338181381812,
+      "dropout": 0.2565446907157416,
+      "fitness": 0.672067403793335,
+      "age": 1
+    },
+    {
+      "layers": [
+        75
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0008685991239893428,
+      "dropout": 0.23936990607862668,
+      "fitness": 0.5634959638118744,
+      "age": 3
+    },
+    {
+      "layers": [
+        103
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0007726648645194818,
+      "dropout": 0.23238134006853933,
+      "fitness": 0.5538966059684753,
+      "age": 1
+    },
+    {
+      "layers": [
+        75
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0008535769111958404,
+      "dropout": 0.26958286748840926,
+      "fitness": 0.5530339181423187,
+      "age": 3
+    },
+    {
+      "layers": [
+        75
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0007924157810818774,
+      "dropout": 0.25566654817277745,
+      "fitness": 0.5476486086845398,
+      "age": 1
+    },
+    {
+      "layers": [
+        87
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0005408431910391334,
+      "dropout": 0.23238134006853933,
+      "fitness": 0.5441465973854065,
+      "age": 1
+    },
+    {
+      "layers": [
+        87
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.0007741660120459303,
+      "dropout": 0.21687613936163186,
+      "fitness": 0.537591427564621,
+      "age": 2
+    },
+    {
+      "layers": [
+        66
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0011445903486694776,
+      "dropout": 0.2532460744623688,
+      "fitness": 0.5324410200119019,
+      "age": 2
+    },
+    {
+      "layers": [
+        87
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.0007741660120459303,
+      "dropout": 0.21687613936163186,
+      "fitness": 0.5314961075782776,
+      "age": 2
+    },
+    {
+      "layers": [
+        75
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0009362338181381812,
+      "dropout": 0.2565446907157416,
+      "fitness": 0.672067403793335,
+      "age": 1
+    },
+    {
+      "layers": [
+        75
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0010690953145233552,
+      "dropout": 0.23375055234178765,
+      "fitness": 0.6750193238258362,
+      "age": 2
+    },
+    {
+      "layers": [
+        75
+      ],
+      "activation": "relu",
+      "learning_rate": 0.001270793501115138,
+      "dropout": 0.21214872360466233,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        64
+      ],
+      "activation": "relu",
+      "learning_rate": 0.0007832908965639039,
+      "dropout": 0.18985658523785898,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        14,
+        75
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0007023157966861363,
+      "dropout": 0.24361735328850329,
+      "fitness": 0.0,
+      "age": 0
+    },
+    {
+      "layers": [
+        95
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0008324929686193716,
+      "dropout": 0.2348873667789384,
+      "fitness": 0.40945327281951904,
+      "age": 4
+    },
+    {
+      "layers": [
+        75
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0008099124534897092,
+      "dropout": 0.25956713734496695,
+      "fitness": 0.5135301053524017,
+      "age": 1
+    },
+    {
+      "layers": [
+        75
+      ],
+      "activation": "gelu",
+      "learning_rate": 0.0008637884023331395,
+      "dropout": 0.25485336650846724,
+      "fitness": 0.5240492224693298,
+      "age": 1
+    },
+    {
+      "layers": [
+        87
+      ],
+      "activation": "sigmoid",
+      "learning_rate": 0.0007741660120459303,
+      "dropout": 0.21687613936163186,
+      "fitness": 0.537591427564621,
+      "age": 2
+    },
+   
