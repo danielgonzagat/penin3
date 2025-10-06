@@ -1,0 +1,25 @@
+groups:
+  - name: darwinacci.rules
+    interval: 30s
+    rules:
+      - alert: DarwinacciCoverageDrop
+        expr: min_over_time(darwinacci_coverage[10m]) < 0.2
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Coverage below 20%"
+      - alert: DarwinacciNoAcceptance
+        expr: avg_over_time(darwinacci_accepted_rate[10m]) == 0
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "No champions accepted for 5m"
+      - alert: DarwinacciAnomalyZScore
+        expr: darwinacci_z_best > 3 or darwinacci_z_cov > 3
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Z-score anomaly detected"
