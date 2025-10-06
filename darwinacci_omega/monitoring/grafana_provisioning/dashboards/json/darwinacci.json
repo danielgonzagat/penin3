@@ -1,0 +1,13 @@
+{
+  "annotations": {"list": []},
+  "editable": true,
+  "panels": [
+    {"type": "timeseries", "title": "Best Score", "targets": [{"expr": "darwinacci_best_score"}], "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}},
+    {"type": "timeseries", "title": "Coverage", "targets": [{"expr": "darwinacci_coverage"}], "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0}},
+    {"type": "timeseries", "title": "Z-Scores", "targets": [{"expr": "darwinacci_z_best"}, {"expr": "darwinacci_z_cov"}], "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8}},
+    {"type": "timeseries", "title": "Acceptance Rates", "targets": [{"expr": "darwinacci_accepted_rate"}, {"expr": "darwinacci_canary_pass_rate"}], "gridPos": {"h": 8, "w": 12, "x": 12, "y": 8}}
+  ],
+  "schemaVersion": 38,
+  "title": "Darwinacci-Ω",
+  "version": 1
+}
