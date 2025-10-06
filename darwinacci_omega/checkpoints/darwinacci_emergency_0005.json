@@ -1,0 +1,29 @@
+{
+  "cycle": 5,
+  "champion": {
+    "genome": {
+      "maml_adaptation_steps": 5.0,
+      "mutation_rate": -0.12553086466584631,
+      "crossover_rate": 0.6945430315785864,
+      "meta_learning_rate": 1.0307172116491503e-05,
+      "linf_threshold": 0.03073710507457278,
+      "g395400": -0.10880564487731179,
+      "entropy": -0.30135911396651144,
+      "g266384": 0.0,
+      "hidden_size": 128.0,
+      "caos_plus_weight": 0.9206407203787786,
+      "ppo_epochs": 4.0,
+      "curiosity_weight": 0.4611465165517054,
+      "population_size": 50.0,
+      "survival_rate": 0.4438983740791064,
+      "auto_coding_freq": 10.0,
+      "ppo_clip": 0.24908450682265407,
+      "learning_rate": -0.9762030751480401
+    },
+    "score": 1.4999999996238675e-09
+  },
+  "population_size": 30,
+  "archive_size": 10,
+  "timestamp": 1759697069.1131139,
+  "reason": "emergency"
+}
