@@ -1,0 +1,32 @@
+name: darwinacci-ci
+
+on:
+  push:
+    paths:
+      - 'darwinacci_omega/**'
+      - '.github/workflows/darwinacci-ci.yml'
+  pull_request:
+    paths:
+      - 'darwinacci_omega/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install minimal deps
+        run: |
+          pip install -r requirements-darwinacci.txt
+      - name: Run Darwinacci tests
+        run: |
+          pytest -q darwinacci_omega/tests
+  docker:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -f Dockerfile.darwinacci -t darwinacci:ci .
