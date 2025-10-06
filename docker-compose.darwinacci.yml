@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  darwinacci:
+    build:
+      context: .
+      dockerfile: Dockerfile.darwinacci
+    environment:
+      - DARWINACCI_PROMETHEUS=1
+      - DARWINACCI_PROM_PORT=8011
+      - DARWINACCI_METRICS=1
+    ports:
+      - "8011:8011"
+  prometheus:
+    image: prom/prometheus:latest
+    volumes:
+      - ./darwinacci_omega/monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./darwinacci_omega/monitoring/alert_rules.yml:/etc/prometheus/alert_rules.yml
+    ports:
+      - "9090:9090"
+    depends_on:
+      - darwinacci
+  grafana:
+    image: grafana/grafana:latest
+    volumes:
+      - ./darwinacci_omega/monitoring/grafana_provisioning:/etc/grafana/provisioning
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
