@@ -1,0 +1,17 @@
+✓ Incompletude Infinita carregada automaticamente
+INFO:core.engine:[Darwinacci] Engine initialized: pop_size=30, max_cycles=10, seed=42, bins=89, novelty=(k=7, max=2000), arena_hist=8
+✅ Darwinacci engine created
+Running 10 cycles to verify fitness...
+INFO:core.engine:[Darwinacci] c=01 best=0.0000 acc=True cov=0.04 mut=0.105 cx=0.611 elite=4 worm=39aadfd9bd
+INFO:core.engine:[Darwinacci] c=02 best=0.8296 acc=True cov=0.10 mut=0.089 cx=0.697 elite=4 worm=f6de7b5729
+INFO:core.engine:[Darwinacci] c=03 best=0.5317 acc=False cov=0.12 mut=0.114 cx=0.558 elite=4 worm=3fe3c9a386
+INFO:core.engine:[Darwinacci] c=04 best=0.5321 acc=False cov=0.16 mut=0.099 cx=0.644 elite=4 worm=b56a3644ae
+INFO:core.engine:[Darwinacci] c=05 best=0.4830 acc=False cov=0.17 mut=0.084 cx=0.730 elite=4 worm=fc002a78c0
+INFO:core.engine:[Darwinacci] c=06 best=0.4599 acc=False cov=0.17 mut=0.108 cx=0.591 elite=4 worm=6ff07acd8c
+INFO:core.engine:[Darwinacci] c=07 best=0.3706 acc=False cov=0.17 mut=0.093 cx=0.677 elite=4 worm=95c151b3f8
+INFO:core.engine:[Darwinacci] c=08 best=0.8188 acc=False cov=0.20 mut=0.118 cx=0.538 elite=4 worm=4e749ca15c
+INFO:core.engine:[Darwinacci] c=09 best=0.4802 acc=False cov=0.21 mut=0.102 cx=0.623 elite=4 worm=5ec84b15af
+INFO:core.engine:[Darwinacci] c=10 best=0.4612 acc=False cov=0.21 mut=0.087 cx=0.709 elite=4 worm=2261c95e8e
+Traceback (most recent call last):
+  File "<string>", line 22, in <module>
+TypeError: 'Champ' object is not subscriptable
