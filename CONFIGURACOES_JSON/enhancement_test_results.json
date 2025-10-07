@@ -1,0 +1,168 @@
+{
+  "test_results": {
+    "ENHANCED": {
+      "label": "ENHANCED",
+      "total": 1000,
+      "task_scores": {
+        "xor": {
+          "mean": 0.497,
+          "std": 0.06607571414672717,
+          "max": 1.0,
+          "min": 0.25
+        },
+        "pattern": {
+          "mean": 0.4963199987411499,
+          "std": 0.06357088935340033,
+          "max": 0.7099999785423279,
+          "min": 0.30000001192092896
+        }
+      },
+      "fitness_stats": {
+        "mean": 0.5859193724760897,
+        "std": 1.1102230246251565e-16,
+        "max": 0.5859193724760898,
+        "min": 0.5859193724760898
+      },
+      "gene_analysis": {
+        "with_genes": {
+          "count": 1000,
+          "avg_fitness": 0.5859193724760897
+        }
+      }
+    },
+    "ORIGINAL": {
+      "label": "ORIGINAL",
+      "total": 1000,
+      "task_scores": {
+        "xor": {
+          "mean": 0.50025,
+          "std": 0.06373725362768622,
+          "max": 0.75,
+          "min": 0.0
+        },
+        "pattern": {
+          "mean": 0.5021599997580052,
+          "std": 0.06306452960829162,
+          "max": 0.7300000190734863,
+          "min": 0.27000001072883606
+        }
+      },
+      "fitness_stats": {
+        "mean": 0.5,
+        "std": 0.0,
+        "max": 0.5,
+        "min": 0.5
+      },
+      "gene_analysis": {
+        "without_genes": {
+          "count": 1000,
+          "avg_fitness": 0.5
+        }
+      }
+    }
+  },
+  "enhanced_evolution": [
+    {
+      "generation": 1,
+      "population": 900,
+      "avg_fitness": 0.5859193724760896
+    },
+    {
+      "generation": 2,
+      "population": 810,
+      "avg_fitness": 0.5976377599256117
+    },
+    {
+      "generation": 3,
+      "population": 729,
+      "avg_fitness": 0.6095905151241238
+    },
+    {
+      "generation": 4,
+      "population": 657,
+      "avg_fitness": 0.6217823254266063
+    },
+    {
+      "generation": 5,
+      "population": 592,
+      "avg_fitness": 0.6342179719351385
+    },
+    {
+      "generation": 6,
+      "population": 533,
+      "avg_fitness": 0.6469023313738413
+    },
+    {
+      "generation": 7,
+      "population": 480,
+      "avg_fitness": 0.6598403780013182
+    },
+    {
+      "generation": 8,
+      "population": 432,
+      "avg_fitness": 0.6730371855613447
+    },
+    {
+      "generation": 9,
+      "population": 389,
+      "avg_fitness": 0.6864979292725715
+    },
+    {
+      "generation": 10,
+      "population": 351,
+      "avg_fitness": 0.7002278878580227
+    }
+  ],
+  "original_evolution": [
+    {
+      "generation": 1,
+      "population": 900,
+      "avg_fitness": 0.5
+    },
+    {
+      "generation": 2,
+      "population": 810,
+      "avg_fitness": 0.5024999999999998
+    },
+    {
+      "generation": 3,
+      "population": 729,
+      "avg_fitness": 0.5050124999999996
+    },
+    {
+      "generation": 4,
+      "population": 657,
+      "avg_fitness": 0.5075375624999997
+    },
+    {
+      "generation": 5,
+      "population": 592,
+      "avg_fitness": 0.5100752503124998
+    },
+    {
+      "generation": 6,
+      "population": 533,
+      "avg_fitness": 0.5126256265640621
+    },
+    {
+      "generation": 7,
+      "population": 480,
+      "avg_fitness": 0.5151887546968823
+    },
+    {
+      "generation": 8,
+      "population": 432,
+      "avg_fitness": 0.5177646984703665
+    },
+    {
+      "generation": 9,
+      "population": 389,
+      "avg_fitness": 0.5203535219627186
+    },
+    {
+      "generation": 10,
+      "population": 351,
+      "avg_fitness": 0.5229552895725319
+    }
+  ]
+}

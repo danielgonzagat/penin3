@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-10-07T13:15:09.077880",
+  "environmental_factors": {
+    "system_load": 41359.70654296875,
+    "memory_usage": 0.696,
+    "disk_usage": 0.48200000000000004,
+    "network_activity": 1.0,
+    "cpu_temperature": 0.6119230769230769,
+    "external_events": 0,
+    "user_interactions": 1.0,
+    "time_of_day": 0.08333333333333333,
+    "random_noise": 0.3600967897010323,
+    "system_stress": 1.0,
+    "resource_contention": 0.0,
+    "interrupt_frequency": 0.0
+  },
+  "system_metrics": {
+    "cpu_usage": 99.1,
+    "memory_usage": 69.6,
+    "disk_usage": 48.2,
+    "active_processes": 66971
+  },
+  "external_events_count": 77,
+  "stress_level": 1.0,
+  "unpredictability_factor": 0.0018668022410878171
+}

@@ -1,0 +1,140 @@
+{
+  "timestamp": "2025-10-07T15:34:20.092719",
+  "intelligence_score": 0.07149079778014492,
+  "emergence_detected": false,
+  "code_history": [
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T15:34:07.454299",
+      "success": true,
+      "gain": 0.0
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T15:34:07.455063",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "if self.intelligence_score > 0.5: self.emergence_detected = True",
+      "timestamp": "2025-10-07T15:34:08.457110",
+      "success": true,
+      "gain": 0.0
+    },
+    {
+      "code": "if self.intelligence_score > 0.5: self.emergence_detected = True",
+      "timestamp": "2025-10-07T15:34:08.457466",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T15:34:09.459060",
+      "success": true,
+      "gain": 0.0
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T15:34:09.459267",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.intelligence_score += 0.01",
+      "timestamp": "2025-10-07T15:34:10.460621",
+      "success": true,
+      "gain": 0.01
+    },
+    {
+      "code": "self.intelligence_score += 0.01",
+      "timestamp": "2025-10-07T15:34:10.460815",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T15:34:11.461797",
+      "success": true,
+      "gain": 0.0
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T15:34:11.461920",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T15:34:12.463246",
+      "success": true,
+      "gain": 0.0
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T15:34:12.463422",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "if self.intelligence_score > 0.5: self.emergence_detected = True",
+      "timestamp": "2025-10-07T15:34:13.464790",
+      "success": true,
+      "gain": 0.0
+    },
+    {
+      "code": "if self.intelligence_score > 0.5: self.emergence_detected = True",
+      "timestamp": "2025-10-07T15:34:13.464988",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.intelligence_score = max(0.0, min(1.0, self.intelligence_score + random.uniform(-0.1, 0.1)))",
+      "timestamp": "2025-10-07T15:34:14.465797",
+      "success": false,
+      "error": "name 'max' is not defined"
+    },
+    {
+      "code": "self.intelligence_score = max(0.0, min(1.0, self.intelligence_score + random.uniform(-0.1, 0.1)))",
+      "timestamp": "2025-10-07T15:34:15.467431",
+      "success": false,
+      "error": "name 'max' is not defined"
+    },
+    {
+      "code": "if len(self.code_history) > 100: self.intelligence_score += 0.1",
+      "timestamp": "2025-10-07T15:34:16.469083",
+      "success": false,
+      "error": "name 'len' is not defined"
+    },
+    {
+      "code": "self.intelligence_score += (0.03)",
+      "timestamp": "2025-10-07T15:34:17.469693",
+      "success": true,
+      "gain": 0.03
+    },
+    {
+      "code": "self.intelligence_score += (0.03)",
+      "timestamp": "2025-10-07T15:34:17.469879",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "print(f'Intelig\u00eancia: {self.intelligence_score}')",
+      "timestamp": "2025-10-07T15:34:18.471301",
+      "success": false,
+      "error": "name 'print' is not defined"
+    },
+    {
+      "code": "self.intelligence_score += (0.03)",
+      "timestamp": "2025-10-07T15:34:19.472592",
+      "success": true,
+      "gain": 0.030000000000000006
+    },
+    {
+      "code": "self.intelligence_score += (0.03)",
+      "timestamp": "2025-10-07T15:34:19.472746",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    }
+  ],
+  "total_cycles": 22
+}

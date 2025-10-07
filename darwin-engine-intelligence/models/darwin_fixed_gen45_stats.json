@@ -1,0 +1,829 @@
+{
+  "generation": 45,
+  "population": 254,
+  "evolution_history": [
+    {
+      "generation": 41,
+      "initial_population": 23853,
+      "final_population": 20276,
+      "births": 0,
+      "darwin_stats": {
+        "initial_population": 23853,
+        "final_population": 20276,
+        "deaths_total": 3577,
+        "deaths_by_evolution": 0,
+        "deaths_by_selection": 3577,
+        "mortality_rate": 0.14996017272460488,
+        "survival_reasons": {
+          "first_evaluation": 23853
+        }
+      },
+      "avg_fitness": 0.5925133855358152
+    },
+    {
+      "generation": 42,
+      "initial_population": 20276,
+      "final_population": 8381,
+      "births": 0,
+      "darwin_stats": {
+        "initial_population": 20276,
+        "final_population": 8381,
+        "deaths_total": 11895,
+        "deaths_by_evolution": 11895,
+        "deaths_by_selection": 0,
+        "mortality_rate": 0.5866541724205958,
+        "survival_reasons": {
+          "evolved (+0.063)": 12,
+          "evolved (+0.035)": 7516,
+          "stagnation_tolerated (young)": 251,
+          "evolved (+0.014)": 99,
+          "evolved (+0.182)": 4,
+          "evolved (+0.021)": 117,
+          "evolved (+0.028)": 166,
+          "evolved (+0.098)": 2,
+          "evolved (+0.203)": 5,
+          "evolved (+0.105)": 4,
+          "evolved (+0.168)": 4,
+          "evolved (+0.042)": 94,
+          "evolved (+0.126)": 1,
+          "evolved (+0.056)": 20,
+          "evolved (+0.049)": 43,
+          "evolved (+0.217)": 1,
+          "evolved (+0.189)": 4,
+          "evolved (+0.175)": 1,
+          "evolved (+0.154)": 7,
+          "evolved (+0.119)": 5,
+          "evolved (+0.161)": 3,
+          "evolved (+0.140)": 1,
+          "evolved (+0.231)": 1,
+          "evolved (+0.133)": 6,
+          "evolved (+0.196)": 1,
+          "evolved (+0.070)": 5,
+          "evolved (+0.077)": 1,
+          "evolved (+0.147)": 2,
+          "evolved (+0.112)": 3,
+          "evolved (+0.210)": 1,
+          "evolved (+0.084)": 1
+        }
+      },
+      "avg_fitness": 0.5924112052817981
+    },
+    {
+      "generation": 43,
+      "initial_population": 8381,
+      "final_population": 350,
+      "births": 0,
+      "darwin_stats": {
+        "initial_population": 8381,
+        "final_population": 350,
+        "deaths_total": 8031,
+        "deaths_by_evolution": 8031,
+        "deaths_by_selection": 0,
+        "mortality_rate": 0.9582388736427634,
+        "survival_reasons": {
+          "stagnation_tolerated (young)": 350
+        }
+      },
+      "avg_fitness": 0.5796946463436202
+    },
+    {
+      "generation": 44,
+      "initial_population": 350,
+      "final_population": 298,
+      "births": 0,
+      "darwin_stats": {
+        "initial_population": 350,
+        "final_population": 298,
+        "deaths_total": 52,
+        "deaths_by_evolution": 0,
+        "deaths_by_selection": 52,
+        "mortality_rate": 0.14857142857142858,
+        "survival_reasons": {
+          "stagnation_tolerated (young)": 251,
+          "evolved (+0.014)": 99
+        }
+      },
+      "avg_fitness": 0.5886625416832374
+    },
+    {
+      "generation": 45,
+      "initial_population": 298,
+      "final_population": 254,
+      "births": 0,
+      "darwin_stats": {
+        "initial_population": 298,
+        "final_population": 254,
+        "deaths_total": 44,
+        "deaths_by_evolution": 0,
+        "deaths_by_selection": 44,
+        "mortality_rate": 0.1476510067114094,
+        "survival_reasons": {
+          "stagnation_tolerated (young)": 298
+        }
+      },
+      "avg_fitness": 0.5898584865410832
+    }
+  ],
+  "darwin_log": [
+    {
+      "id": "gen40_child_23838",
+      "generation": 43,
+      "fitness": 0.5686387338749433,
+      "reason": "regressed (-0.029)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen40_child_23839",
+      "generation": 43,
+      "fitness": 0.5933907068966487,
+      "reason": "regressed (-0.029)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen40_child_23848",
+      "generation": 43,
+      "fitness": 0.576006550818033,
+      "reason": "regressed (-0.029)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen40_child_23851",
+      "generation": 43,
+      "fitness": 0.5747725035169626,
+      "reason": "regressed (-0.029)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen32_child_14917",
+      "generation": 44,
+      "fitness": 0.5331671358492136,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "api_openai_ia3_neurons_600_updated_20250924_153515_0039",
+      "generation": 44,
+      "fitness": 0.5372687837688729,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen37_child_19384",
+      "generation": 44,
+      "fitness": 0.5396346253021242,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen36_child_18383",
+      "generation": 44,
+      "fitness": 0.5449670677578068,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen12_child_4859",
+      "generation": 44,
+      "fitness": 0.5457390776563957,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "api_openai_ia3_neurons_600_updated_20250924_162652_0084",
+      "generation": 44,
+      "fitness": 0.5459093184461145,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen12_child_5012",
+      "generation": 44,
+      "fitness": 0.5461181079208226,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen30_child_13380",
+      "generation": 44,
+      "fitness": 0.5463828678410241,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen10_child_4293",
+      "generation": 44,
+      "fitness": 0.5468258465332869,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen4_child_3058",
+      "generation": 44,
+      "fitness": 0.5479411490055869,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "neuron_00220",
+      "generation": 44,
+      "fitness": 0.5504405623608574,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen14_child_5505",
+      "generation": 44,
+      "fitness": 0.5509118369421444,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen9_child_4073",
+      "generation": 44,
+      "fitness": 0.5515372448736832,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "neuron_00272",
+      "generation": 44,
+      "fitness": 0.5518716723917778,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen1_child_2411",
+      "generation": 44,
+      "fitness": 0.5521327819646097,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen11_child_4561",
+      "generation": 44,
+      "fitness": 0.5524824198237712,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen3_child_2788",
+      "generation": 44,
+      "fitness": 0.5528513782077575,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "neuron_00125",
+      "generation": 44,
+      "fitness": 0.55322029096496,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "api_openai_ia3_neurons_600_updated_20250924_162652_0017",
+      "generation": 44,
+      "fitness": 0.5533247351761847,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen23_child_9306",
+      "generation": 44,
+      "fitness": 0.5543046936000802,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen16_child_6137",
+      "generation": 44,
+      "fitness": 0.5546791843628164,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen29_child_12656",
+      "generation": 44,
+      "fitness": 0.5556035369634265,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen2_child_2654",
+      "generation": 44,
+      "fitness": 0.556343497718979,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen34_child_16554",
+      "generation": 44,
+      "fitness": 0.5567212886959586,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen16_child_6222",
+      "generation": 44,
+      "fitness": 0.556810958695311,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 0
+    },
+    {
+      "id": "gen12_child_4995",
+      "generation": 44,
+      "fitness": 0.5569676268417983,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen16_child_6116",
+      "generation": 44,
+      "fitness": 0.5573458171116921,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen36_child_18461",
+      "generation": 44,
+      "fitness": 0.5582362648711566,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen28_child_12197",
+      "generation": 44,
+      "fitness": 0.5583941530125204,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 0
+    },
+    {
+      "id": "gen29_child_12720",
+      "generation": 44,
+      "fitness": 0.5584170557968617,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 0
+    },
+    {
+      "id": "gen3_child_2904",
+      "generation": 44,
+      "fitness": 0.5584293390463448,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen16_child_6053",
+      "generation": 44,
+      "fitness": 0.5587197264596511,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen36_child_18661",
+      "generation": 44,
+      "fitness": 0.5587971976880739,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen7_child_3680",
+      "generation": 44,
+      "fitness": 0.559398142250614,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "api_gemini_ia3_neurons_600_updated_20250924_160347_0016",
+      "generation": 44,
+      "fitness": 0.5594767623501186,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen2_child_2629",
+      "generation": 44,
+      "fitness": 0.5597683911257051,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen5_child_3321",
+      "generation": 44,
+      "fitness": 0.5601600071763313,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen24_child_9715",
+      "generation": 44,
+      "fitness": 0.5602867550773427,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen7_child_3684",
+      "generation": 44,
+      "fitness": 0.5604332847409724,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen6_child_3495",
+      "generation": 44,
+      "fitness": 0.5604812654218165,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen22_child_8711",
+      "generation": 44,
+      "fitness": 0.560532904992575,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen20_child_8027",
+      "generation": 44,
+      "fitness": 0.561400642197202,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen36_child_18494",
+      "generation": 44,
+      "fitness": 0.56179243260379,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen28_child_11975",
+      "generation": 44,
+      "fitness": 0.5620248112599956,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen24_child_9662",
+      "generation": 44,
+      "fitness": 0.5622029675220477,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 0
+    },
+    {
+      "id": "gen14_child_5485",
+      "generation": 44,
+      "fitness": 0.5626460110646645,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen30_child_13630",
+      "generation": 44,
+      "fitness": 0.562818609955037,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen22_child_8744",
+      "generation": 44,
+      "fitness": 0.5628577176530517,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen12_child_4949",
+      "generation": 44,
+      "fitness": 0.5629421222726992,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "api_anthropic_ia3_neurons_600_updated_20250924_153515_0086",
+      "generation": 44,
+      "fitness": 0.5631424170303481,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen11_child_4649",
+      "generation": 44,
+      "fitness": 0.5633433696137787,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen39_child_21794",
+      "generation": 44,
+      "fitness": 0.5633436916459817,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 3
+    },
+    {
+      "id": "gen3_child_2881",
+      "generation": 45,
+      "fitness": 0.5557052771206711,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "neuron_g36_output_037",
+      "generation": 45,
+      "fitness": 0.5566028667402878,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen38_child_20403",
+      "generation": 45,
+      "fitness": 0.5566299631616819,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen35_child_17508",
+      "generation": 45,
+      "fitness": 0.5567141738676444,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen25_child_10362",
+      "generation": 45,
+      "fitness": 0.5576087998215588,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen30_child_13373",
+      "generation": 45,
+      "fitness": 0.5581838582493335,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen28_child_12372",
+      "generation": 45,
+      "fitness": 0.5582210187104828,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen19_child_7198",
+      "generation": 45,
+      "fitness": 0.559293439028675,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen28_child_11958",
+      "generation": 45,
+      "fitness": 0.5599068278514541,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "neuron_g36_input_081",
+      "generation": 45,
+      "fitness": 0.5599148576994889,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen37_child_19342",
+      "generation": 45,
+      "fitness": 0.5609717825397653,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen18_child_6840",
+      "generation": 45,
+      "fitness": 0.5611578846344158,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen34_child_16698",
+      "generation": 45,
+      "fitness": 0.5615756586806206,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen14_child_5426",
+      "generation": 45,
+      "fitness": 0.5616946117925578,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen37_child_19350",
+      "generation": 45,
+      "fitness": 0.5617671253309914,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen4_child_3026",
+      "generation": 45,
+      "fitness": 0.5622844427592866,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen15_child_6031",
+      "generation": 45,
+      "fitness": 0.5624421951314743,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "api_openai_ia3_neurons_600_updated_20250924_162652_0078",
+      "generation": 45,
+      "fitness": 0.5626826246693093,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen26_child_10897",
+      "generation": 45,
+      "fitness": 0.5631639177507982,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen16_child_6400",
+      "generation": 45,
+      "fitness": 0.5633745207853588,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen22_child_8550",
+      "generation": 45,
+      "fitness": 0.5637461319679367,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen30_child_13460",
+      "generation": 45,
+      "fitness": 0.5638527566291406,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen22_child_8610",
+      "generation": 45,
+      "fitness": 0.5643314526110251,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen30_child_13521",
+      "generation": 45,
+      "fitness": 0.5644685134381286,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen6_child_3463",
+      "generation": 45,
+      "fitness": 0.564902794859816,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "neuron_00078",
+      "generation": 45,
+      "fitness": 0.5649348100000879,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen20_child_7644",
+      "generation": 45,
+      "fitness": 0.5651824832780022,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen21_child_8273",
+      "generation": 45,
+      "fitness": 0.5654389489026038,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen34_child_16608",
+      "generation": 45,
+      "fitness": 0.5656552093296525,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "api_openai_ia3_neurons_20250924_141200_0039",
+      "generation": 45,
+      "fitness": 0.5660229565170788,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen40_child_22955",
+      "generation": 45,
+      "fitness": 0.5665978293835902,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen11_child_4588",
+      "generation": 45,
+      "fitness": 0.5668088820447057,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen21_child_8505",
+      "generation": 45,
+      "fitness": 0.5670151117662351,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen28_child_12003",
+      "generation": 45,
+      "fitness": 0.5670820275033431,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "api_xai_ia3_neurons_600_updated_20250924_162652_0015",
+      "generation": 45,
+      "fitness": 0.5671140635396845,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen25_child_10226",
+      "generation": 45,
+      "fitness": 0.5673249229150709,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen28_child_12566",
+      "generation": 45,
+      "fitness": 0.5677709839635113,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen25_child_10139",
+      "generation": 45,
+      "fitness": 0.5678454460900241,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen8_child_3956",
+      "generation": 45,
+      "fitness": 0.5678487405858739,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen30_child_13481",
+      "generation": 45,
+      "fitness": 0.5682378549205631,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen32_child_14961",
+      "generation": 45,
+      "fitness": 0.5683158561827101,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "neuron_00227",
+      "generation": 45,
+      "fitness": 0.5686196264990159,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 1
+    },
+    {
+      "id": "gen9_child_4101",
+      "generation": 45,
+      "fitness": 0.5688101046594134,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    },
+    {
+      "id": "gen6_child_3408",
+      "generation": 45,
+      "fitness": 0.5688346377960021,
+      "reason": "forced_selection (low_fitness)",
+      "stagnations": 4
+    }
+  ]
+}

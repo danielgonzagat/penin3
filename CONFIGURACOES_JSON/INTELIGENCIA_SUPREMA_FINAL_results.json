@@ -1,0 +1,118 @@
+{
+  "cycles": 10,
+  "elapsed": 3.026510715484619,
+  "final_fitness": 1.8977902518197185,
+  "final_consciousness": 0.02396308533968258,
+  "emergences": 0,
+  "oracle_queries": 1,
+  "systems_real": [
+    "Vision (ResNet18)",
+    "TEIS (Gym CartPole)",
+    "Oracle (6 frontiers)",
+    "AGI PENIN (86k)",
+    "Neural Farm",
+    "Consciousness"
+  ],
+  "results": [
+    {
+      "cycle": 0,
+      "vision_confidence": 0.4270686209201813,
+      "fitness": 0.9366334715646322,
+      "teis_reward": 1.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.009366334715646322,
+      "oracle_insight": null,
+      "emergences": 0
+    },
+    {
+      "cycle": 1,
+      "vision_confidence": 0.3665790855884552,
+      "fitness": 1.001807328164422,
+      "teis_reward": 2.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.01001807328164422,
+      "oracle_insight": null,
+      "emergences": 0
+    },
+    {
+      "cycle": 2,
+      "vision_confidence": 0.34801802039146423,
+      "fitness": 0.9763512029628219,
+      "teis_reward": 3.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.010272634533660221,
+      "oracle_insight": null,
+      "emergences": 0
+    },
+    {
+      "cycle": 3,
+      "vision_confidence": 0.40254640579223633,
+      "fitness": 1.2614244363177542,
+      "teis_reward": 4.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.013123366867209545,
+      "oracle_insight": null,
+      "emergences": 0
+    },
+    {
+      "cycle": 4,
+      "vision_confidence": 0.3450013995170593,
+      "fitness": 1.386099291353428,
+      "teis_reward": 5.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.014370115417566283,
+      "oracle_insight": null,
+      "emergences": 0
+    },
+    {
+      "cycle": 5,
+      "vision_confidence": 0.26811492443084717,
+      "fitness": 1.463735571129847,
+      "teis_reward": 6.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.015146478215330472,
+      "oracle_insight": "Increase training intensity and optimize your recovery.",
+      "emergences": 0
+    },
+    {
+      "cycle": 6,
+      "vision_confidence": 0.2291908711194992,
+      "fitness": 1.5621358741805222,
+      "teis_reward": 7.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.016130481245837224,
+      "oracle_insight": null,
+      "emergences": 0
+    },
+    {
+      "cycle": 7,
+      "vision_confidence": 0.27670860290527344,
+      "fitness": 1.660424880454126,
+      "teis_reward": 8.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.01711337130857326,
+      "oracle_insight": null,
+      "emergences": 0
+    },
+    {
+      "cycle": 8,
+      "vision_confidence": 0.2667700946331024,
+      "fitness": 1.4366218645814564,
+      "teis_reward": 9.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.019351401467299956,
+      "oracle_insight": null,
+      "emergences": 0
+    },
+    {
+      "cycle": 9,
+      "vision_confidence": 0.5111702084541321,
+      "fitness": 1.8977902518197185,
+      "teis_reward": 10.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.02396308533968258,
+      "oracle_insight": null,
+      "emergences": 0
+    }
+  ]
+}

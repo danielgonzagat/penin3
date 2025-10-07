@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-09-24T00:21:35.733810",
+  "cycles": 50,
+  "initial_performance": 0.5817898107788018,
+  "final_performance": 0.5648707293904122,
+  "improvement_percent": -2.9081089209419457,
+  "emergent_behaviors": 0,
+  "components": {
+    "IA3_CNN": {
+      "accuracy": 0.969,
+      "type": "Vision (MNIST CNN)",
+      "status": "Modelo treinado 96.9%"
+    },
+    "TEIS_RL": {
+      "generation": 100,
+      "fitness": 5.0,
+      "type": "Reinforcement Learning",
+      "status": "Aprendizado por refor\u00e7o ativo"
+    },
+    "Neural_Farm": {
+      "generation": 100,
+      "neurons": 7,
+      "type": "Evolutionary Neural Network",
+      "status": "Evolu\u00e7\u00e3o neural cont\u00ednua"
+    }
+  }
+}

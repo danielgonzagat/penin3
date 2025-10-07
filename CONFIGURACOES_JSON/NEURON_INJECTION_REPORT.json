@@ -1,0 +1,94 @@
+{
+  "timestamp": "2025-10-04T00:57:08.778540",
+  "source": "darwin_fixed_gen45.pt",
+  "survivors_loaded": 254,
+  "systems_injected": [
+    {
+      "system": "/root/intelligence_system/core/system_v7_ultimate.py",
+      "timestamp": "2025-10-04T00:57:08.935463",
+      "neurons_count": 254,
+      "status": "success"
+    },
+    {
+      "system": "/root/intelligence_system/core/system_v7_honest.py",
+      "timestamp": "2025-10-04T00:57:08.936317",
+      "neurons_count": 254,
+      "status": "success"
+    },
+    {
+      "system": "/root/intelligence_system/core/system_v7_real.py",
+      "timestamp": "2025-10-04T00:57:08.936972",
+      "neurons_count": 254,
+      "status": "success"
+    },
+    {
+      "system": "/root/penin3/",
+      "timestamp": "2025-10-04T00:57:08.937219",
+      "neurons_count": 254,
+      "status": "success"
+    },
+    {
+      "system": "/root/peninaocubo/",
+      "timestamp": "2025-10-04T00:57:08.937367",
+      "neurons_count": 254,
+      "status": "success"
+    },
+    {
+      "system": "/root/agi_penin_amplifier/",
+      "timestamp": "2025-10-04T00:57:08.937501",
+      "neurons_count": 254,
+      "status": "success"
+    },
+    {
+      "system": "/root/agi_penin_transcendent/",
+      "timestamp": "2025-10-04T00:57:08.937639",
+      "neurons_count": 254,
+      "status": "success"
+    },
+    {
+      "system": "/root/real_intelligence_system/",
+      "timestamp": "2025-10-04T00:57:08.937868",
+      "neurons_count": 254,
+      "status": "success"
+    },
+    {
+      "system": "/root/IA3_EMERGENT_CORE_deterministic.py",
+      "timestamp": "2025-10-04T00:57:08.938036",
+      "neurons_count": 254,
+      "status": "success"
+    },
+    {
+      "system": "/root/unified_real_intelligence_super_system.py",
+      "timestamp": "2025-10-04T00:57:08.938189",
+      "neurons_count": 254,
+      "status": "success"
+    },
+    {
+      "system": "/root/NEURAL_GENESIS_IA3.py",
+      "timestamp": "2025-10-04T00:57:08.938349",
+      "neurons_count": 254,
+      "status": "success"
+    },
+    {
+      "system": "/root/swarm_intelligence.py",
+      "timestamp": "2025-10-04T00:57:08.938495",
+      "neurons_count": 254,
+      "status": "success"
+    },
+    {
+      "system": "/root/teis_v2_enhanced.py",
+      "timestamp": "2025-10-04T00:57:08.938642",
+      "neurons_count": 254,
+      "status": "success"
+    },
+    {
+      "system": "/root/agent_behavior_learner.py",
+      "timestamp": "2025-10-04T00:57:08.938794",
+      "neurons_count": 254,
+      "status": "success"
+    }
+  ],
+  "injection_log": [],
+  "completed_at": "2025-10-04T00:57:08.938808",
+  "total_systems_injected": 14
+}

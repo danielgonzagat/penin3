@@ -1,0 +1,280 @@
+"""
+Emergence Tracker - Detecta surprises estatísticas e system connections
+"""
+import sqlite3
+import logging
+from pathlib import Path
+from typing import Dict, List, Optional, Any
+from datetime import datetime
+from collections import defaultdict
+
+# FIX: Import numpy safely with timeout protection
+try:
+    import numpy as np
+    _NUMPY_AVAILABLE = True
+except Exception:
+    _NUMPY_AVAILABLE = False
+    # Fallback: use Python builtins
+    class np:
+        @staticmethod
+        def mean(arr):
+            return sum(arr) / len(arr) if arr else 0.0
+        @staticmethod
+        def std(arr):
+            if not arr:
+                return 0.0
+            mean_val = sum(arr) / len(arr)
+            # Use Bessel's correction for small samples (sample std)
+            denom = max(1, len(arr) - 1)
+            variance = sum((x - mean_val) ** 2 for x in arr) / denom
+            return variance ** 0.5
+
+logger = logging.getLogger(__name__)
+
+
+class EmergenceTracker:
+    """Tracks statistical surprises and emergent patterns"""
+    
+    def __init__(self, surprises_db: Path, connections_db: Path):
+        self.surprises_db = surprises_db
+        self.connections_db = connections_db
+        self._init_dbs()
+        
+        # Rolling statistics for surprise detection
+        self.metric_history = defaultdict(list)
+        self.max_history = 100
+    
+    def _init_dbs(self):
+        """Initialize databases"""
+        try:
+            # Surprises DB
+            with sqlite3.connect(self.surprises_db) as conn:
+                conn.execute("""
+                    CREATE TABLE IF NOT EXISTS surprises (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        event_type TEXT NOT NULL,
+                        metric_name TEXT NOT NULL,
+                        expected_value REAL,
+                        actual_value REAL,
+                        sigma REAL NOT NULL,
+                        episode INTEGER,
+                        timestamp INTEGER NOT NULL
+                    )
+                """)
+                conn.execute("""
+                    CREATE INDEX IF NOT EXISTS idx_surprises_sigma 
+                    ON surprises(sigma DESC)
+                """)
+                conn.execute("""
+                    CREATE INDEX IF NOT EXISTS idx_surprises_timestamp 
+                    ON surprises(timestamp DESC)
+                """)
+                # Raw metrics table for full observability
+                conn.execute("""
+                    CREATE TABLE IF NOT EXISTS metrics_raw (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        metric_name TEXT NOT NULL,
+                        value REAL NOT NULL,
+                        episode INTEGER,
+                        timestamp INTEGER NOT NULL
+                    )
+                """)
+                conn.execute("""
+                    CREATE INDEX IF NOT EXISTS idx_metrics_raw_timestamp 
+                    ON metrics_raw(timestamp DESC)
+                """)
+                # Diagnostics with lower threshold (>=2σ)
+                conn.execute("""
+                    CREATE TABLE IF NOT EXISTS diagnostics (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        metric_name TEXT NOT NULL,
+                        expected_value REAL,
+                        actual_value REAL,
+                        sigma REAL NOT NULL,
+                        episode INTEGER,
+                        timestamp INTEGER NOT NULL
+                    )
+                """)
+                conn.execute("""
+                    CREATE INDEX IF NOT EXISTS idx_diagnostics_sigma 
+                    ON diagnostics(sigma DESC)
+                """)
+            
+            # Connections DB
+            with sqlite3.connect(self.connections_db) as conn:
+                conn.execute("""
+                    CREATE TABLE IF NOT EXISTS connections (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        source_system TEXT NOT NULL,
+                        target_system TEXT NOT NULL,
+                        connection_type TEXT,
+                        strength REAL,
+                        data_flow TEXT,
+                        timestamp INTEGER NOT NULL
+                    )
+                """)
+                conn.execute("""
+                    CREATE INDEX IF NOT EXISTS idx_connections_timestamp 
+                    ON connections(timestamp DESC)
+                """)
+                
+            logger.info("✅ Emergence tracking DBs initialized")
+            
+        except Exception as e:
+            logger.error(f"Failed to init emergence DBs: {e}")
+            raise
+    
+    def track_metric(self, metric_name: str, value: float, episode: Optional[int] = None):
+        """Track a metric and detect statistical surprises"""
+        try:
+            # Persist raw metric for full-fidelity analysis
+            try:
+                with sqlite3.connect(self.surprises_db) as conn:
+                    conn.execute(
+                        """
+                        INSERT INTO metrics_raw (metric_name, value, episode, timestamp)
+                        VALUES (?, ?, ?, ?)
+                        """,
+                        (metric_name, float(value), episode, int(datetime.now().timestamp())),
+                    )
+                    conn.commit()
+            except Exception:
+                pass
+
+            # Add to history
+            self.metric_history[metric_name].append(value)
+            if len(self.metric_history[metric_name]) > self.max_history:
+                self.metric_history[metric_name].pop(0)
+            
+            # Need at least 10 samples for statistics
+            history = self.metric_history[metric_name]
+            if len(history) < 10:
+                return
+            
+            # Compute statistics
+            mean = np.mean(history[:-1])  # Exclude current value
+            std = np.std(history[:-1])
+            
+            if std < 1e-6:  # Avoid division by zero
+                return
+            
+            # Compute z-score (sigma)
+            z_score = abs((value - mean) / std)
+
+            # Record diagnostics for moderate anomalies (>= 2σ)
+            if z_score >= 2.0:
+                try:
+                    with sqlite3.connect(self.surprises_db) as conn:
+                        conn.execute(
+                            """
+                            INSERT INTO diagnostics (metric_name, expected_value, actual_value, sigma, episode, timestamp)
+                            VALUES (?, ?, ?, ?, ?, ?)
+                            """,
+                            (metric_name, float(mean), float(value), float(z_score), episode, int(datetime.now().timestamp())),
+                        )
+                        conn.commit()
+                except Exception:
+                    pass
+            
+            # If >3σ, it's a surprise!
+            if z_score > 3.0:
+                self.record_surprise(
+                    event_type="statistical_anomaly",
+                    metric_name=metric_name,
+                    expected_value=float(mean),
+                    actual_value=float(value),
+                    sigma=float(z_score),
+                    episode=episode
+                )
+                logger.warning(
+                    f"🌟 SURPRISE DETECTED: {metric_name} = {value:.3f} "
+                    f"(expected {mean:.3f}, {z_score:.1f}σ deviation!)"
+                )
+                # Prometheus and critical alerts for sigma >= 5
+                try:
+                    if z_score >= 5.0:
+                        from metrics_exporter import Metrics
+                        import asyncio
+                        asyncio.run(Metrics.set_ubrain_surprise_count(1.0))
+                        asyncio.run(Metrics.set_ubrain_surprise_max_sigma(float(z_score)))
+                        logger.critical(
+                            f"🚨 HIGH-SIGMA SURPRISE (>=5σ): metric={metric_name} sigma={z_score:.2f}"
+                        )
+                except Exception:
+                    pass
+        
+        except Exception as e:
+            logger.error(f"Failed to track metric {metric_name}: {e}")
+    
+    def record_surprise(self, event_type: str, metric_name: str,
+                       expected_value: float, actual_value: float,
+                       sigma: float, episode: Optional[int] = None):
+        """Record a surprise event"""
+        try:
+            with sqlite3.connect(self.surprises_db) as conn:
+                conn.execute("""
+                    INSERT INTO surprises (
+                        event_type, metric_name, expected_value, actual_value,
+                        sigma, episode, timestamp
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?)
+                """, (event_type, metric_name, expected_value, actual_value,
+                     sigma, episode, int(datetime.now().timestamp())))
+                conn.commit()
+            # WORM-like alert not available here; best-effort logging is done in track_metric.
+        except Exception as e:
+            logger.error(f"Failed to record surprise: {e}")
+    
+    def record_connection(self, source_system: str, target_system: str,
+                         connection_type: str = "data_flow",
+                         strength: float = 1.0, data_flow: Optional[str] = None):
+        """Record a system connection"""
+        try:
+            with sqlite3.connect(self.connections_db) as conn:
+                conn.execute("""
+                    INSERT INTO connections (
+                        source_system, target_system, connection_type,
+                        strength, data_flow, timestamp
+                    ) VALUES (?, ?, ?, ?, ?, ?)
+                """, (source_system, target_system, connection_type,
+                     strength, data_flow, int(datetime.now().timestamp())))
+                conn.commit()
+        except Exception as e:
+            logger.error(f"Failed to record connection: {e}")
+    
+    def get_high_sigma_surprises(self, min_sigma: float = 5.0, limit: int = 20) -> List[Dict]:
+        """Get high-sigma surprises"""
+        try:
+            with sqlite3.connect(self.surprises_db) as conn:
+                conn.row_factory = sqlite3.Row
+                results = conn.execute("""
+                    SELECT * FROM surprises 
+                    WHERE sigma >= ?
+                    ORDER BY sigma DESC 
+                    LIMIT ?
+                """, (min_sigma, limit)).fetchall()
+                
+                return [dict(row) for row in results]
+        except Exception as e:
+            logger.error(f"Failed to get surprises: {e}")
+            return []
+    
+    def get_connection_graph(self) -> Dict[str, List[str]]:
+        """Get system connection graph"""
+        try:
+            graph = defaultdict(list)
+            with sqlite3.connect(self.connections_db) as conn:
+                results = conn.execute("""
+                    SELECT source_system, target_system 
+                    FROM connections
+                    ORDER BY timestamp DESC
+                    LIMIT 1000
+                """).fetchall()
+                
+                for source, target in results:
+                    if target not in graph[source]:
+                        graph[source].append(target)
+                
+                return dict(graph)
+        except Exception as e:
+            logger.error(f"Failed to get connection graph: {e}")
+            return {}

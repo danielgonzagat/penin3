@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-09-27T22:04:29.634168",
+  "results": [
+    {
+      "system": "IA_CUBED_CORE",
+      "is_simulation": true,
+      "evidence": [],
+      "score": 5.0
+    },
+    {
+      "system": "Neural_Farm",
+      "is_simulation": true,
+      "evidence": [],
+      "score": 5.0
+    },
+    {
+      "system": "TEIS_Enhanced",
+      "is_simulation": true,
+      "evidence": [
+        "synergy_bridge.synergy_score: Dados insuficientes",
+        "knowledge_transfer.transfer_score: Dados insuficientes",
+        "emergence_tests.cross_domain_score: Dados insuficientes",
+        "live_demonstrations.emergence_score: Dados insuficientes"
+      ],
+      "score": 5.0
+    },
+    {
+      "system": "Real_Intelligence",
+      "is_simulation": false,
+      "evidence": [
+        "evolution_history.best_fitness: Passou nos testes b\u00e1sicos",
+        "evolution_history.avg_fitness: Passou nos testes b\u00e1sicos"
+      ],
+      "score": 20.0
+    }
+  ],
+  "summary": {
+    "real_count": 1,
+    "fake_count": 3,
+    "total_analyzed": 4
+  }
+}

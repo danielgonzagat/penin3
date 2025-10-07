@@ -1,0 +1,6 @@
+{
+  "type": "fully_connected",
+  "directed": true,
+  "neurons_index": "/root/ia3_fully_connected_neurons_index.json",
+  "source_checkpoint": "/root/ia3_evolution_V2_gen100_SPECIAL_17321neurons.pt"
+}

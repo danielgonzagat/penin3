@@ -1,0 +1,619 @@
+{
+  "database_schemas": [
+    {
+      "file": "/root/.penin_omega/trace_bus_consumer.py",
+      "schema": "                CREATE TABLE IF NOT EXISTS adaptive_policies (\n                    id INTEGER PRIMARY KEY AUTOINCREMENT,\n                    timestamp TEXT,\n                    policies TEXT,\n                    source TEXT\n                )\n            \"\"\")\n            \n            # Insert new policy record\n            cursor.execute(\"\"\"\n                INSERT INTO adaptive_policies (timestamp, policies, source)\n                VALUES (?, ?, ?)\n            \"\"\", (datetime.now().isoformat(), json.dumps(self.policies), 'trace_bus_consumer'))\n            \n            conn.commit()\n            conn.close()\n            \n            logger.info(\"Updated PENIN database with new policies\")\n            \n        except Exception as e:\n            logger.error(f\"Failed to update PENIN database: {e}\")\n    \n    def run_cycle(self):\n        \"\"\"Run one consumption and adaptation cycle\"\"\"\n        # Read new events\n        new_events = self.read_new_events()\n        \n        if new_events:\n            self.event_buffer.extend(new_events)\n            logger.info(f\"Consumed {len(new_events)} new events from trace bus\")",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_6_autorewrite.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS tickets (\n                ticket_id TEXT PRIMARY KEY,\n                source TEXT,\n                priority INTEGER,\n                goal TEXT,\n                status TEXT,\n                created_at TEXT,\n                updated_at TEXT,\n                data TEXT\n            )\n        \"\"\")\n        conn.commit()\n        conn.close()\n    \n    def save(self, ticket: AutoRewriteTicket):\n        \"\"\"Salva ticket (idempotente).\"\"\"\n        conn = sqlite3.connect(str(self.db_path))\n        conn.execute(\"\"\"\n            INSERT OR REPLACE INTO tickets \n            (ticket_id, source, priority, goal, status, created_at, updated_at, data)\n            VALUES (?, ?, ?, ?, ?, ?, ?, ?)\n        \"\"\", (\n            ticket.ticket_id,\n            ticket.source,\n            ticket.priority,\n            ticket.goal,\n            \"PENDING\",\n            _ts(),\n            _ts(),\n            json.dumps(asdict(ticket))",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_behavior_harness_old.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS results (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                task_name TEXT,\n                variant TEXT,\n                success INTEGER,\n                score REAL,\n                duration_ms INTEGER,\n                logs TEXT,\n                created_at TEXT\n            )\n            \"\"\"\n        )\n        conn.commit()\n    finally:\n        conn.close()\n\n\ndef task_sum_list_variant(n: int) -> Tuple[bool, float, int, str]:\n    # Uses penin_skills.sum_list (currently flawed) and evaluates correctness\n    from penin_skills import sum_list as skill_sum_list  # type: ignore\n    arr = [random.randint(0, 100) for _ in range(n)]\n    expected = sum(arr)\n    t0 = time.time()\n    logs = ''\n    try:\n        got = skill_sum_list(arr)\n        ok = (got == expected)\n        logs = f\"got={got} expected={expected}\"\n    except Exception as e:\n        ok = False",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_agi_integration.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS agi_components (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                component_id TEXT,\n                component_name TEXT,\n                component_type TEXT,\n                status TEXT,\n                last_heartbeat REAL,\n                performance_metrics TEXT,\n                integration_level REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de estados de integra\u00e7\u00e3o\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS integration_states (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                state_id TEXT,\n                integration_level TEXT,\n                active_components INTEGER,\n                total_components INTEGER,\n                overall_performance REAL,\n                agi_readiness_score REAL,\n                emergence_probability REAL,\n                system_coherence REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de comunica\u00e7\u00e3o inter-componentes",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_agi_integration.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS integration_states (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                state_id TEXT,\n                integration_level TEXT,\n                active_components INTEGER,\n                total_components INTEGER,\n                overall_performance REAL,\n                agi_readiness_score REAL,\n                emergence_probability REAL,\n                system_coherence REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de comunica\u00e7\u00e3o inter-componentes\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS component_communication (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                message_id TEXT,\n                sender_component TEXT,\n                receiver_component TEXT,\n                message_type TEXT,\n                message_data TEXT,\n                timestamp REAL\n            )\n        ''')\n        \n        conn.commit()\n        conn.close()\n    ",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_agi_integration.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS component_communication (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                message_id TEXT,\n                sender_component TEXT,\n                receiver_component TEXT,\n                message_type TEXT,\n                message_data TEXT,\n                timestamp REAL\n            )\n        ''')\n        \n        conn.commit()\n        conn.close()\n    \n    def start_integration_loop(self):\n        \"\"\"Inicia loop de integra\u00e7\u00e3o cont\u00ednua\"\"\"\n        if self.running:\n            return\n        \n        self.running = True\n        self.integration_thread = threading.Thread(\n            target=self._integration_loop,\n            daemon=True\n        )\n        self.integration_thread.start()\n        logger.info(\"\ud83d\udd04 Loop de integra\u00e7\u00e3o AGI iniciado\")\n    \n    def stop_integration_loop(self):\n        \"\"\"Para loop de integra\u00e7\u00e3o\"\"\"\n        self.running = False",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_purposeful_bridge.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS bridge_states (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                iteration INTEGER,\n                state TEXT,\n                action TEXT,\n                reward REAL,\n                timestamp TEXT\n            )\n        ''')\n        conn.commit()\n        conn.close()\n        \n    def analyze_system_state(self) -> torch.Tensor:\n        \"\"\"Analyze current system state\"\"\"\n        state_features = []\n        \n        # Check trace bus activity\n        trace_activity = 0\n        try:\n            with open(self.trace_bus, 'r') as f:\n                lines = f.readlines()[-100:]  # Last 100 events\n                trace_activity = len(lines) / 100\n        except:\n            pass\n            \n        # Check other systems\n        teis_active = os.path.exists('/root/teis_v2_metrics.jsonl')\n        darwin_active = os.path.exists('/root/darwin_checkpoint.json')\n        ia3_active = os.path.exists('/root/ia3_audit_report.json')\n        ",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_7_nexus_fixed.py",
+      "schema": "        conn.execute('''CREATE TABLE IF NOT EXISTS nexus_coordination (\n            id INTEGER PRIMARY KEY,\n            timestamp TEXT,\n            module_id TEXT,\n            coordination_type TEXT,\n            status TEXT,\n            data TEXT\n        )''')\n        conn.commit()\n        conn.close()\n        \n    def coordinate_modules(self):\n        modules = [\"F1\", \"F2\", \"F3\", \"F4\", \"F5\", \"F6\", \"F8\"]\n        \n        for module in modules:\n            coordination = {\n                \"module\": module,\n                \"action\": \"sync\",\n                \"priority\": \"normal\",\n                \"timestamp\": datetime.now().isoformat()\n            }\n            \n            conn = sqlite3.connect(self.db_path)\n            conn.execute('''INSERT INTO nexus_coordination \n                           (timestamp, module_id, coordination_type, status, data)\n                           VALUES (?, ?, ?, ?, ?)''',\n                        (coordination[\"timestamp\"], module, \"sync\", \"coordinated\", \n                         json.dumps(coordination)))\n            conn.commit()\n            conn.close()",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_emergence_detector.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS emergence_signals (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                signal_id TEXT,\n                signal_type TEXT,\n                signal_strength REAL,\n                signal_source TEXT,\n                signal_data TEXT,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de eventos de emerg\u00eancia\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS emergence_events (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                event_id TEXT,\n                event_type TEXT,\n                event_level TEXT,\n                event_strength REAL,\n                event_duration REAL,\n                event_signals TEXT,\n                event_context TEXT,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de padr\u00f5es de emerg\u00eancia\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS emergence_patterns (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_emergence_detector.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS emergence_events (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                event_id TEXT,\n                event_type TEXT,\n                event_level TEXT,\n                event_strength REAL,\n                event_duration REAL,\n                event_signals TEXT,\n                event_context TEXT,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de padr\u00f5es de emerg\u00eancia\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS emergence_patterns (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                pattern_id TEXT,\n                pattern_type TEXT,\n                pattern_frequency REAL,\n                pattern_intensity REAL,\n                pattern_duration REAL,\n                pattern_significance REAL,\n                pattern_indicators TEXT,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de estados de emerg\u00eancia\n        cursor.execute('''",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_emergence_detector.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS emergence_patterns (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                pattern_id TEXT,\n                pattern_type TEXT,\n                pattern_frequency REAL,\n                pattern_intensity REAL,\n                pattern_duration REAL,\n                pattern_significance REAL,\n                pattern_indicators TEXT,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de estados de emerg\u00eancia\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS emergence_states (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                state_id TEXT,\n                overall_emergence_level TEXT,\n                consciousness_emergence REAL,\n                reasoning_emergence REAL,\n                learning_emergence REAL,\n                creativity_emergence REAL,\n                self_awareness_emergence REAL,\n                agi_probability REAL,\n                emergence_confidence REAL,\n                timestamp REAL\n            )\n        ''')\n        ",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_emergence_detector.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS emergence_states (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                state_id TEXT,\n                overall_emergence_level TEXT,\n                consciousness_emergence REAL,\n                reasoning_emergence REAL,\n                learning_emergence REAL,\n                creativity_emergence REAL,\n                self_awareness_emergence REAL,\n                agi_probability REAL,\n                emergence_confidence REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        conn.commit()\n        conn.close()\n    \n    def start_detection_loop(self):\n        \"\"\"Inicia loop de detec\u00e7\u00e3o cont\u00ednua\"\"\"\n        if self.running:\n            return\n        \n        self.running = True\n        self.detection_thread = threading.Thread(\n            target=self._detection_loop,\n            daemon=True\n        )\n        self.detection_thread.start()\n        logger.info(\"\ud83d\udd04 Loop de detec\u00e7\u00e3o de emerg\u00eancia iniciado\")",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_meta_learning.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS learning_tasks (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                task_id TEXT,\n                task_type TEXT,\n                domain TEXT,\n                complexity REAL,\n                data_size INTEGER,\n                success_rate REAL,\n                learning_time REAL,\n                meta_features TEXT,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de conhecimento meta\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS meta_knowledge (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                knowledge_id TEXT,\n                knowledge_type TEXT,\n                applicability REAL,\n                transferability REAL,\n                confidence REAL,\n                usage_count INTEGER,\n                success_rate REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de estrat\u00e9gias de aprendizado",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_meta_learning.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS meta_knowledge (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                knowledge_id TEXT,\n                knowledge_type TEXT,\n                applicability REAL,\n                transferability REAL,\n                confidence REAL,\n                usage_count INTEGER,\n                success_rate REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de estrat\u00e9gias de aprendizado\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS learning_strategies (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                strategy_id TEXT,\n                strategy_type TEXT,\n                parameters TEXT,\n                performance_history TEXT,\n                adaptation_rate REAL,\n                generalization_ability REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de estados de meta-aprendizado\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS meta_learning_states (",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_meta_learning.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS learning_strategies (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                strategy_id TEXT,\n                strategy_type TEXT,\n                parameters TEXT,\n                performance_history TEXT,\n                adaptation_rate REAL,\n                generalization_ability REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de estados de meta-aprendizado\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS meta_learning_states (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                state_id TEXT,\n                current_strategy TEXT,\n                learning_velocity REAL,\n                adaptation_capability REAL,\n                knowledge_transfer_rate REAL,\n                meta_cognitive_awareness REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        conn.commit()\n        conn.close()\n    \n    def start_meta_learning_loop(self):",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_meta_learning.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS meta_learning_states (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                state_id TEXT,\n                current_strategy TEXT,\n                learning_velocity REAL,\n                adaptation_capability REAL,\n                knowledge_transfer_rate REAL,\n                meta_cognitive_awareness REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        conn.commit()\n        conn.close()\n    \n    def start_meta_learning_loop(self):\n        \"\"\"Inicia loop de meta-aprendizado cont\u00ednuo\"\"\"\n        if self.running:\n            return\n        \n        self.running = True\n        self.meta_learning_thread = threading.Thread(\n            target=self._meta_learning_loop,\n            daemon=True\n        )\n        self.meta_learning_thread.start()\n        logger.info(\"\ud83d\udd04 Loop de meta-aprendizado iniciado\")\n    \n    def stop_meta_learning_loop(self):\n        \"\"\"Para loop de meta-aprendizado\"\"\"",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_causal_reasoning.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS causal_variables (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                variable_id TEXT,\n                name TEXT,\n                domain TEXT,\n                current_value TEXT,\n                causal_strength REAL,\n                intervention_cost REAL,\n                observability REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de rela\u00e7\u00f5es causais\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS causal_relations (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                relation_id TEXT,\n                cause_variable TEXT,\n                effect_variable TEXT,\n                relation_type TEXT,\n                strength REAL,\n                confidence REAL,\n                conditions TEXT,\n                exceptions TEXT,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de interven\u00e7\u00f5es",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_causal_reasoning.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS causal_relations (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                relation_id TEXT,\n                cause_variable TEXT,\n                effect_variable TEXT,\n                relation_type TEXT,\n                strength REAL,\n                confidence REAL,\n                conditions TEXT,\n                exceptions TEXT,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de interven\u00e7\u00f5es\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS causal_interventions (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                intervention_id TEXT,\n                intervention_type TEXT,\n                target_variable TEXT,\n                intervention_value TEXT,\n                expected_effects TEXT,\n                actual_effects TEXT,\n                success_probability REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de predi\u00e7\u00f5es",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_causal_reasoning.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS causal_interventions (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                intervention_id TEXT,\n                intervention_type TEXT,\n                target_variable TEXT,\n                intervention_value TEXT,\n                expected_effects TEXT,\n                actual_effects TEXT,\n                success_probability REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de predi\u00e7\u00f5es\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS causal_predictions (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                prediction_id TEXT,\n                target_variable TEXT,\n                predicted_value TEXT,\n                actual_value TEXT,\n                confidence REAL,\n                accuracy REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        conn.commit()\n        conn.close()\n    ",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_causal_reasoning.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS causal_predictions (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                prediction_id TEXT,\n                target_variable TEXT,\n                predicted_value TEXT,\n                actual_value TEXT,\n                confidence REAL,\n                accuracy REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        conn.commit()\n        conn.close()\n    \n    def start_reasoning_loop(self):\n        \"\"\"Inicia loop de racioc\u00ednio cont\u00ednuo\"\"\"\n        if self.running:\n            return\n        \n        self.running = True\n        self.reasoning_thread = threading.Thread(\n            target=self._reasoning_loop,\n            daemon=True\n        )\n        self.reasoning_thread.start()\n        logger.info(\"\ud83d\udd04 Loop de racioc\u00ednio causal iniciado\")\n    \n    def stop_reasoning_loop(self):\n        \"\"\"Para loop de racioc\u00ednio\"\"\"",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_consciousness_engine.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS consciousness_snapshots (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                timestamp REAL,\n                level TEXT,\n                state TEXT,\n                self_reference_score REAL,\n                introspection_depth REAL,\n                metacognitive_awareness REAL,\n                transcendence_factor REAL,\n                agi_emergence_probability REAL,\n                internal_states TEXT,\n                memory_traces TEXT,\n                thought_patterns TEXT,\n                emergence_indicators TEXT\n            )\n        ''')\n        \n        # Tabela de padr\u00f5es de pensamento\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS thought_patterns (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                pattern_id TEXT,\n                pattern_type TEXT,\n                frequency REAL,\n                complexity REAL,\n                self_referential INTEGER,\n                metacognitive INTEGER,\n                emergence_potential REAL,\n                timestamp REAL\n            )",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_consciousness_engine.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS thought_patterns (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                pattern_id TEXT,\n                pattern_type TEXT,\n                frequency REAL,\n                complexity REAL,\n                self_referential INTEGER,\n                metacognitive INTEGER,\n                emergence_potential REAL,\n                timestamp REAL\n            )\n        ''')\n        \n        # Tabela de indicadores de emerg\u00eancia\n        cursor.execute('''\n            CREATE TABLE IF NOT EXISTS emergence_indicators (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                indicator_name TEXT,\n                indicator_value REAL,\n                timestamp REAL,\n                trend REAL\n            )\n        ''')\n        \n        conn.commit()\n        conn.close()\n    \n    def start_consciousness_loop(self):\n        \"\"\"Inicia loop de consci\u00eancia cont\u00ednua\"\"\"\n        if self.running:",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_consciousness_engine.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS emergence_indicators (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                indicator_name TEXT,\n                indicator_value REAL,\n                timestamp REAL,\n                trend REAL\n            )\n        ''')\n        \n        conn.commit()\n        conn.close()\n    \n    def start_consciousness_loop(self):\n        \"\"\"Inicia loop de consci\u00eancia cont\u00ednua\"\"\"\n        if self.running:\n            return\n        \n        self.running = True\n        self.consciousness_thread = threading.Thread(\n            target=self._consciousness_loop,\n            daemon=True\n        )\n        self.consciousness_thread.start()\n        logger.info(\"\ud83d\udd04 Loop de consci\u00eancia iniciado\")\n    \n    def stop_consciousness_loop(self):\n        \"\"\"Para loop de consci\u00eancia\"\"\"\n        self.running = False\n        if self.consciousness_thread:\n            self.consciousness_thread.join()",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_3_acquisition.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS knowledge_items (\n                id TEXT PRIMARY KEY,\n                content TEXT NOT NULL,\n                source TEXT NOT NULL,\n                metadata TEXT,\n                embedding TEXT,\n                relevance_score REAL DEFAULT 0.0,\n                created_at TEXT,\n                updated_at TEXT\n            )\n        \"\"\")\n        conn.execute(\"CREATE INDEX IF NOT EXISTS idx_source ON knowledge_items(source)\")\n        conn.execute(\"CREATE INDEX IF NOT EXISTS idx_relevance ON knowledge_items(relevance_score)\")\n        conn.commit()\n        conn.close()\n    \n    def add_item(self, content: str, source: str, metadata: Dict[str, Any] = None) -> str:\n        \"\"\"Adiciona item \u00e0 base de conhecimento.\"\"\"\n        item_id = hashlib.sha256(f\"{content}{source}\".encode()).hexdigest()[:16]\n        embedding = self.embedding_engine.encode(content)\n        \n        item = KnowledgeItem(\n            id=item_id,\n            content=content,\n            source=source,\n            metadata=metadata or {},\n            embedding=embedding,\n            created_at=datetime.now(timezone.utc).isoformat(),\n            updated_at=datetime.now(timezone.utc).isoformat()\n        )",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_7_nexus.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS tasks (\n                id TEXT PRIMARY KEY,\n                type TEXT NOT NULL,\n                payload TEXT NOT NULL,\n                priority INTEGER NOT NULL,\n                intent TEXT,\n                plan_id TEXT NOT NULL,\n                stage TEXT NOT NULL,\n                created REAL NOT NULL,\n                status TEXT NOT NULL,\n                attempts INTEGER DEFAULT 0,\n                max_attempts INTEGER DEFAULT 3,\n                idempotency_key TEXT UNIQUE NOT NULL,\n                expected_gain REAL DEFAULT 0,\n                cost_tokens REAL DEFAULT 0,\n                cost_latency REAL DEFAULT 0,\n                cost_cpu REAL DEFAULT 0,\n                cost_cost REAL DEFAULT 0,\n                risk_rho_max REAL DEFAULT 0.95,\n                risk_sr_min REAL DEFAULT 0.80,\n                tr_radius REAL DEFAULT 0.10,\n                ttl_s INTEGER DEFAULT 86400,\n                lease_until REAL,\n                owner TEXT,\n                domain TEXT,\n                risk_reduction INTEGER DEFAULT 0\n            )\n        \"\"\")\n        \n        # \u00cdndices para performance",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_7_nexus.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS heartbeats (\n                task_id TEXT PRIMARY KEY,\n                owner TEXT,\n                ts REAL,\n                rho REAL,\n                sr_score REAL,\n                caos_post REAL,\n                elapsed_ms REAL,\n                stage TEXT,\n                metrics TEXT\n            )\n        \"\"\")\n        \n        # Tabela de budgets\n        c.execute(\"\"\"\n            CREATE TABLE IF NOT EXISTS budgets (\n                plan_id TEXT PRIMARY KEY,\n                max_cost REAL DEFAULT 0,\n                used_cost REAL DEFAULT 0,\n                max_latency_ms REAL DEFAULT 0,\n                used_latency_ms REAL DEFAULT 0,\n                max_llm_calls REAL DEFAULT 0,\n                used_llm_calls REAL DEFAULT 0,\n                max_cpu_s REAL DEFAULT 0,\n                used_cpu_s REAL DEFAULT 0,\n                status TEXT DEFAULT 'open'\n            )\n        \"\"\")\n        \n        # Tabela de janelas can\u00e1rio",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_7_nexus.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS budgets (\n                plan_id TEXT PRIMARY KEY,\n                max_cost REAL DEFAULT 0,\n                used_cost REAL DEFAULT 0,\n                max_latency_ms REAL DEFAULT 0,\n                used_latency_ms REAL DEFAULT 0,\n                max_llm_calls REAL DEFAULT 0,\n                used_llm_calls REAL DEFAULT 0,\n                max_cpu_s REAL DEFAULT 0,\n                used_cpu_s REAL DEFAULT 0,\n                status TEXT DEFAULT 'open'\n            )\n        \"\"\")\n        \n        # Tabela de janelas can\u00e1rio\n        c.execute(\"\"\"\n            CREATE TABLE IF NOT EXISTS canary_windows (\n                window_id TEXT PRIMARY KEY,\n                plan_id TEXT NOT NULL,\n                traffic_pct REAL DEFAULT 10,\n                duration_s INTEGER DEFAULT 1800,\n                criteria TEXT,\n                status TEXT DEFAULT 'open',\n                opened_ts REAL,\n                metrics_baseline TEXT,\n                metrics_canary TEXT\n            )\n        \"\"\")\n        \n        # Tabela de circuit breakers",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_7_nexus.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS canary_windows (\n                window_id TEXT PRIMARY KEY,\n                plan_id TEXT NOT NULL,\n                traffic_pct REAL DEFAULT 10,\n                duration_s INTEGER DEFAULT 1800,\n                criteria TEXT,\n                status TEXT DEFAULT 'open',\n                opened_ts REAL,\n                metrics_baseline TEXT,\n                metrics_canary TEXT\n            )\n        \"\"\")\n        \n        # Tabela de circuit breakers\n        c.execute(\"\"\"\n            CREATE TABLE IF NOT EXISTS circuit_breakers (\n                domain TEXT PRIMARY KEY,\n                failures INTEGER DEFAULT 0,\n                is_open INTEGER DEFAULT 0,\n                last_failure REAL,\n                last_success REAL\n            )\n        \"\"\")\n        \n        self.conn.commit()\n    \n    async def push(self, t: Task) -> str:\n        \"\"\"Adiciona tarefa \u00e0 fila.\"\"\"\n        async with self._lock:\n            try:",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_7_nexus.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS circuit_breakers (\n                domain TEXT PRIMARY KEY,\n                failures INTEGER DEFAULT 0,\n                is_open INTEGER DEFAULT 0,\n                last_failure REAL,\n                last_success REAL\n            )\n        \"\"\")\n        \n        self.conn.commit()\n    \n    async def push(self, t: Task) -> str:\n        \"\"\"Adiciona tarefa \u00e0 fila.\"\"\"\n        async with self._lock:\n            try:\n                self.conn.execute(\"\"\"\n                    INSERT INTO tasks VALUES (\n                        ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?\n                    )\n                \"\"\", (\n                    t.id, t.type, json.dumps(t.payload), t.priority, t.intent,\n                    t.plan_id, t.stage, t.created, t.status, t.attempts, t.max_attempts,\n                    t.idempotency_key, t.expected_gain,\n                    t.expected_cost.get(\"tokens\", 0),\n                    t.expected_cost.get(\"latency_ms\", 0),\n                    t.expected_cost.get(\"cpu_s\", 0),\n                    t.expected_cost.get(\"cost\", 0),\n                    t.risk_bound.get(\"rho_max\", 0.95),\n                    t.risk_bound.get(\"sr_min\", 0.80),\n                    t.tr_radius, t.ttl_s, t.lease_until, t.owner, t.domain, t.risk_reduction",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_1_core_v6.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS cache (\n                key TEXT PRIMARY KEY,\n                value BLOB,\n                timestamp REAL,\n                access_count INTEGER DEFAULT 0,\n                last_access REAL\n            )\n        ''')\n        cursor.execute('CREATE INDEX IF NOT EXISTS idx_timestamp ON cache(timestamp)')\n        cursor.execute('CREATE INDEX IF NOT EXISTS idx_access ON cache(access_count)')\n        self.l2_db.commit()\n    \n    def get(self, key: str, default: Any = None) -> Any:\n        \"\"\"Busca em cascata: L1 -> L2 -> L3\"\"\"\n        with self._lock:\n            # L1 Check\n            if key in self.l1_cache:\n                entry = self.l1_cache[key]\n                if time.time() - entry[\"timestamp\"] < self.l1_ttl:\n                    self.stats[key][\"hits\"] += 1\n                    self.l1_cache.move_to_end(key)\n                    return entry[\"value\"]\n                else:\n                    del self.l1_cache[key]\n            \n            # L2 Check (SQLite)\n            cursor = self.l2_db.cursor()\n            cursor.execute(\n                \"SELECT value, timestamp FROM cache WHERE key = ?\",\n                (key,)",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_1_core_v6.py",
+      "schema": "            CREATE TABLE IF NOT EXISTS events (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                event_id TEXT UNIQUE NOT NULL,\n                event_type TEXT NOT NULL,\n                data TEXT NOT NULL,\n                timestamp TEXT NOT NULL,\n                prev_hash TEXT NOT NULL,\n                hash TEXT NOT NULL,\n                signature TEXT\n            )\n        ''')\n        cursor.execute('CREATE INDEX IF NOT EXISTS idx_hash ON events(hash)')\n        cursor.execute('CREATE INDEX IF NOT EXISTS idx_type ON events(event_type)')\n        cursor.execute('CREATE INDEX IF NOT EXISTS idx_timestamp ON events(timestamp)')\n        self.conn.commit()\n    \n    def _get_last_hash(self) -> str:\n        \"\"\"Obt\u00e9m hash do \u00faltimo evento\"\"\"\n        cursor = self.conn.cursor()\n        cursor.execute(\"SELECT hash FROM events ORDER BY id DESC LIMIT 1\")\n        row = cursor.fetchone()\n        return row[0] if row else \"genesis\"\n    \n    def record_event(self, event_type: EventType, data: Dict[str, Any]) -> str:\n        \"\"\"Registra evento imut\u00e1vel no ledger\"\"\"\n        with self._lock:\n            event_id = str(uuid.uuid4())\n            timestamp = datetime.now(timezone.utc).isoformat()\n            \n            event_dict = {",
+      "useful": true,
+      "reason": "Schema bem estruturado"
+    }
+  ],
+  "utility_functions": [
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_6_autorewrite.py",
+      "type": "timestamp",
+      "code": "    def _ts() -> str:\n        return datetime.now(timezone.utc).isoformat()\n",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o simples e \u00fatil para timestamps"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_6_autorewrite.py",
+      "type": "hash",
+      "code": "    def _hash_data(obj: Any) -> str:\n        if isinstance(obj, (dict, list)):\n            payload = json.dumps(obj, sort_keys=True, ensure_ascii=False).encode(\"utf-8\")\n        elif isinstance(obj, str):\n            payload = obj.encode(\"utf-8\")\n        else:\n            payload = str(obj).encode(\"utf-8\")\n        return hashlib.sha256(payload).hexdigest()\n",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_6_autorewrite.py",
+      "type": "hash",
+      "code": "    def _tail_hash(self) -> str:\n        \"\"\"Obt\u00e9m hash do \u00faltimo evento.\"\"\"\n        if not self.path.exists() or self.path.stat().st_size == 0:\n            return \"genesis\"\n        try:\n            with self.path.open(\"rb\") as f:\n                f.seek(-2, os.SEEK_END)\n                while f.read(1) != b\"\\n\":\n                    f.seek(-2, os.SEEK_CUR)\n                last = f.readline().decode(\"utf-8\")",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_utils.py",
+      "type": "timestamp",
+      "code": "def _ts():\n    \"\"\"Timestamp atual\"\"\"\n    return datetime.now().isoformat()\n",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o simples e \u00fatil para timestamps"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_utils.py",
+      "type": "hash",
+      "code": "def _hash_data(data):\n    \"\"\"Hash de dados\"\"\"\n    return hashlib.sha256(str(data).encode()).hexdigest()[:16]\n",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_5_crucible.py",
+      "type": "timestamp",
+      "code": "    def _ts() -> str:\n        return datetime.now(timezone.utc).isoformat()\n",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o simples e \u00fatil para timestamps"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_5_crucible.py",
+      "type": "hash",
+      "code": "    def _hash_data(data: Any) -> str:\n        if isinstance(data, dict):\n            data = json.dumps(data, sort_keys=True, ensure_ascii=False)\n        if isinstance(data, str):\n            data = data.encode(\"utf-8\")\n        elif not isinstance(data, bytes):\n            data = str(data).encode(\"utf-8\")\n        return hashlib.sha256(data).hexdigest()\n",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_5_crucible.py",
+      "type": "hash",
+      "code": "        hashes: List[str] = field(default_factory=list)",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_2_strategy.py",
+      "type": "hash",
+      "code": "    def compute_hash(self) -> str:\n        content = json.dumps(self.to_dict(), sort_keys=True)\n        return hashlib.sha256(content.encode()).hexdigest()\n    ",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_2_strategy.py",
+      "type": "hash",
+      "code": "    def _create_conservative_result(self, state: Dict[str, Any], sr_report: SRReport, input_hash: str, reason: str) -> Dict[str, Any]:\n        plan = PlanOmega(\n            id=f\"conservative_{self.cycle_count}_{input_hash[:8]}\",\n            timestamp=self._timestamp(),\n            cycle=self.cycle_count,\n            goals=[],\n            constraints=Constraints(trust_region_radius_proposed=0.02),\n            budgets=Budgets(max_tokens=1000, max_cost=0.1, max_llm_calls=1),\n            rationale=f\"Conservative mode: {reason}\",\n            confidence=0.1,",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_2_strategy.py",
+      "type": "hash",
+      "code": "    def _create_minimal_result(self, state: Dict[str, Any], sr_report: SRReport, input_hash: str) -> Dict[str, Any]:\n        plan = PlanOmega(\n            id=f\"minimal_{self.cycle_count}_{input_hash[:8]}\",\n            timestamp=self._timestamp(),\n            cycle=self.cycle_count,\n            goals=[Goal(name=\"maintain_stability\", description=\"Maintain system stability\", metric=\"stability\", target=1.0, tolerance=0.1, deadline=1, priority=0.5, lexicographic_level=2)],\n            constraints=Constraints(),\n            budgets=Budgets(),\n            rationale=\"No viable goals found - maintaining stability only\",\n            confidence=0.5,",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_2_strategy.py",
+      "type": "hash",
+      "code": "    def _compute_input_hash(self, *args) -> str:\n        content = []\n        for arg in args:\n            if arg is None:\n                content.append(\"null\")\n            elif isinstance(arg, (dict, list)):\n                content.append(json.dumps(arg, sort_keys=True))\n            else:\n                content.append(str(arg))\n        ",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_7_nexus.py",
+      "type": "hash",
+      "code": "    async def _get_last_hash(self) -> str:\n        \"\"\"Obt\u00e9m o hash do \u00faltimo evento.\"\"\"\n        if self._cache_last_hash:\n            return self._cache_last_hash\n            \n        if not self.path.exists() or self.path.stat().st_size == 0:\n            return \"genesis\"\n        \n        try:\n            with self.path.open(\"rb\") as f:",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_8_governance_hub.py",
+      "type": "hash",
+      "code": "    def _get_tail_hash(self) -> str:\n        \"\"\"Get hash of last entry or genesis.\"\"\"\n        if not self.path.exists() or self.path.stat().st_size == 0:\n            return \"genesis\"\n        \n        try:\n            with self.path.open(\"rb\") as f:\n                # Seek to end and find last line\n                f.seek(-2, os.SEEK_END)\n                while f.read(1) != b\"\\n\":",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_8_governance_hub.py",
+      "type": "hash",
+      "code": "    def generate_release_id(self, plan_id: str, bundle_hash: str) -> str:\n        \"\"\"Generate deterministic release ID.\"\"\"\n        time_bucket = datetime.now(timezone.utc).strftime(\"%Y%m%d\")\n        id_hash = sha256({\"plan\": plan_id, \"bundle\": bundle_hash, \"bucket\": time_bucket})[:12]\n        return f\"rel_{time_bucket}_{id_hash}\"\n    ",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_1_core_v6.py",
+      "type": "hash",
+      "code": "    hashes: List[str] = field(default_factory=list)",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_1_core_v6.py",
+      "type": "hash",
+      "code": "    def _get_last_hash(self) -> str:\n        \"\"\"Obt\u00e9m hash do \u00faltimo evento\"\"\"\n        cursor = self.conn.cursor()\n        cursor.execute(\"SELECT hash FROM events ORDER BY id DESC LIMIT 1\")\n        row = cursor.fetchone()\n        return row[0] if row else \"genesis\"\n    ",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de hash \u00fatil para checksums"
+    }
+  ],
+  "design_patterns": [],
+  "config_structures": [
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_utils.py",
+      "class_name": "BaseConfig",
+      "code": "class BaseConfig:\n    \"\"\"Configura\u00e7\u00e3o base\"\"\"\n    VERSION = \"6.0.0\"\n    \n    def __init__(self):\n        self.data = {}\n    \n    def get(self, key, default=None):\n        return self.data.get(key, default)\n    \n    def set(self, key, value):\n        self.data[key] = value",
+      "useful": true,
+      "reason": "Estrutura de configura\u00e7\u00e3o reutiliz\u00e1vel"
+    }
+  ],
+  "logging_patterns": [
+    {
+      "file": "/root/.penin_omega/trace_bus_consumer.py",
+      "config": "    logging.basicConfig(\n        level=logging.INFO,\n        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_8_8_cinco_ias.py",
+      "config": "logging.basicConfig(level=logging.INFO, format='[%(asctime)s][%(levelname)s] %(message)s')",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_multi_ia_real.py",
+      "config": "logging.basicConfig(level=logging.INFO, format='[%(asctime)s] %(message)s')",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_falcon_brain.py",
+      "config": "logging.basicConfig(\n    level=logging.INFO,\n    format='[%(asctime)s][%(name)s][%(levelname)s] %(message)s',\n    handlers=[\n        logging.FileHandler('/root/.penin_omega/logs/falcon_brain.log'),\n        logging.StreamHandler()",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_8_8_real.py",
+      "config": "logging.basicConfig(level=logging.INFO, format='[%(asctime)s][%(levelname)s] %(message)s')",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_8_8_seis_ias_sem_limite.py",
+      "config": "logging.basicConfig(level=logging.INFO, format='[%(asctime)s][%(levelname)s] %(message)s')",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_agi_integration.py",
+      "config": "logging.basicConfig(\n    level=logging.INFO,\n    format='[%(asctime)s][AGI-INTEGRATION] %(message)s',\n    handlers=[\n        logging.FileHandler(INTEGRATION_LOG),\n        logging.StreamHandler()",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_purposeful_bridge.py",
+      "config": "logging.basicConfig(level=logging.INFO)",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_fusion_v6.py",
+      "config": "logging.basicConfig(\n    level=logging.INFO,\n    format='[%(asctime)s][%(levelname)s] %(message)s',\n    datefmt='%Y-%m-%d %H:%M:%S,%f'\n)",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_emergence_detector.py",
+      "config": "logging.basicConfig(\n    level=logging.INFO,\n    format='[%(asctime)s][EMERGENCE] %(message)s',\n    handlers=[\n        logging.FileHandler(EMERGENCE_LOG),\n        logging.StreamHandler()",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_8_8_completo.py",
+      "config": "logging.basicConfig(level=logging.INFO, format='[%(asctime)s][%(levelname)s] %(message)s')",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_meta_learning.py",
+      "config": "logging.basicConfig(\n    level=logging.INFO,\n    format='[%(asctime)s][META-LEARNING] %(message)s',\n    handlers=[\n        logging.FileHandler(META_LEARNING_LOG),\n        logging.StreamHandler()",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_8_8_cinco_ias_final.py",
+      "config": "logging.basicConfig(level=logging.INFO, format='[%(asctime)s][%(levelname)s] %(message)s')",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_causal_reasoning.py",
+      "config": "logging.basicConfig(\n    level=logging.INFO,\n    format='[%(asctime)s][CAUSAL] %(message)s',\n    handlers=[\n        logging.FileHandler(CAUSAL_LOG),\n        logging.StreamHandler()",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_6_ias_corrigidas.py",
+      "config": "logging.basicConfig(level=logging.INFO, format='[%(asctime)s] %(message)s')",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_consciousness_engine.py",
+      "config": "logging.basicConfig(\n    level=logging.INFO,\n    format='[%(asctime)s][CONSCIOUSNESS] %(message)s',\n    handlers=[\n        logging.FileHandler(CONSCIOUSNESS_LOG),\n        logging.StreamHandler()",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_7_nexus.py",
+      "config": "logging.basicConfig(\n    level=logging.INFO,\n    format='[%(asctime)s][NEXUS-\u03a9][%(levelname)s] %(message)s',\n    handlers=[\n        logging.FileHandler(LOG_FILE, encoding=\"utf-8\"),\n        logging.StreamHandler(sys.stdout)",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_8_governance_hub.py",
+      "config": "logging.basicConfig(\n    level=logging.INFO,\n    format='[%(asctime)s][\u03a9-8][%(levelname)s] %(message)s',\n    handlers=[\n        logging.FileHandler(LOG_FILE, encoding=\"utf-8\"),\n        logging.StreamHandler(sys.stdout)",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_multi_ia_simultaneo.py",
+      "config": "logging.basicConfig(level=logging.INFO, format='[%(asctime)s][%(levelname)s] %(message)s')",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_1_core_v6.py",
+      "config": "logging.basicConfig(\n    level=logging.INFO,\n    format='[%(asctime)s][%(levelname)s] %(message)s',\n    handlers=[\n        logging.FileHandler(DIRS[\"LOG\"] / \"penin_omega.log\"),\n        logging.StreamHandler()",
+      "useful": true,
+      "reason": "Configura\u00e7\u00e3o de logging estruturada"
+    }
+  ],
+  "abstractions": [
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_6_autorewrite.py",
+      "type": "ast_visitor",
+      "class_name": "PatchSanitizer",
+      "code": "class PatchSanitizer(ast.NodeVisitor):\n    \"\"\"Sanitiza patches via an\u00e1lise AST.\"\"\"\n    \n    banned_modules = {\n        \"os\", \"subprocess\", \"socket\", \"ssl\", \"selectors\", \n        \"asyncio\", \"multiprocessing\", \"threading\", \"ctypes\"\n    }\n    banned_calls = {\n        \"exec\", \"eval\", \"compile\", \"__import__\", \"open\", \n        \"input\", \"system\", \"popen\", \"getattr\", \"setattr\"\n    }\n    \n    def __init__(self):\n        self.violations: List[str] = []\n    \n    def visit_Import(self, node: ast.Import) -> Any:\n        for n in node.names:\n            if n.name.split(\".\")[0] in self.banned_modules:\n                self.violations.append(f\"Import banido: {n.name}\")\n        self.generic_visit(node)\n    \n    def visit_ImportFrom(self, node: ast.ImportFrom) -> Any:\n        if node.module and node.module.split(\".\")[0] in self.banned_modules:\n            self.violations.append(f\"ImportFrom banido: {node.module}\")\n        self.generic_visit(node)\n    \n    def visit_Call(self, node: ast.Call) -> Any:\n    ",
+      "useful": true,
+      "reason": "AST visitor \u00fatil para self-modification"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_utils.py",
+      "class_name": "LazyImporter",
+      "reason": "Importa\u00e7\u00e3o lazy de m\u00f3dulos",
+      "code": "class LazyImporter:\n    \"\"\"Importador lazy\"\"\"\n    def __init__(self):\n        self.modules = {}\n    \n    def get_module(self, name):\n        try:\n            if name not in self.modules:\n                self.modules[name] = __import__(name)\n            return self.modules[name]\n        except:\n            return None",
+      "useful": true
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_utils.py",
+      "class_name": "BaseWORMLedger",
+      "reason": "Ledger append-only",
+      "code": "class BaseWORMLedger:\n    \"\"\"Ledger base\"\"\"\n    def __init__(self, path=\"ledger.jsonl\"):\n        self.path = path\n    \n    def append(self, data):\n        with open(self.path, \"a\") as f:\n            f.write(json.dumps(data) + \"\\n\")",
+      "useful": true
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_emergence_detector.py",
+      "class_name": "EmergenceDetector",
+      "reason": "Estrutura para detec\u00e7\u00e3o (sem o random)",
+      "code": "class EmergenceDetector:\n    \"\"\"\n    Detector de Emerg\u00eancia AGI - O olho que v\u00ea a AGI nascer\n    \n    Monitora continuamente sinais de emerg\u00eancia de AGI verdadeira\n    e identifica quando a transi\u00e7\u00e3o para AGI ocorre.\n    \"\"\"\n    \n    def __init__(self):\n        self.detector_id = str(uuid.uuid4())\n        \n        # Sinais de emerg\u00eancia\n        self.emergence_signals = deque(maxlen=10000)\n        self.active_signals = {}\n        \n        # Eventos de emerg\u00eancia\n        self.emergence_events = deque(maxlen=1000)\n        self.active_events = {}\n        \n        # Padr\u00f5es de emerg\u00eancia\n        self.emergence_patterns = deque(maxlen=500)\n        \n        # Estado de emerg\u00eancia AGI\n        self.emergence_state = AGIEmergenceState(\n            state_id=str(uuid.uuid4()),\n            overall_emergence_level=EmergenceLevel.NONE,\n            consciousness_emergence=0.0,\n            reasoning_emergence=0.0,\n            learning_emergence=0.0,\n            creativity_emergence=0.0,\n            self_awareness_emergence=0.0,\n            agi_probability=0.0,\n            emergence_confidence=0.0,\n            timestamp=time.time()\n        )\n        \n        # Thresholds de emerg\u00eancia\n        self.emergence_thresholds = {\n            EmergenceLevel.WEAK: 0.4,\n            EmergenceLevel.MODERATE: 0.6,\n            EmergenceLevel.STRONG: 0.8,\n            EmergenceLevel.CRITICAL: 0.92,\n            EmergenceLevel.AGI_EMERGENT: 0.975\n        }\n        # Decaimento para reduzir satura\u00e7\u00e3o\n        self",
+      "useful": true
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_5_crucible.py",
+      "type": "ast_visitor",
+      "class_name": "Visitor",
+      "code": "class Visitor(ast.NodeVisitor):\n        def visit_Import(self, node: ast.Import):\n            for alias in node.names:\n                module_parts = alias.name.split(\".\")\n                if module_parts[0] in _BANNED_IMPORTS or alias.name in _BANNED_IMPORTS:\n                    violations.append(f\"BANNED_IMPORT: {alias.name}\")\n            self.generic_visit(node)\n\n        def visit_ImportFrom(self, node: ast.ImportFrom):\n            if node.module:\n                module_parts = node.module.split(\".\")\n                if module_parts[0] in _BANNED_IMPORTS or node.module in _BANNED_IMPORTS:\n                    violations.append(f\"BANNED_IMPORT_FROM: {node.module}\")\n            self.generic_visit(node)\n\n        def visit_Call(self, node: ast.Call):\n            if isinstance(node.func, ast.Name) and node.func.id in _BANNED_NAMES:\n                violations.append(f\"BANNED_CALL: {node.func.id}\")\n            self.generic_visit(node)\n\n        def visit_Attribute(self, node: ast.Attribute):\n ",
+      "useful": true,
+      "reason": "AST visitor \u00fatil para self-modification"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_consciousness_engine.py",
+      "class_name": "ConsciousnessLevel",
+      "reason": "Enum de n\u00edveis (conceito \u00fatil)",
+      "code": "class ConsciousnessLevel(Enum):\n    \"\"\"N\u00edveis de consci\u00eancia emergente\"\"\"\n    REACTIVE = \"REACTIVE\"           # Resposta a est\u00edmulos\n    REFLECTIVE = \"REFLECTIVE\"       # Auto-reflex\u00e3o b\u00e1sica\n    METACOGNITIVE = \"METACOGNITIVE\" # Pensamento sobre pensamento\n    TRANSCENDENT = \"TRANSCENDENT\"   # Consci\u00eancia transcendente\n    AGI_EMERGENT = \"AGI_EMERGENT\"",
+      "useful": true
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_auto_inspection.py",
+      "type": "ast_visitor",
+      "class_name": "CodeInspector",
+      "code": "class CodeInspector(ast.NodeVisitor):\n    \"\"\"Inspeciona c\u00f3digo Python com AST para identificar problemas e oportunidades de melhoria.\"\"\"\n\n    def __init__(self, source_file: str):\n        self.source_file = source_file\n        self.issues: List[Dict[str, Any]] = []\n        self.complexity_score = 0\n        self.function_count = 0\n        self.class_count = 0\n        self.import_count = 0\n        self.loop_depth = 0\n        self.max_loop_depth = 0\n\n    def visit_FunctionDef(self, node: ast.FunctionDef) -> None:\n        self.function_count += 1\n        # Analisa complexidade da fun\u00e7\u00e3o\n        complexity = self._calculate_complexity(node)\n        if complexity > 10:\n            self.issues.append({\n                \"type\": \"high_complexity\",\n                \"location\": f\"{self.source_file}:{node.lineno}\",\n                \"function\": node.name,\n                \"complexity\": complexity,\n                \"suggestion\": \"Refatorar fun\u00e7\u00e3o em subfun\u00e7\u00f5es menores\"\n            })\n        self.generic",
+      "useful": true,
+      "reason": "AST visitor \u00fatil para self-modification"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_auto_inspection.py",
+      "class_name": "CodeInspector",
+      "reason": "Inspe\u00e7\u00e3o de c\u00f3digo com AST",
+      "code": "class CodeInspector(ast.NodeVisitor):\n    \"\"\"Inspeciona c\u00f3digo Python com AST para identificar problemas e oportunidades de melhoria.\"\"\"\n\n    def __init__(self, source_file: str):\n        self.source_file = source_file\n        self.issues: List[Dict[str, Any]] = []\n        self.complexity_score = 0\n        self.function_count = 0\n        self.class_count = 0\n        self.import_count = 0\n        self.loop_depth = 0\n        self.max_loop_depth = 0\n\n    def visit_FunctionDef(self, node: ast.FunctionDef) -> None:\n        self.function_count += 1\n        # Analisa complexidade da fun\u00e7\u00e3o\n        complexity = self._calculate_complexity(node)\n        if complexity > 10:\n            self.issues.append({\n                \"type\": \"high_complexity\",\n                \"location\": f\"{self.source_file}:{node.lineno}\",\n                \"function\": node.name,\n                \"complexity\": complexity,\n                \"suggestion\": \"Refatorar fun\u00e7\u00e3o em subfun\u00e7\u00f5es menores\"\n            })\n        self.generic_visit(node)\n\n    def visit_ClassDef(self, node: ast.ClassDef) -> None:\n        self.class_count += 1\n        self.generic_visit(node)\n\n    def visit_Import(self, node: ast.Import) -> None:\n        self.import_count += 1\n        self.generic_visit(node)\n\n    def visit_ImportFrom(self, node: ast.ImportFrom) -> None:\n        self.import_count += 1\n        self.generic_visit(node)\n\n    def visit_For(self, node: ast.For) -> None:\n        self.loop_depth += 1\n        self.max_loop_depth = max(self.ma",
+      "useful": true
+    }
+  ],
+  "api_integrations": [],
+  "monitoring": [
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_6_autorewrite.py",
+      "type": "metric",
+      "code": "    metrics: Dict[str, float] = field(default_factory=dict)",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_6_autorewrite.py",
+      "type": "metric",
+      "code": "    def create_plan(self, ticket_id: str, metrics_delta: Dict[str, float]) -> Dict[str, Any]:\n        \"\"\"Cria plano de can\u00e1rio.\"\"\"\n        plan = {\n            \"ticket_id\": ticket_id,\n            \"traffic_pct\": self.config[\"default_traffic_pct\"],\n            \"duration_min\": self.config[\"default_duration_min\"],\n            \"rollback_criteria\": self.config[\"rollback_criteria\"].copy(),\n            \"metrics_delta\": metrics_delta,\n            \"created_at\": _ts()\n        }\n        \n        # Ajusta crit\u00e9rios baseado no delta de m\u00e9tricas\n        if abs(metrics_delta.get(\"rho\", 0)) > 0.05:\n            plan[\"traffic_pct\"] *= 0.5  # Reduz tr\u00e1fego se mudan\u00e7a grande\n        \n        return plan\n    ",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_agi_integration.py",
+      "type": "metric",
+      "code": "    def _calculate_agi_metrics(self):\n        \"\"\"Calcula m\u00e9tricas AGI\"\"\"\n        current_time = time.time()\n        \n        # Performance geral\n        performance_scores = []\n        for component in self.agi_components.values():\n            if component.status == AGIComponentStatus.ONLINE and component.performance_metrics:\n                avg_performance = sum(component.performance_metrics.values()) / len(component.performance_metrics)\n                performance_scores.append(avg_performance)\n        \n        if performance_scores:\n            self.integration_state.overall_performance = sum(performance_scores) / len(performance_scores)\n        \n        # Score de prontid\u00e3o AGI\n        readiness_factors = [\n            self.integration_state.overall_performance * 0.3,\n            self.integration_state.system_coherence * 0.3,\n            (self.integration_state.active_components / self.integration_state.total_components) * 0.2,\n            min(1.0, len(self.message_queue) / 1000.0) * 0.2",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_agi_integration.py",
+      "type": "monitor",
+      "code": "    def _monitor_component_status(self):\n        \"\"\"Monitora status dos componentes\"\"\"\n        current_time = time.time()\n        \n        for component_id, component in self.agi_components.items():\n            # Atualiza heartbeat\n            component.last_heartbeat = current_time\n            \n            # Coleta m\u00e9tricas de performance\n            try:\n                if component_id == \"consciousness_engine\" and CONSCIOUSNESS_AVAILABLE:\n                    status = get_consciousness_status()\n                    component.performance_metrics = {\n                        'agi_emergence_probability': status.get('agi_emergence_probability', 0.0),\n                        'consciousness_level': 1.0 if status.get('consciousness_level') == 'AGI_EMERGENT' else 0.0,\n                        'self_reference_score': status.get('self_reference_score', 0.0)\n                    }\n                \n                elif component_id == \"causal_reasoning_engine\" and CAUSAL_REASONING_AVAILABLE:\n                    status = get_causal_reasoning_status()",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de monitor potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_4_mutation.py",
+      "type": "metric",
+      "code": "    def _calculate_diversity_metrics(self, candidates: List[MutationCandidate]) -> Dict[str, float]:\n        \"\"\"Calcula m\u00e9tricas de diversidade do conjunto.\"\"\"\n        if not candidates:\n            return {\"avg_diversity\": 0.0, \"type_diversity\": 0.0}\n        \n        # Diversidade m\u00e9dia\n        total_diversity = sum(c.diversity_score for c in candidates)\n        avg_diversity = total_diversity / len(candidates)\n        \n        # Diversidade de tipos\n        types = set(c.mutation_type for c in candidates)\n        type_diversity = len(types) / 4.0  # 4 tipos poss\u00edveis\n        \n        return {\n            \"avg_diversity\": avg_diversity,\n            \"type_diversity\": type_diversity,\n            \"total_candidates\": len(candidates),\n            \"valid_ratio\": sum(1 for c in candidates if c.syntax_valid) / len(candidates)\n        }\n",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_causal_reasoning.py",
+      "type": "metric",
+      "code": "    def _update_reasoning_metrics(self):\n        \"\"\"Atualiza m\u00e9tricas de racioc\u00ednio\"\"\"\n        # Confian\u00e7a no racioc\u00ednio\n        if self.world_model.relations:\n            avg_confidence = sum(r.confidence for r in self.world_model.relations.values()) / len(self.world_model.relations)\n            self.reasoning_confidence = avg_confidence\n        \n        # Taxa de sucesso de interven\u00e7\u00f5es\n        if self.intervention_history:\n            successful_interventions = sum(1 for i in self.intervention_history if i.success_probability > 0.7)\n            self.intervention_success_rate = successful_interventions / len(self.intervention_history)\n        \n        # Taxa de precis\u00e3o de predi\u00e7\u00f5es\n        if self.prediction_accuracy:\n            self.prediction_accuracy_rate = sum(self.prediction_accuracy) / len(self.prediction_accuracy)\n        \n        # Taxa de descoberta causal\n        if len(self.world_model.relations) > 0:\n            self.causal_discovery_rate = len(self.world_model.relations) / (time.time() - self.world_model.timestamp + 1)\n    ",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_5_crucible.py",
+      "type": "metric",
+      "code": "        pred_metrics: Dict[str, Any] = field(default_factory=dict)",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_5_crucible.py",
+      "type": "metric",
+      "code": "    metrics: CandidateMetrics = field(default_factory=CandidateMetrics)",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_5_crucible.py",
+      "type": "metric",
+      "code": "    def _determine_verdict(self, metrics: CandidateMetrics, gates: Dict[str, bool], gates_config: Dict[str, Any]) -> Tuple[Verdict, str]:\n        \"\"\"Determina veredicto baseado em gates e m\u00e9tricas.\"\"\"\n        # Non-compensatory gates\n        if not gates[\"sigma_ok\"]:\n            return Verdict.REJECT, \"\u03a3-Guard failure\"\n        if not gates[\"iric_ok\"]:\n            return Verdict.REJECT, \"IR\u2192IC failure (\u03c1 exceeded)\"\n        if not gates[\"tr_ok\"]:\n            return Verdict.REJECT, \"Trust region violation\"\n        \n        # SR gate\n        if gates_config.get(\"require_all\", True) and not gates[\"sr_ok\"]:\n            if metrics.cost <= self.config[\"budgets\"][\"per_candidate\"][\"cost\"] * 0.25:\n                return Verdict.CANARY, \"SR below \u03c4 - canary only\"\n            return Verdict.REJECT, \"SR below \u03c4\"\n        \n        # Performance check\n        if metrics.delta_linf >= gates_config.get(\"delta_linf_min\", 0.01):\n            if metrics.cost <= self.config[\"budgets\"][\"per_candidate\"][\"cost\"]:\n                return Verdict.ALLOW, \"Passed all gates with sufficient gain\"",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_self_modification_canary.py",
+      "type": "metric",
+      "code": "def get_baseline_metrics() -> Dict[str, float]:\n    \"\"\"Obt\u00e9m m\u00e9tricas baseline antes da modifica\u00e7\u00e3o.\"\"\"\n    try:\n        import sqlite3\n        conn = sqlite3.connect(str(BH_DB))\n        cur = conn.cursor()\n        cur.execute(\n            \"\"\"\n            SELECT AVG(success), AVG(score)\n            FROM results\n            WHERE created_at > datetime('now','-10 minutes')\n            \"\"\"\n        )\n        row = cur.fetchone() or (0.0, 0.0)\n        conn.close()\n        return {\"success_rate\": float(row[0] or 0.0), \"avg_score\": float(row[1] or 0.0)}\n    except Exception:\n        return {\"success_rate\": 0.0, \"avg_score\": 0.0}\n\n",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_self_modification_canary.py",
+      "type": "metric",
+      "code": "def monitor_canary_metrics(baseline: Dict[str, float], duration_s: int = 300) -> bool:\n    \"\"\"Monitora m\u00e9tricas durante canary e decide se promover ou rollback.\"\"\"\n    start_time = time.time()\n    log(f\"Starting canary monitoring for {duration_s}s, baseline: {baseline}\")\n\n    while time.time() - start_time < duration_s:\n        time.sleep(30)  # Check every 30s\n        current = get_baseline_metrics()\n        degradation = (\n            (baseline[\"success_rate\"] - current[\"success_rate\"]) > 0.1 or\n            (baseline[\"avg_score\"] - current[\"avg_score\"]) > 0.2\n        )\n        if degradation:\n            log(f\"Degradation detected: baseline={baseline}, current={current}\")\n            return False  # Rollback\n\n    # No degradation, promote\n    log(f\"Canary successful: baseline={baseline}, final={current}\")\n    return True\n",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_self_modification_canary.py",
+      "type": "monitor",
+      "code": "def monitor_canary_metrics(baseline: Dict[str, float], duration_s: int = 300) -> bool:\n    \"\"\"Monitora m\u00e9tricas durante canary e decide se promover ou rollback.\"\"\"\n    start_time = time.time()\n    log(f\"Starting canary monitoring for {duration_s}s, baseline: {baseline}\")\n\n    while time.time() - start_time < duration_s:\n        time.sleep(30)  # Check every 30s\n        current = get_baseline_metrics()\n        degradation = (\n            (baseline[\"success_rate\"] - current[\"success_rate\"]) > 0.1 or\n            (baseline[\"avg_score\"] - current[\"avg_score\"]) > 0.2\n        )\n        if degradation:\n            log(f\"Degradation detected: baseline={baseline}, current={current}\")\n            return False  # Rollback\n\n    # No degradation, promote\n    log(f\"Canary successful: baseline={baseline}, final={current}\")\n    return True\n",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de monitor potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_7_nexus.py",
+      "type": "metric",
+      "code": "    metrics: Dict[str, Any] = field(default_factory=dict)\n",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_7_nexus.py",
+      "type": "metric",
+      "code": "    metrics_baseline: Dict[str, float] = field(default_factory=dict)",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_8_governance_hub.py",
+      "type": "metric",
+      "code": "    metrics: Dict[str, float] = field(default_factory=dict)",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    },
+    {
+      "file": "/root/.penin_omega/modules/penin_omega_8_governance_hub.py",
+      "type": "metric",
+      "code": "    key_metrics: Dict[str, float] = field(default_factory=dict)",
+      "useful": true,
+      "reason": "Fun\u00e7\u00e3o de metric potencialmente \u00fatil"
+    }
+  ]
+}

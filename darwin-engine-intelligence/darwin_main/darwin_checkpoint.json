@@ -1,0 +1,19 @@
+{
+  "generation": 2,
+  "best_fitness": 10.5,
+  "population_size": 50,
+  "mutation_rate": 0.13,
+  "crossover_rate": 0.7,
+  "updated": "2025-09-23T12:19:38.114908",
+  "population_diversity": 0.5,
+  "fitness_improvement": 0.1,
+  "behavior_novelty": 0.3,
+  "feedback_from_teis": 0.8,
+  "real_env_best": {
+    "best_completed_objectives": 24,
+    "best_success_rate": 0.6986882716049383,
+    "best_behavior_diversity": 4,
+    "at_cycle": 972
+  },
+  "real_env_updated_at": "2025-09-24T15:11:58.463005"
+}

@@ -1,0 +1,84 @@
+{
+  "timestamp": "2025-09-27T22:06:21.071073",
+  "verdict": "NO_REAL_INTELLIGENCE_FOUND",
+  "systems_analyzed": 4,
+  "simulations_detected": 3,
+  "partial_candidates": 1,
+  "real_intelligence_count": 0,
+  "top_candidates": [
+    {
+      "rank": 1,
+      "name": "real_intelligence.db + otimiza\u00e7\u00f5es",
+      "path": "/root/real_intelligence.db",
+      "reason": "\u00danico sistema com m\u00e9tricas temporais v\u00e1lidas",
+      "experiment": "Adicionar testes de generaliza\u00e7\u00e3o OOD rigorosos"
+    },
+    {
+      "rank": 2,
+      "name": "teis_v2_enhanced.py (estabilizado)",
+      "path": "/root/teis_v2_enhanced.py",
+      "reason": "Arquitetura de agentes com potencial se corrigido",
+      "experiment": "Corrigir crash loop, adicionar mem\u00f3ria persistente"
+    },
+    {
+      "rank": 3,
+      "name": "neural_farm_optimized.py (reescrito)",
+      "path": "/root/neuron_farm_optimized.py",
+      "reason": "Base evolutiva s\u00f3lida mas implementa\u00e7\u00e3o falha",
+      "experiment": "Reescrever fitness function com m\u00e9tricas reais"
+    },
+    {
+      "rank": 4,
+      "name": "unified_intelligence_system.py",
+      "path": "/root/unified_intelligence_system.py",
+      "reason": "Sistema unificado pode ter emerg\u00eancia n\u00e3o detectada",
+      "experiment": "Auditoria profunda de componentes individuais"
+    },
+    {
+      "rank": 5,
+      "name": "meta_learning_emergent_system.py",
+      "path": "/root/meta_learning_emergent_system.py",
+      "reason": "Meta-aprendizado \u00e9 caminho promissor para AGI",
+      "experiment": "Teste com tarefas meta-learning padr\u00e3o"
+    },
+    {
+      "rank": 6,
+      "name": "self_modifying_intelligence.py",
+      "path": "/root/self_modifying_intelligence.py",
+      "reason": "Auto-modifica\u00e7\u00e3o \u00e9 caracter\u00edstica de intelig\u00eancia real",
+      "experiment": "Verificar se modifica\u00e7\u00f5es melhoram performance"
+    },
+    {
+      "rank": 7,
+      "name": "intelligence_emergence_maestro.py",
+      "path": "/root/intelligence_emergence_maestro.py",
+      "reason": "Orquestrador pode coordenar emerg\u00eancia distribu\u00edda",
+      "experiment": "Teste de coordena\u00e7\u00e3o multi-agente complexa"
+    },
+    {
+      "rank": 8,
+      "name": "perfect_intelligence_system.py",
+      "path": "/root/perfect_intelligence_system.py",
+      "reason": "Nome sugere sistema otimizado",
+      "experiment": "Verificar se \"perfei\u00e7\u00e3o\" \u00e9 real ou marketing"
+    },
+    {
+      "rank": 9,
+      "name": "needle_* (sistemas needle)",
+      "path": "/root/needle_*.py",
+      "reason": "M\u00faltiplos sistemas \"needle\" podem ter agulha real",
+      "experiment": "Auditoria sistem\u00e1tica de todos os needle_*"
+    },
+    {
+      "rank": 10,
+      "name": "Combina\u00e7\u00e3o h\u00edbrida nova",
+      "path": "/root/[novo_sistema]",
+      "reason": "Combinar melhores partes dos sistemas existentes",
+      "experiment": "Criar sistema h\u00edbrido com componentes validados"
+    }
+  ],
+  "errors_fixed": 4,
+  "errors_remaining": 5,
+  "next_steps": 5,
+  "recommendation": "STOP_SIMULATIONS_FOCUS_ON_REAL_INTELLIGENCE_DB"
+}

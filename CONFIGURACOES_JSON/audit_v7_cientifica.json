@@ -1,0 +1,13 @@
+{
+  "real_intelligence": [],
+  "partial_intelligence": [
+    "CartPole - pouco treinado"
+  ],
+  "teatro": [
+    "MNIST - sem hist\u00f3rico",
+    "Auto-Coding - n\u00e3o testado em produ\u00e7\u00e3o",
+    "Multi-Modal - mocks/stubs apenas",
+    "AutoML - nunca executado",
+    "MAML - nunca treinado"
+  ]
+}

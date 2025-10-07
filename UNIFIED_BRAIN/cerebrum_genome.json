@@ -1,0 +1,19 @@
+{
+  "learning_rate": 1e-06,
+  "hidden_size": 63.0,
+  "entropy": 0.2,
+  "ppo_epochs": 4.0,
+  "ppo_clip": 0.2224968298794879,
+  "mutation_rate": 0.4137096975446732,
+  "crossover_rate": 0.8650473819790447,
+  "curiosity_weight": 0.11584759029307576,
+  "meta_learning_rate": 0.01,
+  "population_size": 99.0,
+  "survival_rate": 0.7421198934487832,
+  "auto_coding_freq": 20.0,
+  "maml_adaptation_steps": 9.0,
+  "linf_threshold": 0.2414786831289173,
+  "caos_plus_weight": 1.4774614519661746,
+  "g275720": 0.0,
+  "g738651": 0.0
+}

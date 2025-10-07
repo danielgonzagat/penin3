@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-09-22T14:24:33.408708",
+  "total_insights": 3,
+  "insights": [
+    {
+      "type": "temporal",
+      "level": "positive",
+      "message": "Taxa de descoberta de comportamentos emergentes est\u00e1 aumentando",
+      "evidence": "M\u00e9dia de 1156.8 comportamentos por ciclo"
+    },
+    {
+      "type": "participation",
+      "level": "positive",
+      "message": "Participa\u00e7\u00e3o distribu\u00edda entre m\u00faltiplos agentes",
+      "evidence": "23 agentes \u00fanicos participando"
+    },
+    {
+      "type": "evolution",
+      "level": "promising",
+      "message": "Alto potencial de evolu\u00e7\u00e3o nos comportamentos emergentes",
+      "evidence": "Potencial m\u00e9dio de 0.774"
+    }
+  ],
+  "analysis_summary": {
+    "temporal": {
+      "total_behaviors": 5784,
+      "cycle_distribution": {
+        "1": 1144,
+        "3": 1157,
+        "4": 1138,
+        "2": 1165,
+        "5": 1180
+      },
+      "discovery_trend": "increasing",
+      "avg_behaviors_per_cycle": 1156.8,
+      "time_span_seconds": 118978.653436
+    },
+    "participation": {
+      "total_unique_participants": 23,
+      "avg_participation_per_agent": 841.1739130434783,
+      "participation_std": 978.9326122305547,
+      "most_active_agents": [
+        [
+          "agent_8",
+          1976
+        ],
+        [
+          "agent_7",
+          1970
+        ],
+        [
+          "agent_5",
+          1966
+        ]
+      ],
+      "participation_distribution": {
+        "agent_1": 1937,
+        "agent_6": 1891,
+        "agent_8": 1976,
+        "agent_3": 1843,
+        "agent_9": 1951,
+        "agent_4": 1936,
+        "agent_7": 1970,
+        "agent_2": 1945,
+        "agent_0": 1909,
+        "agent_5": 1966,
+        "agent_0_gen1": 5,
+        "agent_4_gen4": 1,
+        "agent_4_gen3": 1,
+        "agent_2_gen1": 3,
+        "agent_2_gen3": 2,
+        "agent_9_gen2": 1,
+        "agent_9_gen3": 1,
+        "agent_4_gen1": 2,
+        "agent_2_gen2": 1,
+        "agent_9_gen4": 1,
+        "agent_1_gen2": 2,
+        "agent_7_gen3": 2,
+        "agent_5_gen3": 1
+      }
+    },
+    "behavior_types": {
+      "behavior_type_distribution": {
+        "other": 5784
+      },
+      "dominant_behavior_type": "other",
+      "behavior_diversity": 1,
+      "type_stability": 1.0
+    },
+    "complexity": {
+      "avg_complexity": 0.6499308437067773,
+      "complexity_trend": "increasing",
+      "complexity_utility_correlation": 0.0029985337360558667,
+      "complexity_novelty_correlation": -0.9012479522531407,
+      "complexity_range": "0.600 - 0.900"
+    },
+    "stability": {
+      "avg_stability": 0.8481760027662517,
+      "stability_trend": "changing",
+      "avg_evolution_potential": 0.7744986168741356,
+      "high_evolution_behaviors": 5784,
+      "evolution_potential_range": "0.700 - 0.950"
+    },
+    "timestamp": "2025-09-22T14:24:33.368540",
+    "advanced_metrics": {
+      "network_nodes": 23,
+      "network_edges": 94,
+      "avg_degree": 8.174,
+      "network_density": 0.372,
+      "network_clustering": 0.812,
+      "gini_participation": 0.569,
+      "innovation_rate": 0.16,
+      "recurrence_ratio": 0.84,
+      "symbol_vocab_size": 0,
+      "communication_success_delta": -0.334,
+      "empowerment_proxy": 0.051,
+      "generated_at": "2025-09-22T14:24:33.408193"
+    }
+  }
+}

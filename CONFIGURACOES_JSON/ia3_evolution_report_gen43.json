@@ -1,0 +1,32 @@
+{
+  "current_generation": 43,
+  "current_population": 24677,
+  "history": [
+    {
+      "generation": 41,
+      "population": 24353,
+      "avg_fitness": 0.5,
+      "deaths": 0,
+      "births": 500,
+      "timestamp": 1758845061.9710538
+    },
+    {
+      "generation": 42,
+      "population": 24699,
+      "avg_fitness": 0.5000008172613539,
+      "deaths": 154,
+      "births": 500,
+      "timestamp": 1758845342.3790822
+    },
+    {
+      "generation": 43,
+      "population": 24677,
+      "avg_fitness": 0.4847893382311881,
+      "deaths": 522,
+      "births": 500,
+      "timestamp": 1758845756.672991
+    }
+  ],
+  "runtime": 1070.9584865570068,
+  "task": "Pattern"
+}

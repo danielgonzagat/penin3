@@ -1,0 +1,17 @@
+{
+  "fitness_threshold": 0.5859193724760898,
+  "required_traits": "set()",
+  "optimal_scores": {
+    "logic": 0.8475048230504231,
+    "creativity": 0.8192626021036605,
+    "fitness": 0.8375288194256594
+  },
+  "survival_formula": {
+    "min_fitness": 0.5859193724760898,
+    "balance_factor": 0.7,
+    "task_performance": 0.7,
+    "evolution_rate": 0.01,
+    "max_stagnation": 3
+  },
+  "genetic_code": "b34cd8fd2124810b"
+}

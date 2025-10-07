@@ -1,0 +1,918 @@
+{
+  "cycles": 50,
+  "elapsed": 1.5064606666564941,
+  "neural_farm": {
+    "generations": 50,
+    "final_fitness": 722.2633996582032,
+    "avg_fitness": 265.715955724454,
+    "convergence": 0
+  },
+  "teis": {
+    "episodes": 50,
+    "final_reward": -133.5719272705678,
+    "avg_reward": -147.7945364707561,
+    "convergence": 50
+  },
+  "coordination_events": [
+    {
+      "cycle": 0,
+      "neural_farm": {
+        "generation": 1,
+        "avg_fitness": 0.3259419390559196,
+        "best_fitness": 0.9520477044582367,
+        "population": 30
+      },
+      "teis": {
+        "episode": 1,
+        "reward": -171.06340795446079,
+        "buffer_size": 100
+      },
+      "coordination": {
+        "nf_trend": "stable",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 1,
+      "neural_farm": {
+        "generation": 2,
+        "avg_fitness": 0.619525746703148,
+        "best_fitness": 2.100225298404694,
+        "population": 30
+      },
+      "teis": {
+        "episode": 2,
+        "reward": -141.59555565500486,
+        "buffer_size": 200
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 2,
+      "neural_farm": {
+        "generation": 3,
+        "avg_fitness": 1.2694368611574172,
+        "best_fitness": 7.965964822769164,
+        "population": 30
+      },
+      "teis": {
+        "episode": 3,
+        "reward": -89.95403708336478,
+        "buffer_size": 300
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 3,
+      "neural_farm": {
+        "generation": 4,
+        "avg_fitness": 4.250190491676331,
+        "best_fitness": 19.736764698028566,
+        "population": 30
+      },
+      "teis": {
+        "episode": 4,
+        "reward": -132.96851576807535,
+        "buffer_size": 400
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 4,
+      "neural_farm": {
+        "generation": 5,
+        "avg_fitness": 5.948840854644775,
+        "best_fitness": 22.61504390716553,
+        "population": 30
+      },
+      "teis": {
+        "episode": 5,
+        "reward": -185.53302087640498,
+        "buffer_size": 500
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 5,
+      "neural_farm": {
+        "generation": 6,
+        "avg_fitness": 8.069863746643067,
+        "best_fitness": 26.005659370422364,
+        "population": 30
+      },
+      "teis": {
+        "episode": 6,
+        "reward": -76.85924104424576,
+        "buffer_size": 600
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 6,
+      "neural_farm": {
+        "generation": 7,
+        "avg_fitness": 7.956684279441833,
+        "best_fitness": 27.51798179626465,
+        "population": 30
+      },
+      "teis": {
+        "episode": 7,
+        "reward": -221.48583020341528,
+        "buffer_size": 700
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 7,
+      "neural_farm": {
+        "generation": 8,
+        "avg_fitness": 13.513766456604005,
+        "best_fitness": 44.82891872406006,
+        "population": 30
+      },
+      "teis": {
+        "episode": 8,
+        "reward": -131.38533177613004,
+        "buffer_size": 800
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 8,
+      "neural_farm": {
+        "generation": 9,
+        "avg_fitness": 13.874234127044678,
+        "best_fitness": 42.09390953063965,
+        "population": 30
+      },
+      "teis": {
+        "episode": 9,
+        "reward": -177.90980413818474,
+        "buffer_size": 900
+      },
+      "coordination": {
+        "nf_trend": "stable",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 9,
+      "neural_farm": {
+        "generation": 10,
+        "avg_fitness": 20.744020339965818,
+        "best_fitness": 65.58772018432617,
+        "population": 30
+      },
+      "teis": {
+        "episode": 10,
+        "reward": -156.03228925268593,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 10,
+      "neural_farm": {
+        "generation": 11,
+        "avg_fitness": 30.86557187652588,
+        "best_fitness": 84.68136909484863,
+        "population": 30
+      },
+      "teis": {
+        "episode": 11,
+        "reward": -127.38626025508,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 11,
+      "neural_farm": {
+        "generation": 12,
+        "avg_fitness": 24.664241886138917,
+        "best_fitness": 65.9684651184082,
+        "population": 30
+      },
+      "teis": {
+        "episode": 12,
+        "reward": -226.19389491147976,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "stable",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 12,
+      "neural_farm": {
+        "generation": 13,
+        "avg_fitness": 28.511158996582033,
+        "best_fitness": 68.08458000183106,
+        "population": 30
+      },
+      "teis": {
+        "episode": 13,
+        "reward": -182.44685488259933,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 13,
+      "neural_farm": {
+        "generation": 14,
+        "avg_fitness": 38.99085548400879,
+        "best_fitness": 94.9119751739502,
+        "population": 30
+      },
+      "teis": {
+        "episode": 14,
+        "reward": -112.40610991974641,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 14,
+      "neural_farm": {
+        "generation": 15,
+        "avg_fitness": 33.03671703338623,
+        "best_fitness": 92.96537521362305,
+        "population": 30
+      },
+      "teis": {
+        "episode": 15,
+        "reward": -108.59928800180545,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "stable",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 15,
+      "neural_farm": {
+        "generation": 16,
+        "avg_fitness": 50.52679132843017,
+        "best_fitness": 118.67836120605469,
+        "population": 30
+      },
+      "teis": {
+        "episode": 16,
+        "reward": -148.815338298425,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 16,
+      "neural_farm": {
+        "generation": 17,
+        "avg_fitness": 51.05933244323731,
+        "best_fitness": 122.82647186279297,
+        "population": 30
+      },
+      "teis": {
+        "episode": 17,
+        "reward": -126.93420229246071,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 17,
+      "neural_farm": {
+        "generation": 18,
+        "avg_fitness": 53.84228582000732,
+        "best_fitness": 124.20859268188477,
+        "population": 30
+      },
+      "teis": {
+        "episode": 18,
+        "reward": -176.43083742512837,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 18,
+      "neural_farm": {
+        "generation": 19,
+        "avg_fitness": 52.493957015991214,
+        "best_fitness": 125.39219146728516,
+        "population": 30
+      },
+      "teis": {
+        "episode": 19,
+        "reward": -142.28883222999488,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 19,
+      "neural_farm": {
+        "generation": 20,
+        "avg_fitness": 55.659236694335945,
+        "best_fitness": 132.81929901123047,
+        "population": 30
+      },
+      "teis": {
+        "episode": 20,
+        "reward": -137.6775927706436,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 20,
+      "neural_farm": {
+        "generation": 21,
+        "avg_fitness": 64.72065573120118,
+        "best_fitness": 140.45406967163086,
+        "population": 30
+      },
+      "teis": {
+        "episode": 21,
+        "reward": -137.32552665832884,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 21,
+      "neural_farm": {
+        "generation": 22,
+        "avg_fitness": 65.93565151977539,
+        "best_fitness": 158.16482666015625,
+        "population": 30
+      },
+      "teis": {
+        "episode": 22,
+        "reward": -174.62749430433914,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 22,
+      "neural_farm": {
+        "generation": 23,
+        "avg_fitness": 65.12959971618652,
+        "best_fitness": 159.22454956054688,
+        "population": 30
+      },
+      "teis": {
+        "episode": 23,
+        "reward": -163.68851212764633,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 23,
+      "neural_farm": {
+        "generation": 24,
+        "avg_fitness": 90.47413172912599,
+        "best_fitness": 204.51069763183597,
+        "population": 30
+      },
+      "teis": {
+        "episode": 24,
+        "reward": -152.55063334552815,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 24,
+      "neural_farm": {
+        "generation": 25,
+        "avg_fitness": 92.57141986083984,
+        "best_fitness": 205.17287567138675,
+        "population": 30
+      },
+      "teis": {
+        "episode": 25,
+        "reward": -130.97519618895953,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 25,
+      "neural_farm": {
+        "generation": 26,
+        "avg_fitness": 99.8925326385498,
+        "best_fitness": 209.8066278076172,
+        "population": 30
+      },
+      "teis": {
+        "episode": 26,
+        "reward": -144.57686893677467,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 26,
+      "neural_farm": {
+        "generation": 27,
+        "avg_fitness": 95.26020262145997,
+        "best_fitness": 207.23635986328128,
+        "population": 30
+      },
+      "teis": {
+        "episode": 27,
+        "reward": -144.13025488464098,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "stable",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 27,
+      "neural_farm": {
+        "generation": 28,
+        "avg_fitness": 130.23294873046876,
+        "best_fitness": 311.8363888549805,
+        "population": 30
+      },
+      "teis": {
+        "episode": 28,
+        "reward": -128.12450009965883,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 28,
+      "neural_farm": {
+        "generation": 29,
+        "avg_fitness": 122.79992599487305,
+        "best_fitness": 324.1794827270508,
+        "population": 30
+      },
+      "teis": {
+        "episode": 29,
+        "reward": -271.75052877855666,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 29,
+      "neural_farm": {
+        "generation": 30,
+        "avg_fitness": 144.11973309326174,
+        "best_fitness": 330.5478680419922,
+        "population": 30
+      },
+      "teis": {
+        "episode": 30,
+        "reward": -111.20171638473978,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 30,
+      "neural_farm": {
+        "generation": 31,
+        "avg_fitness": 134.38573751831058,
+        "best_fitness": 290.76486328125003,
+        "population": 30
+      },
+      "teis": {
+        "episode": 31,
+        "reward": -158.3001209611252,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "stable",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 31,
+      "neural_farm": {
+        "generation": 32,
+        "avg_fitness": 163.06665399169924,
+        "best_fitness": 380.2366040039063,
+        "population": 30
+      },
+      "teis": {
+        "episode": 32,
+        "reward": -119.5511392688884,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 32,
+      "neural_farm": {
+        "generation": 33,
+        "avg_fitness": 158.23257696533204,
+        "best_fitness": 355.30210235595706,
+        "population": 30
+      },
+      "teis": {
+        "episode": 33,
+        "reward": -96.65841755351025,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "stable",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 33,
+      "neural_farm": {
+        "generation": 34,
+        "avg_fitness": 150.64802606201175,
+        "best_fitness": 352.665612487793,
+        "population": 30
+      },
+      "teis": {
+        "episode": 34,
+        "reward": -157.48773453374866,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "stable",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 34,
+      "neural_farm": {
+        "generation": 35,
+        "avg_fitness": 185.8255770263672,
+        "best_fitness": 424.4320385742187,
+        "population": 30
+      },
+      "teis": {
+        "episode": 35,
+        "reward": -181.3713041564164,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 35,
+      "neural_farm": {
+        "generation": 36,
+        "avg_fitness": 171.1994253845215,
+        "best_fitness": 372.63523223876956,
+        "population": 30
+      },
+      "teis": {
+        "episode": 36,
+        "reward": -157.57808580006872,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "stable",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 36,
+      "neural_farm": {
+        "generation": 37,
+        "avg_fitness": 181.6914710083008,
+        "best_fitness": 384.22606018066404,
+        "population": 30
+      },
+      "teis": {
+        "episode": 37,
+        "reward": -112.77680563727333,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 37,
+      "neural_farm": {
+        "generation": 38,
+        "avg_fitness": 196.02911148071288,
+        "best_fitness": 465.14943054199216,
+        "population": 30
+      },
+      "teis": {
+        "episode": 38,
+        "reward": -123.64544696507515,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 38,
+      "neural_farm": {
+        "generation": 39,
+        "avg_fitness": 225.61839196777345,
+        "best_fitness": 494.8309350585938,
+        "population": 30
+      },
+      "teis": {
+        "episode": 39,
+        "reward": -140.09031978866162,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 39,
+      "neural_farm": {
+        "generation": 40,
+        "avg_fitness": 267.1149998168945,
+        "best_fitness": 602.0933239746093,
+        "population": 30
+      },
+      "teis": {
+        "episode": 40,
+        "reward": -107.04455081043774,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 40,
+      "neural_farm": {
+        "generation": 41,
+        "avg_fitness": 210.73616235351565,
+        "best_fitness": 465.58783081054685,
+        "population": 30
+      },
+      "teis": {
+        "episode": 41,
+        "reward": -253.9184809001191,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "stable",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 41,
+      "neural_farm": {
+        "generation": 42,
+        "avg_fitness": 221.78356640625,
+        "best_fitness": 497.0186791992188,
+        "population": 30
+      },
+      "teis": {
+        "episode": 42,
+        "reward": -125.69601699808459,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 42,
+      "neural_farm": {
+        "generation": 43,
+        "avg_fitness": 274.57463323974605,
+        "best_fitness": 592.1478588867187,
+        "population": 30
+      },
+      "teis": {
+        "episode": 43,
+        "reward": -126.62068164966719,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 43,
+      "neural_farm": {
+        "generation": 44,
+        "avg_fitness": 239.21507928466798,
+        "best_fitness": 503.9207775878906,
+        "population": 30
+      },
+      "teis": {
+        "episode": 44,
+        "reward": -172.55164944638835,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "stable",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 44,
+      "neural_farm": {
+        "generation": 45,
+        "avg_fitness": 271.5136076660157,
+        "best_fitness": 568.1422741699218,
+        "population": 30
+      },
+      "teis": {
+        "episode": 45,
+        "reward": -168.90856529050998,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 45,
+      "neural_farm": {
+        "generation": 46,
+        "avg_fitness": 302.90785827636716,
+        "best_fitness": 659.6610882568359,
+        "population": 30
+      },
+      "teis": {
+        "episode": 46,
+        "reward": -144.7007844735433,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 46,
+      "neural_farm": {
+        "generation": 47,
+        "avg_fitness": 286.6962686767578,
+        "best_fitness": 621.3560357666016,
+        "population": 30
+      },
+      "teis": {
+        "episode": 47,
+        "reward": -80.91802465607991,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "stable",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 47,
+      "neural_farm": {
+        "generation": 48,
+        "avg_fitness": 215.43963470458985,
+        "best_fitness": 470.74425109863284,
+        "population": 30
+      },
+      "teis": {
+        "episode": 48,
+        "reward": -157.84728549616835,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "stable",
+        "teis_trend": "stable"
+      }
+    },
+    {
+      "cycle": 48,
+      "neural_farm": {
+        "generation": 49,
+        "avg_fitness": 248.13831219482424,
+        "best_fitness": 521.5447247314453,
+        "population": 30
+      },
+      "teis": {
+        "episode": 49,
+        "reward": -137.57200543296216,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    },
+    {
+      "cycle": 49,
+      "neural_farm": {
+        "generation": 50,
+        "avg_fitness": 334.962241027832,
+        "best_fitness": 722.2633996582032,
+        "population": 30
+      },
+      "teis": {
+        "episode": 50,
+        "reward": -133.5719272705678,
+        "buffer_size": 1000
+      },
+      "coordination": {
+        "nf_trend": "improving",
+        "teis_trend": "improving"
+      }
+    }
+  ]
+}

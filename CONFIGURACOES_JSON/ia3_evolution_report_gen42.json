@@ -1,0 +1,24 @@
+{
+  "current_generation": 42,
+  "current_population": 24699,
+  "history": [
+    {
+      "generation": 41,
+      "population": 24353,
+      "avg_fitness": 0.5,
+      "deaths": 0,
+      "births": 500,
+      "timestamp": 1758845061.9710538
+    },
+    {
+      "generation": 42,
+      "population": 24699,
+      "avg_fitness": 0.5000008172613539,
+      "deaths": 154,
+      "births": 500,
+      "timestamp": 1758845342.3790822
+    }
+  ],
+  "runtime": 753.1096892356873,
+  "task": "Pattern"
+}

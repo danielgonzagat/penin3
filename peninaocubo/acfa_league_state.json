@@ -1,0 +1,287 @@
+{
+  "champion": {
+    "model_id": "v1",
+    "stage": "production",
+    "metrics": {
+      "accuracy": 0.92,
+      "robustness": 0.85,
+      "calibration": 0.9,
+      "fairness": 0.88,
+      "privacy": 0.87,
+      "cost": 0.05
+    },
+    "deployed_at": "2025-10-03T00:19:52.873556+00:00",
+    "promoted": true,
+    "promotion_decision": "promoted",
+    "canary_traffic_pct": 100.0
+  },
+  "challengers": [
+    {
+      "model_id": "model_v2_worse",
+      "stage": "shadow",
+      "metrics": {
+        "accuracy": 0.85,
+        "robustness": 0.8,
+        "calibration": 0.83,
+        "fairness": 0.82,
+        "privacy": 0.85,
+        "cost": 0.8
+      },
+      "deployed_at": "2025-10-02T22:54:13.016722+00:00",
+      "promoted": false,
+      "promotion_decision": null,
+      "canary_traffic_pct": 0.0
+    },
+    {
+      "model_id": "model_v4_unethical",
+      "stage": "shadow",
+      "metrics": {
+        "accuracy": 0.99,
+        "robustness": 0.98,
+        "calibration": 0.97,
+        "fairness": 0.5,
+        "privacy": 0.98,
+        "cost": 0.9
+      },
+      "deployed_at": "2025-10-02T22:54:13.019068+00:00",
+      "promoted": false,
+      "promotion_decision": null,
+      "canary_traffic_pct": 0.0
+    },
+    {
+      "model_id": "v2",
+      "stage": "shadow",
+      "metrics": {
+        "accuracy": 0.94,
+        "robustness": 0.87,
+        "calibration": 0.91,
+        "fairness": 0.9,
+        "privacy": 0.89,
+        "cost": 0.045
+      },
+      "deployed_at": "2025-10-03T00:19:52.874286+00:00",
+      "promoted": false,
+      "promotion_decision": null,
+      "canary_traffic_pct": 0.0
+    }
+  ],
+  "history": [
+    {
+      "timestamp": "2025-10-02T22:54:13.016383+00:00",
+      "event": "champion_registered",
+      "data": {
+        "model_id": "model_v1",
+        "linf_score": 0.8795876623084062,
+        "metrics": {
+          "accuracy": 0.9,
+          "robustness": 0.85,
+          "calibration": 0.88,
+          "fairness": 0.87,
+          "privacy": 0.9,
+          "cost": 1.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-02T22:54:13.016758+00:00",
+      "event": "challenger_deployed",
+      "data": {
+        "model_id": "model_v2_worse",
+        "stage": "shadow",
+        "linf_score": 0.8295626050826859,
+        "metrics": {
+          "accuracy": 0.85,
+          "robustness": 0.8,
+          "calibration": 0.83,
+          "fairness": 0.82,
+          "privacy": 0.85,
+          "cost": 0.8
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-02T22:54:13.017249+00:00",
+      "event": "promotion_rejected",
+      "data": {
+        "model_id": "model_v2_worse",
+        "reason": "insufficient_improvement",
+        "challenger_linf": 0.8295626050826859,
+        "champion_linf": 0.8795876623084062,
+        "improvement": -0.05002505722572037,
+        "required": 0.02
+      }
+    },
+    {
+      "timestamp": "2025-10-02T22:54:13.017362+00:00",
+      "event": "challenger_deployed",
+      "data": {
+        "model_id": "model_v3_better",
+        "stage": "shadow",
+        "linf_score": 0.9378543417559493,
+        "metrics": {
+          "accuracy": 0.95,
+          "robustness": 0.92,
+          "calibration": 0.93,
+          "fairness": 0.94,
+          "privacy": 0.95,
+          "cost": 1.1
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-02T22:54:13.018297+00:00",
+      "event": "promotion_approved",
+      "data": {
+        "model_id": "model_v3_better",
+        "challenger_linf": 0.9378543417559493,
+        "champion_linf": 0.8795876623084062,
+        "improvement": 0.058266679447543046
+      }
+    },
+    {
+      "timestamp": "2025-10-02T22:54:13.018336+00:00",
+      "event": "promotion_approved",
+      "data": {
+        "model_id": "model_v3_better",
+        "challenger_linf": 0.9378543417559493,
+        "champion_linf": 0.8795876623084062,
+        "improvement": 0.058266679447543046
+      }
+    },
+    {
+      "timestamp": "2025-10-02T22:54:13.018354+00:00",
+      "event": "champion_promoted",
+      "data": {
+        "new_champion": "model_v3_better",
+        "old_champion": "model_v1",
+        "linf_score": 0.9378543417559493
+      }
+    },
+    {
+      "timestamp": "2025-10-02T22:54:13.019110+00:00",
+      "event": "challenger_deployed",
+      "data": {
+        "model_id": "model_v4_unethical",
+        "stage": "shadow",
+        "linf_score": 0.8221189226058899,
+        "metrics": {
+          "accuracy": 0.99,
+          "robustness": 0.98,
+          "calibration": 0.97,
+          "fairness": 0.5,
+          "privacy": 0.98,
+          "cost": 0.9
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-02T23:01:07.534114+00:00",
+      "event": "champion_registered",
+      "data": {
+        "model_id": "model_v1",
+        "linf_score": 0.8897752411686363,
+        "metrics": {
+          "accuracy": 0.9,
+          "robustness": 0.88,
+          "calibration": 0.87,
+          "fairness": 0.89,
+          "privacy": 0.91,
+          "cost": 1.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-02T23:01:07.534718+00:00",
+      "event": "challenger_deployed",
+      "data": {
+        "model_id": "model_v2",
+        "stage": "shadow",
+        "linf_score": 0.9438901414573646,
+        "metrics": {
+          "accuracy": 0.95,
+          "robustness": 0.93,
+          "calibration": 0.94,
+          "fairness": 0.94,
+          "privacy": 0.96,
+          "cost": 1.1
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-02T23:01:07.535271+00:00",
+      "event": "promotion_approved",
+      "data": {
+        "model_id": "model_v2",
+        "challenger_linf": 0.9438901414573646,
+        "champion_linf": 0.8897752411686363,
+        "improvement": 0.05411490028872834
+      }
+    },
+    {
+      "timestamp": "2025-10-02T23:01:07.535290+00:00",
+      "event": "champion_promoted",
+      "data": {
+        "new_champion": "model_v2",
+        "old_champion": "model_v1",
+        "linf_score": 0.9438901414573646
+      }
+    },
+    {
+      "timestamp": "2025-10-02T23:22:23.503752+00:00",
+      "event": "champion_registered",
+      "data": {
+        "model_id": "model_v1",
+        "linf_score": 0.8897752411686363,
+        "metrics": {
+          "accuracy": 0.9,
+          "robustness": 0.88,
+          "calibration": 0.87,
+          "fairness": 0.89,
+          "privacy": 0.91,
+          "cost": 1.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-03T00:19:52.873610+00:00",
+      "event": "champion_registered",
+      "data": {
+        "model_id": "v1",
+        "linf_score": 0.8833411695273694,
+        "metrics": {
+          "accuracy": 0.92,
+          "robustness": 0.85,
+          "calibration": 0.9,
+          "fairness": 0.88,
+          "privacy": 0.87,
+          "cost": 0.05
+        }
+      }
+    },
+    {
+      "timestamp": "2025-10-03T00:19:52.874328+00:00",
+      "event": "challenger_deployed",
+      "data": {
+        "model_id": "v2",
+        "stage": "shadow",
+        "linf_score": 0.901410434888582,
+        "metrics": {
+          "accuracy": 0.94,
+          "robustness": 0.87,
+          "calibration": 0.91,
+          "fairness": 0.9,
+          "privacy": 0.89,
+          "cost": 0.045
+        }
+      }
+    }
+  ],
+  "config": {
+    "linf_improvement_threshold": 0.02,
+    "min_linf_score": 0.7,
+    "canary_traffic_start": 5.0,
+    "canary_traffic_max": 50.0,
+    "ethics_min_threshold": 0.6,
+    "max_cost_ratio": 1.5
+  }
+}

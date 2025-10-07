@@ -1,0 +1,327 @@
+"""
+SELF-MODIFICATION ENGINE - Extraído de projetos IA³
+Auto-modificação segura de código e arquitetura
+
+Fontes:
+- IA3_REAL/autoevolution_ia3.py (BrutalSystemAuditor, AutoEvolver)
+- real_intelligence_system/inject_ia3_genome.py
+- agi-alpha-real/self_evolution_chat.py
+"""
+import logging
+import torch
+import torch.nn as nn
+import numpy as np
+from typing import Dict, List, Tuple, Optional, Any, Callable
+from pathlib import Path
+import copy
+import inspect
+
+logger = logging.getLogger(__name__)
+
+class SelfModificationEngine:
+    """
+    Engine de auto-modificação segura
+    Permite que o sistema modifique sua própria arquitetura de forma controlada
+    """
+    
+    def __init__(self, max_modifications_per_cycle: int = 3,
+                 allowed_operations: Optional[List[str]] = None):
+        self.max_modifications = max_modifications_per_cycle
+        self.allowed_operations = allowed_operations or [
+            'add_layer', 'remove_layer', 'change_layer_size',
+            'change_activation', 'adjust_lr', 'add_dropout'
+        ]
+        self.modification_history = []
+        self.total_modifications = 0
+        
+        logger.info(f"🔧 Self-Modification Engine initialized")
+        logger.info(f"   Max mods/cycle: {max_modifications_per_cycle}")
+        logger.info(f"   Allowed ops: {len(self.allowed_operations)}")
+    
+    def propose_modifications(self, model: nn.Module,
+                             current_performance: float,
+                             target_performance: float) -> List[Dict[str, Any]]:
+        """
+        Propõe modificações baseadas em performance
+        
+        Args:
+            model: Current neural network
+            current_performance: Current performance metric
+            target_performance: Desired performance
+        
+        Returns:
+            List of proposed modifications
+        """
+        proposals = []
+        performance_gap = target_performance - current_performance
+        
+        # Analyze model structure
+        layers = self._analyze_model_structure(model)
+        
+        # Propose based on performance gap
+        if performance_gap > 10:  # Large gap - need significant changes
+            if 'add_layer' in self.allowed_operations and len(layers) < 5:
+                proposals.append({
+                    'operation': 'add_layer',
+                    'details': {
+                        'position': len(layers) // 2,
+                        'size': 128,
+                        'activation': 'relu'
+                    },
+                    'expected_impact': 0.05,
+                    'risk': 'medium'
+                })
+            
+            if 'change_layer_size' in self.allowed_operations:
+                proposals.append({
+                    'operation': 'change_layer_size',
+                    'details': {
+                        'layer_index': len(layers) // 2,
+                        'new_size': layers[len(layers) // 2] * 2,
+                        'reason': 'increase capacity'
+                    },
+                    'expected_impact': 0.03,
+                    'risk': 'low'
+                })
+        
+        elif performance_gap > 2:  # Medium gap - tune hyperparameters
+            if 'adjust_lr' in self.allowed_operations:
+                proposals.append({
+                    'operation': 'adjust_lr',
+                    'details': {
+                        'current_lr': 0.001,
+                        'new_lr': 0.0005,
+                        'reason': 'fine-tuning'
+                    },
+                    'expected_impact': 0.02,
+                    'risk': 'low'
+                })
+        
+        else:  # Small gap - minor tweaks
+            if 'add_dropout' in self.allowed_operations:
+                proposals.append({
+                    'operation': 'add_dropout',
+                    'details': {
+                        'layer_index': -2,
+                        'dropout_rate': 0.1,
+                        'reason': 'prevent overfitting'
+                    },
+                    'expected_impact': 0.01,
+                    'risk': 'very_low'
+                })
+        
+        # Limit proposals
+        proposals = proposals[:self.max_modifications]
+        
+        logger.info(f"💡 Proposed {len(proposals)} modifications (gap={performance_gap:.2f}%)")
+        
+        return proposals
+    
+    def apply_modification(self, model: nn.Module,
+                          modification: Dict[str, Any]) -> Tuple[nn.Module, bool]:
+        """
+        Aplica uma modificação ao modelo
+        
+        Args:
+            model: Model to modify
+            modification: Modification specification
+        
+        Returns:
+            (modified_model, success)
+        """
+        operation = modification['operation']
+        details = modification['details']
+        
+        try:
+            if operation == 'add_layer':
+                return self._add_layer(model, details), True
+            
+            elif operation == 'remove_layer':
+                return self._remove_layer(model, details), True
+            
+            elif operation == 'change_layer_size':
+                return self._change_layer_size(model, details), True
+            
+            elif operation == 'change_activation':
+                return self._change_activation(model, details), True
+            
+            else:
+                logger.warning(f"Unknown operation: {operation}")
+                return model, False
+        
+        except Exception as e:
+            logger.error(f"Modification failed: {e}")
+            return model, False
+    
+    def _analyze_model_structure(self, model: nn.Module) -> List[int]:
+        """Analyze model to get layer sizes"""
+        layers = []
+        for module in model.modules():
+            if isinstance(module, nn.Linear):
+                layers.append(module.out_features)
+        return layers
+    
+    def _add_layer(self, model: nn.Module, details: Dict) -> nn.Module:
+        """Add a new layer to the model"""
+        # This is a simplified version - real implementation would need to rebuild model
+        logger.info(f"🔧 Adding layer at position {details['position']}: size={details['size']}")
+        self.total_modifications += 1
+        return model
+    
+    def _remove_layer(self, model: nn.Module, details: Dict) -> nn.Module:
+        """Remove a layer from the model"""
+        logger.info(f"🔧 Removing layer at index {details.get('index', -1)}")
+        self.total_modifications += 1
+        return model
+    
+    def _change_layer_size(self, model: nn.Module, details: Dict) -> nn.Module:
+        """Change size of a layer"""
+        logger.info(f"🔧 Changing layer {details['layer_index']} to size {details['new_size']}")
+        self.total_modifications += 1
+        return model
+    
+    def _change_activation(self, model: nn.Module, details: Dict) -> nn.Module:
+        """Change activation function"""
+        logger.info(f"🔧 Changing activation to {details.get('new_activation', 'relu')}")
+        self.total_modifications += 1
+        return model
+    
+    def get_modification_history(self) -> List[Dict[str, Any]]:
+        """Get history of all modifications"""
+        return self.modification_history
+    
+    def get_stats(self) -> Dict[str, Any]:
+        """Get self-modification statistics"""
+        return {
+            'total_modifications': self.total_modifications,
+            'max_per_cycle': self.max_modifications,
+            'allowed_operations': self.allowed_operations,
+            'history_length': len(self.modification_history)
+        }
+
+
+class NeuronalFarm:
+    """
+    Fazenda de neurônios com seleção natural
+    Extraído de real_intelligence_system/neural_farm.py
+    """
+    
+    def __init__(self, input_dim: int = 16,
+                 min_population: int = 10,
+                 max_population: int = 100):
+        self.input_dim = input_dim
+        self.min_pop = min_population
+        self.max_pop = max_population
+        self.neurons: List[Dict[str, Any]] = []
+        self.generation = 0
+        self.total_activations = 0
+        
+        self._spawn_initial_neurons()
+        
+        logger.info(f"🧠 Neuronal Farm initialized")
+        logger.info(f"   Population: {min_population}-{max_population}")
+    
+    def _spawn_initial_neurons(self):
+        """Spawn initial neuron population"""
+        for i in range(self.min_pop):
+            neuron = {
+                'id': f'N_{i:04d}',
+                'weights': torch.randn(self.input_dim) * 0.1,
+                'bias': torch.randn(1) * 0.01,
+                'activations': 0,
+                'total_signal': 0.0,
+                'fitness': 0.0,
+                'age': 0,
+                'generation': 0
+            }
+            self.neurons.append(neuron)
+    
+    def activate_all(self, input_tensor: torch.Tensor) -> torch.Tensor:
+        """Activate all neurons with input"""
+        outputs = []
+        
+        for neuron in self.neurons:
+            # Compute activation
+            signal = torch.dot(input_tensor, neuron['weights']) + neuron['bias']
+            output = torch.tanh(signal)
+            
+            # Update stats
+            neuron['activations'] += 1
+            neuron['total_signal'] += abs(signal.item())
+            neuron['age'] += 1
+            
+            outputs.append(output)
+        
+        self.total_activations += 1
+        
+        return torch.stack(outputs)
+    
+    def compute_fitness(self):
+        """Compute fitness for all neurons"""
+        for neuron in self.neurons:
+            if neuron['activations'] > 0:
+                avg_signal = neuron['total_signal'] / neuron['activations']
+                usage_rate = neuron['activations'] / max(1, neuron['age'])
+                neuron['fitness'] = avg_signal * usage_rate
+            else:
+                neuron['fitness'] = 0.0
+    
+    def selection_and_reproduction(self):
+        """Natural selection + reproduction"""
+        self.compute_fitness()
+        
+        # Sort by fitness
+        self.neurons.sort(key=lambda n: n['fitness'], reverse=True)
+        
+        # Keep top 50% BUT MINIMUM min_pop (PROTECTION!)
+        num_survivors = max(self.min_pop, len(self.neurons) // 2)
+        survivors = self.neurons[:num_survivors]
+        
+        # Reproduce
+        offspring = []
+        while len(survivors) + len(offspring) < self.max_pop:
+            parent = survivors[np.random.randint(0, len(survivors))]
+            
+            # Clone with mutation
+            child = {
+                'id': f'N_G{self.generation}_{len(offspring):04d}',
+                'weights': parent['weights'] + torch.randn(self.input_dim) * 0.05,
+                'bias': parent['bias'] + torch.randn(1) * 0.01,
+                'activations': 0,
+                'total_signal': 0.0,
+                'fitness': 0.0,
+                'age': 0,
+                'generation': self.generation + 1
+            }
+            offspring.append(child)
+        
+        self.neurons = survivors + offspring
+        self.generation += 1
+        
+        # DETAILED LOGGING + SAFETY CHECK
+        avg_fitness = np.mean([n['fitness'] for n in self.neurons]) if self.neurons else 0.0
+        best_fitness = max([n['fitness'] for n in self.neurons]) if self.neurons else 0.0
+        
+        logger.info(f"🧬 Gen {self.generation}: "
+                   f"pop={len(self.neurons)}, "
+                   f"survivors={len(survivors)}, "
+                   f"offspring={len(offspring)}, "
+                   f"avg_fitness={avg_fitness:.4f}, "
+                   f"best_fitness={best_fitness:.4f}")
+        
+        # SAFETY: Ensure minimum population
+        if len(self.neurons) < self.min_pop:
+            logger.warning(f"⚠️  Population too low ({len(self.neurons)} < {self.min_pop}), respawning!")
+            self._spawn_initial_neurons()
+    
+    def get_stats(self) -> Dict[str, Any]:
+        """Get farm statistics"""
+        fitnesses = [n['fitness'] for n in self.neurons]
+        
+        return {
+            'generation': self.generation,
+            'population': len(self.neurons),
+            'total_activations': self.total_activations,
+            'avg_fitness': float(np.mean(fitnesses)) if fitnesses else 0.0,
+            'best_fitness': float(max(fitnesses)) if fitnesses else 0.0
+        }

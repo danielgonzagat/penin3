@@ -1,0 +1,278 @@
+#!/usr/bin/env python3
+"""
+🔒 WORM LEDGER
+Write-Once-Read-Many log para auditoria imutável
+"""
+
+import hashlib
+import json
+from pathlib import Path
+from datetime import datetime
+from typing import Dict, Any, List
+import threading
+
+class WORMLog:
+    """
+    Ledger imutável com hash-chain
+    Cada entry é hasheado com o hash anterior (blockchain-like)
+    """
+    def __init__(self, path: str = "/root/UNIFIED_BRAIN/worm.log"):
+        self.path = Path(path)
+        self._write_lock = threading.Lock()  # Thread-safe writes
+        self.last_hash = self._get_last_hash()
+        
+        # ✅ CORREÇÃO #9: Contadores para validação periódica automática
+        self._append_count = 0
+        self._validation_interval = 1000  # Validar a cada 1000 appends
+        self._last_validation = 0
+        self._validation_failures = 0  # Track falhas
+        
+        # Cria arquivo se não existe
+        if not self.path.exists():
+            self.path.parent.mkdir(parents=True, exist_ok=True)
+            self.path.touch()
+    
+    def _get_last_hash(self) -> str:
+        """Obtém último hash da cadeia"""
+        if not self.path.exists():
+            return "0" * 64  # Genesis hash
+        
+        try:
+            with open(self.path, 'r') as f:
+                lines = f.readlines()
+                if lines:
+                    last_line = lines[-1].strip()
+                    if last_line:
+                        last = json.loads(last_line)
+                        return last['hash']
+        except:
+            pass
+        
+        return "0" * 64
+    
+    def append(self, event: str, data: Dict[str, Any]):
+        """
+        Adiciona entry imutável ao log (thread-safe)
+        ✅ CORREÇÃO #9: Com validação periódica automática
+        
+        Args:
+            event: nome do evento (ex: 'brain_step', 'adapter_trained')
+            data: dados do evento (dict serializável)
+        """
+        with self._write_lock:  # Thread-safe
+            # Check if rotation needed (before append)
+            self._rotate_if_large()
+            
+            entry = {
+                'timestamp': datetime.now().isoformat(),
+                'event': event,
+                'data': data,
+                'prev_hash': self.last_hash
+            }
+            
+            # Hash entry (sem incluir o próprio hash)
+            entry_str = json.dumps(entry, sort_keys=True)
+            entry_hash = hashlib.sha256(entry_str.encode()).hexdigest()
+            entry['hash'] = entry_hash
+            
+            # Atualiza last_hash
+            self.last_hash = entry_hash
+            
+            # Write (append-only)
+            with open(self.path, 'a') as f:
+                f.write(json.dumps(entry) + '\n')
+            
+            # ✅ CORREÇÃO #9: Validação periódica automática
+            self._append_count += 1
+            
+            # A cada N appends, validar chain
+            if self._append_count - self._last_validation >= self._validation_interval:
+                self._last_validation = self._append_count
+                
+                # Validar chain (não bloqueia append)
+                try:
+                    if not self.verify_chain():
+                        import logging
+                        logger = logging.getLogger('brain_worm')
+                        logger.critical(
+                            f"🔒 WORM corrupted at entry {self._append_count}! "
+                            f"Auto-rotating..."
+                        )
+                        self._validation_failures += 1
+                        self.rotate_if_invalid()
+                except Exception as e:
+                    import logging
+                    logger = logging.getLogger('brain_worm')
+                    logger.error(f"WORM validation error: {e}")
+    
+    def read_all(self) -> List[Dict[str, Any]]:
+        """Lê todos os entries"""
+        if not self.path.exists():
+            return []
+        
+        entries = []
+        with open(self.path, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    try:
+                        entries.append(json.loads(line))
+                    except:
+                        pass
+        
+        return entries
+    
+    def verify_chain(self) -> bool:
+        """
+        Verifica integridade da cadeia
+        Retorna True se cadeia está íntegra
+        """
+        if not self.path.exists():
+            return True
+        
+        entries = self.read_all()
+        if not entries:
+            return True
+        
+        prev_hash = "0" * 64
+        
+        for i, entry in enumerate(entries):
+            # Verifica prev_hash
+            if entry['prev_hash'] != prev_hash:
+                return False
+            
+            # Verifica hash do entry
+            entry_copy = entry.copy()
+            stored_hash = entry_copy.pop('hash')
+            
+            entry_str = json.dumps(entry_copy, sort_keys=True)
+            computed_hash = hashlib.sha256(entry_str.encode()).hexdigest()
+            
+            if computed_hash != stored_hash:
+                return False
+            
+            prev_hash = stored_hash
+        
+        return True
+
+    def _rotate_if_large(self, max_lines: int = 10000):
+        """
+        Rotate log if it exceeds max_lines.
+        Compresses old log and keeps last 100 entries for continuity.
+        """
+        if not self.path.exists():
+            return
+        
+        # Count lines
+        try:
+            with open(self.path, 'r') as f:
+                lines = f.readlines()
+            
+            if len(lines) <= max_lines:
+                return  # No rotation needed
+            
+            # Rotate
+            import gzip
+            from datetime import datetime as _dt
+            
+            ts = _dt.now().strftime('%Y%m%d_%H%M%S')
+            archive = self.path.parent / f"worm_{ts}.log.gz"
+            
+            # Compress old log
+            with open(self.path, 'rb') as f_in:
+                with gzip.open(archive, 'wb') as f_out:
+                    f_out.writelines(f_in)
+            
+            # Keep last 100 for continuity
+            keep_lines = lines[-100:]
+            self.path.write_text(''.join(keep_lines))
+            
+            # Update last_hash from last kept entry
+            if keep_lines:
+                last_entry = json.loads(keep_lines[-1].strip())
+                self.last_hash = last_entry['hash']
+            
+            print(f"🔄 WORM rotated: {archive} (kept {len(keep_lines)} entries)")
+        
+        except Exception as e:
+            # Fail silently to not disrupt logging
+            pass
+    
+    def rotate_if_invalid(self) -> bool:
+        """
+        If the chain is invalid, rotate current log to .bad-<timestamp>
+        and start a fresh genesis entry. Returns True if rotation happened.
+        """
+        from datetime import datetime as _dt
+        if self.verify_chain():
+            return False
+        try:
+            ts = _dt.now().strftime('%Y%m%d_%H%M%S')
+            bad_path = self.path.with_suffix(self.path.suffix + f'.bad-{ts}')
+            self.path.rename(bad_path)
+            # reset last_hash and create new file
+            self.last_hash = "0" * 64
+            self.path.touch()
+            # write genesis marker
+            self.append('worm_rotated', {'from': str(bad_path)})
+            return True
+        except Exception:
+            return False
+    
+    def get_stats(self) -> Dict[str, Any]:
+        """Estatísticas do log"""
+        entries = self.read_all()
+        
+        if not entries:
+            return {'total_entries': 0}
+        
+        events = {}
+        for e in entries:
+            event = e['event']
+            events[event] = events.get(event, 0) + 1
+        
+        return {
+            'total_entries': len(entries),
+            'events': events,
+            'first_entry': entries[0]['timestamp'],
+            'last_entry': entries[-1]['timestamp'],
+            'chain_valid': self.verify_chain()
+        }
+    
+    def get_validation_stats(self) -> Dict[str, Any]:
+        """
+        ✅ CORREÇÃO #9: Estatísticas de validação
+        Para debugging e monitoring
+        """
+        return {
+            'total_appends': self._append_count,
+            'last_validation_at': self._last_validation,
+            'appends_since_validation': self._append_count - self._last_validation,
+            'validation_interval': self._validation_interval,
+            'validation_failures': self._validation_failures,
+            'chain_currently_valid': self.verify_chain(),
+            'total_entries': len(self.read_all())
+        }
+
+
+if __name__ == "__main__":
+    # Teste
+    print("Testing WORM Ledger...")
+    
+    worm = WORMLog("/root/test_worm.log")
+    
+    # Adiciona entries
+    worm.append('test_event', {'value': 123})
+    worm.append('another_event', {'data': 'hello'})
+    worm.append('third_event', {'x': 1, 'y': 2})
+    
+    # Verifica
+    print(f"Chain valid: {worm.verify_chain()}")
+    print(f"Stats: {worm.get_stats()}")
+    
+    # Lê
+    print("\nEntries:")
+    for e in worm.read_all():
+        print(f"  {e['timestamp']}: {e['event']}")
+    
+    print("✅ WORM Ledger OK!")

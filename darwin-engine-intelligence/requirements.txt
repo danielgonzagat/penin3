@@ -1,0 +1,23 @@
+# Darwin Engine Intelligence - Dependencies
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Reinforcement Learning
+gymnasium>=0.28.0
+stable-baselines3>=2.0.0
+
+# Utilities
+tqdm>=4.65.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# Optional (Advanced features)
+optuna>=3.0.0
+ray>=2.0.0
+wandb>=0.15.0

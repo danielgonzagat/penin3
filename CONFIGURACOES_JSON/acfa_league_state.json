@@ -1,0 +1,45 @@
+{
+  "champion": {
+    "model_id": "v7_model",
+    "stage": "production",
+    "metrics": {
+      "accuracy": 0.9821,
+      "robustness": 1.0,
+      "calibration": 0.9,
+      "fairness": 0.85,
+      "privacy": 0.88,
+      "cost": 0.01
+    },
+    "deployed_at": "2025-10-03T11:41:57.397636+00:00",
+    "promoted": true,
+    "promotion_decision": "promoted",
+    "canary_traffic_pct": 100.0
+  },
+  "challengers": [],
+  "history": [
+    {
+      "timestamp": "2025-10-03T11:41:57.397711+00:00",
+      "event": "champion_registered",
+      "data": {
+        "model_id": "v7_model",
+        "linf_score": 0.9187508922441638,
+        "metrics": {
+          "accuracy": 0.9821,
+          "robustness": 1.0,
+          "calibration": 0.9,
+          "fairness": 0.85,
+          "privacy": 0.88,
+          "cost": 0.01
+        }
+      }
+    }
+  ],
+  "config": {
+    "linf_improvement_threshold": 0.02,
+    "min_linf_score": 0.7,
+    "canary_traffic_start": 5.0,
+    "canary_traffic_max": 50.0,
+    "ethics_min_threshold": 0.6,
+    "max_cost_ratio": 1.5
+  }
+}

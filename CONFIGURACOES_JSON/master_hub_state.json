@@ -1,0 +1,4500 @@
+{
+  "timestamp": "2025-09-23T03:36:30.430059",
+  "global_fitness": 81.29160359181373,
+  "systems": {
+    "ia3": {
+      "intelligence_score": 99.12383315246089,
+      "is_active": true,
+      "connections": 5,
+      "shared_knowledge": 0
+    },
+    "penin": {
+      "intelligence_score": 86.8380235114258,
+      "is_active": true,
+      "connections": 5,
+      "shared_knowledge": 1
+    },
+    "cubic": {
+      "intelligence_score": 74.44339556177718,
+      "is_active": true,
+      "connections": 5,
+      "shared_knowledge": 1
+    },
+    "evolver": {
+      "intelligence_score": 66.06306895097748,
+      "is_active": true,
+      "connections": 5,
+      "shared_knowledge": 1
+    },
+    "omega": {
+      "intelligence_score": 78.60527196451825,
+      "is_active": true,
+      "connections": 5,
+      "shared_knowledge": 1
+    },
+    "transcendent": {
+      "intelligence_score": 82.74776054467033,
+      "is_active": true,
+      "connections": 5,
+      "shared_knowledge": 1
+    }
+  },
+  "emergence_indicators": [
+    {
+      "timestamp": "2025-09-23T01:07:11.166136",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:07:11.257660",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:07:21.336690",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:07:31.412233",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:07:41.494529",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:07:51.573346",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:08:01.650948",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:08:11.726474",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:08:21.811297",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:08:31.887707",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:08:41.977909",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:08:52.061554",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:09:02.150426",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:09:12.226370",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:09:22.307622",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:09:32.396104",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:09:42.480725",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:09:52.574573",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:10:02.666679",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:10:12.753510",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:10:22.847141",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:10:32.925802",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:10:43.001636",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:10:53.087804",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:11:03.189880",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:11:13.279767",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:11:23.370971",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:11:33.462612",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:11:43.560176",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:11:53.655509",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:12:03.746910",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:12:13.824295",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:12:23.927100",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:12:34.010426",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:12:44.086431",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:12:54.186022",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:13:04.261947",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:13:14.339240",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:13:24.409302",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:13:34.486649",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:13:44.563627",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:13:54.637455",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:14:04.742962",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:14:14.818850",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:14:24.894536",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:14:34.970267",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:14:45.074843",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:14:55.157832",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:15:05.253641",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:15:15.328955",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:15:25.407749",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:15:35.481037",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:15:45.561246",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:15:55.638252",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:16:05.714078",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:16:15.789324",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:16:25.865491",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:16:35.942980",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:16:46.018810",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:16:56.094378",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:17:06.169695",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:17:16.246568",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:17:26.322215",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:17:36.397613",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:17:46.482869",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:17:56.583854",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:18:06.668241",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:18:16.744707",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:18:26.820080",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:18:36.895691",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:18:46.971053",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:18:57.047744",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:19:07.123465",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:19:17.198845",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:19:27.274480",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:19:37.352275",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:19:47.428377",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:19:57.503650",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:20:07.579094",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:20:17.654755",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:20:27.729073",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:20:37.805574",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:20:47.948029",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:20:58.026401",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:21:08.109553",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:21:18.190952",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:21:28.266739",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:21:38.342680",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:21:48.416832",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:21:58.517751",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:22:08.606487",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:22:18.684061",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:22:28.759433",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:22:38.835294",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:22:48.915760",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:22:58.994570",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:23:09.070946",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:23:19.146365",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:23:29.223360",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:23:39.305478",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:23:49.389410",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:23:59.474083",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:24:09.554477",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:24:19.639803",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:24:29.715426",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:24:39.791546",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:24:49.868030",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:24:59.943887",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:25:10.023952",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:25:20.102663",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:25:30.178722",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:25:40.298262",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:25:50.377274",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:26:00.453191",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:26:10.528919",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:26:20.604796",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:26:30.680808",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:26:40.756295",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:26:50.831446",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:27:00.907076",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:27:10.981571",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:27:21.078426",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:27:31.170193",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:27:41.242750",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:27:51.317508",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:28:01.392894",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:28:11.468826",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:28:21.544804",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:28:31.628198",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:28:41.704021",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:28:51.796174",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:29:01.876259",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:29:11.956913",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:29:22.032733",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:29:32.105030",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:29:42.179170",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:29:52.285916",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:30:02.364935",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:30:12.442493",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:30:22.519119",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:30:32.595011",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:30:42.673359",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:30:52.749495",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:31:02.826398",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:31:12.902808",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:31:22.978746",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:31:33.055429",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:31:43.135725",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:31:53.221005",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:32:03.298250",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:32:13.383051",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:32:23.460540",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:32:33.539708",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:32:43.617020",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:32:53.692576",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:33:03.768990",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:33:13.844630",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:33:23.920343",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:33:33.996520",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:33:44.070210",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:33:54.146042",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:34:04.221743",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:34:14.305998",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:34:24.405212",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:34:34.488849",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:34:44.567493",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:34:54.644013",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:35:04.719718",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:35:14.796706",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:35:24.872757",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:35:34.959725",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:35:45.058784",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:35:55.137809",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:36:05.213379",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:36:15.287908",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:36:25.381469",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:36:35.454445",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:36:45.530954",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:36:55.607702",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:37:05.684334",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:37:15.760741",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:37:25.840748",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:37:35.922269",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:37:45.997459",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:37:56.075898",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:38:06.153842",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:38:16.231435",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:38:26.311948",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:38:36.387620",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:38:46.463257",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:38:56.539204",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:39:06.618053",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:39:16.693043",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:39:26.765929",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:39:36.842917",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:39:46.919565",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:39:56.996554",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:40:07.072670",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:40:17.148642",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:40:27.228710",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:40:37.303847",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:40:47.385283",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:40:57.457834",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:41:07.535852",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:41:17.611856",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:41:27.687835",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:41:37.763927",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:41:47.842308",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:41:57.925344",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:42:07.997264",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:42:18.074949",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:42:28.154546",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:42:38.233597",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:42:48.313211",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:42:58.392141",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:43:08.474537",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:43:18.564366",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:43:28.667145",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:43:38.750523",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:43:48.837366",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:43:58.914543",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:44:08.993480",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:44:19.072659",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:44:29.156286",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:44:39.241393",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:44:49.317482",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:44:59.393278",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:45:09.465748",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:45:19.541898",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:45:29.622095",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:45:39.697957",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:45:49.778095",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:45:59.853839",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:46:09.962964",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:46:20.069569",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:46:30.145544",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:46:40.223749",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:46:50.299764",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:47:00.375572",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:47:10.451561",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:47:20.527541",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:47:30.605782",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:47:40.681627",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:47:50.757126",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:48:00.833099",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:48:10.909027",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:48:20.987193",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:48:31.063784",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:48:41.139526",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:48:51.215280",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:49:01.292663",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:49:11.377506",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:49:21.453513",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:49:31.529549",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:49:41.605231",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:49:51.680970",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:50:01.757337",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:50:11.833195",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:50:21.908871",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:50:31.984354",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:50:42.060259",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:50:52.139518",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:51:02.247276",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:51:12.329277",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:51:22.414275",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:51:32.491010",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:51:42.567516",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:51:52.643822",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:52:02.730771",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:52:12.800156",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:52:22.882071",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:52:32.968243",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:52:43.045897",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:52:53.122299",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:53:03.201407",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:53:13.294591",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:53:23.371422",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:53:33.450192",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:53:43.526756",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:53:53.603112",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:54:03.679312",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:54:13.759187",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:54:23.841673",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:54:33.919598",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:54:43.995865",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:54:54.073392",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:55:04.177211",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:55:14.267623",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:55:24.350506",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:55:34.427516",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:55:44.506454",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:55:54.594678",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:56:04.677670",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:56:14.765284",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:56:24.844321",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:56:34.922851",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:56:45.001033",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:56:55.077052",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:57:05.156462",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:57:15.232540",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:57:25.308801",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:57:35.388392",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:57:45.464877",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:57:55.541182",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:58:05.615680",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:58:15.691615",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:58:25.767924",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:58:35.844183",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:58:45.920705",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:58:55.997068",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:59:06.074390",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:59:16.156814",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:59:26.232586",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:59:36.308335",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:59:46.383186",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T01:59:56.465260",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:00:06.541810",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:00:16.607821",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:00:26.683616",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:00:36.759812",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:00:46.836075",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:00:56.915755",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:01:06.989193",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:01:17.065145",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:01:27.141272",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:01:37.219017",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:01:47.289310",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:01:57.365748",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:02:07.442676",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:02:17.519356",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:02:27.597907",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:02:37.678109",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:02:47.761132",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:02:57.838120",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:03:07.919128",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:03:17.995796",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:03:28.073178",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:03:38.149686",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:03:48.225168",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:03:58.298667",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:04:08.370855",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:04:18.446905",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:04:28.519366",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:04:38.598557",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:04:48.678894",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:04:58.752513",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:05:08.831605",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:05:18.904557",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:05:28.977004",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:05:39.050139",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:05:49.124090",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:05:59.196777",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:06:09.269679",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:06:19.345208",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:06:29.419356",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:06:39.497923",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:06:49.579517",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:06:59.659874",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:07:09.735377",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:07:19.807899",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:07:29.883323",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:07:39.958244",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:07:50.037675",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:08:00.110146",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:08:10.183359",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:08:20.260075",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:08:30.336004",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:08:40.409045",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:08:50.481300",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:09:00.553404",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:09:10.633869",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:09:20.712178",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:09:30.790874",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:09:40.869404",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:09:50.945973",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:10:01.019123",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:10:11.095583",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:10:21.168520",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:10:31.249461",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:10:41.340557",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:10:51.429613",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:11:01.509265",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:11:11.582075",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:11:21.655218",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:11:31.727971",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:11:41.800499",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:11:51.876527",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:12:01.957574",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:12:12.031455",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:12:22.110164",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:12:32.186124",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:12:42.264081",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:12:52.337093",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:13:02.415850",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:13:12.495305",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:13:22.569832",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:13:32.646334",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:13:42.723090",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:13:52.808805",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:14:02.879562",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:14:12.952741",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:14:23.029146",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:14:33.101858",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:14:43.174556",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:14:53.247007",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:15:03.322572",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:15:13.421591",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:15:23.494534",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:15:33.571913",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:15:43.648293",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:15:53.721302",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:16:03.804775",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:16:13.878525",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:16:23.954959",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:16:34.027404",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:16:44.099527",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:16:54.172539",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:17:04.241844",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:17:14.313777",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:17:24.389163",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:17:34.464869",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:17:44.541509",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:17:54.614487",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:18:04.690213",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:18:14.763811",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:18:24.834080",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:18:34.906828",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:18:44.979770",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:18:55.052534",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:19:05.124810",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:19:15.195725",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:19:25.272454",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:19:35.348318",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:19:45.424176",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:19:55.499971",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:20:05.572900",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:20:15.646640",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:20:25.719022",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:20:35.791408",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:20:45.863874",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:20:55.947554",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:21:06.049613",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:21:16.147907",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:21:26.223996",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:21:36.302847",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:21:46.369184",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:21:56.447455",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:22:06.532701",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:22:16.603774",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:22:26.679466",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:22:36.751877",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:22:46.831608",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:22:56.908024",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:23:06.980610",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:23:17.050020",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:23:27.122040",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:23:37.194743",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:23:47.267102",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:23:57.339317",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:24:07.411587",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:24:17.483732",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:24:27.560817",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:24:37.633557",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:24:47.708019",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:24:57.780098",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:25:07.856950",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:25:17.929287",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:25:27.997370",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:25:38.069169",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:25:48.141236",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:25:58.213960",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:26:08.290330",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:26:18.365102",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:26:28.436921",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:26:38.516111",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:26:48.589171",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:26:58.666521",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:27:08.738437",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:27:18.810635",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:27:28.885629",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:27:38.960666",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:27:49.041772",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:27:59.113502",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:28:09.186832",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:28:19.257868",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:28:29.322892",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:28:39.395909",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:28:49.468399",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:28:59.541639",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:29:09.614073",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:29:19.686740",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:29:29.763933",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:29:39.833841",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:29:49.906465",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:29:59.979705",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:30:10.063856",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:30:20.133860",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:30:30.206429",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:30:40.283921",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:30:50.356810",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:31:00.429342",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:31:10.506758",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:31:20.579692",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:31:30.655495",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:31:40.730983",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:31:50.850723",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:32:00.935980",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:32:11.011902",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:32:21.084489",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:32:31.161387",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:32:41.234232",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:32:51.311827",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:33:01.387289",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:33:11.463025",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:33:21.537512",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:33:31.615932",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:33:41.696119",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:33:51.776856",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:34:01.850893",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:34:11.925234",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:34:21.994705",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:34:32.075814",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:34:42.153489",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:34:52.230943",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:35:02.306899",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:35:12.379519",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:35:22.452933",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:35:32.525811",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:35:42.600136",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:35:52.672690",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:36:02.748309",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:36:12.825790",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:36:22.901274",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:36:32.965596",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:36:43.043084",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:36:53.113125",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:37:03.186345",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:37:13.258814",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:37:23.331856",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:37:33.404225",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:37:43.476813",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:37:53.554365",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:38:03.627969",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:38:13.706877",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:38:23.781448",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:38:33.854131",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:38:43.935491",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:38:54.011776",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:39:04.105025",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:39:14.207036",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:39:24.281744",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:39:34.363892",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:39:44.447528",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:39:54.522474",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:40:04.598565",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:40:14.671045",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:40:24.747349",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:40:34.828007",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:40:44.907397",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:40:54.981617",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:41:05.060198",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:41:15.145117",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:41:25.225136",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:41:35.295459",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:41:45.374471",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:41:55.454200",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:42:05.533739",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:42:15.607555",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:42:25.684175",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:42:35.764375",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:42:45.842364",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:42:55.921469",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:43:06.000657",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:43:16.083701",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:43:26.164340",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:43:36.239134",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:43:46.342284",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:43:56.422847",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:44:06.529580",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:44:16.603313",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:44:26.682447",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:44:36.768325",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:44:46.848722",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:44:56.922886",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:45:07.005548",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:45:17.078294",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:45:27.151905",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:45:37.221939",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:45:47.295195",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:45:57.367845",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:46:07.440557",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:46:17.519124",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:46:27.592133",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:46:37.664589",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:46:47.737593",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:46:57.814736",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:47:07.889532",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:47:17.962023",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:47:28.055766",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:47:38.132713",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:47:48.204849",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:47:58.282940",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:48:08.355801",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:48:18.428100",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:48:28.500641",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:48:38.575278",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:48:48.648080",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:48:58.720734",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:49:08.793560",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:49:18.866023",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:49:28.939122",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:49:39.017541",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:49:49.090102",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:49:59.162499",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:50:09.235556",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:50:19.308079",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:50:29.380696",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:50:39.453520",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:50:49.526289",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:50:59.599699",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:51:09.672876",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:51:19.751011",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:51:29.823902",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:51:39.897012",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:51:49.969926",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:52:00.042647",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:52:10.115971",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:52:20.188839",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:52:30.261721",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:52:40.334014",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:52:50.406866",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:53:00.484958",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:53:10.557640",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:53:20.635000",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:53:30.707432",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:53:40.783022",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:53:50.859178",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:54:00.938968",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:54:11.011015",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:54:21.081665",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:54:31.159421",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:54:41.237675",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:54:51.312469",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:55:01.388502",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:55:11.461379",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:55:21.536271",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:55:31.611711",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:55:41.689459",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:55:51.768730",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:56:01.841332",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:56:11.916639",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:56:21.995383",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:56:32.068563",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:56:42.141141",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:56:52.213816",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:57:02.286433",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:57:12.359183",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:57:22.433392",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:57:32.505687",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:57:42.582951",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:57:52.655368",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:58:02.734440",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:58:12.809591",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:58:22.882772",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:58:32.955454",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:58:43.043599",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:58:53.137702",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:59:03.212597",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:59:13.289516",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:59:23.364045",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:59:33.436957",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:59:43.513702",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T02:59:53.586154",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:00:03.657684",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:00:13.746055",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:00:23.818189",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:00:33.893262",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:00:43.963396",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:00:54.036571",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:01:04.116814",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:01:14.190952",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:01:24.275527",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:01:34.355399",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:01:44.435185",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:01:54.509187",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:02:04.588234",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:02:14.661670",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:02:24.737681",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:02:34.809830",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:02:44.882140",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:02:54.965703",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:03:05.069320",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:03:15.149314",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:03:25.222406",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:03:35.295286",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:03:45.367926",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:03:55.440498",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:04:05.512829",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:04:15.594880",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:04:25.675327",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:04:35.757271",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:04:45.838925",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:04:55.921407",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:05:05.994235",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:05:16.067257",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:05:26.139535",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:05:36.215220",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:05:46.291208",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:05:56.369078",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:06:06.441593",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:06:16.515534",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:06:26.594438",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:06:36.667003",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:06:46.739491",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:06:56.812472",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:07:06.885611",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:07:16.959124",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:07:27.033679",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:07:37.109800",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:07:47.182585",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:07:57.256050",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:08:07.337997",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:08:17.410293",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:08:27.490843",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:08:37.566471",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:08:47.630024",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:08:57.707517",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:09:07.780534",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:09:17.855749",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:09:27.928842",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:09:38.001626",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:09:48.081929",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:09:58.163750",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:10:08.244535",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:10:18.335249",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:10:28.414284",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:10:38.495237",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:10:48.575978",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:10:58.650837",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:11:08.728197",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:11:18.808684",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:11:28.895014",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:11:38.969513",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:11:49.048702",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:11:59.129497",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:12:09.209495",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:12:19.285576",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:12:29.358732",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:12:39.440795",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:12:49.518968",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:12:59.599931",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:13:09.695257",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:13:19.777547",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:13:29.853617",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:13:39.936435",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:13:50.017580",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:14:00.092163",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:14:10.168202",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:14:20.241134",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:14:30.314085",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:14:40.386642",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:14:50.463557",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:15:00.536575",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:15:10.606036",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:15:20.678873",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:15:30.755281",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:15:40.828738",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:15:50.903056",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:16:00.979392",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:16:11.059802",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:16:21.134578",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:16:31.214263",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:16:41.288765",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:16:51.364779",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:17:01.437813",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:17:11.512618",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:17:21.585715",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:17:31.688356",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:17:41.761621",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:17:51.834658",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:18:01.907838",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:18:11.987415",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:18:22.060778",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:18:32.133847",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:18:42.225843",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:18:52.302264",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:19:02.382956",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:19:12.462658",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:19:22.536919",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:19:32.615214",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:19:42.695067",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:19:52.777174",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:20:02.850216",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:20:12.922798",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:20:23.002135",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:20:33.075002",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:20:43.146385",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:20:53.226786",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:21:03.316567",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:21:13.394982",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:21:23.480142",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:21:33.578686",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:21:43.651601",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:21:53.722093",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:22:03.794854",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:22:13.867294",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:22:23.940108",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:22:34.010127",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:22:44.090445",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:22:54.169903",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:23:04.271892",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:23:14.358035",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:23:24.456704",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:23:34.536833",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:23:44.611651",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:23:54.692954",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:24:04.776632",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:24:14.860175",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:24:24.931691",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:24:35.010400",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:24:45.078239",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:24:55.157999",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:25:05.232888",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:25:15.305760",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:25:25.382664",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:25:35.455676",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:25:45.548676",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:25:55.624323",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:26:05.704149",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:26:15.796693",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:26:25.869953",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:26:35.950155",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:26:46.024307",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:26:56.100195",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:27:06.175941",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:27:16.246619",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:27:26.320776",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:27:36.394000",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:27:46.469017",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:27:56.542231",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:28:06.615288",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:28:16.695421",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:28:26.768365",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:28:36.841689",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:28:46.915666",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:28:56.986849",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:29:07.062074",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:29:17.139087",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:29:27.231417",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:29:37.301815",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:29:47.378979",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:29:57.458605",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:30:07.535199",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:30:17.616643",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:30:27.689890",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:30:37.756476",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:30:47.832546",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:30:57.903628",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:31:07.974396",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:31:18.045968",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:31:28.148830",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:31:38.229063",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:31:48.301604",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:31:58.394528",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:32:08.467164",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:32:18.539814",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:32:28.613112",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:32:38.685407",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:32:48.757811",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:32:58.830361",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:33:08.921667",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:33:19.019885",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:33:29.098632",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:33:39.177730",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:33:49.250491",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:33:59.323157",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:34:09.396828",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:34:19.474293",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:34:29.552166",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:34:39.626562",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:34:49.697924",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:34:59.778265",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:35:09.850976",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:35:19.923817",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:35:29.996334",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:35:40.065884",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:35:50.139486",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:36:00.212373",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:36:10.284648",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:36:20.357431",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    },
+    {
+      "timestamp": "2025-09-23T03:36:30.429729",
+      "score": 0.8055555555555557,
+      "type": "collective_intelligence"
+    }
+  ],
+  "communication_channels": 15
+}

@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-09-22T16:03:05.827306",
+  "total_alerts": 0,
+  "critical_alerts": 0,
+  "average_health": 0.87685,
+  "recent_metrics": [
+    {
+      "timestamp": "2025-09-22T16:02:18.666894",
+      "cpu_usage": 16.6,
+      "memory_usage": 23.1,
+      "disk_usage": 10.9,
+      "process_count": 794,
+      "emergent_behaviors": 5784,
+      "error_rate": 0.0,
+      "system_health": 0.8806
+    },
+    {
+      "timestamp": "2025-09-22T16:02:30.689214",
+      "cpu_usage": 16.4,
+      "memory_usage": 23.0,
+      "disk_usage": 10.9,
+      "process_count": 792,
+      "emergent_behaviors": 5784,
+      "error_rate": 0.0,
+      "system_health": 0.8815
+    },
+    {
+      "timestamp": "2025-09-22T16:02:42.713324",
+      "cpu_usage": 18.4,
+      "memory_usage": 24.9,
+      "disk_usage": 10.9,
+      "process_count": 791,
+      "emergent_behaviors": 5784,
+      "error_rate": 0.0,
+      "system_health": 0.8728
+    },
+    {
+      "timestamp": "2025-09-22T16:02:54.742280",
+      "cpu_usage": 18.5,
+      "memory_usage": 24.2,
+      "disk_usage": 10.9,
+      "process_count": 792,
+      "emergent_behaviors": 5784,
+      "error_rate": 0.0,
+      "system_health": 0.8725
+    }
+  ]
+}

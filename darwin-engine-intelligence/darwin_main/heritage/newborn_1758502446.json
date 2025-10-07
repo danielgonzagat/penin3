@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-09-22T00:54:06.109985Z",
+  "reason": "primeiro_agente_real",
+  "origin": "darwinctl",
+  "heritage": [
+    {
+      "event": "darwin_promote_hook",
+      "timestamp": "2025-09-22T00:44:27.243345Z",
+      "source": "darwin_gate",
+      "previous_hash": "c3746d243d59fc051b34a8ee65fdddbf54233ec3db3a73c56a668bfa86baecbe"
+    },
+    {
+      "event": "darwin_kill_hook",
+      "timestamp": "2025-09-22T00:44:47.268785Z",
+      "source": "darwin_gate",
+      "previous_hash": "3fd06f646b8ac9176153727c5c2885fc3bdce709536c5c12a84685fe749a7d97"
+    },
+    {
+      "event": "darwin_kill_hook",
+      "timestamp": "2025-09-22T00:44:47.269457Z",
+      "source": "darwin_gate",
+      "previous_hash": "de58bbdf5cbcb7e914ce38c8d10caf2b2c96d47f025550b21983fc38f306187c"
+    },
+    {
+      "event": "darwin_kill_hook",
+      "timestamp": "2025-09-22T00:44:47.270136Z",
+      "source": "darwin_gate",
+      "previous_hash": "28e41833ae96d0a3afee887a39d7bf775d8140695db17b2211375200fbea0773"
+    },
+    {
+      "event": "darwin_kill_hook",
+      "timestamp": "2025-09-22T00:44:47.270698Z",
+      "source": "darwin_gate",
+      "previous_hash": "90cb73c4e5261c2c73025ce3d7a6eec70a53dc79fddf96c6759aa76e0f364c8a"
+    },
+    {
+      "event": "darwin_kill_hook",
+      "timestamp": "2025-09-22T00:44:47.271244Z",
+      "source": "darwin_gate",
+      "previous_hash": "4931fe7eb8eeb8153dbfbed9292b25dc26e8452a8a8b54f86b4d8c26749ec53a"
+    },
+    {
+      "event": "darwin_kill_hook",
+      "timestamp": "2025-09-22T00:44:47.271844Z",
+      "source": "darwin_gate",
+      "previous_hash": "1377fcc134daedc1dcd2be50d87cbef5068f3f3e6af7afa9907a9af8c5e92f4a"
+    },
+    {
+      "event": "darwin_kill_hook",
+      "timestamp": "2025-09-22T00:44:47.272390Z",
+      "source": "darwin_gate",
+      "previous_hash": "122fab44c2f164916f33011f69bb95f6385160fbe0135e565ccbd835028ef482"
+    },
+    {
+      "event": "darwin_kill_hook",
+      "timestamp": "2025-09-22T00:44:47.272936Z",
+      "source": "darwin_gate",
+      "previous_hash": "068c1a538d2528f437dc97bf507d64c3f74e801583380710e77e3851b88f8587"
+    }
+  ],
+  "agent_id": "agent_1758502446_1881935"
+}

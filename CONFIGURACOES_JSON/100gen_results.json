@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-09-23T23:44:31.453934",
+  "execution_results": [
+    {
+      "system": "CUBIC_FARM_ULTIMATE",
+      "status": "completed",
+      "execution_time": 111.81002736091614,
+      "log_file": "cubic_farm_ultimate_100gen.log",
+      "return_code": -9
+    },
+    {
+      "system": "CUBIC_FARM_SUPREME",
+      "status": "completed",
+      "execution_time": 276.4145495891571,
+      "log_file": "cubic_farm_supreme_100gen.log",
+      "return_code": 0
+    }
+  ],
+  "metrics": {
+    "ULTIMATE": {
+      "generations": 2,
+      "final_generation": 0,
+      "final_best_fitness": 0.729,
+      "final_avg_fitness": 0.2581333333333333,
+      "max_fitness": 0.729,
+      "improvement": 0.0
+    },
+    "SUPREME": null
+  }
+}

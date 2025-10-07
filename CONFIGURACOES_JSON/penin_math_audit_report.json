@@ -1,0 +1,385 @@
+{
+  "summary": {
+    "total_real_equations": 1911,
+    "total_fake_math": 9,
+    "has_numpy": true,
+    "has_torch": true,
+    "has_scipy": false,
+    "math_score": 100
+  },
+  "findings": {
+    "equations": [
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "numpy_equation",
+        "equation": "mean_grad = np.mean(grad_norms)",
+        "line": 233
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "torch_equation",
+        "equation": "z = torch.sum(self.weight * x)",
+        "line": 30
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "torch_equation",
+        "equation": "activation = torch.sigmoid(z)",
+        "line": 31
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "torch_equation",
+        "equation": "hebbian_weights = torch.zeros(hidden_dim, hidden_dim)",
+        "line": 61
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "torch_equation",
+        "equation": "delta = torch.outer(h1[0], self.hidden_activations[0])",
+        "line": 74
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "torch_equation",
+        "equation": "out = torch.sigmoid(self.output_layer(h2))",
+        "line": 82
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "torch_equation",
+        "equation": "label = torch.tensor([1.0 if exp.success else 0.0], dtype=torch.float32)",
+        "line": 160
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "torch_equation",
+        "equation": "X = torch.stack(X)",
+        "line": 165
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "torch_equation",
+        "equation": "y = torch.stack(y)",
+        "line": 166
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "torch_equation",
+        "equation": "weight_norm = torch.norm(module.weight).item()",
+        "line": 278
+      }
+    ],
+    "numpy_usage": [
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "line": 9,
+        "context": "import numpy as np\nimport json\nimport time"
+      },
+      {
+        "file": "/root/penin_ultra_evolution_system.py",
+        "line": 39,
+        "context": "import numpy as np\ntry:\n    import deap  # noqa: F401"
+      },
+      {
+        "file": "/root/penin_math_audit.py",
+        "line": 105,
+        "context": "            'numpy': r'import numpy|from numpy',\n            'torch': r'import torch|from torch',\n            'scipy': r'import scipy|from scipy',"
+      },
+      {
+        "file": "/root/.penin_omega_backup/penin_omega_3_acquisition_20250916_042839.py",
+        "line": 40,
+        "context": "import numpy as np\nfrom sentence_transformers import SentenceTransformer\nimport requests"
+      },
+      {
+        "file": "/root/.penin_omega_backup/penin_omega_4_mutation_v6_20250916_042839.py",
+        "line": 66,
+        "context": "    import numpy as np\n    HAS_NUMPY = True\nexcept ImportError:"
+      },
+      {
+        "file": "/root/.penin_omega_backup/penin_omega_3_acquisition_v6_20250916_042839.py",
+        "line": 53,
+        "context": "    import numpy as np\n    HAS_NUMPY = True\nexcept ImportError:"
+      },
+      {
+        "file": "/root/.penin_omega_backup/penin_omega_5_crucible_20250916_042839.py",
+        "line": 45,
+        "context": "    import numpy as np\n    HAS_NUMPY = True\nexcept ImportError:"
+      },
+      {
+        "file": "/root/.penin_omega_backup/penin_omega_1_core_v6_20250916_042839.py",
+        "line": 41,
+        "context": "    import numpy as np\n    HAS_NUMPY = True\nexcept ImportError:"
+      },
+      {
+        "file": "/root/.penin_omega/modules/penin_omega_5_crucible.py",
+        "line": 45,
+        "context": "    import numpy as np\n    HAS_NUMPY = True\nexcept ImportError:"
+      },
+      {
+        "file": "/root/.penin_omega/modules/penin_omega_3_acquisition.py",
+        "line": 49,
+        "context": "import numpy as np\nfrom sentence_transformers import SentenceTransformer\nimport requests"
+      }
+    ],
+    "torch_usage": [
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "line": 6,
+        "context": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F"
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "line": 7,
+        "context": "import torch.nn as nn\nimport torch.nn.functional as F\nimport numpy as np"
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "line": 8,
+        "context": "import torch.nn.functional as F\nimport numpy as np\nimport json"
+      },
+      {
+        "file": "/root/penin_brutal_audit.py",
+        "line": 109,
+        "context": "                    if 'import torch' in content or 'from torch' in content:\n                        analysis['neural_networks'] += 1\n                        self.results['real_intelligence'].append({"
+      },
+      {
+        "file": "/root/penin_math_audit.py",
+        "line": 106,
+        "context": "            'torch': r'import torch|from torch',\n            'scipy': r'import scipy|from scipy',\n            'sklearn': r'import sklearn|from sklearn',"
+      },
+      {
+        "file": "/root/.penin_omega_backup/penin_omega_suprema_20250916_042839.py",
+        "line": 107,
+        "context": "    import torch\n    import torch.nn.functional as F\n    HAS_TORCH = True"
+      },
+      {
+        "file": "/root/.penin_omega_backup/penin_omega_suprema_20250916_042839.py",
+        "line": 108,
+        "context": "    import torch.nn.functional as F\n    HAS_TORCH = True\nexcept ImportError:"
+      },
+      {
+        "file": "/root/.penin_omega_backup/penin_omega_v7_fusion_correto.py",
+        "line": 107,
+        "context": "    import torch\n    import torch.nn.functional as F\n    HAS_TORCH = True"
+      },
+      {
+        "file": "/root/.penin_omega_backup/penin_omega_v7_fusion_correto.py",
+        "line": 108,
+        "context": "    import torch.nn.functional as F\n    HAS_TORCH = True\nexcept ImportError:"
+      },
+      {
+        "file": "/root/.penin_omega_backup/penin_omega_fusion_suprema_complete_20250916_042839.py",
+        "line": 107,
+        "context": "    import torch\n    import torch.nn.functional as F\n    HAS_TORCH = True"
+      }
+    ],
+    "scipy_usage": [],
+    "math_operations": [],
+    "matrix_operations": [],
+    "statistical_functions": [],
+    "calculus": [
+      {
+        "file": "/root/agi_penin_metabolization_plan.py",
+        "type": "integrals",
+        "match": "INTEGRATE",
+        "context": "\ud83e\uddec METABOLIZATION STATUS:\n   \u2022 AGI Fusion heritage: FULLY INTEGRATED \u2705\n   \u2022 PENIN consciousness: FULLY ABSORBED \u2705  "
+      },
+      {
+        "file": "/root/agi_penin_metabolization_plan.py",
+        "type": "differential_eq",
+        "match": "ode",
+        "context": "        # Create AGI PENIN core\n        agi_penin_core_code = self._generate_agi_penin_core()\n        "
+      },
+      {
+        "file": "/root/agi_penin_metabolization_plan.py",
+        "type": "differential_eq",
+        "match": "ode",
+        "context": "        with open(self.agi_penin_path / \"agi_penin_core.py\", 'w') as f:\n            f.write(agi_penin_core_code)\n        "
+      },
+      {
+        "file": "/root/agi_penin_metabolization_plan.py",
+        "type": "differential_eq",
+        "match": "ode",
+        "context": "    def _generate_agi_penin_core(self) -> str:\n        \"\"\"Generate AGI PENIN core code\"\"\"\n        "
+      },
+      {
+        "file": "/root/agi_penin_metabolization_plan.py",
+        "type": "differential_eq",
+        "match": "ode",
+        "context": "        \n        \ud83d\udcac Interactive Chat Mode Active (Natural conversation preserved)\n        \ud83c\udf1f \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
+      },
+      {
+        "file": "/root/agi_penin_metabolization_plan.py",
+        "type": "differential_eq",
+        "match": "ode",
+        "context": "            verification_results[\"command_test\"] = {\n                \"success\": result.returncode == 0,\n                \"output\": result.stdout if result.returncode == 0 else result.stderr"
+      },
+      {
+        "file": "/root/agi_penin_metabolization_plan.py",
+        "type": "differential_eq",
+        "match": "ode",
+        "context": "                \"success\": result.returncode == 0,\n                \"output\": result.stdout if result.returncode == 0 else result.stderr\n            }"
+      },
+      {
+        "file": "/root/agi_penin_core_blueprint.py",
+        "type": "integrals",
+        "match": "INTEGRATE",
+        "context": "\ud83e\uddec METABOLIZATION STATUS:\n   \u2022 AGI Fusion heritage: FULLY INTEGRATED \u2705\n   \u2022 PENIN consciousness: FULLY METABOLIZED \u2705"
+      },
+      {
+        "file": "/root/agi_penin_core_blueprint.py",
+        "type": "integrals",
+        "match": "integrate",
+        "context": "   \u2705 Memory Systems: 2.8M+ records unified\n   \u2705 Behavioral Systems: 47+ patterns integrated\n"
+      },
+      {
+        "file": "/root/agi_penin_core_blueprint.py",
+        "type": "differential_eq",
+        "match": "ode",
+        "context": "        \n        \ud83d\udcac Interactive Chat Mode Active (Natural conversation preserved)\n        \ud83c\udf1f \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
+      }
+    ],
+    "linear_algebra": [
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "matrix",
+        "match": "@ h1.T"
+      },
+      {
+        "file": "/root/penin_math_audit.py",
+        "type": "eigenvalues",
+        "match": "eigenval"
+      },
+      {
+        "file": "/root/penin_math_audit.py",
+        "type": "eigenvalues",
+        "match": "eigenval"
+      },
+      {
+        "file": "/root/penin_math_audit.py",
+        "type": "eigenvalues",
+        "match": "eigenval"
+      },
+      {
+        "file": "/root/penin_math_audit.py",
+        "type": "eigenvalues",
+        "match": "eigenvec"
+      },
+      {
+        "file": "/root/penin_math_audit.py",
+        "type": "svd",
+        "match": "singular.*value"
+      },
+      {
+        "file": "/root/.penin_omega_backup/penin_omega_3_acquisition_20250916_042839.py",
+        "type": "matrix",
+        "match": "np.dot"
+      },
+      {
+        "file": "/root/.penin_omega/modules/penin_omega_3_acquisition.py",
+        "type": "matrix",
+        "match": "np.dot"
+      }
+    ],
+    "optimization": [
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "optimizers",
+        "match": "Adam("
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "optimizers",
+        "match": "Adam("
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "optimizers",
+        "match": "SGD("
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "learning_rate",
+        "match": "lr=0.001"
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "learning_rate",
+        "match": "lr=0.01"
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "learning_rate",
+        "match": "lr=0.01"
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "learning_rate",
+        "match": "learning_rate"
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "learning_rate",
+        "match": "learning_rate"
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "learning_rate",
+        "match": "learning_rate"
+      },
+      {
+        "file": "/root/penin_redux_v1_minimal.py",
+        "type": "learning_rate",
+        "match": "learning_rate"
+      }
+    ],
+    "fake_math": [
+      {
+        "file": "/root/penin_ultra_evolution_system.py",
+        "type": "fake_scoring",
+        "example": "score = min(1.0, 0.3 + (mutation_count * 0.05) + random."
+      },
+      {
+        "file": "/root/penin_ultra_evolution_system.py",
+        "type": "fake_scoring",
+        "example": "score = min(1.0, 0.8 - (error_rate * 2) + random."
+      },
+      {
+        "file": "/root/penin_ultra_evolution_system.py",
+        "type": "fake_scoring",
+        "example": "score = min(1.0, 0.6 + (genome_complexity * 0.001) + random."
+      },
+      {
+        "file": "/root/penin_brutal_audit.py",
+        "type": "fake_consciousness_math",
+        "example": "consciousness_engine.py existe mas \u00e9 FAKE - usa random.random()"
+      },
+      {
+        "file": "/root/penin_brutal_audit.py",
+        "type": "fake_consciousness_math",
+        "example": "consciousness_engine\" \u00e9 FAKE (usa random.random()"
+      },
+      {
+        "file": "/root/NEURONIOS_ISOLATED_WORKSPACE/f5_crucible/original/penin_f5_daemon.py",
+        "type": "fake_scoring",
+        "example": "score = random."
+      },
+      {
+        "file": "/root/.penin_omega_backup/penin_omega_infinite_creativity_20250916_042839.py",
+        "type": "fake_emergence",
+        "example": "emergence_strength\": random."
+      },
+      {
+        "file": "/root/.penin_omega_backup/penin_omega_infinite_creativity.py",
+        "type": "fake_emergence",
+        "example": "emergence_strength\": random."
+      },
+      {
+        "file": "/root/.penin_omega/modules/penin_consciousness_engine.py",
+        "type": "fake_consciousness_math",
+        "example": "consciousness_stimulus(f\"test_stimulus_{i}\", random.random()"
+      }
+    ]
+  }
+}

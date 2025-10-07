@@ -1,0 +1,209 @@
+"""
+LiteLLM Wrapper - FIXED VERSION
+Handles API errors gracefully, fallback to individual APIs
+"""
+import logging
+from typing import Dict, Any, Optional, List
+import os
+import time
+
+logger = logging.getLogger(__name__)
+
+# ========== CIRCUIT BREAKER (V7 UPGRADE) ==========
+_PROVIDER_STATUS = {}  # provider -> {"fail_count":int, "down_until":ts}
+
+def provider_ok(provider):
+    st = _PROVIDER_STATUS.get(provider, {})
+    down_until = st.get("down_until", 0)
+    is_ok = time.time() > down_until
+    if not is_ok:
+        remaining = int(down_until - time.time())
+        logger.debug(f"provider {provider} in cooldown for {remaining}s more")
+    return is_ok
+
+def record_failure(provider, backoff_sec=60):
+    st = _PROVIDER_STATUS.setdefault(provider, {"fail_count":0, "down_until":0})
+    st["fail_count"] += 1
+    if st["fail_count"] >= 3:
+        st["down_until"] = time.time() + backoff_sec
+        logger.warning(f"🔴 Provider {provider} marked DOWN for {backoff_sec}s after {st['fail_count']} failures")
+    _PROVIDER_STATUS[provider] = st
+
+def record_success(provider):
+    if provider in _PROVIDER_STATUS:
+        _PROVIDER_STATUS[provider] = {"fail_count": 0, "down_until": 0}
+
+def get_provider_status_summary():
+    return {k: {"fails": v.get("fail_count", 0), 
+                "down": time.time() < v.get("down_until", 0)} 
+            for k,v in _PROVIDER_STATUS.items()}
+# ================================================
+
+try:
+    import litellm
+    litellm.suppress_debug_info = True
+    LITELLM_AVAILABLE = True
+except ImportError:
+    LITELLM_AVAILABLE = False
+
+class LiteLLMWrapper:
+    """
+    LiteLLM wrapper with ROBUST error handling
+    Falls back gracefully when APIs fail
+    """
+    
+    def __init__(self, api_keys: Dict[str, str], api_models: Dict[str, str]):
+        self.api_keys = api_keys
+        self.api_models = api_models
+        self.litellm_available = LITELLM_AVAILABLE
+        
+        # Set environment variables
+        for key, value in api_keys.items():
+            env_key = f"{key.upper()}_API_KEY"
+            os.environ[env_key] = value
+        
+        # Track API health
+        self.api_health = {api: True for api in api_models.keys()}
+        self.last_check = {api: 0 for api in api_models.keys()}
+        
+        logger.info(f"🚀 LiteLLM Wrapper initialized (available: {LITELLM_AVAILABLE})")
+    
+    def call_model(self, model: str, messages: List[Dict[str, str]], 
+                   max_tokens: int = 200, temperature: float = 0.7,
+                   timeout: int = 120) -> Optional[str]:
+        """
+        Call model with ROBUST error handling + CIRCUIT BREAKER
+        """
+        if not self.litellm_available:
+            return None
+        
+        # V7: Check circuit breaker
+        provider = model.split('/')[0] if '/' in model else model.split('-')[0]
+        if not provider_ok(provider):
+            logger.debug(f"Skipping {provider} (circuit breaker active)")
+            return None
+        
+        try:
+            # FIX: GPT-5 only supports temperature=1.0
+            if "gpt-5" in model:
+                temperature = 1.0
+            
+            # FIX: DeepSeek needs base_url
+            kwargs = {
+                "model": model,
+                "messages": messages,
+                "max_tokens": max_tokens,
+                "temperature": temperature,
+                "timeout": timeout
+            }
+            
+            if "deepseek" in model:
+                kwargs["api_base"] = "https://api.deepseek.com"
+            
+            response = litellm.completion(**kwargs)
+            
+            # V7: Record success
+            record_success(provider)
+            
+            return response.choices[0].message.content
+        
+        except Exception as e:
+            # V7: Record failure
+            record_failure(provider, backoff_sec=60)
+            logger.warning(f"LiteLLM call failed for {model}: {str(e)[:100]}")
+            return None
+    
+    def call_all_models_robust(self, prompt: str, max_tokens: int = 150) -> Dict[str, str]:
+        """
+        Call ALL models, skip failures gracefully
+        """
+        results = {}
+        messages = [{"role": "user", "content": prompt}]
+        
+        for api_name, model_name in self.api_models.items():
+            # Skip unhealthy APIs
+            if not self.api_health.get(api_name, True):
+                if time.time() - self.last_check[api_name] < 300:  # 5 min cooldown
+                    continue
+            
+            try:
+                response = self.call_model(model_name, messages, max_tokens)
+                
+                if response:
+                    results[api_name] = response
+                    self.api_health[api_name] = True
+                else:
+                    self.api_health[api_name] = False
+                    self.last_check[api_name] = time.time()
+            
+            except Exception as e:
+                logger.warning(f"API {api_name} failed: {str(e)[:50]}")
+                self.api_health[api_name] = False
+                self.last_check[api_name] = time.time()
+        
+        return results
+    
+    def consult_for_improvement(self, metrics: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Consult APIs with ROBUST handling + CIRCUIT BREAKER
+        """
+        # V7: Log provider status before consulting
+        status_summary = get_provider_status_summary()
+        logger.debug(f"Provider status: {status_summary}")
+        
+        prompt = self._build_prompt(metrics)
+        
+        responses = self.call_all_models_robust(prompt, max_tokens=150)
+        
+        # V7: Log final summary
+        total_providers = len(self.api_models)
+        successful = len(responses)
+        failed = total_providers - successful
+        logger.info(f"📊 API Summary: {successful}/{total_providers} OK, {failed} failed | Status: {status_summary}")
+        
+        # Parse responses
+        suggestions = {
+            "increase_lr": False,
+            "decrease_lr": False,
+            "increase_exploration": False,
+            "decrease_exploration": False,
+            "architecture_change": False,
+            "reasoning": []
+        }
+        
+        for api_name, response in responses.items():
+            reasoning = self._parse_response(response)
+            reasoning['api'] = api_name
+            suggestions['reasoning'].append(reasoning)
+            
+            # Aggregate suggestions
+            if 'increase' in response.lower() and 'lr' in response.lower():
+                suggestions['increase_lr'] = True
+            if 'decrease' in response.lower() and 'lr' in response.lower():
+                suggestions['decrease_lr'] = True
+        
+        logger.info(f"✅ Consulted {len(responses)}/{len(self.api_models)} APIs successfully")
+        
+        return suggestions
+    
+    def _build_prompt(self, metrics: Dict[str, Any]) -> str:
+        """Build consultation prompt"""
+        return f"""You are an ML expert. Analyze these metrics briefly:
+
+MNIST: Train {metrics.get('mnist_train', 0):.1f}%, Test {metrics.get('mnist_test', 0):.1f}%
+CartPole: Last {metrics.get('cartpole_last', 0):.1f}, Avg {metrics.get('cartpole_avg', 0):.1f}
+Cycle: {metrics.get('cycle', 0)}, Stagnation: {metrics.get('stagnation', 0):.2f}
+
+Suggest ONE concrete improvement (increase/decrease LR, exploration, architecture, etc)."""
+    
+    def _parse_response(self, response: str) -> Dict[str, str]:
+        """Parse API response"""
+        return {
+            'response': response[:200],
+            'analysis': 'improvement_suggested'
+        }
+    
+    def get_healthy_apis(self) -> List[str]:
+        """Get list of currently healthy APIs"""
+        return [api for api, health in self.api_health.items() if health]
+

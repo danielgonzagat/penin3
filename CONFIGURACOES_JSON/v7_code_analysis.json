@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-10-06T15:49:59.669705",
+  "file_size": 3208,
+  "lines": 83,
+  "imports": [
+    "import sys, time, logging",
+    "from core.system_v7_ultimate import IntelligenceSystemV7  # type: ignore",
+    "import sys"
+  ],
+  "functions": [
+    "main"
+  ],
+  "classes": [],
+  "main_loop": false,
+  "error_handling": false,
+  "logging": true,
+  "retry_mechanism": true
+}

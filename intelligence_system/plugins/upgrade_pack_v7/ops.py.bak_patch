@@ -1,0 +1,53 @@
+
+# Operações para self_modification_engine (registradas via hook)
+def op_tune_entropy(ctx, delta: float):
+    # espera ctx["agent"].entropy_coef
+    agent = ctx.get("agent")
+    if not agent: return {"ok":False,"msg":"agent missing"}
+    val = float(getattr(agent, "entropy_coef", 0.0)) + float(delta)
+    val = max(0.0, min(0.5, val))
+    setattr(agent, "entropy_coef", val)
+    return {"ok":True,"msg":f"entropy_coef->{val:.4f}"}
+
+def op_tune_cliprange(ctx, delta: float):
+    agent = ctx.get("agent")
+    if not agent: return {"ok":False,"msg":"agent missing"}
+    cr = float(getattr(agent, "clip_range", 0.2)) + float(delta)
+    cr = max(0.05, min(0.4, cr))
+    setattr(agent, "clip_range", cr)
+    return {"ok":True,"msg":f"clip_range->{cr:.3f}"}
+
+def op_tune_lr(ctx, scale: float):
+    agent = ctx.get("agent")
+    if not agent: return {"ok":False,"msg":"agent missing"}
+    base = float(getattr(agent, "learning_rate", 3e-4))
+    new = max(1e-6, min(3e-3, base*float(scale)))
+    setattr(agent, "learning_rate", new)
+    # se tiver otimizador, atualiza
+    opt = getattr(agent, "optimizer", None)
+    if opt and hasattr(opt, "param_groups"):
+        for g in opt.param_groups: g["lr"]=new
+    return {"ok":True,"msg":f"lr->{new:.6f}"}
+
+def op_swap_optimizer(ctx, to: str="adam"):
+    agent = ctx.get("agent")
+    if not agent: return {"ok":False,"msg":"agent missing"}
+    try:
+        import torch
+        params = [p for p in getattr(agent, "policy", agent).__dict__.values() if hasattr(p, "parameters")]
+        # fallback simples: se não houver, usa todos parâmetros do agente
+        base_params = []
+        if hasattr(agent, "policy") and hasattr(agent.policy, "parameters"):
+            base_params = list(agent.policy.parameters())
+        elif hasattr(agent, "parameters"):
+            base_params = list(agent.parameters())
+        else:
+            base_params = []
+        if to.lower()=="rmsprop":
+            optim = torch.optim.RMSprop(base_params, lr=getattr(agent,"learning_rate",3e-4), alpha=0.99)
+        else:
+            optim = torch.optim.Adam(base_params, lr=getattr(agent,"learning_rate",3e-4))
+        setattr(agent, "optimizer", optim)
+        return {"ok":True,"msg":f"optimizer->{to}"}
+    except Exception as e:
+        return {"ok":False,"msg":str(e)}

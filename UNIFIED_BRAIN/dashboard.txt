@@ -1,0 +1,65 @@
+════════════════════════════════════════════════════════════════════════════════
+📊 UNIFIED BRAIN - METRICS DASHBOARD
+════════════════════════════════════════════════════════════════════════════════
+
+🎯 SYSTEM STATUS
+────────────────────────────────────────────────────────────────────────────────
+  Status: CRITICAL
+  Uptime: 0:12:52
+  Episode: 10
+  Total Steps: 209
+
+⚡ PERFORMANCE
+────────────────────────────────────────────────────────────────────────────────
+  ✅ Step Time: 0.764s (target: <1.0s)
+  Episodes/hour: 157.1
+  Throughput: 1.31 steps/s
+
+🧠 LEARNING
+────────────────────────────────────────────────────────────────────────────────
+  Current Reward: 9.0
+  Best Reward: 66.0
+  Avg (last 100): 20.9
+  Loss: 35.7575
+  Gradients Applied: 10
+
+🔄 AUTO-EVOLUTION (FASE 1)
+────────────────────────────────────────────────────────────────────────────────
+  Meta-Controller:
+    Interventions: 0
+  Curiosity:
+    Predictions: 208
+    Avg Surprise: 0.4509
+  Darwin:
+    Frozen Neurons: 0
+    Generations: 0
+
+🔍 SELF-ANALYSIS (FASE 2)
+────────────────────────────────────────────────────────────────────────────────
+  Health: CRITICAL
+  Bottlenecks: 1
+  Top Bottleneck: curiosity
+  Recommendations: 2
+
+💾 RESOURCES
+────────────────────────────────────────────────────────────────────────────────
+  Memory (RSS): 4878.7 MB
+  GPU Memory: 0.0 MB
+  Active Neurons: 4
+  Soup Size: 0
+
+🔴 ACTIVE BOTTLENECKS
+────────────────────────────────────────────────────────────────────────────────
+  [HIGH] curiosity: 95.7%
+     → Otimizar curiosity: reduce model complexity, batch predictio
+
+💡 RECOMMENDATIONS
+────────────────────────────────────────────────────────────────────────────────
+  [HIGH] Otimizar curiosity
+     Otimizar curiosity: reduce model complexity, batch predictions
+  [HIGH] Resolver REWARD_DEGRADATION
+     Reward degradou > 20% - possível catastrophic forgetting
+
+════════════════════════════════════════════════════════════════════════════════
+Last Update: 2025-10-06 14:15:21
+════════════════════════════════════════════════════════════════════════════════

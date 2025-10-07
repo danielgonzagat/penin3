@@ -1,0 +1,369 @@
+{
+  "cycles": 10,
+  "elapsed": 209.34983229637146,
+  "final_fitness": 1.8941885939578125,
+  "final_consciousness": 0.019704718396651118,
+  "proto_consciousness": false,
+  "modifications_executed": 18,
+  "neurons_grown": 0,
+  "teis_events": 4,
+  "neural_dna_generations": 10,
+  "oracle_executions": 8,
+  "meta_learning_adaptations": 10,
+  "self_modifications": 10,
+  "consciousness_reflections": 10,
+  "results": [
+    {
+      "cycle": 0,
+      "vision_confidence": 0.26684218645095825,
+      "fitness": 0.9318788463363228,
+      "teis_reward": 1.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.009318788463363228,
+      "consciousness_awareness": 0.01,
+      "proto_consciousness": false,
+      "oracle_result": null,
+      "meta_learning": {
+        "adapted": true,
+        "steps": 5,
+        "final_loss": 0.21899571306893892
+      },
+      "modifications_applied": 1,
+      "neurons_grown": 0,
+      "teis_events": 1,
+      "neural_dna_gen": 1,
+      "emergences": 0
+    },
+    {
+      "cycle": 1,
+      "vision_confidence": 0.359352171421051,
+      "fitness": 1.0272255395663696,
+      "teis_reward": 2.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.010272255395663695,
+      "consciousness_awareness": 0.02,
+      "proto_consciousness": false,
+      "oracle_result": null,
+      "meta_learning": {
+        "adapted": true,
+        "steps": 5,
+        "final_loss": 0.30166127590675823
+      },
+      "modifications_applied": 2,
+      "neurons_grown": 0,
+      "teis_events": 2,
+      "neural_dna_gen": 2,
+      "emergences": 0
+    },
+    {
+      "cycle": 2,
+      "vision_confidence": 0.4135966897010803,
+      "fitness": 1.1946802694235634,
+      "teis_reward": 3.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.011946802694235634,
+      "consciousness_awareness": 0.03,
+      "proto_consciousness": false,
+      "oracle_result": {
+        "responses": {
+          "openai": "{'id': 'resp_0286cf78d3eae6960068dc4d29d638819f9ba8402ceaf166b1', 'object': 'response', 'created_at': 1759268137, 'status': 'incomplete', 'background': False, 'billing': {'payer': 'developer'}, 'error': None, 'incomplete_details': {'reason': 'max_output_tokens'}, 'instructions': None, 'max_output_tokens': 500, 'max_tool_calls': None, 'model': 'gpt-5-2025-08-07', 'output': [{'id': 'rs_0286cf78d3eae6960068dc4d2a7b64819fadc484ea168a0b31', 'type': 'reasoning', 'summary': []}], 'parallel_tool_calls': True, 'previous_response_id': None, 'prompt_cache_key': None, 'reasoning': {'effort': 'medium', 'summary': None}, 'safety_identifier': None, 'service_tier': 'default', 'store': True, 'temperature': 1.0, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tool_choice': 'auto', 'tools': [], 'top_logprobs': 0, 'top_p': 1.0, 'truncation': 'disabled', 'usage': {'input_tokens': 27, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 448, 'output_tokens_details': {'reasoning_tokens': 448}, 'total_tokens': 475}, 'user': None, 'metadata': {}}",
+          "anthropic": "I need more context about \"fitness 1.19\" - is this a performance metric, software version, or specific framework?",
+          "gemini": "Refine the fitness function to reward more complex or novel solutions.",
+          "mistral": "\"Train AI on fitness datasets to enhance accuracy in health recommendations.\"",
+          "deepseek": "Integrate evolutionary algorithms to optimize neural network architectures through survival of the fittest.",
+          "grok": "Optimize fitness function for better evolutionary AI training."
+        },
+        "execution": {
+          "success": true,
+          "actions_extracted": [
+            "training",
+            "enhance",
+            "optimize",
+            "fitness",
+            "architecture"
+          ],
+          "executions": [
+            {
+              "action": "increase_population",
+              "before": 10,
+              "after": 12,
+              "timestamp": "2025-09-30T21:36:27.402073"
+            },
+            {
+              "action": "modify_architecture",
+              "complexity_before": 1.0,
+              "complexity_after": 1.05,
+              "timestamp": "2025-09-30T21:36:27.402099"
+            },
+            {
+              "action": "trigger_retrain",
+              "triggered": true,
+              "timestamp": "2025-09-30T21:36:27.402110"
+            }
+          ],
+          "total_executed": 3
+        },
+        "valid_apis": 5,
+        "elapsed": 49.724451780319214
+      },
+      "meta_learning": {
+        "adapted": true,
+        "steps": 5,
+        "final_loss": 0.008270310908047595
+      },
+      "modifications_applied": 6,
+      "neurons_grown": 0,
+      "teis_events": 2,
+      "neural_dna_gen": 3,
+      "emergences": 0
+    },
+    {
+      "cycle": 3,
+      "vision_confidence": 0.32023876905441284,
+      "fitness": 1.2567718445012912,
+      "teis_reward": 4.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.012567718445012912,
+      "consciousness_awareness": 0.04,
+      "proto_consciousness": false,
+      "oracle_result": null,
+      "meta_learning": {
+        "adapted": true,
+        "steps": 5,
+        "final_loss": 0.25766830257867074
+      },
+      "modifications_applied": 7,
+      "neurons_grown": 0,
+      "teis_events": 2,
+      "neural_dna_gen": 4,
+      "emergences": 0
+    },
+    {
+      "cycle": 4,
+      "vision_confidence": 0.32590118050575256,
+      "fitness": 1.2619704724824379,
+      "teis_reward": 5.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.012619704724824378,
+      "consciousness_awareness": 0.05,
+      "proto_consciousness": false,
+      "oracle_result": {
+        "responses": {
+          "openai": "{'id': 'resp_00329d543cca8d510068dc4d5bb78c81a080cbead69161e1f2', 'object': 'response', 'created_at': 1759268187, 'status': 'incomplete', 'background': False, 'billing': {'payer': 'developer'}, 'error': None, 'incomplete_details': {'reason': 'max_output_tokens'}, 'instructions': None, 'max_output_tokens': 500, 'max_tool_calls': None, 'model': 'gpt-5-2025-08-07', 'output': [{'id': 'rs_00329d543cca8d510068dc4d5cb75481a0bf752d6c0257d4f3', 'type': 'reasoning', 'summary': []}], 'parallel_tool_calls': True, 'previous_response_id': None, 'prompt_cache_key': None, 'reasoning': {'effort': 'medium', 'summary': None}, 'safety_identifier': None, 'service_tier': 'default', 'store': True, 'temperature': 1.0, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tool_choice': 'auto', 'tools': [], 'top_logprobs': 0, 'top_p': 1.0, 'truncation': 'disabled', 'usage': {'input_tokens': 27, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 448, 'output_tokens_details': {'reasoning_tokens': 448}, 'total_tokens': 475}, 'user': None, 'metadata': {}}",
+          "anthropic": "Add more diverse training examples to reduce overfitting and improve generalization to new data.",
+          "gemini": "Adjust the mutation rate to explore more diverse solutions and escape local optima.",
+          "mistral": "\"Train AI on diverse fitness datasets to enhance accuracy in health recommendations.\"",
+          "deepseek": "Integrate real-time user feedback loops to continuously refine AI behavior and accuracy.",
+          "grok": "Optimize mutation operators to boost population diversity from fitness 1.26."
+        },
+        "execution": {
+          "success": true,
+          "actions_extracted": [
+            "population",
+            "training",
+            "enhance",
+            "optimize",
+            "fitness",
+            "improve",
+            "mutation",
+            "adjust"
+          ],
+          "executions": [
+            {
+              "action": "increase_population",
+              "before": 12,
+              "after": 14,
+              "timestamp": "2025-09-30T21:37:17.278839"
+            },
+            {
+              "action": "trigger_retrain",
+              "triggered": true,
+              "timestamp": "2025-09-30T21:37:17.278857"
+            }
+          ],
+          "total_executed": 2
+        },
+        "valid_apis": 5,
+        "elapsed": 49.80463433265686
+      },
+      "meta_learning": {
+        "adapted": true,
+        "steps": 5,
+        "final_loss": 0.450983236794852
+      },
+      "modifications_applied": 10,
+      "neurons_grown": 0,
+      "teis_events": 3,
+      "neural_dna_gen": 5,
+      "emergences": 0
+    },
+    {
+      "cycle": 5,
+      "vision_confidence": 0.19133377075195312,
+      "fitness": 1.4560135861570447,
+      "teis_reward": 6.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.014560135861570447,
+      "consciousness_awareness": 0.060000000000000005,
+      "proto_consciousness": false,
+      "oracle_result": null,
+      "meta_learning": {
+        "adapted": true,
+        "steps": 5,
+        "final_loss": 0.5170397933548513
+      },
+      "modifications_applied": 11,
+      "neurons_grown": 0,
+      "teis_events": 3,
+      "neural_dna_gen": 6,
+      "emergences": 0
+    },
+    {
+      "cycle": 6,
+      "vision_confidence": 0.33270105719566345,
+      "fitness": 1.4178719633033952,
+      "teis_reward": 7.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.014941552090106943,
+      "consciousness_awareness": 0.07,
+      "proto_consciousness": false,
+      "oracle_result": {
+        "responses": {
+          "openai": "{'id': 'resp_0ef6e1db6634ae980068dc4d8d7bc88191a9d95449e5c0f41c', 'object': 'response', 'created_at': 1759268237, 'status': 'incomplete', 'background': False, 'billing': {'payer': 'developer'}, 'error': None, 'incomplete_details': {'reason': 'max_output_tokens'}, 'instructions': None, 'max_output_tokens': 500, 'max_tool_calls': None, 'model': 'gpt-5-2025-08-07', 'output': [{'id': 'rs_0ef6e1db6634ae980068dc4d8e1c1881919a4f399788b33cb6', 'type': 'reasoning', 'summary': []}], 'parallel_tool_calls': True, 'previous_response_id': None, 'prompt_cache_key': None, 'reasoning': {'effort': 'medium', 'summary': None}, 'safety_identifier': None, 'service_tier': 'default', 'store': True, 'temperature': 1.0, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tool_choice': 'auto', 'tools': [], 'top_logprobs': 0, 'top_p': 1.0, 'truncation': 'disabled', 'usage': {'input_tokens': 27, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 448, 'output_tokens_details': {'reasoning_tokens': 448}, 'total_tokens': 475}, 'user': None, 'metadata': {}}",
+          "anthropic": "Add more diverse training examples to reduce overfitting and improve generalization to new data.",
+          "gemini": "Refine the fitness function to better reward the most desirable AI behaviors.",
+          "mistral": "\"Train AI on diverse fitness datasets to enhance accuracy in 1.42.\"",
+          "deepseek": "Integrate real-time human feedback loops to continuously refine AI behavior.",
+          "grok": "Incorporate diverse training data to boost fitness score."
+        },
+        "execution": {
+          "success": true,
+          "actions_extracted": [
+            "training",
+            "fitness",
+            "enhance",
+            "improve"
+          ],
+          "executions": [
+            {
+              "action": "trigger_retrain",
+              "triggered": true,
+              "timestamp": "2025-09-30T21:38:01.668284"
+            }
+          ],
+          "total_executed": 1
+        },
+        "valid_apis": 5,
+        "elapsed": 44.32852363586426
+      },
+      "meta_learning": {
+        "adapted": true,
+        "steps": 5,
+        "final_loss": 0.4495832556084829
+      },
+      "modifications_applied": 13,
+      "neurons_grown": 0,
+      "teis_events": 3,
+      "neural_dna_gen": 7,
+      "emergences": 0
+    },
+    {
+      "cycle": 7,
+      "vision_confidence": 0.25322577357292175,
+      "fitness": 1.5034975273028168,
+      "teis_reward": 0,
+      "teis_loss": 0.0,
+      "consciousness": 0.01579780773010116,
+      "consciousness_awareness": 0.08,
+      "proto_consciousness": false,
+      "oracle_result": null,
+      "meta_learning": {
+        "adapted": true,
+        "steps": 5,
+        "final_loss": 0.27243941102936964
+      },
+      "modifications_applied": 14,
+      "neurons_grown": 0,
+      "teis_events": 3,
+      "neural_dna_gen": 8,
+      "emergences": 0
+    },
+    {
+      "cycle": 8,
+      "vision_confidence": 0.34860727190971375,
+      "fitness": 1.7636962272967556,
+      "teis_reward": 1.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.01839979473004055,
+      "consciousness_awareness": 0.09,
+      "proto_consciousness": false,
+      "oracle_result": {
+        "responses": {
+          "openai": "{'id': 'resp_0464edbfe2e85d010068dc4dba7fcc81969d032c542a463131', 'object': 'response', 'created_at': 1759268282, 'status': 'incomplete', 'background': False, 'billing': {'payer': 'developer'}, 'error': None, 'incomplete_details': {'reason': 'max_output_tokens'}, 'instructions': None, 'max_output_tokens': 500, 'max_tool_calls': None, 'model': 'gpt-5-2025-08-07', 'output': [{'id': 'rs_0464edbfe2e85d010068dc4dbbe49881969b3de5fdb63cafdc', 'type': 'reasoning', 'summary': []}], 'parallel_tool_calls': True, 'previous_response_id': None, 'prompt_cache_key': None, 'reasoning': {'effort': 'medium', 'summary': None}, 'safety_identifier': None, 'service_tier': 'default', 'store': True, 'temperature': 1.0, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tool_choice': 'auto', 'tools': [], 'top_logprobs': 0, 'top_p': 1.0, 'truncation': 'disabled', 'usage': {'input_tokens': 27, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 448, 'output_tokens_details': {'reasoning_tokens': 448}, 'total_tokens': 475}, 'user': None, 'metadata': {}}",
+          "anthropic": "Erro: Exception: list index out of range",
+          "gemini": "Erro: Exception: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=30)",
+          "mistral": "\"Train AI on fitness datasets to enhance accuracy in health recommendations.\"",
+          "deepseek": "Integrate real-time human feedback loops to continuously refine AI decision-making.",
+          "grok": "Optimize hyperparameters to exceed fitness score of 1.76."
+        },
+        "execution": {
+          "success": true,
+          "actions_extracted": [
+            "fitness",
+            "hyperparameters",
+            "optimize",
+            "enhance"
+          ],
+          "executions": [
+            {
+              "action": "increase_population",
+              "before": 14,
+              "after": 16,
+              "timestamp": "2025-09-30T21:39:06.888632"
+            },
+            {
+              "action": "tune_hyperparameters",
+              "learning_rate_before": 0.01,
+              "learning_rate_after": 0.011000000000000001,
+              "timestamp": "2025-09-30T21:39:06.888654"
+            }
+          ],
+          "total_executed": 2
+        },
+        "valid_apis": 5,
+        "elapsed": 64.97505760192871
+      },
+      "meta_learning": {
+        "adapted": true,
+        "steps": 5,
+        "final_loss": 0.12246157446699454
+      },
+      "modifications_applied": 17,
+      "neurons_grown": 0,
+      "teis_events": 3,
+      "neural_dna_gen": 9,
+      "emergences": 0
+    },
+    {
+      "cycle": 9,
+      "vision_confidence": 0.2307533472776413,
+      "fitness": 1.8941885939578125,
+      "teis_reward": 2.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.019704718396651118,
+      "consciousness_awareness": 0.09999999999999999,
+      "proto_consciousness": false,
+      "oracle_result": null,
+      "meta_learning": {
+        "adapted": true,
+        "steps": 5,
+        "final_loss": 0.06572005179512694
+      },
+      "modifications_applied": 18,
+      "neurons_grown": 0,
+      "teis_events": 4,
+      "neural_dna_gen": 10,
+      "emergences": 0
+    }
+  ]
+}

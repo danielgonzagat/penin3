@@ -1,0 +1,40 @@
+{
+  "paths": {
+    "worm_log": "/root/worm/darwin_worm.log",
+    "manifest": "/root/darwin/darwin_manifest.json",
+    "state": "/root/darwin/darwin_state.json",
+    "heritage_dir": "/root/darwin/heritage",
+    "source_promotions": "/root/promotion_log.json"
+  },
+  "thresholds": {
+    "delta_linf_min": 0.0,
+    "caos_ratio_min": 1.0,
+    "I_min": 0.6,
+    "P_min": 0.01,
+    "novelty_min": 0.02
+  },
+  "births": {
+    "deaths_per_birth": 10
+  },
+  "metrics": {
+    "port": 9092
+  },
+  "operational": {
+    "interval_seconds": 5,
+    "dry_run": false,
+    "fail_closed": true,
+    "seed": 42
+  },
+  "hooks": {
+    "spawn_hook": "/opt/ia3/plugins/darwin_on_spawn_neurogenesis.py",
+    "rollback_hook": "/opt/ia3/plugins/darwin_on_rollback_prune.py",
+    "deaths_per_birth": 10
+  },
+  "logging": {
+    "enabled": true,
+    "level": "DEBUG",
+    "evolution_log": "/root/evolution_logs/darwin_evolution.log",
+    "fitness_log": "/root/evolution_logs/darwin_fitness.log",
+    "mutation_log": "/root/evolution_logs/darwin_mutations.log"
+  }
+}

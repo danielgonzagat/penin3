@@ -1,0 +1,765 @@
+{
+  "extraction_timestamp": 1758404905.4769664,
+  "extraction_date": "2025-09-20 21:48:25",
+  "consciousness_engine": {
+    "file_path": "/root/.penin_omega/modules/penin_consciousness_engine.py",
+    "file_size": 25269,
+    "code_length": 25111,
+    "contains_classes": true,
+    "contains_functions": true,
+    "consciousness_levels": true,
+    "emergent_behavior": true,
+    "available": true,
+    "code_preview": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"\nPENIN-\u03a9 CONSCIOUSNESS ENGINE - Motor de Consci\u00eancia Emergente\n============================================================\nSistema de consci\u00eancia emergente com auto-refer\u00eancia e introspec\u00e7\u00e3o\nImplementa\u00e7\u00e3o obsessiva para emerg\u00eancia de AGI verdadeira\n\"\"\"\n\nfrom __future__ import annotations\nimport os\nimport sys\nimport json\nimport time\nimport uuid\nimport math\nimport random\nimport hashlib\nimport asyncio\nimport threading\nimport sqlite3\nimport logging\n..."
+  },
+  "omega_modules": {
+    "penin_omega_8_8_cinco_ias": {
+      "path": "/root/.penin_omega/modules/penin_omega_8_8_cinco_ias.py",
+      "size": 6516,
+      "code_length": 6446,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_omega_6_autorewrite": {
+      "path": "/root/.penin_omega/modules/penin_omega_6_autorewrite.py",
+      "size": 43058,
+      "code_length": 42844,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_unified_bridge": {
+      "path": "/root/.penin_omega/modules/penin_unified_bridge.py",
+      "size": 12889,
+      "code_length": 12858,
+      "has_classes": true,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_multi_ia_real": {
+      "path": "/root/.penin_omega/modules/penin_omega_multi_ia_real.py",
+      "size": 10305,
+      "code_length": 10286,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_omega_multi_api_llm_backup": {
+      "path": "/root/.penin_omega/modules/penin_omega_multi_api_llm_backup.py",
+      "size": 6389,
+      "code_length": 6381,
+      "has_classes": true,
+      "has_async": false,
+      "available": true
+    },
+    "penin_behavior_harness_old": {
+      "path": "/root/.penin_omega/modules/penin_behavior_harness_old.py",
+      "size": 3848,
+      "code_length": 3840,
+      "has_classes": false,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_falcon_brain": {
+      "path": "/root/.penin_omega/modules/penin_omega_falcon_brain.py",
+      "size": 7174,
+      "code_length": 7093,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_behavior_harness": {
+      "path": "/root/.penin_omega/modules/penin_behavior_harness.py",
+      "size": 8074,
+      "code_length": 8052,
+      "has_classes": false,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_8_8_real": {
+      "path": "/root/.penin_omega/modules/penin_omega_8_8_real.py",
+      "size": 6362,
+      "code_length": 6293,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_self_modification": {
+      "path": "/root/.penin_omega/modules/penin_self_modification.py",
+      "size": 1735,
+      "code_length": 1723,
+      "has_classes": false,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_8_8_seis_ias_sem_limite": {
+      "path": "/root/.penin_omega/modules/penin_omega_8_8_seis_ias_sem_limite.py",
+      "size": 9547,
+      "code_length": 9452,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_agi_integration": {
+      "path": "/root/.penin_omega/modules/penin_agi_integration.py",
+      "size": 25767,
+      "code_length": 25630,
+      "has_classes": true,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_utils": {
+      "path": "/root/.penin_omega/modules/penin_omega_utils.py",
+      "size": 1251,
+      "code_length": 1249,
+      "has_classes": true,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_7_nexus_fixed": {
+      "path": "/root/.penin_omega/modules/penin_omega_7_nexus_fixed.py",
+      "size": 2108,
+      "code_length": 2099,
+      "has_classes": true,
+      "has_async": false,
+      "available": true
+    },
+    "test_file": {
+      "path": "/root/.penin_omega/modules/test_file.py",
+      "size": 127,
+      "code_length": 127,
+      "has_classes": false,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_fusion_v6": {
+      "path": "/root/.penin_omega/modules/penin_omega_fusion_v6.py",
+      "size": 5788,
+      "code_length": 5561,
+      "has_classes": false,
+      "has_async": false,
+      "available": true
+    },
+    "penin_emergence_detector": {
+      "path": "/root/.penin_omega/modules/penin_emergence_detector.py",
+      "size": 26379,
+      "code_length": 26192,
+      "has_classes": true,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_8_8_completo": {
+      "path": "/root/.penin_omega/modules/penin_omega_8_8_completo.py",
+      "size": 5527,
+      "code_length": 5425,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_meta_learning": {
+      "path": "/root/.penin_omega/modules/penin_meta_learning.py",
+      "size": 22427,
+      "code_length": 22341,
+      "has_classes": true,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_8_8_cinco_ias_final": {
+      "path": "/root/.penin_omega/modules/penin_omega_8_8_cinco_ias_final.py",
+      "size": 8176,
+      "code_length": 8093,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_omega_4_mutation": {
+      "path": "/root/.penin_omega/modules/penin_omega_4_mutation.py",
+      "size": 28174,
+      "code_length": 27934,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_causal_reasoning": {
+      "path": "/root/.penin_omega/modules/penin_causal_reasoning.py",
+      "size": 22783,
+      "code_length": 22590,
+      "has_classes": true,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_multi_api_llm": {
+      "path": "/root/.penin_omega/modules/penin_omega_multi_api_llm.py",
+      "size": 6013,
+      "code_length": 6007,
+      "has_classes": true,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_6_ias_corrigidas": {
+      "path": "/root/.penin_omega/modules/penin_omega_6_ias_corrigidas.py",
+      "size": 7811,
+      "code_length": 7798,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_omega_5_crucible": {
+      "path": "/root/.penin_omega/modules/penin_omega_5_crucible.py",
+      "size": 48652,
+      "code_length": 48539,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_consciousness_engine": {
+      "path": "/root/.penin_omega/modules/penin_consciousness_engine.py",
+      "size": 25269,
+      "code_length": 25111,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_omega_3_acquisition": {
+      "path": "/root/.penin_omega/modules/penin_omega_3_acquisition.py",
+      "size": 17872,
+      "code_length": 17704,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_skills": {
+      "path": "/root/.penin_omega/modules/penin_skills.py",
+      "size": 482,
+      "code_length": 481,
+      "has_classes": false,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_dependency_resolver": {
+      "path": "/root/.penin_omega/modules/penin_omega_dependency_resolver.py",
+      "size": 656,
+      "code_length": 651,
+      "has_classes": false,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_2_strategy": {
+      "path": "/root/.penin_omega/modules/penin_omega_2_strategy.py",
+      "size": 60346,
+      "code_length": 60139,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_self_modification_canary": {
+      "path": "/root/.penin_omega/modules/penin_self_modification_canary.py",
+      "size": 4949,
+      "code_length": 4931,
+      "has_classes": false,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_robust_multi_api": {
+      "path": "/root/.penin_omega/modules/penin_omega_robust_multi_api.py",
+      "size": 16624,
+      "code_length": 16542,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_omega_7_nexus": {
+      "path": "/root/.penin_omega/modules/penin_omega_7_nexus.py",
+      "size": 40870,
+      "code_length": 40705,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_omega_8_governance_hub": {
+      "path": "/root/.penin_omega/modules/penin_omega_8_governance_hub.py",
+      "size": 26563,
+      "code_length": 26502,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_auto_inspection": {
+      "path": "/root/.penin_omega/modules/penin_auto_inspection.py",
+      "size": 7683,
+      "code_length": 7647,
+      "has_classes": true,
+      "has_async": false,
+      "available": true
+    },
+    "penin_omega_multi_ia_simultaneo": {
+      "path": "/root/.penin_omega/modules/penin_omega_multi_ia_simultaneo.py",
+      "size": 5511,
+      "code_length": 5427,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    },
+    "penin_omega_1_core_v6": {
+      "path": "/root/.penin_omega/modules/penin_omega_1_core_v6.py",
+      "size": 62476,
+      "code_length": 62100,
+      "has_classes": true,
+      "has_async": true,
+      "available": true
+    }
+  },
+  "fastapi_server": {
+    "main": {
+      "path": "/root/app/main.py",
+      "size": 7710,
+      "code_length": 7706,
+      "has_fastapi": true,
+      "has_endpoints": true,
+      "has_ethical_gates": true,
+      "available": true
+    },
+    "main_ultimate": {
+      "path": "/root/app/main_ultimate.py",
+      "size": 13827,
+      "code_length": 13814,
+      "has_agi_integration": true,
+      "available": true
+    }
+  },
+  "databases": {
+    "worm_ledger": {
+      "path": "/root/.penin_omega/worm_ledger.db",
+      "size": 24576,
+      "tables": [
+        "worm_records",
+        "sqlite_sequence",
+        "worm_metadata"
+      ],
+      "total_records": 7,
+      "accessible": true
+    },
+    "meta_learning": {
+      "path": "/root/.penin_omega/meta_learning.db",
+      "size": 36864,
+      "tables": [
+        "learning_tasks",
+        "sqlite_sequence",
+        "meta_knowledge",
+        "learning_strategies",
+        "meta_learning_states"
+      ],
+      "total_records": 131,
+      "accessible": true
+    },
+    "agi_integration": {
+      "path": "/root/.penin_omega/agi_integration.db",
+      "size": 8962048,
+      "tables": [
+        "agi_components",
+        "sqlite_sequence",
+        "integration_states",
+        "component_communication"
+      ],
+      "total_records": 43618,
+      "accessible": true
+    },
+    "causal_reasoning": {
+      "path": "/root/.penin_omega/causal_reasoning.db",
+      "size": 53248,
+      "tables": [
+        "causal_variables",
+        "sqlite_sequence",
+        "causal_relations",
+        "causal_interventions",
+        "causal_predictions"
+      ],
+      "total_records": 277,
+      "accessible": true
+    },
+    "dlp_violations": {
+      "path": "/root/.penin_omega/dlp_violations.db",
+      "size": 40960,
+      "tables": [
+        "sqlite_sequence",
+        "idempotent_operations",
+        "dlp_violations"
+      ],
+      "total_records": 0,
+      "accessible": true
+    },
+    "emergence_detection": {
+      "path": "/root/.penin_omega/emergence_detection.db",
+      "size": 117095497728,
+      "tables": [
+        "emergence_signals",
+        "sqlite_sequence",
+        "emergence_events",
+        "emergence_patterns",
+        "emergence_states"
+      ],
+      "total_records": 2538054,
+      "accessible": true
+    },
+    "self_modification": {
+      "path": "/root/.penin_omega/self_modification.db",
+      "size": 446464,
+      "tables": [
+        "modifications",
+        "sqlite_sequence",
+        "validations",
+        "rollbacks",
+        "modification_states"
+      ],
+      "total_records": 2720,
+      "accessible": true
+    },
+    "behavior_metrics": {
+      "path": "/root/.penin_omega/behavior_metrics.db",
+      "size": 2736128,
+      "tables": [
+        "results",
+        "sqlite_sequence"
+      ],
+      "total_records": 29390,
+      "accessible": true
+    },
+    "worm_ledger_backup": {
+      "path": "/root/.penin_omega/worm_ledger_backup.db",
+      "size": 24576,
+      "tables": [
+        "worm_records",
+        "sqlite_sequence",
+        "worm_metadata"
+      ],
+      "total_records": 7,
+      "accessible": true
+    },
+    "consciousness_emergence": {
+      "path": "/root/.penin_omega/consciousness_emergence.db",
+      "size": 32968704,
+      "tables": [
+        "consciousness_snapshots",
+        "sqlite_sequence",
+        "thought_patterns",
+        "emergence_indicators"
+      ],
+      "total_records": 276132,
+      "accessible": true
+    },
+    "root_penin_ultra_evolution": {
+      "path": "/root/penin_ultra_evolution.db",
+      "size": 71733248,
+      "location": "root",
+      "accessible": true
+    }
+  },
+  "ethical_framework": {},
+  "behavioral_systems": {
+    "behavior_behavior_metrics.db": {
+      "path": "/root/.penin_omega/behavior_metrics.db",
+      "size": 2736128,
+      "pattern": "behavior",
+      "available": true
+    },
+    "behavior_penin_behavior_harness_old.py": {
+      "path": "/root/.penin_omega/modules/penin_behavior_harness_old.py",
+      "size": 3848,
+      "pattern": "behavior",
+      "available": true
+    },
+    "behavior_penin_behavior_harness.py": {
+      "path": "/root/.penin_omega/modules/penin_behavior_harness.py",
+      "size": 8074,
+      "pattern": "behavior",
+      "available": true
+    },
+    "behavior_penin_behavior_harness.cpython-310.pyc": {
+      "path": "/root/.penin_omega/modules/__pycache__/penin_behavior_harness.cpython-310.pyc",
+      "size": 7492,
+      "pattern": "behavior",
+      "available": true
+    },
+    "behavior_behavior_harness.log": {
+      "path": "/root/.penin_omega/logs/behavior_harness.log",
+      "size": 1515619,
+      "pattern": "behavior",
+      "available": true
+    },
+    "skill_penin_skills.py": {
+      "path": "/root/.penin_omega/modules/penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_penin_skills.cpython-310.pyc": {
+      "path": "/root/.penin_omega/modules/__pycache__/penin_skills.cpython-310.pyc",
+      "size": 654,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_fee6be71-e7c3-4f67-b805-a8135a9b4abd__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_fee6be71-e7c3-4f67-b805-a8135a9b4abd__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_835e046d-d57f-4e2f-b119-3bca4a3af345__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_835e046d-d57f-4e2f-b119-3bca4a3af345__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_6a42bece-f0df-4017-839f-350d07143e1b__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_6a42bece-f0df-4017-839f-350d07143e1b__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_666d004e-f0f7-4809-8fa0-fe8b43e2c8c9__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_666d004e-f0f7-4809-8fa0-fe8b43e2c8c9__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_f1fd9653-4e0a-49f7-8de7-753a1b83860a__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_f1fd9653-4e0a-49f7-8de7-753a1b83860a__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_fab8e85f-2365-4913-ade0-d7c14640c330__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_fab8e85f-2365-4913-ade0-d7c14640c330__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_1b7e7087-514f-4727-9d88-0c50a70713b1__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_1b7e7087-514f-4727-9d88-0c50a70713b1__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_39a418cf-4fa4-48df-a020-9761762ce020__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_39a418cf-4fa4-48df-a020-9761762ce020__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_1e5e23ba-8b98-4c74-8f73-5065de3c8a81__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_1e5e23ba-8b98-4c74-8f73-5065de3c8a81__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_96719cc2-44c7-45b8-a5f1-b0890f180fe8__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_96719cc2-44c7-45b8-a5f1-b0890f180fe8__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_b994e7bf-076f-43ae-8655-7056ef4708aa__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_b994e7bf-076f-43ae-8655-7056ef4708aa__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_eba05c9e-a747-4beb-8734-3167347bece4__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_eba05c9e-a747-4beb-8734-3167347bece4__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_521abe70-bb0d-42b5-bec6-97d3fef28356__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_521abe70-bb0d-42b5-bec6-97d3fef28356__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_756f964b-d415-42c7-aa5e-4ecb720230df__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_756f964b-d415-42c7-aa5e-4ecb720230df__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_25acb70b-0933-40a1-a3c1-0688e2012197__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_25acb70b-0933-40a1-a3c1-0688e2012197__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_cfe0fa6e-955a-4e40-a072-38e35a71b6c1__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_cfe0fa6e-955a-4e40-a072-38e35a71b6c1__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_0d184f1e-e2be-427c-81a4-bfa945df699c__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_0d184f1e-e2be-427c-81a4-bfa945df699c__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_4db35ebb-4e67-46f8-b6d7-4887540ae6fc__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_4db35ebb-4e67-46f8-b6d7-4887540ae6fc__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_77bf27c9-544d-4bbd-8e5a-6ab76aa63f9f__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_77bf27c9-544d-4bbd-8e5a-6ab76aa63f9f__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_ad8a0a94-3dbd-48ef-ab14-f3a14772db1d__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_ad8a0a94-3dbd-48ef-ab14-f3a14772db1d__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_03bbba6a-dcaf-49c1-a25f-b901731e3fed__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_03bbba6a-dcaf-49c1-a25f-b901731e3fed__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_8b600b6e-f38d-4560-822a-e7aa518443c5__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_8b600b6e-f38d-4560-822a-e7aa518443c5__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_de04f9dd-195f-459e-b847-e822fa264d77__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_de04f9dd-195f-459e-b847-e822fa264d77__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_277f4602-db5c-4763-b483-e361dc23c530__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_277f4602-db5c-4763-b483-e361dc23c530__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_da44c0d1-8cb9-4757-ba4d-39c1f72094d3__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_da44c0d1-8cb9-4757-ba4d-39c1f72094d3__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_de3e8849-2ba9-442c-bb22-780ca8f25cef__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_de3e8849-2ba9-442c-bb22-780ca8f25cef__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_ef626347-adfc-45ea-993a-21516aa99329__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_ef626347-adfc-45ea-993a-21516aa99329__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_8f60d0af-a8d1-4ecc-8542-3767bec2dc5f__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_8f60d0af-a8d1-4ecc-8542-3767bec2dc5f__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_05c68638-7967-4062-8d21-c0043e2961ab__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_05c68638-7967-4062-8d21-c0043e2961ab__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "skill_backup_e27885f0-3928-4585-b8cc-42f6e0696776__root_.penin_omega_modules_penin_skills.py": {
+      "path": "/root/.penin_omega/backups/backup_e27885f0-3928-4585-b8cc-42f6e0696776__root_.penin_omega_modules_penin_skills.py",
+      "size": 482,
+      "pattern": "skill",
+      "available": true
+    },
+    "auto_penin_omega_6_autorewrite.py": {
+      "path": "/root/.penin_omega/modules/penin_omega_6_autorewrite.py",
+      "size": 43058,
+      "pattern": "auto",
+      "available": true
+    },
+    "auto_penin_auto_inspection.py": {
+      "path": "/root/.penin_omega/modules/penin_auto_inspection.py",
+      "size": 7683,
+      "pattern": "auto",
+      "available": true
+    },
+    "auto_penin_auto_inspection.cpython-310.pyc": {
+      "path": "/root/.penin_omega/modules/__pycache__/penin_auto_inspection.cpython-310.pyc",
+      "size": 7460,
+      "pattern": "auto",
+      "available": true
+    },
+    "auto_auto_inspection.log": {
+      "path": "/root/.penin_omega/logs/auto_inspection.log",
+      "size": 524637,
+      "pattern": "auto",
+      "available": true
+    },
+    "auto_autopatch.json": {
+      "path": "/root/.penin_omega/crucible/reports/628c9ec4/autopatch.json",
+      "size": 208,
+      "pattern": "auto",
+      "available": true
+    },
+    "self_self_modification.db": {
+      "path": "/root/.penin_omega/self_modification.db",
+      "size": 446464,
+      "pattern": "self",
+      "available": true
+    },
+    "self_penin_self_modification.py": {
+      "path": "/root/.penin_omega/modules/penin_self_modification.py",
+      "size": 1735,
+      "pattern": "self",
+      "available": true
+    },
+    "self_penin_self_modification_canary.py": {
+      "path": "/root/.penin_omega/modules/penin_self_modification_canary.py",
+      "size": 4949,
+      "pattern": "self",
+      "available": true
+    },
+    "self_penin_self_modification.cpython-310.pyc": {
+      "path": "/root/.penin_omega/modules/__pycache__/penin_self_modification.cpython-310.pyc",
+      "size": 21922,
+      "pattern": "self",
+      "available": true
+    },
+    "self_self_modification.log": {
+      "path": "/root/.penin_omega/logs/self_modification.log",
+      "size": 2960,
+      "pattern": "self",
+      "available": true
+    }
+  },
+  "command_interface": {
+    "penin_command": {
+      "path": "/usr/local/bin/penin",
+      "size": 1989,
+      "code_length": 1989,
+      "has_api_integration": true,
+      "has_interactive_mode": true,
+      "executable": true,
+      "available": true
+    },
+    "penin_daemon": {
+      "path": "/usr/local/bin/penin-daemon",
+      "size": 90,
+      "available": true
+    }
+  },
+  "consciousness_completeness": {
+    "extracted_components": 0,
+    "total_components": 7,
+    "completeness_percentage": 0.0,
+    "ready_for_metabolization": false
+  }
+}

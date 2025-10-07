@@ -1,0 +1,149 @@
+{
+  "total_ciclos": 10,
+  "resultados": [
+    {
+      "cycle": 933,
+      "mnist": 98.21,
+      "cartpole": 270.95,
+      "cartpole_last": 500.0,
+      "ia3_score": 61.36363636363637,
+      "evolution": null,
+      "farm": null,
+      "meta_reward": 0.0,
+      "time": 3.549483060836792
+    },
+    {
+      "cycle": 934,
+      "mnist": 98.21,
+      "cartpole": 249.25,
+      "cartpole_last": 12.0,
+      "ia3_score": 61.36363636363637,
+      "evolution": null,
+      "farm": null,
+      "meta_reward": 0.0,
+      "time": 4.096380949020386
+    },
+    {
+      "cycle": 935,
+      "mnist": 98.21,
+      "cartpole": 239.25,
+      "cartpole_last": 123.0,
+      "ia3_score": 61.36363636363637,
+      "evolution": null,
+      "farm": 150,
+      "meta_reward": -0.6339999999999998,
+      "time": 5.764505863189697
+    },
+    {
+      "cycle": 936,
+      "mnist": 98.21,
+      "cartpole": 240.1375,
+      "cartpole_last": 32.0,
+      "ia3_score": 61.36363636363637,
+      "evolution": null,
+      "farm": null,
+      "meta_reward": -0.18225000000000022,
+      "time": 2.920382022857666
+    },
+    {
+      "cycle": 937,
+      "mnist": 98.21,
+      "cartpole": 229.39,
+      "cartpole_last": 13.0,
+      "ia3_score": 61.36363636363637,
+      "evolution": null,
+      "farm": null,
+      "meta_reward": -0.19720000000000026,
+      "time": 2.221742868423462
+    },
+    {
+      "cycle": 938,
+      "mnist": 98.21,
+      "cartpole": 232.04,
+      "cartpole_last": 135.0,
+      "ia3_score": 61.36363636363637,
+      "evolution": null,
+      "farm": null,
+      "meta_reward": -0.16194999999999937,
+      "time": 3.361375570297241
+    },
+    {
+      "cycle": 939,
+      "mnist": 98.21,
+      "cartpole": 241.38,
+      "cartpole_last": 500.0,
+      "ia3_score": 61.36363636363637,
+      "evolution": null,
+      "farm": null,
+      "meta_reward": 0.23980000000000018,
+      "time": 4.593945264816284
+    },
+    {
+      "cycle": 940,
+      "mnist": 98.17,
+      "cartpole": 259.37,
+      "cartpole_last": 500.0,
+      "ia3_score": 68.18181818181817,
+      "evolution": 0.5584869980812073,
+      "farm": 150,
+      "meta_reward": 0.5458000000000004,
+      "time": 33.77566337585449
+    },
+    {
+      "cycle": 941,
+      "mnist": 98.21,
+      "cartpole": 265.12,
+      "cartpole_last": 135.0,
+      "ia3_score": 68.18181818181817,
+      "evolution": null,
+      "farm": null,
+      "meta_reward": 0.47480000000000017,
+      "time": 4.422319650650024
+    },
+    {
+      "cycle": 942,
+      "mnist": 98.21,
+      "cartpole": 277.31,
+      "cartpole_last": 118.0,
+      "ia3_score": 68.18181818181817,
+      "evolution": null,
+      "farm": null,
+      "meta_reward": 0.35959999999999925,
+      "time": 2.964512825012207
+    }
+  ],
+  "estatisticas": {
+    "mnist": {
+      "min": 98.17,
+      "max": 98.21,
+      "mean": 98.20599999999999,
+      "std": 0.011999999999997613,
+      "unique_values": 2
+    },
+    "cartpole": {
+      "min": 229.39,
+      "max": 277.31,
+      "mean": 250.41974999999996,
+      "std": 15.919861826112063,
+      "unique_values": 10
+    },
+    "ia3_score": {
+      "min": 61.36363636363637,
+      "max": 68.18181818181817,
+      "mean": 63.4090909090909,
+      "std": 3.124483428378976,
+      "unique_values": 2,
+      "evolution": 6.818181818181806
+    },
+    "performance": {
+      "avg_time_per_cycle": 6.767031145095825,
+      "total_time": 67.67058324813843
+    }
+  },
+  "checks": {
+    "Sistema executa sem crashes": true,
+    "MNIST tem varia\u00e7\u00e3o": true,
+    "CartPole tem varia\u00e7\u00e3o": true,
+    "IA\u00b3 Score tem varia\u00e7\u00e3o": true,
+    "IA\u00b3 Score evolui positivamente": true,
+    "Tempo m\u00e9dio razo\u00e1vel": 
