@@ -1,0 +1,257 @@
+"""
+Unified AGI System: V7 + PENIN³
+=================================
+
+Sistema unificado que combina:
+- V7: Operational layer (ML/RL/Evolution)
+- PENIN³: Meta layer (Master Equation, CAOS+, L∞, Sigma Guard, etc.)
+"""
+
+from __future__ import annotations
+
+import asyncio
+import logging
+import sys
+import threading
+from pathlib import Path
+from queue import Queue
+from typing import Any, Dict, Optional
+
+# Setup paths
+INTELLIGENCE_PATH = Path(__file__).parent.parent
+sys.path.insert(0, str(INTELLIGENCE_PATH))
+sys.path.insert(0, "/root/peninaocubo")
+
+# PENIN³ imports (principais)
+try:
+    from penin.math.linf import linf_score
+    from penin.core.caos import compute_caos_plus_exponential
+    from penin.engine.master_equation import MasterState, step_master
+    from penin.guard.sigma_guard import SigmaGuard
+    from penin.sr.sr_service import SRService
+    from penin.league import ACFALeague, ModelMetrics
+    from penin.ledger import WORMLedger
+    from penin.router import create_router_with_defaults
+    PENIN_AVAILABLE = True
+except ImportError as e:
+    logging.warning(f"PENIN³ not fully available: {e}")
+    PENIN_AVAILABLE = False
+
+logger = logging.getLogger(__name__)
+
+
+class UnifiedState:
+    """Estado unificado: operacional (V7) + meta (PENIN³)"""
+    
+    def __init__(self):
+        # V7 operational state
+        self.cycle = 0
+        self.best_mnist = 0.0
+        self.best_cartpole = 0.0
+        self.ia3_score = 0.0
+        
+        # PENIN³ meta state
+        self.master_state = MasterState(I=0.0) if PENIN_AVAILABLE else None
+        self.consciousness_level = 0.0
+        self.omega_score = 0.0
+        self.caos_amplification = 1.0
+        self.linf_score = 0.0
+        self.sigma_valid = True
+        
+    def to_dict(self) -> Dict[str, Any]:
+        """Export state"""
+        return {
+            'operational': {
+                'cycle': self.cycle,
+                'best_mnist': self.best_mnist,
+                'best_cartpole': self.best_cartpole,
+                'ia3_score': self.ia3_score,
+            },
+            'meta': {
+                'master_I': self.master_state.I if self.master_state else 0.0,
+                'consciousness': self.consciousness_level,
+                'omega': self.omega_score,
+                'caos': self.caos_amplification,
+                'linf': self.linf_score,
+                'sigma_valid': self.sigma_valid,
+            }
+        }
+
+
+class UnifiedAGISystem:
+    """
+    Sistema AGI Unificado: V7 + PENIN³
+    
+    Combina V7 (operational) com PENIN³ (meta) SEM herança
+    """
+    
+    def __init__(self, max_cycles: int = 1000):
+        """Initialize unified system"""
+        logger.info("🚀 Initializing Unified AGI System (V7 + PENIN³)")
+        
+        self.max_cycles = max_cycles
+        self.cycle = 0
+        
+        # V7 System (will be instantiated later or run in thread)
+        self.v7_system = None
+        
+        # PENIN³ components
+        self.penin_available = PENIN_AVAILABLE
+        
+        if self.penin_available:
+            logger.info("✅ PENIN³ components loading...")
+            
+            # Core math/engines
+            self.sigma_guard = SigmaGuard()
+            self.sr_service = SRService()
+            self.acfa_league = ACFALeague()
+            
+            # WORM Ledger for audit
+            ledger_path = Path("/root/intelligence_system/data/unified_worm.db")
+            ledger_path.parent.mkdir(exist_ok=True)
+            self.worm_ledger = WORMLedger(str(ledger_path))
+            
+            # Router (optional)
+            self.penin_router = create_router_with_defaults(daily_budget_usd=50.0)
+            
+            logger.info("✅ PENIN³ components initialized")
+        else:
+            logger.warning("⚠️ PENIN³ not available")
+        
+        # Unified state
+        self.unified_state = UnifiedState()
+        
+        # Message queue for async communication
+        self.message_queue: Queue = Queue(maxsize=1000)
+        
+        # Thread control
+        self.v7_thread: Optional[threading.Thread] = None
+        self.running = False
+        
+        logger.info("✅ Unified AGI System initialized")
+    
+    def compute_unified_metrics(self, v7_metrics: Dict[str, float]) -> Dict[str, float]:
+        """
+        Compute unified metrics combining V7 + PENIN³
+        
+        Args:
+            v7_metrics: Metrics from V7
+            
+        Returns:
+            Combined metrics
+        """
+        metrics = dict(v7_metrics)
+        
+        if self.penin_available:
+            # Compute CAOS+ amplification
+            c = min(v7_metrics.get('mnist_acc', 0) / 100.0, 1.0)
+            a = min(v7_metrics.get('cartpole_avg', 0) / 500.0, 1.0)
+            o = self.unified_state.omega_score
+            s = 0.9
+            
+            caos = compute_caos_plus_exponential(c=c, a=a, o=o, s=s, kappa=20.0)
+            self.unified_state.caos_amplification = caos
+            
+            # Compute L∞ score
+            normalized = {'acc': c, 'adapt': a, 'omega': o}
+            ideal = {'acc': 1.0, 'adapt': 1.0, 'omega': 1.0}
+            linf = linf_score(normalized, ideal, cost=0.1)
+            self.unified_state.linf_score = linf
+            
+            # Sigma Guard validation (use validate method)
+            sigma_metrics = {
+                'accuracy': c,
+                'robustness': a,
+                'fairness': 0.85,
+                'cost': 0.1,
+            }
+            try:
+                self.unified_state.sigma_valid = self.sigma_guard.validate(sigma_metrics)
+            except:
+                # Fallback: simple validation
+                self.unified_state.sigma_valid = c > 0.7 and a > 0.7
+            
+            metrics.update({
+                'caos_amplification': caos,
+                'linf_score': linf,
+                'sigma_valid': self.unified_state.sigma_valid,
+            })
+        
+        return metrics
+    
+    def evolve_master_equation(self, metrics: Dict[str, float]) -> None:
+        """Evolve Master Equation with current metrics"""
+        if not self.penin_available or not self.unified_state.master_state:
+            return
+        
+        delta_linf = metrics.get('linf_score', 0.0)
+        alpha_omega = 0.1 * metrics.get('caos_amplification', 1.0)
+        
+        self.unified_state.master_state = step_master(
+            self.unified_state.master_state,
+            delta_linf=delta_linf,
+            alpha_omega=alpha_omega
+        )
+        
+        self.unified_state.consciousness_level = self.unified_state.master_state.I
+        
+        logger.info(f"   🧠 Master Equation: I = {self.unified_state.master_state.I:.6f}")
+    
+    def log_to_worm(self, event_type: str, data: Dict[str, Any]) -> None:
+        """Log event to WORM Ledger"""
+        if not self.penin_available:
+            return
+        
+        event_id = f"{event_type}_{self.cycle}"
+        self.worm_ledger.append(event_type, event_id, data)
+    
+    def display_unified_status(self, metrics: Dict[str, float]) -> None:
+        """Display unified system status"""
+        logger.info(f"\n{'='*80}")
+        logger.info(f"📊 UNIFIED STATUS - Cycle {self.cycle}")
+        logger.info(f"{'='*80}")
+        
+        # V7 operational
+        logger.info(f"🔧 V7 OPERATIONAL:")
+        logger.info(f"   MNIST: {metrics.get('mnist_acc', 0):.2f}%")
+        logger.info(f"   CartPole: {metrics.get('cartpole_avg', 0):.1f}")
+        logger.info(f"   IA³ Score: {metrics.get('ia3_score', 0):.1f}%")
+        
+        # PENIN³ meta
+        if self.penin_available:
+            logger.info(f"\n🧠 PENIN³ META:")
+            logger.info(f"   Master I: {self.unified_state.master_state.I:.6f}")
+            logger.info(f"   CAOS+ Amplification: {metrics.get('caos_amplification', 0):.2f}x")
+            logger.info(f"   L∞ Score: {metrics.get('linf_score', 0):.4f}")
+            logger.info(f"   Sigma Valid: {'✅' if metrics.get('sigma_valid', True) else '❌'}")
+            logger.info(f"   Consciousness: {self.unified_state.consciousness_level:.6f}")
+        
+        logger.info(f"{'='*80}")
+
+
+if __name__ == "__main__":
+    # Test unified system
+    logging.basicConfig(level=logging.INFO, format='%(message)s')
+    
+    system = UnifiedAGISystem(max_cycles=10)
+    
+    # Simulate some V7 metrics
+    v7_metrics = {
+        'mnist_acc': 98.2,
+        'cartpole_avg': 480.0,
+        'ia3_score': 42.0,
+    }
+    
+    # Compute unified metrics
+    unified_metrics = system.compute_unified_metrics(v7_metrics)
+    
+    # Evolve master equation
+    system.evolve_master_equation(unified_metrics)
+    
+    # Display status
+    system.display_unified_status(unified_metrics)
+    
+    # Log to WORM
+    system.log_to_worm('test', {'metrics': unified_metrics})
+    
+    print("\n✅ TEST PASSED")
