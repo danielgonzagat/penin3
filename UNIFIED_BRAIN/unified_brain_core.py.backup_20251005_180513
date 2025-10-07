@@ -1,0 +1,1088 @@
+#!/usr/bin/env python3
+"""
+🧠 UNIFIED BRAIN CORE
+Cérebro all-connected que coordena ~2M neurônios
+"""
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from typing import List, Dict, Optional, Tuple, Any  # ✅ CORREÇÃO EXTRA: Adicionar Any
+from pathlib import Path
+import time
+import os
+from http.server import BaseHTTPRequestHandler
+try:
+    from http.server import ThreadingHTTPServer
+except Exception:
+    from socketserver import ThreadingMixIn
+    from http.server import HTTPServer
+    class ThreadingHTTPServer(ThreadingMixIn, HTTPServer):
+        daemon_threads = True
+import threading
+import json
+from collections import deque
+
+from brain_spec import RegisteredNeuron, NeuronRegistry, NeuronStatus
+from brain_router import AdaptiveRouter
+from brain_logger import brain_logger
+from brain_worm import WORMLog
+from intelligence_system.config.settings import KILL_SWITCH_PATH
+
+
+class UnifiedBrain(nn.Module):
+    """
+    Cérebro unificado que conecta TODOS os neurônios
+    via espaço latente comum Z
+    """
+    def __init__(
+        self,
+        H: int = 1024,
+        device: str = "cpu",
+        dtype: torch.dtype = torch.float32,
+        max_neurons: int = 100000,  # Limite de memória
+        top_k: int = 128,
+        num_steps: int = 4,
+    ):
+        super().__init__()
+        self.H = H
+        self.device = device
+        self.dtype = dtype
+        self.max_neurons = max_neurons
+        self.top_k = top_k
+        self.num_steps = num_steps
+        
+        # Registry global
+        self.registry = NeuronRegistry()
+        
+        # Router adaptativo
+        self.router = None  # Inicializado depois de registrar neurônios
+        
+        # Normalizações
+        self.z_norm = nn.LayerNorm(H)
+        self.output_norm = nn.LayerNorm(H)
+        
+        # Homeostase e lateral inhibition
+        self.alpha = 0.85  # Persistência do estado
+        self.lateral_inhibition = 0.1
+        
+        # Kill switch
+        self.kill_switch_file = Path(KILL_SWITCH_PATH)
+        self.is_active = True
+        
+        # Métricas (com deque para evitar OOM - Bug #9 fix)
+        self.step_count = 0
+        self.total_activations = 0
+        self.metrics = {
+            'coherence': deque(maxlen=10000),
+            'novelty': deque(maxlen=10000),
+            'energy': deque(maxlen=10000),
+            'latency_ms': deque(maxlen=10000),
+        }
+        
+        # WORM ledger
+        self.worm = WORMLog()
+        self.worm.append('brain_initialized', {
+            'H': H,
+            'max_neurons': max_neurons,
+            'top_k': top_k
+        })
+    
+    def register_neuron(self, neuron: RegisteredNeuron):
+        """Adiciona neurônio ao cérebro"""
+        if len(self.registry.neurons) >= self.max_neurons:
+            brain_logger.warning(f"Max neurons reached: {self.max_neurons}")
+            return False
+        
+        self.registry.register(neuron)
+        self.worm.append('neuron_registered', {
+            'neuron_id': neuron.meta.id,
+            'source': neuron.meta.source,
+            'params': neuron.meta.params_count
+        })
+        return True
+    
+    def initialize_router(self):
+        """Inicializa router após registrar todos neurônios"""
+        active_list = self.registry.get_active()
+        num_active = len(active_list)
+        # Fallback to avoid zero-active initialization
+        if num_active == 0:
+            # Try to scavenge from any non-frozen neurons
+            try:
+                from brain_spec import NeuronStatus
+                candidates = [n for n in self.registry.neurons.values() if n.meta.status != NeuronStatus.FROZEN]
+                active_list = candidates[:8]
+                num_active = len(active_list)
+                # If still zero, log and create a minimal dummy capacity
+                if num_active == 0:
+                    brain_logger.warning("No active neurons available; initializing router with capacity 8")
+                    num_active = 8
+            except Exception:
+                brain_logger.warning("Active neuron fallback failed; initializing router with capacity 8")
+                num_active = 8
+        
+        self.router = AdaptiveRouter(
+            H=self.H,
+            num_neurons=num_active,
+            top_k=self.top_k,
+            temperature=1.0
+        ).to(self.device)
+        
+        brain_logger.info(f"Router initialized: {num_active} active neurons")
+    
+    def check_kill_switch(self) -> bool:
+        """Verifica se deve parar"""
+        if self.kill_switch_file.exists():
+            brain_logger.critical("KILL SWITCH ACTIVATED - Stopping brain")
+            self.is_active = False
+            return True
+        return False
+    
+    def step(
+        self,
+        Z_t: torch.Tensor,  # [B, H]
+        reward: Optional[float] = None,
+        chaos_signal: float = 0.0
+    ) -> Tuple[torch.Tensor, Dict]:
+        """
+        Um passo de processamento do cérebro
+        
+        Pipeline:
+        1. Router escolhe top-k neurônios
+        2. Neurônios processam em paralelo
+        3. Agregação com lateral inhibition
+        4. Homeostase
+        
+        Args:
+            Z_t: estado atual no espaço latente
+            reward: opcional, para treinar router
+            chaos_signal: sinal CAOS+ (0-1)
+            
+        Returns:
+            Z_next: próximo estado
+            info: métricas do passo
+        """
+        if not self.is_active or self.check_kill_switch():
+            return Z_t, {'status': 'stopped'}
+        
+        start_time = time.time()
+        B = Z_t.shape[0]
+        
+        # ✅ CORREÇÃO #7: Inference mode apenas para forward, não para reward update
+        # Salvar referência para update posterior
+        selected_indices_for_update = None
+        
+        # Fast path: inference mode to cut framework overhead
+        with torch.inference_mode():
+            # Normaliza entrada
+            Z_t = self.z_norm(Z_t)
+            
+            # Get active neurons
+            active_neurons = self.registry.get_active()
+            if len(active_neurons) == 0:
+                return Z_t, {'status': 'no_active_neurons'}
+            
+            # Router seleciona top-k
+            mask, selected_indices = self.router(Z_t)
+            selected_indices_for_update = selected_indices  # ✅ Salvar para update fora do inference_mode
+            
+            # Processa neurônios selecionados
+            aggregated = torch.zeros_like(Z_t)
+            activations = []
+            
+            for idx in selected_indices:
+                if idx >= len(active_neurons):
+                    continue
+                
+                neuron = active_neurons[idx]
+                
+                try:
+                    # Forward do neurônio em Z
+                    try:
+                        z_out = neuron.forward_in_Z(Z_t)
+                    except Exception:
+                        # Neuron timeout ou erro
+                        z_out = torch.zeros_like(Z_t)
+                    
+                    # Agrega com peso
+                    weight = float(self.router.competence[idx].item())
+                    aggregated.add_(z_out, alpha=weight)
+                    
+                    activations.append({
+                        'neuron_id': neuron.meta.id,
+                        'weight': weight,
+                        'contribution': float(z_out.norm().item())
+                    })
+                    
+                except Exception as e:
+                    brain_logger.error(f"Neuron {neuron.meta.id} failed: {e}")
+                    # Penaliza competence no caminho fora do inference_mode
+                    pass
+        
+        # Lateral inhibition adaptativo (Bug #15 fix)
+        if len(selected_indices) > 0:
+            aggregated = aggregated / max(1, len(selected_indices))
+            
+            # Adapta lateral inhibition baseado em diversidade
+            unique_neurons = len(set(a['neuron_id'] for a in activations))
+            diversity = unique_neurons / max(1, len(activations))
+            adaptive_inhibition = self.lateral_inhibition * (1.0 - diversity * 0.5)
+            aggregated = aggregated * (1.0 - adaptive_inhibition)
+        
+        # Homeostase (combina estado antigo + novo)
+        Z_next = self.alpha * Z_t + (1.0 - self.alpha) * aggregated
+        Z_next = self.output_norm(Z_next)
+        
+        # Clipping para estabilidade
+        Z_next = torch.clamp(Z_next, -10.0, 10.0)
+        
+        # Métricas
+        coherence = F.cosine_similarity(Z_t[0], Z_next[0], dim=0).item()
+        novelty = (Z_next - Z_t).norm().item() / Z_t.norm().item()
+        
+        # Adapta alpha baseado em novelty (Bug #8 fix)
+        if novelty < 0.01:  # Estagnado
+            self.alpha = max(0.70, self.alpha - 0.005)
+        elif novelty > 0.15:  # Muito instável
+            self.alpha = min(0.95, self.alpha + 0.005)
+        
+        energy = Z_next.norm().item()
+        latency_ms = (time.time() - start_time) * 1000
+        
+        self.metrics['coherence'].append(coherence)
+        self.metrics['novelty'].append(novelty)
+        self.metrics['energy'].append(energy)
+        self.metrics['latency_ms'].append(latency_ms)
+
+        # Auto-throttle: if latency too high, reduce top_k temporarily
+        try:
+            if latency_ms > 1000.0 and hasattr(self.router, 'top_k'):
+                self.router.top_k = max(6, int(self.router.top_k * 0.9))
+        except Exception:
+            pass
+        
+        # ✅ CORREÇÃO #7: Router update FORA do inference_mode
+        # Adapta router se tiver reward (bandit-style competence update)
+        if reward is not None and selected_indices_for_update is not None:
+            try:
+                norm_reward = float(max(-1.0, min(1.0, reward)))
+                
+                # ✅ AGORA FORA DO INFERENCE_MODE - pode ter gradientes
+                # Salvar estado de training original
+                was_training = self.router.training
+                
+                # Habilitar training mode no router
+                self.router.train()
+                
+                # ✅ Habilitar gradientes explicitamente
+                with torch.enable_grad():
+                    for idx in selected_indices_for_update:
+                        self.router.update_competence(
+                            idx, 
+                            reward=norm_reward * 0.05, 
+                            lr=0.05,
+                            allow_gradients=True  # ✅ Passa novo parâmetro
+                        )
+                        
+                        # ✅ CRITICAL FIX P0: Sync router.competence → neuron.meta.competence_score
+                        try:
+                            active_neurons = self.registry.get_active()
+                            if idx < len(active_neurons):
+                                neuron = active_neurons[idx]
+                                router_comp = float(self.router.competence[idx].item())
+                                neuron.meta.competence_score = router_comp
+                        except Exception:
+                            pass
+                
+                # Restaurar estado original de training
+                if not was_training:
+                    self.router.eval()
+                
+                # Adapta outros parâmetros (temperature, top_k)
+                self.router.adapt_parameters(norm_reward, chaos_signal)
+                
+            except Exception as e:
+                brain_logger.debug(f"Router adapt failed: {e}")
+
+        # Latency-aware top_k tuning (keep within target)
+        try:
+            import os
+            target_ms = float(os.getenv('UBRAIN_TARGET_LATENCY_MS', '150'))
+        except Exception:
+            target_ms = 150.0
+        if latency_ms > target_ms and self.router.top_k > 1:
+            self.router.top_k = max(1, int(self.router.top_k * 0.9))
+        elif latency_ms < target_ms * 0.5:
+            # allow slight increase for exploration
+            self.router.top_k = min(self.max_neurons // 8, int(self.router.top_k * 1.05) or 1)
+        
+        self.step_count += 1
+        self.total_activations += len(selected_indices)
+        
+        # Log to WORM
+        self.worm.append('brain_step', {
+            'step': self.step_count,
+            'neurons_selected': len(selected_indices),
+            'coherence': coherence,
+            'novelty': novelty,
+            'reward': reward if reward is not None else None
+        })
+
+        # Grad norm telemetry placeholder (if any params are tracked)
+        try:
+            grad_norm = 0.0
+            if hasattr(self.router, 'competence') and self.router.competence.grad is not None:
+                grad_norm = float(self.router.competence.grad.norm().item())
+            self.worm.append('grad_norm', {
+                'step': self.step_count,
+                'router_competence_grad_norm': grad_norm,
+            })
+        except Exception:
+            pass
+        
+        info = {
+            'step': self.step_count,
+            'selected_neurons': len(selected_indices),
+            'coherence': coherence,
+            'novelty': novelty,
+            'energy': energy,
+            'latency_ms': latency_ms,
+            'activations': activations[:5],  # Top 5
+            'router_stats': self.router.get_activation_stats(),
+        }
+
+        # Update simple stability counters for promotion safety
+        try:
+            stable = 1 if coherence > 0.98 and novelty < 0.10 else 0
+            for a in activations:
+                nid = a.get('neuron_id')
+                n = self.registry.get(nid)
+                if n and hasattr(n, 'meta'):
+                    prev = getattr(n.meta, 'stable_steps', 0)
+                    n.meta.stable_steps = prev + stable if stable else 0
+        except Exception:
+            pass
+        
+        return Z_next, info
+    
+    def forward(
+        self,
+        Z_in: torch.Tensor,  # [B, H]
+        num_steps: Optional[int] = None,
+        return_trajectory: bool = False
+    ) -> torch.Tensor:
+        """
+        Forward completo com T passos de message-passing
+        
+        Args:
+            Z_in: input no espaço latente
+            num_steps: quantos passos (default: self.num_steps)
+            return_trajectory: se True, retorna todos estados intermediários
+            
+        Returns:
+            Z_out: output final
+            trajectory: (opcional) lista de todos Z_t
+        """
+        if num_steps is None:
+            num_steps = self.num_steps
+        
+        Z = Z_in
+        trajectory = [Z.clone()] if return_trajectory else None
+        
+        for t in range(num_steps):
+            Z, info = self.step(Z)
+            
+            if return_trajectory:
+                trajectory.append(Z.clone())
+            
+            if not self.is_active:
+                break
+        
+        if return_trajectory:
+            return Z, trajectory
+        return Z
+    
+    def get_metrics_summary(self) -> Dict:
+        """Retorna resumo das métricas"""
+        if len(self.metrics['coherence']) == 0:
+            return {}
+        
+        return {
+            'total_steps': self.step_count,
+            'total_activations': self.total_activations,
+            'avg_coherence': sum(self.metrics['coherence']) / len(self.metrics['coherence']),
+            'avg_novelty': sum(self.metrics['novelty']) / len(self.metrics['novelty']),
+            'avg_energy': sum(self.metrics['energy']) / len(self.metrics['energy']),
+            'avg_latency_ms': sum(self.metrics['latency_ms']) / len(self.metrics['latency_ms']),
+            'neuron_counts': self.registry.count(),
+        }
+    
+    def save_snapshot(self, path: str):
+        """Salva snapshot completo"""
+        snapshot = {
+            'config': {
+                'H': self.H,
+                'max_neurons': self.max_neurons,
+                'top_k': self.top_k,
+                'num_steps': self.num_steps,
+            },
+            'metrics': self.get_metrics_summary(),
+            'router_state': self.router.state_dict() if self.router else None,
+            'step_count': self.step_count,
+            'is_active': self.is_active,
+        }
+        
+        # Salva registry separadamente
+        registry_path = Path(path).parent / "neuron_registry.json"
+        self.registry.save_registry(str(registry_path))
+        
+        torch.save(snapshot, path)
+        brain_logger.info(f"Snapshot saved: {path}")
+    
+    def load_snapshot(self, path: str):
+        """Carrega snapshot"""
+        snapshot = torch.load(path, map_location=self.device)
+        
+        self.step_count = snapshot['step_count']
+        self.is_active = snapshot['is_active']
+        
+        if snapshot['router_state']:
+            self.initialize_router()
+            self.router.load_state_dict(snapshot['router_state'])
+        
+        brain_logger.info(f"Snapshot loaded: {path}, steps={self.step_count}, neurons={self.registry.count()['total']}")
+
+
+class CoreSoupHybrid:
+    """
+    Sistema híbrido: Core curado + Soup experimental
+    """
+    def __init__(self, H: int = 1024):
+        self.core = UnifiedBrain(H=H, max_neurons=50000, top_k=64)
+        self.soup = UnifiedBrain(H=H, max_neurons=50000, top_k=128)
+
+        # Promotion/demotion safety knobs
+        self.promotion_threshold = 0.7  # Score mínimo para promover
+        self.evaluation_window = 100    # Passos para avaliar
+        self._last_promotion_step: int = 0
+        self._last_demotion_step: int = 0
+        self.promotion_cooldown: int = 500  # brain steps between promotions
+        self.demotion_cooldown: int = 500   # brain steps between demotions
+        self.stability_window: int = 200    # min steps of stable competence before promotion
+        # Hard gates
+        # Defaults; can be overridden via environment in _run_promotion_gates
+        self.gate_uplift_min: float = 0.15
+        self.gate_retention_min: float = 0.90
+        self.gate_pvalue_max: float = 0.01
+        self.gate_required_streak: int = 3
+        self._gate_streak: Dict[str, int] = {}
+        # Calibration gate (CartPole value calibration)
+        self.ece_max: float = 0.20
+        # Vision calibration/accuracy gates (MNIST-C)
+        self.mnistc_ece_max: float = 0.10
+        self.mnistc_acc_min: float = 0.85
+        # Metrics exposition
+        self.last_gate_metrics: Dict[str, Any] = {}
+        self._metrics_http = None
+        # Start metrics server if configured
+        try:
+            port = os.getenv('UBRAIN_METRICS_PORT', '0')
+            if int(port) > 0:
+                self._start_metrics_server()
+                brain_logger.info(f"✅ Metrics server started on port {port}")
+        except Exception as e:
+            brain_logger.error(f"❌ Metrics server failed: {e}", exc_info=True)
+        
+    def evaluate_soup_neuron(self, neuron_id: str) -> float:
+        """Avalia neurônio do soup para possível promoção"""
+        neuron = self.soup.registry.get(neuron_id)
+        if not neuron:
+            return 0.0
+        
+        # Critérios: competence, ativação, sem erros
+        score = (
+            neuron.meta.competence_score * 0.5 +
+            (neuron.meta.activation_count / max(1, self.evaluation_window)) * 0.3 +
+            neuron.meta.novelty_score * 0.2
+        )
+        
+        return score
+    
+    def promote_from_soup(self):
+        """Promove neurônios do soup para o core com segurança (cooldown + estabilidade)."""
+        # Ensure metrics server is running (hot)
+        try:
+            self._start_metrics_server()
+        except Exception:
+            pass
+        # Cooldown global de promoção
+        if isinstance(self.core, UnifiedBrain) and (self.core.step_count - self._last_promotion_step) < self.promotion_cooldown:
+            return
+        soup_neurons = self.soup.registry.get_active()
+        for neuron in soup_neurons:
+            score = self.evaluate_soup_neuron(neuron.meta.id)
+            # Requer estabilidade mínima (competence_score acima do threshold por janela)
+            stable_enough = getattr(neuron.meta, 'stable_steps', 0) >= self.stability_window
+            if score >= self.promotion_threshold and stable_enough:
+                from brain_worm import WORMLog
+                worm = getattr(self.core, 'worm', None) or WORMLog()
+                
+                # BOOTSTRAP MODE: Skip gates para primeiros 10 neurons (C1 fix)
+                if len(self.core.registry.get_active()) < 10:
+                    brain_logger.info(f"🚀 Bootstrap mode: promoting {neuron.meta.id} without gates (core size={len(self.core.registry.get_active())})")
+                    self.soup.registry.promote(neuron.meta.id, NeuronStatus.FROZEN)
+                    self.core.register_neuron(neuron)
+                    self._last_promotion_step = self.core.step_count
+                    worm.append('promotion_bootstrap', {
+                        'neuron_id': neuron.meta.id,
+                        'score': float(score),
+                        'core_count': len(self.core.registry.get_active()),
+                        'reason': 'bootstrap_skip_gates',
+                    })
+                    self.core.initialize_router()
+                    continue  # SKIP gates
+                
+                # Normal path: Executa hard-gates de OOD/retention e p-valor A/B
+                gate_ok, gate_info = self._run_promotion_gates(neuron)
+                # Atualiza streak por neurônio
+                prev = self._gate_streak.get(neuron.meta.id, 0)
+                cur = prev + 1 if gate_ok else 0
+                self._gate_streak[neuron.meta.id] = cur
+                worm.append('promotion_gate', {
+                    'neuron_id': neuron.meta.id,
+                    'score': float(score),
+                    'stable_steps': int(getattr(neuron.meta, 'stable_steps', 0)),
+                    'threshold': float(self.promotion_threshold),
+                    'window': int(self.stability_window),
+                    'core_steps': int(getattr(self.core, 'step_count', 0)),
+                    'ood_uplift': gate_info.get('uplift', None),
+                    'retention': gate_info.get('retention', None),
+                    'p_value': gate_info.get('p_value', None),
+                    'p_value_ab': gate_info.get('p_value_ab', None),
+                    'ece_cartpole': gate_info.get('ece_cartpole', None),
+                    'mnistc_ece': gate_info.get('mnistc_ece', None),
+                    'mnistc_acc': gate_info.get('mnistc_acc', None),
+                    'mnistc_samples': gate_info.get('mnistc_samples', None),
+                    'samples': gate_info.get('samples', {}),
+                    'streak': int(cur),
+                    'required_streak': int(self.gate_required_streak),
+                    'passed': bool(gate_ok and cur >= self.gate_required_streak),
+                })
+                if not (gate_ok and cur >= self.gate_required_streak):
+                    # Não promove ainda; requer mais evidência
+                    continue
+                # Congela no soup e registra no core
+                self.soup.registry.promote(neuron.meta.id, NeuronStatus.FROZEN)
+                self.core.register_neuron(neuron)
+                self._last_promotion_step = self.core.step_count
+
+    def demote_low_competence(self, competence_threshold: float = 0.2):
+        """Marca como FROZEN neurônios de baixa competência no core com cooldown."""
+        if isinstance(self.core, UnifiedBrain) and (self.core.step_count - self._last_demotion_step) < self.demotion_cooldown:
+            return
+        active = self.core.registry.get_active()
+        demoted = 0
+        for neuron in active:
+            try:
+                if self.core.router is None:
+                    continue
+                if neuron.meta.competence_score < competence_threshold:
+                    self.core.registry.promote(neuron.meta.id, NeuronStatus.FROZEN)
+                    demoted += 1
+                    try:
+                        from brain_worm import WORMLog
+                        worm = getattr(self.core, 'worm', None) or WORMLog()
+                        worm.append('demotion_decision', {
+                            'neuron_id': neuron.meta.id,
+                            'competence': float(neuron.meta.competence_score),
+                            'threshold': float(competence_threshold),
+                            'core_steps': int(getattr(self.core, 'step_count', 0)),
+                        })
+                    except Exception:
+                        pass
+            except Exception:
+                continue
+        if demoted > 0:
+            self._last_demotion_step = self.core.step_count
+    
+    def unfreeze_improved(self, competence_threshold: float = 0.5):
+        """
+        ✅ CORREÇÃO #11: Descongela neurônios que melhoraram competência
+        Reverso de demote_low_competence() - permite recuperação
+        Darwin bidirectional: neurons podem melhorar E piorar
+        
+        Args:
+            competence_threshold: competence mínimo para descongelar (>= 0.5)
+        
+        Returns:
+            unfrozen: número de neurons descongelados
+        """
+        from brain_worm import WORMLog
+        from brain_logger import brain_logger
+        
+        # Cooldown para não descongelar muito rápido
+        if isinstance(self.core, UnifiedBrain):
+            steps_since_unfreeze = (self.core.step_count - 
+                                    getattr(self, '_last_unfreeze_step', 0))
+            if steps_since_unfreeze < 500:  # Cooldown de 500 steps
+                return 0
+        
+        # Pegar neurons congelados
+        frozen = self.core.registry.get_by_status(NeuronStatus.FROZEN)
+        unfrozen = 0
+        
+        for neuron in frozen:
+            try:
+                # ✅ CRITÉRIO: Competence voltou a subir acima do threshold
+                if neuron.meta.competence_score > competence_threshold:
+                    
+                    # ✅ CRITÉRIO ADICIONAL: Estabilidade (não oscilar)
+                    stable_steps = getattr(neuron.meta, 'stable_steps', 0)
+                    if stable_steps < 100:  # Requer 100 steps estável
+                        continue
+                    
+                    # Descongelar: FROZEN → ACTIVE
+                    self.core.registry.promote(neuron.meta.id, NeuronStatus.ACTIVE)
+                    unfrozen += 1
+                    
+                    # Log to WORM para auditoria
+                    worm = getattr(self.core, 'worm', None) or WORMLog()
+                    worm.append('unfreeze_decision', {
+                        'neuron_id': neuron.meta.id,
+                        'competence': float(neuron.meta.competence_score),
+                        'threshold': float(competence_threshold),
+                        'stable_steps': int(stable_steps),
+                        'core_steps': int(getattr(self.core, 'step_count', 0)),
+                        'reason': 'competence_improved'
+                    })
+                    
+                    brain_logger.info(
+                        f"🔥 Darwin unfroze '{neuron.meta.id}' "
+                        f"(competence={neuron.meta.competence_score:.3f})"
+                    )
+            
+            except Exception as e:
+                brain_logger.error(f"Failed to unfreeze {neuron.meta.id}: {e}")
+                continue
+        
+        if unfrozen > 0:
+            # Re-initialize router com neurons atualizados
+            self.core.initialize_router()
+            
+            # Atualizar timestamp
+            if isinstance(self.core, UnifiedBrain):
+                self._last_unfreeze_step = self.core.step_count
+            
+            brain_logger.warning(
+                f"🔥 Darwin unfroze {unfrozen} improved neurons! "
+                f"Active neurons: {len(self.core.registry.get_active())}"
+            )
+        
+        return unfrozen
+
+    # -------------------- Hard Gates helpers --------------------
+    def _eval_variant(self, brain: UnifiedBrain, variant: str, steps: int = 150) -> float:
+        import torch
+        H = brain.H
+        score = 0.0
+        z = torch.randn(1, H)
+        for i in range(steps):
+            reward = 0.5
+            if variant == 'noise_high':
+                reward += float(torch.randn(1).clamp(-0.2, 0.2))
+            elif variant == 'sparse_reward':
+                reward = 1.0 if (i % 25 == 0) else 0.0
+            elif variant == 'shifted_distribution':
+                z = z + 0.05 * torch.randn_like(z)
+            z, _ = brain.step(z, reward=reward)
+            score += reward
+        return score / max(1, steps)
+
+    def _bootstrap_pvalue(self, samples: List[float], mu0: float = 0.0, n_boot: int = 1000) -> float:
+        import random
+        if not samples:
+            return 1.0
+        n = len(samples)
+        mean_obs = sum(samples) / n
+        diffs = [s - mu0 for s in samples]
+        # Bootstrap means around mu0 by resampling centered residuals
+        count = 0
+        for _ in range(n_boot):
+            b = [random.choice(diffs) for _ in range(n)]
+            mean_b = sum(b) / n
+            if mean_b <= 0.0:
+                count += 1
+        p = count / n_boot
+        return p
+
+    def _run_promotion_gates(self, candidate_neuron) -> Tuple[bool, Dict[str, Any]]:
+        """Run OOD/retention using real Gym suite + A/B p-value with candidate neuron."""
+        try:
+            from brain_system_integration import (
+                evaluate_suite,
+                evaluate_env_reward,
+                evaluate_cartpole_calibration,
+                evaluate_mnist_c,
+            )
+            import os as _os
+            seeds_env = _os.getenv('UBRAIN_EVAL_SEEDS', '41,42,43')
+            seeds = [int(s.strip()) for s in seeds_env.split(',') if s.strip()]
+            if not seeds:
+                seeds = [41, 42, 43]
+
+            # Hot-reload thresholds from environment
+            try:
+                self.gate_uplift_min = float(_os.getenv('UBRAIN_GATE_UPLIFT_MIN', str(self.gate_uplift_min)))
+                self.gate_retention_min = float(_os.getenv('UBRAIN_GATE_RETENTION_MIN', str(self.gate_retention_min)))
+                self.gate_pvalue_max = float(_os.getenv('UBRAIN_GATE_PVAL_MAX', str(self.gate_pvalue_max)))
+                self.gate_required_streak = int(_os.getenv('UBRAIN_GATE_STREAK', str(self.gate_required_streak)))
+                self.ece_max = float(_os.getenv('UBRAIN_GATE_ECE_MAX', str(self.ece_max)))
+                self.mnistc_ece_max = float(_os.getenv('UBRAIN_GATE_MNISTC_ECE_MAX', str(self.mnistc_ece_max)))
+                self.mnistc_acc_min = float(_os.getenv('UBRAIN_GATE_MNISTC_ACC_MIN', str(self.mnistc_acc_min)))
+            except Exception:
+                pass
+
+            # CONTROL: current core only
+            suite_c = evaluate_suite(self.core, seeds)
+            base_list = suite_c.get('cartpole_nominal', [])
+            # OOD across tasks
+            ood_mat = [
+                suite_c.get('cartpole_noise', []),
+                suite_c.get('cartpole_shift', []),
+                suite_c.get('mountaincar', []),
+                suite_c.get('acrobot', []),
+            ]
+            # Per-seed averages
+            ood_avg_list = []
+            for i in range(len(seeds)):
+                vals = [arr[i] for arr in ood_mat if i < len(arr)]
+                ood_avg_list.append(sum(vals) / max(1, len(vals)))
+
+            # Uplift and retention
+            import numpy as _np
+            base = float(_np.mean(base_list)) if base_list else 1e-6
+            ood_avg = float(_np.mean(ood_avg_list)) if ood_avg_list else 0.0
+            uplift = (ood_avg - base) / max(1e-6, abs(base))
+            # Post-nominal retention (re-run nominal with offset seeds)
+            base_after_list = [
+                evaluate_env_reward(self.core, 'CartPole-v1', episodes=1, noise_std=0.0, obs_shift=0.0, seed=s+97)
+                for s in seeds
+            ]
+            base_after = float(_np.mean(base_after_list)) if base_after_list else base
+            retention = base_after / max(1e-6, abs(base))
+            # Proxy p-value on uplift per seed
+            uplifts = [
+                (ood_avg_list[i] - base_list[i]) if i < len(base_list) else 0.0
+                for i in range(len(seeds))
+            ]
+            p_value = self._bootstrap_pvalue(uplifts, mu0=0.0, n_boot=500)
+
+            # A/B with candidate: temporarily add candidate to core
+            ab_info = self._ab_test_candidate(candidate_neuron, seeds)
+            p_value_ab = float(ab_info.get('p_value', 1.0))
+
+            # Calibration (CartPole value ECE)
+            try:
+                cal_episodes = int(_os.getenv('UBRAIN_CALIB_EPISODES', '1'))
+                ece_cart = float(evaluate_cartpole_calibration(self.core, seeds, episodes=cal_episodes))
+            except Exception:
+                ece_cart = 1.0
+
+            # Vision robustness/calibration: MNIST-C
+            mnistc = {}
+            try:
+                mnistc = evaluate_mnist_c()
+            except Exception:
+                mnistc = {'accuracy': 0.0, 'ece': 1.0, 'per_corruption': {}, 'num_samples': 0}
+
+            passed = (
+                uplift >= self.gate_uplift_min and
+                retention >= self.gate_retention_min and
+                p_value_ab <= self.gate_pvalue_max and
+                ece_cart <= self.ece_max and
+                mnistc.get('ece', 1.0) <= self.mnistc_ece_max and
+                mnistc.get('accuracy', 0.0) >= self.mnistc_acc_min
+            )
+            info_out = {
+                'uplift': float(uplift),
+                'retention': float(retention),
+                'p_value': float(p_value),
+                'p_value_ab': p_value_ab,
+                'ece_cartpole': float(ece_cart),
+                'mnistc_ece': float(mnistc.get('ece', 1.0)),
+                'mnistc_acc': float(mnistc.get('accuracy', 0.0)),
+                'mnistc_samples': int(mnistc.get('num_samples', 0)),
+                'samples': {
+                    'base': base_list,
+                    'ood_avg': ood_avg_list,
+                    'base_after': base_after_list,
+                    'ab_control': ab_info.get('control', {}),
+                    'ab_treatment': ab_info.get('treatment', {}),
+                },
+            }
+
+            # Update last_gate_metrics for Prometheus exporter if present
+            try:
+                self.last_gate_metrics.update({
+                    'uplift': info_out['uplift'],
+                    'retention': info_out['retention'],
+                    'p_value': info_out['p_value'],
+                    'p_value_ab': info_out['p_value_ab'],
+                    'ece_cartpole': info_out['ece_cartpole'],
+                    'mnistc_ece': info_out['mnistc_ece'],
+                    'mnistc_acc': info_out['mnistc_acc'],
+                })
+            except Exception:
+                pass
+
+            return passed, info_out
+        except Exception as _e:
+            return False, {'uplift': 0.0, 'retention': 0.0, 'p_value': 1.0, 'p_value_ab': 1.0}
+
+    def _ab_test_candidate(self, candidate_neuron, seeds: List[int]) -> Dict[str, Any]:
+        """A/B test: compare control vs control+candidate in Gym suite; returns p-value and samples."""
+        from brain_system_integration import evaluate_suite
+        import copy as _copy
+        # CONTROL
+        control = evaluate_suite(self.core, seeds)
+        # TREATMENT: temporarily add candidate
+        nid = candidate_neuron.meta.id
+        added = False
+        try:
+            if nid not in self.core.registry.neurons:
+                # Shallow register copy (avoid mutating soup neuron)
+                self.core.registry.register(candidate_neuron)
+                added = True
+            self.core.initialize_router()
+            treatment = evaluate_suite(self.core, seeds)
+        finally:
+            # Remove candidate from core
+            try:
+                if added and nid in self.core.registry.neurons:
+                    # Remove from indices and dicts
+                    neuron = self.core.registry.neurons.pop(nid)
+                    try:
+                        if nid in self.core.registry.by_status.get(neuron.meta.status, []):
+                            self.core.registry.by_status[neuron.meta.status].remove(nid)
+                    except Exception:
+                        pass
+                    try:
+                        if nid in self.core.registry.meta_db:
+                            self.core.registry.meta_db.pop(nid)
+                    except Exception:
+                        pass
+                    self.core.initialize_router()
+            except Exception:
+                pass
+
+        # Build per-seed uplift arrays and compute p-value on improvement
+        import numpy as _np
+        def _avg_ood(suite):
+            mats = [suite.get('cartpole_noise', []), suite.get('cartpole_shift', []), suite.get('mountaincar', []), suite.get('acrobot', [])]
+            out = []
+            for i in range(len(seeds)):
+                vals = [arr[i] for arr in mats if i < len(arr)]
+                out.append(sum(vals) / max(1, len(vals)))
+            return out
+        base_c = control.get('cartpole_nominal', [])
+        base_t = treatment.get('cartpole_nominal', [])
+        ood_c = _avg_ood(control)
+        ood_t = _avg_ood(treatment)
+        diffs = []
+        for i in range(len(seeds)):
+            c = (ood_c[i] - base_c[i]) if i < len(base_c) else 0.0
+            t = (ood_t[i] - base_t[i]) if i < len(base_t) else 0.0
+            diffs.append(t - c)
+        p = self._bootstrap_pvalue(diffs, mu0=0.0, n_boot=1000)
+        return {
+            'p_value': float(p),
+            'control': control,
+            'treatment': treatment,
+        }
+
+    def tick_maintenance(self) -> Dict[str, Any]:
+        """
+        Executa manutenção periódica: promote, demote com tracking completo
+        ✅ CORREÇÃO #10: Retorna métricas detalhadas + validação
+        
+        Returns:
+            Dict com promoted, demoted, active_before, active_after, errors
+        """
+        from brain_logger import brain_logger
+        from datetime import datetime
+        
+        # Inicializar resultados
+        results = {
+            'promoted': 0,
+            'demoted': 0,
+            'active_before': len(self.core.registry.get_active()),
+            'active_after': 0,
+            'soup_before': len(self.soup.registry.get_active()) if hasattr(self, 'soup') else 0,
+            'soup_after': 0,
+            'errors': [],
+            'timestamp': datetime.now().isoformat(),
+            'core_steps': getattr(self.core, 'step_count', 0)
+        }
+        
+        # ===== PROMOTIONS =====
+        try:
+            soup_before = len(self.soup.registry.get_active()) if hasattr(self, 'soup') else 0
+            self.promote_from_soup()
+            soup_after = len(self.soup.registry.get_active()) if hasattr(self, 'soup') else 0
+            
+            results['promoted'] = soup_before - soup_after
+            results['soup_after'] = soup_after
+            
+            if results['promoted'] > 0:
+                brain_logger.info(
+                    f"🧬 Promoted {results['promoted']} neurons from soup to core"
+                )
+        except Exception as e:
+            results['errors'].append(f"promotion_failed: {str(e)}")
+            brain_logger.error(f"❌ Promotion failed: {e}")
+        
+        # ===== DEMOTIONS =====
+        try:
+            core_before = len(self.core.registry.get_active())
+            self.demote_low_competence()
+            core_after = len(self.core.registry.get_active())
+            
+            results['demoted'] = core_before - core_after
+            results['active_after'] = core_after
+            
+            if results['demoted'] > 0:
+                brain_logger.warning(
+                    f"🧬 Demoted {results['demoted']} low-competence neurons"
+                )
+        except Exception as e:
+            results['errors'].append(f"demotion_failed: {str(e)}")
+            brain_logger.error(f"❌ Demotion failed: {e}")
+        
+        # ===== UNFREEZING ===== (✅ CORREÇÃO #11: Darwin bidirectional)
+        try:
+            frozen_before = len(self.core.registry.get_by_status(NeuronStatus.FROZEN))
+            
+            # Executar unfreezing
+            unfrozen_count = self.unfreeze_improved()
+            
+            frozen_after = len(self.core.registry.get_by_status(NeuronStatus.FROZEN))
+            results['unfrozen'] = frozen_before - frozen_after
+            
+            if results['unfrozen'] > 0:
+                brain_logger.info(
+                    f"🔥 Unfroze {results['unfrozen']} improved neurons"
+                )
+        except Exception as e:
+            results['errors'].append(f"unfreezing_failed: {str(e)}")
+            brain_logger.error(f"❌ Unfreezing failed: {e}")
+        
+        # ===== FINALIZAÇÃO =====
+        results['active_after'] = len(self.core.registry.get_active())
+        
+        # Log to WORM
+        if hasattr(self.core, 'worm') and self.core.worm:
+            self.core.worm.append('maintenance_cycle', {
+                'promoted': results['promoted'],
+                'demoted': results['demoted'],
+                'unfrozen': results.get('unfrozen', 0),  # ✅ Incluir unfrozen
+                'active_before': results['active_before'],
+                'active_after': results['active_after'],
+                'errors': results['errors'],
+                'core_steps': results['core_steps']
+            })
+        
+        # ⚠️ ALERTAS para mudanças drásticas
+        if results['demoted'] > 5:
+            brain_logger.critical(
+                f"⚠️ WARNING: {results['demoted']} neurons demoted! "
+                f"System may be unstable."
+            )
+        
+        if results['errors']:
+            brain_logger.error(
+                f"⚠️ Maintenance had {len(results['errors'])} errors"
+            )
+        
+        return results
+
+    # -------------------- Prometheus exporter --------------------
+    def _start_metrics_server(self):
+        if getattr(self, '_metrics_http', None) is not None:
+            return
+        try:
+            port = int(os.getenv('UBRAIN_METRICS_PORT', '0'))
+        except Exception:
+            port = 0
+        if port <= 0:
+            return
+        outer_self = self
+
+        class Handler(BaseHTTPRequestHandler):
+            def do_GET(self):
+                if self.path not in ('/metrics', '/', ''):
+                    self.send_response(404)
+                    self.end_headers()
+                    return
+                try:
+                    payload = outer_self._render_prometheus()
+                except Exception:
+                    payload = "# metrics unavailable\n"
+                data = payload.encode('utf-8')
+                self.send_response(200)
+                self.send_header('Content-Type', 'text/plain; version=0.0.4')
+                self.send_header('Content-Length', str(len(data)))
+                self.end_headers()
+                try:
+                    self.wfile.write(data)
+                except Exception:
+                    pass
+            def log_message(self, format, *args):
+                return
+
+        server = ThreadingHTTPServer(('0.0.0.0', port), Handler)
+        t = threading.Thread(target=server.serve_forever, daemon=True)
+        t.start()
+        self._metrics_http = server
+
+    def _render_prometheus(self) -> str:
+        m = self.core.get_metrics_summary() if hasattr(self, 'core') else {}
+        lines = []
+        def add(name: str, value: float, help_text: str = "", typ: str = "gauge"):
+            if help_text:
+                lines.append(f"# HELP {name} {help_text}")
+            lines.append(f"# TYPE {name} {typ}")
+            try:
+                v = float(value)
+            except Exception:
+                v = 0.0
+            lines.append(f"{name} {v}")
+        # Core metrics
+        add('ubrain_steps_total', m.get('total_steps', 0), 'Total brain steps', 'counter')
+        add('ubrain_avg_latency_ms', m.get('avg_latency_ms', 0.0), 'Average latency per step (ms)')
+        add('ubrain_avg_coherence', m.get('avg_coherence', 0.0), 'Average coherence of Z transitions')
+        add('ubrain_avg_novelty', m.get('avg_novelty', 0.0), 'Average novelty of Z transitions')
+        try:
+            top_k = self.core.router.top_k if self.core and self.core.router else 0
+        except Exception:
+            top_k = 0
+        add('ubrain_router_top_k', top_k, 'Current router top_k')
+        # Gate metrics (last evaluation)
+        g = self.last_gate_metrics or {}
+        add('ubrain_gate_uplift', g.get('uplift', 0.0), 'OOD uplift (relative to nominal)')
+        add('ubrain_gate_retention', g.get('retention', 0.0), 'Retention on nominal after OOD')
+        add('ubrain_gate_p_value', g.get('p_value', 1.0), 'Bootstrap p-value of uplift')
+        add('ubrain_gate_p_value_ab', g.get('p_value_ab', 1.0), 'A/B p-value control vs treatment')
+        add('ubrain_gate_ece_cartpole', g.get('ece_cartpole', 1.0), 'CartPole value ECE')
+        add('ubrain_gate_mnistc_ece', g.get('mnistc_ece', 1.0), 'MNIST-C classification ECE')
+        add('ubrain_gate_mnistc_acc', g.get('mnistc_acc', 0.0), 'MNIST-C accuracy')
+        return "\n".join(lines) + "\n"
+
+
+if __name__ == "__main__":
+    print("🧠 Unified Brain Core Module")
+    
+    # Test
+    brain = UnifiedBrain(H=1024, max_neurons=1000, top_k=16)
+    print(f"Brain initialized: H={brain.H}, max_neurons={brain.max_neurons}")
+    print(f"Registry: {brain.registry.count()}")

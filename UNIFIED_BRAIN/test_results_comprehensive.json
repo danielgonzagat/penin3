@@ -1,0 +1,117 @@
+{
+  "total_tests": 14,
+  "passed": 11,
+  "failed": 3,
+  "pass_rate": 78.57142857142857,
+  "categories": {
+    "core": {
+      "passed": 5,
+      "failed": 0
+    },
+    "router": {
+      "passed": 3,
+      "failed": 0
+    },
+    "integration": {
+      "passed": 2,
+      "failed": 1
+    },
+    "generalization": {
+      "passed": 0,
+      "failed": 1
+    },
+    "performance": {
+      "passed": 1,
+      "failed": 1
+    }
+  },
+  "individual_results": [
+    {
+      "name": "Registry 10k neurons",
+      "category": "core",
+      "status": "PASSED",
+      "time": 252.75280475616455
+    },
+    {
+      "name": "Long run 1000 steps",
+      "category": "core",
+      "status": "PASSED",
+      "time": 170.70881152153015
+    },
+    {
+      "name": "Snapshot save/load",
+      "category": "core",
+      "status": "PASSED",
+      "time": 4.871881008148193
+    },
+    {
+      "name": "Kill switch",
+      "category": "core",
+      "status": "PASSED",
+      "time": 0.039443254470825195
+    },
+    {
+      "name": "Adapter calibration quality",
+      "category": "core",
+      "status": "PASSED",
+      "time": 23.20345187187195
+    },
+    {
+      "name": "Router adaptation",
+      "category": "router",
+      "status": "PASSED",
+      "time": 0.0073795318603515625
+    },
+    {
+      "name": "Router EMA decay",
+      "category": "router",
+      "status": "PASSED",
+      "time": 0.006661415100097656
+    },
+    {
+      "name": "Competence updates",
+      "category": "router",
+      "status": "PASSED",
+      "time": 0.005596637725830078
+    },
+    {
+      "name": "V7 Bridge",
+      "category": "integration",
+      "status": "CRASHED",
+      "error": "Inference tensors cannot be saved for backward. To work around you can make a clone to get a normal tensor and use it in autograd.",
+      "time": 0.14244699478149414
+    },
+    {
+      "name": "WORM integrity",
+      "category": "integration",
+      "status": "PASSED",
+      "time": 0.009760379791259766
+    },
+    {
+      "name": "Full system",
+      "category": "integration",
+      "status": "PASSED",
+      "time": 62.85729718208313
+    },
+    {
+      "name": "OOD Gate (\u226515% uplift & \u226590% retention)",
+      "category": "generalization",
+      "status": "FAILED",
+      "error": "OOD uplift too low: -29.1% < 15%",
+      "time": 151.13617849349976
+    },
+    {
+      "name": "Latency < 150ms",
+      "category": "performance",
+      "status": "FAILED",
+      "error": "Too slow: 400.73ms",
+      "time": 49.411283016204834
+    },
+    {
+      "name": "Memory stable",
+      "category": "performance",
+      "status": "PASSED",
+      "time": 100.31167387962341
+    }
+  ]
+}

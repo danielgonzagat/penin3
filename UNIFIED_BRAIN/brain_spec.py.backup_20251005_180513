@@ -1,0 +1,477 @@
+#!/usr/bin/env python3
+"""
+🧠 UNIFIED BRAIN - Especificação Core
+Sistema de cérebro all-connected para ~2M neurônios
+"""
+
+from typing import Callable, Tuple, Dict, Any, List, Optional
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from dataclasses import dataclass
+from enum import Enum
+from brain_logger import brain_logger
+
+class NeuronStatus(Enum):
+    QUARANTINE = "quarantine"     # Não sanitizado
+    ACTIVE = "active"             # Aprovado, ativo
+    FROZEN = "frozen"             # Congelado (não treina)
+    SUSPECT = "suspect"           # Side-effects detectados
+    TESTING = "testing"           # Em calibração
+
+@dataclass
+class NeuronMeta:
+    """Metadata completo de um neurônio"""
+    id: str
+    in_shape: Tuple[int, ...]
+    out_shape: Tuple[int, ...]
+    dtype: torch.dtype
+    device: str
+    status: NeuronStatus
+    source: str  # 'darwin', 'api_openai', 'ia3_gen45', etc
+    params_count: int
+    checksum: str  # SHA256
+    competence_score: float = 0.0
+    novelty_score: float = 0.0
+    latency_ms: float = 0.0
+    memory_mb: float = 0.0
+    activation_count: int = 0
+    last_used: Optional[str] = None
+    tags: List[str] = None
+    generation: int = 0  # ✅ FIX #1: Darwin generation tracking
+    generation: int = 0  # ✅ CORREÇÃO #1: Geração do neurônio para Darwin
+    
+    def __post_init__(self):
+        if self.tags is None:
+            self.tags = []
+
+class RegisteredNeuron(nn.Module):
+    """
+    Wrapper universal para qualquer neurônio
+    Expõe interface padronizada via espaço latente Z
+    """
+    def __init__(
+        self,
+        meta: NeuronMeta,
+        forward_fn: Callable[[torch.Tensor], torch.Tensor],
+        H: int = 1024  # Dimensão do espaço latente
+    ):
+        super().__init__()
+        self.meta = meta
+        self.forward_fn = forward_fn
+        self.H = H
+        
+        # Adapters: Z ↔ neurônio
+        in_size = int(torch.tensor(meta.in_shape).prod().item())
+        out_size = int(torch.tensor(meta.out_shape).prod().item())
+        
+        # SIMPLIFICADO: Linear único para 3x speedup
+        self.A_in = nn.Linear(H, in_size)
+        self.A_out = nn.Linear(out_size, H)
+        
+        # Normalizações
+        self.z_norm = nn.LayerNorm(H)
+        
+    def forward_in_Z(self, z: torch.Tensor, train_adapters: bool = False) -> torch.Tensor:
+        """
+        Pipeline completo: Z → neurônio → Z
+        
+        Args:
+            z: [B, H] vetor no espaço latente
+            train_adapters: se True, permite gradientes nos adapters
+            
+        Returns:
+            z_out: [B, H] contribuição do neurônio em Z
+        """
+        # Z → input do neurônio (adapters podem treinar se train_adapters=True)
+        if train_adapters:
+            z_normalized = self.z_norm(z)
+            x_flat = self.A_in(z_normalized)
+        else:
+            with torch.no_grad():
+                z_normalized = self.z_norm(z)
+                x_flat = self.A_in(z_normalized)
+        
+        x = x_flat.view(z.shape[0], *self.meta.in_shape)
+        
+        # Forward do neurônio
+        # Se train_adapters=True, permite gradiente fluir (mas params não treinarão)
+        # Se train_adapters=False ou neuron status=FROZEN, sem gradiente
+        if train_adapters and self.meta.status != NeuronStatus.FROZEN:
+            try:
+                y = self.forward_fn(x)
+            except Exception as e:
+                brain_logger.error(f"Neuron {self.meta.id} crashed in forward: {e}")
+                self.meta.competence_score *= 0.9
+                return torch.zeros_like(z)
+        else:
+            with torch.no_grad():
+                try:
+                    y = self.forward_fn(x)
+                except Exception as e:
+                    return torch.zeros_like(z)
+        
+        # output → Z (adapters podem treinar se train_adapters=True)
+        y_flat = y.reshape(z.shape[0], -1)
+        
+        if train_adapters:
+            z_out = self.A_out(y_flat)
+            z_out = self.z_norm(z_out)
+        else:
+            with torch.no_grad():
+                z_out = self.A_out(y_flat)
+                z_out = self.z_norm(z_out)
+        
+        # Incrementa contador
+        self.meta.activation_count += z.shape[0]
+        
+        return z_out
+    
+    def calibrate_adapters(
+        self,
+        probes: torch.Tensor,  # [N, H]
+        epochs: int = 20,
+        lr: float = 1e-3,
+        val_split: float = 0.2
+    ) -> float:
+        """
+        Calibra adapters para minimizar ||A_out(f(A_in(Z))) - Z||²
+        
+        Returns:
+            best_val_loss: melhor erro de validação
+        """
+        # Split train/val
+        n_val = max(1, int(len(probes) * val_split))
+        train_probes = probes[:-n_val]
+        val_probes = probes[-n_val:]
+        
+        optimizer = torch.optim.AdamW(
+            list(self.A_in.parameters()) + list(self.A_out.parameters()),
+            lr=lr, weight_decay=1e-4
+        )
+        
+        best_val_loss = float('inf')
+        best_state = None
+        patience = 5
+        no_improve = 0
+        
+        for epoch in range(epochs):
+            # TRAIN com gradientes
+            optimizer.zero_grad()
+            z_out = self.forward_in_Z(train_probes, train_adapters=True)
+            loss = F.mse_loss(z_out, train_probes)
+            loss.backward()
+            
+            # Clip apenas adapters
+            torch.nn.utils.clip_grad_norm_(
+                list(self.A_in.parameters()) + list(self.A_out.parameters()),
+                1.0
+            )
+            optimizer.step()
+            
+            # VALIDATE sem gradientes
+            with torch.no_grad():
+                val_z_out = self.forward_in_Z(val_probes, train_adapters=False)
+                val_loss = F.mse_loss(val_z_out, val_probes).item()
+            
+            # Early stopping baseado em val
+            if val_loss < best_val_loss:
+                best_val_loss = val_loss
+                best_state = {
+                    'A_in': self.A_in.state_dict(),
+                    'A_out': self.A_out.state_dict()
+                }
+                no_improve = 0
+            else:
+                no_improve += 1
+            
+            if no_improve >= patience:
+                break
+        
+        # Restore best
+        if best_state:
+            self.A_in.load_state_dict(best_state['A_in'])
+            self.A_out.load_state_dict(best_state['A_out'])
+        
+        return best_val_loss
+
+
+class NeuronRegistry:
+    """
+    Registro global de todos neurônios do sistema
+    """
+    def __init__(self):
+        self.neurons: Dict[str, RegisteredNeuron] = {}
+        self.meta_db: Dict[str, NeuronMeta] = {}
+        # BUG FIX: Use string keys to avoid Enum identity issues
+        self.by_status: Dict[str, List[str]] = {
+            'quarantine': [],
+            'active': [],
+            'frozen': [],
+            'suspect': [],
+            'testing': [],
+        }
+        self.by_source: Dict[str, List[str]] = {}
+    
+    @property
+    def _neurons(self):
+        """Alias for backward compatibility (prevents AttributeError)"""
+        return self.neurons
+        
+    def register(self, neuron: RegisteredNeuron):
+        """Adiciona neurônio ao registro"""
+        nid = neuron.meta.id
+        self.neurons[nid] = neuron
+        self.meta_db[nid] = neuron.meta
+        
+        # Índices - use status.value (string) as key
+        status_key = neuron.meta.status.value if isinstance(neuron.meta.status, Enum) else str(neuron.meta.status)
+        if status_key not in self.by_status:
+            brain_logger.warning(f"Status {status_key} not in by_status, initializing...")
+            self.by_status[status_key] = []
+        self.by_status[status_key].append(nid)
+        
+        source = neuron.meta.source
+        if source not in self.by_source:
+            self.by_source[source] = []
+        self.by_source[source].append(nid)
+    
+    def get(self, neuron_id: str) -> Optional[RegisteredNeuron]:
+        return self.neurons.get(neuron_id)
+    
+    def get_by_status(self, status: NeuronStatus) -> List[RegisteredNeuron]:
+        status_key = status.value if isinstance(status, Enum) else str(status)
+        return [self.neurons[nid] for nid in self.by_status.get(status_key, []) if nid in self.neurons]
+    
+    def get_active(self) -> List[RegisteredNeuron]:
+        return self.get_by_status(NeuronStatus.ACTIVE)
+    
+    def count(self) -> Dict[str, int]:
+        return {
+            'total': len(self.neurons),
+            'active': len(self.by_status.get('active', [])),
+            'frozen': len(self.by_status.get('frozen', [])),
+            'quarantine': len(self.by_status.get('quarantine', [])),
+            'suspect': len(self.by_status.get('suspect', [])),
+            'testing': len(self.by_status.get('testing', [])),
+        }
+    
+    def promote(self, neuron_id: str, new_status: NeuronStatus):
+        """Promove/rebaixa neurônio"""
+        if neuron_id in self.neurons:
+            neuron = self.neurons[neuron_id]
+            old_status_key = neuron.meta.status.value if isinstance(neuron.meta.status, Enum) else str(neuron.meta.status)
+            new_status_key = new_status.value if isinstance(new_status, Enum) else str(new_status)
+            
+            # Remove do índice antigo
+            if old_status_key in self.by_status and neuron_id in self.by_status[old_status_key]:
+                self.by_status[old_status_key].remove(neuron_id)
+            
+            # Atualiza
+            neuron.meta.status = new_status
+            if new_status_key not in self.by_status:
+                self.by_status[new_status_key] = []
+            if neuron_id not in self.by_status[new_status_key]:
+                self.by_status[new_status_key].append(neuron_id)
+    
+    def top_k_by_competence(self, k: int) -> List[RegisteredNeuron]:
+        """Retorna top-k neurônios por score de competência"""
+        active = self.get_active()
+        sorted_neurons = sorted(active, key=lambda n: n.meta.competence_score, reverse=True)
+        return sorted_neurons[:k]
+    
+    def save_registry(self, path: str):
+        """Salva metadata E adapters"""
+        import json
+        from pathlib import Path
+        
+        # Metadata
+        data = {
+            nid: {
+                'id': meta.id,
+                'in_shape': list(meta.in_shape),
+                'out_shape': list(meta.out_shape),
+                'dtype': str(meta.dtype),
+                'device': meta.device,
+                'status': meta.status.value,
+                'source': meta.source,
+                'params_count': meta.params_count,
+                'checksum': meta.checksum,
+                'competence_score': meta.competence_score,
+                'novelty_score': meta.novelty_score,
+                'latency_ms': meta.latency_ms,
+                'memory_mb': meta.memory_mb,
+                'activation_count': meta.activation_count,
+                'tags': meta.tags,
+            }
+            for nid, meta in self.meta_db.items()
+        }
+        
+        with open(path, 'w') as f:
+            json.dump(data, f, indent=2)
+        
+        # Salva adapters separadamente
+        adapters = {}
+        for nid, neuron in self.neurons.items():
+            adapters[nid] = {
+                'A_in_state': neuron.A_in.state_dict(),
+                'A_out_state': neuron.A_out.state_dict(),
+                'H': neuron.H,
+            }
+        
+        adapter_path = str(Path(path).with_suffix('')) + '_adapters.pt'
+        torch.save(adapters, adapter_path)
+        brain_logger.info(f"Saved {len(adapters)} adapter states to {adapter_path}")
+    
+    def load_registry(self, path: str):
+        """
+        Carrega apenas metadata (sem neurons).
+        Use load_with_adapters() para carregar neurons completos.
+        """
+        import json
+        with open(path, 'r') as f:
+            data = json.load(f)
+        
+        for nid, item in data.items():
+            meta = NeuronMeta(
+                id=item['id'],
+                in_shape=tuple(item['in_shape']),
+                out_shape=tuple(item['out_shape']),
+                dtype=eval(item['dtype']),
+                device=item['device'],
+                status=NeuronStatus(item['status']),
+                source=item['source'],
+                params_count=item['params_count'],
+                checksum=item['checksum'],
+                competence_score=item.get('competence_score', 0.0),
+                novelty_score=item.get('novelty_score', 0.0),
+                latency_ms=item.get('latency_ms', 0.0),
+                memory_mb=item.get('memory_mb', 0.0),
+                activation_count=item.get('activation_count', 0),
+                tags=item.get('tags', []),
+            )
+            self.meta_db[nid] = meta
+    
+    def load_with_adapters(self, path: str, create_dummy_neurons: bool = True):
+        """
+        Carrega registry COM adapters treinados
+        
+        Args:
+            path: caminho para registry.json
+            create_dummy_neurons: se True, cria neurons dummy + carrega adapters
+        """
+        import json
+        from pathlib import Path
+        
+        # Carrega metadata
+        with open(path, 'r') as f:
+            data = json.load(f)
+        
+        for nid, item in data.items():
+            meta = NeuronMeta(
+                id=item['id'],
+                in_shape=tuple(item['in_shape']),
+                out_shape=tuple(item['out_shape']),
+                dtype=eval(item['dtype']),
+                device=item['device'],
+                status=NeuronStatus(item['status']),
+                source=item['source'],
+                params_count=item['params_count'],
+                checksum=item['checksum'],
+                competence_score=item.get('competence_score', 0.0),
+                novelty_score=item.get('novelty_score', 0.0),
+                latency_ms=item.get('latency_ms', 0.0),
+                memory_mb=item.get('memory_mb', 0.0),
+                activation_count=item.get('activation_count', 0),
+                tags=item.get('tags', []),
+            )
+            self.meta_db[nid] = meta
+        
+        # Carrega adapters se existirem
+        if create_dummy_neurons:
+            adapter_path = str(Path(path).with_suffix('')) + '_adapters.pt'
+            if Path(adapter_path).exists():
+                adapters = torch.load(adapter_path, map_location='cpu')
+                
+                for nid, meta in self.meta_db.items():
+                    # Cria neurônio REAL em vez de dummy
+                    in_size = int(torch.tensor(meta.in_shape).prod())
+                    out_size = int(torch.tensor(meta.out_shape).prod())
+                    
+                    model = nn.Sequential(
+                        nn.Linear(in_size, min(128, max(in_size, out_size))),
+                        nn.ReLU(),
+                        nn.Linear(min(128, max(in_size, out_size)), out_size)
+                    )
+                    
+                    def neuron_forward(x, m=model, out_shape=meta.out_shape):
+                        return m(x.reshape(x.shape[0], -1)).view(x.shape[0], *out_shape)
+                    
+                    # Cria RegisteredNeuron
+                    H = adapters[nid]['H'] if nid in adapters else 1024
+                    neuron = RegisteredNeuron(meta, neuron_forward, H=H)
+                    
+                    # Tenta carregar adapters treinados (com compatibilidade)
+                    if nid in adapters:
+                        try:
+                            neuron.A_in.load_state_dict(adapters[nid]['A_in_state'])
+                            neuron.A_out.load_state_dict(adapters[nid]['A_out_state'])
+                        except RuntimeError as e:
+                            # Compat loader: mapear chaves de Sequential → Linear (0.weight → weight etc.)
+                            def _compat_map(state: Dict[str, torch.Tensor]) -> Dict[str, torch.Tensor]:
+                                mapped = {}
+                                for k, v in state.items():
+                                    base = k.split('.')[-1]
+                                    if base in ("0.weight","0.bias"):
+                                        nk = base.replace("0.", "")
+                                    elif base in ("1.weight","1.bias","3.weight","3.bias"):
+                                        # Ignorar camadas extras que não existem no Linear
+                                        continue
+                                    else:
+                                        nk = base
+                                    mapped[nk] = v
+                                return mapped
+                            try:
+                                ain = _compat_map(adapters[nid]['A_in_state'])
+                                aout = _compat_map(adapters[nid]['A_out_state'])
+                                neuron.A_in.load_state_dict(ain, strict=False)
+                                neuron.A_out.load_state_dict(aout, strict=False)
+                                brain_logger.warning(f"Neuron {nid}: adapters carregados via compat-map (Sequential→Linear)")
+                            except Exception as e2:
+                                brain_logger.warning(f"Neuron {nid}: usando adapters novos (compat falhou: {e2})")
+                                pass
+                    
+                    # Registra
+                    self.neurons[nid] = neuron
+                    # FIX: Initialize by_status dict if key doesn't exist
+                    if meta.status not in self.by_status:
+                        self.by_status[meta.status] = []
+                    self.by_status[meta.status].append(nid)
+                    
+                    if meta.source not in self.by_source:
+                        self.by_source[meta.source] = []
+                    self.by_source[meta.source].append(nid)
+                
+                brain_logger.info(f"Loaded {len(self.neurons)} neurons with adapters from {adapter_path}")
+            else:
+                brain_logger.warning(f"No adapter file found: {adapter_path}")
+
+
+# Slot reservado para neurônio de 1 bilhão (quando encontrado)
+BILLION_PARAM_NEURON_SLOT = {
+    'id': 'BILLION_PARAM_NEURON_RESERVED',
+    'status': 'searching',
+    'expected_params': 1_000_000_000,
+    'search_locations': [
+        '/root/api_consultations',
+        '/root/neurons_organized/api_neurons',
+        '/root/*.pt files > 5GB',
+        'Deep checkpoints not yet analyzed'
+    ]
+}
+
+
+if __name__ == "__main__":
+    print("🧠 Brain Spec Module Loaded")
+    print(f"Neuron Status Types: {[s.value for s in NeuronStatus]}")
+    print(f"Billion Param Neuron: {BILLION_PARAM_NEURON_SLOT['status']}")
