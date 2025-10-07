@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-10-04",
+  "total_systems": 6,
+  "systems": {
+    "Darwin": {
+      "path": "/root/darwin-engine-intelligence",
+      "files": 112,
+      "type": "evolution"
+    },
+    "Intelligence": {
+      "path": "/root/intelligence_system",
+      "files": 123,
+      "type": "core"
+    },
+    "IA3": {
+      "files": 258,
+      "type": "consciousness"
+    },
+    "NeuralFarm": {
+      "path": "/root/neurons_organized",
+      "api_neurons": 3562,
+      "type": "storage"
+    },
+    "Checkpoints": {
+      "files": 831,
+      "type": "storage"
+    },
+    "ExportPreservation": {
+      "path": "/root/_export_preservation_2025",
+      "type": "archive"
+    }
+  },
+  "connections": [
+    "Darwin",
+    "Intelligence",
+    "IA3",
+    "NeuralFarm",
+    "Checkpoints",
+    "ExportPreservation"
+  ],
+  "connectors_active": 6,
+  "test_results": {
+    "Darwin": true,
+    "Intelligence": true,
+    "IA3": true,
+    "NeuralFarm": true,
+    "Checkpoints": true,
+    "ExportPreservation": true
+  }
+}

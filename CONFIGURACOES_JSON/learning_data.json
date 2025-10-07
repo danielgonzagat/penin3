@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-10-07T13:09:28.121756",
+  "learned_patterns": {
+    "high_memory_usage": {
+      "count": 1,
+      "frequency": 1.0
+    },
+    "high_cpu_usage": {
+      "count": 1,
+      "frequency": 0.5
+    },
+    "many_processes": {
+      "count": 1,
+      "frequency": 0.3333333333333333
+    },
+    "many_errors": {
+      "count": 1,
+      "frequency": 0.25
+    },
+    "high_success_rate": {
+      "count": 1,
+      "frequency": 0.2
+    },
+    "active_file_creation": {
+      "count": 1,
+      "frequency": 0.16666666666666666
+    }
+  },
+  "learning_history": []
+}

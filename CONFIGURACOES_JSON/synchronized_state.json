@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-10-07T13:09:34.428175",
+  "shared_state": {
+    "test_key": "test_value"
+  },
+  "active_locks": [
+    "file_/root/test.json",
+    "shared_state"
+  ],
+  "active_queues": []
+}

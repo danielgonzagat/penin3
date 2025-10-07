@@ -1,0 +1,38 @@
+{
+  "initial": {
+    "cycle": 9725,
+    "mnist": 0.0,
+    "cartpole": 35.2474230729628,
+    "ia3": 37.99977387086808,
+    "i3": 0.0
+  },
+  "final": {
+    "cycle": 9735,
+    "mnist": 98.17,
+    "cartpole": 444.84,
+    "ia3": 79.59845161290322,
+    "i3": 0.0
+  },
+  "deltas": {
+    "cycles": 10,
+    "mnist": 98.17,
+    "cartpole": 409.59257692703716,
+    "ia3": 41.598677742035136,
+    "i3": 0.0
+  },
+  "counters": {
+    "replay": 34200,
+    "darwin": 0,
+    "autocoder": 0,
+    "maml": 1,
+    "automl": 0
+  },
+  "i3_details": {
+    "introspection_events": 0,
+    "self_awareness": 0.0,
+    "curriculum_items": 0,
+    "turing_tests": 0,
+    "turing_passes": 0,
+    "regenerations": 1
+  }
+}

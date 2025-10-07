@@ -1,0 +1,83 @@
+{
+  "cycles": 10,
+  "elapsed": 0.22513842582702637,
+  "final_consciousness": 0.09999999999999999,
+  "final_teis_reward": 10.0,
+  "systems_real": [
+    "Vision (ResNet18)",
+    "TEIS (RL CartPole)",
+    "API Oracle"
+  ],
+  "results": [
+    {
+      "cycle": 1,
+      "vision_confidence": 0.3133944869041443,
+      "teis_reward": 1.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.01
+    },
+    {
+      "cycle": 2,
+      "vision_confidence": 0.47078314423561096,
+      "teis_reward": 2.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.02
+    },
+    {
+      "cycle": 3,
+      "vision_confidence": 0.40975329279899597,
+      "teis_reward": 3.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.03
+    },
+    {
+      "cycle": 4,
+      "vision_confidence": 0.2868049740791321,
+      "teis_reward": 4.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.04
+    },
+    {
+      "cycle": 5,
+      "vision_confidence": 0.3714680075645447,
+      "teis_reward": 5.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.05
+    },
+    {
+      "cycle": 6,
+      "vision_confidence": 0.3128725290298462,
+      "teis_reward": 6.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.060000000000000005
+    },
+    {
+      "cycle": 7,
+      "vision_confidence": 0.26283106207847595,
+      "teis_reward": 7.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.07
+    },
+    {
+      "cycle": 8,
+      "vision_confidence": 0.36267539858818054,
+      "teis_reward": 8.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.08
+    },
+    {
+      "cycle": 9,
+      "vision_confidence": 0.4078659415245056,
+      "teis_reward": 9.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.09
+    },
+    {
+      "cycle": 10,
+      "vision_confidence": 0.33228036761283875,
+      "teis_reward": 10.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.09999999999999999
+    }
+  ]
+}

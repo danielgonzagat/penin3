@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-09-27T21:15:21.404949",
+  "neural_farm": {
+    "system": "neural_farm",
+    "learning_rate": -0.29004091332257786,
+    "consistency": 0.8844458258780643,
+    "real_learning": false,
+    "recent_fitness": 85.35727336615227,
+    "improvement": -5.800818266451557
+  },
+  "neural_genesis": {
+    "system": "neural_genesis",
+    "cpu_efficiency": 100.0,
+    "active_processes": 1,
+    "recent_outputs": 0,
+    "real_learning": false
+  },
+  "ia_cubed": {
+    "system": "ia_cubed",
+    "recent_model_updates": 5,
+    "memory_efficiency": 0.6382507909079046,
+    "active_processes": 2,
+    "real_learning": true
+  },
+  "overall_intelligence_score": 0.3333333333333333,
+  "verdict": "NO REAL INTELLIGENCE"
+}

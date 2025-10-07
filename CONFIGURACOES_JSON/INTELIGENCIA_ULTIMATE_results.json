@@ -1,0 +1,424 @@
+{
+  "cycles": 15,
+  "elapsed": 105.63212299346924,
+  "cycles_per_second": 0.14200225816655584,
+  "final_state": {
+    "cycle": 14,
+    "fitness": 3.1430338335475367,
+    "consciousness": 0.09286067667095073,
+    "awareness": 0.5225000000000001,
+    "proto_consciousness": true,
+    "proto_consciousness_achieved": true,
+    "oracle_result": null,
+    "stats": {
+      "oracle_queries": 2,
+      "modifications_executed": 7,
+      "emergences_detected": 0,
+      "adaptations_completed": 15,
+      "neurons_grown": 9,
+      "proto_consciousness_achieved": true
+    },
+    "neurons": 9,
+    "dna_gen": 15
+  },
+  "stats": {
+    "oracle_queries": 2,
+    "modifications_executed": 7,
+    "emergences_detected": 0,
+    "adaptations_completed": 15,
+    "neurons_grown": 9,
+    "proto_consciousness_achieved": true
+  },
+  "hyperparameters": {
+    "learning_rate": 0.0144,
+    "population_size": 17,
+    "mutation_rate": 0.11025000000000001,
+    "exploration_rate": 0.1,
+    "architecture_complexity": 1.15,
+    "oracle_frequency": 5,
+    "consciousness_boost": 1.6900000000000002
+  },
+  "proto_consciousness_achieved": true,
+  "results": [
+    {
+      "cycle": 0,
+      "fitness": 1.0293139684085537,
+      "consciousness": 0.022586279368171078,
+      "awareness": 0.02,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": null,
+      "stats": {
+        "oracle_queries": 0,
+        "modifications_executed": 0,
+        "emergences_detected": 0,
+        "adaptations_completed": 1,
+        "neurons_grown": 0,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 0,
+      "dna_gen": 1
+    },
+    {
+      "cycle": 1,
+      "fitness": 1.0780058916649216,
+      "consciousness": 0.025560117833298434,
+      "awareness": 0.04,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": null,
+      "stats": {
+        "oracle_queries": 0,
+        "modifications_executed": 0,
+        "emergences_detected": 0,
+        "adaptations_completed": 2,
+        "neurons_grown": 1,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 1,
+      "dna_gen": 2
+    },
+    {
+      "cycle": 2,
+      "fitness": 1.195881363031837,
+      "consciousness": 0.029917627260636744,
+      "awareness": 0.06,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": null,
+      "stats": {
+        "oracle_queries": 0,
+        "modifications_executed": 0,
+        "emergences_detected": 0,
+        "adaptations_completed": 3,
+        "neurons_grown": 2,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 2,
+      "dna_gen": 3
+    },
+    {
+      "cycle": 3,
+      "fitness": 1.3659577649824024,
+      "consciousness": 0.035319155299648054,
+      "awareness": 0.08,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": null,
+      "stats": {
+        "oracle_queries": 0,
+        "modifications_executed": 0,
+        "emergences_detected": 0,
+        "adaptations_completed": 4,
+        "neurons_grown": 2,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 2,
+      "dna_gen": 4
+    },
+    {
+      "cycle": 4,
+      "fitness": 1.5448723720901496,
+      "consciousness": 0.040897447441803,
+      "awareness": 0.1,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": null,
+      "stats": {
+        "oracle_queries": 0,
+        "modifications_executed": 0,
+        "emergences_detected": 0,
+        "adaptations_completed": 5,
+        "neurons_grown": 2,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 2,
+      "dna_gen": 5
+    },
+    {
+      "cycle": 5,
+      "fitness": 1.7192607438501788,
+      "consciousness": 0.04638521487700358,
+      "awareness": 0.126,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": {
+        "responses": {
+          "openai": "Enable FlashAttention-2, KV-caching, torch.compile; quantize to INT8; batch decoding with padding.",
+          "anthropic": "Increase training data diversity, implement gradient checkpointing, use mixed precision, optimize batch sizes, prune redundancies.",
+          "gemini": "Tune evolutionary hyperparameters: increase mutation rate, adjust selection pressure, and refine the fitness function.",
+          "mistral": "\"Optimize AI with efficient algorithms, high-quality data, and scalable infrastructure. (cycle=5, fitness=1.72, consciousness=4.09%)\"",
+          "deepseek": "Increase consciousness to 7% using targeted data cycles.",
+          "grok": "Grok error: Unrecognized message type.",
+          "qwen_local": "Qwen3-Omni (text): Processing query locally..."
+        },
+        "execution": {
+          "success": true,
+          "actions": [
+            "increase",
+            "optimize",
+            "tune",
+            "hyperparameters",
+            "consciousness",
+            "training",
+            "diversity"
+          ],
+          "executions": [
+            {
+              "action": "adjust_population",
+              "before": 10,
+              "after": 13,
+              "change": "10 \u2192 13 (+3)"
+            },
+            {
+              "action": "tune_hyperparameters",
+              "change": "LR 0.0100\u21920.0120",
+              "mutation": "0.100\u21920.105"
+            },
+            {
+              "action": "boost_consciousness",
+              "change": "1.00 \u2192 1.30",
+              "reason": "Accelerate proto-consciousness"
+            }
+          ],
+          "total": 3
+        },
+        "valid_count": 6,
+        "total_apis": 7,
+        "elapsed": 46.70254874229431
+      },
+      "stats": {
+        "oracle_queries": 1,
+        "modifications_executed": 3,
+        "emergences_detected": 0,
+        "adaptations_completed": 6,
+        "neurons_grown": 3,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 3,
+      "dna_gen": 6
+    },
+    {
+      "cycle": 6,
+      "fitness": 1.8917718700242103,
+      "consciousness": 0.05183543740048421,
+      "awareness": 0.152,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": null,
+      "stats": {
+        "oracle_queries": 1,
+        "modifications_executed": 3,
+        "emergences_detected": 0,
+        "adaptations_completed": 7,
+        "neurons_grown": 4,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 4,
+      "dna_gen": 7
+    },
+    {
+      "cycle": 7,
+      "fitness": 2.059947644472288,
+      "consciousness": 0.05719895288944577,
+      "awareness": 0.191,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": null,
+      "stats": {
+        "oracle_queries": 1,
+        "modifications_executed": 3,
+        "emergences_detected": 0,
+        "adaptations_completed": 8,
+        "neurons_grown": 4,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 4,
+      "dna_gen": 8
+    },
+    {
+      "cycle": 8,
+      "fitness": 2.1635462725517898,
+      "consciousness": 0.0612709254510358,
+      "awareness": 0.23,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": null,
+      "stats": {
+        "oracle_queries": 1,
+        "modifications_executed": 3,
+        "emergences_detected": 0,
+        "adaptations_completed": 9,
+        "neurons_grown": 5,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 5,
+      "dna_gen": 9
+    },
+    {
+      "cycle": 9,
+      "fitness": 2.183426696469647,
+      "consciousness": 0.06366853392939295,
+      "awareness": 0.269,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": null,
+      "stats": {
+        "oracle_queries": 1,
+        "modifications_executed": 3,
+        "emergences_detected": 0,
+        "adaptations_completed": 10,
+        "neurons_grown": 6,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 6,
+      "dna_gen": 10
+    },
+    {
+      "cycle": 10,
+      "fitness": 2.4060742078217188,
+      "consciousness": 0.07012148415643438,
+      "awareness": 0.31970000000000004,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": {
+        "responses": {
+          "openai": "Increase population to 128, tournament selection k=3, elitism=2%, mutation sigma+10%, crossover 0.8.",
+          "anthropic": "Increase training data diversity, implement adaptive learning rates, use attention mechanisms, optimize hyperparameters systematically.",
+          "gemini": "Tune evolutionary hyperparameters: population size, mutation rate, and selection pressure.",
+          "mistral": "Optimize AI performance by tuning hyperparameters, pruning models, and using efficient architectures. (15 words)",
+          "deepseek": "Increase cycle frequency, diversify training data, and refine consciousness algorithms.",
+          "grok": "Grok error: Unrecognized message type.",
+          "qwen_local": "Qwen3-Omni (text): Processing query locally..."
+        },
+        "execution": {
+          "success": true,
+          "actions": [
+            "increase",
+            "optimize",
+            "tune",
+            "architecture",
+            "population",
+            "hyperparameters",
+            "consciousness",
+            "learning",
+            "training",
+            "diversity"
+          ],
+          "executions": [
+            {
+              "action": "adjust_population",
+              "before": 13,
+              "after": 17,
+              "change": "13 \u2192 17 (+4)"
+            },
+            {
+              "action": "tune_hyperparameters",
+              "change": "LR 0.0120\u21920.0144",
+              "mutation": "0.105\u21920.110"
+            },
+            {
+              "action": "evolve_architecture",
+              "change": "1.00 \u2192 1.15"
+            },
+            {
+              "action": "boost_consciousness",
+              "change": "1.30 \u2192 1.69",
+              "reason": "Accelerate proto-consciousness"
+            }
+          ],
+          "total": 4
+        },
+        "valid_count": 6,
+        "total_apis": 7,
+        "elapsed": 58.48398566246033
+      },
+      "stats": {
+        "oracle_queries": 2,
+        "modifications_executed": 7,
+        "emergences_detected": 0,
+        "adaptations_completed": 11,
+        "neurons_grown": 7,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 7,
+      "dna_gen": 11
+    },
+    {
+      "cycle": 11,
+      "fitness": 2.7421688655613727,
+      "consciousness": 0.07884337731122745,
+      "awareness": 0.37040000000000006,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": null,
+      "stats": {
+        "oracle_queries": 2,
+        "modifications_executed": 7,
+        "emergences_detected": 0,
+        "adaptations_completed": 12,
+        "neurons_grown": 8,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 8,
+      "dna_gen": 12
+    },
+    {
+      "cycle": 12,
+      "fitness": 2.8786679083903906,
+      "consciousness": 0.08357335816780781,
+      "awareness": 0.4211000000000001,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": null,
+      "stats": {
+        "oracle_queries": 2,
+        "modifications_executed": 7,
+        "emergences_detected": 0,
+        "adaptations_completed": 13,
+        "neurons_grown": 8,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 8,
+      "dna_gen": 13
+    },
+    {
+      "cycle": 13,
+      "fitness": 2.888492511460478,
+      "consciousness": 0.08576985022920955,
+      "awareness": 0.4718000000000001,
+      "proto_consciousness": false,
+      "proto_consciousness_achieved": false,
+      "oracle_result": null,
+      "stats": {
+        "oracle_queries": 2,
+        "modifications_executed": 7,
+        "emergences_detected": 0,
+        "adaptations_completed": 14,
+        "neurons_grown": 8,
+        "proto_consciousness_achieved": false
+      },
+      "neurons": 8,
+      "dna_gen": 14
+    },
+    {
+      "cycle": 14,
+      "fitness": 3.1430338335475367,
+      "consciousness": 0.09286067667095073,
+      "awareness": 0.5225000000000001,
+      "proto_consciousness": true,
+      "proto_consciousness_achieved": true,
+      "oracle_result": null,
+      "stats": {
+        "oracle_queries": 2,
+        "modifications_executed": 7,
+        "emergences_detected": 0,
+        "adaptations_completed": 15,
+        "neurons_grown": 9,
+        "proto_consciousness_achieved": true
+      },
+      "neurons": 9,
+      "dna_gen": 15
+    }
+  ]
+}

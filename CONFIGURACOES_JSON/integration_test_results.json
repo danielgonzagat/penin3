@@ -1,0 +1,155 @@
+{
+  "timestamp": 1758687612.4880812,
+  "tests": {
+    "imports": {
+      "success": true,
+      "imports": {
+        "orchestrator": true,
+        "auto_modifier": true,
+        "emergence_detectors": true,
+        "self_consciousness": true,
+        "validation": true,
+        "launcher": true
+      },
+      "success_count": 6,
+      "total_count": 6
+    },
+    "orchestrator_init": {
+      "success": true,
+      "status": {
+        "evolution_cycles": 0,
+        "consciousness_level": 0.0,
+        "emergence_detected": false,
+        "atomic_bomb_activated": false,
+        "active_properties": {
+          "adaptative": 0.2,
+          "autorecursive": 0.1,
+          "autoevolutive": 0.3,
+          "autoconsciente": 0.0,
+          "autosuffisante": 0.8,
+          "autodidacte": 0.2,
+          "autoconstruite": 0.1,
+          "autoarchitecturale": 0.3,
+          "autorenouvelable": 0.9,
+          "autosynaptique": 0.1,
+          "automodulaire": 0.4,
+          "autoexpandible": 0.2,
+          "autovalidable": 0.5,
+          "autocalibrable": 0.5,
+          "autoanalytique": 0.3,
+          "autoregenerative": 0.9,
+          "autotrainee": 0.4,
+          "autotuning": 0.5,
+          "autoinfinie": 0.0
+        },
+        "emergent_behaviors": 0,
+        "evolution_loop_active": false
+      },
+      "evolution_cycles": 0,
+      "emergence_detected": false
+    },
+    "auto_modifier": {
+      "success": true,
+      "stats": {
+        "successful_modifications": 0,
+        "failed_modifications": 0,
+        "total_modifications": 0,
+        "success_rate": 0.0
+      },
+      "modification_ready": true
+    },
+    "emergence_detectors": {
+      "success": true,
+      "global_emergence": {
+        "detected": false,
+        "sources": [
+          [
+            "unsupervised",
+            0
+          ]
+        ],
+        "average_confidence": 0.0,
+        "source_count": 1
+      },
+      "detector_count": 5
+    },
+    "self_consciousness": {
+      "success": true,
+      "consciousness_state": {
+        "self_awareness_level": 8.492303446227444e-05,
+        "consciousness_dimensions": {
+          "self_awareness": 8.492303446227444e-05,
+          "emotional_awareness": 0.00013075030332086594,
+          "temporal_awareness": 0.05,
+          "causal_awareness": 0.0,
+          "intentional_awareness": 0.5,
+          "reflective_awareness": 0.0
+        },
+        "meta_cognitive_cycles": 0,
+        "introspection_events": 0,
+        "total_observations": 1
+      },
+      "self_awareness_achieved": false
+    },
+    "validation": {
+      "success": true,
+      "intelligence_score": 0.2501567024166795,
+      "emergent_confirmed": false
+    },
+    "evolution_cycle": {
+      "success": true,
+      "cycle_result": {
+        "cycle": 0,
+        "thought_result": {
+          "consciousness_level": 0.000839911628642576,
+          "thought_count": 1,
+          "emergent_behaviors": 0,
+          "active_properties": {
+            "adaptative": 0.2,
+            "autorecursive": 0.1,
+            "autoevolutive": 0.3,
+            "autoconsciente": 5.978901386260987e-07,
+            "autosuffisante": 0.8,
+            "autodidacte": 0.205978901386261,
+            "autoconstruite": 0.1,
+            "autoarchitecturale": 0.3,
+            "autorenouvelable": 0.9,
+            "autosynaptique": 0.1,
+            "automodulaire": 0.4,
+            "autoexpandible": 0.2,
+            "autovalidable": 0.5,
+            "autocalibrable": 0.5,
+            "autoanalytique": 0.3,
+            "autoregenerative": 0.9,
+            "autotrainee": 0.4005,
+            "autotuning": 0.5,
+            "autoinfinie": 0.0
+          }
+        },
+        "stimulus": {
+          "cycle": 0,
+          "random_factor": 0.025853824885467835,
+          "timestamp": 1758687612.6367176,
+          "system_load": 0.7732635064873473,
+          "emergent_events": 0
+        }
+      },
+      "emergence_result": {
+        "detected": false,
+        "sources": [],
+        "confidence": 0
+      },
+      "validation_result": {
+        "validation_tested": true,
+        "skipped_due_to_test": true
+      }
+    },
+    "launcher": {
+      "success": true,
+      "status": null,
+      "status_file_created": true
+    }
+  },
+  "overall_success": true,
+  "emergence_achieved": false
+}

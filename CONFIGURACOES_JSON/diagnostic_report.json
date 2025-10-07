@@ -1,0 +1,971 @@
+{
+  "timestamp": "2025-10-05T20:34:31.654125",
+  "hostname": "danielgonzagatj1",
+  "sections": {
+    "system_info": {
+      "os": "Linux 5.15.0-152-generic",
+      "architecture": "x86_64",
+      "python_version": "3.10.12",
+      "cpu_count": 24,
+      "cpu_count_logical": 48
+    },
+    "cpu": {
+      "average": "100.0%",
+      "per_core": [
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "99.8%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "99.8%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "99.8%",
+        "100.0%",
+        "100.0%",
+        "99.8%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "99.8%",
+        "99.8%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "99.8%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "99.8%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "99.8%",
+        "100.0%",
+        "99.8%",
+        "100.0%",
+        "99.8%",
+        "99.8%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "100.0%",
+        "100.0%"
+      ],
+      "load_avg": [
+        174.8330078125,
+        162.59228515625,
+        143.837890625
+      ]
+    },
+    "memory": {
+      "total": "376.40 GB",
+      "available": "343.17 GB",
+      "used": "30.15 GB",
+      "percent": "8.8%",
+      "swap_total": "0.00 GB",
+      "swap_used": "0.00 GB",
+      "swap_percent": "0.0%"
+    },
+    "disk": {
+      "total": "3516.76 GB",
+      "used": "1700.27 GB",
+      "free": "1637.78 GB",
+      "percent": "50.9%",
+      "read_speed": "0.00 MB/s",
+      "write_speed": "3.34 MB/s"
+    },
+    "python_processes": [
+      {
+        "pid": 759937,
+        "cpu": 0.0,
+        "mem": 0.14192235730709554,
+        "uptime": 95684.45786142349,
+        "cmdline": "python /root/UNIFIED_BRAIN/main_evolution_loop.py"
+      },
+      {
+        "pid": 2110211,
+        "cpu": 0.0,
+        "mem": 0.32250483702527744,
+        "uptime": 8045.789222717285,
+        "cmdline": "python -u -"
+      },
+      {
+        "pid": 3326113,
+        "cpu": 0.0,
+        "mem": 0.12695937174432942,
+        "uptime": 2620.6923117637634,
+        "cmdline": "python3 -u darwin_runner.py"
+      },
+      {
+        "pid": 3354056,
+        "cpu": 0.0,
+        "mem": 0.794549330158094,
+        "uptime": 2525.192500114441,
+        "cmdline": "python3 -"
+      },
+      {
+        "pid": 3540434,
+        "cpu": 0.0,
+        "mem": 0.790534944773773,
+        "uptime": 1719.5255315303802,
+        "cmdline": "python3 -"
+      },
+      {
+        "pid": 3544422,
+        "cpu": 0.0,
+        "mem": 0.27072017769751394,
+        "uptime": 1689.9357640743256,
+        "cmdline": "python /tmp/cerebrum_continuous.py"
+      },
+      {
+        "pid": 3580643,
+        "cpu": 0.0,
+        "mem": 0.2582118352553804,
+        "uptime": 1256.9388213157654,
+        "cmdline": "python3 -u darwin_runner_darwinacci.py"
+      },
+      {
+        "pid": 3613700,
+        "cpu": 0.0,
+        "mem": 0.7923804877641413,
+        "uptime": 881.3129186630249,
+        "cmdline": "python3 -u /root/UNIFIED_BRAIN/brain_daemon_real_env.py"
+      },
+      {
+        "pid": 3621408,
+        "cpu": 0.0,
+        "mem": 0.292534272878561,
+        "uptime": 791.014063835144,
+        "cmdline": "python3 -u /root/UNIFIED_BRAIN/brain_daemon_real_env.py"
+      },
+      {
+        "pid": 3640392,
+        "cpu": 0.0,
+        "mem": 0.28922526801115167,
+        "uptime": 589.2586059570312,
+        "cmdline": "python3 -"
+      },
+      {
+        "pid": 3647938,
+        "cpu": 0.0,
+        "mem": 0.1280397390302891,
+        "uptime": 515.6220078468323,
+        "cmdline": "python3 /root/EMERGENCE_CATALYST_4_SYSTEM_CONNECTOR.py 100 60"
+      },
+      {
+        "pid": 3647939,
+        "cpu": 0.0,
+        "mem": 0.12668269231743728,
+        "uptime": 515.6221854686737,
+        "cmdline": "python3 /root/CONSCIOUSNESS_DAEMON.py"
+      },
+      {
+        "pid": 3647940,
+        "cpu": 0.0,
+        "mem": 0.1264414846119416,
+        "uptime": 515.6223635673523,
+        "cmdline": "python3 /root/SURPRISE_DAEMON.py"
+      },
+      {
+        "pid": 3647941,
+        "cpu": 0.0,
+        "mem": 0.12902686636286387,
+        "uptime": 515.622545003891,
+        "cmdline": "python3 /root/DARWINACCI_DAEMON.py"
+      },
+      {
+        "pid": 3647942,
+        "cpu": 0.0,
+        "mem": 0.12883937297833992,
+        "uptime": 515.6227223873138,
+        "cmdline": "python3 /root/PHASE4_DAEMON.py"
+      },
+      {
+        "pid": 3647943,
+        "cpu": 0.0,
+        "mem": 0.12870964782580444,
+        "uptime": 515.6228978633881,
+        "cmdline": "python3 /root/PHASE5_DAEMON.py"
+      },
+      {
+        "pid": 3647944,
+        "cpu": 0.0,
+        "mem": 0.25727842224377734,
+        "uptime": 515.6231911182404,
+        "cmdline": "python3 /root/V7_RUNNER_DAEMON.py"
+      },
+      {
+        "pid": 3691075,
+        "cpu": 0.0,
+        "mem": 0.12686613179094453,
+        "uptime": 19.593591451644897,
+        "cmdline": "python3 diagnostic_machine_complete.py"
+      },
+      {
+        "pid": 3692697,
+        "cpu": 0.0,
+        "mem": 0.10651347153143016,
+        "uptime": 1.235163927078247,
+        "cmdline": "/usr/bin/python3 /root/copilot_immune_healing_system.py"
+      },
+      {
+        "pid": 3692698,
+        "cpu": 0.0,
+        "mem": 0.11075690288819674,
+        "uptime": 1.2353434562683105,
+        "cmdline": "/usr/bin/python3 /root/.incompletude_daemon.py"
+      }
+    ],
+    "top_processes": [
+      {
+        "pid": 1857331,
+        "name": "llama-server",
+        "cpu": 1266.4,
+        "mem": 1.6491462037738098,
+        "threads": 97
+      },
+      {
+        "pid": 3354056,
+        "name": "python3",
+        "cpu": 781.9,
+        "mem": 0.794549330158094,
+        "threads": 71
+      },
+      {
+        "pid": 3621408,
+        "name": "python3",
+        "cpu": 772.0,
+        "mem": 0.292534272878561,
+        "threads": 71
+      },
+      {
+        "pid": 3613700,
+        "name": "python3",
+        "cpu": 364.9,
+        "mem": 0.7923804877641413,
+        "threads": 71
+      },
+      {
+        "pid": 3540434,
+        "name": "python3",
+        "cpu": 185.3,
+        "mem": 0.7905278504294936,
+        "threads": 71
+      },
+      {
+        "pid": 2110211,
+        "name": "python",
+        "cpu": 182.0,
+        "mem": 0.32250483702527744,
+        "threads": 162
+      },
+      {
+        "pid": 3580643,
+        "name": "python3",
+        "cpu": 173.2,
+        "mem": 0.2582118352553804,
+        "threads": 136
+      },
+      {
+        "pid": 3640392,
+        "name": "python3",
+        "cpu": 161.8,
+        "mem": 0.28922526801115167,
+        "threads": 71
+      },
+      {
+        "pid": 3692503,
+        "name": "litellm",
+        "cpu": 105.3,
+        "mem": 0.13293179614973313,
+        "threads": 48
+      },
+      {
+        "pid": 3691075,
+        "name": "python3",
+        "cpu": 98.7,
+        "mem": 0.12693200784496644,
+        "threads": 48
+      },
+      {
+        "pid": 3692698,
+        "name": "python3",
+        "cpu": 98.7,
+        "mem": 0.11403550342298059,
+        "threads": 48
+      },
+      {
+        "pid": 3692697,
+        "name": "python3",
+        "cpu": 92.1,
+        "mem": 0.1131699934209078,
+        "threads": 48
+      },
+      {
+        "pid": 2740566,
+        "name": "MainThread",
+        "cpu": 89.4,
+        "mem": 0.2142421028901264,
+        "threads": 59
+      },
+      {
+        "pid": 2750939,
+        "name": "MainThread",
+        "cpu": 83.5,
+        "mem": 0.3680748507643872,
+        "threads": 59
+      },
+      {
+        "pid": 3647944,
+        "name": "python3",
+        "cpu": 78.1,
+        "mem": 0.25727842224377734,
+        "threads": 135
+      },
+      {
+        "pid": 2741759,
+        "name": "MainThread",
+        "cpu": 71.5,
+        "mem": 0.27813376746936674,
+        "threads": 59
+      },
+      {
+        "pid": 3692502,
+        "name": "git",
+        "cpu": 59.2,
+        "mem": 0.11216665044426608,
+        "threads": 1
+      },
+      {
+        "pid": 3544422,
+        "name": "python",
+        "cpu": 53.8,
+        "mem": 0.27072017769751394,
+        "threads": 112
+      },
+      {
+        "pid": 2247452,
+        "name": "MainThread",
+        "cpu": 47.0,
+        "mem": 0.1722547330120555,
+        "threads": 59
+      },
+      {
+        "pid": 3637212,
+        "name": "MainThread",
+        "cpu": 35.9,
+        "mem": 0.07621656754786665,
+        "threads": 63
+      }
+    ],
+    "checkpoints": {
+      "count": 14,
+      "total_size_mb": 4.941577911376953,
+      "files": [
+        {
+          "path": "/root/intelligence_system/models/mnist_optimized.pth",
+          "size_mb": 2.334811210632324,
+          "modified": "2025-10-02T10:15:30.409457"
+        },
+        {
+          "path": "/root/intelligence_system/models/mnist_model.pth",
+          "size_mb": 1.1701765060424805,
+          "modified": "2025-10-05T19:06:54.480973"
+        },
+        {
+          "path": "/root/intelligence_system/models/dqn_cartpole.pth",
+          "size_mb": 0.2748384475708008,
+          "modified": "2025-10-03T11:48:22.224731"
+        },
+        {
+          "path": "/root/intelligence_system/models/ppo_cartpole_v7_fixed.pth",
+          "size_mb": 0.21175289154052734,
+          "modified": "2025-10-02T09:40:56.170864"
+        },
+        {
+          "path": "/root/intelligence_system/models/ppo_cartpole_v7_FINAL.pth",
+          "size_mb": 0.21175289154052734,
+          "modified": "2025-10-02T09:49:42.938546"
+        },
+        {
+          "path": "/root/intelligence_system/models/ppo_cartpole_v7_REAL.pth",
+          "size_mb": 0.2117166519165039,
+          "modified": "2025-10-02T09:45:50.332046"
+        },
+        {
+          "path": "/root/intelligence_system/models/ppo_cartpole_v7.pth",
+          "size_mb": 0.21153545379638672,
+          "modified": "2025-10-03T23:11:10.063625"
+        },
+        {
+          "path": "/root/intelligence_system/models/ppo_cartpole.pth",
+          "size_mb": 0.2112436294555664,
+          "modified": "2025-10-01T21:04:49.305377"
+        },
+        {
+          "path": "/root/intelligence_system/models/ppo_cartpole_v7_honest.pth",
+          "size_mb": 0.0713796615600586,
+          "modified": "2025-10-02T12:44:29.661114"
+        },
+        {
+          "path": "/root/intelligence_system/models/meta_learner.pth",
+          "size_mb": 0.014618873596191406,
+          "modified": "2025-10-05T19:06:54.480973"
+        },
+        {
+          "path": "/root/intelligence_system/models/meta_learner_FINAL.pth",
+          "size_mb": 0.012547492980957031,
+          "modified": "2025-10-02T10:06:29.816134"
+        },
+        {
+          "path": "/root/intelligence_system/models/darwin_checkpoints/darwin_cartpole_gen5_20251004_140023.pt",
+          "size_mb": 0.0017347335815429688,
+          "modified": "2025-10-04T14:00:23.765368"
+        },
+        {
+          "path": "/root/intelligence_system/models/darwin_checkpoints/V7_TRANSFER.pt",
+          "size_mb": 0.0017347335815429688,
+          "modified": "2025-10-04T15:48:19.293265"
+        },
+        {
+          "path": "/root/intelligence_system/models/v7_checkpoints/DARWIN_TRANSFER.pt",
+          "size_mb": 0.0017347335815429688,
+          "modified": "2025-10-04T15:48:19.293265"
+        }
+      ]
+    },
+    "logs_databases": {
+      "count": 38,
+      "total_size_mb": 23.88264274597168,
+      "files": [
+        {
+          "path": "/root/intelligence_system/logs/intelligence_v7.log",
+          "size_mb": 8.298429489135742,
+          "modified": "2025-10-05T20:26:57.795685"
+        },
+        {
+          "path": "/root/intelligence_system/data/intelligence.db",
+          "size_mb": 7.09375,
+          "modified": "2025-10-05T20:34:38.241979"
+        },
+        {
+          "path": "/root/intelligence_system/data/unified_worm.jsonl",
+          "size_mb": 4.1131792068481445,
+          "modified": "2025-10-05T20:19:41.473269"
+        },
+        {
+          "path": "/root/intelligence_system/logs/v7_stabilized.log",
+          "size_mb": 1.7283039093017578,
+          "modified": "2025-10-02T20:20:07.926371"
+        },
+        {
+          "path": "/root/intelligence_system/data/darwinacci_worm.csv",
+          "size_mb": 0.6153364181518555,
+          "modified": "2025-10-05T20:34:38.957977"
+        },
+        {
+          "path": "/root/intelligence_system/logs/intelligence_v6.log",
+          "size_mb": 0.3763389587402344,
+          "modified": "2025-10-01T21:13:50.597066"
+        },
+        {
+          "path": "/root/intelligence_system/data/soak_200_20251005_201852/run.log",
+          "size_mb": 0.3712587356567383,
+          "modified": "2025-10-05T20:19:42.833264"
+        },
+        {
+          "path": "/root/intelligence_system/logs/intelligence.log",
+          "size_mb": 0.3459043502807617,
+          "modified": "2025-10-03T11:48:51.584630"
+        },
+        {
+          "path": "/root/intelligence_system/data/exports/timeline_metrics.jsonl",
+          "size_mb": 0.10184097290039062,
+          "modified": "2025-10-05T20:09:47.067432"
+        },
+        {
+          "path": "/root/intelligence_system/data/unified_worm.db",
+          "size_mb": 0.1005392074584961,
+          "modified": "2025-10-03T11:45:58.629223"
+        },
+        {
+          "path": "/root/intelligence_system/logs/intelligence_v4.log",
+          "size_mb": 0.07391929626464844,
+          "modified": "2025-10-01T16:58:59.240135"
+        },
+        {
+          "path": "/root/intelligence_system/logs/intelligence_v5.log",
+          "size_mb": 0.0665283203125,
+          "modified": "2025-10-01T18:16:58.601729"
+        },
+        {
+          "path": "/root/intelligence_system/logs/v6_output.log",
+          "size_mb": 0.06493282318115234,
+          "modified": "2025-10-01T20:37:22.587199"
+        },
+        {
+          "path": "/root/intelligence_system/logs/v4_output.log",
+          "size_mb": 0.05941486358642578,
+          "modified": "2025-10-01T16:58:59.240135"
+        },
+        {
+          "path": "/root/intelligence_system/data/exports/timeline_metrics.csv",
+          "size_mb": 0.05732154846191406,
+          "modified": "2025-10-05T20:19:37.713283"
+        },
+        {
+          "path": "/root/intelligence_system/logs/v7_patched.log",
+          "size_mb": 0.04701519012451172,
+          "modified": "2025-10-01T22:12:02.955442"
+        },
+        {
+          "path": "/root/intelligence_system/logs/v6_final.log",
+          "size_mb": 0.041473388671875,
+          "modified": "2025-10-01T19:33:29.380307"
+        },
+        {
+          "path": "/root/intelligence_system/logs/v5_output.log",
+          "size_mb": 0.04029273986816406,
+          "modified": "2025-10-01T18:16:58.601729"
+        },
+        {
+          "path": "/root/intelligence_system/core/TEST_intelligence.db",
+          "size_mb": 0.0390625,
+          "modified": "2025-10-05T19:59:58.173606"
+        },
+        {
+          "path": "/root/intelligence_system/data/emergence_surprises.db",
+          "size_mb": 0.03515625,
+          "modified": "2025-10-05T20:34:16.458060"
+        }
+      ]
+    },
+    "network": {
+      "established_count": 155,
+      "connections": [
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "120.48.131.211:54811",
+          "status": "ESTABLISHED",
+          "pid": 2466037
+        },
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "14.103.107.221:46438",
+          "status": "ESTABLISHED",
+          "pid": 1669765
+        },
+        {
+          "local": "92.38.150.138:37980",
+          "remote": "35.174.232.237:443",
+          "status": "ESTABLISHED",
+          "pid": 2247452
+        },
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "106.75.213.50:49456",
+          "status": "ESTABLISHED",
+          "pid": 2511538
+        },
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "14.103.118.153:48922",
+          "status": "ESTABLISHED",
+          "pid": 2473158
+        },
+        {
+          "local": "127.0.0.1:51634",
+          "remote": "127.0.0.1:8001",
+          "status": "ESTABLISHED",
+          "pid": 3647938
+        },
+        {
+          "local": "92.38.150.138:39438",
+          "remote": "44.223.227.223:443",
+          "status": "ESTABLISHED",
+          "pid": 3443028
+        },
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "14.103.107.221:43936",
+          "status": "ESTABLISHED",
+          "pid": 1734092
+        },
+        {
+          "local": "92.38.150.138:37470",
+          "remote": "52.0.238.243:443",
+          "status": "ESTABLISHED",
+          "pid": 2740566
+        },
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "14.103.107.221:43116",
+          "status": "ESTABLISHED",
+          "pid": 1584991
+        },
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "14.103.107.26:37356",
+          "status": "ESTABLISHED",
+          "pid": 3636924
+        },
+        {
+          "local": "92.38.150.138:42342",
+          "remote": "3.220.117.166:443",
+          "status": "ESTABLISHED",
+          "pid": 3683475
+        },
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "101.126.81.188:60066",
+          "status": "ESTABLISHED",
+          "pid": 932794
+        },
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "120.48.131.211:33085",
+          "status": "ESTABLISHED",
+          "pid": 2470701
+        },
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "120.48.131.211:46101",
+          "status": "ESTABLISHED",
+          "pid": 2480003
+        },
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "187.62.85.68:34181",
+          "status": "ESTABLISHED",
+          "pid": 1713640
+        },
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "115.190.107.104:58664",
+          "status": "ESTABLISHED",
+          "pid": 544491
+        },
+        {
+          "local": "92.38.150.138:54118",
+          "remote": "52.71.186.236:443",
+          "status": "ESTABLISHED",
+          "pid": 3443028
+        },
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "106.75.213.50:35836",
+          "status": "ESTABLISHED",
+          "pid": 2500826
+        },
+        {
+          "local": "92.38.150.138:2200",
+          "remote": "14.103.127.30:35148",
+          "status": "ESTABLISHED",
+          "pid": 1776333
+        }
+      ]
+    },
+    "threads": {
+      "pid": 759937,
+      "count": 72,
+      "top_threads": [
+        {
+          "tid": 759937,
+          "user_time": 29.13,
+          "system_time": 0.81
+        },
+        {
+          "tid": 761838,
+          "user_time": 28.64,
+          "system_time": 0.02
+        },
+        {
+          "tid": 761829,
+          "user_time": 28.62,
+          "system_time": 0.01
+        },
+        {
+          "tid": 761831,
+          "user_time": 28.52,
+          "system_time": 0.03
+        },
+        {
+          "tid": 761828,
+          "user_time": 28.5,
+          "system_time": 0.04
+        },
+        {
+          "tid": 761823,
+          "user_time": 28.46,
+          "system_time": 0.05
+        },
+        {
+          "tid": 761835,
+          "user_time": 28.48,
+          "system_time": 0.03
+        },
+        {
+          "tid": 761822,
+          "user_time": 28.44,
+          "system_time": 0.03
+        },
+        {
+          "tid": 761824,
+          "user_time": 28.46,
+          "system_time": 0.01
+        },
+        {
+          "tid": 761832,
+          "user_time": 28.41,
+          "system_time": 0.05
+        },
+        {
+          "tid": 761827,
+          "user_time": 28.42,
+          "system_time": 0.03
+        },
+        {
+          "tid": 761830,
+          "user_time": 28.41,
+          "system_time": 0.03
+        },
+        {
+          "tid": 761820,
+          "user_time": 28.39,
+          "system_time": 0.03
+        },
+        {
+          "tid": 761821,
+          "user_time": 28.35,
+          "system_time": 0.06
+        },
+        {
+          "tid": 761842,
+          "user_time": 28.31,
+          "system_time": 0.04
+        },
+        {
+          "tid": 761840,
+          "user_time": 28.3,
+          "system_time": 0.04
+        },
+        {
+          "tid": 761836,
+          "user_time": 28.3,
+          "system_time": 0.03
+        },
+        {
+          "tid": 761833,
+          "user_time": 28.29,
+          "system_time": 0.04
+        },
+        {
+          "tid": 761825,
+          "user_time": 28.29,
+          "system_time": 0.03
+        },
+        {
+          "tid": 761834,
+          "user_time": 28.25,
+          "system_time": 0.03
+        }
+      ]
+    },
+    "io_detailed": {
+      "loop0": {
+        "read_gb": 5.8650970458984375e-05,
+        "write_gb": 0.0,
+        "read_time": 1,
+        "write_time": 0
+      },
+      "loop1": {
+        "read_gb": 0.073486328125,
+        "write_gb": 0.0,
+        "read_time": 1494,
+        "write_time": 0
+      },
+      "loop2": {
+        "read_gb": 0.032364845275878906,
+        "write_gb": 0.0,
+        "read_time": 1116,
+        "write_time": 0
+      },
+      "loop3": {
+        "read_gb": 0.08354473114013672,
+        "write_gb": 0.0,
+        "read_time": 446,
+        "write_time": 0
+      },
+      "loop4": {
+        "read_gb": 0.2902336120605469,
+        "write_gb": 0.0,
+        "read_time": 3470,
+        "write_time": 0
+      },
+      "loop5": {
+        "read_gb": 0.13156414031982422,
+        "write_gb": 0.0,
+        "read_time": 3359,
+        "write_time": 0
+      },
+      "loop6": {
+        "read_gb": 0.15944194793701172,
+        "write_gb": 0.0,
+        "read_time": 2618,
+        "write_time": 0
+      },
+      "loop7": {
+        "read_gb": 0.1850423812866211,
+        "write_gb": 0.0,
+        "read_time": 4871,
+        "write_time": 0
+      },
+      "sda": {
+        "read_gb": 4947.236701011658,
+        "write_gb": 11478.357428073883,
+        "read_time": 55396597,
+        "write_time": 1052518525
+      },
+      "sda1": {
+        "read_gb": 0.030918598175048828,
+        "write_gb": 6.198883056640625e-06,
+        "read_time": 327,
+        "write_time": 5
+      },
+      "sda2": {
+        "read_gb": 4947.186450958252,
+        "write_gb": 11478.357421875,
+        "read_time": 55396020,
+        "write_time": 1052518519
+      },
+      "loop8": {
+        "read_gb": 0.05185508728027344,
+        "write_gb": 0.0,
+        "read_time": 591,
+        "write_time": 0
+      },
+      "loop9": {
+        "read_gb": 0.2916097640991211,
+        "write_gb": 0.0,
+        "read_time": 2702,
+        "write_time": 0
+      },
+      "loop10": {
+        "read_gb": 0.07818412780761719,
+        "write_gb": 0.0,
+        "read_time": 1823,
+        "write_time": 0
+      },
+      "loop11": {
+        "read_gb": 0.3100776672363281,
+        "write_gb": 0.0,
+        "read_time": 6496,
+        "write_time": 0
+      },
+      "loop12": {
+        "read_gb": 0.5125818252563477,
+        "write_gb": 0.0,
+        "read_time": 12679,
+        "write_time": 0
+      },
+      "loop13": {
+        "read_gb": 0.0018754005432128906,
+        "write_gb": 0.0,
+        "read_time": 22,
+        "write_time": 0
+      },
+      "loop14": {
+        "read_gb": 0.13742828369140625,
+        "write_gb": 0.0,
+        "read_time": 2651,
+        "write_time": 0
+      },
+      "loop15": {
+        "read_gb": 0.23119068145751953,
+        "write_gb": 0.0,
+        "read_time": 15648,
+        "write_time": 0
+      },
+      "loop16": {
+        "read_gb": 0.026337623596191406,
+        "write_gb": 0.0,
+        "read_time": 8057,
+        "write_time": 0
+      },
+      "loop17": {
+        "read_gb": 0.5354156494140625,
+        "write_gb": 0.0,
+        "read_time": 12559,
+        "write_time": 0
+      },
+      "loop18": {
+        "read_gb": 0.22834396362304688,
+        "write_gb": 0.0,
+        "read_time": 3736,
+        "write_time": 0
+      },
+      "loop19": {
+        "read_gb": 0.07014656066894531,
+        "write_gb": 0.0,
+        "read_time": 198,
+        "write_time": 0
+      },
+      "loop20": {
+        "read_gb": 0.008844375610351562,
+        "write_gb": 0.0,
+        "read_time": 124,
+        "write_time": 0
+      },
+      "loop21": {
+        "read_gb": 0.09999847412109375,
+        "write_gb": 0.0,
+        "read_time": 2719,
+        "write_time": 0
+      },
+      "loop22": {
+        "read_gb": 0.0051860809326171875,
+        "write_gb": 0.0,
+        "read_time": 8,
+        "write_time": 0
+      },
+      "loop23": {
+        "read_gb": 0.0010862350463867188,
+        "write_gb": 0.0,
+        "read_time": 1,
+        "write_time": 0
+      }
+    },
+    "checkpoint_analysis": {
+      "type": "<class 'dict'>",
+      "keys": [
+        "model_state_dict",
+        "optimizer_state_dict"
+      ],
+      "cycle": "N/A"
+    },
+    "limits": {
+      "NOFILE (Open files)": {
+        "soft": 65536,
+        "hard": 65536
+      },
+      "NPROC (Processes)": {
+        "soft": 32768,
+        "hard": 32768
+      },
+      "AS (Address space)": {
+        "soft": -1,
+        "hard": -1
+      }
+    }
+  }
+}

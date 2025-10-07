@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-09-22T02:04:47.234253Z",
+  "config": "/root/darwin/darwin_policy.json",
+  "worm": "/root/worm/darwin_worm.log",
+  "counts": {
+    "decisions": 45,
+    "promotions": 2,
+    "kills": 16,
+    "spawns": 1
+  },
+  "birth_window": {
+    "deaths_since_spawn": 6,
+    "window": 10
+  },
+  "last_hash": "38ad2a679c2a1b51897c8f0fcea850ca7a2c104de6170ec8e73a9daee144d9b6"
+}

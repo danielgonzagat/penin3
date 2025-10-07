@@ -1,0 +1,12 @@
+{
+  "neural_activation_threshold": 0.1,
+  "synaptic_strength_threshold": 0.05,
+  "learning_rate_multiplier": 2.0,
+  "momentum_factor": 0.9,
+  "adaptation_speed": 0.8,
+  "coherence_threshold": 0.2,
+  "novelty_threshold": 0.15,
+  "promotion_threshold": 0.3,
+  "fitness_boost_factor": 1.5,
+  "emergence_acceleration": 2.0
+}

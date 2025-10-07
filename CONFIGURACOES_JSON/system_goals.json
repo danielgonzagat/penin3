@@ -1,0 +1,23 @@
+[
+  {
+    "type": "survival",
+    "objective": "Maintain system health above 80%",
+    "priority": 0.9,
+    "created": "2025-09-22T16:02:11.134822",
+    "status": "active"
+  },
+  {
+    "type": "optimization",
+    "objective": "Improve fitness by 20%",
+    "priority": 0.8039521242117879,
+    "created": "2025-09-22T16:02:11.134843",
+    "status": "active"
+  },
+  {
+    "type": "learning",
+    "objective": "Learn 10 new behaviors",
+    "priority": 0.7065261730671147,
+    "created": "2025-09-22T16:02:11.134845",
+    "status": "active"
+  }
+]

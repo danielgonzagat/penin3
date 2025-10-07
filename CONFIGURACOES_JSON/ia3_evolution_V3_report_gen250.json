@@ -1,0 +1,2914 @@
+{
+  "current_generation": 250,
+  "current_population": 16516,
+  "history": [
+    {
+      "generation": 41,
+      "population": 24353,
+      "avg_fitness": 0.5,
+      "deaths": 0,
+      "births": 500,
+      "timestamp": 1758845061.9710538
+    },
+    {
+      "generation": 42,
+      "population": 24699,
+      "avg_fitness": 0.5000008172613539,
+      "deaths": 154,
+      "births": 500,
+      "timestamp": 1758845342.3790822
+    },
+    {
+      "generation": 43,
+      "population": 24677,
+      "avg_fitness": 0.4847893382311881,
+      "deaths": 522,
+      "births": 500,
+      "timestamp": 1758845756.672991
+    },
+    {
+      "generation": 44,
+      "population": 24703,
+      "avg_fitness": 0.4851963520726359,
+      "deaths": 474,
+      "births": 500,
+      "timestamp": 1758846065.0158868
+    },
+    {
+      "generation": 45,
+      "population": 24716,
+      "avg_fitness": 0.48462736112325483,
+      "deaths": 487,
+      "births": 500,
+      "timestamp": 1758846483.6028867
+    },
+    {
+      "generation": 46,
+      "population": 13397,
+      "avg_fitness": 0.49995908584023085,
+      "deaths": 11819,
+      "births": 500,
+      "timestamp": 1758846810.0971026
+    },
+    {
+      "generation": 47,
+      "population": 13741,
+      "avg_fitness": 0.500055652274439,
+      "deaths": 156,
+      "births": 500,
+      "timestamp": 1758855991.2205048,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 2000,
+        "total_edges": 62048,
+        "avg_edges_per_neuron": 31.024
+      }
+    },
+    {
+      "generation": 48,
+      "population": 14098,
+      "avg_fitness": 0.5002309402826268,
+      "deaths": 143,
+      "births": 500,
+      "timestamp": 1758856003.3275204,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 3721,
+        "total_edges": 114784,
+        "avg_edges_per_neuron": 30.847621607094865
+      }
+    },
+    {
+      "generation": 49,
+      "population": 14441,
+      "avg_fitness": 0.9858369129977183,
+      "deaths": 157,
+      "births": 500,
+      "timestamp": 1758856024.3355713,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 5198,
+        "total_edges": 160544,
+        "avg_edges_per_neuron": 30.885725278953444
+      }
+    },
+    {
+      "generation": 50,
+      "population": 14806,
+      "avg_fitness": 0.9859488357048624,
+      "deaths": 135,
+      "births": 500,
+      "timestamp": 1758856088.846431,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 6490,
+        "total_edges": 201216,
+        "avg_edges_per_neuron": 31.004006163328196
+      }
+    },
+    {
+      "generation": 51,
+      "population": 15143,
+      "avg_fitness": 0.9859779089360472,
+      "deaths": 163,
+      "births": 500,
+      "timestamp": 1758856150.3906875,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 7670,
+        "total_edges": 237408,
+        "avg_edges_per_neuron": 30.952803129074315
+      }
+    },
+    {
+      "generation": 52,
+      "population": 15441,
+      "avg_fitness": 0.03308177698916645,
+      "deaths": 202,
+      "births": 500,
+      "timestamp": 1758856164.4067225,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 8714,
+        "total_edges": 237408,
+        "avg_edges_per_neuron": 27.244434243745697
+      }
+    },
+    {
+      "generation": 53,
+      "population": 15689,
+      "avg_fitness": 0.03339406512289241,
+      "deaths": 252,
+      "births": 500,
+      "timestamp": 1758856218.7789288,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 9697,
+        "total_edges": 237408,
+        "avg_edges_per_neuron": 24.482623491801586
+      }
+    },
+    {
+      "generation": 54,
+      "population": 15930,
+      "avg_fitness": 0.03330693901905018,
+      "deaths": 259,
+      "births": 500,
+      "timestamp": 1758856230.0963886,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 10519,
+        "total_edges": 237408,
+        "avg_edges_per_neuron": 22.56944576480654
+      }
+    },
+    {
+      "generation": 55,
+      "population": 16192,
+      "avg_fitness": 0.5000192375263177,
+      "deaths": 238,
+      "births": 500,
+      "timestamp": 1758856246.6826284,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 11263,
+        "total_edges": 270848,
+        "avg_edges_per_neuron": 24.047589452188582
+      }
+    },
+    {
+      "generation": 56,
+      "population": 16471,
+      "avg_fitness": 0.500037130104606,
+      "deaths": 221,
+      "births": 500,
+      "timestamp": 1758856343.3606846,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 12010,
+        "total_edges": 302944,
+        "avg_edges_per_neuron": 25.224313072439635
+      }
+    },
+    {
+      "generation": 57,
+      "population": 16759,
+      "avg_fitness": 0.5000535693352328,
+      "deaths": 212,
+      "births": 500,
+      "timestamp": 1758856357.552529,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 12696,
+        "total_edges": 331808,
+        "avg_edges_per_neuron": 26.134845620667928
+      }
+    },
+    {
+      "generation": 58,
+      "population": 16901,
+      "avg_fitness": 0.05462827550154952,
+      "deaths": 358,
+      "births": 500,
+      "timestamp": 1758856368.9677217,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 13334,
+        "total_edges": 331953,
+        "avg_edges_per_neuron": 24.895230238488075
+      }
+    },
+    {
+      "generation": 59,
+      "population": 17055,
+      "avg_fitness": 0.0548898432566692,
+      "deaths": 346,
+      "births": 500,
+      "timestamp": 1758856426.2693565,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 13932,
+        "total_edges": 332129,
+        "avg_edges_per_neuron": 23.839290841228827
+      }
+    },
+    {
+      "generation": 60,
+      "population": 17217,
+      "avg_fitness": 0.05576622414295361,
+      "deaths": 338,
+      "births": 500,
+      "timestamp": 1758856437.4986136,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 14473,
+        "total_edges": 332292,
+        "avg_edges_per_neuron": 22.959441719063083
+      }
+    },
+    {
+      "generation": 61,
+      "population": 17247,
+      "avg_fitness": 0.50013360605981,
+      "deaths": 470,
+      "births": 500,
+      "timestamp": 1758856502.21285,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 15038,
+        "total_edges": 361031,
+        "avg_edges_per_neuron": 24.007913286341267
+      }
+    },
+    {
+      "generation": 62,
+      "population": 17280,
+      "avg_fitness": 0.5003866919792029,
+      "deaths": 467,
+      "births": 500,
+      "timestamp": 1758856563.2679434,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 15519,
+        "total_edges": 386251,
+        "avg_edges_per_neuron": 24.888910367936077
+      }
+    },
+    {
+      "generation": 63,
+      "population": 17334,
+      "avg_fitness": 0.5006356591841689,
+      "deaths": 446,
+      "births": 500,
+      "timestamp": 1758856577.9084802,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 16013,
+        "total_edges": 410150,
+        "avg_edges_per_neuron": 25.613563979266846
+      }
+    },
+    {
+      "generation": 64,
+      "population": 17337,
+      "avg_fitness": 0.9858752037140616,
+      "deaths": 497,
+      "births": 500,
+      "timestamp": 1758856605.485895,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 16461,
+        "total_edges": 431808,
+        "avg_edges_per_neuron": 26.232185164935302
+      }
+    },
+    {
+      "generation": 65,
+      "population": 17336,
+      "avg_fitness": 0.9858775077693309,
+      "deaths": 501,
+      "births": 500,
+      "timestamp": 1758856675.7409818,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 16902,
+        "total_edges": 451334,
+        "avg_edges_per_neuron": 26.702993728552833
+      }
+    },
+    {
+      "generation": 66,
+      "population": 17337,
+      "avg_fitness": 0.9858929388797438,
+      "deaths": 499,
+      "births": 500,
+      "timestamp": 1758856745.8072302,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 17342,
+        "total_edges": 470762,
+        "avg_edges_per_neuron": 27.145773267212547
+      }
+    },
+    {
+      "generation": 67,
+      "population": 17312,
+      "avg_fitness": 0.033288933943703324,
+      "deaths": 525,
+      "births": 500,
+      "timestamp": 1758856759.4372945,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 17765,
+        "total_edges": 470762,
+        "avg_edges_per_neuron": 26.499408950182943
+      }
+    },
+    {
+      "generation": 68,
+      "population": 17235,
+      "avg_fitness": 0.033246146055294995,
+      "deaths": 577,
+      "births": 500,
+      "timestamp": 1758856815.1136022,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 18174,
+        "total_edges": 470762,
+        "avg_edges_per_neuron": 25.90304831077363
+      }
+    },
+    {
+      "generation": 69,
+      "population": 17199,
+      "avg_fitness": 0.03332672202384166,
+      "deaths": 536,
+      "births": 500,
+      "timestamp": 1758856827.9092038,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 18588,
+        "total_edges": 470762,
+        "avg_edges_per_neuron": 25.326124381321282
+      }
+    },
+    {
+      "generation": 70,
+      "population": 17146,
+      "avg_fitness": 0.5000320399172798,
+      "deaths": 553,
+      "births": 500,
+      "timestamp": 1758856847.2276363,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 18971,
+        "total_edges": 491462,
+        "avg_edges_per_neuron": 25.9059617310632
+      }
+    },
+    {
+      "generation": 71,
+      "population": 17094,
+      "avg_fitness": 0.5000527318391919,
+      "deaths": 552,
+      "births": 500,
+      "timestamp": 1758856943.7884479,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 19347,
+        "total_edges": 509656,
+        "avg_edges_per_neuron": 26.342895539360107
+      }
+    },
+    {
+      "generation": 72,
+      "population": 17004,
+      "avg_fitness": 0.5000642242523137,
+      "deaths": 590,
+      "births": 500,
+      "timestamp": 1758856962.3929155,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 19734,
+        "total_edges": 527313,
+        "avg_edges_per_neuron": 26.72103982973548
+      }
+    },
+    {
+      "generation": 73,
+      "population": 16955,
+      "avg_fitness": 0.05591438945020908,
+      "deaths": 549,
+      "births": 500,
+      "timestamp": 1758856972.838104,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 20121,
+        "total_edges": 527426,
+        "avg_edges_per_neuron": 26.212713085830725
+      }
+    },
+    {
+      "generation": 74,
+      "population": 16887,
+      "avg_fitness": 0.056221396383090344,
+      "deaths": 568,
+      "births": 500,
+      "timestamp": 1758857028.9560928,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 20489,
+        "total_edges": 527574,
+        "avg_edges_per_neuron": 25.749133681487628
+      }
+    },
+    {
+      "generation": 75,
+      "population": 16835,
+      "avg_fitness": 0.05649949736858322,
+      "deaths": 552,
+      "births": 500,
+      "timestamp": 1758857042.2599502,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 20841,
+        "total_edges": 527714,
+        "avg_edges_per_neuron": 25.32095388896886
+      }
+    },
+    {
+      "generation": 76,
+      "population": 16815,
+      "avg_fitness": 0.5002180316768983,
+      "deaths": 520,
+      "births": 500,
+      "timestamp": 1758857150.7309396,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 21205,
+        "total_edges": 546615,
+        "avg_edges_per_neuron": 25.777646781419477
+      }
+    },
+    {
+      "generation": 77,
+      "population": 16775,
+      "avg_fitness": 0.500379264884643,
+      "deaths": 540,
+      "births": 500,
+      "timestamp": 1758857207.9733963,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 21545,
+        "total_edges": 563188,
+        "avg_edges_per_neuron": 26.140078904618242
+      }
+    },
+    {
+      "generation": 78,
+      "population": 16830,
+      "avg_fitness": 0.5006116391969331,
+      "deaths": 445,
+      "births": 500,
+      "timestamp": 1758857223.355563,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 21897,
+        "total_edges": 579256,
+        "avg_edges_per_neuron": 26.453669452436408
+      }
+    },
+    {
+      "generation": 79,
+      "population": 16769,
+      "avg_fitness": 0.9858342096830297,
+      "deaths": 561,
+      "births": 500,
+      "timestamp": 1758857252.1916282,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 22241,
+        "total_edges": 594325,
+        "avg_edges_per_neuron": 26.72204487208309
+      }
+    },
+    {
+      "generation": 80,
+      "population": 16738,
+      "avg_fitness": 0.9858479026573206,
+      "deaths": 531,
+      "births": 500,
+      "timestamp": 1758857317.0984137,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 22578,
+        "total_edges": 608546,
+        "avg_edges_per_neuron": 26.953051643192488
+      }
+    },
+    {
+      "generation": 81,
+      "population": 16711,
+      "avg_fitness": 0.9858039208217935,
+      "deaths": 527,
+      "births": 500,
+      "timestamp": 1758857386.761884,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 22910,
+        "total_edges": 622548,
+        "avg_edges_per_neuron": 27.173635966826712
+      }
+    },
+    {
+      "generation": 82,
+      "population": 16676,
+      "avg_fitness": 0.033178445087923794,
+      "deaths": 535,
+      "births": 500,
+      "timestamp": 1758857398.301853,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 23227,
+        "total_edges": 622548,
+        "avg_edges_per_neuron": 26.80277263529513
+      }
+    },
+    {
+      "generation": 83,
+      "population": 16657,
+      "avg_fitness": 0.03352566708558306,
+      "deaths": 519,
+      "births": 500,
+      "timestamp": 1758857459.0821102,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 23553,
+        "total_edges": 622548,
+        "avg_edges_per_neuron": 26.431792128391287
+      }
+    },
+    {
+      "generation": 84,
+      "population": 16597,
+      "avg_fitness": 0.03341284541868533,
+      "deaths": 560,
+      "births": 500,
+      "timestamp": 1758857473.0527785,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 23864,
+        "total_edges": 622548,
+        "avg_edges_per_neuron": 26.0873281930942
+      }
+    },
+    {
+      "generation": 85,
+      "population": 16546,
+      "avg_fitness": 0.5000365540037789,
+      "deaths": 551,
+      "births": 500,
+      "timestamp": 1758857489.8365881,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 24200,
+        "total_edges": 638247,
+        "avg_edges_per_neuron": 26.37384297520661
+      }
+    },
+    {
+      "generation": 86,
+      "population": 16468,
+      "avg_fitness": 0.500049798920612,
+      "deaths": 578,
+      "births": 500,
+      "timestamp": 1758857588.8807476,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 24545,
+        "total_edges": 652912,
+        "avg_edges_per_neuron": 26.600611122428194
+      }
+    },
+    {
+      "generation": 87,
+      "population": 16489,
+      "avg_fitness": 0.5000636736354059,
+      "deaths": 479,
+      "births": 500,
+      "timestamp": 1758857606.0627108,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 24917,
+        "total_edges": 666774,
+        "avg_edges_per_neuron": 26.759802544447567
+      }
+    },
+    {
+      "generation": 88,
+      "population": 16472,
+      "avg_fitness": 0.05595801998510667,
+      "deaths": 517,
+      "births": 500,
+      "timestamp": 1758857617.9010108,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 25227,
+        "total_edges": 666838,
+        "avg_edges_per_neuron": 26.43350378562651
+      }
+    },
+    {
+      "generation": 89,
+      "population": 16451,
+      "avg_fitness": 0.05630209469546271,
+      "deaths": 521,
+      "births": 500,
+      "timestamp": 1758857672.848874,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 25549,
+        "total_edges": 666946,
+        "avg_edges_per_neuron": 26.104583349641864
+      }
+    },
+    {
+      "generation": 90,
+      "population": 16512,
+      "avg_fitness": 0.056516043383055894,
+      "deaths": 439,
+      "births": 500,
+      "timestamp": 1758857684.7238882,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 25880,
+        "total_edges": 667064,
+        "avg_edges_per_neuron": 25.775270479134466
+      }
+    },
+    {
+      "generation": 91,
+      "population": 16519,
+      "avg_fitness": 0.5002233481662738,
+      "deaths": 493,
+      "births": 500,
+      "timestamp": 1758857741.1505494,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 26219,
+        "total_edges": 682348,
+        "avg_edges_per_neuron": 26.024943743087075
+      }
+    },
+    {
+      "generation": 92,
+      "population": 16539,
+      "avg_fitness": 0.5004568123122496,
+      "deaths": 480,
+      "births": 500,
+      "timestamp": 1758857800.9694192,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 26571,
+        "total_edges": 697018,
+        "avg_edges_per_neuron": 26.232283316397577
+      }
+    },
+    {
+      "generation": 93,
+      "population": 16632,
+      "avg_fitness": 0.500639413910107,
+      "deaths": 407,
+      "births": 500,
+      "timestamp": 1758857818.193472,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 26885,
+        "total_edges": 710484,
+        "avg_edges_per_neuron": 26.426780732750604
+      }
+    },
+    {
+      "generation": 94,
+      "population": 16630,
+      "avg_fitness": 0.9857737427086067,
+      "deaths": 502,
+      "births": 500,
+      "timestamp": 1758857841.8353503,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 27232,
+        "total_edges": 723864,
+        "avg_edges_per_neuron": 26.581374853113985
+      }
+    },
+    {
+      "generation": 95,
+      "population": 16644,
+      "avg_fitness": 0.9858258387863665,
+      "deaths": 486,
+      "births": 500,
+      "timestamp": 1758857912.3638864,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 27567,
+        "total_edges": 736946,
+        "avg_edges_per_neuron": 26.732905285304895
+      }
+    },
+    {
+      "generation": 96,
+      "population": 16616,
+      "avg_fitness": 0.9859753398391969,
+      "deaths": 528,
+      "births": 500,
+      "timestamp": 1758857981.9533923,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 27883,
+        "total_edges": 748227,
+        "avg_edges_per_neuron": 26.83452282752932
+      }
+    },
+    {
+      "generation": 97,
+      "population": 16592,
+      "avg_fitness": 0.033384951938094584,
+      "deaths": 524,
+      "births": 500,
+      "timestamp": 1758857994.9205935,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 28217,
+        "total_edges": 748227,
+        "avg_edges_per_neuron": 26.516886983024417
+      }
+    },
+    {
+      "generation": 98,
+      "population": 16526,
+      "avg_fitness": 0.03324283055765572,
+      "deaths": 566,
+      "births": 500,
+      "timestamp": 1758858051.2751007,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 28528,
+        "total_edges": 748227,
+        "avg_edges_per_neuron": 26.227811273135167
+      }
+    },
+    {
+      "generation": 99,
+      "population": 16483,
+      "avg_fitness": 0.03346912862683865,
+      "deaths": 543,
+      "births": 500,
+      "timestamp": 1758858063.979111,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 28869,
+        "total_edges": 748227,
+        "avg_edges_per_neuron": 25.918008936921957
+      }
+    },
+    {
+      "generation": 100,
+      "population": 16456,
+      "avg_fitness": 0.5000377718788873,
+      "deaths": 527,
+      "births": 500,
+      "timestamp": 1758858080.6617396,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 29184,
+        "total_edges": 761802,
+        "avg_edges_per_neuron": 26.10341282894737
+      }
+    },
+    {
+      "generation": 101,
+      "population": 16502,
+      "avg_fitness": 0.50005175595615,
+      "deaths": 454,
+      "births": 500,
+      "timestamp": 1758858225.1851654,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 29484,
+        "total_edges": 774084,
+        "avg_edges_per_neuron": 26.254375254375255
+      }
+    },
+    {
+      "generation": 102,
+      "population": 16513,
+      "avg_fitness": 0.5000644450714452,
+      "deaths": 489,
+      "births": 500,
+      "timestamp": 1758858240.8658578,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 29783,
+        "total_edges": 786395,
+        "avg_edges_per_neuron": 26.404156733707147
+      }
+    },
+    {
+      "generation": 103,
+      "population": 16509,
+      "avg_fitness": 0.0559062803491128,
+      "deaths": 504,
+      "births": 500,
+      "timestamp": 1758858252.5377965,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 30125,
+        "total_edges": 786484,
+        "avg_edges_per_neuron": 26.107352697095436
+      }
+    },
+    {
+      "generation": 104,
+      "population": 16527,
+      "avg_fitness": 0.05613974280133225,
+      "deaths": 482,
+      "births": 500,
+      "timestamp": 1758858302.4351575,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 30450,
+        "total_edges": 786529,
+        "avg_edges_per_neuron": 25.830180623973728
+      }
+    },
+    {
+      "generation": 105,
+      "population": 16513,
+      "avg_fitness": 0.056490361894288556,
+      "deaths": 514,
+      "births": 500,
+      "timestamp": 1758858312.8558962,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 30752,
+        "total_edges": 786588,
+        "avg_edges_per_neuron": 25.57843392299688
+      }
+    },
+    {
+      "generation": 106,
+      "population": 16560,
+      "avg_fitness": 0.5003624064390428,
+      "deaths": 453,
+      "births": 500,
+      "timestamp": 1758858361.2467425,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 31116,
+        "total_edges": 802813,
+        "avg_edges_per_neuron": 25.800649183699704
+      }
+    },
+    {
+      "generation": 107,
+      "population": 16580,
+      "avg_fitness": 0.5005533289164305,
+      "deaths": 480,
+      "births": 500,
+      "timestamp": 1758858409.309245,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 31441,
+        "total_edges": 816655,
+        "avg_edges_per_neuron": 25.974205655036418
+      }
+    },
+    {
+      "generation": 108,
+      "population": 16634,
+      "avg_fitness": 0.5007560825355091,
+      "deaths": 446,
+      "births": 500,
+      "timestamp": 1758858421.6929884,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 31760,
+        "total_edges": 829064,
+        "avg_edges_per_neuron": 26.104030226700253
+      }
+    },
+    {
+      "generation": 109,
+      "population": 16628,
+      "avg_fitness": 0.985746175618504,
+      "deaths": 506,
+      "births": 500,
+      "timestamp": 1758858441.1897948,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 32060,
+        "total_edges": 841184,
+        "avg_edges_per_neuron": 26.2378041172801
+      }
+    },
+    {
+      "generation": 110,
+      "population": 16628,
+      "avg_fitness": 0.9858665233539083,
+      "deaths": 500,
+      "births": 500,
+      "timestamp": 1758858494.5783362,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 32404,
+        "total_edges": 853773,
+        "avg_edges_per_neuron": 26.347765707937292
+      }
+    },
+    {
+      "generation": 111,
+      "population": 16618,
+      "avg_fitness": 0.9858888119283652,
+      "deaths": 510,
+      "births": 500,
+      "timestamp": 1758858547.5501142,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 32731,
+        "total_edges": 865063,
+        "avg_edges_per_neuron": 26.429470532522686
+      }
+    },
+    {
+      "generation": 112,
+      "population": 16597,
+      "avg_fitness": 0.03331486080877527,
+      "deaths": 521,
+      "births": 500,
+      "timestamp": 1758858557.402929,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 33038,
+        "total_edges": 865063,
+        "avg_edges_per_neuron": 26.183879169441248
+      }
+    },
+    {
+      "generation": 113,
+      "population": 16604,
+      "avg_fitness": 0.03345594921799056,
+      "deaths": 493,
+      "births": 500,
+      "timestamp": 1758858600.6125627,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 33355,
+        "total_edges": 865063,
+        "avg_edges_per_neuron": 25.935032229051117
+      }
+    },
+    {
+      "generation": 114,
+      "population": 16563,
+      "avg_fitness": 0.03352542413638465,
+      "deaths": 541,
+      "births": 500,
+      "timestamp": 1758858610.7635386,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 33715,
+        "total_edges": 865063,
+        "avg_edges_per_neuron": 25.658104701171585
+      }
+    },
+    {
+      "generation": 115,
+      "population": 16555,
+      "avg_fitness": 0.5000385226838033,
+      "deaths": 508,
+      "births": 500,
+      "timestamp": 1758858623.6746073,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 34046,
+        "total_edges": 878914,
+        "avg_edges_per_neuron": 25.81548493215062
+      }
+    },
+    {
+      "generation": 116,
+      "population": 16574,
+      "avg_fitness": 0.5000500621769731,
+      "deaths": 481,
+      "births": 500,
+      "timestamp": 1758858704.849017,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 34349,
+        "total_edges": 891318,
+        "avg_edges_per_neuron": 25.948877696585054
+      }
+    },
+    {
+      "generation": 117,
+      "population": 16570,
+      "avg_fitness": 0.500066171372715,
+      "deaths": 504,
+      "births": 500,
+      "timestamp": 1758858717.902227,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 34678,
+        "total_edges": 903766,
+        "avg_edges_per_neuron": 26.06165292116039
+      }
+    },
+    {
+      "generation": 118,
+      "population": 16567,
+      "avg_fitness": 0.055573901963938986,
+      "deaths": 503,
+      "births": 500,
+      "timestamp": 1758858727.1686435,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 35007,
+        "total_edges": 903817,
+        "avg_edges_per_neuron": 25.818179221298596
+      }
+    },
+    {
+      "generation": 119,
+      "population": 16552,
+      "avg_fitness": 0.055897647364394135,
+      "deaths": 515,
+      "births": 500,
+      "timestamp": 1758858771.122394,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 35311,
+        "total_edges": 903896,
+        "avg_edges_per_neuron": 25.59814222197049
+      }
+    },
+    {
+      "generation": 120,
+      "population": 16542,
+      "avg_fitness": 0.05669787736612279,
+      "deaths": 510,
+      "births": 500,
+      "timestamp": 1758858781.2781966,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 35660,
+        "total_edges": 904025,
+        "avg_edges_per_neuron": 25.351233875490745
+      }
+    },
+    {
+      "generation": 121,
+      "population": 16601,
+      "avg_fitness": 0.5004451751507203,
+      "deaths": 441,
+      "births": 500,
+      "timestamp": 1758858827.074611,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 35937,
+        "total_edges": 917180,
+        "avg_edges_per_neuron": 25.521885521885523
+      }
+    },
+    {
+      "generation": 122,
+      "population": 16658,
+      "avg_fitness": 0.5006235122633989,
+      "deaths": 443,
+      "births": 500,
+      "timestamp": 1758858871.8222597,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 36279,
+        "total_edges": 930761,
+        "avg_edges_per_neuron": 25.65564100443783
+      }
+    },
+    {
+      "generation": 123,
+      "population": 16745,
+      "avg_fitness": 0.5008098657663049,
+      "deaths": 413,
+      "births": 500,
+      "timestamp": 1758858884.0234172,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 36603,
+        "total_edges": 944374,
+        "avg_edges_per_neuron": 25.800453514739228
+      }
+    },
+    {
+      "generation": 124,
+      "population": 16694,
+      "avg_fitness": 0.9858617880722217,
+      "deaths": 551,
+      "births": 500,
+      "timestamp": 1758858903.794191,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 36920,
+        "total_edges": 956751,
+        "avg_edges_per_neuron": 25.914165763813653
+      }
+    },
+    {
+      "generation": 125,
+      "population": 16669,
+      "avg_fitness": 0.9858830651527344,
+      "deaths": 525,
+      "births": 500,
+      "timestamp": 1758858960.2983623,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 37228,
+        "total_edges": 968491,
+        "avg_edges_per_neuron": 26.015123025679596
+      }
+    },
+    {
+      "generation": 126,
+      "population": 16623,
+      "avg_fitness": 0.985876613145885,
+      "deaths": 546,
+      "births": 500,
+      "timestamp": 1758859013.0120583,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 37565,
+        "total_edges": 980674,
+        "avg_edges_per_neuron": 26.106056169306534
+      }
+    },
+    {
+      "generation": 127,
+      "population": 16546,
+      "avg_fitness": 0.033419982495048246,
+      "deaths": 577,
+      "births": 500,
+      "timestamp": 1758859023.080019,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 37912,
+        "total_edges": 980674,
+        "avg_edges_per_neuron": 25.86711331504537
+      }
+    },
+    {
+      "generation": 128,
+      "population": 16521,
+      "avg_fitness": 0.03335142449309666,
+      "deaths": 525,
+      "births": 500,
+      "timestamp": 1758859069.961023,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 38243,
+        "total_edges": 980674,
+        "avg_edges_per_neuron": 25.643228826190413
+      }
+    },
+    {
+      "generation": 129,
+      "population": 16508,
+      "avg_fitness": 0.03334777677190092,
+      "deaths": 513,
+      "births": 500,
+      "timestamp": 1758859080.638046,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 38542,
+        "total_edges": 980674,
+        "avg_edges_per_neuron": 25.44429453583104
+      }
+    },
+    {
+      "generation": 130,
+      "population": 16549,
+      "avg_fitness": 0.5000376683157294,
+      "deaths": 459,
+      "births": 500,
+      "timestamp": 1758859092.7660153,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 38865,
+        "total_edges": 994282,
+        "avg_edges_per_neuron": 25.58296667953171
+      }
+    },
+    {
+      "generation": 131,
+      "population": 16535,
+      "avg_fitness": 0.5000520792351193,
+      "deaths": 514,
+      "births": 500,
+      "timestamp": 1758859175.0550456,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 39161,
+        "total_edges": 1006313,
+        "avg_edges_per_neuron": 25.696815709506907
+      }
+    },
+    {
+      "generation": 132,
+      "population": 16552,
+      "avg_fitness": 0.5000631492052116,
+      "deaths": 483,
+      "births": 500,
+      "timestamp": 1758859187.5198872,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 39481,
+        "total_edges": 1018086,
+        "avg_edges_per_neuron": 25.786732858843493
+      }
+    },
+    {
+      "generation": 133,
+      "population": 16533,
+      "avg_fitness": 0.056134584371077954,
+      "deaths": 519,
+      "births": 500,
+      "timestamp": 1758859197.3836272,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 39838,
+        "total_edges": 1018195,
+        "avg_edges_per_neuron": 25.558386465183997
+      }
+    },
+    {
+      "generation": 134,
+      "population": 16567,
+      "avg_fitness": 0.05645463080780552,
+      "deaths": 466,
+      "births": 500,
+      "timestamp": 1758859242.3975554,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 40180,
+        "total_edges": 1018277,
+        "avg_edges_per_neuron": 25.342882030861126
+      }
+    },
+    {
+      "generation": 135,
+      "population": 16573,
+      "avg_fitness": 0.056960848063228715,
+      "deaths": 494,
+      "births": 500,
+      "timestamp": 1758859251.4042318,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 40543,
+        "total_edges": 1018366,
+        "avg_edges_per_neuron": 25.11817083096959
+      }
+    },
+    {
+      "generation": 136,
+      "population": 16621,
+      "avg_fitness": 0.5003894813543553,
+      "deaths": 452,
+      "births": 500,
+      "timestamp": 1758859294.7530794,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 40879,
+        "total_edges": 1032095,
+        "avg_edges_per_neuron": 25.247559871816826
+      }
+    },
+    {
+      "generation": 137,
+      "population": 16693,
+      "avg_fitness": 0.500566123867141,
+      "deaths": 428,
+      "births": 500,
+      "timestamp": 1758859341.6183994,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 41214,
+        "total_edges": 1045319,
+        "avg_edges_per_neuron": 25.363201824622703
+      }
+    },
+    {
+      "generation": 138,
+      "population": 16740,
+      "avg_fitness": 0.50075197900055,
+      "deaths": 453,
+      "births": 500,
+      "timestamp": 1758859354.7229872,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 41495,
+        "total_edges": 1057283,
+        "avg_edges_per_neuron": 25.47976864682492
+      }
+    },
+    {
+      "generation": 139,
+      "population": 16724,
+      "avg_fitness": 0.9858331741818559,
+      "deaths": 516,
+      "births": 500,
+      "timestamp": 1758859377.0962727,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 41808,
+        "total_edges": 1070033,
+        "avg_edges_per_neuron": 25.593977229238423
+      }
+    },
+    {
+      "generation": 140,
+      "population": 16709,
+      "avg_fitness": 0.9858095851011387,
+      "deaths": 515,
+      "births": 500,
+      "timestamp": 1758859430.0928874,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 42112,
+        "total_edges": 1081534,
+        "avg_edges_per_neuron": 25.682323328267476
+      }
+    },
+    {
+      "generation": 141,
+      "population": 16663,
+      "avg_fitness": 0.9858117427630932,
+      "deaths": 546,
+      "births": 500,
+      "timestamp": 1758859485.3015683,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 42429,
+        "total_edges": 1092766,
+        "avg_edges_per_neuron": 25.75516745622098
+      }
+    },
+    {
+      "generation": 142,
+      "population": 16625,
+      "avg_fitness": 0.033251678787182125,
+      "deaths": 538,
+      "births": 500,
+      "timestamp": 1758859495.758078,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 42760,
+        "total_edges": 1092766,
+        "avg_edges_per_neuron": 25.55579981290926
+      }
+    },
+    {
+      "generation": 143,
+      "population": 16623,
+      "avg_fitness": 0.03322155073455962,
+      "deaths": 502,
+      "births": 500,
+      "timestamp": 1758859539.302357,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 43100,
+        "total_edges": 1092766,
+        "avg_edges_per_neuron": 25.354199535962877
+      }
+    },
+    {
+      "generation": 144,
+      "population": 16584,
+      "avg_fitness": 0.03349011038052811,
+      "deaths": 539,
+      "births": 500,
+      "timestamp": 1758859548.2581158,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 43444,
+        "total_edges": 1092766,
+        "avg_edges_per_neuron": 25.15343890986097
+      }
+    },
+    {
+      "generation": 145,
+      "population": 16582,
+      "avg_fitness": 0.5000400006774681,
+      "deaths": 502,
+      "births": 500,
+      "timestamp": 1758859563.266514,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 43753,
+        "total_edges": 1106377,
+        "avg_edges_per_neuron": 25.28688318515302
+      }
+    },
+    {
+      "generation": 146,
+      "population": 16569,
+      "avg_fitness": 0.5000557651757447,
+      "deaths": 513,
+      "births": 500,
+      "timestamp": 1758859638.0481615,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 44078,
+        "total_edges": 1119324,
+        "avg_edges_per_neuron": 25.394164889514045
+      }
+    },
+    {
+      "generation": 147,
+      "population": 16592,
+      "avg_fitness": 0.5000686396516595,
+      "deaths": 477,
+      "births": 500,
+      "timestamp": 1758859651.2326837,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 44396,
+        "total_edges": 1131472,
+        "avg_edges_per_neuron": 25.485899630597352
+      }
+    },
+    {
+      "generation": 148,
+      "population": 16625,
+      "avg_fitness": 0.05586754261958794,
+      "deaths": 467,
+      "births": 500,
+      "timestamp": 1758859660.6671836,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 44708,
+        "total_edges": 1131533,
+        "avg_edges_per_neuron": 25.30940771226626
+      }
+    },
+    {
+      "generation": 149,
+      "population": 16629,
+      "avg_fitness": 0.05600668096004572,
+      "deaths": 496,
+      "births": 500,
+      "timestamp": 1758859703.7683845,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 45042,
+        "total_edges": 1131641,
+        "avg_edges_per_neuron": 25.12412859109276
+      }
+    },
+    {
+      "generation": 150,
+      "population": 16606,
+      "avg_fitness": 0.056420538843957695,
+      "deaths": 523,
+      "births": 500,
+      "timestamp": 1758859713.258725,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 45358,
+        "total_edges": 1131713,
+        "avg_edges_per_neuron": 24.95068124696856
+      }
+    },
+    {
+      "generation": 151,
+      "population": 16635,
+      "avg_fitness": 0.5003265771186166,
+      "deaths": 471,
+      "births": 500,
+      "timestamp": 1758859760.7756455,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 45696,
+        "total_edges": 1147208,
+        "avg_edges_per_neuron": 25.105217086834735
+      }
+    },
+    {
+      "generation": 152,
+      "population": 16686,
+      "avg_fitness": 0.5005582952073002,
+      "deaths": 449,
+      "births": 500,
+      "timestamp": 1758859811.6650972,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 46017,
+        "total_edges": 1160892,
+        "avg_edges_per_neuron": 25.227459417171914
+      }
+    },
+    {
+      "generation": 153,
+      "population": 16740,
+      "avg_fitness": 0.5007289662737505,
+      "deaths": 446,
+      "births": 500,
+      "timestamp": 1758859824.0445573,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 46350,
+        "total_edges": 1174037,
+        "avg_edges_per_neuron": 25.329816612729235
+      }
+    },
+    {
+      "generation": 154,
+      "population": 16733,
+      "avg_fitness": 0.9858211371444023,
+      "deaths": 507,
+      "births": 500,
+      "timestamp": 1758859843.4506505,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 46674,
+        "total_edges": 1186112,
+        "avg_edges_per_neuron": 25.412692291211382
+      }
+    },
+    {
+      "generation": 155,
+      "population": 16705,
+      "avg_fitness": 0.985865063234137,
+      "deaths": 528,
+      "births": 500,
+      "timestamp": 1758859898.7361774,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 46985,
+        "total_edges": 1197235,
+        "avg_edges_per_neuron": 25.48121740981164
+      }
+    },
+    {
+      "generation": 156,
+      "population": 16683,
+      "avg_fitness": 0.985796433387992,
+      "deaths": 522,
+      "births": 500,
+      "timestamp": 1758859954.3196766,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 47317,
+        "total_edges": 1208869,
+        "avg_edges_per_neuron": 25.548301878817337
+      }
+    },
+    {
+      "generation": 157,
+      "population": 16615,
+      "avg_fitness": 0.03327195630748517,
+      "deaths": 568,
+      "births": 500,
+      "timestamp": 1758859964.3891559,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 47635,
+        "total_edges": 1208869,
+        "avg_edges_per_neuron": 25.37774745460271
+      }
+    },
+    {
+      "generation": 158,
+      "population": 16589,
+      "avg_fitness": 0.03330789490875048,
+      "deaths": 526,
+      "births": 500,
+      "timestamp": 1758860007.3359518,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 47993,
+        "total_edges": 1208869,
+        "avg_edges_per_neuron": 25.18844414810493
+      }
+    },
+    {
+      "generation": 159,
+      "population": 16539,
+      "avg_fitness": 0.03342550429029641,
+      "deaths": 550,
+      "births": 500,
+      "timestamp": 1758860016.5855947,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 48314,
+        "total_edges": 1208869,
+        "avg_edges_per_neuron": 25.02109119509873
+      }
+    },
+    {
+      "generation": 160,
+      "population": 16585,
+      "avg_fitness": 0.5000352489143886,
+      "deaths": 454,
+      "births": 500,
+      "timestamp": 1758860029.1911693,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 48639,
+        "total_edges": 1222239,
+        "avg_edges_per_neuron": 25.128785542465923
+      }
+    },
+    {
+      "generation": 161,
+      "population": 16568,
+      "avg_fitness": 0.5000448457943879,
+      "deaths": 517,
+      "births": 500,
+      "timestamp": 1758860105.9541724,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 48948,
+        "total_edges": 1234774,
+        "avg_edges_per_neuron": 25.2262400915257
+      }
+    },
+    {
+      "generation": 162,
+      "population": 16579,
+      "avg_fitness": 0.5000599161463191,
+      "deaths": 489,
+      "births": 500,
+      "timestamp": 1758860118.0914452,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 49249,
+        "total_edges": 1246130,
+        "avg_edges_per_neuron": 25.302645738999775
+      }
+    },
+    {
+      "generation": 163,
+      "population": 16574,
+      "avg_fitness": 0.05602417432634151,
+      "deaths": 505,
+      "births": 500,
+      "timestamp": 1758860127.6942751,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 49578,
+        "total_edges": 1246198,
+        "avg_edges_per_neuron": 25.13610875791682
+      }
+    },
+    {
+      "generation": 164,
+      "population": 16560,
+      "avg_fitness": 0.056336310181123464,
+      "deaths": 514,
+      "births": 500,
+      "timestamp": 1758860171.2053506,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 49899,
+        "total_edges": 1246273,
+        "avg_edges_per_neuron": 24.975911340908635
+      }
+    },
+    {
+      "generation": 165,
+      "population": 16544,
+      "avg_fitness": 0.05645379014493187,
+      "deaths": 516,
+      "births": 500,
+      "timestamp": 1758860180.3948386,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 50233,
+        "total_edges": 1246390,
+        "avg_edges_per_neuron": 24.812175263273147
+      }
+    },
+    {
+      "generation": 166,
+      "population": 16574,
+      "avg_fitness": 0.5004171682575743,
+      "deaths": 470,
+      "births": 500,
+      "timestamp": 1758860224.9689882,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 50572,
+        "total_edges": 1261278,
+        "avg_edges_per_neuron": 24.940243613066517
+      }
+    },
+    {
+      "generation": 167,
+      "population": 16625,
+      "avg_fitness": 0.5006286223604781,
+      "deaths": 449,
+      "births": 500,
+      "timestamp": 1758860270.7449327,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 50879,
+        "total_edges": 1274883,
+        "avg_edges_per_neuron": 25.057155211383872
+      }
+    },
+    {
+      "generation": 168,
+      "population": 16660,
+      "avg_fitness": 0.5007940106409833,
+      "deaths": 465,
+      "births": 500,
+      "timestamp": 1758860283.0721333,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 51202,
+        "total_edges": 1287985,
+        "avg_edges_per_neuron": 25.15497441506191
+      }
+    },
+    {
+      "generation": 169,
+      "population": 16644,
+      "avg_fitness": 0.98584393614101,
+      "deaths": 516,
+      "births": 500,
+      "timestamp": 1758860302.406473,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 51543,
+        "total_edges": 1300442,
+        "avg_edges_per_neuron": 25.230234949459675
+      }
+    },
+    {
+      "generation": 170,
+      "population": 16637,
+      "avg_fitness": 0.9858781378399191,
+      "deaths": 507,
+      "births": 500,
+      "timestamp": 1758860355.569922,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 51850,
+        "total_edges": 1312087,
+        "avg_edges_per_neuron": 25.305438765670203
+      }
+    },
+    {
+      "generation": 171,
+      "population": 16678,
+      "avg_fitness": 0.985849126900972,
+      "deaths": 459,
+      "births": 500,
+      "timestamp": 1758860407.2007096,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 52164,
+        "total_edges": 1322698,
+        "avg_edges_per_neuron": 25.356529407254044
+      }
+    },
+    {
+      "generation": 172,
+      "population": 16626,
+      "avg_fitness": 0.033248895900148644,
+      "deaths": 552,
+      "births": 500,
+      "timestamp": 1758860416.4428673,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 52492,
+        "total_edges": 1322698,
+        "avg_edges_per_neuron": 25.198087327592777
+      }
+    },
+    {
+      "generation": 173,
+      "population": 16553,
+      "avg_fitness": 0.03343563133429005,
+      "deaths": 573,
+      "births": 500,
+      "timestamp": 1758860459.678443,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 52804,
+        "total_edges": 1322698,
+        "avg_edges_per_neuron": 25.04920081811984
+      }
+    },
+    {
+      "generation": 174,
+      "population": 16538,
+      "avg_fitness": 0.03352445016151991,
+      "deaths": 515,
+      "births": 500,
+      "timestamp": 1758860469.4469645,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 53142,
+        "total_edges": 1322698,
+        "avg_edges_per_neuron": 24.889879944300176
+      }
+    },
+    {
+      "generation": 175,
+      "population": 16534,
+      "avg_fitness": 0.5000449532316564,
+      "deaths": 504,
+      "births": 500,
+      "timestamp": 1758860481.754501,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 53467,
+        "total_edges": 1337059,
+        "avg_edges_per_neuron": 25.00718200011222
+      }
+    },
+    {
+      "generation": 176,
+      "population": 16555,
+      "avg_fitness": 0.5000588800359324,
+      "deaths": 479,
+      "births": 500,
+      "timestamp": 1758860557.4517057,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 53812,
+        "total_edges": 1350491,
+        "avg_edges_per_neuron": 25.09646547238534
+      }
+    },
+    {
+      "generation": 177,
+      "population": 16546,
+      "avg_fitness": 0.5000725568330961,
+      "deaths": 509,
+      "births": 500,
+      "timestamp": 1758860570.0261886,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 54147,
+        "total_edges": 1362972,
+        "avg_edges_per_neuron": 25.17169926311707
+      }
+    },
+    {
+      "generation": 178,
+      "population": 16536,
+      "avg_fitness": 0.055953045178753685,
+      "deaths": 510,
+      "births": 500,
+      "timestamp": 1758860579.2519982,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 54474,
+        "total_edges": 1363063,
+        "avg_edges_per_neuron": 25.022267503763263
+      }
+    },
+    {
+      "generation": 179,
+      "population": 16584,
+      "avg_fitness": 0.05597980499418969,
+      "deaths": 452,
+      "births": 500,
+      "timestamp": 1758860621.2326276,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 54784,
+        "total_edges": 1363127,
+        "avg_edges_per_neuron": 24.881845064252335
+      }
+    },
+    {
+      "generation": 180,
+      "population": 16597,
+      "avg_fitness": 0.05672514821581086,
+      "deaths": 487,
+      "births": 500,
+      "timestamp": 1758860630.0557966,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 55096,
+        "total_edges": 1363177,
+        "avg_edges_per_neuron": 24.74185058806447
+      }
+    },
+    {
+      "generation": 181,
+      "population": 16651,
+      "avg_fitness": 0.5002604177926558,
+      "deaths": 446,
+      "births": 500,
+      "timestamp": 1758860674.5563686,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 55448,
+        "total_edges": 1378102,
+        "avg_edges_per_neuron": 24.853953253498773
+      }
+    },
+    {
+      "generation": 182,
+      "population": 16701,
+      "avg_fitness": 0.5004715995633647,
+      "deaths": 450,
+      "births": 500,
+      "timestamp": 1758860722.6976738,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 55770,
+        "total_edges": 1391077,
+        "avg_edges_per_neuron": 24.94310561233638
+      }
+    },
+    {
+      "generation": 183,
+      "population": 16778,
+      "avg_fitness": 0.5006520097737226,
+      "deaths": 423,
+      "births": 500,
+      "timestamp": 1758860734.5683136,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 56093,
+        "total_edges": 1403354,
+        "avg_edges_per_neuron": 25.018344534968712
+      }
+    },
+    {
+      "generation": 184,
+      "population": 16714,
+      "avg_fitness": 0.9858195802005346,
+      "deaths": 564,
+      "births": 500,
+      "timestamp": 1758860753.7818353,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 56416,
+        "total_edges": 1416306,
+        "avg_edges_per_neuron": 25.104686613726603
+      }
+    },
+    {
+      "generation": 185,
+      "population": 16680,
+      "avg_fitness": 0.9858260936264335,
+      "deaths": 534,
+      "births": 500,
+      "timestamp": 1758860804.2574756,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 56774,
+        "total_edges": 1429350,
+        "avg_edges_per_neuron": 25.176136964103286
+      }
+    },
+    {
+      "generation": 186,
+      "population": 16640,
+      "avg_fitness": 0.9858478240622464,
+      "deaths": 540,
+      "births": 500,
+      "timestamp": 1758860856.267967,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 57097,
+        "total_edges": 1440741,
+        "avg_edges_per_neuron": 25.233217156768305
+      }
+    },
+    {
+      "generation": 187,
+      "population": 16604,
+      "avg_fitness": 0.033293294657106835,
+      "deaths": 536,
+      "births": 500,
+      "timestamp": 1758860865.4972293,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 57389,
+        "total_edges": 1440741,
+        "avg_edges_per_neuron": 25.1048284514454
+      }
+    },
+    {
+      "generation": 188,
+      "population": 16554,
+      "avg_fitness": 0.033576330750513396,
+      "deaths": 550,
+      "births": 500,
+      "timestamp": 1758860908.7443073,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 57693,
+        "total_edges": 1440741,
+        "avg_edges_per_neuron": 24.972544329468047
+      }
+    },
+    {
+      "generation": 189,
+      "population": 16525,
+      "avg_fitness": 0.03348650057556285,
+      "deaths": 529,
+      "births": 500,
+      "timestamp": 1758860919.0910318,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 57980,
+        "total_edges": 1440741,
+        "avg_edges_per_neuron": 24.84893066574681
+      }
+    },
+    {
+      "generation": 190,
+      "population": 16518,
+      "avg_fitness": 0.50003579878771,
+      "deaths": 507,
+      "births": 500,
+      "timestamp": 1758860931.6497922,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 58289,
+        "total_edges": 1453721,
+        "avg_edges_per_neuron": 24.939885741735146
+      }
+    },
+    {
+      "generation": 191,
+      "population": 16527,
+      "avg_fitness": 0.500046550356125,
+      "deaths": 491,
+      "births": 500,
+      "timestamp": 1758861007.6800494,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 58624,
+        "total_edges": 1467091,
+        "avg_edges_per_neuron": 25.025433269650655
+      }
+    },
+    {
+      "generation": 192,
+      "population": 16522,
+      "avg_fitness": 0.5000597064977781,
+      "deaths": 505,
+      "births": 500,
+      "timestamp": 1758861019.9888172,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 58934,
+        "total_edges": 1478371,
+        "avg_edges_per_neuron": 25.085197000033936
+      }
+    },
+    {
+      "generation": 193,
+      "population": 16460,
+      "avg_fitness": 0.05637369582589841,
+      "deaths": 562,
+      "births": 500,
+      "timestamp": 1758861028.7447948,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 59261,
+        "total_edges": 1478454,
+        "avg_edges_per_neuron": 24.948178397259582
+      }
+    },
+    {
+      "generation": 194,
+      "population": 16429,
+      "avg_fitness": 0.05607430707314759,
+      "deaths": 531,
+      "births": 500,
+      "timestamp": 1758861071.4735694,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 59583,
+        "total_edges": 1478535,
+        "avg_edges_per_neuron": 24.814712250138463
+      }
+    },
+    {
+      "generation": 195,
+      "population": 16400,
+      "avg_fitness": 0.05655082179926949,
+      "deaths": 529,
+      "births": 500,
+      "timestamp": 1758861080.8055944,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 59875,
+        "total_edges": 1478591,
+        "avg_edges_per_neuron": 24.694630480167014
+      }
+    },
+    {
+      "generation": 196,
+      "population": 16434,
+      "avg_fitness": 0.5003329509860132,
+      "deaths": 466,
+      "births": 500,
+      "timestamp": 1758861123.118966,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 60166,
+        "total_edges": 1491543,
+        "avg_edges_per_neuron": 24.790463052222186
+      }
+    },
+    {
+      "generation": 197,
+      "population": 16511,
+      "avg_fitness": 0.5005276350099791,
+      "deaths": 423,
+      "births": 500,
+      "timestamp": 1758861174.2812068,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 60501,
+        "total_edges": 1504352,
+        "avg_edges_per_neuron": 24.864911323779772
+      }
+    },
+    {
+      "generation": 198,
+      "population": 16598,
+      "avg_fitness": 0.5007017219902695,
+      "deaths": 413,
+      "births": 500,
+      "timestamp": 1758861185.866582,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 60802,
+        "total_edges": 1516046,
+        "avg_edges_per_neuron": 24.9341469030624
+      }
+    },
+    {
+      "generation": 199,
+      "population": 16601,
+      "avg_fitness": 0.98584538430569,
+      "deaths": 497,
+      "births": 500,
+      "timestamp": 1758861205.5623436,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 61128,
+        "total_edges": 1528761,
+        "avg_edges_per_neuron": 25.009177463682764
+      }
+    },
+    {
+      "generation": 200,
+      "population": 16595,
+      "avg_fitness": 0.9858851816008496,
+      "deaths": 506,
+      "births": 500,
+      "timestamp": 1758861258.9139857,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 61432,
+        "total_edges": 1540182,
+        "avg_edges_per_neuron": 25.07133090246126
+      }
+    },
+    {
+      "generation": 201,
+      "population": 16575,
+      "avg_fitness": 0.9858602251062487,
+      "deaths": 520,
+      "births": 500,
+      "timestamp": 1758861307.4808397,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 61744,
+        "total_edges": 1551050,
+        "avg_edges_per_neuron": 25.12065949727909
+      }
+    },
+    {
+      "generation": 202,
+      "population": 16527,
+      "avg_fitness": 0.03333070421436883,
+      "deaths": 548,
+      "births": 500,
+      "timestamp": 1758861315.9372811,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 62089,
+        "total_edges": 1551050,
+        "avg_edges_per_neuron": 24.981075552835446
+      }
+    },
+    {
+      "generation": 203,
+      "population": 16522,
+      "avg_fitness": 0.033504752856537534,
+      "deaths": 505,
+      "births": 500,
+      "timestamp": 1758861361.3373306,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 62396,
+        "total_edges": 1551050,
+        "avg_edges_per_neuron": 24.858163984870824
+      }
+    },
+    {
+      "generation": 204,
+      "population": 16499,
+      "avg_fitness": 0.03360775553102422,
+      "deaths": 523,
+      "births": 500,
+      "timestamp": 1758861371.3049397,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 62757,
+        "total_edges": 1551050,
+        "avg_edges_per_neuron": 24.715171215959973
+      }
+    },
+    {
+      "generation": 205,
+      "population": 16487,
+      "avg_fitness": 0.5000478155169027,
+      "deaths": 512,
+      "births": 500,
+      "timestamp": 1758861383.3086507,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 63069,
+        "total_edges": 1564581,
+        "avg_edges_per_neuron": 24.807448984445607
+      }
+    },
+    {
+      "generation": 206,
+      "population": 16518,
+      "avg_fitness": 0.5000609535256879,
+      "deaths": 469,
+      "births": 500,
+      "timestamp": 1758861470.1276035,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 63401,
+        "total_edges": 1578047,
+        "avg_edges_per_neuron": 24.889938644500877
+      }
+    },
+    {
+      "generation": 207,
+      "population": 16541,
+      "avg_fitness": 0.5000721996749107,
+      "deaths": 477,
+      "births": 500,
+      "timestamp": 1758861483.1424727,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 63720,
+        "total_edges": 1590647,
+        "avg_edges_per_neuron": 24.963072818581292
+      }
+    },
+    {
+      "generation": 208,
+      "population": 16494,
+      "avg_fitness": 0.05602971694250506,
+      "deaths": 547,
+      "births": 500,
+      "timestamp": 1758861492.3646872,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 64049,
+        "total_edges": 1590695,
+        "avg_edges_per_neuron": 24.835594622866868
+      }
+    },
+    {
+      "generation": 209,
+      "population": 16495,
+      "avg_fitness": 0.056056375832460544,
+      "deaths": 499,
+      "births": 500,
+      "timestamp": 1758861534.6870215,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 64369,
+        "total_edges": 1590777,
+        "avg_edges_per_neuron": 24.713402414205596
+      }
+    },
+    {
+      "generation": 210,
+      "population": 16487,
+      "avg_fitness": 0.05689924797458192,
+      "deaths": 508,
+      "births": 500,
+      "timestamp": 1758861543.322191,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 64690,
+        "total_edges": 1590884,
+        "avg_edges_per_neuron": 24.59242541351059
+      }
+    },
+    {
+      "generation": 211,
+      "population": 16519,
+      "avg_fitness": 0.5002310365273968,
+      "deaths": 468,
+      "births": 500,
+      "timestamp": 1758861586.5542917,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 64992,
+        "total_edges": 1604714,
+        "avg_edges_per_neuron": 24.690946578040375
+      }
+    },
+    {
+      "generation": 212,
+      "population": 16604,
+      "avg_fitness": 0.5004454691377301,
+      "deaths": 415,
+      "births": 500,
+      "timestamp": 1758861635.2668626,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 65328,
+        "total_edges": 1617756,
+        "avg_edges_per_neuron": 24.76359294636297
+      }
+    },
+    {
+      "generation": 213,
+      "population": 16675,
+      "avg_fitness": 0.5006380706282444,
+      "deaths": 429,
+      "births": 500,
+      "timestamp": 1758861648.223239,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 65618,
+        "total_edges": 1629705,
+        "avg_edges_per_neuron": 24.836249199914658
+      }
+    },
+    {
+      "generation": 214,
+      "population": 16654,
+      "avg_fitness": 0.9857584072800385,
+      "deaths": 521,
+      "births": 500,
+      "timestamp": 1758861666.1974394,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 65946,
+        "total_edges": 1641970,
+        "avg_edges_per_neuron": 24.898705001061476
+      }
+    },
+    {
+      "generation": 215,
+      "population": 16635,
+      "avg_fitness": 0.985904075758421,
+      "deaths": 519,
+      "births": 500,
+      "timestamp": 1758861719.4574878,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 66285,
+        "total_edges": 1654999,
+        "avg_edges_per_neuron": 24.96792637851701
+      }
+    },
+    {
+      "generation": 216,
+      "population": 16587,
+      "avg_fitness": 0.9858398721021175,
+      "deaths": 548,
+      "births": 500,
+      "timestamp": 1758861774.005116,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 66619,
+        "total_edges": 1666689,
+        "avg_edges_per_neuron": 25.018223029466068
+      }
+    },
+    {
+      "generation": 217,
+      "population": 16568,
+      "avg_fitness": 0.03328760433841014,
+      "deaths": 519,
+      "births": 500,
+      "timestamp": 1758861783.154533,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 66940,
+        "total_edges": 1666689,
+        "avg_edges_per_neuron": 24.898252166118912
+      }
+    },
+    {
+      "generation": 218,
+      "population": 16535,
+      "avg_fitness": 0.03348018623524125,
+      "deaths": 533,
+      "births": 500,
+      "timestamp": 1758861826.6004732,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 67258,
+        "total_edges": 1666689,
+        "avg_edges_per_neuron": 24.780531683963247
+      }
+    },
+    {
+      "generation": 219,
+      "population": 16513,
+      "avg_fitness": 0.033422925352677366,
+      "deaths": 522,
+      "births": 500,
+      "timestamp": 1758861835.7579007,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 67568,
+        "total_edges": 1666689,
+        "avg_edges_per_neuron": 24.666839332228275
+      }
+    },
+    {
+      "generation": 220,
+      "population": 16525,
+      "avg_fitness": 0.5000456964497505,
+      "deaths": 488,
+      "births": 500,
+      "timestamp": 1758861847.4791846,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 67880,
+        "total_edges": 1679346,
+        "avg_edges_per_neuron": 24.7399233942251
+      }
+    },
+    {
+      "generation": 221,
+      "population": 16576,
+      "avg_fitness": 0.5000623360686511,
+      "deaths": 449,
+      "births": 500,
+      "timestamp": 1758861925.1988199,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 68197,
+        "total_edges": 1692108,
+        "avg_edges_per_neuron": 24.812059181488923
+      }
+    },
+    {
+      "generation": 222,
+      "population": 16610,
+      "avg_fitness": 0.5000745369477421,
+      "deaths": 466,
+      "births": 500,
+      "timestamp": 1758861937.750342,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 68539,
+        "total_edges": 1704867,
+        "avg_edges_per_neuron": 24.874407271772277
+      }
+    },
+    {
+      "generation": 223,
+      "population": 16566,
+      "avg_fitness": 0.05601763361408939,
+      "deaths": 544,
+      "births": 500,
+      "timestamp": 1758861947.3065977,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 68874,
+        "total_edges": 1704912,
+        "avg_edges_per_neuron": 24.754072654412404
+      }
+    },
+    {
+      "generation": 224,
+      "population": 16572,
+      "avg_fitness": 0.056449580441548255,
+      "deaths": 494,
+      "births": 500,
+      "timestamp": 1758861988.7688723,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 69223,
+        "total_edges": 1704975,
+        "avg_edges_per_neuron": 24.63018072028083
+      }
+    },
+    {
+      "generation": 225,
+      "population": 16555,
+      "avg_fitness": 0.05680021858182242,
+      "deaths": 517,
+      "births": 500,
+      "timestamp": 1758861997.551056,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 69561,
+        "total_edges": 1705116,
+        "avg_edges_per_neuron": 24.51252857204468
+      }
+    },
+    {
+      "generation": 226,
+      "population": 16601,
+      "avg_fitness": 0.5002140936589392,
+      "deaths": 454,
+      "births": 500,
+      "timestamp": 1758862040.6711962,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 69899,
+        "total_edges": 1719286,
+        "avg_edges_per_neuron": 24.596718121861542
+      }
+    },
+    {
+      "generation": 227,
+      "population": 16678,
+      "avg_fitness": 0.5004070592794739,
+      "deaths": 423,
+      "births": 500,
+      "timestamp": 1758862090.5530658,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 70260,
+        "total_edges": 1733355,
+        "avg_edges_per_neuron": 24.670580700256192
+      }
+    },
+    {
+      "generation": 228,
+      "population": 16755,
+      "avg_fitness": 0.500590003373769,
+      "deaths": 423,
+      "births": 500,
+      "timestamp": 1758862102.2663434,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 70617,
+        "total_edges": 1746907,
+        "avg_edges_per_neuron": 24.737768525992326
+      }
+    },
+    {
+      "generation": 229,
+      "population": 16730,
+      "avg_fitness": 0.9858968409029863,
+      "deaths": 525,
+      "births": 500,
+      "timestamp": 1758862120.9836051,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 70947,
+        "total_edges": 1759582,
+        "avg_edges_per_neuron": 24.80135876076508
+      }
+    },
+    {
+      "generation": 230,
+      "population": 16725,
+      "avg_fitness": 0.9858931105127343,
+      "deaths": 505,
+      "births": 500,
+      "timestamp": 1758862174.228937,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 71259,
+        "total_edges": 1770508,
+        "avg_edges_per_neuron": 24.84609663340771
+      }
+    },
+    {
+      "generation": 231,
+      "population": 16700,
+      "avg_fitness": 0.985836420596037,
+      "deaths": 525,
+      "births": 500,
+      "timestamp": 1758862224.3468575,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 71611,
+        "total_edges": 1782846,
+        "avg_edges_per_neuron": 24.896258954629875
+      }
+    },
+    {
+      "generation": 232,
+      "population": 16640,
+      "avg_fitness": 0.0334944505772057,
+      "deaths": 560,
+      "births": 500,
+      "timestamp": 1758862233.1840131,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 71917,
+        "total_edges": 1782846,
+        "avg_edges_per_neuron": 24.790327738921256
+      }
+    },
+    {
+      "generation": 233,
+      "population": 16593,
+      "avg_fitness": 0.0332488341862,
+      "deaths": 547,
+      "births": 500,
+      "timestamp": 1758862276.8146942,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 72256,
+        "total_edges": 1782846,
+        "avg_edges_per_neuron": 24.674020150575732
+      }
+    },
+    {
+      "generation": 234,
+      "population": 16544,
+      "avg_fitness": 0.03328811978886046,
+      "deaths": 549,
+      "births": 500,
+      "timestamp": 1758862286.6400125,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 72589,
+        "total_edges": 1782846,
+        "avg_edges_per_neuron": 24.56082877570982
+      }
+    },
+    {
+      "generation": 235,
+      "population": 16533,
+      "avg_fitness": 0.500047629785578,
+      "deaths": 511,
+      "births": 500,
+      "timestamp": 1758862299.4916515,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 72900,
+        "total_edges": 1796437,
+        "avg_edges_per_neuron": 24.642482853223594
+      }
+    },
+    {
+      "generation": 236,
+      "population": 16556,
+      "avg_fitness": 0.500061969888886,
+      "deaths": 477,
+      "births": 500,
+      "timestamp": 1758862377.5827563,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 73265,
+        "total_edges": 1810214,
+        "avg_edges_per_neuron": 24.70775950317341
+      }
+    },
+    {
+      "generation": 237,
+      "population": 16569,
+      "avg_fitness": 0.5000706944118724,
+      "deaths": 487,
+      "births": 500,
+      "timestamp": 1758862389.7726247,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 73600,
+        "total_edges": 1822879,
+        "avg_edges_per_neuron": 24.767377717391305
+      }
+    },
+    {
+      "generation": 238,
+      "population": 16559,
+      "avg_fitness": 0.0558092982427695,
+      "deaths": 510,
+      "births": 500,
+      "timestamp": 1758862399.0691135,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 73950,
+        "total_edges": 1822935,
+        "avg_edges_per_neuron": 24.650912778904665
+      }
+    },
+    {
+      "generation": 239,
+      "population": 16555,
+      "avg_fitness": 0.05625533206687903,
+      "deaths": 504,
+      "births": 500,
+      "timestamp": 1758862441.4786882,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 74242,
+        "total_edges": 1823026,
+        "avg_edges_per_neuron": 24.555184396972063
+      }
+    },
+    {
+      "generation": 240,
+      "population": 16584,
+      "avg_fitness": 0.05654081738956455,
+      "deaths": 471,
+      "births": 500,
+      "timestamp": 1758862451.43624,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 74566,
+        "total_edges": 1823110,
+        "avg_edges_per_neuron": 24.44961510608052
+      }
+    },
+    {
+      "generation": 241,
+      "population": 16597,
+      "avg_fitness": 0.5002541477664824,
+      "deaths": 487,
+      "births": 500,
+      "timestamp": 1758862494.2406619,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 74902,
+        "total_edges": 1837610,
+        "avg_edges_per_neuron": 24.5335238044378
+      }
+    },
+    {
+      "generation": 242,
+      "population": 16670,
+      "avg_fitness": 0.500466162342332,
+      "deaths": 427,
+      "births": 500,
+      "timestamp": 1758862541.30934,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 75222,
+        "total_edges": 1850161,
+        "avg_edges_per_neuron": 24.596009146260403
+      }
+    },
+    {
+      "generation": 243,
+      "population": 16743,
+      "avg_fitness": 0.5006716611897366,
+      "deaths": 427,
+      "births": 500,
+      "timestamp": 1758862553.282923,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 75526,
+        "total_edges": 1862579,
+        "avg_edges_per_neuron": 24.66142785266001
+      }
+    },
+    {
+      "generation": 244,
+      "population": 16718,
+      "avg_fitness": 0.9858028539330744,
+      "deaths": 525,
+      "births": 500,
+      "timestamp": 1758862574.7599487,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 75837,
+        "total_edges": 1875266,
+        "avg_edges_per_neuron": 24.727586798000974
+      }
+    },
+    {
+      "generation": 245,
+      "population": 16688,
+      "avg_fitness": 0.985903498847298,
+      "deaths": 530,
+      "births": 500,
+      "timestamp": 1758862628.9687884,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 76151,
+        "total_edges": 1886900,
+        "avg_edges_per_neuron": 24.77840080891912
+      }
+    },
+    {
+      "generation": 246,
+      "population": 16682,
+      "avg_fitness": 0.9858389627163145,
+      "deaths": 506,
+      "births": 500,
+      "timestamp": 1758862680.7183182,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 76481,
+        "total_edges": 1898223,
+        "avg_edges_per_neuron": 24.819536878440395
+      }
+    },
+    {
+      "generation": 247,
+      "population": 16626,
+      "avg_fitness": 0.03328638007745889,
+      "deaths": 556,
+      "births": 500,
+      "timestamp": 1758862692.7553856,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 76811,
+        "total_edges": 1898223,
+        "avg_edges_per_neuron": 24.71290570361016
+      }
+    },
+    {
+      "generation": 248,
+      "population": 16582,
+      "avg_fitness": 0.0333560895004509,
+      "deaths": 544,
+      "births": 500,
+      "timestamp": 1758862731.3222058,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 77147,
+        "total_edges": 1898223,
+        "avg_edges_per_neuron": 24.60527305015101
+      }
+    },
+    {
+      "generation": 249,
+      "population": 16521,
+      "avg_fitness": 0.033381208600845945,
+      "deaths": 561,
+      "births": 500,
+      "timestamp": 1758862741.2651546,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 77503,
+        "total_edges": 1898223,
+        "avg_edges_per_neuron": 24.492251912829182
+      }
+    },
+    {
+      "generation": 250,
+      "population": 16516,
+      "avg_fitness": 0.5000356101259525,
+      "deaths": 505,
+      "births": 500,
+      "timestamp": 1758862755.7138727,
+      "version": "V2_CONTINUATION",
+      "plasticity": {
+        "num_neurons_with_edges": 77831,
+        "total_edges": 1912165,
+        "avg_edges_per_neuron": 24.568166925775078
+      }
+    }
+  ],
+  "runtime": 6901.296565294266,
+  "task": "XOR",
+  "version": "V2_CONTINUATION",
+  "original_checkpoint": "/root/ia3_evolution_gen46_SPECIAL_13397neurons.pt"
+}

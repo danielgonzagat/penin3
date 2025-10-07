@@ -1,0 +1,78 @@
+{
+  "timestamp": "2025-09-22T03:00:22.209042Z",
+  "metrics": {
+    "neuron_id": "n15053",
+    "age": 1,
+    "generation": 0,
+    "timestamp": "2025-09-22T03:00:22.206006Z",
+    "base_val_loss": 0.306462824344635,
+    "post_val_loss": 0.306462824344635,
+    "delta_val_loss": 0.0,
+    "base_ood_loss": 0.3219471275806427,
+    "post_ood_loss": 0.3219471275806427,
+    "delta_ood_loss": 0.0,
+    "best_val": 0.306462824344635,
+    "novelty": 1.2354467869067498,
+    "self_evolve_success": false,
+    "mutations_applied": [],
+    "self_mutations": 0,
+    "total_mutations": 0,
+    "successful_mutations": 0,
+    "consciousness_score": 0.38888888888888895,
+    "contribution_score": 1.0,
+    "architectural_changes": 0,
+    "synaptic_changes": 0,
+    "construction_mutations": 0,
+    "autonomous_operation": true,
+    "current_activation": "relu",
+    "has_learnable_gate": false,
+    "weight_norm": 0.9673948884010315,
+    "grad_norm": 0.10188981145620346,
+    "architectural_complexity": 0.5,
+    "E": 0,
+    "decision": "MORRE",
+    "A": false,
+    "C": false,
+    "ia3_score": 0.22,
+    "criteria": {
+      "adaptativo": false,
+      "autorecursivo": false,
+      "autoevolutivo": false,
+      "autodidata": false,
+      "autonomo": true,
+      "autossuficiente": true,
+      "autoconstructivo": false,
+      "autosinaptico": false,
+      "autoarquitetavel": false
+    },
+    "metrics_used": {
+      "delta_val_loss": 0.0,
+      "novelty": 1.2354467869067498,
+      "self_evolve_success": false
+    },
+    "reasons": [
+      "A=0 e C=0: Falhou em ['adaptativo', 'autorecursivo', 'autoevolutivo', 'autodidata', 'autoconstructivo', 'autosinaptico', 'autoarquitetavel']"
+    ],
+    "config": {
+      "beta_min": 0.01,
+      "novelty_tau": 0.05,
+      "consciousness_min": 0.3
+    },
+    "heritage": {
+      "strategy": "random_initialization"
+    },
+    "bonus_births": []
+  },
+  "neuron_state": null,
+  "system_state": {
+    "deaths": 0,
+    "births": 0,
+    "survivals": 0,
+    "rounds": 0,
+    "death_streak": 0,
+    "best_val": null,
+    "best_cfg": null,
+    "last_neuron_id": null,
+    "current_generation": 0
+  }
+}

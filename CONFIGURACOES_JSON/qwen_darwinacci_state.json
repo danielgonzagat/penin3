@@ -1,0 +1,680 @@
+{
+  "generation": 443,
+  "fitness_score": 1.0,
+  "mutation_rate": 0.1,
+  "crossover_rate": 0.8,
+  "population_size": 50,
+  "best_individual": {
+    "id": "ind_1759857182254044",
+    "genes": {
+      "command_preference": 0.99545004151087,
+      "safety_threshold": 0.695186655999012,
+      "efficiency_weight": 1,
+      "innovation_rate": 0.8918917386768165,
+      "exploration_rate": 0.9855161141132359
+    },
+    "fitness": 1.0,
+    "generation": 439,
+    "created_at": "2025-10-07T17:13:02.254034"
+  },
+  "population": [
+    {
+      "id": "ind_1759857182254044",
+      "genes": {
+        "command_preference": 0.99545004151087,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.8918917386768165,
+        "exploration_rate": 0.9855161141132359
+      },
+      "fitness": 1.0,
+      "generation": 439,
+      "created_at": "2025-10-07T17:13:02.254034"
+    },
+    {
+      "id": "ind_1759857242333844",
+      "genes": {
+        "command_preference": 0.9595275690364751,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9943499524639472,
+        "exploration_rate": 1
+      },
+      "fitness": 1.0,
+      "generation": 440,
+      "created_at": "2025-10-07T17:14:02.333837"
+    },
+    {
+      "id": "ind_1759857302415079",
+      "genes": {
+        "command_preference": 0.8899351993290813,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 0.9984718066141081,
+        "innovation_rate": 0.9943499524639472,
+        "exploration_rate": 1
+      },
+      "fitness": 1.0,
+      "generation": 441,
+      "created_at": "2025-10-07T17:15:02.415068"
+    },
+    {
+      "id": "ind_1759857302415115",
+      "genes": {
+        "command_preference": 0.99545004151087,
+        "safety_threshold": 0.7588343490968762,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 0.9855161141132359
+      },
+      "fitness": 1.0,
+      "generation": 441,
+      "created_at": "2025-10-07T17:15:02.415101"
+    },
+    {
+      "id": "ind_1759857302415148",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9612384978298364,
+        "exploration_rate": 1
+      },
+      "fitness": 1.0,
+      "generation": 441,
+      "created_at": "2025-10-07T17:15:02.415134"
+    },
+    {
+      "id": "ind_1759857362517271",
+      "genes": {
+        "command_preference": 0.9914713088066691,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 0.9981566712001235,
+        "innovation_rate": 1,
+        "exploration_rate": 0.9662730216761884
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517250"
+    },
+    {
+      "id": "ind_1759857362517301",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.6573154895501132,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 1
+      },
+      "fitness": 0.9985559967997035,
+      "generation": 442,
+      "created_at": "2025-10-07T17:15:02.415215"
+    },
+    {
+      "id": "ind_1759857362517316",
+      "genes": {
+        "command_preference": 0.9595275690364751,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9943499524639472,
+        "exploration_rate": 1
+      },
+      "fitness": 1.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:14:02.333837"
+    },
+    {
+      "id": "ind_1759857362517353",
+      "genes": {
+        "command_preference": 0.99545004151087,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.8918917386768165,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517329"
+    },
+    {
+      "id": "ind_1759857362517379",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.5132915334687087,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517367"
+    },
+    {
+      "id": "ind_1759857362517400",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.6962969286128472,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.7893848218071688,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517392"
+    },
+    {
+      "id": "ind_1759857362517423",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9297141212335518,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517413"
+    },
+    {
+      "id": "ind_1759857362517444",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.7449158313340162,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9943499524639472,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517435"
+    },
+    {
+      "id": "ind_1759857362517466",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.6041891910562093,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.8918917386768165,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517457"
+    },
+    {
+      "id": "ind_1759857362517486",
+      "genes": {
+        "command_preference": 0.8812779622690052,
+        "safety_threshold": 0.8431913794302893,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517478"
+    },
+    {
+      "id": "ind_1759857362517504",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517498"
+    },
+    {
+      "id": "ind_1759857362517525",
+      "genes": {
+        "command_preference": 0.99545004151087,
+        "safety_threshold": 0.7005333579777653,
+        "efficiency_weight": 0.9984718066141081,
+        "innovation_rate": 0.8918917386768165,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517516"
+    },
+    {
+      "id": "ind_1759857362517544",
+      "genes": {
+        "command_preference": 0.8812779622690052,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.7893848218071688,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517538"
+    },
+    {
+      "id": "ind_1759857362517564",
+      "genes": {
+        "command_preference": 0.8812779622690052,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517556"
+    },
+    {
+      "id": "ind_1759857362517585",
+      "genes": {
+        "command_preference": 0.8925075299719273,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517576"
+    },
+    {
+      "id": "ind_1759857362517604",
+      "genes": {
+        "command_preference": 0.9992643026840067,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 0.9941078296421427,
+        "innovation_rate": 1,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517596"
+    },
+    {
+      "id": "ind_1759857362517625",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.8918917386768165,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517616"
+    },
+    {
+      "id": "ind_1759857362517643",
+      "genes": {
+        "command_preference": 0.9992643026840067,
+        "safety_threshold": 0.7062530186544099,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9943499524639472,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517637"
+    },
+    {
+      "id": "ind_1759857362517661",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9612384978298364,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517655"
+    },
+    {
+      "id": "ind_1759857362517679",
+      "genes": {
+        "command_preference": 0.99545004151087,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 0.9855161141132359
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517673"
+    },
+    {
+      "id": "ind_1759857362517696",
+      "genes": {
+        "command_preference": 0.9914713088066691,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 0.9984718066141081,
+        "innovation_rate": 0.8983203514874322,
+        "exploration_rate": 0.9333296321684361
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517690"
+    },
+    {
+      "id": "ind_1759857362517714",
+      "genes": {
+        "command_preference": 0.99545004151087,
+        "safety_threshold": 0.7588343490968762,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 0.9855161141132359
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517708"
+    },
+    {
+      "id": "ind_1759857362517728",
+      "genes": {
+        "command_preference": 0.99545004151087,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 0.9855161141132359
+      },
+      "fitness": 1.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:14:02.334031"
+    },
+    {
+      "id": "ind_1759857362517740",
+      "genes": {
+        "command_preference": 0.9914713088066691,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 0.9981566712001235,
+        "innovation_rate": 1,
+        "exploration_rate": 0.9662730216761884
+      },
+      "fitness": 0.9937774312080263,
+      "generation": 442,
+      "created_at": "2025-10-07T17:15:02.414832"
+    },
+    {
+      "id": "ind_1759857362517758",
+      "genes": {
+        "command_preference": 0.8812779622690052,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517752"
+    },
+    {
+      "id": "ind_1759857362517777",
+      "genes": {
+        "command_preference": 0.9992643026840067,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517770"
+    },
+    {
+      "id": "ind_1759857362517796",
+      "genes": {
+        "command_preference": 0.99545004151087,
+        "safety_threshold": 0.7500302461824906,
+        "efficiency_weight": 0.9984718066141081,
+        "innovation_rate": 1,
+        "exploration_rate": 0.9855161141132359
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517788"
+    },
+    {
+      "id": "ind_1759857362517816",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9943499524639472,
+        "exploration_rate": 0.9855161141132359
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517807"
+    },
+    {
+      "id": "ind_1759857362517829",
+      "genes": {
+        "command_preference": 0.8812779622690052,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 1
+      },
+      "fitness": 0.9768169550963383,
+      "generation": 442,
+      "created_at": "2025-10-07T17:15:02.414982"
+    },
+    {
+      "id": "ind_1759857362517846",
+      "genes": {
+        "command_preference": 0.99545004151087,
+        "safety_threshold": 0.5171058271660959,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.8918917386768165,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517840"
+    },
+    {
+      "id": "ind_1759857362517864",
+      "genes": {
+        "command_preference": 0.8899351993290813,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 0.9984718066141081,
+        "innovation_rate": 0.8918917386768165,
+        "exploration_rate": 0.9333296321684361
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517858"
+    },
+    {
+      "id": "ind_1759857362517876",
+      "genes": {
+        "command_preference": 0.9992643026840067,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9943499524639472,
+        "exploration_rate": 1
+      },
+      "fitness": 0.9873788933852848,
+      "generation": 442,
+      "created_at": "2025-10-07T17:15:02.415353"
+    },
+    {
+      "id": "ind_1759857362517895",
+      "genes": {
+        "command_preference": 0.9914713088066691,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 0.9981566712001235,
+        "innovation_rate": 0.8918917386768165,
+        "exploration_rate": 0.9662730216761884
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517889"
+    },
+    {
+      "id": "ind_1759857362517914",
+      "genes": {
+        "command_preference": 0.8812779622690052,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9943499524639472,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517907"
+    },
+    {
+      "id": "ind_1759857362517933",
+      "genes": {
+        "command_preference": 0.99545004151087,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.8918917386768165,
+        "exploration_rate": 0.9855161141132359
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517926"
+    },
+    {
+      "id": "ind_1759857362517950",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517944"
+    },
+    {
+      "id": "ind_1759857362517968",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9943499524639472,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517962"
+    },
+    {
+      "id": "ind_1759857362517986",
+      "genes": {
+        "command_preference": 0.8899351993290813,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517979"
+    },
+    {
+      "id": "ind_1759857362518004",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9943499524639472,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.517998"
+    },
+    {
+      "id": "ind_1759857362518023",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9943499524639472,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.518016"
+    },
+    {
+      "id": "ind_1759857362518041",
+      "genes": {
+        "command_preference": 0.9595275690364751,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9943499524639472,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.518035"
+    },
+    {
+      "id": "ind_1759857362518056",
+      "genes": {
+        "command_preference": 0.99545004151087,
+        "safety_threshold": 0.7287814667431154,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 0.9855161141132359
+      },
+      "fitness": 1.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:14:02.334031"
+    },
+    {
+      "id": "ind_1759857362518080",
+      "genes": {
+        "command_preference": 1,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 0.9791394361912699,
+        "innovation_rate": 0.9691601865617279,
+        "exploration_rate": 0.9333296321684361
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.518068"
+    },
+    {
+      "id": "ind_1759857362518095",
+      "genes": {
+        "command_preference": 0.8812779622690052,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 1,
+        "exploration_rate": 0.9549047114386262
+      },
+      "fitness": 1.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:15:02.415996"
+    },
+    {
+      "id": "ind_1759857362518114",
+      "genes": {
+        "command_preference": 0.9914713088066691,
+        "safety_threshold": 0.695186655999012,
+        "efficiency_weight": 1,
+        "innovation_rate": 0.9943499524639472,
+        "exploration_rate": 1
+      },
+      "fitness": 0.0,
+      "generation": 442,
+      "created_at": "2025-10-07T17:16:02.518108"
+    }
+  ],
+  "metrics": {
+    "avg_fitness": 0.259130585529787,
+    "max_fitness": 1.0,
+    "min_fitness": 0.0,
+    "std_fitness": 0.43718103999462266,
+    "diversity": 0.029381645451063292,
+    "convergence_rate": 1.0
+  }
+}

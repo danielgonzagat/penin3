@@ -1,0 +1,262 @@
+{
+  "deaths_since_last_birth": 0,
+  "deaths_total": 10,
+  "births_total": 1,
+  "recent_promoted": [],
+  "recent_deaths": [
+    {
+      "ts": "2025-09-21T23:50:46.361542Z",
+      "agent_id": "agent_0",
+      "event": "death",
+      "decision": "missing_metrics",
+      "metrics": {
+        "delta_linf": 0.0,
+        "novelty": 0.055648446908907426,
+        "I": 0.5366666666666666,
+        "P": 0.0,
+        "caos_ratio": null,
+        "ece": 0.03,
+        "rho": 0.92,
+        "oci": 0.6666666666666666,
+        "lyapunov_ok": true,
+        "generalized_discovery": false
+      },
+      "deny_reasons": [
+        "missing_caos_ratio"
+      ],
+      "hash_prev": "GENESIS",
+      "hash_self": "1afc9c6fbb2cd0e2d660fb938811a226084c6018f4a5a48957476c92df7bd13a",
+      "action_rc": 0,
+      "action_output": "[dry-run] kill_cmd {'agent_id': 'agent_0'}"
+    },
+    {
+      "ts": "2025-09-21T23:55:13.733201Z",
+      "agent_id": "agent_0",
+      "event": "death",
+      "decision": "missing_metrics",
+      "metrics": {
+        "delta_linf": 0.01880788516082843,
+        "novelty": 0.03701067267415455,
+        "I": 0.5366666666666666,
+        "P": 0.01880788516082843,
+        "caos_ratio": null,
+        "ece": 0.03,
+        "rho": 0.92,
+        "oci": 0.6666666666666666,
+        "lyapunov_ok": true,
+        "generalized_discovery": false
+      },
+      "deny_reasons": [
+        "missing_caos_ratio"
+      ],
+      "hash_prev": "1afc9c6fbb2cd0e2d660fb938811a226084c6018f4a5a48957476c92df7bd13a",
+      "hash_self": "c6a8d3257958038dcd81d61ab0762fbbfe9cbe8aa1ab5c3854f2023eb278076c",
+      "action_rc": 0,
+      "action_output": "[dry-run] kill_cmd {'agent_id': 'agent_0'}"
+    },
+    {
+      "ts": "2025-09-21T23:55:20.863192Z",
+      "agent_id": "agent_0",
+      "event": "death",
+      "decision": "missing_metrics",
+      "metrics": {
+        "delta_linf": 0.0,
+        "novelty": 0.07785133315104668,
+        "I": 0.5366666666666666,
+        "P": 0.0,
+        "caos_ratio": null,
+        "ece": 0.03,
+        "rho": 0.92,
+        "oci": 0.6666666666666666,
+        "lyapunov_ok": true,
+        "generalized_discovery": false
+      },
+      "deny_reasons": [
+        "missing_caos_ratio"
+      ],
+      "hash_prev": "c6a8d3257958038dcd81d61ab0762fbbfe9cbe8aa1ab5c3854f2023eb278076c",
+      "hash_self": "70d5302bc5dac2bc6e9237bf29c6218ce87393e48cadf9649e7c2afb0914dfff",
+      "action_rc": 0,
+      "action_output": "{\"status\": \"ok\", \"agent\": \"agent_0\", \"removed_from_manifest\": true}\n"
+    },
+    {
+      "ts": "2025-09-21T23:56:18.679246Z",
+      "agent_id": "test_agent_10",
+      "event": "death",
+      "decision": "missing_metrics",
+      "metrics": {
+        "delta_linf": 0.0,
+        "novelty": 0.09957190458799843,
+        "I": 0.5366666666666666,
+        "P": 0.0,
+        "caos_ratio": null,
+        "ece": 0.03,
+        "rho": 0.92,
+        "oci": 0.6666666666666666,
+        "lyapunov_ok": true,
+        "generalized_discovery": false
+      },
+      "deny_reasons": [
+        "missing_caos_ratio"
+      ],
+      "hash_prev": "f9f37fc64956e2ba358448ae7305772f3dc734f0c0d569d508779c7cbbd07b0b",
+      "hash_self": "7301480362b07f1eab2dde5a2bbbc56cc294eed277b3a0d94c5c9d8c73893b55",
+      "action_rc": 0,
+      "action_output": "{\"status\": \"ok\", \"agent\": \"test_agent_10\", \"removed_from_manifest\": true}\n"
+    },
+    {
+      "ts": "2025-09-21T23:56:20.700004Z",
+      "agent_id": "test_agent_10",
+      "event": "death",
+      "decision": "missing_metrics",
+      "metrics": {
+        "delta_linf": 0.0,
+        "novelty": 0.058585411164545444,
+        "I": 0.5366666666666666,
+        "P": 0.0,
+        "caos_ratio": null,
+        "ece": 0.03,
+        "rho": 0.92,
+        "oci": 0.6666666666666666,
+        "lyapunov_ok": true,
+        "generalized_discovery": false
+      },
+      "deny_reasons": [
+        "missing_caos_ratio"
+      ],
+      "hash_prev": "0457e47cb99a0b243c5185505009447ed9b27ee62647f4d66d8c0ac117037b3b",
+      "hash_self": "15905f27825c49b999af66745e7fe05647722167ae7b299ec340314dc2cdfcaa",
+      "action_rc": 0,
+      "action_output": "{\"status\": \"ok\", \"agent\": \"test_agent_10\", \"removed_from_manifest\": true}\n"
+    },
+    {
+      "ts": "2025-09-21T23:56:22.816438Z",
+      "agent_id": "test_agent_10",
+      "event": "death",
+      "decision": "missing_metrics",
+      "metrics": {
+        "delta_linf": 0.0,
+        "novelty": 0.13087256214382573,
+        "I": 0.5366666666666666,
+        "P": 0.0,
+        "caos_ratio": null,
+        "ece": 0.03,
+        "rho": 0.92,
+        "oci": 0.6666666666666666,
+        "lyapunov_ok": true,
+        "generalized_discovery": false
+      },
+      "deny_reasons": [
+        "missing_caos_ratio"
+      ],
+      "hash_prev": "0a95bec2ee7269954f2a5daf3c814d9c794d689e904ebd29970e4b12d1347d6d",
+      "hash_self": "2b1aa5e82393b80379d907aca34f56459a574a5c5d7ef79fbac886139ef68e4d",
+      "action_rc": 0,
+      "action_output": "{\"status\": \"ok\", \"agent\": \"test_agent_10\", \"removed_from_manifest\": true}\n"
+    },
+    {
+      "ts": "2025-09-21T23:56:37.648361Z",
+      "agent_id": "test_agent_14",
+      "event": "death",
+      "decision": "missing_metrics",
+      "metrics": {
+        "delta_linf": 0.07924878607712948,
+        "novelty": 0.06617524010363703,
+        "I": 0.5366666666666666,
+        "P": 0.07924878607712948,
+        "caos_ratio": null,
+        "ece": 0.03,
+        "rho": 0.92,
+        "oci": 0.6666666666666666,
+        "lyapunov_ok": true,
+        "generalized_discovery": false
+      },
+      "deny_reasons": [
+        "missing_caos_ratio"
+      ],
+      "hash_prev": "bd15d87e12be0d63633c07a036a534365a8fccd3e4574b45d6de4b9810c41069",
+      "hash_self": "05f81c35b52e602ffe5d31fec4d19c8244bc8840b7c7d0252156efba8d41242f",
+      "action_rc": 0,
+      "action_output": "{\"status\": \"ok\", \"agent\": \"test_agent_14\", \"removed_from_manifest\": true}\n"
+    },
+    {
+      "ts": "2025-09-21T23:56:55.189345Z",
+      "agent_id": "agent_1",
+      "event": "death",
+      "decision": "missing_metrics",
+      "metrics": {
+        "delta_linf": 0.0,
+        "novelty": 0.06616630587845856,
+        "I": 0.5366666666666666,
+        "P": 0.0,
+        "caos_ratio": null,
+        "ece": 0.03,
+        "rho": 0.92,
+        "oci": 0.6666666666666666,
+        "lyapunov_ok": true,
+        "generalized_discovery": false
+      },
+      "deny_reasons": [
+        "missing_caos_ratio"
+      ],
+      "hash_prev": "c164a2880e37f9a47be35c29183e3881fb56878b9f034bc1e659515e28a2c9b3",
+      "hash_self": "49aeeb2b019230b784aacfb09a806f0e1fd9f0ecd3bc9f2a331226d0208bfcf3",
+      "action_rc": 0,
+      "action_output": "{\"status\": \"ok\", \"agent\": \"agent_1\", \"removed_from_manifest\": true}\n"
+    },
+    {
+      "ts": "2025-09-21T23:57:01.586880Z",
+      "agent_id": "agent_4",
+      "event": "death",
+      "decision": "missing_metrics",
+      "metrics": {
+        "delta_linf": 0.04741056594909665,
+        "novelty": 0.03323358279689416,
+        "I": 0.5366666666666666,
+        "P": 0.04741056594909665,
+        "caos_ratio": null,
+        "ece": 0.03,
+        "rho": 0.92,
+        "oci": 0.6666666666666666,
+        "lyapunov_ok": true,
+        "generalized_discovery": false
+      },
+      "deny_reasons": [
+        "missing_caos_ratio"
+      ],
+      "hash_prev": "b2c253b5dc6258683e7c7cc2e39b04387f1e234e3de8e5ccd9438bdb67204211",
+      "hash_self": "91d60ebcdcd275427ee9f304e78333a7a828a87922a2be8618f427b7ef7b3aab",
+      "action_rc": 0,
+      "action_output": "{\"status\": \"ok\", \"agent\": \"agent_4\", \"removed_from_manifest\": true}\n"
+    },
+    {
+      "ts": "2025-09-21T23:57:07.494461Z",
+      "agent_id": "mock_agent_6",
+      "event": "death",
+      "decision": "missing_metrics",
+      "metrics": {
+        "delta_linf": 0.0,
+        "novelty": 0.056932783502215936,
+        "I": 0.5366666666666666,
+        "P": 0.0,
+        "caos_ratio": null,
+        "ece": 0.03,
+        "rho": 0.92,
+        "oci": 0.6666666666666666,
+        "lyapunov_ok": true,
+        "generalized_discovery": false
+      },
+      "deny_reasons": [
+        "missing_caos_ratio"
+      ],
+      "hash_prev": "c34a0a659a65f9e4745cd76f71d60d4be1e93893471e68dd517b553ea5660ae6",
+      "hash_self": "f0f12ddf5809646aa0572b25098b37c1a6bf00cd2277568275dea8059e1822c3",
+      "action_rc": 0,
+      "action_output": "{\"status\": \"ok\", \"agent\": \"mock_agent_6\", \"removed_from_manifest\": true}\n"
+    }
+  ],
+  "survivors_active": 0,
+  "death_count": 8,
+  "total_deaths": 28,
+  "total_births": 2
+}

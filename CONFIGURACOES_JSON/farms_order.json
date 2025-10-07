@@ -1,0 +1,11 @@
+{
+  "saved_at": "2025-09-23T00:00:00Z",
+  "farms_order": [
+    {"rank": 1, "name": "IA3 Supreme Neural Farm", "path": "IA3_SUPREME/neural_farm.py"},
+    {"rank": 2, "name": "IA3 REAL pipeline", "path": "IA3_REAL/*"},
+    {"rank": 3, "name": "Darwin neuroevolution", "path": "darwin/*"},
+    {"rank": 4, "name": "Fazenda de Neurônios (Elixir)", "path": "fazenda_neuronios/*"},
+    {"rank": 5, "name": "CUBIC Farm family", "path": "CUBIC_FARM_*"},
+    {"rank": 6, "name": "Needle Farm (Elixir)", "path": "needle_farm/*"}
+  ]
+}

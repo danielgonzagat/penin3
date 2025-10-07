@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-10-05T22:23:58.380269",
+  "activations": {
+    "darwin_evolution": true,
+    "module_synthesis": true,
+    "maml_integration": true,
+    "penin3_neurons": true,
+    "recursive_improvement": true,
+    "ia3_calculation": true
+  },
+  "parameters": {
+    "darwin": {
+      "survival_rate": 0.4,
+      "elite_size": 5,
+      "evolution_interval": 10
+    },
+    "synthesis": {
+      "enabled": true,
+      "max_neurons": 100
+    },
+    "maml": {
+      "inner_lr": 0.01,
+      "outer_lr": 0.001,
+      "meta_train_interval": 50
+    },
+    "penin3": {
+      "count": 3,
+      "auto_evolve": true
+    },
+    "recursive": {
+      "cycle_interval": 120,
+      "meta_learn_interval": 10
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "start_time": "2025-10-06T14:02:29.060605",
+    "total_steps": 236,
+    "total_episodes": 12,
+    "rewards": [
+      16.0,
+      16.0,
+      66.0,
+      28.0,
+      27.0,
+      20.0,
+      9.0,
+      9.0,
+      9.0,
+      9.0,
+      9.0,
+      10.0
+    ],
+    "best_reward": 66.0,
+    "avg_reward_last_100": 19.0,
+    "learning_progress": 0.0,
+    "gradients_applied": 12,
+    "avg_loss": 24.193927246766112,
+    "avg_time_per_step": 0.7504682049697339,
+    "device": "cpu",
+    "version": "V3-EMERGENCIAL"
+  },
+  "episode": 12,
+  "best_reward": 66.0,
+  "timestamp": "2025-10-07T00:46:27.861386"
+}

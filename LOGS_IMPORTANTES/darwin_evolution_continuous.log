@@ -1,0 +1,110 @@
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+Exception in thread Thread-1 (_serve_metrics):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/darwin-engine-intelligence/darwin_main/darwin_runner.py", line 281, in _serve_metrics
+    httpd = HTTPServer(("0.0.0.0", port), Handler, self.metrics)
+  File "/root/darwin-engine-intelligence/darwin_main/darwin_runner.py", line 154, in __init__
+    super().__init__(addr, handler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+Exception in thread Thread-1 (_serve_metrics):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/darwin-engine-intelligence/darwin_main/darwin_runner.py", line 281, in _serve_metrics
+    httpd = HTTPServer(("0.0.0.0", port), Handler, self.metrics)
+  File "/root/darwin-engine-intelligence/darwin_main/darwin_runner.py", line 154, in __init__
+    super().__init__(addr, handler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+/usr/lib/python3.10/http/server.py:421: RuntimeWarning: coroutine 'Handler.do_GET' was never awaited
+  method()
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+/usr/lib/python3.10/http/server.py:421: RuntimeWarning: coroutine 'Handler.do_GET' was never awaited
+  method()
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+Exception in thread Thread-1 (_serve_metrics):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/darwin-engine-intelligence/darwin_main/darwin_runner.py", line 281, in _serve_metrics
+    httpd = HTTPServer(("0.0.0.0", port), Handler, self.metrics)
+  File "/root/darwin-engine-intelligence/darwin_main/darwin_runner.py", line 154, in __init__
+    super().__init__(addr, handler)
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente
+✓ Incompletude Infinita carregada automaticamente

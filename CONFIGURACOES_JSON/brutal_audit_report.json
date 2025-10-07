@@ -1,0 +1,163 @@
+{
+  "timestamp": "2025-09-24T19:52:04.957100",
+  "checkpoint": "/root/complete_brain_gen50.pt",
+  "generation": 50,
+  "population": 246,
+  "final_score": 49.30555555555556,
+  "verdict": "PROBLEMATIC",
+  "successes": [
+    "Checkpoint integrity verified",
+    "Population health: 85.0/100",
+    "High average fitness: 0.809",
+    "Reproduction system functional",
+    "xor: 74.8%"
+  ],
+  "warnings": [
+    "No learning detected"
+  ],
+  "critical_issues": [
+    "No deaths recorded - Darwin inactive",
+    "Negative evolutionary trend"
+  ],
+  "detailed_results": {
+    "integrity": {
+      "valid": true,
+      "issues": [],
+      "structure": {
+        "generation": "present",
+        "neurons": "present",
+        "neuron_keys": [
+          "dna",
+          "generation",
+          "gender",
+          "hemisphere",
+          "marital_status",
+          "partner_id",
+          "children",
+          "parents",
+          "fitness",
+          "logic_score",
+          "creativity_score",
+          "task_scores",
+          "age",
+          "survived_darwin"
+        ]
+      }
+    },
+    "population": {
+      "total": 246,
+      "issues": [
+        "Low marriage rate: 0.0%"
+      ],
+      "statistics": {
+        "fitness": {
+          "mean": 0.8087219725312668,
+          "std": 0.034685331463412086,
+          "min": 0.5978940069855672,
+          "max": 1.0,
+          "median": 0.8112148962911154
+        },
+        "age": {
+          "mean": 12.894308943089431,
+          "max": "13"
+        },
+        "generations": {
+          "unique": 6,
+          "newest": 45
+        },
+        "gender": {
+          "female": 124,
+          "male": 122
+        },
+        "hemisphere": {
+          "left": 127,
+          "right": 119
+        },
+        "marriage_rate": 0.0
+      },
+      "health_score": 85.0
+    },
+    "evolution": {
+      "generations_span": 6,
+      "population_changes": [],
+      "fitness_evolution": {
+        "0": {
+          "mean": 0.8114733674255266,
+          "std": 0.02529010826634919,
+          "count": 235
+        },
+        "41": {
+          "mean": 0.8163603386458111,
+          "std": 0.03004810201315031,
+          "count": 5
+        },
+        "42": {
+          "mean": 0.7250566286153115,
+          "std": 0.08694918112248345,
+          "count": 2
+        },
+        "43": {
+          "mean": 0.8554979769577495,
+          "std": 0.0,
+          "count": 1
+        },
+        "44": {
+          "mean": 0.5978940069855672,
+          "std": 0.0,
+          "count": 1
+        },
+        "45": {
+          "mean": 0.6320284816449238,
+          "std": 0.02084891330312766,
+          "count": 2
+        }
+      },
+      "learning_curve": {
+        "trend": "negative",
+        "degradation_rate": 0.04063377358689449
+      }
+    },
+    "darwin": {
+      "functional": false,
+      "mortality_rate": 0.5,
+      "death_reasons": {},
+      "issues": [
+        "No deaths recorded - Darwin inactive"
+      ]
+    },
+    "reproduction": {
+      "functional": true,
+      "marriage_rate": 1.0,
+      "birth_rate": 1.8455284552845528,
+      "fertility_rate": 3.6910569105691056,
+      "issues": []
+    },
+    "compatibility": {
+      "marriages": 123,
+      "compatible_pairs": 10,
+      "avg_compatibility": 0.4783377417447509,
+      "perfect_matches": 0,
+      "issues": []
+    },
+    "task_performance": {
+      "tasks": {
+        "xor": {
+          "mean": 0.7479674796747967,
+          "std": 0.03899050018953431,
+          "min": 0.5,
+          "max": 1.0,
+          "trend": "stable"
+        }
+      },
+      "learning_detected": false,
+      "issues": []
+    }
+  },
+  "log_summary": {
+    "counters": {
+      "INFO": 13
+    },
+    "avg_timings": {},
+    "total_time": 0.008352518081665039
+  }
+}

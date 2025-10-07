@@ -1,0 +1,100 @@
+{
+  "generated_at": "2025-09-20T08:38:40.735810",
+  "latest_cycles": 5,
+  "latest_summary": [
+    {
+      "cycle": 1,
+      "avg_intelligence": 109.1573622170532,
+      "agi_probability": 0,
+      "emergence_score": 0
+    },
+    {
+      "cycle": 2,
+      "avg_intelligence": 106.7205273462627,
+      "agi_probability": 0,
+      "emergence_score": 0
+    },
+    {
+      "cycle": 3,
+      "avg_intelligence": 107.85951918349542,
+      "agi_probability": 0,
+      "emergence_score": 0
+    },
+    {
+      "cycle": 4,
+      "avg_intelligence": 88.86825703370748,
+      "agi_probability": 0,
+      "emergence_score": 0
+    },
+    {
+      "cycle": 5,
+      "avg_intelligence": 89.46519864994139,
+      "agi_probability": 0,
+      "emergence_score": 0
+    }
+  ],
+  "systems": {
+    "intelligence": {
+      "avg_score": 42.897689504625035,
+      "pattern_discoveries": 517
+    },
+    "consciousness": {
+      "last_behavioral_avg": 10.0,
+      "last_vector_memory": 10.0,
+      "last_pettingzoo_adaptability": 0.0,
+      "last_swarm_synergy": 2.0
+    },
+    "meta": {},
+    "auto_criticism": {},
+    "evolution": {},
+    "architecture": {
+      "events": 14,
+      "last": {
+        "timestamp": "2025-09-20T08:38:26.892542",
+        "cycle": 1,
+        "backend": "deepswarm",
+        "baseline_intelligence": 109.1573622170532,
+        "candidate": {
+          "backend": "deepswarm",
+          "spec": {
+            "layers": 6,
+            "width": 320,
+            "activation": "relu6"
+          },
+          "predicted_gain": 0.24000000000000002
+        },
+        "accepted": true
+      }
+    },
+    "canary": {
+      "events": 11,
+      "last": {
+        "cycle": 1,
+        "backend": "deepswarm",
+        "spec": {
+          "layers": 6,
+          "width": 320,
+          "activation": "relu6"
+        },
+        "before_avg": 109.1573622170532,
+        "after_avg": 109.76529910387565,
+        "delta": 0.6079368868224435
+      }
+    },
+    "ab_stats": {
+      "backends": {
+        "deepswarm": {
+          "count": 10
+        },
+        "optuna": {
+          "count": 4
+        }
+      },
+      "canary": {
+        "events": 11,
+        "avg_delta": 0.2238480323075397,
+        "max_delta": 0.6080490726724292
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "start_cycle": 313211,
+  "end_cycle": 313311,
+  "cycles_executed": 100,
+  "total_time_seconds": 32181.394014120102,
+  "final_metrics": {
+    "mnist": 98.17,
+    "cartpole": 525.3390449438202,
+    "ia3": 95.12245928903829,
+    "i3": 86.47036096132047
+  },
+  "counters": {
+    "replay": 1000,
+    "darwin": 0,
+    "autocoder": 0,
+    "maml": 0,
+    "automl": 0
+  },
+  "i3_details": {
+    "introspection_events": 127,
+    "self_awareness": 0.9117590240330118,
+    "curriculum_items": 10,
+    "turing_tests": 2,
+    "turing_passes": 1,
+    "regenerations": 19
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "experiment": "baseline_vs_amplified",
+  "generations": 50,
+  "population_size": 50,
+  "baseline": {
+    "convergence": 2,
+    "final_fitness": 315.34905029296874,
+    "avg_fitness": 133.58100700683593
+  },
+  "amplified": {
+    "convergence": 1,
+    "final_fitness": 896.3489392089843,
+    "avg_fitness": 421.5908513671875,
+    "memory_strategies": 20,
+    "memory_causals": 0
+  },
+  "amplification": {
+    "speedup": 2.0,
+    "fitness_improvement": 184.2402532610291,
+    "verdict": "success"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "CartPole-v1": {
+    "env_name": "CartPole-v1",
+    "episodes": 5,
+    "rewards": [
+      13.0,
+      9.0,
+      15.0,
+      22.0,
+      45.0
+    ],
+    "avg_reward": 20.8,
+    "best_reward": 45.0,
+    "success": true
+  },
+  "Acrobot-v1": {
+    "env_name": "Acrobot-v1",
+    "success": false,
+    "error": "mat1 and mat2 shapes cannot be multiplied (1x6 and 4x512)"
+  },
+  "MountainCar-v0": {
+    "env_name": "MountainCar-v0",
+    "success": false,
+    "error": "mat1 and mat2 shapes cannot be multiplied (1x2 and 4x512)"
+  }
+}

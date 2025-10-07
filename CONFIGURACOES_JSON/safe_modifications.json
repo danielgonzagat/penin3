@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2025-10-07T13:09:19.794574",
+    "file_path": "/root/test_file.txt",
+    "backup_path": "",
+    "modifications": [
+      {
+        "type": "append",
+        "new": "\n# Modified by SafeSelfModification\n"
+      }
+    ],
+    "success": false
+  }
+]

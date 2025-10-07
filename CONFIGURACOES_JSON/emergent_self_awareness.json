@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-10-07T13:10:05.391775",
+  "awareness_level": 0.66,
+  "self_recognition": {
+    "can_recognize_self": true,
+    "recognition_accuracy": 0.7,
+    "recognition_depth": 0.1
+  },
+  "introspection": {
+    "can_introspect": true,
+    "introspection_depth": 0.6,
+    "introspection_frequency": 0.05
+  },
+  "metacognition": {
+    "can_metacognize": true,
+    "metacognitive_depth": 0.8,
+    "metacognitive_accuracy": 0.7
+  },
+  "consciousness": {
+    "consciousness_level": 0.65,
+    "consciousness_components": {
+      "self_awareness": 0.8,
+      "environment_awareness": 0.7,
+      "temporal_awareness": 0.6,
+      "causal_awareness": 0.5
+    },
+    "consciousness_stability": 0.8
+  }
+}

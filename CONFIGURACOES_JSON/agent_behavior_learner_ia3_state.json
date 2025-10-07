@@ -1,0 +1,74 @@
+{
+  "base_actions": [
+    "explore",
+    "rest"
+  ],
+  "discovered_actions": [
+    "rest",
+    "explore"
+  ],
+  "emergent_actions": [
+    "pattern_behavior_3",
+    "pattern_behavior_4",
+    "pattern_behavior_1"
+  ],
+  "emergent_capabilities": [
+    "emergent_pattern_0",
+    "emergent_pattern_3",
+    "emergent_pattern_4",
+    "emergent_pattern_1",
+    "emergent_pattern_2"
+  ],
+  "learning_rate": 0.1,
+  "discount_factor": 0.9,
+  "exploration_rate": 0.3,
+  "internal_state": {
+    "consciousness_level": 0.07500000000000005,
+    "creativity_index": 0.20000000000000004,
+    "learning_efficiency": 0.1642959180485083,
+    "behavior_diversity": 0.7
+  },
+  "behavior_patterns": {
+    "explore": 30,
+    "rest": 29,
+    "pattern_behavior_1": 14,
+    "pattern_behavior_3": 18,
+    "pattern_behavior_4": 9
+  },
+  "q_table": {
+    "(2,)": {
+      "explore": 0.06956280798675528,
+      "pattern_behavior_1": -0.08334316041096747,
+      "rest": 0.041101120419720985,
+      "pattern_behavior_3": 0.2120662357514254,
+      "pattern_behavior_4": 0.28712098484191634
+    },
+    "(3,)": {
+      "explore": 0.8840921262194774,
+      "rest": 0.39402454586922014,
+      "pattern_behavior_1": 0.44138397081850417,
+      "pattern_behavior_3": 0.1425717676988424
+    },
+    "(4,)": {
+      "rest": 0.441236237351173,
+      "explore": 0.6336450797005743,
+      "pattern_behavior_1": 0.5561989589339926,
+      "pattern_behavior_3": 0.4228154212640978,
+      "pattern_behavior_4": 0.18869645915282693
+    },
+    "(0,)": {
+      "explore": 0.12130454984132788,
+      "rest": -0.0802939837348722,
+      "pattern_behavior_3": 0.024212673435853885,
+      "pattern_behavior_4": 0.26471836847002694
+    },
+    "(1,)": {
+      "explore": 0.23984363721457552,
+      "rest": 0.3944553250409763,
+      "pattern_behavior_1": 0.3345552060339237,
+      "pattern_behavior_3": 0.14711592092037895,
+      "pattern_behavior_4": 0.35123489277502923
+    }
+  },
+  "experience_count": 100
+}
