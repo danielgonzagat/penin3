@@ -1,0 +1,327 @@
+{
+  "timestamp": "2025-09-16T01:32:59.701726",
+  "validation_summary": {
+    "total_validations": 19,
+    "successful_validations": 14,
+    "success_rate": 0.7368421052631579,
+    "total_duration": 5.236656188964844
+  },
+  "system_metrics": {
+    "score_geral": 0.6517482517482518,
+    "taxa_sucesso": 0.6363636363636364,
+    "cobertura_testes": 0.6363636363636364,
+    "documentacao": 0.7,
+    "modularidade": 0.3,
+    "manutenibilidade": 0.2,
+    "compatibilidade_interfaces": 1.0,
+    "resolucao_dependencias": 1.0,
+    "sincronizacao_estado": 1.0,
+    "organizacao_arquivos": 1.0,
+    "integracao_multi_api": 0.0,
+    "otimizacao_performance": 1.0,
+    "logging_estruturado": 0.0,
+    "seguranca_governanca": 1.0
+  },
+  "components_summary": {
+    "unified_classes": {
+      "total_tests": 3,
+      "successful_tests": 3,
+      "average_score": 1.0,
+      "total_duration": 0.00011038780212402344,
+      "success_rate": 1.0
+    },
+    "dependency_resolution": {
+      "total_tests": 2,
+      "successful_tests": 2,
+      "average_score": 1.0,
+      "total_duration": 2.0265579223632812e-05,
+      "success_rate": 1.0
+    },
+    "state_synchronization": {
+      "total_tests": 2,
+      "successful_tests": 1,
+      "average_score": 0.5,
+      "total_duration": 5.125999450683594e-05,
+      "success_rate": 0.5
+    },
+    "file_organization": {
+      "total_tests": 2,
+      "successful_tests": 2,
+      "average_score": 1.0,
+      "total_duration": 0.0003337860107421875,
+      "success_rate": 1.0
+    },
+    "multi_api_integration": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "average_score": 0.0,
+      "total_duration": 0.0,
+      "success_rate": 0.0
+    },
+    "performance_optimization": {
+      "total_tests": 2,
+      "successful_tests": 2,
+      "average_score": 1.0,
+      "total_duration": 1.0014870166778564,
+      "success_rate": 1.0
+    },
+    "structured_logging": {
+      "total_tests": 2,
+      "successful_tests": 1,
+      "average_score": 0.5,
+      "total_duration": 1.7642974853515625e-05,
+      "success_rate": 0.5
+    },
+    "security_governance": {
+      "total_tests": 3,
+      "successful_tests": 2,
+      "average_score": 0.8333333333333334,
+      "total_duration": 0.00446009635925293,
+      "success_rate": 0.6666666666666666
+    },
+    "automated_testing": {
+      "total_tests": 1,
+      "successful_tests": 1,
+      "average_score": 0.6363636363636364,
+      "total_duration": 0.05630993843078613,
+      "success_rate": 1.0
+    },
+    "end_to_end_pipeline": {
+      "total_tests": 1,
+      "successful_tests": 0,
+      "average_score": 0.0,
+      "total_duration": 0.0,
+      "success_rate": 0.0
+    }
+  },
+  "detailed_results": [
+    {
+      "component": "unified_classes",
+      "test_name": "candidate_creation",
+      "success": true,
+      "score": 1.0,
+      "duration": 8.58306884765625e-06,
+      "details": {
+        "candidate_id": "test_validation",
+        "score": 0.9
+      },
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:54.468594+00:00"
+    },
+    {
+      "component": "unified_classes",
+      "test_name": "plan_omega_creation",
+      "success": true,
+      "score": 1.0,
+      "duration": 8.58306884765625e-06,
+      "details": {
+        "plan_id": "test_plan",
+        "policies": {
+          "validation": true
+        }
+      },
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:54.468618+00:00"
+    },
+    {
+      "component": "unified_classes",
+      "test_name": "serialization",
+      "success": true,
+      "score": 1.0,
+      "duration": 9.322166442871094e-05,
+      "details": {},
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:54.468717+00:00"
+    },
+    {
+      "component": "dependency_resolution",
+      "test_name": "safe_import",
+      "success": true,
+      "score": 1.0,
+      "duration": 1.9073486328125e-05,
+      "details": {},
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:54.468931+00:00"
+    },
+    {
+      "component": "dependency_resolution",
+      "test_name": "configuration",
+      "success": true,
+      "score": 1.0,
+      "duration": 1.1920928955078125e-06,
+      "details": {
+        "version": "8.0.0",
+        "root_path": "/root/.penin_omega"
+      },
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:54.468940+00:00"
+    },
+    {
+      "component": "state_synchronization",
+      "test_name": "get_state",
+      "success": true,
+      "score": 1.0,
+      "duration": 4.839897155761719e-05,
+      "details": {
+        "state_fields": 16
+      },
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:54.469166+00:00"
+    },
+    {
+      "component": "state_synchronization",
+      "test_name": "update_state",
+      "success": false,
+      "score": 0.0,
+      "duration": 2.86102294921875e-06,
+      "details": {},
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:54.469210+00:00"
+    },
+    {
+      "component": "file_organization",
+      "test_name": "directory_structure",
+      "success": true,
+      "score": 1.0,
+      "duration": 6.270408630371094e-05,
+      "details": {
+        "missing_dirs": [],
+        "required_dirs": [
+          "logs",
+          "config",
+          "cache",
+          "artifacts",
+          "knowledge",
+          "worm"
+        ]
+      },
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:54.469290+00:00"
+    },
+    {
+      "component": "file_organization",
+      "test_name": "organization_reports",
+      "success": true,
+      "score": 1.0,
+      "duration": 0.00027108192443847656,
+      "details": {
+        "reports_found": 1
+      },
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:54.469569+00:00"
+    },
+    {
+      "component": "multi_api_integration",
+      "test_name": "general_validation",
+      "success": false,
+      "score": 0.0,
+      "duration": 0.0,
+      "details": {},
+      "error_message": "name 'hashlib' is not defined",
+      "timestamp": "2025-09-16T01:32:54.599858+00:00"
+    },
+    {
+      "component": "performance_optimization",
+      "test_name": "start_monitoring",
+      "success": true,
+      "score": 1.0,
+      "duration": 1.001450777053833,
+      "details": {},
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:55.612543+00:00"
+    },
+    {
+      "component": "performance_optimization",
+      "test_name": "performance_report",
+      "success": true,
+      "score": 1.0,
+      "duration": 3.62396240234375e-05,
+      "details": {
+        "cpu_percent": 0.0,
+        "memory_percent": 0.008221331625258448
+      },
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:55.612616+00:00"
+    },
+    {
+      "component": "structured_logging",
+      "test_name": "get_logger",
+      "success": true,
+      "score": 1.0,
+      "duration": 1.7642974853515625e-05,
+      "details": {},
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:59.626997+00:00"
+    },
+    {
+      "component": "structured_logging",
+      "test_name": "general_validation",
+      "success": false,
+      "score": 0.0,
+      "duration": 0.0,
+      "details": {},
+      "error_message": "LogContext.__init__() got an unexpected keyword argument 'module'",
+      "timestamp": "2025-09-16T01:32:59.627027+00:00"
+    },
+    {
+      "component": "security_governance",
+      "test_name": "worm_ledger",
+      "success": true,
+      "score": 1.0,
+      "duration": 0.0014605522155761719,
+      "details": {
+        "record_id": "validation_test"
+      },
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:59.631857+00:00"
+    },
+    {
+      "component": "security_governance",
+      "test_name": "dlp_scanner",
+      "success": true,
+      "score": 1.0,
+      "duration": 0.0027091503143310547,
+      "details": {
+        "violations_count": 0
+      },
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:59.634581+00:00"
+    },
+    {
+      "component": "security_governance",
+      "test_name": "worm_integrity",
+      "success": false,
+      "score": 0.5,
+      "duration": 0.0002903938293457031,
+      "details": {
+        "integrity_ok": false,
+        "issues_count": 2
+      },
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:59.634885+00:00"
+    },
+    {
+      "component": "automated_testing",
+      "test_name": "run_all_tests",
+      "success": true,
+      "score": 0.6363636363636364,
+      "duration": 0.05630993843078613,
+      "details": {
+        "total_tests": 22,
+        "success_rate": 0.6363636363636364
+      },
+      "error_message": null,
+      "timestamp": "2025-09-16T01:32:59.701565+00:00"
+    },
+    {
+      "component": "end_to_end_pipeline",
+      "test_name": "general_validation",
+      "success": false,
+      "score": 0.0,
+      "duration": 0.0,
+      "details": {},
+      "error_message": "No module named 'penin_omega_8_bridge_fixed'",
+      "timestamp": "2025-09-16T01:32:59.701690+00:00"
+    }
+  ]
+}

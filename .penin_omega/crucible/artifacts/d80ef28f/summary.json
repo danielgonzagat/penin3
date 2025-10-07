@@ -1,0 +1,20 @@
+{
+  "tot_candidates": 1,
+  "allow": 0,
+  "canary": 1,
+  "reject": 0,
+  "promoted": 1,
+  "avg_delta_linf": 0.002788535969157675,
+  "avg_sr": 0.8010991099488204,
+  "avg_cost": 0.10100278853596917,
+  "budget_left": {
+    "max_cost": 10.0,
+    "max_tokens": 100000,
+    "max_llm_calls": 12,
+    "max_latency_ms": 10000,
+    "quota_local": 0.8,
+    "used_llm_calls": 1,
+    "used_tokens": 0,
+    "used_cost": 0.5
+  }
+}

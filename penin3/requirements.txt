@@ -1,0 +1,30 @@
+# PENIN³ Requirements
+# Unified V7 + PENIN-Ω dependencies
+
+# Core
+python>=3.10
+numpy>=1.24
+torch>=2.0
+
+# V7 Requirements
+gymnasium>=0.29
+matplotlib>=3.8
+
+# PENIN-Ω Requirements  
+# FIX P2-2: Pin Pydantic to <3.0 to avoid deprecation breakage
+pydantic>=2.0,<3.0
+fastapi>=0.100
+uvicorn>=0.23
+httpx>=0.24
+orjson>=3.9
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4
+pytest-asyncio>=0.21
+
+# Monitoring
+prometheus-client>=0.17
+
+# Optional SOTA libraries
+# spikingjelly>=0.0.0.0.14  # Already installed

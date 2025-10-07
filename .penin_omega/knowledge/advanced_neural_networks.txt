@@ -1,0 +1,32 @@
+
+Arquiteturas Avançadas de Redes Neurais
+
+1. TRANSFORMERS
+- Self-attention mechanism
+- Multi-head attention para diferentes aspectos
+- Positional encoding para sequências
+- Layer normalization e residual connections
+
+2. CONVOLUTIONAL NEURAL NETWORKS
+- Convolution: feature extraction local
+- Pooling: dimensionality reduction
+- Batch normalization: estabilização
+- Skip connections: gradient flow
+
+3. RECURRENT NEURAL NETWORKS
+- LSTM: Long Short-Term Memory
+- GRU: Gated Recurrent Unit
+- Bidirectional processing
+- Attention mechanisms
+
+4. GENERATIVE MODELS
+- Variational Autoencoders (VAE)
+- Generative Adversarial Networks (GAN)
+- Normalizing Flows
+- Diffusion Models
+
+5. REGULARIZATION TECHNIQUES
+- Dropout: random neuron deactivation
+- DropConnect: random weight deactivation
+- Spectral normalization: Lipschitz constraint
+- Weight decay: L2 penalty on weights

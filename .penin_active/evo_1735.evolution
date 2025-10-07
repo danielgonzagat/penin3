@@ -1,0 +1,12 @@
+{
+  "source_table": "evolution_history",
+  "data": [
+    1735,
+    14,
+    0.25,
+    0.1950802269625799,
+    "def solve(x):\n    return sum([x % 4 for _ in range(2)])",
+    "2025-09-16T08:16:40.948790"
+  ],
+  "timestamp": "2025-09-18T02:06:07.039201"
+}

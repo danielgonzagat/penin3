@@ -1,0 +1,500 @@
+✓ Incompletude Infinita carregada automaticamente
+2025-10-03 13:37:15,032 - penin3_system - INFO - ================================================================================
+2025-10-03 13:37:15,032 - penin3_system - INFO - 🚀 PENIN³ - UNIFIED INTELLIGENCE SYSTEM
+2025-10-03 13:37:15,032 - penin3_system - INFO - ================================================================================
+2025-10-03 13:37:15,032 - penin3_system - INFO - 📊 Initializing V7 operational layer...
+2025-10-03 13:37:15,033 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:37:15,033 - core.system_v7_ultimate - INFO - 🚀 INTELLIGENCE SYSTEM V7.0 - ULTIMATE MERGE + TOP 5
+2025-10-03 13:37:15,033 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:37:15,033 - core.system_v7_ultimate - INFO -    V4.0: 7 components
+2025-10-03 13:37:15,033 - core.system_v7_ultimate - INFO -    V5.0: +3 extracted algorithms
+2025-10-03 13:37:15,033 - core.system_v7_ultimate - INFO -    V6.0: +4 NEW (Validator, Adv Evo, Multi-System, DB Knowledge)
+2025-10-03 13:37:15,033 - core.system_v7_ultimate - INFO -    V7.0: +4 ULTIMATE (Supreme Auditor, TEIS, Dynamic Layers, Curriculum)
+2025-10-03 13:37:15,033 - core.system_v7_ultimate - INFO -    V7.0 TOP 5: +5 INTEGRATIONS (Auto-coding, Multi-modal, AutoML, MAML, Mass DB)
+2025-10-03 13:37:15,033 - core.system_v7_ultimate - INFO -    TOTAL: 24 COMPONENTS!
+2025-10-03 13:37:15,033 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:37:15,033 - core.database - INFO - ✅ Database initialized: /root/intelligence_system/data/intelligence.db
+2025-10-03 13:37:15,055 - models.mnist_classifier - INFO - 📂 Model loaded from /root/intelligence_system/models/mnist_model.pth
+2025-10-03 13:37:15,055 - models.mnist_classifier - INFO - ✅ Loaded existing model from /root/intelligence_system/models/mnist_model.pth
+2025-10-03 13:37:15,150 - agents.cleanrl_ppo_agent - INFO - 📂 PPO agent loaded (best=500.0)
+2025-10-03 13:37:15,150 - agents.cleanrl_ppo_agent - INFO - ✅ Loaded PPO agent from /root/intelligence_system/models/ppo_cartpole_v7.pth
+2025-10-03 13:37:15,150 - apis.litellm_wrapper - INFO - 🚀 LiteLLM Wrapper initialized (available: True)
+2025-10-03 13:37:15,154 - meta.agent_behavior_learner - INFO - 📂 Agent Behavior Learner loaded
+2025-10-03 13:37:15,154 - meta.agent_behavior_learner - INFO - ✅ Loaded Agent Behavior Learner from /root/intelligence_system/models/meta_learner.pth
+2025-10-03 13:37:15,154 - extracted_algorithms.novelty_system - INFO - 🎨 Novelty System initialized
+2025-10-03 13:37:15,154 - extracted_algorithms.novelty_system - INFO -    k=15, archive=500, threshold=0.5
+2025-10-03 13:37:15,154 - extracted_algorithms.novelty_system - INFO - 🔍 Curiosity-Driven Learning initialized
+2025-10-03 13:37:15,154 - core.system_v7_ultimate - INFO - 🎨 INCOMPLETUDE INFINITA + Novelty activated!
+2025-10-03 13:37:15,154 - orchestration.langgraph_orchestrator - INFO - 🔄 Agent Orchestrator initialized (simple mode)
+2025-10-03 13:37:15,157 - extracted_algorithms.neural_evolution_core - INFO - 🧬 Evolutionary Optimizer initialized
+2025-10-03 13:37:15,157 - extracted_algorithms.neural_evolution_core - INFO -    Population: 50, Mutation: 0.3
+2025-10-03 13:37:15,157 - extracted_algorithms.self_modification_engine - INFO - 🔧 Self-Modification Engine initialized
+2025-10-03 13:37:15,157 - extracted_algorithms.self_modification_engine - INFO -    Max mods/cycle: 2
+2025-10-03 13:37:15,157 - extracted_algorithms.self_modification_engine - INFO -    Allowed ops: 5
+2025-10-03 13:37:15,159 - extracted_algorithms.self_modification_engine - INFO - 🧠 Neuronal Farm initialized
+2025-10-03 13:37:15,159 - extracted_algorithms.self_modification_engine - INFO -    Population: 50-150
+2025-10-03 13:37:15,159 - extracted_algorithms.code_validator - INFO - 🔒 Internal Code Validator initialized (with whitelist)
+2025-10-03 13:37:15,159 - extracted_algorithms.advanced_evolution_engine - INFO - 🧬 Advanced Evolution Engine initialized
+2025-10-03 13:37:15,159 - extracted_algorithms.advanced_evolution_engine - INFO -    Population: 15, Elite: 2
+2025-10-03 13:37:15,159 - extracted_algorithms.advanced_evolution_engine - INFO -    Crossover: 0.5, Mutation: 0.2
+2025-10-03 13:37:15,159 - extracted_algorithms.advanced_evolution_engine - INFO - ✅ Initialized population of 15
+2025-10-03 13:37:15,159 - core.system_v7_ultimate - INFO - 🧬 Advanced Evolution population initialized: 15
+2025-10-03 13:37:15,159 - extracted_algorithms.multi_system_coordinator - INFO - 🎯 Multi-System Coordinator initialized
+2025-10-03 13:37:15,159 - extracted_algorithms.multi_system_coordinator - INFO -    Max systems: 5
+2025-10-03 13:37:15,160 - core.database_knowledge_engine - INFO - 🧠 Database Knowledge Engine initialized
+2025-10-03 13:37:15,172 - core.database_knowledge_engine - INFO -    knowledge: 7,453 rows from 4 databases
+2025-10-03 13:37:15,172 - core.database_knowledge_engine - INFO -    models: 9,255 rows from 12 databases
+2025-10-03 13:37:15,172 - core.database_knowledge_engine - INFO -    trajectories: 3,394 rows from 5 databases
+2025-10-03 13:37:15,172 - extracted_algorithms.supreme_intelligence_auditor - INFO - 🧠 Intelligence Scorer initialized
+2025-10-03 13:37:15,172 - extracted_algorithms.auto_coding_engine - INFO - 🚀 Auto-coding engine ACTIVATED
+2025-10-03 13:37:15,172 - extracted_algorithms.auto_coding_engine - INFO -    System can now modify its own code!
+2025-10-03 13:37:15,172 - core.system_v7_ultimate - INFO - 🤖 Auto-Coding Engine initialized (self-modification capable!)
+2025-10-03 13:37:15,188 - extracted_algorithms.multimodal_engine - INFO - 🌈 Multi-modal engine ACTIVATED
+2025-10-03 13:37:15,188 - extracted_algorithms.multimodal_engine - INFO -    Speech: ✅ (Whisper-inspired)
+2025-10-03 13:37:15,188 - extracted_algorithms.multimodal_engine - INFO -    Vision: ✅ (CLIP-inspired)
+2025-10-03 13:37:15,188 - extracted_algorithms.multimodal_engine - INFO -    Fusion: ✅
+2025-10-03 13:37:15,188 - core.system_v7_ultimate - INFO - 🌈 Multi-Modal Engine initialized (Speech + Vision ready!)
+2025-10-03 13:37:15,189 - extracted_algorithms.automl_engine - INFO - 🤖 AutoML engine ACTIVATED
+2025-10-03 13:37:15,189 - extracted_algorithms.automl_engine - INFO -    NAS: ✅
+2025-10-03 13:37:15,189 - extracted_algorithms.automl_engine - INFO -    HPO: ✅
+2025-10-03 13:37:15,189 - extracted_algorithms.automl_engine - INFO -    Ensemble: ✅
+2025-10-03 13:37:15,189 - core.system_v7_ultimate - INFO - 🤖 AutoML Engine initialized (NAS + HPO + Ensemble ready!)
+2025-10-03 13:37:15,189 - extracted_algorithms.maml_engine - INFO - 🧠 MAML orchestrator ACTIVATED
+2025-10-03 13:37:15,189 - extracted_algorithms.maml_engine - INFO -    Few-shot learning: ✅
+2025-10-03 13:37:15,189 - extracted_algorithms.maml_engine - INFO -    Fast adaptation: ✅
+2025-10-03 13:37:15,189 - extracted_algorithms.maml_engine - INFO -    Meta-learning: ✅
+2025-10-03 13:37:15,189 - core.system_v7_ultimate - INFO - 🧠 MAML Engine initialized (Few-shot + Fast adaptation ready!)
+2025-10-03 13:37:15,189 - extracted_algorithms.database_mass_integrator - INFO - ✅ Extended tables created for mass integration
+2025-10-03 13:37:15,189 - core.system_v7_ultimate - INFO - 💾 Database Mass Integrator initialized (scanning...)
+2025-10-03 13:37:15,294 - extracted_algorithms.database_mass_integrator - INFO - 📊 Discovered 94 databases to integrate
+2025-10-03 13:37:15,336 - extracted_algorithms.database_mass_integrator - INFO - 📊 Scanned 94/94 DBs: 843768 rows
+2025-10-03 13:37:15,336 - core.system_v7_ultimate - INFO -    ✅ Found 94 databases
+2025-10-03 13:37:15,336 - core.system_v7_ultimate - INFO -       - unified_ia3_knowledge.db: 480 rows
+2025-10-03 13:37:15,336 - core.system_v7_ultimate - INFO -       - true_emergent_real_intelligence.db: 3376 rows
+2025-10-03 13:37:15,336 - core.system_v7_ultimate - INFO -       - active_emergence.db: 0 rows
+2025-10-03 13:37:15,336 - core.system_v7_ultimate - INFO -       ... and 91 more
+2025-10-03 13:37:15,336 - extracted_algorithms.darwin_engine_real - INFO - 🔥 Darwin Engine initialized (REAL natural selection!)
+2025-10-03 13:37:15,337 - extracted_algorithms.darwin_engine_real - INFO -    Survival rate: 40.0%
+2025-10-03 13:37:15,337 - extracted_algorithms.darwin_engine_real - INFO -    Elite size: 5
+2025-10-03 13:37:15,337 - extracted_algorithms.darwin_engine_real - INFO -    Min fitness: 0.0
+2025-10-03 13:37:15,337 - extracted_algorithms.darwin_engine_real - INFO - 🧬 Reproduction Engine initialized (REAL sexual reproduction!)
+2025-10-03 13:37:15,337 - extracted_algorithms.darwin_engine_real - INFO -    Sexual rate: 80.0%
+2025-10-03 13:37:15,337 - extracted_algorithms.darwin_engine_real - INFO -    Mutation rate: 20.0%
+2025-10-03 13:37:15,337 - extracted_algorithms.darwin_engine_real - INFO - 🔥 Darwin Orchestrator ACTIVATED (REAL evolution!)
+2025-10-03 13:37:15,337 - extracted_algorithms.darwin_engine_real - INFO -    Population: 50
+2025-10-03 13:37:15,337 - extracted_algorithms.darwin_engine_real - INFO -    Natural selection: ENABLED
+2025-10-03 13:37:15,337 - extracted_algorithms.darwin_engine_real - INFO -    Sexual reproduction: ENABLED
+2025-10-03 13:37:15,337 - core.system_v7_ultimate - INFO - 🔥 Darwin Engine REAL initialized (Natural selection + Sexual reproduction!)
+2025-10-03 13:37:15,337 - core.system_v7_ultimate - INFO -    ⚠️  THIS IS THE ONLY REAL INTELLIGENCE FROM 102GB OF CODE!
+2025-10-03 13:37:15,337 - extracted_algorithms.teis_autodidata_components - INFO - 📚 Curriculum Learner initialized
+2025-10-03 13:37:15,337 - extracted_algorithms.teis_autodidata_components - INFO - 🔄 Transfer Learner initialized
+2025-10-03 13:37:15,339 - extracted_algorithms.dynamic_neuronal_layer - INFO - 🧠 Dynamic Layer MNIST_DYN initialized with 64 neurons
+2025-10-03 13:37:15,339 - core.system_v7_ultimate - INFO - ✅ System V7.0 initialized at cycle 2169
+2025-10-03 13:37:15,339 - core.system_v7_ultimate - INFO - 📊 Best MNIST: 98.2% | Best CartPole: 500.0
+2025-10-03 13:37:15,340 - core.system_v7_ultimate - INFO - 🧬 23 COMPONENTS ACTIVE! (18 original + 5 TOP integrations)
+2025-10-03 13:37:15,340 - core.system_v7_ultimate - INFO - 🎯 IA³ Score: ~61% (13/22 characteristics, MEASURED not claimed)
+2025-10-03 13:37:15,340 - core.system_v7_ultimate - INFO - 🚀 NEW ENGINES: Auto-coding, Multi-modal, AutoML, MAML, Mass DB!
+2025-10-03 13:37:15,340 - core.system_v7_ultimate - INFO - ✨ TOP 5 INTEGRATIONS: INITIALIZED (6 engines INACTIVE, need activation)
+2025-10-03 13:37:15,340 - penin3_system - INFO -    V7 loaded at cycle 2169
+2025-10-03 13:37:15,340 - penin3_system - INFO -    Best MNIST: 98.2%
+2025-10-03 13:37:15,340 - penin3_system - INFO -    Best CartPole: 500.0
+2025-10-03 13:37:15,340 - penin3_system - INFO - 🔬 Initializing PENIN-Ω meta layer...
+2025-10-03 13:37:15,340 - penin3_system - INFO -    Master Equation: I = 0.0000
+2025-10-03 13:37:15,340 - penin3_system - INFO -    Sigma Guard: Enabled (realistic thresholds)
+2025-10-03 13:37:15,340 - penin3_system - INFO -    SR-Ω∞: Enabled (4D self-reflection)
+2025-10-03 13:37:15,340 - penin3_system - INFO -    ACFA League: Enabled (champion-challenger)
+2025-10-03 13:37:15,341 - penin3_system - INFO -    WORM Ledger: /root/penin3/data/worm_audit.db
+2025-10-03 13:37:15,349 - penin3_system - WARNING -    ⚠️ WORM chain invalid: Chain broken at event 5 — repairing copy...
+2025-10-03 13:37:15,364 - penin3_system - INFO -    ✅ WORM repaired and switched to: /root/penin3/data/worm_audit.db.repaired.jsonl
+2025-10-03 13:37:15,364 - penin3_system - INFO - ✅ PENIN-Ω meta layer initialized
+2025-10-03 13:37:15,364 - penin3_system - INFO - ================================================================================
+2025-10-03 13:37:15,364 - penin3_system - INFO - ✅ PENIN³ INITIALIZED
+2025-10-03 13:37:15,364 - penin3_system - INFO - ================================================================================
+2025-10-03 13:37:15,364 - penin3_system - INFO - 
+2025-10-03 13:37:15,364 - penin3_system - INFO - ================================================================================
+2025-10-03 13:37:15,364 - penin3_system - INFO - 🔄 PENIN³ CYCLE 1
+2025-10-03 13:37:15,364 - penin3_system - INFO - ================================================================================
+2025-10-03 13:37:15,364 - penin3_system - INFO - 📊 Phase 1: V7 Execution
+2025-10-03 13:37:15,364 - core.system_v7_ultimate - INFO - 
+2025-10-03 13:37:15,364 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:37:15,364 - core.system_v7_ultimate - INFO - 🔄 CYCLE 2170 (V7.0 - ULTIMATE)
+2025-10-03 13:37:15,364 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:37:15,364 - core.system_v7_ultimate - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-03 13:37:15,364 - core.system_v7_ultimate - INFO -    Training #1, 2170 cycles since last train
+2025-10-03 13:37:34,063 - core.system_v7_ultimate - INFO -    Dynamic neurons: 64
+2025-10-03 13:37:34,063 - core.system_v7_ultimate - INFO -    Train: 100.00% | Test: 98.15%
+2025-10-03 13:37:34,063 - core.system_v7_ultimate - INFO - 🎮 Training CartPole (V7.0 PPO ULTIMATE)...
+2025-10-03 13:37:43,711 - core.system_v7_ultimate - INFO -    Last: 500.0 | Avg(100): 500.0 | Var: 0.0 | Difficulty: 1.00
+2025-10-03 13:37:43,711 - core.system_v7_ultimate - INFO - 🧠 Meta-learning...
+2025-10-03 13:37:43,715 - core.system_v7_ultimate - INFO -    Action: 0, Reward: 0.000, Loss: 0.0000
+2025-10-03 13:37:43,715 - core.system_v7_ultimate - INFO - 🌐 Consulting APIs...
+[92m13:38:32 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= codestral-2508; provider = mistral
+2025-10-03 13:38:32,140 - LiteLLM - INFO - 
+LiteLLM completion() model= codestral-2508; provider = mistral
+[92m13:38:33 - LiteLLM:INFO[0m: utils.py:1282 - Wrapper: Completed Call, calling success_handler
+2025-10-03 13:38:33,227 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+[92m13:38:33 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= gemini-2.5-pro; provider = gemini
+2025-10-03 13:38:33,235 - LiteLLM - INFO - 
+LiteLLM completion() model= gemini-2.5-pro; provider = gemini
+[92m13:38:36 - LiteLLM:INFO[0m: utils.py:1282 - Wrapper: Completed Call, calling success_handler
+2025-10-03 13:38:36,200 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+[92m13:38:36 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+2025-10-03 13:38:36,202 - LiteLLM - INFO - 
+LiteLLM completion() model= deepseek-chat; provider = deepseek
+[92m13:38:44 - LiteLLM:INFO[0m: utils.py:1282 - Wrapper: Completed Call, calling success_handler
+2025-10-03 13:38:44,610 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+[92m13:38:44 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= claude-opus-4-1-20250805; provider = anthropic
+2025-10-03 13:38:44,612 - LiteLLM - INFO - 
+LiteLLM completion() model= claude-opus-4-1-20250805; provider = anthropic
+2025-10-03 13:38:44,947 - apis.litellm_wrapper - WARNING - LiteLLM call failed for claude-opus-4-1-20250805: litellm.AuthenticationError: AnthropicException - {"type":"error","error":{"type":"authentication_er
+[92m13:38:44 - LiteLLM:INFO[0m: utils.py:3389 - 
+LiteLLM completion() model= grok-4; provider = xai
+2025-10-03 13:38:44,948 - LiteLLM - INFO - 
+LiteLLM completion() model= grok-4; provider = xai
+[92m13:39:10 - LiteLLM:INFO[0m: utils.py:1282 - Wrapper: Completed Call, calling success_handler
+2025-10-03 13:39:10,331 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-10-03 13:39:10,332 - apis.litellm_wrapper - INFO - 📊 API Summary: 4/6 OK, 2 failed | Status: {}
+2025-10-03 13:39:10,334 - apis.litellm_wrapper - INFO - ✅ Consulted 4/6 APIs successfully
+2025-10-03 13:39:10,334 - core.system_v7_ultimate - INFO -    ✅ Consulted 4 APIs
+2025-10-03 13:39:10,334 - core.system_v7_ultimate - INFO - 🧬 Evolving (XOR REAL)...
+2025-10-03 13:39:13,290 - extracted_algorithms.neural_evolution_core - INFO - 🧬 Gen 1: best=0.9982, avg=0.3609, std=0.3370, best_arch=(64, 32, 32)
+2025-10-03 13:39:13,290 - core.system_v7_ultimate - INFO -    Gen 1: best=0.9982 (XOR)
+2025-10-03 13:39:13,290 - core.system_v7_ultimate - INFO - 🧠 Evolving neurons...
+2025-10-03 13:39:13,298 - extracted_algorithms.self_modification_engine - INFO - 🧬 Gen 1: pop=150, survivors=50, offspring=100, avg_fitness=0.1057, best_fitness=0.9371
+2025-10-03 13:39:13,298 - core.system_v7_ultimate - INFO -    Gen 1: pop=150
+2025-10-03 13:39:13,298 - core.system_v7_ultimate - INFO - 🧬 Advanced evolution (REAL fitness)...
+2025-10-03 13:39:13,298 - extracted_algorithms.advanced_evolution_engine - INFO - 🧬 Gen 1: best=247.9133, avg=245.7913
+2025-10-03 13:39:13,298 - core.system_v7_ultimate - INFO -    Gen 1: best=247.9133 (REAL)
+2025-10-03 13:39:13,298 - core.system_v7_ultimate - INFO -    Difficulty: 1.00 → 1.00 (reward=500.0)
+2025-10-03 13:39:13,303 - core.system_v7_ultimate - INFO - 💾 Saving all models...
+2025-10-03 13:39:13,307 - models.mnist_classifier - INFO - 💾 Model saved to /root/intelligence_system/models/mnist_model.pth
+2025-10-03 13:39:13,309 - meta.agent_behavior_learner - INFO - 💾 Agent Behavior Learner saved
+2025-10-03 13:39:13,311 - extracted_algorithms.neural_evolution_core - INFO - 💾 Checkpoint saved: /root/intelligence_system/models/evolution/evolution_gen_1.json
+2025-10-03 13:39:13,311 - extracted_algorithms.advanced_evolution_engine - INFO - 💾 Advanced evolution checkpoint saved: /root/intelligence_system/models/advanced_evolution/advanced_evolution_gen_1.json
+2025-10-03 13:39:13,311 - core.system_v7_ultimate - INFO -    ✅ Saved 5/5 models (0 errors)
+2025-10-03 13:39:13,594 - penin3_system - INFO -    MNIST: 98.15%
+2025-10-03 13:39:13,594 - penin3_system - INFO -    CartPole: 500.0
+2025-10-03 13:39:13,594 - penin3_system - INFO - 🔬 Phase 2: PENIN-Ω Processing
+2025-10-03 13:39:13,594 - penin3_system - INFO -    L∞ score: 0.9900 (using best: MNIST=98.2%, CartPole=500)
+2025-10-03 13:39:13,594 - penin3_system - INFO -    CAOS+: Not needed (improving)
+2025-10-03 13:39:13,595 - penin3_system - INFO -    Sigma Guard: ✅ PASS (10/10 gates)
+2025-10-03 13:39:13,595 - penin3_system - INFO -    SR-Ω∞: 0.0000 (➡️ stable)
+2025-10-03 13:39:13,595 - penin3_system - INFO -    Master State: I = 0.098998
+2025-10-03 13:39:13,595 - penin3_system - INFO - 🎯 Phase 3: Guidance Generation
+2025-10-03 13:39:13,595 - penin3_system - INFO -    Continue: True
+2025-10-03 13:39:13,595 - penin3_system - INFO -    Recommendations: 0
+2025-10-03 13:39:13,596 - penin3_system - INFO -    📝 WORM: Cycle 1 logged
+2025-10-03 13:39:13,596 - penin3_system - INFO - 📊 Unified Score: 0.9906
+2025-10-03 13:39:13,596 - penin3_system - INFO - 📈 Improvement Rate: 0.00%/cycle
+2025-10-03 13:39:13,596 - penin3_system - INFO - 
+2025-10-03 13:39:13,596 - penin3_system - INFO - ================================================================================
+2025-10-03 13:39:13,596 - penin3_system - INFO - 🔄 PENIN³ CYCLE 2
+2025-10-03 13:39:13,596 - penin3_system - INFO - ================================================================================
+2025-10-03 13:39:13,596 - penin3_system - INFO - 📊 Phase 1: V7 Execution
+2025-10-03 13:39:13,596 - core.system_v7_ultimate - INFO - 
+2025-10-03 13:39:13,596 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:39:13,596 - core.system_v7_ultimate - INFO - 🔄 CYCLE 2171 (V7.0 - ULTIMATE)
+2025-10-03 13:39:13,596 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:39:13,596 - core.system_v7_ultimate - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-03 13:39:13,596 - core.system_v7_ultimate - INFO -    Training #2, 1 cycles since last train
+2025-10-03 13:39:31,733 - core.system_v7_ultimate - INFO -    Train: 100.00% | Test: 98.15%
+2025-10-03 13:39:31,734 - core.system_v7_ultimate - INFO - 🧠 Meta-learning...
+2025-10-03 13:39:31,738 - core.system_v7_ultimate - INFO -    Action: 0, Reward: 0.000, Loss: 0.0000
+2025-10-03 13:39:31,738 - core.system_v7_ultimate - INFO -    Difficulty: 1.00 → 1.00 (reward=500.0)
+2025-10-03 13:39:31,743 - penin3_system - INFO -    MNIST: 98.15%
+2025-10-03 13:39:31,743 - penin3_system - INFO -    CartPole: 500.0
+2025-10-03 13:39:31,743 - penin3_system - INFO - 🔬 Phase 2: PENIN-Ω Processing
+2025-10-03 13:39:31,743 - penin3_system - INFO -    L∞ score: 0.9900 (using best: MNIST=98.2%, CartPole=500)
+2025-10-03 13:39:31,743 - penin3_system - INFO -    CAOS+: Not needed (improving)
+2025-10-03 13:39:31,743 - penin3_system - INFO -    Sigma Guard: ✅ PASS (10/10 gates)
+2025-10-03 13:39:31,744 - penin3_system - INFO -    SR-Ω∞: 0.0000 (➡️ stable)
+2025-10-03 13:39:31,744 - penin3_system - INFO -    Master State: I = 0.197996
+2025-10-03 13:39:31,744 - penin3_system - INFO - 🎯 Phase 3: Guidance Generation
+2025-10-03 13:39:31,744 - penin3_system - INFO -    Continue: True
+2025-10-03 13:39:31,744 - penin3_system - INFO -    Recommendations: 0
+2025-10-03 13:39:31,744 - penin3_system - INFO -    📝 WORM: Cycle 2 logged
+2025-10-03 13:39:31,745 - penin3_system - INFO - 📊 Unified Score: 0.9906
+2025-10-03 13:39:31,745 - penin3_system - INFO - 📈 Improvement Rate: 0.00%/cycle
+2025-10-03 13:39:31,745 - penin3_system - INFO - 
+2025-10-03 13:39:31,745 - penin3_system - INFO - ================================================================================
+2025-10-03 13:39:31,745 - penin3_system - INFO - 🔄 PENIN³ CYCLE 3
+2025-10-03 13:39:31,745 - penin3_system - INFO - ================================================================================
+2025-10-03 13:39:31,745 - penin3_system - INFO - 📊 Phase 1: V7 Execution
+2025-10-03 13:39:31,745 - core.system_v7_ultimate - INFO - 
+2025-10-03 13:39:31,745 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:39:31,745 - core.system_v7_ultimate - INFO - 🔄 CYCLE 2172 (V7.0 - ULTIMATE)
+2025-10-03 13:39:31,745 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:39:31,745 - core.system_v7_ultimate - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-03 13:39:31,745 - core.system_v7_ultimate - INFO -    Training #3, 1 cycles since last train
+2025-10-03 13:39:48,666 - core.system_v7_ultimate - INFO -    Train: 100.00% | Test: 98.15%
+2025-10-03 13:39:48,667 - core.system_v7_ultimate - INFO - 🧠 Meta-learning...
+2025-10-03 13:39:48,671 - core.system_v7_ultimate - INFO -    Action: 0, Reward: 0.000, Loss: 0.0000
+2025-10-03 13:39:48,671 - core.system_v7_ultimate - INFO -    Difficulty: 1.00 → 1.00 (reward=500.0)
+2025-10-03 13:39:48,675 - penin3_system - INFO -    MNIST: 98.15%
+2025-10-03 13:39:48,676 - penin3_system - INFO -    CartPole: 500.0
+2025-10-03 13:39:48,676 - penin3_system - INFO - 🔬 Phase 2: PENIN-Ω Processing
+2025-10-03 13:39:48,676 - penin3_system - INFO -    L∞ score: 0.9900 (using best: MNIST=98.2%, CartPole=500)
+2025-10-03 13:39:48,676 - penin3_system - INFO -    CAOS+: Not needed (improving)
+2025-10-03 13:39:48,676 - penin3_system - INFO -    Sigma Guard: ✅ PASS (10/10 gates)
+2025-10-03 13:39:48,677 - penin3_system - INFO -    SR-Ω∞: 0.0000 (➡️ stable)
+2025-10-03 13:39:48,677 - penin3_system - INFO -    Master State: I = 0.296994
+2025-10-03 13:39:48,677 - penin3_system - INFO - 🎯 Phase 3: Guidance Generation
+2025-10-03 13:39:48,677 - penin3_system - INFO -    Continue: True
+2025-10-03 13:39:48,677 - penin3_system - INFO -    Recommendations: 0
+2025-10-03 13:39:48,677 - penin3_system - INFO -    📝 WORM: Cycle 3 logged
+2025-10-03 13:39:48,677 - penin3_system - INFO - 📊 Unified Score: 0.9906
+2025-10-03 13:39:48,678 - penin3_system - INFO - 📈 Improvement Rate: 0.00%/cycle
+2025-10-03 13:39:48,678 - penin3_system - INFO - 
+2025-10-03 13:39:48,678 - penin3_system - INFO - ================================================================================
+2025-10-03 13:39:48,678 - penin3_system - INFO - 🔄 PENIN³ CYCLE 4
+2025-10-03 13:39:48,678 - penin3_system - INFO - ================================================================================
+2025-10-03 13:39:48,678 - penin3_system - INFO - 📊 Phase 1: V7 Execution
+2025-10-03 13:39:48,678 - core.system_v7_ultimate - INFO - 
+2025-10-03 13:39:48,678 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:39:48,678 - core.system_v7_ultimate - INFO - 🔄 CYCLE 2173 (V7.0 - ULTIMATE)
+2025-10-03 13:39:48,678 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:39:48,678 - core.system_v7_ultimate - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-03 13:39:48,678 - core.system_v7_ultimate - INFO -    Training #4, 1 cycles since last train
+2025-10-03 13:40:05,627 - core.system_v7_ultimate - INFO -    Train: 100.00% | Test: 98.15%
+2025-10-03 13:40:05,628 - core.system_v7_ultimate - INFO - 🧠 Meta-learning...
+2025-10-03 13:40:05,632 - core.system_v7_ultimate - INFO -    Action: 0, Reward: 0.000, Loss: 0.0000
+2025-10-03 13:40:05,632 - core.system_v7_ultimate - INFO -    Difficulty: 1.00 → 1.00 (reward=500.0)
+2025-10-03 13:40:05,635 - penin3_system - INFO -    MNIST: 98.15%
+2025-10-03 13:40:05,635 - penin3_system - INFO -    CartPole: 500.0
+2025-10-03 13:40:05,635 - penin3_system - INFO - 🔬 Phase 2: PENIN-Ω Processing
+2025-10-03 13:40:05,635 - penin3_system - INFO -    L∞ score: 0.9900 (using best: MNIST=98.2%, CartPole=500)
+2025-10-03 13:40:05,635 - penin3_system - INFO -    CAOS+: Not needed (improving)
+2025-10-03 13:40:05,635 - penin3_system - INFO -    Sigma Guard: ✅ PASS (10/10 gates)
+2025-10-03 13:40:05,636 - penin3_system - INFO -    SR-Ω∞: 0.0000 (➡️ stable)
+2025-10-03 13:40:05,636 - penin3_system - INFO -    Master State: I = 0.395991
+2025-10-03 13:40:05,636 - penin3_system - INFO - 🎯 Phase 3: Guidance Generation
+2025-10-03 13:40:05,636 - penin3_system - INFO -    Continue: True
+2025-10-03 13:40:05,636 - penin3_system - INFO -    Recommendations: 0
+2025-10-03 13:40:05,637 - penin3_system - INFO -    📝 WORM: Cycle 4 logged
+2025-10-03 13:40:05,637 - penin3_system - INFO - 📊 Unified Score: 0.9906
+2025-10-03 13:40:05,637 - penin3_system - INFO - 📈 Improvement Rate: 0.00%/cycle
+2025-10-03 13:40:05,637 - penin3_system - INFO - 
+2025-10-03 13:40:05,637 - penin3_system - INFO - ================================================================================
+2025-10-03 13:40:05,637 - penin3_system - INFO - 🔄 PENIN³ CYCLE 5
+2025-10-03 13:40:05,637 - penin3_system - INFO - ================================================================================
+2025-10-03 13:40:05,637 - penin3_system - INFO - 📊 Phase 1: V7 Execution
+2025-10-03 13:40:05,637 - core.system_v7_ultimate - INFO - 
+2025-10-03 13:40:05,637 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:40:05,637 - core.system_v7_ultimate - INFO - 🔄 CYCLE 2174 (V7.0 - ULTIMATE)
+2025-10-03 13:40:05,637 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:40:05,637 - core.system_v7_ultimate - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-03 13:40:05,638 - core.system_v7_ultimate - INFO -    Training #5, 1 cycles since last train
+2025-10-03 13:40:23,581 - core.system_v7_ultimate - INFO -    Train: 100.00% | Test: 98.15%
+2025-10-03 13:40:23,581 - core.system_v7_ultimate - INFO - 🧠 Meta-learning...
+2025-10-03 13:40:23,586 - core.system_v7_ultimate - INFO -    Action: 0, Reward: 0.000, Loss: 0.0000
+2025-10-03 13:40:23,586 - core.system_v7_ultimate - INFO -    Difficulty: 1.00 → 1.00 (reward=500.0)
+2025-10-03 13:40:23,587 - penin3_system - INFO -    MNIST: 98.15%
+2025-10-03 13:40:23,587 - penin3_system - INFO -    CartPole: 500.0
+2025-10-03 13:40:23,587 - penin3_system - INFO - 🔬 Phase 2: PENIN-Ω Processing
+2025-10-03 13:40:23,587 - penin3_system - INFO -    L∞ score: 0.9900 (using best: MNIST=98.2%, CartPole=500)
+2025-10-03 13:40:23,588 - penin3_system - INFO -    CAOS+: Not needed (improving)
+2025-10-03 13:40:23,588 - penin3_system - INFO -    Sigma Guard: ✅ PASS (10/10 gates)
+2025-10-03 13:40:23,589 - penin3_system - INFO -    SR-Ω∞: 0.0000 (➡️ stable)
+2025-10-03 13:40:23,589 - penin3_system - INFO -    Master State: I = 0.494989
+2025-10-03 13:40:23,589 - penin3_system - INFO - 🎯 Phase 3: Guidance Generation
+2025-10-03 13:40:23,589 - penin3_system - INFO -    Continue: True
+2025-10-03 13:40:23,589 - penin3_system - INFO -    Recommendations: 0
+2025-10-03 13:40:23,589 - penin3_system - INFO -    📝 WORM: Cycle 5 logged
+2025-10-03 13:40:23,589 - penin3_system - INFO - 📊 Unified Score: 0.9906
+2025-10-03 13:40:23,589 - penin3_system - INFO - 📈 Improvement Rate: 0.00%/cycle
+2025-10-03 13:40:23,589 - penin3_system - INFO - 
+2025-10-03 13:40:23,589 - penin3_system - INFO - ================================================================================
+2025-10-03 13:40:23,589 - penin3_system - INFO - 🔄 PENIN³ CYCLE 6
+2025-10-03 13:40:23,589 - penin3_system - INFO - ================================================================================
+2025-10-03 13:40:23,590 - penin3_system - INFO - 📊 Phase 1: V7 Execution
+2025-10-03 13:40:23,590 - core.system_v7_ultimate - INFO - 
+2025-10-03 13:40:23,590 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:40:23,590 - core.system_v7_ultimate - INFO - 🔄 CYCLE 2175 (V7.0 - ULTIMATE)
+2025-10-03 13:40:23,590 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:40:23,590 - core.system_v7_ultimate - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-03 13:40:23,590 - core.system_v7_ultimate - INFO -    Training #6, 1 cycles since last train
+2025-10-03 13:40:40,331 - core.system_v7_ultimate - INFO -    Dynamic neurons: 64
+2025-10-03 13:40:40,331 - core.system_v7_ultimate - INFO -    Train: 100.00% | Test: 98.15%
+2025-10-03 13:40:40,331 - core.system_v7_ultimate - INFO - 🧠 Meta-learning...
+2025-10-03 13:40:40,335 - core.system_v7_ultimate - INFO -    Action: 0, Reward: 0.000, Loss: 0.0000
+2025-10-03 13:40:40,335 - core.system_v7_ultimate - INFO - 🧠 Evolving neurons...
+2025-10-03 13:40:40,340 - extracted_algorithms.self_modification_engine - INFO - 🧬 Gen 2: pop=150, survivors=75, offspring=75, avg_fitness=0.1933, best_fitness=0.9187
+2025-10-03 13:40:40,340 - core.system_v7_ultimate - INFO -    Gen 2: pop=150
+2025-10-03 13:40:40,340 - core.system_v7_ultimate - INFO -    Difficulty: 1.00 → 1.00 (reward=500.0)
+2025-10-03 13:40:40,344 - penin3_system - INFO -    MNIST: 98.15%
+2025-10-03 13:40:40,344 - penin3_system - INFO -    CartPole: 500.0
+2025-10-03 13:40:40,344 - penin3_system - INFO - 🔬 Phase 2: PENIN-Ω Processing
+2025-10-03 13:40:40,344 - penin3_system - INFO -    L∞ score: 0.9900 (using best: MNIST=98.2%, CartPole=500)
+2025-10-03 13:40:40,344 - penin3_system - INFO -    ⚠️ STAGNATION detected (count=1)
+2025-10-03 13:40:40,344 - penin3_system - INFO -    CAOS+ BOOSTED: 5.0181x
+2025-10-03 13:40:40,344 - penin3_system - INFO -    Sigma Guard: ✅ PASS (10/10 gates)
+2025-10-03 13:40:40,345 - penin3_system - INFO -    SR-Ω∞: 0.0000 (➡️ stable)
+2025-10-03 13:40:40,345 - penin3_system - INFO -    Master State: I = 0.991767
+2025-10-03 13:40:40,345 - penin3_system - INFO - 🎯 Phase 3: Guidance Generation
+2025-10-03 13:40:40,345 - penin3_system - INFO -    Continue: True
+2025-10-03 13:40:40,345 - penin3_system - INFO -    Recommendations: 1
+2025-10-03 13:40:40,346 - penin3_system - INFO -    📝 WORM: Cycle 6 logged
+2025-10-03 13:40:40,346 - penin3_system - INFO - 📊 Unified Score: 0.9906
+2025-10-03 13:40:40,346 - penin3_system - INFO - 📈 Improvement Rate: 0.00%/cycle
+2025-10-03 13:40:40,346 - penin3_system - INFO - 
+2025-10-03 13:40:40,346 - penin3_system - INFO - ================================================================================
+2025-10-03 13:40:40,346 - penin3_system - INFO - 🔄 PENIN³ CYCLE 7
+2025-10-03 13:40:40,346 - penin3_system - INFO - ================================================================================
+2025-10-03 13:40:40,346 - penin3_system - INFO - 📊 Phase 1: V7 Execution
+2025-10-03 13:40:40,346 - core.system_v7_ultimate - INFO - 
+2025-10-03 13:40:40,346 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:40:40,346 - core.system_v7_ultimate - INFO - 🔄 CYCLE 2176 (V7.0 - ULTIMATE)
+2025-10-03 13:40:40,346 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:40:40,346 - core.system_v7_ultimate - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-03 13:40:40,346 - core.system_v7_ultimate - INFO -    Training #7, 1 cycles since last train
+2025-10-03 13:40:57,393 - core.system_v7_ultimate - INFO -    Train: 100.00% | Test: 98.15%
+2025-10-03 13:40:57,393 - core.system_v7_ultimate - INFO - 🧠 Meta-learning...
+2025-10-03 13:40:57,398 - core.system_v7_ultimate - INFO -    Action: 0, Reward: 0.000, Loss: 0.0000
+2025-10-03 13:40:57,398 - core.system_v7_ultimate - INFO - 🔧 Self-modifying...
+2025-10-03 13:40:57,398 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 0 modifications (gap=-0.15%)
+2025-10-03 13:40:57,398 - core.system_v7_ultimate - INFO -    Proposed 0, Applied 0
+2025-10-03 13:40:57,398 - core.system_v7_ultimate - INFO -    Difficulty: 1.00 → 1.00 (reward=500.0)
+2025-10-03 13:40:57,403 - penin3_system - INFO -    MNIST: 98.15%
+2025-10-03 13:40:57,403 - penin3_system - INFO -    CartPole: 500.0
+2025-10-03 13:40:57,403 - penin3_system - INFO - 🔬 Phase 2: PENIN-Ω Processing
+2025-10-03 13:40:57,403 - penin3_system - INFO -    L∞ score: 0.9900 (using best: MNIST=98.2%, CartPole=500)
+2025-10-03 13:40:57,403 - penin3_system - INFO -    ⚠️ STAGNATION detected (count=3)
+2025-10-03 13:40:57,403 - penin3_system - INFO -    CAOS+ BOOSTED: 5.0181x
+2025-10-03 13:40:57,403 - penin3_system - INFO -    Sigma Guard: ✅ PASS (10/10 gates)
+2025-10-03 13:40:57,404 - penin3_system - INFO -    SR-Ω∞: 0.0000 (➡️ stable)
+2025-10-03 13:40:57,404 - penin3_system - INFO -    Master State: I = 1.488544
+2025-10-03 13:40:57,404 - penin3_system - INFO - 🎯 Phase 3: Guidance Generation
+2025-10-03 13:40:57,404 - penin3_system - INFO -    Continue: True
+2025-10-03 13:40:57,404 - penin3_system - INFO -    Recommendations: 1
+2025-10-03 13:40:57,405 - penin3_system - INFO -    📝 WORM: Cycle 7 logged
+2025-10-03 13:40:57,405 - penin3_system - INFO - 📊 Unified Score: 0.9906
+2025-10-03 13:40:57,405 - penin3_system - INFO - 📈 Improvement Rate: 0.00%/cycle
+2025-10-03 13:40:57,405 - penin3_system - INFO - 
+2025-10-03 13:40:57,405 - penin3_system - INFO - ================================================================================
+2025-10-03 13:40:57,405 - penin3_system - INFO - 🔄 PENIN³ CYCLE 8
+2025-10-03 13:40:57,405 - penin3_system - INFO - ================================================================================
+2025-10-03 13:40:57,405 - penin3_system - INFO - 📊 Phase 1: V7 Execution
+2025-10-03 13:40:57,405 - core.system_v7_ultimate - INFO - 
+2025-10-03 13:40:57,405 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:40:57,405 - core.system_v7_ultimate - INFO - 🔄 CYCLE 2177 (V7.0 - ULTIMATE)
+2025-10-03 13:40:57,405 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:40:57,405 - core.system_v7_ultimate - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-03 13:40:57,405 - core.system_v7_ultimate - INFO -    Training #8, 1 cycles since last train
+2025-10-03 13:41:14,390 - core.system_v7_ultimate - INFO -    Train: 100.00% | Test: 98.15%
+2025-10-03 13:41:14,390 - core.system_v7_ultimate - INFO - 🧠 Meta-learning...
+2025-10-03 13:41:14,394 - core.system_v7_ultimate - INFO -    Action: 0, Reward: 0.000, Loss: 0.0000
+2025-10-03 13:41:14,394 - core.system_v7_ultimate - INFO - 🔧 Self-modifying...
+2025-10-03 13:41:14,394 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 0 modifications (gap=-0.15%)
+2025-10-03 13:41:14,394 - core.system_v7_ultimate - INFO -    Proposed 0, Applied 0
+2025-10-03 13:41:14,394 - core.system_v7_ultimate - INFO -    Difficulty: 1.00 → 1.00 (reward=500.0)
+2025-10-03 13:41:14,397 - penin3_system - INFO -    MNIST: 98.15%
+2025-10-03 13:41:14,398 - penin3_system - INFO -    CartPole: 500.0
+2025-10-03 13:41:14,398 - penin3_system - INFO - 🔬 Phase 2: PENIN-Ω Processing
+2025-10-03 13:41:14,398 - penin3_system - INFO -    L∞ score: 0.9900 (using best: MNIST=98.2%, CartPole=500)
+2025-10-03 13:41:14,398 - penin3_system - INFO -    ⚠️ STAGNATION detected (count=5)
+2025-10-03 13:41:14,398 - penin3_system - INFO -    CAOS+ BOOSTED: 5.0181x
+2025-10-03 13:41:14,398 - penin3_system - INFO -    Sigma Guard: ✅ PASS (10/10 gates)
+2025-10-03 13:41:14,399 - penin3_system - INFO -    SR-Ω∞: 0.0000 (➡️ stable)
+2025-10-03 13:41:14,399 - penin3_system - INFO -    Master State: I = 1.985321
+2025-10-03 13:41:14,399 - penin3_system - INFO - 🎯 Phase 3: Guidance Generation
+2025-10-03 13:41:14,399 - penin3_system - INFO -    Continue: True
+2025-10-03 13:41:14,399 - penin3_system - INFO -    Recommendations: 1
+2025-10-03 13:41:14,399 - penin3_system - INFO -    📝 WORM: Cycle 8 logged
+2025-10-03 13:41:14,399 - penin3_system - INFO - 📊 Unified Score: 0.9906
+2025-10-03 13:41:14,399 - penin3_system - INFO - 📈 Improvement Rate: 0.00%/cycle
+2025-10-03 13:41:14,399 - penin3_system - INFO - 
+2025-10-03 13:41:14,399 - penin3_system - INFO - ================================================================================
+2025-10-03 13:41:14,399 - penin3_system - INFO - 🔄 PENIN³ CYCLE 9
+2025-10-03 13:41:14,400 - penin3_system - INFO - ================================================================================
+2025-10-03 13:41:14,400 - penin3_system - INFO - 📊 Phase 1: V7 Execution
+2025-10-03 13:41:14,400 - core.system_v7_ultimate - INFO - 
+2025-10-03 13:41:14,400 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:41:14,400 - core.system_v7_ultimate - INFO - 🔄 CYCLE 2178 (V7.0 - ULTIMATE)
+2025-10-03 13:41:14,400 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:41:14,400 - core.system_v7_ultimate - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-03 13:41:14,400 - core.system_v7_ultimate - INFO -    Training #9, 1 cycles since last train
+2025-10-03 13:41:31,373 - core.system_v7_ultimate - INFO -    Train: 100.00% | Test: 98.15%
+2025-10-03 13:41:31,374 - core.system_v7_ultimate - INFO - 🧠 Meta-learning...
+2025-10-03 13:41:31,378 - core.system_v7_ultimate - INFO -    Action: 0, Reward: 0.000, Loss: 0.0000
+2025-10-03 13:41:31,378 - core.system_v7_ultimate - INFO - 🔧 Self-modifying...
+2025-10-03 13:41:31,378 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 0 modifications (gap=-0.15%)
+2025-10-03 13:41:31,378 - core.system_v7_ultimate - INFO -    Proposed 0, Applied 0
+2025-10-03 13:41:31,378 - core.system_v7_ultimate - INFO -    Difficulty: 1.00 → 1.00 (reward=500.0)
+2025-10-03 13:41:31,379 - penin3_system - INFO -    MNIST: 98.15%
+2025-10-03 13:41:31,379 - penin3_system - INFO -    CartPole: 500.0
+2025-10-03 13:41:31,379 - penin3_system - INFO - 🔬 Phase 2: PENIN-Ω Processing
+2025-10-03 13:41:31,379 - penin3_system - INFO -    L∞ score: 0.9900 (using best: MNIST=98.2%, CartPole=500)
+2025-10-03 13:41:31,379 - penin3_system - INFO -    ⚠️ STAGNATION detected (count=7)
+2025-10-03 13:41:31,380 - penin3_system - INFO -    CAOS+ BOOSTED: 5.0181x
+2025-10-03 13:41:31,380 - penin3_system - INFO -    Sigma Guard: ✅ PASS (10/10 gates)
+2025-10-03 13:41:31,380 - penin3_system - INFO -    SR-Ω∞: 0.0000 (➡️ stable)
+2025-10-03 13:41:31,381 - penin3_system - INFO -    Master State: I = 2.482098
+2025-10-03 13:41:31,381 - penin3_system - INFO - 🎯 Phase 3: Guidance Generation
+2025-10-03 13:41:31,381 - penin3_system - INFO -    Continue: True
+2025-10-03 13:41:31,381 - penin3_system - INFO -    Recommendations: 1
+2025-10-03 13:41:31,381 - penin3_system - INFO -    📝 WORM: Cycle 9 logged
+2025-10-03 13:41:31,381 - penin3_system - INFO - 📊 Unified Score: 0.9906
+2025-10-03 13:41:31,381 - penin3_system - INFO - 📈 Improvement Rate: 0.00%/cycle
+2025-10-03 13:41:31,381 - penin3_system - INFO - 
+2025-10-03 13:41:31,381 - penin3_system - INFO - ================================================================================
+2025-10-03 13:41:31,381 - penin3_system - INFO - 🔄 PENIN³ CYCLE 10
+2025-10-03 13:41:31,381 - penin3_system - INFO - ================================================================================
+2025-10-03 13:41:31,381 - penin3_system - INFO - 📊 Phase 1: V7 Execution
+2025-10-03 13:41:31,382 - core.system_v7_ultimate - INFO - 
+2025-10-03 13:41:31,382 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:41:31,382 - core.system_v7_ultimate - INFO - 🔄 CYCLE 2179 (V7.0 - ULTIMATE)
+2025-10-03 13:41:31,382 - core.system_v7_ultimate - INFO - ================================================================================
+2025-10-03 13:41:31,382 - core.system_v7_ultimate - INFO - 🧠 Training MNIST (V7 Dynamic)...
+2025-10-03 13:41:31,382 - core.system_v7_ultimate - INFO -    Training #10, 1 cycles since last train
+2025-10-03 13:41:50,606 - core.system_v7_ultimate - INFO -    Train: 100.00% | Test: 98.15%
+2025-10-03 13:41:50,607 - core.system_v7_ultimate - INFO - 🧠 Meta-learning...
+2025-10-03 13:41:50,613 - meta.agent_behavior_learner - INFO - ✂️  Pruned 8 neurons from layer 0
+2025-10-03 13:41:50,613 - meta.agent_behavior_learner - INFO - ✂️  Architecture pruned (high performance)
+2025-10-03 13:41:50,613 - core.system_v7_ultimate - INFO -    Action: 0, Reward: 0.000, Loss: 0.0000
+2025-10-03 13:41:50,614 - core.system_v7_ultimate - INFO - 🔧 Self-modifying...
+2025-10-03 13:41:50,614 - extracted_algorithms.self_modification_engine - INFO - 💡 Proposed 0 modifications (gap=-0.15%)
+2025-10-03 13:41:50,614 - core.system_v7_ultimate - INFO -    Proposed 0, Applied 0
+2025-10-03 13:41:50,614 - core.system_v7_ultimate - INFO -    Difficulty: 1.00 → 1.00 (reward=500.0)
+2025-10-03 13:41:50,619 - penin3_system - INFO -    MNIST: 98.15%
+2025-10-03 13:41:50,619 - penin3_system - INFO -    CartPole: 500.0
+2025-10-03 13:41:50,619 - penin3_system - INFO - 🔬 Phase 2: PENIN-Ω Processing
+2025-10-03 13:41:50,619 - penin3_system - INFO -    L∞ score: 0.9900 (using best: MNIST=98.2%, CartPole=500)
+2025-10-03 13:41:50,621 - penin3_system - INFO -    🏆 ACFA: Registered first champion (L∞=0.9188)
+2025-10-03 13:41:50,622 - penin3_system - INFO -    ⚠️ STAGNATION detected (count=9)
+2025-10-03 13:41:50,622 - penin3_system - INFO -    CAOS+ BOOSTED: 5.0181x
+2025-10-03 13:41:50,622 - penin3_system - INFO -    Sigma Guard: ✅ PASS (10/10 gates)
+2025-10-03 13:41:50,624 - penin3_system - INFO -    SR-Ω∞: 0.0000 (➡️ stable)
+2025-10-03 13:41:50,624 - penin3_system - INFO -    Master State: I = 2.978876
+2025-10-03 13:41:50,624 - penin3_system - INFO - 🎯 Phase 3: Guidance Generation
+2025-10-03 13:41:50,624 - penin3_system - INFO -    Continue: True
+2025-10-03 13:41:50,624 - penin3_system - INFO -    Recommendations: 1
+2025-10-03 13:41:50,625 - penin3_system - INFO -    📝 WORM: Cycle 10 logged
+2025-10-03 13:41:50,625 - penin3_system - INFO - 💾 Checkpoint saved: penin3_cycle_10.pkl
+2025-10-03 13:41:50,625 - penin3_system - INFO - 📊 Unified Score: 0.9906
+2025-10-03 13:41:50,625 - penin3_system - INFO - 📈 Improvement Rate: 0.00%/cycle
+================================================================================
+🚀 PENIN³ - OPTIMIZATION VALIDATION (10 cycles)
+================================================================================
+Cycle  1: dt=118.23s, Cart=500.0, Unified=0.9906, Sigma=OK
+Cycle  2: dt=18.15s, Cart=500.0, Unified=0.9906, Sigma=OK
+Cycle  3: dt=16.93s, Cart=500.0, Unified=0.9906, Sigma=OK
+Cycle  4: dt=16.96s, Cart=500.0, Unified=0.9906, Sigma=OK
+Cycle  5: dt=17.95s, Cart=500.0, Unified=0.9906, Sigma=OK
+Cycle  6: dt=16.76s, Cart=500.0, Unified=0.9906, Sigma=OK
+Cycle  7: dt=17.06s, Cart=500.0, Unified=0.9906, Sigma=OK
+Cycle  8: dt=16.99s, Cart=500.0, Unified=0.9906, Sigma=OK
+Cycle  9: dt=16.98s, Cart=500.0, Unified=0.9906, Sigma=OK
+Cycle 10: dt=19.24s, Cart=500.0, Unified=0.9906, Sigma=OK
+
+================================================================================
+📊 SUMMARY
+================================================================================
+Durations: min=16.76s, max=118.23s, avg=27.53s
+Unified:   min=0.9906, max=0.9906, avg=0.9906
+Sigma:     10/10 passed
+CartPole:  >=500 in 10/10 cycles
+WORM OK:   True (no error)

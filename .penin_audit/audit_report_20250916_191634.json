@@ -1,0 +1,141 @@
+{
+  "timestamp": "2025-09-16T19:16:34.021916",
+  "summary": {
+    "total_active_issues": 72,
+    "by_severity": {
+      "CRITICAL": 13,
+      "HIGH": 59
+    }
+  },
+  "critical_issues": [
+    {
+      "module": "WATCHDOG",
+      "description": "Issue detected matching pattern: ERROR|CRITICAL|FATAL|Exception|Traceback",
+      "log_line": "[2025-09-16 18:36:49][PENIN_WATCHDOG][CRITICAL] \ud83d\udea8 CRITICAL: System health at 0.0%",
+      "occurrences": 7,
+      "fix_suggestion": "Review log context for more details | Investigate WATCHDOG module configuration"
+    },
+    {
+      "module": "WATCHDOG",
+      "description": "Issue detected matching pattern: ERROR|CRITICAL|FATAL|Exception|Traceback",
+      "log_line": "[2025-09-16 18:37:32][PENIN_WATCHDOG][CRITICAL] \ud83d\udea8 CRITICAL: System health at 25.0%",
+      "occurrences": 7,
+      "fix_suggestion": "Review log context for more details | Investigate WATCHDOG module configuration"
+    },
+    {
+      "module": "WATCHDOG",
+      "description": "Issue detected matching pattern: ERROR|CRITICAL|FATAL|Exception|Traceback",
+      "log_line": "[2025-09-16 18:38:15][PENIN_WATCHDOG][CRITICAL] \ud83d\udea8 CRITICAL: System health at 25.0%",
+      "occurrences": 7,
+      "fix_suggestion": "Review log context for more details | Investigate WATCHDOG module configuration"
+    },
+    {
+      "module": "F2_STRATEGY",
+      "description": "Issue detected matching pattern: ERROR|CRITICAL|FATAL|Exception|Traceback",
+      "log_line": "[2025-09-16 18:34:49][PENIN_F2_STRATEGY][INFO] \ud83d\udccb Generated strategy: learning - critical",
+      "occurrences": 7,
+      "fix_suggestion": "Review log context for more details | Investigate F2_STRATEGY module configuration"
+    },
+    {
+      "module": "F2_STRATEGY",
+      "description": "Issue detected matching pattern: ERROR|CRITICAL|FATAL|Exception|Traceback",
+      "log_line": "[2025-09-16 18:39:56][PENIN_F2_STRATEGY][INFO] \ud83d\udccb Generated strategy: learning - critical",
+      "occurrences": 7,
+      "fix_suggestion": "Review log context for more details | Investigate F2_STRATEGY module configuration"
+    },
+    {
+      "module": "F2_STRATEGY",
+      "description": "Issue detected matching pattern: ERROR|CRITICAL|FATAL|Exception|Traceback",
+      "log_line": "[2025-09-16 18:47:57][PENIN_F2_STRATEGY][INFO] \ud83d\udccb Generated strategy: learning - critical",
+      "occurrences": 7,
+      "fix_suggestion": "Review log context for more details | Investigate F2_STRATEGY module configuration"
+    },
+    {
+      "module": "F2_STRATEGY",
+      "description": "Issue detected matching pattern: ERROR|CRITICAL|FATAL|Exception|Traceback",
+      "log_line": "[2025-09-16 18:48:57][PENIN_F2_STRATEGY][INFO] \ud83d\udccb Generated strategy: learning - critical",
+      "occurrences": 7,
+      "fix_suggestion": "Review log context for more details | Investigate F2_STRATEGY module configuration"
+    },
+    {
+      "module": "F2_STRATEGY",
+      "description": "Issue detected matching pattern: ERROR|CRITICAL|FATAL|Exception|Traceback",
+      "log_line": "[2025-09-16 18:49:57][PENIN_F2_STRATEGY][INFO] \ud83d\udccb Generated strategy: learning - critical",
+      "occurrences": 7,
+      "fix_suggestion": "Review log context for more details | Investigate F2_STRATEGY module configuration"
+    },
+    {
+      "module": "F2_STRATEGY",
+      "description": "Issue detected matching pattern: ERROR|CRITICAL|FATAL|Exception|Traceback",
+      "log_line": "[2025-09-16 18:50:57][PENIN_F2_STRATEGY][INFO] \ud83d\udccb Generated strategy: learning - critical",
+      "occurrences": 7,
+      "fix_suggestion": "Review log context for more details | Investigate F2_STRATEGY module configuration"
+    },
+    {
+      "module": "F2_STRATEGY",
+      "description": "Issue detected matching pattern: ERROR|CRITICAL|FATAL|Exception|Traceback",
+      "log_line": "[2025-09-16 18:59:00][PENIN_F2_STRATEGY][INFO] \ud83d\udccb Generated strategy: learning - critical",
+      "occurrences": 4,
+      "fix_suggestion": "Review log context for more details | Investigate F2_STRATEGY module configuration"
+    }
+  ],
+  "by_module": {
+    "F2_STRATEGY": {
+      "count": 14,
+      "severities": [
+        "CRITICAL",
+        "HIGH"
+      ]
+    },
+    "F8_BRIDGE": {
+      "count": 11,
+      "severities": [
+        "HIGH"
+      ]
+    },
+    "F7_NEXUS": {
+      "count": 8,
+      "severities": [
+        "HIGH"
+      ]
+    },
+    "F1_CORE": {
+      "count": 8,
+      "severities": [
+        "HIGH"
+      ]
+    },
+    "F6_AUTOREWRITE": {
+      "count": 7,
+      "severities": [
+        "HIGH"
+      ]
+    },
+    "F5_CRUCIBLE": {
+      "count": 7,
+      "severities": [
+        "HIGH"
+      ]
+    },
+    "F4_MUTATION": {
+      "count": 7,
+      "severities": [
+        "HIGH"
+      ]
+    },
+    "F3_ACQUISITION": {
+      "count": 7,
+      "severities": [
+        "HIGH"
+      ]
+    },
+    "WATCHDOG": {
+      "count": 3,
+      "severities": [
+        "CRITICAL"
+      ]
+    }
+  },
+  "by_category": {},
+  "recommendations": []
+}

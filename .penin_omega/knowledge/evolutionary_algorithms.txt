@@ -1,0 +1,32 @@
+
+Algoritmos Evolutivos para Autoajuste de Hiperparâmetros
+
+1. GENETIC ALGORITHMS (GA)
+- Representação cromossômica de parâmetros
+- Crossover: recombinação de soluções
+- Mutation: perturbação aleatória
+- Selection: fitness-based survival
+
+2. EVOLUTION STRATEGIES (ES)
+- Foco em mutação com distribuições
+- (μ + λ) e (μ, λ) selection schemes
+- Self-adaptation de parâmetros de mutação
+- Covariance Matrix Adaptation (CMA-ES)
+
+3. DIFFERENTIAL EVOLUTION (DE)
+- Mutação baseada em diferenças vetoriais
+- DE/rand/1: v = x_r1 + F*(x_r2 - x_r3)
+- Crossover binomial ou exponencial
+- Robusto para otimização contínua
+
+4. PARTICLE SWARM OPTIMIZATION (PSO)
+- Inspirado em comportamento de enxames
+- Velocidade: v = w*v + c1*r1*(p_best - x) + c2*r2*(g_best - x)
+- Balanceamento exploration/exploitation
+- Convergência rápida em espaços suaves
+
+5. TRUST REGION METHODS
+- Restringe busca a região confiável
+- Adapta tamanho baseado em performance
+- Combina com modelos surrogate
+- Garante convergência local

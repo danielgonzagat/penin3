@@ -1,0 +1,24 @@
+{
+  "event_id": "evolution_957_1758115366",
+  "event_type": "optimization",
+  "description": "Ciclo evolutivo #957",
+  "metrics_before": {
+    "response_quality": 1.0,
+    "memory_utilization": 1.0,
+    "learning_rate": 1.0,
+    "creativity_index": 0.5753248743451237,
+    "coherence_score": 0.849985795501643,
+    "adaptation_speed": 1.0
+  },
+  "metrics_after": {
+    "response_quality": 1.0,
+    "memory_utilization": 1.0,
+    "learning_rate": 1.0,
+    "creativity_index": 0.7244593839615272,
+    "coherence_score": 0.849985795501643,
+    "adaptation_speed": 1.0
+  },
+  "improvement": 0.1491345096164035,
+  "timestamp": "2025-09-17T13:22:46.307309+00:00",
+  "success": true
+}

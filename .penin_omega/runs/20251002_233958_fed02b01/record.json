@@ -1,0 +1,44 @@
+{
+  "run_id": "fed02b01-929e-4df5-a28d-54c3281f63b9",
+  "timestamp": 1759448398.124606,
+  "cycle": 4,
+  "git_sha": null,
+  "seed": null,
+  "config_hash": "test-config",
+  "provider_id": "test-provider",
+  "model_name": "mock-model",
+  "candidate_cfg_hash": "candidate-hash",
+  "metrics": {
+    "U": 0.0,
+    "S": 0.0,
+    "C": 0.0,
+    "L": 0.0,
+    "linf": 0.0,
+    "score": 0.0,
+    "cost_usd": 0.0,
+    "latency_ms": 0.0,
+    "tokens_used": 0,
+    "caos_phi": 0.0,
+    "sr_score": 0.0,
+    "alpha_omega": 0.0
+  },
+  "gates": {
+    "sigma_guard_ok": true,
+    "ir_ic_ok": true,
+    "sr_gate_ok": true,
+    "caos_gate_ok": true,
+    "violations": [],
+    "evidence_hash": null
+  },
+  "decision": {
+    "verdict": "promote",
+    "reason": "concurrency",
+    "confidence": 1.0,
+    "delta_linf": 0.0,
+    "delta_score": 0.0,
+    "beta_min_met": true,
+    "attestation_chain": null
+  },
+  "artifacts_path": "/root/.penin_omega/runs/20251002_233958_fed02b01",
+  "parent_run_id": null
+}

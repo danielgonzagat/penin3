@@ -1,0 +1,32 @@
+
+Métodos de Calibração para Redução de Expected Calibration Error (ECE)
+
+1. TEMPERATURE SCALING
+- Método pós-treinamento mais simples
+- Aplica temperatura T às logits: softmax(z/T)
+- Otimiza T usando validation set
+- Preserva accuracy, melhora calibração
+
+2. PLATT SCALING
+- Ajusta sigmoid às probabilidades
+- P_calibrated = sigmoid(a*P + b)
+- Efetivo para SVMs e pequenos datasets
+- Pode overfitting com poucos dados
+
+3. ISOTONIC REGRESSION
+- Método não-paramétrico
+- Aprende função monotônica crescente
+- Mais flexível que Platt scaling
+- Robusto a diferentes distribuições
+
+4. BAYESIAN NEURAL NETWORKS
+- Incerteza epistêmica via distribuições
+- Monte Carlo Dropout para aproximação
+- Variational inference para pesos
+- Quantifica incerteza naturalmente
+
+5. ENSEMBLE CALIBRATION
+- Combina múltiplos modelos calibrados
+- Reduz variance das predições
+- Melhora tanto accuracy quanto calibração
+- Computacionalmente mais caro

@@ -1,0 +1,30 @@
+
+Técnicas Avançadas de Otimização para Sistemas de IA
+
+1. GRADIENT DESCENT E VARIAÇÕES
+- Stochastic Gradient Descent (SGD) com momentum
+- Adam optimizer com learning rate adaptativo
+- RMSprop para gradientes esparsos
+- AdaGrad para features com frequências diferentes
+
+2. REGULARIZAÇÃO
+- L1 regularization (Lasso) para sparsity
+- L2 regularization (Ridge) para suavização
+- Dropout para prevenir overfitting
+- Batch normalization para estabilidade
+
+3. LEARNING RATE SCHEDULING
+- Step decay: reduz LR em intervalos fixos
+- Exponential decay: redução exponencial
+- Cosine annealing: oscilação cosseno
+- Warm restart: reinicialização periódica
+
+4. EARLY STOPPING
+- Monitoramento de validation loss
+- Patience parameter para tolerância
+- Restore best weights ao parar
+
+5. ENSEMBLE METHODS
+- Bagging: múltiplos modelos com bootstrap
+- Boosting: modelos sequenciais corretivos
+- Stacking: meta-learner combina predições

@@ -1,0 +1,96 @@
+{
+  "plan_hash": "42f3538d8f1e9fa971a8de9f82e13e0ed213361794be87175728ed4391fcec96",
+  "bundle_hash": "05515531143f71cc23f81937b44401e39e375ce20b85eb8754b28abff41fda84",
+  "xt_hash": "1ca6ca03bdf95b29ad116712d57977f86c5075d71bc0f3415d969b522e06491d",
+  "acq_hash": "6d2508f7554ea41585614793091b440e02b8697723b84ebf5f735c7a6acf755e",
+  "started_at": "2025-09-24T03:26:33.191016+00:00",
+  "finished_at": "2025-09-24T03:26:33.193118+00:00",
+  "per_candidate": [
+    {
+      "cand_id": "test_cand",
+      "dist_tr": 0.0,
+      "metrics": {
+        "delta_linf": 0.002788535969157675,
+        "mdl_gain": 0.0,
+        "ppl_ood": 89.06291095306693,
+        "ece": 0.009435267332421015,
+        "rho": 0.5020858585447243,
+        "sr": 0.8010991099488204,
+        "caos": 1.0013942679845789,
+        "p95_ms": 59.972114640308426,
+        "cost": 0.10100278853596917,
+        "novelty_sim": 0.9997211464030842,
+        "rag_recall": 1.0002788535969158
+      },
+      "gates": {
+        "sigma_ok": true,
+        "iric_ok": true,
+        "sr_ok": true,
+        "tr_ok": true
+      },
+      "verdict": "Verdict.CANARY",
+      "rationale": "Marginal gain - canary recommended",
+      "proof_ids": []
+    }
+  ],
+  "summary": {
+    "tot_candidates": 1,
+    "allow": 0,
+    "canary": 1,
+    "reject": 0,
+    "promoted": 1,
+    "avg_delta_linf": 0.002788535969157675,
+    "avg_sr": 0.8010991099488204,
+    "avg_cost": 0.10100278853596917,
+    "budget_left": {
+      "max_cost": 10.0,
+      "max_tokens": 100000,
+      "max_llm_calls": 12,
+      "max_latency_ms": 10000,
+      "quota_local": 0.8,
+      "used_llm_calls": 1,
+      "used_tokens": 0,
+      "used_cost": 0.5
+    }
+  },
+  "promotion_set": {
+    "top": [
+      "test_cand"
+    ],
+    "patchset": [
+      {
+        "cand_id": "test_cand",
+        "patch_file": null,
+        "build_steps": [],
+        "env_caps": {
+          "no_net": true,
+          "cpu_only": true
+        }
+      }
+    ],
+    "canary_scope": {
+      "traffic_pct": 0.1,
+      "duration_min": 30,
+      "rollback_criteria": {
+        "rho_spike": 0.03,
+        "ppl_ood_increase": 0.05
+      }
+    },
+    "budgets_left": {
+      "max_cost": 10.0,
+      "max_tokens": 100000,
+      "max_llm_calls": 12,
+      "max_latency_ms": 10000,
+      "quota_local": 0.8,
+      "used_llm_calls": 1,
+      "used_tokens": 0,
+      "used_cost": 0.5
+    }
+  },
+  "artifacts": {
+    "candidates_csv": "/root/.penin_omega/crucible/artifacts/d80ef28f/candidates.csv",
+    "summary_json": "/root/.penin_omega/crucible/artifacts/d80ef28f/summary.json",
+    "promotion_json": "/root/.penin_omega/crucible/artifacts/d80ef28f/promotion.json",
+    "report_id": "d80ef28f"
+  }
+}

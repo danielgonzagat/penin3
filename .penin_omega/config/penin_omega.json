@@ -1,0 +1,23 @@
+{
+  "system_name": "PENIN-\u03a9",
+  "version": "1.0.0-UNIFIED",
+  "modules": {
+    "F1": "penin_omega_1_*.py",
+    "F2": "penin_omega_2_*.py",
+    "F3": "penin_omega_3_*.py",
+    "F4": "penin_omega_4_*.py",
+    "F5": "penin_omega_5_*.py",
+    "F6": "penin_omega_6_*.py",
+    "F7": "penin_omega_7_*.py",
+    "F8": "penin_omega_8_*.py"
+  },
+  "paths": {
+    "root": "/root/.penin_omega",
+    "modules": "/root/.penin_omega/modules",
+    "logs": "/root/.penin_omega/logs",
+    "config": "/root/.penin_omega/config",
+    "worm": "/root/.penin_omega/worm",
+    "state": "/root/.penin_omega/state"
+  },
+  "created_at": "2025-09-18T02:05:36.176547+00:00"
+}
