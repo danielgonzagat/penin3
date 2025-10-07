@@ -1,0 +1,20 @@
+# Example configuration for RL synthetic adapter
+
+max_generations: 60
+fib_depth: 12
+population: 48
+elites_grid: [12, 12]
+rollback_delta: 0.02
+seed: 42
+score_key: fitness
+
+meta_control_arms:
+  - small
+  - medium
+  - large
+  - adaptive
+
+enable_curriculum: true
+enable_rollback: true
+save_snapshots_every: 10
+verbose: 1

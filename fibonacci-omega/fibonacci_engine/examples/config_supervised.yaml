@@ -1,0 +1,20 @@
+# Example configuration for supervised learning adapter
+
+max_generations: 100
+fib_depth: 12
+population: 64
+elites_grid: [16, 16]
+rollback_delta: 0.02
+seed: 123
+score_key: fitness
+
+meta_control_arms:
+  - small
+  - medium
+  - large
+  - adaptive
+
+enable_curriculum: true
+enable_rollback: true
+save_snapshots_every: 20
+verbose: 1
