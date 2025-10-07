@@ -1,0 +1,36 @@
+# Requirements para implementação da auditoria
+# Criado em: 2025-10-03
+# Status: VALIDADO no environment real
+
+# ============================================================================
+# DESCOBERTA IMPORTANTE: Environment NÃO tem PyTorch/NumPy instalados!
+# ============================================================================
+
+# Dependencies necessárias para código PROPOSTO (mas não instaladas):
+# torch>=2.0.0          # ❌ NOT INSTALLED
+# numpy>=1.24.0         # ❌ NOT INSTALLED  
+# torchvision>=0.15.0   # ❌ NOT INSTALLED
+# matplotlib>=3.7.0     # ❌ NOT INSTALLED
+# scipy>=1.10.0         # ❌ NOT INSTALLED
+# gymnasium>=0.28.0     # ❌ NOT INSTALLED
+
+# ============================================================================
+# SOLUÇÃO: Usar Python stdlib apenas (IMPLEMENTADO)
+# ============================================================================
+
+# darwin_universal_engine.py - Usa apenas:
+# - abc (stdlib)
+# - typing (stdlib)
+# - logging (stdlib)
+# - random (stdlib)
+
+# Status: ✅ FUNCIONA sem dependencies externas
+
+# ============================================================================
+# Para implementar features COMPLETAS (Fase 1):
+# ============================================================================
+
+# Necessário instalar:
+# pip install torch torchvision numpy scipy matplotlib gymnasium
+
+# Ou usar código alternativo sem ML (como darwin_universal_engine.py)

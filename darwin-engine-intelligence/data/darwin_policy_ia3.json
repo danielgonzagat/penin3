@@ -1,0 +1,53 @@
+{
+  "paths": {
+    "worm_log": "/root/darwin_worm.log",
+    "manifest": "/root/agents_active.json",
+    "heritage_dir": "/root/heritage",
+    "agents_dir": "/root/agents",
+    "source_promotions": "/root/promotion_log.json",
+    "state": "/root/darwin_state.json"
+  },
+  "thresholds": {
+    "delta_linf_min": 0.0,
+    "caos_ratio_min": 1.0,
+    "I_min": 0.60,
+    "P_min": 0.01,
+    "novelty_min": 0.02
+  },
+  "births": {
+    "deaths_per_birth": 10
+  },
+  "metrics": {
+    "port": 9092
+  },
+  "operational": {
+    "interval_seconds": 60,
+    "dry_run": false,
+    "fail_closed": true,
+    "max_agents": 100,
+    "seed": 42
+  },
+  "hooks": {
+    "on_spawn": "/usr/local/bin/darwin_ia3_gateway.py",
+    "on_death": "/usr/local/bin/darwin_ia3_gateway.py",
+    "on_promote": "/usr/local/bin/darwin_ia3_gateway.py",
+    "on_validation": "/opt/ia3/bin/neurongen.py"
+  },
+  "ia3": {
+    "enabled": true,
+    "mode": "numeric",
+    "validation_interval": 10,
+    "criteria": [
+      "adaptativo",
+      "autorecursivo",
+      "autoevolutivo",
+      "autodidata",
+      "autonomo",
+      "autossuficiente",
+      "autoconstrutivo",
+      "autosinaptico",
+      "autoarquitetavel"
+    ],
+    "require_all": true
+  }
+}

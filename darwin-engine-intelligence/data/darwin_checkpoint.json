@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-09-21T23:35:52.118243Z",
+  "status": "darwin_ready",
+  "gates_passed": true,
+  "components": {
+    "policy": "configured",
+    "canary": "ready",
+    "monitor": "ready",
+    "metrics": "active",
+    "worm": "initialized"
+  },
+  "thresholds": {
+    "beta_min": 0.01,
+    "i_min": 0.6,
+    "caos_min": 1.0,
+    "ece_max": 0.03,
+    "rho_max": 0.95,
+    "oci_min": 0.6
+  }
+}

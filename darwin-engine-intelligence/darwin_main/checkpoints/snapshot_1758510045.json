@@ -1,0 +1,94 @@
+{
+  "timestamp": "2025-09-22T03:00:45.719408Z",
+  "metrics": {
+    "neuron_id": "n56117",
+    "age": 1,
+    "generation": 0,
+    "timestamp": "2025-09-22T03:00:45.716595Z",
+    "base_val_loss": 0.3357517421245575,
+    "post_val_loss": 0.20932906866073608,
+    "delta_val_loss": -0.1264226734638214,
+    "base_ood_loss": 0.35528990626335144,
+    "post_ood_loss": 0.23317748308181763,
+    "delta_ood_loss": -0.12211242318153381,
+    "best_val": 0.20932906866073608,
+    "novelty": 1.233652142014898,
+    "self_evolve_success": true,
+    "mutations_applied": [
+      "activation_change_relu_to_silu"
+    ],
+    "self_mutations": 1,
+    "total_mutations": 1,
+    "successful_mutations": 1,
+    "consciousness_score": 0.9400000000000001,
+    "contribution_score": 1.0,
+    "architectural_changes": 1,
+    "synaptic_changes": 1,
+    "construction_mutations": 0,
+    "autonomous_operation": true,
+    "current_activation": "silu",
+    "has_learnable_gate": false,
+    "weight_norm": 1.0464417934417725,
+    "grad_norm": 0.10080159455537796,
+    "architectural_complexity": 0.7,
+    "E": 1,
+    "decision": "VIVE",
+    "A": true,
+    "C": true,
+    "ia3_score": 0.9999999999999999,
+    "criteria": {
+      "adaptativo": true,
+      "autorecursivo": true,
+      "autoevolutivo": true,
+      "autodidata": true,
+      "autonomo": true,
+      "autossuficiente": true,
+      "autoconstructivo": true,
+      "autosinaptico": true,
+      "autoarquitetavel": true
+    },
+    "metrics_used": {
+      "delta_val_loss": -0.1264226734638214,
+      "novelty": 1.233652142014898,
+      "self_evolve_success": true
+    },
+    "reasons": [
+      "A(t)=1: Auto-evolu\u00e7\u00e3o comprovada",
+      "C(t)=1: Descoberta generaliz\u00e1vel"
+    ],
+    "config": {
+      "beta_min": 0.01,
+      "novelty_tau": 0.05,
+      "consciousness_min": 0.3
+    },
+    "heritage": {
+      "strategy": "learned_heritage",
+      "positive_traits": {},
+      "negative_traits": {
+        "common_failures": {
+          "equacao_da_morte_failed": 4
+        },
+        "avoided_configs": [
+          {},
+          {},
+          {},
+          {}
+        ]
+      },
+      "generation": 4
+    },
+    "bonus_births": []
+  },
+  "neuron_state": null,
+  "system_state": {
+    "deaths": 4,
+    "births": 0,
+    "survivals": 0,
+    "rounds": 4,
+    "death_streak": 4,
+    "best_val": null,
+    "best_cfg": null,
+    "last_neuron_id": "n20011",
+    "current_generation": 0
+  }
+}

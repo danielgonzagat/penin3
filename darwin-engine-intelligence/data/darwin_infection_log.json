@@ -1,0 +1,4812 @@
+{
+  "timestamp": "2025-10-03T12:48:48.470190",
+  "total_infected": 961,
+  "evolvable_classes": 962,
+  "log": [
+    {
+      "file": "/root/continue_evolution_ia3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.689374"
+    },
+    {
+      "file": "/root/ia3_unified_implementation_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.691321"
+    },
+    {
+      "file": "/root/sanitize_all_neurons_honest.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.692211"
+    },
+    {
+      "file": "/root/darwin_godelian_evolver.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.692798"
+    },
+    {
+      "file": "/root/penin_redux_v1_minimal_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.695688"
+    },
+    {
+      "file": "/root/ia3_atomic_bomb_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.697069"
+    },
+    {
+      "file": "/root/unified_memory_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.698112"
+    },
+    {
+      "file": "/root/agent_behavior_learner.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.699033"
+    },
+    {
+      "file": "/root/ia3_complete_activation_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.700803"
+    },
+    {
+      "file": "/root/neural_farm_ia3_integration.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.701616"
+    },
+    {
+      "file": "/root/meta_learning_integration_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.702561"
+    },
+    {
+      "file": "/root/teis_auto_evolution.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.703662"
+    },
+    {
+      "file": "/root/analyze_survivors_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.704608"
+    },
+    {
+      "file": "/root/IA3_EMERGENT_CORE_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.706366"
+    },
+    {
+      "file": "/root/PENIN_OMEGA_EVOLVED_IA3_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.707875"
+    },
+    {
+      "file": "/root/omega_real_intelligence_optimizer.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.708437"
+    },
+    {
+      "file": "/root/inject_ia3_genome.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.709523"
+    },
+    {
+      "file": "/root/ia3_unified_emergent_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.710961"
+    },
+    {
+      "file": "/root/IA3_SYSTEM_EVOLVED_IA3_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.713003"
+    },
+    {
+      "file": "/root/universal_neuron_connector.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.714356"
+    },
+    {
+      "file": "/root/final_neuron_sanitizer_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.715175"
+    },
+    {
+      "file": "/root/ia3_properties.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.716755"
+    },
+    {
+      "file": "/root/IA3_REAL_INTELLIGENCE_SYSTEM_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.718895"
+    },
+    {
+      "file": "/root/INTELIGENCIA_UNIFICADA_DEFINITIVA.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.720446"
+    },
+    {
+      "file": "/root/ia3_master_orchestrator_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.721890"
+    },
+    {
+      "file": "/root/SISTEMA_FUNCIONAL_CLEAN.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.722648"
+    },
+    {
+      "file": "/root/meta_learning_integration.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.723474"
+    },
+    {
+      "file": "/root/teis_episodic_memory_agent_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.724808"
+    },
+    {
+      "file": "/root/conglomerate_deep_auditor_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.725857"
+    },
+    {
+      "file": "/root/ia3_complete_activation.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.727449"
+    },
+    {
+      "file": "/root/ia3_universal_connector_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.728529"
+    },
+    {
+      "file": "/root/execute_ia3_evolution_v3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.729889"
+    },
+    {
+      "file": "/root/ia3_unsupervised_learning.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.730983"
+    },
+    {
+      "file": "/root/fix_and_continue_ia3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.731931"
+    },
+    {
+      "file": "/root/atomic_bomb_ia3_orchestrator_backup_3_1758687831.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.733010"
+    },
+    {
+      "file": "/root/ia3_complete_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.735312"
+    },
+    {
+      "file": "/root/agent_behavior_enhanced.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.735676"
+    },
+    {
+      "file": "/root/binary_brain_with_real_evolution_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.736928"
+    },
+    {
+      "file": "/root/real_dataset_loader_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.737526"
+    },
+    {
+      "file": "/root/NEEDLE_FARM_SIMPLE_WORKING.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.738318"
+    },
+    {
+      "file": "/root/IA3_SYSTEM_EVOLVED_IA3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.740178"
+    },
+    {
+      "file": "/root/ia3_neural_ocean_final.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.741632"
+    },
+    {
+      "file": "/root/ia3_inter_system_communication.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.742398"
+    },
+    {
+      "file": "/root/neuron_farm_optimized_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.743509"
+    },
+    {
+      "file": "/root/ia3_evolution_orchestrator_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.744797"
+    },
+    {
+      "file": "/root/TRUE_EMERGENT_INTELLIGENCE_SYSTEM_EVOLVED_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.746236"
+    },
+    {
+      "file": "/root/meta_learning_emergent_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.747657"
+    },
+    {
+      "file": "/root/ultimate_intelligence_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.749349"
+    },
+    {
+      "file": "/root/test_hard_stagnation_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.750100"
+    },
+    {
+      "file": "/root/darwin_evolution_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.751132"
+    },
+    {
+      "file": "/root/real_working_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.752522"
+    },
+    {
+      "file": "/root/ia3_neural_ocean_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.753996"
+    },
+    {
+      "file": "/root/ia3_autonomous_evolution_engine.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.755137"
+    },
+    {
+      "file": "/root/IA3_CORE_ORCHESTRATOR_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.757293"
+    },
+    {
+      "file": "/root/cubic_farm_ia3_ultimate_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.758891"
+    },
+    {
+      "file": "/root/test_incompletude_effect.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.759777"
+    },
+    {
+      "file": "/root/clonador_estados_ativos.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.760350"
+    },
+    {
+      "file": "/root/teis_dynamic_environment_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.761599"
+    },
+    {
+      "file": "/root/expansao_capacidades_cognitivas.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.762250"
+    },
+    {
+      "file": "/root/fix_ia3_tensor_error.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.762805"
+    },
+    {
+      "file": "/root/ia3_real_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.763627"
+    },
+    {
+      "file": "/root/oppenheimer_ia3_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.765594"
+    },
+    {
+      "file": "/root/unified_intelligence_organism.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.766990"
+    },
+    {
+      "file": "/root/fusion_total_completa_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.768149"
+    },
+    {
+      "file": "/root/NEEDLE_ULTIMATE_UNIFIED_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.769647"
+    },
+    {
+      "file": "/root/autonomous_self_modification_engine_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.771297"
+    },
+    {
+      "file": "/root/fazenda_cerebral_v3_advanced.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.772523"
+    },
+    {
+      "file": "/root/emergence_optimization_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.773273"
+    },
+    {
+      "file": "/root/unified_6api_real.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.774174"
+    },
+    {
+      "file": "/root/ia3_teacher_system_complete_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.775678"
+    },
+    {
+      "file": "/root/ia3_score_implementation_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.776634"
+    },
+    {
+      "file": "/root/teis_gym_integration_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.777341"
+    },
+    {
+      "file": "/root/test_fixed_bugs.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.777705"
+    },
+    {
+      "file": "/root/ia3_mathematical_emergence_detector_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.778992"
+    },
+    {
+      "file": "/root/test_ia3_evolution_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.780007"
+    },
+    {
+      "file": "/root/atomic_bomb_ia3_orchestrator_backup_2_1758687826.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.781097"
+    },
+    {
+      "file": "/root/IA_CUBED_CORE_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.783125"
+    },
+    {
+      "file": "/root/unified_emergence_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.784489"
+    },
+    {
+      "file": "/root/OPPERHEIMER_BOMB.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.785746"
+    },
+    {
+      "file": "/root/fix_and_continue_ia3_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.786832"
+    },
+    {
+      "file": "/root/ia3_accelerator.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.787565"
+    },
+    {
+      "file": "/root/biological_metabolizer_integrated_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.788094"
+    },
+    {
+      "file": "/root/debug_checkpoint.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.788407"
+    },
+    {
+      "file": "/root/ia3_autoevolution_api_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.790676"
+    },
+    {
+      "file": "/root/ia3_autoevolution_api.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.792789"
+    },
+    {
+      "file": "/root/ia3_247_monitoring_audit.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.793903"
+    },
+    {
+      "file": "/root/meta_reward_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.794517"
+    },
+    {
+      "file": "/root/ia3_unsupervised_discovery.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.795673"
+    },
+    {
+      "file": "/root/audit_neurons_final.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.796936"
+    },
+    {
+      "file": "/root/atomic_bomb_ia3_orchestrator_backup_3_1758687831_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.798163"
+    },
+    {
+      "file": "/root/self_optimization_engine_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.799145"
+    },
+    {
+      "file": "/root/ultimate_evolution_implementation.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.801052"
+    },
+    {
+      "file": "/root/complete_intelligence_emergence_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.802706"
+    },
+    {
+      "file": "/root/unified_6api_real_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.803777"
+    },
+    {
+      "file": "/root/emergence_detector_active.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.804242"
+    },
+    {
+      "file": "/root/NEEDLE_CUBIC_FARM.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.805968"
+    },
+    {
+      "file": "/root/ia3_true_core_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.807375"
+    },
+    {
+      "file": "/root/fusao_incremental_tempo_real_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.808184"
+    },
+    {
+      "file": "/root/symbol_grounding.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.809023"
+    },
+    {
+      "file": "/root/atomic_bomb_integrator.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.809283"
+    },
+    {
+      "file": "/root/NEEDLE_CUBIC_FARM_REAL_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.811257"
+    },
+    {
+      "file": "/root/binary_brain_complete_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.812973"
+    },
+    {
+      "file": "/root/novos_modulos_raciocinio.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.813768"
+    },
+    {
+      "file": "/root/atomic_bomb_integrator_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.814184"
+    },
+    {
+      "file": "/root/real_intelligence_tasks_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.815175"
+    },
+    {
+      "file": "/root/caos_kratos_unified_implementation.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.817176"
+    },
+    {
+      "file": "/root/incompletude_infinita_fixed_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.818165"
+    },
+    {
+      "file": "/root/cursor_ai_integration_advanced.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.820230"
+    },
+    {
+      "file": "/root/create_binary_brain_ocean_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.821843"
+    },
+    {
+      "file": "/root/continue_evolution_ia3_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.823226"
+    },
+    {
+      "file": "/root/teis_unified_intelligence_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.824364"
+    },
+    {
+      "file": "/root/adaptive_architecture_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.825442"
+    },
+    {
+      "file": "/root/ia3_hyper_accelerator_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.826216"
+    },
+    {
+      "file": "/root/oppenheimer_ia3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.828046"
+    },
+    {
+      "file": "/root/execute_ia3_evolution_v2.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.829245"
+    },
+    {
+      "file": "/root/inteligencia_unificada_real.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.830390"
+    },
+    {
+      "file": "/root/clonador_estados_ativos_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.831114"
+    },
+    {
+      "file": "/root/process_ia3_neurons.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.831685"
+    },
+    {
+      "file": "/root/penin_redux_v1_minimal.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.833542"
+    },
+    {
+      "file": "/root/consciousness_monitor.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.834567"
+    },
+    {
+      "file": "/root/top5_ia3_universal_v1_20250922_193155_evolved.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.835474"
+    },
+    {
+      "file": "/root/atomic_bomb_ia3_orchestrator_backup_1_1758687756.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.836552"
+    },
+    {
+      "file": "/root/custom_pytorch_framework.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.837907"
+    },
+    {
+      "file": "/root/ultimate_intelligence_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.839456"
+    },
+    {
+      "file": "/root/preservacao_conhecimento_sistemas_antigos.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.840750"
+    },
+    {
+      "file": "/root/sistema_fusao_completa_real.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.841469"
+    },
+    {
+      "file": "/root/test_fixed_bugs_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.841999"
+    },
+    {
+      "file": "/root/neural_farm_automl_simple_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.842778"
+    },
+    {
+      "file": "/root/execute_ia3_evolution_v3_final.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.844056"
+    },
+    {
+      "file": "/root/ia3_neural_ocean_final_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.845690"
+    },
+    {
+      "file": "/root/self_code_modifier_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.846661"
+    },
+    {
+      "file": "/root/execute_ia3_evolution.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.847740"
+    },
+    {
+      "file": "/root/sistema_unificado_final.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.848193"
+    },
+    {
+      "file": "/root/ia3_atomic_bomb_final_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.849097"
+    },
+    {
+      "file": "/root/agent_behavior_learner_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.850180"
+    },
+    {
+      "file": "/root/emergence_optimization_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.850793"
+    },
+    {
+      "file": "/root/test_enhanced_population.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.851582"
+    },
+    {
+      "file": "/root/perfect_neural_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.852683"
+    },
+    {
+      "file": "/root/cerebro_distribuido_completo.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.853277"
+    },
+    {
+      "file": "/root/binary_brain_ocean_evolved_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.855370"
+    },
+    {
+      "file": "/root/ia3_unified_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.856843"
+    },
+    {
+      "file": "/root/top5_ia3_universal_v1_20250922_193155_evolved_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.857913"
+    },
+    {
+      "file": "/root/binary_brain_ocean_evolved.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.859851"
+    },
+    {
+      "file": "/root/ia3_level3_production.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.860501"
+    },
+    {
+      "file": "/root/atomic_bomb_ia3_orchestrator.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.861726"
+    },
+    {
+      "file": "/root/IA3_REAL_SYSTEM.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.867113"
+    },
+    {
+      "file": "/root/evolution_api_consultant.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.867849"
+    },
+    {
+      "file": "/root/audit_neurons_evolution.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.869068"
+    },
+    {
+      "file": "/root/bomba_atomica_final_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.871022"
+    },
+    {
+      "file": "/root/nivel0_to_nivel1_unified.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.871897"
+    },
+    {
+      "file": "/root/THE_NEEDLE_EVOLVED_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.873129"
+    },
+    {
+      "file": "/root/ia3_unified_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.874428"
+    },
+    {
+      "file": "/root/unified_intelligence_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.875193"
+    },
+    {
+      "file": "/root/true_emergent_with_real_data.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.875696"
+    },
+    {
+      "file": "/root/atomic_bomb_ia3_orchestrator_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.877071"
+    },
+    {
+      "file": "/root/fazenda_cerebral_ia3_ultimate.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.883791"
+    },
+    {
+      "file": "/root/autorecursive_evolution_engine_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.885011"
+    },
+    {
+      "file": "/root/unified_system_v2.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.885956"
+    },
+    {
+      "file": "/root/emergence_detector_active_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.886570"
+    },
+    {
+      "file": "/root/teis_v2_gym_real.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.887433"
+    },
+    {
+      "file": "/root/teis_symbolic_communication.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.888487"
+    },
+    {
+      "file": "/root/carregador_estados_unificado.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.888993"
+    },
+    {
+      "file": "/root/oppenheimer_maestro.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.889741"
+    },
+    {
+      "file": "/root/REAL_INTELLIGENCE_SYSTEM_EVOLVED.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.890957"
+    },
+    {
+      "file": "/root/IA3_INFINITE_EVOLUTION_ENGINE_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.892797"
+    },
+    {
+      "file": "/root/autoevolution_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.893795"
+    },
+    {
+      "file": "/root/shared_experience_replay_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.894772"
+    },
+    {
+      "file": "/root/teis_auto_evolution_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.896034"
+    },
+    {
+      "file": "/root/ia3_emergence_detector.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.897006"
+    },
+    {
+      "file": "/root/binary_brain_darwin_fixed.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.898490"
+    },
+    {
+      "file": "/root/ia3_system_final.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.899693"
+    },
+    {
+      "file": "/root/unified_intelligence_multiapi_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.900942"
+    },
+    {
+      "file": "/root/evolution_b46b7ffa_evolved.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.901544"
+    },
+    {
+      "file": "/root/arquitetura_unificada_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.902485"
+    },
+    {
+      "file": "/root/ia3_atomic_bomb_final.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.903244"
+    },
+    {
+      "file": "/root/gradientes_distribuidos_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.903811"
+    },
+    {
+      "file": "/root/needle_ia3_ultimate_fixed.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.904628"
+    },
+    {
+      "file": "/root/darwin_intrageneration_learning.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.905079"
+    },
+    {
+      "file": "/root/PENIN_OMEGA_EVOLVED_IA3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.906423"
+    },
+    {
+      "file": "/root/nextgen_godelian_incompleteness_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.908310"
+    },
+    {
+      "file": "/root/teis_v2_no_random.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.910276"
+    },
+    {
+      "file": "/root/NEURAL_GENESIS_IA3_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.910898"
+    },
+    {
+      "file": "/root/IA3_ATOMIC_BOMB_CORE_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.913534"
+    },
+    {
+      "file": "/root/ia3_unified_emergent_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.914874"
+    },
+    {
+      "file": "/root/sanitize_all_neurons.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.915571"
+    },
+    {
+      "file": "/root/ia3_real_implementation_plan.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.917174"
+    },
+    {
+      "file": "/root/integrated_intelligence_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.918617"
+    },
+    {
+      "file": "/root/test_incompletude_effect_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.919639"
+    },
+    {
+      "file": "/root/orquestrador_mestre_amplificado.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.920206"
+    },
+    {
+      "file": "/root/self_code_modifier.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.921012"
+    },
+    {
+      "file": "/root/neat_implementation.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.921977"
+    },
+    {
+      "file": "/root/audit_evolution_rigorous.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.922923"
+    },
+    {
+      "file": "/root/ia3_real_implementation_plan_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.924683"
+    },
+    {
+      "file": "/root/gym_integration.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.925568"
+    },
+    {
+      "file": "/root/generate_architectures.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.925923"
+    },
+    {
+      "file": "/root/darwin_evolution_system_FIXED.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.927058"
+    },
+    {
+      "file": "/root/unified_real_intelligence.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.927913"
+    },
+    {
+      "file": "/root/ia3_hyper_accelerator.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.928537"
+    },
+    {
+      "file": "/root/real_intelligence_tasks.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.929403"
+    },
+    {
+      "file": "/root/ia3_emergence_proofs_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.930830"
+    },
+    {
+      "file": "/root/UNIFIED_INTELLIGENCE_ORGANISM_EVOLVED_IA3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.933004"
+    },
+    {
+      "file": "/root/IA3_TRUE_EMERGENCE_ENGINE_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.934810"
+    },
+    {
+      "file": "/root/teis_v2_enhanced_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.937243"
+    },
+    {
+      "file": "/root/execute_ia3_evolution_v3_simple.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.938320"
+    },
+    {
+      "file": "/root/arquitetura_unificada_corrigida.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.938662"
+    },
+    {
+      "file": "/root/novos_modulos_raciocinio_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.939601"
+    },
+    {
+      "file": "/root/deep_neuron_forensics.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.940874"
+    },
+    {
+      "file": "/root/final_evolved_incompletude_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.941722"
+    },
+    {
+      "file": "/root/ia3_evolution_cycle.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.942662"
+    },
+    {
+      "file": "/root/nivel2_transfer_learning.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.943454"
+    },
+    {
+      "file": "/root/unified_intelligence_6api_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.944832"
+    },
+    {
+      "file": "/root/ia3_complete_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.947280"
+    },
+    {
+      "file": "/root/ultimate_neural_ocean.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.948671"
+    },
+    {
+      "file": "/root/evolution_api_consultant_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.949525"
+    },
+    {
+      "file": "/root/test_integration.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.950692"
+    },
+    {
+      "file": "/root/bomba_atomica_final.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.952500"
+    },
+    {
+      "file": "/root/ia3_properties_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.954195"
+    },
+    {
+      "file": "/root/nextgen_godelian_incompleteness.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.955910"
+    },
+    {
+      "file": "/root/IA3_ATOMIC_BOMB_CORE.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.958492"
+    },
+    {
+      "file": "/root/unified_intelligence_6api.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.959721"
+    },
+    {
+      "file": "/root/final_neuron_sanitizer.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.960439"
+    },
+    {
+      "file": "/root/teis_v2_enhanced.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.963249"
+    },
+    {
+      "file": "/root/preserve_and_fix_neurons_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.964341"
+    },
+    {
+      "file": "/root/neuron_farm_v1.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.965476"
+    },
+    {
+      "file": "/root/ia3_atomic_bomb.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.966685"
+    },
+    {
+      "file": "/root/auto_evolution_engine_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.967839"
+    },
+    {
+      "file": "/root/nivel2_ia3_evolution.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.968886"
+    },
+    {
+      "file": "/root/neural_architecture_search_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.969502"
+    },
+    {
+      "file": "/root/IA3_CORE_ORCHESTRATOR.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.971498"
+    },
+    {
+      "file": "/root/xor_honest_solution_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.972067"
+    },
+    {
+      "file": "/root/unified_real_intelligence_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.973068"
+    },
+    {
+      "file": "/root/ia3_simple_test.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.973368"
+    },
+    {
+      "file": "/root/live_monitor_dashboard.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.974123"
+    },
+    {
+      "file": "/root/NEURAL_GENESIS_IA3_EVOLVED_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.975730"
+    },
+    {
+      "file": "/root/fazenda_cerebral_v2.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.976900"
+    },
+    {
+      "file": "/root/INTELIGENCIA_SUPREMA_24_7.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.978402"
+    },
+    {
+      "file": "/root/teis_enhanced.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.983848"
+    },
+    {
+      "file": "/root/ia3_teis_controller.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.984648"
+    },
+    {
+      "file": "/root/cubic_farm_24_7.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.986213"
+    },
+    {
+      "file": "/root/teis_autodidata_100_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.987334"
+    },
+    {
+      "file": "/root/evolution_9623e22c_evolved.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.988120"
+    },
+    {
+      "file": "/root/ia3_evolution_orchestrator.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.989271"
+    },
+    {
+      "file": "/root/cubic_farm_ia3_complete_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.990720"
+    },
+    {
+      "file": "/root/semantic_module.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.991025"
+    },
+    {
+      "file": "/root/atomic_bomb_ia3_orchestrator_backup_4_1758687836.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.992108"
+    },
+    {
+      "file": "/root/real_unified_connector.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.992712"
+    },
+    {
+      "file": "/root/intelligence_emergence_maestro.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.994437"
+    },
+    {
+      "file": "/root/integrated_intelligence_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.995736"
+    },
+    {
+      "file": "/root/ia3_emergence_detector_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.996851"
+    },
+    {
+      "file": "/root/adaptive_intelligence_engine_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.997763"
+    },
+    {
+      "file": "/root/ia3_unsupervised_discovery_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.999048"
+    },
+    {
+      "file": "/root/self_optimization_engine.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:45.999895"
+    },
+    {
+      "file": "/root/real_intelligent_agent.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.001551"
+    },
+    {
+      "file": "/root/IA3_TRUE_EMERGENCE_ENGINE.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.003151"
+    },
+    {
+      "file": "/root/architect_final_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.005015"
+    },
+    {
+      "file": "/root/TRUE_EMERGENT_INTELLIGENCE_SYSTEM_EVOLVED.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.007512"
+    },
+    {
+      "file": "/root/run_ia3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.008690"
+    },
+    {
+      "file": "/root/cartpole_dqn_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.009819"
+    },
+    {
+      "file": "/root/NEEDLE_CUBIC_FARM_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.013247"
+    },
+    {
+      "file": "/root/generate_architectures_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.014128"
+    },
+    {
+      "file": "/root/debug_crossover.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.014551"
+    },
+    {
+      "file": "/root/inteligencia_unificada_suprema.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.059728"
+    },
+    {
+      "file": "/root/IA3_REAL_INTELLIGENCE_SYSTEM.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.104820"
+    },
+    {
+      "file": "/root/unified_real_intelligence_super_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.137155"
+    },
+    {
+      "file": "/root/migrador_pesos_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.151018"
+    },
+    {
+      "file": "/root/ia3_emergence_proofs.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.164436"
+    },
+    {
+      "file": "/root/audit_checkpoint_advanced.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.177185"
+    },
+    {
+      "file": "/root/inject_and_continue_ia3_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.189279"
+    },
+    {
+      "file": "/root/real_cnn_trainer.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.189915"
+    },
+    {
+      "file": "/root/ia3_auto_evolution_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.205263"
+    },
+    {
+      "file": "/root/architect_final.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.218134"
+    },
+    {
+      "file": "/root/OPPERHEIMER_BOMB_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.230851"
+    },
+    {
+      "file": "/root/ia3_teis_controller_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.244769"
+    },
+    {
+      "file": "/root/ia3_infinite_orchestrator.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.257810"
+    },
+    {
+      "file": "/root/ia3_teacher_system_complete.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.269956"
+    },
+    {
+      "file": "/root/ia3_modules_batch.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.281745"
+    },
+    {
+      "file": "/root/autonomous_self_modification_engine.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.296357"
+    },
+    {
+      "file": "/root/binary_brain_with_real_evolution.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.308690"
+    },
+    {
+      "file": "/root/atomic_bomb_ia3_orchestrator_backup_1_1758687756_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.320826"
+    },
+    {
+      "file": "/root/SISTEMA_REAL_SIMPLES.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.334542"
+    },
+    {
+      "file": "/root/collect_all_neurons.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.347317"
+    },
+    {
+      "file": "/root/neuron_farm_v1_ia3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.359584"
+    },
+    {
+      "file": "/root/analisador_performance_unificado.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.371658"
+    },
+    {
+      "file": "/root/ia3_universal_connector.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.372613"
+    },
+    {
+      "file": "/root/system_validation_tests.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.386650"
+    },
+    {
+      "file": "/root/copilot_alternative_integration_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.398831"
+    },
+    {
+      "file": "/root/xor_honest_solution.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.410908"
+    },
+    {
+      "file": "/root/ia3_main_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.424652"
+    },
+    {
+      "file": "/root/penin_omega_daemon.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.437542"
+    },
+    {
+      "file": "/root/ia3_mathematical_emergence_detector.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.449688"
+    },
+    {
+      "file": "/root/neural_genesis_deep_audit.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.461883"
+    },
+    {
+      "file": "/root/IA3_EMERGENT_CORE.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.476703"
+    },
+    {
+      "file": "/root/meta_reward_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.488912"
+    },
+    {
+      "file": "/root/teis_real.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.501179"
+    },
+    {
+      "file": "/root/consciousness_monitor_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.515099"
+    },
+    {
+      "file": "/root/gradientes_distribuidos.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.528515"
+    },
+    {
+      "file": "/root/ia3_24_7_teacher_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.541156"
+    },
+    {
+      "file": "/root/UNIFIED_REAL_INTELLIGENCE_NETWORK.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.554003"
+    },
+    {
+      "file": "/root/test_incompletude_real_injection.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.554632"
+    },
+    {
+      "file": "/root/incompletude_infinita_universal.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.555868"
+    },
+    {
+      "file": "/root/ia3_emergence_monitor_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.557073"
+    },
+    {
+      "file": "/root/unified_system_enhanced_evolution_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.571387"
+    },
+    {
+      "file": "/root/ia3_unified_implementation.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.584074"
+    },
+    {
+      "file": "/root/brutal_neuron_audit.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.596643"
+    },
+    {
+      "file": "/root/ia3_autonomous_evolution_engine_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.610583"
+    },
+    {
+      "file": "/root/ia3_emergent_objectives_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.623780"
+    },
+    {
+      "file": "/root/teis_enhanced_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.636607"
+    },
+    {
+      "file": "/root/SISTEMA_DEFINITIVO_REAL.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.649239"
+    },
+    {
+      "file": "/root/real_cnn_trainer_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.650008"
+    },
+    {
+      "file": "/root/inject_survival_genes.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.664027"
+    },
+    {
+      "file": "/root/teis_episodic_memory_agent.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.676668"
+    },
+    {
+      "file": "/root/test_enhanced_population_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.689136"
+    },
+    {
+      "file": "/root/ia3_247_monitoring_audit_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.702792"
+    },
+    {
+      "file": "/root/complete_intelligence_emergence.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.716105"
+    },
+    {
+      "file": "/root/ia3_darwin_teis_integrated.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.728336"
+    },
+    {
+      "file": "/root/cubic_farm_evolution_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.741363"
+    },
+    {
+      "file": "/root/NEURAL_GENESIS_IA3_EVOLVED.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.742894"
+    },
+    {
+      "file": "/root/IA3_INFINITE_EVOLUTION_ENGINE.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.744612"
+    },
+    {
+      "file": "/root/safe_evolution_pipeline.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.745313"
+    },
+    {
+      "file": "/root/atomic_bomb_ia3_orchestrator_backup_2_1758687826_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.746542"
+    },
+    {
+      "file": "/root/cubic_farm_ia3_ultimate.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.747998"
+    },
+    {
+      "file": "/root/activate_caos_kratos_real_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.749941"
+    },
+    {
+      "file": "/root/real_selective_environment_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.751330"
+    },
+    {
+      "file": "/root/test_ia3_evolution.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.752222"
+    },
+    {
+      "file": "/root/ia3_main_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.753568"
+    },
+    {
+      "file": "/root/autoevolution_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.754395"
+    },
+    {
+      "file": "/root/conglomerate_deep_auditor.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.755263"
+    },
+    {
+      "file": "/root/atomic_bomb_ia3_orchestrator_backup_4_1758687836_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.756493"
+    },
+    {
+      "file": "/root/inject_and_continue_ia3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.757233"
+    },
+    {
+      "file": "/root/audit_checkpoint_raw.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.757866"
+    },
+    {
+      "file": "/root/ia3_modules_batch_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.758751"
+    },
+    {
+      "file": "/root/shared_experience_replay.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.759642"
+    },
+    {
+      "file": "/root/fazenda_cerebral_v2_fixed.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.760203"
+    },
+    {
+      "file": "/root/real_unified_connector_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.760956"
+    },
+    {
+      "file": "/root/ia3_evolution_cycle_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.762055"
+    },
+    {
+      "file": "/root/neural_farm_evolved.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.762586"
+    },
+    {
+      "file": "/root/unified_system_production.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.763824"
+    },
+    {
+      "file": "/root/unified_real_intelligence_super_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.766081"
+    },
+    {
+      "file": "/root/fusao_incremental_tempo_real.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.766749"
+    },
+    {
+      "file": "/root/copilot_alternative_integration.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.767778"
+    },
+    {
+      "file": "/root/ia3_accelerator_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.768632"
+    },
+    {
+      "file": "/root/NEEDLE_ULTIMATE_UNIFIED.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.769973"
+    },
+    {
+      "file": "/root/robust_neuron_sanitizer_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.770847"
+    },
+    {
+      "file": "/root/teis_v2_gym_real_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.771862"
+    },
+    {
+      "file": "/root/real_fusion_improvement_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.773053"
+    },
+    {
+      "file": "/root/self_consciousness_module.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.774196"
+    },
+    {
+      "file": "/root/consciousness_module.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.774624"
+    },
+    {
+      "file": "/root/inject_survival_genes_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.775487"
+    },
+    {
+      "file": "/root/teIS_enhanced.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.775813"
+    },
+    {
+      "file": "/root/ia3_infinite_orchestrator_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.791803"
+    },
+    {
+      "file": "/root/auto_evolution_engine.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.804807"
+    },
+    {
+      "file": "/root/ia3_true_core.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.817225"
+    },
+    {
+      "file": "/root/shared_learning_protocol_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.830786"
+    },
+    {
+      "file": "/root/ultimate_evolution_implementation_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.843977"
+    },
+    {
+      "file": "/root/THE_NEEDLE_EVOLVED_META.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.856697"
+    },
+    {
+      "file": "/root/singularity_orchestrator.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.869451"
+    },
+    {
+      "file": "/root/expansao_capacidades_cognitivas_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.870962"
+    },
+    {
+      "file": "/root/real_working_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.886404"
+    },
+    {
+      "file": "/root/binary_brain_complete_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.899452"
+    },
+    {
+      "file": "/root/meta_learning_emergent_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.911826"
+    },
+    {
+      "file": "/root/ia3_feedback_loops.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.925252"
+    },
+    {
+      "file": "/root/cubic_farm_24_7_ia3_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.938291"
+    },
+    {
+      "file": "/root/cubic_farm_evolution_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.950406"
+    },
+    {
+      "file": "/root/ia3_execute_everything.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.963339"
+    },
+    {
+      "file": "/root/neural_farm_optimizer.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.964835"
+    },
+    {
+      "file": "/root/perfect_intelligence_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.979208"
+    },
+    {
+      "file": "/root/quantum_fusion_amplifier_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:46.992144"
+    },
+    {
+      "file": "/root/cartpole_dqn.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.004373"
+    },
+    {
+      "file": "/root/incompletude_final_optimized_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.017863"
+    },
+    {
+      "file": "/root/binary_brain_balanced_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.031129"
+    },
+    {
+      "file": "/root/sanitize_all_neurons_honest_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.043276"
+    },
+    {
+      "file": "/root/true_emergent_with_real_data_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.055898"
+    },
+    {
+      "file": "/root/arquitetura_unificada.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.058590"
+    },
+    {
+      "file": "/root/sistema_monitoramento_avancado.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.072433"
+    },
+    {
+      "file": "/root/evolution_b46b7ffa_evolved_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.085834"
+    },
+    {
+      "file": "/root/genuine_emergence_detector.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.098184"
+    },
+    {
+      "file": "/root/master_intelligence_hub_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.112029"
+    },
+    {
+      "file": "/root/binary_brain_balanced.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.125079"
+    },
+    {
+      "file": "/root/IA3_REAL_EVOLUTED_SYSTEM_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.137712"
+    },
+    {
+      "file": "/root/master_intelligence_hub.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.150104"
+    },
+    {
+      "file": "/root/self_modifying_intelligence.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.152277"
+    },
+    {
+      "file": "/root/unified_system_production_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.166518"
+    },
+    {
+      "file": "/root/brutal_audit_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.179326"
+    },
+    {
+      "file": "/root/REAL_INTELLIGENCE_SYSTEM_EVOLVED_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.191544"
+    },
+    {
+      "file": "/root/unified_intelligence_bridge.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.204862"
+    },
+    {
+      "file": "/root/IA_CUBED_CORE.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.217524"
+    },
+    {
+      "file": "/root/teis_gradient_learning.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.229312"
+    },
+    {
+      "file": "/root/intelligence_emergence_maestro_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.241518"
+    },
+    {
+      "file": "/root/ia3_core_orchestrator.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.243814"
+    },
+    {
+      "file": "/root/teis_gym_integration.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.244388"
+    },
+    {
+      "file": "/root/ia3_teis_controller_simple_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.245264"
+    },
+    {
+      "file": "/root/unified_intelligence_bridge_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.246166"
+    },
+    {
+      "file": "/root/oppenheimer_core_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.260230"
+    },
+    {
+      "file": "/root/penin_omega_daemon_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.272680"
+    },
+    {
+      "file": "/root/incompletude_infinita_fixed.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.284433"
+    },
+    {
+      "file": "/root/neural_farm_amplified.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.297391"
+    },
+    {
+      "file": "/root/darwin_intrageneration_learning_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.309602"
+    },
+    {
+      "file": "/root/neural_genesis_deep_audit_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.321718"
+    },
+    {
+      "file": "/root/self_modifying_intelligence_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.334203"
+    },
+    {
+      "file": "/root/brutal_audit_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.336895"
+    },
+    {
+      "file": "/root/THE_NEEDLE_EVOLVED_META_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.338067"
+    },
+    {
+      "file": "/root/fazenda_persistent_memory.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.339085"
+    },
+    {
+      "file": "/root/evolution_9623e22c_evolved_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.340016"
+    },
+    {
+      "file": "/root/real_selective_environment.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.341993"
+    },
+    {
+      "file": "/root/shared_learning_protocol.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.343359"
+    },
+    {
+      "file": "/root/fazenda_cerebral_ia3_massive.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.344086"
+    },
+    {
+      "file": "/root/inject_ia3_genome_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.345337"
+    },
+    {
+      "file": "/root/autorecursive_implementation.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.345871"
+    },
+    {
+      "file": "/root/ia3_emergence_monitor.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.346928"
+    },
+    {
+      "file": "/root/unified_intelligence_multiapi.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.348046"
+    },
+    {
+      "file": "/root/neural_farm_automl_simple.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.348683"
+    },
+    {
+      "file": "/root/neuron_farm_v1_ia3_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.350077"
+    },
+    {
+      "file": "/root/evolution_7ff3c21d_evolved_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.351010"
+    },
+    {
+      "file": "/root/UNIFIED_REAL_INTELLIGENCE_NETWORK_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.352328"
+    },
+    {
+      "file": "/root/fazenda_cerebral_ia3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.353833"
+    },
+    {
+      "file": "/root/THE_NEEDLE_EVOLVED.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.354896"
+    },
+    {
+      "file": "/root/custom_pytorch_framework_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.356402"
+    },
+    {
+      "file": "/root/unified_intelligence_organism_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.357951"
+    },
+    {
+      "file": "/root/teis_amplified.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.358681"
+    },
+    {
+      "file": "/root/recover_all_neurons.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.359612"
+    },
+    {
+      "file": "/root/neural_architecture_search.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.360072"
+    },
+    {
+      "file": "/root/safe_evolution_pipeline_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.360908"
+    },
+    {
+      "file": "/root/INTELIGENCIA_DEFINITIVA_REAL.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.362256"
+    },
+    {
+      "file": "/root/IA3_REAL_EVOLUTED_SYSTEM.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.364616"
+    },
+    {
+      "file": "/root/neural_farm_evolved_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.365307"
+    },
+    {
+      "file": "/root/unified_system_v2_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.366403"
+    },
+    {
+      "file": "/root/nivel2_ia3_evolution_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.367630"
+    },
+    {
+      "file": "/root/NEURAL_GENESIS_IA3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.368633"
+    },
+    {
+      "file": "/root/needle_ia3_ultimate_24_7.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.369305"
+    },
+    {
+      "file": "/root/universal_neuron_connector_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.383644"
+    },
+    {
+      "file": "/root/migrador_pesos.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.396035"
+    },
+    {
+      "file": "/root/IA3_REAL_SYSTEM_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.408048"
+    },
+    {
+      "file": "/root/ia3_auto_evolution_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.420538"
+    },
+    {
+      "file": "/root/final_evolved_incompletude_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.432640"
+    },
+    {
+      "file": "/root/collect_all_neurons_serious.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.444402"
+    },
+    {
+      "file": "/root/adaptive_intelligence_engine.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.445207"
+    },
+    {
+      "file": "/root/evolution_7ff3c21d_evolved.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.458547"
+    },
+    {
+      "file": "/root/ia3_emergent_objectives.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.462207"
+    },
+    {
+      "file": "/root/cubic_farm_24_7_ia3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.476517"
+    },
+    {
+      "file": "/root/ia3_controlled_self_modification_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.488687"
+    },
+    {
+      "file": "/root/ml_training_pipeline.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.500450"
+    },
+    {
+      "file": "/root/unified_emergence_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.513497"
+    },
+    {
+      "file": "/root/recover_all_neurons_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.525935"
+    },
+    {
+      "file": "/root/ia3_darwinian_selection_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.538776"
+    },
+    {
+      "file": "/root/ia3_controlled_self_modification.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.551646"
+    },
+    {
+      "file": "/root/ia3_unsupervised_learning_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.555493"
+    },
+    {
+      "file": "/root/penin_brutal_audit.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.556522"
+    },
+    {
+      "file": "/root/teIS_enhanced_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.557005"
+    },
+    {
+      "file": "/root/ia3_safety_mechanisms.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.557999"
+    },
+    {
+      "file": "/root/perfect_neural_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.558972"
+    },
+    {
+      "file": "/root/vision_real.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.559363"
+    },
+    {
+      "file": "/root/caos_kratos_unified_implementation_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.561647"
+    },
+    {
+      "file": "/root/robust_neuron_sanitizer.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.575544"
+    },
+    {
+      "file": "/root/live_monitor_dashboard_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.588514"
+    },
+    {
+      "file": "/root/unified_evolution_code_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.600692"
+    },
+    {
+      "file": "/root/ia3_teacher_system_final.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.613791"
+    },
+    {
+      "file": "/root/teis_autodidata_100.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.626193"
+    },
+    {
+      "file": "/root/real_intelligent_agent_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.638599"
+    },
+    {
+      "file": "/root/self_consciousness_module_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.651367"
+    },
+    {
+      "file": "/root/teis_v2_no_random_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.655511"
+    },
+    {
+      "file": "/root/teis_gradient_learning_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.656019"
+    },
+    {
+      "file": "/root/real_fusion_improvement.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.669304"
+    },
+    {
+      "file": "/root/autorecursive_evolution_engine.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.681529"
+    },
+    {
+      "file": "/root/neuron_farm_v1_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.693309"
+    },
+    {
+      "file": "/root/ia3_auto_evolution_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.706621"
+    },
+    {
+      "file": "/root/create_binary_brain_ocean.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.719392"
+    },
+    {
+      "file": "/root/unified_memory_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.731621"
+    },
+    {
+      "file": "/root/neuron_farm_optimized.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.744360"
+    },
+    {
+      "file": "/root/adaptive_architecture.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.748741"
+    },
+    {
+      "file": "/root/neat_implementation_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.749862"
+    },
+    {
+      "file": "/root/neural_farm_ia3_integration_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.763301"
+    },
+    {
+      "file": "/root/nivel3_integration.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.775766"
+    },
+    {
+      "file": "/root/ia3_darwin_teis_integrated_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.787230"
+    },
+    {
+      "file": "/root/ia3_24_7_teacher_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.800257"
+    },
+    {
+      "file": "/root/ia3_neural_ocean.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.812871"
+    },
+    {
+      "file": "/root/ultimate_neural_ocean_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.825235"
+    },
+    {
+      "file": "/root/penin_math_audit.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.837823"
+    },
+    {
+      "file": "/root/cursor_ai_integration_advanced_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.842713"
+    },
+    {
+      "file": "/root/ia3_teacher_system_v2.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.844001"
+    },
+    {
+      "file": "/root/ia3_system_final_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.845339"
+    },
+    {
+      "file": "/root/biological_metabolizer_integrated.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.845728"
+    },
+    {
+      "file": "/root/ia3_master_orchestrator.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.860184"
+    },
+    {
+      "file": "/root/test_ia3_final.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.873034"
+    },
+    {
+      "file": "/root/incompletude_final_optimized.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.884960"
+    },
+    {
+      "file": "/root/teis_dynamic_environment.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.898363"
+    },
+    {
+      "file": "/root/cerebro_distribuido_completo_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.910679"
+    },
+    {
+      "file": "/root/preserve_and_fix_neurons.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.923192"
+    },
+    {
+      "file": "/root/genuine_emergence_detector_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.936021"
+    },
+    {
+      "file": "/root/ia3_score_implementation.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.940821"
+    },
+    {
+      "file": "/root/agent_behavior_enhanced_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.941328"
+    },
+    {
+      "file": "/root/test_hard_stagnation.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.941944"
+    },
+    {
+      "file": "/root/activate_caos_kratos_real.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.956075"
+    },
+    {
+      "file": "/root/ia3_evolution_api_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.957034"
+    },
+    {
+      "file": "/root/real_dataset_loader.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.969220"
+    },
+    {
+      "file": "/root/teis_unified_intelligence_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.981319"
+    },
+    {
+      "file": "/root/NEEDLE_CUBIC_FARM_REAL.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:47.994619"
+    },
+    {
+      "file": "/root/cubic_farm_ia3_complete.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.006836"
+    },
+    {
+      "file": "/root/NEEDLE_FARM_SIMPLE_WORKING_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.018895"
+    },
+    {
+      "file": "/root/unified_system_enhanced_evolution.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.031449"
+    },
+    {
+      "file": "/root/SISTEMA_REAL_24_7.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.036628"
+    },
+    {
+      "file": "/root/UNIFIED_INTELLIGENCE_ORGANISM_EVOLVED_IA3_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.038939"
+    },
+    {
+      "file": "/root/ia3_auto_evolution.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.040327"
+    },
+    {
+      "file": "/root/symbol_grounding_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.041355"
+    },
+    {
+      "file": "/root/oppenheimer_core.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.042766"
+    },
+    {
+      "file": "/root/ia3_core_orchestrator_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.057029"
+    },
+    {
+      "file": "/root/quantum_fusion_amplifier.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.070236"
+    },
+    {
+      "file": "/root/ia3_implementation.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.082403"
+    },
+    {
+      "file": "/root/incompletude_infinita_universal_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.095919"
+    },
+    {
+      "file": "/root/binary_brain_darwin_fixed_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.108299"
+    },
+    {
+      "file": "/root/preservacao_conhecimento_sistemas_antigos_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.120241"
+    },
+    {
+      "file": "/root/emergence_coordinator.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.132815"
+    },
+    {
+      "file": "/root/analyze_survivors.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.138319"
+    },
+    {
+      "file": "/root/unified_evolution_code.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.139371"
+    },
+    {
+      "file": "/root/teis_symbolic_communication_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.140605"
+    },
+    {
+      "file": "/root/ia3_feedback_loops_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.141772"
+    },
+    {
+      "file": "/root/ia3_teis_controller_simple.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.154897"
+    },
+    {
+      "file": "/root/ia3_minimal_test.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.167298"
+    },
+    {
+      "file": "/root/deep_neuron_forensics_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.178915"
+    },
+    {
+      "file": "/root/cubic_farm_24_7_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.191965"
+    },
+    {
+      "file": "/root/ia3_darwinian_selection.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.204397"
+    },
+    {
+      "file": "/root/final_integration_test.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.216565"
+    },
+    {
+      "file": "/root/fusion_total_completa.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.229262"
+    },
+    {
+      "file": "/root/ia3_executor.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.234974"
+    },
+    {
+      "file": "/root/verify_fake_elimination.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.235645"
+    },
+    {
+      "file": "/root/ia3_unified_real.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.249721"
+    },
+    {
+      "file": "/root/unified_intelligence_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.262181"
+    },
+    {
+      "file": "/root/real_intelligence_system/inject_ia3_genome.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.263307"
+    },
+    {
+      "file": "/root/real_intelligence_system/optimized_integrated_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.264351"
+    },
+    {
+      "file": "/root/real_intelligence_system/fully_corrected_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.265519"
+    },
+    {
+      "file": "/root/real_intelligence_system/neural_processor_activator_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.266376"
+    },
+    {
+      "file": "/root/real_intelligence_system/real_metrics_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.267383"
+    },
+    {
+      "file": "/root/real_intelligence_system/simple_integrated_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.268471"
+    },
+    {
+      "file": "/root/real_intelligence_system/fully_corrected_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.269467"
+    },
+    {
+      "file": "/root/real_intelligence_system/real_metrics_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.270630"
+    },
+    {
+      "file": "/root/real_intelligence_system/final_integrated_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.271816"
+    },
+    {
+      "file": "/root/real_intelligence_system/fixed_neural_processor_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.272566"
+    },
+    {
+      "file": "/root/real_intelligence_system/unified_real_intelligence.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.274111"
+    },
+    {
+      "file": "/root/real_intelligence_system/teis_v2_enhanced_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.276351"
+    },
+    {
+      "file": "/root/real_intelligence_system/neural_farm.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.277287"
+    },
+    {
+      "file": "/root/real_intelligence_system/real_environment_gym_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.277946"
+    },
+    {
+      "file": "/root/real_intelligence_system/teis_v2_enhanced.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.279960"
+    },
+    {
+      "file": "/root/real_intelligence_system/unified_real_intelligence_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.280971"
+    },
+    {
+      "file": "/root/real_intelligence_system/simple_integrated_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.281908"
+    },
+    {
+      "file": "/root/real_intelligence_system/teis_v2_enhanced_original_backup.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.283915"
+    },
+    {
+      "file": "/root/real_intelligence_system/neural_farm_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.284990"
+    },
+    {
+      "file": "/root/real_intelligence_system/inject_ia3_genome_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.286231"
+    },
+    {
+      "file": "/root/real_intelligence_system/optimized_integrated_system_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.287403"
+    },
+    {
+      "file": "/root/real_intelligence_system/neural_processor_activator.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.288122"
+    },
+    {
+      "file": "/root/real_intelligence_system/fixed_neural_processor.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.288712"
+    },
+    {
+      "file": "/root/real_intelligence_system/final_integrated_system.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.289743"
+    },
+    {
+      "file": "/root/real_intelligence_system/real_environment_gym.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.290245"
+    },
+    {
+      "file": "/root/darwin_v3/darwin/core/runner_v3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.291374"
+    },
+    {
+      "file": "/root/darwin_v3/darwin/core/brain_v3.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.292663"
+    },
+    {
+      "file": "/root/darwin_v3/darwin/data/datasets.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.293501"
+    },
+    {
+      "file": "/root/ai_dialogue_memory/transformer\u7b80\u6613\u5bf9\u8bdd\u6a21\u578b/my_dataset.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.293856"
+    },
+    {
+      "file": "/root/ai_dialogue_memory/transformer\u7b80\u6613\u5bf9\u8bdd\u6a21\u578b/model_components/\u6d4b\u8bd5.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.294168"
+    },
+    {
+      "file": "/root/ai_dialogue_memory/transformer\u7b80\u6613\u5bf9\u8bdd\u6a21\u578b/model_components/memory_LSTM.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.294505"
+    },
+    {
+      "file": "/root/ai_dialogue_memory/transformer\u7b80\u6613\u5bf9\u8bdd\u6a21\u578b/model_components/encoder_transformer.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.294818"
+    },
+    {
+      "file": "/root/ai_dialogue_memory/transformer\u7b80\u6613\u5bf9\u8bdd\u6a21\u578b/model_components/decoder_transformer.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.295159"
+    },
+    {
+      "file": "/root/ai_dialogue_memory/transformer\u7b80\u6613\u5bf9\u8bdd\u6a21\u578b/models/TLT.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.295860"
+    },
+    {
+      "file": "/root/ai_dialogue_memory/transformer\u7b80\u6613\u5bf9\u8bdd\u6a21\u578b/models/TT.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.296394"
+    },
+    {
+      "file": "/root/autokeras/autokeras/nodes.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.297058"
+    },
+    {
+      "file": "/root/autokeras/autokeras/auto_model_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.298198"
+    },
+    {
+      "file": "/root/autokeras/autokeras/pipeline.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.298682"
+    },
+    {
+      "file": "/root/autokeras/autokeras/auto_model.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.299657"
+    },
+    {
+      "file": "/root/autokeras/autokeras/blocks/heads.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.300219"
+    },
+    {
+      "file": "/root/autokeras/autokeras/adapters/output_adapters_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.300590"
+    },
+    {
+      "file": "/root/autokeras/autokeras/adapters/input_adapters.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.300824"
+    },
+    {
+      "file": "/root/autokeras/autokeras/adapters/input_adapters_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.301212"
+    },
+    {
+      "file": "/root/autokeras/autokeras/adapters/output_adapters.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.301421"
+    },
+    {
+      "file": "/root/autokeras/autokeras/preprocessors/common.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.301645"
+    },
+    {
+      "file": "/root/autokeras/autokeras/preprocessors/encoders_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.302304"
+    },
+    {
+      "file": "/root/autokeras/autokeras/preprocessors/encoders.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.302845"
+    },
+    {
+      "file": "/root/autokeras/autokeras/analysers/input_analysers.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.303208"
+    },
+    {
+      "file": "/root/autokeras/autokeras/engine/adapter_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.303762"
+    },
+    {
+      "file": "/root/autokeras/autokeras/engine/adapter.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.304019"
+    },
+    {
+      "file": "/root/autokeras/autokeras/engine/tuner_test.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.304864"
+    },
+    {
+      "file": "/root/autokeras/autokeras/engine/tuner_test_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.306023"
+    },
+    {
+      "file": "/root/autokeras/autokeras/tasks/image.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.306676"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/backend/muzero_engine_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.307387"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/backend/muzero_engine.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.307940"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/backend/agents/finance_agent.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.308981"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/backend/agents/drug_design_agent_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.310196"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/backend/agents/drug_design_agent.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.311249"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/backend/agents/climate_risk_agent_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.312270"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/backend/agents/retail_demand_agent.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.313117"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/backend/agents/retail_demand_agent_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.314101"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/backend/agents/energy_agent.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.314893"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/backend/agents/finance_agent_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.316074"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/backend/agents/climate_risk_agent.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.316929"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/backend/agents/energy_agent_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.317888"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.319426"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/demos/alpha_asi_world_model/alpha_asi_world_model_demo.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.320785"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/demos/alpha_agi_insight_v1/src/interface/cli.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.322125"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/demos/alpha_agi_insight_v1/src/interface/cli_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.323609"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/demos/aiga_meta_evolution/meta_evolver.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.324550"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/demos/aiga_meta_evolution/meta_evolver_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.325629"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/demos/muzero_planning/minimuzero_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.326283"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/demos/muzero_planning/minimuzero.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.326768"
+    },
+    {
+      "file": "/root/agi-alpha-real/alpha_factory_v1/tests/test_aiga_meta_evolution.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.327035"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00049_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.329810"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00273.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.330153"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00268_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.330616"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00278.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.330926"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00153_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.331382"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00003_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.331852"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00007_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.332315"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00208.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.332643"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00284_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.333105"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00041.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.333588"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00046_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.334381"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00110.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.334919"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00182_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.335726"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00076_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.336515"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00281.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.337053"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00017.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.337418"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00119_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.337884"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00165_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.338341"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00099_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.338807"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00209_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.339258"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00068_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.339721"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00081.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.340030"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00225_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.340485"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00140_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.340935"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00197.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.341241"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00159_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.341697"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00148.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.342018"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00173_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.342472"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00144.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.342787"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00261.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.343090"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00129.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.343400"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00228.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.343708"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00274.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.344006"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00045.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.344306"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00095_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.344756"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00265.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.345062"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00118_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.345516"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00213.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.345821"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00267.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.346122"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00289_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.346581"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00280_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.347030"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00106.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.347336"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00265_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.347793"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00286_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.348244"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00164.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.348553"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00177_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.349014"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00133_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.349465"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00084_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.349918"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00080.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.350226"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00009.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.350525"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00151.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.350824"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00014_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.351275"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00161_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.351734"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00295_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.352190"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00141_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.352639"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00024.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.352950"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00260.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.353253"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00196.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.353553"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00208_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.354005"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00300.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.354310"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00163_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.354765"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00015.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.355071"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00097.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.355372"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00052.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.355686"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00017_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.356138"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00261_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.356591"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00297.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.356901"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00248.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.357201"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00204.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.357500"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00038_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.357953"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00292_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.358413"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00296.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.358719"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00288.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.359035"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00030.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.359339"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00063_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.359802"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00020.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.360106"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00168.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.360409"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00162_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.360863"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00270_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.361313"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00178_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.361762"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00215.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.362067"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00098_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.362513"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00106_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.362961"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00230.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.363265"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00104_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.363732"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00116.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.364038"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00021_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.364492"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00102.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.364800"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00080_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.365251"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00053_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.365701"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00256.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.366011"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00258_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.366464"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00241.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.366776"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00117.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.367081"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00078_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.367542"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00259.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.367853"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00284.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.368159"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00036_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.368620"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00249_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.369076"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00021.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.369432"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00236_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.369885"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00035.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.370192"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00236.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.370494"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00039_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.370944"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00108_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.371402"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00059_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.371863"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00263.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.372170"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00098.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.372475"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00164_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.372958"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00135.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.373284"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00299.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.373591"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00285.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.373894"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00016.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.374197"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00202.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.374503"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00074_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.374958"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00077.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.375265"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00241_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.375763"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00202_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.376219"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00112_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.376666"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00160.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.376973"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00117_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.377421"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00143_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.377932"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00122_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.378387"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00148_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.378843"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00203_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.379297"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00183_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.379759"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00100.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.380077"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00051_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.380529"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00139.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.380833"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00019_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.381284"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00262_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.381735"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00300_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.382186"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00116_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.382637"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00157_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.383087"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00274_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.383547"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00219.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.383856"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00040.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.384158"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00094.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.384458"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00089.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.384759"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00229_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.385212"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00188.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.385529"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00169.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.385834"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00060_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.386292"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00124_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.386745"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00189_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.387205"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00090.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.387526"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00259_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.387983"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00190_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.388433"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00143.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.388739"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00244_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.389190"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00194_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.389650"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00177.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.389957"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00277_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.390464"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00214_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.390929"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00198_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.391384"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00280.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.391701"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00034_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.392162"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00291.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.392468"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00113.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.392771"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00272.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.393072"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00078.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.393370"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00245.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.393668"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00129_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.394122"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00221_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.394576"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00071_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.395027"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00287_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.395478"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00158_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.395929"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00005_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.396377"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00033_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.396828"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00269_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.397275"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00289.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.397579"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00225.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.397883"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00082.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.398186"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00258.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.398484"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00209.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.398780"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00206_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.399229"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00286.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.399541"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00039.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.399842"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00281_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.400292"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00200_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.400744"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00074.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.401063"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00057.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.401366"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00127_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.401819"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00255_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.402267"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00007.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.402628"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00072_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.403088"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00001.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.403393"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00187_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.403855"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00271_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.404312"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00250_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.404762"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00195.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.405077"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00179_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.405533"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00101_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.405984"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00103.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.406291"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00026.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.406591"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00230_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.407043"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00089_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.407502"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00260_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.407955"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00071.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.408267"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00147_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.408748"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00204_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.409197"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00086.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.409508"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00038.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.409808"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00023_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.410258"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00128.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.410570"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00056.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.410871"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00072.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.411168"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00166_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.411635"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00154.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.411941"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00029.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.412239"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00216_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.412686"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00275.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.412992"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00053.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.413297"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00112.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.413595"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00086_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.414043"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00045_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.414491"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00018_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.414944"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00182.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.415249"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00277.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.415558"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00025.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.415865"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00172.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.416164"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00131_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.416617"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00103_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.417071"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00252.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.417378"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00013_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.417825"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00012_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.418277"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00276_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.418726"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00061_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.419172"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00137_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.419633"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00264.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.419938"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00165.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.420238"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00130.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.420540"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00194.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.420844"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00049.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.421154"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00282.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.421462"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00185_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.421916"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00217.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.422218"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00079_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.422670"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00176_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.423119"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00154_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.423576"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00246_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.424030"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00228_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.424483"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00294.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.424794"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00125.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.425100"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00032.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.425401"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00196_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.425858"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00025_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.426310"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00120_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.426768"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00073_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.427225"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00019.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.427558"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00247.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.427865"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00242_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.428332"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00253_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.428786"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00178.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.429094"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00101.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.429394"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00028.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.429693"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00059.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.429991"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00092.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.430289"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00251.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.430586"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00212.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.430880"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00060.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.431174"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00191.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.431502"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00155.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.431807"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00097_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.432262"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00235.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.432567"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00227_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.433016"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00221.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.433321"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00010_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.433776"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00027_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.434229"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00195_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.434680"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00070_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.435132"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00127.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.435438"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00162.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.435749"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00224_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.436208"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00006.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.436517"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00298.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.436818"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00066_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.437283"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00276.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.437587"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00292.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.437886"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00160_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.438340"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00149_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.438794"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00121_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.439246"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00077_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.439716"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00120.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.440027"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00212_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.440481"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00069_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.440934"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00134.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.441240"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00231_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.441691"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00206.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.442011"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00023.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.442314"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00136_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.442767"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00118.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.443073"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00188_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.443537"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00294_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.443995"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00211.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.444302"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00181.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.444609"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00167.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.444912"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00083.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.445213"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00226_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.445666"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00210_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.446154"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00268.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.446461"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00245_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.446916"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00180.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.447222"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00135_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.447797"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00137.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.448120"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00132.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.448423"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00111.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.448727"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00126_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.449184"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00145.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.449493"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00251_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.449947"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00069.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.450252"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00192.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.450557"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00015_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.451009"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00295.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.451317"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00090_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.451790"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00036.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.452102"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00184.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.452406"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00257.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.452707"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00254_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.453160"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00229.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.453467"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00186.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.453778"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00093.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.454076"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00153.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.454377"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00213_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.454830"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00219_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.455287"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00056_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.455771"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00050.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.456083"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00271.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.456389"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00018.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.456689"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00131.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.456990"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00122.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.457290"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00022.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.457590"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00052_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.458049"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00279.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.458363"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00108.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.458664"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00238_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.459117"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00179.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.459423"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00264_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.459889"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00065_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.460351"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00058_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.460804"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00033.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.461111"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00285_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.461563"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00167_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.462014"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00234.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.462322"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00263_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.463679"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00283.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.464019"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00008_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.464478"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00057_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.464936"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00266.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.465245"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00034.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.465549"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00172_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.466000"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00133.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.466307"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00062.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.466623"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00011_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.467132"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00044.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.467446"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00013.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.467769"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00031_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.468227"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00255.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.468533"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00256_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.468984"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00047_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.469438"
+    },
+    {
+      "file": "/root/neurons_organized/generation_47_original/neuron_00218_deterministic.py",
+      "status": "infected",
+      "timestamp": "2025-10-03T12:48:48.469891"
+    }
+  ]
+}

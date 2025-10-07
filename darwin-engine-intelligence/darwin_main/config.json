@@ -1,0 +1,25 @@
+{
+  "birth_every_round": true,
+  "ia3_threshold": 0.60,
+  "delta_loss_min": 0.001,
+  "max_neurons": 4096,
+  "budget_sec_per_round": 30,
+  "seed": 42,
+  "deaths_for_bonus_birth": 5,
+  "consciousness_threshold": 0.3,
+  "evolution_requirements": {
+    "min_adaptation": 0.001,
+    "min_evolution": 0.001,
+    "min_consciousness": 0.2
+  },
+  "net2net": {
+    "wider_probability": 0.7,
+    "deeper_every_k_rounds": 5,
+    "preserve_function": true
+  },
+  "darts": {
+    "alpha_lr": 0.0005,
+    "mixed_activation": true,
+    "activation_diversity_bonus": 0.1
+  }
+}
