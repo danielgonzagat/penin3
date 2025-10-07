@@ -1,0 +1,51 @@
+{
+  "core_modules": {
+    "teis_enhanced": "\u2705 OK",
+    "episodic_memory": "\u2705 OK",
+    "swarm_intelligence": "\u2705 OK",
+    "symbol_grounding": "\u2705 OK",
+    "quantum_processing": "\u2705 OK"
+  },
+  "optional_modules": {},
+  "system_initialization": {
+    "create_system": "\u2705 OK",
+    "agent_agent_0": "\u2705 OK",
+    "agent_agent_1": "\u2705 OK",
+    "agent_agent_2": "\u2705 OK",
+    "agent_agent_3": "\u2705 OK",
+    "agent_agent_4": "\u2705 OK"
+  },
+  "agent_behaviors": {
+    "explore": "\u2705 OK",
+    "seek_resource": "\u2705 OK",
+    "communicate": "\u2705 OK",
+    "learn": "\u26a0\ufe0f Falhou: insufficient_data",
+    "rest": "\u2705 OK"
+  },
+  "emergence_detection": {
+    "types_found": [
+      "subgroup_formation",
+      "self_organization",
+      "behavioral_synchronization",
+      "novel_sequence"
+    ],
+    "detector": "\u2705 Funcionando"
+  },
+  "task_system": {
+    "generation": "\u2705 OK",
+    "active_tasks": 1
+  },
+  "communication": {
+    "symbol_creation": "\u2705 OK",
+    "message_passing": "\u2705 OK"
+  },
+  "learning": {
+    "q_table_growth": "\u2705 OK",
+    "exploration_decay": "\u2705 OK",
+    "q_learning": "\u2705 Funcionando"
+  },
+  "persistence": {
+    "save": "\u2705 OK (20612 bytes)",
+    "structure": "\u2705 OK"
+  }
+}

@@ -1,0 +1,558 @@
+{
+  "timestamp": "2025-10-07T02:13:14.834929",
+  "intelligence_score": 1.0,
+  "emergence_detected": true,
+  "code_history": [
+    {
+      "code": "print(f'Ciclo: {self.code_history.__len__()}')",
+      "timestamp": "2025-10-07T02:12:24.541004",
+      "success": true
+    },
+    {
+      "code": "print(f'Ciclo: {self.code_history.__len__()}')",
+      "timestamp": "2025-10-07T02:12:24.541318",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:12:25.542219",
+      "success": true
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:12:25.542467",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:12:26.543760",
+      "success": true
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:12:26.544008",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.intelligence_score += 0.01",
+      "timestamp": "2025-10-07T02:12:27.545303",
+      "success": true
+    },
+    {
+      "code": "self.intelligence_score += 0.01",
+      "timestamp": "2025-10-07T02:12:27.545645",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:12:28.546023",
+      "success": true
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:12:28.546332",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "print(f'Ciclo: {self.code_history.__len__()}')",
+      "timestamp": "2025-10-07T02:12:29.547137",
+      "success": true
+    },
+    {
+      "code": "print(f'Ciclo: {self.code_history.__len__()}')",
+      "timestamp": "2025-10-07T02:12:29.547426",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "print(f'Intelig\u00eancia: {self.intelligence_score}')",
+      "timestamp": "2025-10-07T02:12:30.548772",
+      "success": true
+    },
+    {
+      "code": "print(f'Intelig\u00eancia: {self.intelligence_score}')",
+      "timestamp": "2025-10-07T02:12:30.549061",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:12:31.550010",
+      "success": true
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:12:31.550290",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "if len(self.code_history) > 100: self.intelligence_score += 0.1",
+      "timestamp": "2025-10-07T02:12:32.551599",
+      "success": true
+    },
+    {
+      "code": "if len(self.code_history) > 100: self.intelligence_score += 0.1",
+      "timestamp": "2025-10-07T02:12:32.551879",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T02:12:33.553176",
+      "success": true
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T02:12:33.553473",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "print(f'Intelig\u00eancia: {self.intelligence_score}')",
+      "timestamp": "2025-10-07T02:12:34.554094",
+      "success": true
+    },
+    {
+      "code": "print(f'Intelig\u00eancia: {self.intelligence_score}')",
+      "timestamp": "2025-10-07T02:12:34.554362",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.intelligence_score += 0.01",
+      "timestamp": "2025-10-07T02:12:35.555559",
+      "success": true
+    },
+    {
+      "code": "self.intelligence_score += 0.01",
+      "timestamp": "2025-10-07T02:12:35.555882",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:12:36.557326",
+      "success": true
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:12:36.557567",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "import random; self.intelligence_score += random.uniform(0, 0.05)",
+      "timestamp": "2025-10-07T02:12:37.558103",
+      "success": true
+    },
+    {
+      "code": "import random; self.intelligence_score += random.uniform(0, 0.05)",
+      "timestamp": "2025-10-07T02:12:37.558388",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "print(f'Taxa de sucesso: {success_rate:.2f}')",
+      "timestamp": "2025-10-07T02:12:38.565779",
+      "success": true
+    },
+    {
+      "code": "print(f'Taxa de sucesso: {success_rate:.2f}')",
+      "timestamp": "2025-10-07T02:12:38.566019",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.intelligence_score += 0.01",
+      "timestamp": "2025-10-07T02:12:39.567303",
+      "success": true
+    },
+    {
+      "code": "self.intelligence_score += 0.01",
+      "timestamp": "2025-10-07T02:12:39.567623",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T02:12:40.573165",
+      "success": true
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T02:12:40.573521",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:12:41.586284",
+      "success": true
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:12:41.586548",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "import random; self.intelligence_score += random.uniform(0, 0.05)",
+      "timestamp": "2025-10-07T02:12:42.590295",
+      "success": true
+    },
+    {
+      "code": "import random; self.intelligence_score += random.uniform(0, 0.05)",
+      "timestamp": "2025-10-07T02:12:42.590494",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T02:12:43.591678",
+      "success": true
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T02:12:43.591859",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "success_rate = sum(1 for c in self.code_history if c.get('success')) / max(1, len(self.code_history))",
+      "timestamp": "2025-10-07T02:12:44.593526",
+      "success": true
+    },
+    {
+      "code": "success_rate = sum(1 for c in self.code_history if c.get('success')) / max(1, len(self.code_history))",
+      "timestamp": "2025-10-07T02:12:44.593741",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "import random; self.intelligence_score += random.uniform(0, 0.05)",
+      "timestamp": "2025-10-07T02:12:45.594546",
+      "success": true
+    },
+    {
+      "code": "import random; self.intelligence_score += random.uniform(0, 0.05)",
+      "timestamp": "2025-10-07T02:12:45.594739",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:12:46.595950",
+      "success": true
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:12:46.596143",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "import random; self.intelligence_score += random.uniform(0, 0.05)",
+      "timestamp": "2025-10-07T02:12:47.597473",
+      "success": true
+    },
+    {
+      "code": "import random; self.intelligence_score += random.uniform(0, 0.05)",
+      "timestamp": "2025-10-07T02:12:47.597624",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:12:48.612663",
+      "success": true
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:12:48.612998",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:12:49.614197",
+      "success": true
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:12:49.614406",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "import random; self.intelligence_score += random.uniform(0, 0.05)",
+      "timestamp": "2025-10-07T02:12:50.735913",
+      "success": true
+    },
+    {
+      "code": "import random; self.intelligence_score += random.uniform(0, 0.05)",
+      "timestamp": "2025-10-07T02:12:50.915058",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "if self.intelligence_score > 0.5: self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:12:51.958506",
+      "success": true
+    },
+    {
+      "code": "if self.intelligence_score > 0.5: self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:12:51.958643",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "if len(self.code_history) > 100: self.intelligence_score += 0.1",
+      "timestamp": "2025-10-07T02:12:52.959858",
+      "success": true
+    },
+    {
+      "code": "if len(self.code_history) > 100: self.intelligence_score += 0.1",
+      "timestamp": "2025-10-07T02:12:52.960227",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "print(f'Intelig\u00eancia: {self.intelligence_score}')",
+      "timestamp": "2025-10-07T02:12:53.962147",
+      "success": true
+    },
+    {
+      "code": "print(f'Intelig\u00eancia: {self.intelligence_score}')",
+      "timestamp": "2025-10-07T02:12:53.962767",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "print(f'Ciclo: {self.code_history.__len__()}')",
+      "timestamp": "2025-10-07T02:12:54.974871",
+      "success": true
+    },
+    {
+      "code": "print(f'Ciclo: {self.code_history.__len__()}')",
+      "timestamp": "2025-10-07T02:12:54.975009",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.intelligence_score += 0.01",
+      "timestamp": "2025-10-07T02:12:55.994648",
+      "success": true
+    },
+    {
+      "code": "self.intelligence_score += 0.01",
+      "timestamp": "2025-10-07T02:12:56.017431",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T02:12:57.018013",
+      "success": true
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T02:12:57.018258",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "if len(self.code_history) > 100: self.intelligence_score += 0.1",
+      "timestamp": "2025-10-07T02:12:58.025867",
+      "success": true
+    },
+    {
+      "code": "if len(self.code_history) > 100: self.intelligence_score += 0.1",
+      "timestamp": "2025-10-07T02:12:58.026118",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:12:59.027452",
+      "success": true
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:12:59.027651",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:13:00.029321",
+      "success": true
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:13:00.029487",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "print(f'Ciclo: {self.code_history.__len__()}')",
+      "timestamp": "2025-10-07T02:13:01.031681",
+      "success": true
+    },
+    {
+      "code": "print(f'Ciclo: {self.code_history.__len__()}')",
+      "timestamp": "2025-10-07T02:13:01.071295",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T02:13:02.072704",
+      "success": true
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T02:13:02.072843",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:13:03.074026",
+      "success": true
+    },
+    {
+      "code": "self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:13:03.074199",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "print(f'Taxa de sucesso: {success_rate:.2f}')",
+      "timestamp": "2025-10-07T02:13:04.094953",
+      "success": true
+    },
+    {
+      "code": "print(f'Taxa de sucesso: {success_rate:.2f}')",
+      "timestamp": "2025-10-07T02:13:04.095089",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "success_rate = sum(1 for c in self.code_history if c.get('success')) / max(1, len(self.code_history))",
+      "timestamp": "2025-10-07T02:13:05.096996",
+      "success": true
+    },
+    {
+      "code": "success_rate = sum(1 for c in self.code_history if c.get('success')) / max(1, len(self.code_history))",
+      "timestamp": "2025-10-07T02:13:05.097212",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "success_rate = sum(1 for c in self.code_history if c.get('success')) / max(1, len(self.code_history))",
+      "timestamp": "2025-10-07T02:13:06.164346",
+      "success": true
+    },
+    {
+      "code": "success_rate = sum(1 for c in self.code_history if c.get('success')) / max(1, len(self.code_history))",
+      "timestamp": "2025-10-07T02:13:06.187713",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "print(f'Taxa de sucesso: {success_rate:.2f}')",
+      "timestamp": "2025-10-07T02:13:07.189246",
+      "success": true
+    },
+    {
+      "code": "print(f'Taxa de sucesso: {success_rate:.2f}')",
+      "timestamp": "2025-10-07T02:13:07.189437",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "print(f'Ciclo: {self.code_history.__len__()}')",
+      "timestamp": "2025-10-07T02:13:08.190062",
+      "success": true
+    },
+    {
+      "code": "print(f'Ciclo: {self.code_history.__len__()}')",
+      "timestamp": "2025-10-07T02:13:08.190261",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T02:13:09.191029",
+      "success": true
+    },
+    {
+      "code": "self.emergence_detected = self.intelligence_score > 0.8",
+      "timestamp": "2025-10-07T02:13:09.191251",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:13:10.191781",
+      "success": true
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:13:10.191950",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "if self.intelligence_score > 0.5: self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:13:11.193328",
+      "success": true
+    },
+    {
+      "code": "if self.intelligence_score > 0.5: self.emergence_detected = True",
+      "timestamp": "2025-10-07T02:13:11.204530",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:13:12.207846",
+      "success": true
+    },
+    {
+      "code": "logger.info('Auto-modifica\u00e7\u00e3o executada')",
+      "timestamp": "2025-10-07T02:13:12.208010",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "if len(self.code_history) > 100: self.intelligence_score += 0.1",
+      "timestamp": "2025-10-07T02:13:13.209031",
+      "success": true
+    },
+    {
+      "code": "if len(self.code_history) > 100: self.intelligence_score += 0.1",
+      "timestamp": "2025-10-07T02:13:13.209161",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    },
+    {
+      "code": "if len(self.code_history) > 100: self.intelligence_score += 0.1",
+      "timestamp": "2025-10-07T02:13:14.211139",
+      "success": true
+    },
+    {
+      "code": "if len(self.code_history) > 100: self.intelligence_score += 0.1",
+      "timestamp": "2025-10-07T02:13:14.211363",
+      "success": false,
+      "error": "Extra data: line 14 column 2 (char 365)"
+    }
+  ],
+  "total_cycles": 1563
+}

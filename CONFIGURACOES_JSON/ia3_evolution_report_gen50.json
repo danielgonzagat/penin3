@@ -1,0 +1,88 @@
+{
+  "current_generation": 50,
+  "current_population": 3187,
+  "history": [
+    {
+      "generation": 41,
+      "population": 24353,
+      "avg_fitness": 0.5,
+      "deaths": 0,
+      "births": 500,
+      "timestamp": 1758845061.9710538
+    },
+    {
+      "generation": 42,
+      "population": 24699,
+      "avg_fitness": 0.5000008172613539,
+      "deaths": 154,
+      "births": 500,
+      "timestamp": 1758845342.3790822
+    },
+    {
+      "generation": 43,
+      "population": 24677,
+      "avg_fitness": 0.4847893382311881,
+      "deaths": 522,
+      "births": 500,
+      "timestamp": 1758845756.672991
+    },
+    {
+      "generation": 44,
+      "population": 24703,
+      "avg_fitness": 0.4851963520726359,
+      "deaths": 474,
+      "births": 500,
+      "timestamp": 1758846065.0158868
+    },
+    {
+      "generation": 45,
+      "population": 24716,
+      "avg_fitness": 0.48462736112325483,
+      "deaths": 487,
+      "births": 500,
+      "timestamp": 1758846483.6028867
+    },
+    {
+      "generation": 46,
+      "population": 13397,
+      "avg_fitness": 0.49995908584023085,
+      "deaths": 11819,
+      "births": 500,
+      "timestamp": 1758846810.0971026
+    },
+    {
+      "generation": 47,
+      "population": 7557,
+      "avg_fitness": 0.5001555085471382,
+      "deaths": 6340,
+      "births": 500,
+      "timestamp": 1758847047.5967631
+    },
+    {
+      "generation": 48,
+      "population": 4536,
+      "avg_fitness": 0.5007203764088557,
+      "deaths": 3521,
+      "births": 500,
+      "timestamp": 1758847051.2325022
+    },
+    {
+      "generation": 49,
+      "population": 3454,
+      "avg_fitness": 0.6578770302742473,
+      "deaths": 1582,
+      "births": 500,
+      "timestamp": 1758847071.4133468
+    },
+    {
+      "generation": 50,
+      "population": 3187,
+      "avg_fitness": 0.7776827812379093,
+      "deaths": 767,
+      "births": 500,
+      "timestamp": 1758847074.6024456
+    }
+  ],
+  "runtime": 2097.5905804634094,
+  "task": "Memory"
+}

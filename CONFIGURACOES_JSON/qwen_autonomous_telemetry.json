@@ -1,0 +1,10 @@
+{
+  "metrics_history": [],
+  "alerts": [],
+  "thresholds": {
+    "cpu_critical": 90.0,
+    "memory_critical": 85.0,
+    "disk_critical": 95.0,
+    "process_limit": 1000
+  }
+}

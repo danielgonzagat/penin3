@@ -1,0 +1,19 @@
+{
+  "model_base": "qwen2.5-coder-7b",
+  "examples": [
+    {
+      "input": "Escreva recurs\u00e3o para fatorial",
+      "output": "def factorial(n):\n    if n == 0: return 1\n    return n * factorial(n-1)"
+    },
+    {
+      "input": "Soma 1 a N sem loop",
+      "output": "def sum_formula(n):\n    return n * (n + 1) // 2  # F\u00f3rmula de Gauss"
+    },
+    {
+      "input": "Detectar padr\u00e3o em [2,4,6,8]",
+      "output": "Padr\u00e3o: n\u00fameros pares, incremento de 2. Pr\u00f3ximo: 10"
+    }
+  ],
+  "status": "configured",
+  "note": "Fine-tuning completo requer GPU e dataset maior"
+}

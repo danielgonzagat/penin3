@@ -1,0 +1,43 @@
+[
+  {
+    "timestamp": "2025-09-24T03:45:59.894887",
+    "optimizations_applied": 5,
+    "optimizations": [
+      {
+        "type": "diversity",
+        "target": "behavior_types",
+        "description": "Aumentar diversidade de tipos comportamentais",
+        "action": "add_new_behavior_types",
+        "evidence": "Diversidade atual: 1 tipos"
+      },
+      {
+        "type": "evolution",
+        "target": "adaptive_mechanisms",
+        "description": "Aproveitar alto potencial evolutivo identificado",
+        "action": "enhance_evolution_mechanisms",
+        "evidence": "Potencial: 0.774"
+      },
+      {
+        "type": "fairness",
+        "target": "participation",
+        "description": "Reduzir desigualdade de participa\u00e7\u00e3o (Gini alto)",
+        "action": "rebalance_participation_weights",
+        "evidence": "gini=0.569"
+      },
+      {
+        "type": "innovation",
+        "target": "exploration",
+        "description": "Aumentar explora\u00e7\u00e3o e incentivo \u00e0 novidade",
+        "action": "increase_novelty_pressure",
+        "evidence": "innovation_rate=0.160"
+      },
+      {
+        "type": "policy",
+        "target": "communication",
+        "description": "Comunica\u00e7\u00e3o pouco efetiva; reequilibrar e treinar pol\u00edtica discreta",
+        "action": "train_simple_policy_and_adjust_comm",
+        "evidence": "delta=-0.334"
+      }
+    ]
+  }
+]

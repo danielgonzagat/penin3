@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-09-22T14:13:45Z",
+  "note": "Short coevolution loop via Perpetual Evolution Manager (20s TEIS window, analyze+optimize, 1 PUES gen)",
+  "baseline": {
+    "emergent_metrics": {
+      "network_nodes": 23,
+      "network_edges": 94,
+      "avg_degree": 8.174,
+      "network_density": 0.372,
+      "network_clustering": 0.812,
+      "gini_participation": 0.569,
+      "innovation_rate": 0.16,
+      "recurrence_ratio": 0.84,
+      "symbol_vocab_size": 0,
+      "communication_success_delta": -0.334,
+      "empowerment_proxy": 0.051
+    },
+    "emergent_insights": {
+      "total_insights": 3
+    },
+    "teis_emergent_fitness": {
+      "emergent_utility_avg": 0.3338491240202706,
+      "novelty_avg": 0.6518931535269074,
+      "stability_avg": 0.848176002766296
+    }
+  },
+  "after_loop": {
+    "emergent_metrics": {
+      "network_nodes": 23,
+      "network_edges": 94,
+      "avg_degree": 8.174,
+      "network_density": 0.372,
+      "network_clustering": 0.812,
+      "gini_participation": 0.569,
+      "innovation_rate": 0.16,
+      "recurrence_ratio": 0.84,
+      "symbol_vocab_size": 0,
+      "communication_success_delta": -0.334,
+      "empowerment_proxy": 0.051
+    },
+    "emergent_insights": {
+      "total_insights": 3
+    },
+    "teis_emergent_fitness": {
+      "emergent_utility_avg": 0.3338491240202706,
+      "novelty_avg": 0.6518931535269074,
+      "stability_avg": 0.848176002766296
+    },
+    "pem_status": {
+      "state": "completed",
+      "loops": 2
+    }
+  },
+  "delta": {
+    "emergent_metrics": {
+      "network_nodes": 0,
+      "network_edges": 0,
+      "avg_degree": 0,
+      "network_density": 0,
+      "network_clustering": 0,
+      "gini_participation": 0,
+      "innovation_rate": 0,
+      "recurrence_ratio": 0,
+      "symbol_vocab_size": 0,
+      "communication_success_delta": 0,
+      "empowerment_proxy": 0
+    },
+    "emergent_insights": 0,
+    "teis_emergent_fitness": {
+      "emergent_utility_avg": 0,
+      "novelty_avg": 0,
+      "stability_avg": 0
+    }
+  },
+  "interpretation": "Em janela muito curta, deltas ≈ 0 (esperado). O loop executou, mas as métricas acumuladas são lentas e suavizadas; precisamos de N loops ou janelas maiores para observar causação estatisticamente detectável."
+}

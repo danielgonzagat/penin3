@@ -1,0 +1,53 @@
+{
+  "results": {
+    "intelligence_score": [
+      {
+        "timestamp": "2025-10-07T13:10:15.567119",
+        "sources": {
+          "system_metrics": 0.7844,
+          "learning_data": 0.6
+        },
+        "consensus_score": 0.6921999999999999,
+        "confidence": 0.9077999999999999,
+        "disagreements": []
+      }
+    ],
+    "learning_progress": [
+      {
+        "timestamp": "2025-10-07T13:10:15.567938",
+        "sources": {
+          "/root/learning_data.json": 1.0,
+          "/root/learned_model.json": 1.0,
+          "/root/real_learning_system.py": 1.0,
+          "rl_system": 0.0
+        },
+        "consensus_score": 0.75,
+        "confidence": 0.5669872981077807
+      }
+    ],
+    "emergence_signals": [
+      {
+        "timestamp": "2025-10-07T13:10:25.577899",
+        "sources": {
+          "behavior_emergence": 0.0,
+          "/root/implementation_state.json": 0.0
+        },
+        "consensus_score": 0.0,
+        "confidence": 1.0
+      }
+    ],
+    "system_stability": [
+      {
+        "timestamp": "2025-10-07T13:10:25.579287",
+        "sources": {
+          "process_count": 0.0,
+          "resource_usage": 0.786,
+          "error_rate": 0.6
+        },
+        "consensus_score": 0.462,
+        "confidence": 0.6646076923959048
+      }
+    ]
+  },
+  "timestamp": "2025-10-07T13:10:26.622148"
+}

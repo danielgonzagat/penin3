@@ -1,0 +1,31 @@
+{
+  "start_time": "2025-09-24T00:19:42.294244",
+  "systems": {
+    "neural_farm": {
+      "status": "ACTIVE",
+      "generation": 10,
+      "best_fitness": 0.9437256289883779,
+      "caos_metrics": {
+        "entropy": 0.15407610367102942,
+        "complexity": 0.9151785714285714,
+        "diversity": 0.13647959183673464,
+        "lyapunov": -61.87353992179376,
+        "connectivity": NaN
+      }
+    },
+    "teis": {
+      "status": "ACTIVE",
+      "episodes": 20,
+      "exploration_rate": 0.1,
+      "avg_reward": -0.12720235374774153
+    },
+    "evolution": {
+      "status": "ACTIVE",
+      "generation": 15,
+      "best_fitness": 0.4710001760346715,
+      "mutation_rate": 0.01
+    }
+  },
+  "interventions": 0,
+  "improvements": []
+}

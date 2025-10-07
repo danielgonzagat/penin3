@@ -1,0 +1,747 @@
+{
+  "cycles": 10,
+  "elapsed": 84.7893590927124,
+  "final_fitness": 1.8302261268803293,
+  "final_consciousness": 0.020831815824847003,
+  "oracle_queries": 3,
+  "knowledge_applied": 3,
+  "oracle_history": [
+    {
+      "timestamp": "2025-09-30T21:24:16.207777",
+      "query": "How to improve AI system with fitness 1.09? Be concise (max 20 words).",
+      "responses": {
+        "openai": "Erro: OpenAI API error: 429",
+        "anthropic": "Erro: Anthropic API error: 401",
+        "gemini": "Tune hyperparameters, use more/better data, adjust model architecture, or refine the fitness function itself.",
+        "mistral": "To improve an AI system with fitness 1.09, focus on data quality, hyperparameter tuning, and model architecture. Use regularization, cross-validation, and ensemble methods. Monitor performance metrics and retrain periodically. Optimize for generalization and efficiency.",
+        "deepseek": "Increase training data diversity, refine reward models, implement adversarial testing, and optimize hyperparameters based on failure analysis.",
+        "grok": "Optimize hyperparameters, add more training data, or iterate evolutionary algorithms."
+      },
+      "synthesis": {
+        "success": true,
+        "valid_apis": [
+          "gemini",
+          "mistral",
+          "deepseek",
+          "grok"
+        ],
+        "insights": {
+          "gemini": {
+            "answer": "Tune hyperparameters, use more/better data, adjust model architecture, or refine the fitness function itself.",
+            "keywords": [
+              "hyperparameters",
+              "architecture"
+            ],
+            "length": 109,
+            "quality": 0.7999999999999999
+          },
+          "mistral": {
+            "answer": "To improve an AI system with fitness 1.09, focus on data quality, hyperparameter tuning, and model architecture. Use regularization, cross-validation, and ensemble methods. Monitor performance metrics and retrain periodically. Optimize for generalization and efficiency.",
+            "keywords": [
+              "hyperparameter",
+              "performance",
+              "efficiency",
+              "generalization",
+              "periodically",
+              "optimize",
+              "regularization",
+              "improve",
+              "architecture",
+              "validation"
+            ],
+            "length": 270,
+            "quality": 0.9999999999999999
+          },
+          "deepseek": {
+            "answer": "Increase training data diversity, refine reward models, implement adversarial testing, and optimize hyperparameters based on failure analysis.",
+            "keywords": [
+              "increase",
+              "hyperparameters",
+              "diversity",
+              "optimize",
+              "implement",
+              "adversarial"
+            ],
+            "length": 142,
+            "quality": 0.9999999999999999
+          },
+          "grok": {
+            "answer": "Optimize hyperparameters, add more training data, or iterate evolutionary algorithms.",
+            "keywords": [
+              "evolutionary",
+              "hyperparameters",
+              "add",
+              "optimize",
+              "algorithms"
+            ],
+            "length": 85,
+            "quality": 0.7
+          }
+        },
+        "consensus": {
+          "common_themes": [
+            "hyperparameters",
+            "optimize",
+            "architecture",
+            "hyperparameter",
+            "performance"
+          ],
+          "best_response": "mistral",
+          "best_quality": 0.9999999999999999,
+          "apis_agree": 3
+        },
+        "application": {
+          "query": "How to improve AI system with fitness 1.09? Be concise (max 20 words).",
+          "action": "applied",
+          "timestamp": "2025-09-30T21:24:16.207745",
+          "type": "optimization",
+          "params_adjusted": [
+            "hyperparameters",
+            "optimize",
+            "architecture",
+            "hyperparameter",
+            "performance"
+          ]
+        }
+      },
+      "elapsed": 26.508883714675903
+    },
+    {
+      "timestamp": "2025-09-30T21:24:38.133464",
+      "query": "How to improve AI system with fitness 1.49? Be concise (max 20 words).",
+      "responses": {
+        "openai": "Erro: OpenAI API error: 429",
+        "anthropic": "Erro: Anthropic API error: 401",
+        "gemini": "Refine the fitness function, tune hyperparameters, increase population size, or use more diverse training data.",
+        "mistral": "To improve an AI system with fitness 1.49, focus on data quality, hyperparameter tuning, and model architecture. Use cross-validation and regularization to enhance performance. Consider ensemble methods or transfer learning for better results.",
+        "deepseek": "Fine-tune on failure cases, expand quality data, optimize reward model, and implement adversarial training.",
+        "grok": "Optimize parameters, increase training data, refine algorithms, or evolve through more generations to boost fitness score."
+      },
+      "synthesis": {
+        "success": true,
+        "valid_apis": [
+          "gemini",
+          "mistral",
+          "deepseek",
+          "grok"
+        ],
+        "insights": {
+          "gemini": {
+            "answer": "Refine the fitness function, tune hyperparameters, increase population size, or use more diverse training data.",
+            "keywords": [
+              "hyperparameters",
+              "increase",
+              "population"
+            ],
+            "length": 111,
+            "quality": 0.8999999999999999
+          },
+          "mistral": {
+            "answer": "To improve an AI system with fitness 1.49, focus on data quality, hyperparameter tuning, and model architecture. Use cross-validation and regularization to enhance performance. Consider ensemble methods or transfer learning for better results.",
+            "keywords": [
+              "enhance",
+              "hyperparameter",
+              "performance",
+              "regularization",
+              "improve",
+              "architecture",
+              "validation"
+            ],
+            "length": 243,
+            "quality": 0.9999999999999999
+          },
+          "deepseek": {
+            "answer": "Fine-tune on failure cases, expand quality data, optimize reward model, and implement adversarial training.",
+            "keywords": [
+              "adversarial",
+              "optimize",
+              "implement"
+            ],
+            "length": 107,
+            "quality": 0.8999999999999999
+          },
+          "grok": {
+            "answer": "Optimize parameters, increase training data, refine algorithms, or evolve through more generations to boost fitness score.",
+            "keywords": [
+              "evolve",
+              "increase",
+              "parameters",
+              "optimize",
+              "generations",
+              "algorithms"
+            ],
+            "length": 122,
+            "quality": 0.9999999999999999
+          }
+        },
+        "consensus": {
+          "common_themes": [
+            "increase",
+            "optimize",
+            "hyperparameters",
+            "population",
+            "enhance"
+          ],
+          "best_response": "mistral",
+          "best_quality": 0.9999999999999999,
+          "apis_agree": 2
+        },
+        "application": {
+          "query": "How to improve AI system with fitness 1.49? Be concise (max 20 words).",
+          "action": "applied",
+          "timestamp": "2025-09-30T21:24:38.133377",
+          "type": "optimization",
+          "params_adjusted": [
+            "increase",
+            "optimize",
+            "hyperparameters",
+            "population",
+            "enhance"
+          ]
+        }
+      },
+      "elapsed": 21.839059352874756
+    },
+    {
+      "timestamp": "2025-09-30T21:25:14.386855",
+      "query": "How to improve AI system with fitness 1.83? Be concise (max 20 words).",
+      "responses": {
+        "openai": "Erro: OpenAI API error: 429",
+        "anthropic": "Erro: Anthropic API error: 401",
+        "gemini": "Tune hyperparameters, use more diverse data, run more generations, or refine the model architecture/fitness function.",
+        "mistral": "To improve an AI system with fitness 1.83, optimize hyperparameters, enhance data quality, and use regularization. Increase model complexity if underfitting, or simplify if overfitting. Monitor performance and retrain periodically.",
+        "deepseek": "Optimize reward function, diversify training data, implement regularization, and refine action space for better generalization.",
+        "grok": "Evolve via selection, crossover, and mutation to boost fitness beyond 1.83 in genetic algorithms."
+      },
+      "synthesis": {
+        "success": true,
+        "valid_apis": [
+          "gemini",
+          "mistral",
+          "deepseek",
+          "grok"
+        ],
+        "insights": {
+          "gemini": {
+            "answer": "Tune hyperparameters, use more diverse data, run more generations, or refine the model architecture/fitness function.",
+            "keywords": [
+              "hyperparameters",
+              "architecture",
+              "generations"
+            ],
+            "length": 117,
+            "quality": 0.7999999999999999
+          },
+          "mistral": {
+            "answer": "To improve an AI system with fitness 1.83, optimize hyperparameters, enhance data quality, and use regularization. Increase model complexity if underfitting, or simplify if overfitting. Monitor performance and retrain periodically.",
+            "keywords": [
+              "underfitting",
+              "enhance",
+              "performance",
+              "overfitting",
+              "increase",
+              "hyperparameters",
+              "complexity",
+              "periodically",
+              "optimize",
+              "regularization"
+            ],
+            "length": 231,
+            "quality": 0.9999999999999999
+          },
+          "deepseek": {
+            "answer": "Optimize reward function, diversify training data, implement regularization, and refine action space for better generalization.",
+            "keywords": [
+              "implement",
+              "generalization",
+              "diversify",
+              "optimize",
+              "regularization"
+            ],
+            "length": 127,
+            "quality": 0.8999999999999999
+          },
+          "grok": {
+            "answer": "Evolve via selection, crossover, and mutation to boost fitness beyond 1.83 in genetic algorithms.",
+            "keywords": [
+              "selection",
+              "crossover",
+              "evolve",
+              "algorithms"
+            ],
+            "length": 97,
+            "quality": 0.7
+          }
+        },
+        "consensus": {
+          "common_themes": [
+            "hyperparameters",
+            "optimize",
+            "regularization",
+            "architecture",
+            "generations"
+          ],
+          "best_response": "mistral",
+          "best_quality": 0.9999999999999999,
+          "apis_agree": 3
+        },
+        "application": {
+          "query": "How to improve AI system with fitness 1.83? Be concise (max 20 words).",
+          "action": "applied",
+          "timestamp": "2025-09-30T21:25:14.386820",
+          "type": "optimization",
+          "params_adjusted": [
+            "hyperparameters",
+            "optimize",
+            "regularization",
+            "architecture",
+            "generations"
+          ]
+        }
+      },
+      "elapsed": 36.17106080055237
+    }
+  ],
+  "applied_improvements": [
+    {
+      "query": "How to improve AI system with fitness 1.09? Be concise (max 20 words).",
+      "action": "applied",
+      "timestamp": "2025-09-30T21:24:16.207745",
+      "type": "optimization",
+      "params_adjusted": [
+        "hyperparameters",
+        "optimize",
+        "architecture",
+        "hyperparameter",
+        "performance"
+      ]
+    },
+    {
+      "query": "How to improve AI system with fitness 1.49? Be concise (max 20 words).",
+      "action": "applied",
+      "timestamp": "2025-09-30T21:24:38.133377",
+      "type": "optimization",
+      "params_adjusted": [
+        "increase",
+        "optimize",
+        "hyperparameters",
+        "population",
+        "enhance"
+      ]
+    },
+    {
+      "query": "How to improve AI system with fitness 1.83? Be concise (max 20 words).",
+      "action": "applied",
+      "timestamp": "2025-09-30T21:25:14.386820",
+      "type": "optimization",
+      "params_adjusted": [
+        "hyperparameters",
+        "optimize",
+        "regularization",
+        "architecture",
+        "generations"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "cycle": 0,
+      "vision_confidence": 0.34908798336982727,
+      "fitness": 0.9455208716135005,
+      "teis_reward": 1.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.009455208716135005,
+      "oracle_result": null,
+      "oracle_total_queries": 0,
+      "knowledge_applied": 0
+    },
+    {
+      "cycle": 1,
+      "vision_confidence": 0.4709840416908264,
+      "fitness": 1.0887261570122204,
+      "teis_reward": 2.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.010887261570122205,
+      "oracle_result": null,
+      "oracle_total_queries": 0,
+      "knowledge_applied": 0
+    },
+    {
+      "cycle": 2,
+      "vision_confidence": 0.40732866525650024,
+      "fitness": 1.022746766328283,
+      "teis_reward": 3.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.01154705547696158,
+      "oracle_result": null,
+      "oracle_total_queries": 0,
+      "knowledge_applied": 0
+    },
+    {
+      "cycle": 3,
+      "vision_confidence": 0.2227892279624939,
+      "fitness": 1.0919386891565699,
+      "teis_reward": 4.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.01223897470524445,
+      "oracle_result": {
+        "responses": {
+          "openai": "Erro: OpenAI API error: 429",
+          "anthropic": "Erro: Anthropic API error: 401",
+          "gemini": "Tune hyperparameters, use more/better data, adjust model architecture, or refine the fitness function itself.",
+          "mistral": "To improve an AI system with fitness 1.09, focus on data quality, hyperparameter tuning, and model architecture. Use regularization, cross-validation, and ensemble methods. Monitor performance metrics and retrain periodically. Optimize for generalization and efficiency.",
+          "deepseek": "Increase training data diversity, refine reward models, implement adversarial testing, and optimize hyperparameters based on failure analysis.",
+          "grok": "Optimize hyperparameters, add more training data, or iterate evolutionary algorithms."
+        },
+        "synthesis": {
+          "success": true,
+          "valid_apis": [
+            "gemini",
+            "mistral",
+            "deepseek",
+            "grok"
+          ],
+          "insights": {
+            "gemini": {
+              "answer": "Tune hyperparameters, use more/better data, adjust model architecture, or refine the fitness function itself.",
+              "keywords": [
+                "hyperparameters",
+                "architecture"
+              ],
+              "length": 109,
+              "quality": 0.7999999999999999
+            },
+            "mistral": {
+              "answer": "To improve an AI system with fitness 1.09, focus on data quality, hyperparameter tuning, and model architecture. Use regularization, cross-validation, and ensemble methods. Monitor performance metrics and retrain periodically. Optimize for generalization and efficiency.",
+              "keywords": [
+                "hyperparameter",
+                "performance",
+                "efficiency",
+                "generalization",
+                "periodically",
+                "optimize",
+                "regularization",
+                "improve",
+                "architecture",
+                "validation"
+              ],
+              "length": 270,
+              "quality": 0.9999999999999999
+            },
+            "deepseek": {
+              "answer": "Increase training data diversity, refine reward models, implement adversarial testing, and optimize hyperparameters based on failure analysis.",
+              "keywords": [
+                "increase",
+                "hyperparameters",
+                "diversity",
+                "optimize",
+                "implement",
+                "adversarial"
+              ],
+              "length": 142,
+              "quality": 0.9999999999999999
+            },
+            "grok": {
+              "answer": "Optimize hyperparameters, add more training data, or iterate evolutionary algorithms.",
+              "keywords": [
+                "evolutionary",
+                "hyperparameters",
+                "add",
+                "optimize",
+                "algorithms"
+              ],
+              "length": 85,
+              "quality": 0.7
+            }
+          },
+          "consensus": {
+            "common_themes": [
+              "hyperparameters",
+              "optimize",
+              "architecture",
+              "hyperparameter",
+              "performance"
+            ],
+            "best_response": "mistral",
+            "best_quality": 0.9999999999999999,
+            "apis_agree": 3
+          },
+          "application": {
+            "query": "How to improve AI system with fitness 1.09? Be concise (max 20 words).",
+            "action": "applied",
+            "timestamp": "2025-09-30T21:24:16.207745",
+            "type": "optimization",
+            "params_adjusted": [
+              "hyperparameters",
+              "optimize",
+              "architecture",
+              "hyperparameter",
+              "performance"
+            ]
+          }
+        },
+        "applied": true,
+        "elapsed": 26.508883714675903
+      },
+      "oracle_total_queries": 1,
+      "knowledge_applied": 1
+    },
+    {
+      "cycle": 4,
+      "vision_confidence": 0.4284532070159912,
+      "fitness": 1.3861689172832605,
+      "teis_reward": 5.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.015181276986511356,
+      "oracle_result": null,
+      "oracle_total_queries": 1,
+      "knowledge_applied": 1
+    },
+    {
+      "cycle": 5,
+      "vision_confidence": 0.3160901367664337,
+      "fitness": 1.4479639632558914,
+      "teis_reward": 6.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.015799227446237664,
+      "oracle_result": null,
+      "oracle_total_queries": 1,
+      "knowledge_applied": 1
+    },
+    {
+      "cycle": 6,
+      "vision_confidence": 0.4151609539985657,
+      "fitness": 1.4889806927457276,
+      "teis_reward": 7.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.016209394741136026,
+      "oracle_result": {
+        "responses": {
+          "openai": "Erro: OpenAI API error: 429",
+          "anthropic": "Erro: Anthropic API error: 401",
+          "gemini": "Refine the fitness function, tune hyperparameters, increase population size, or use more diverse training data.",
+          "mistral": "To improve an AI system with fitness 1.49, focus on data quality, hyperparameter tuning, and model architecture. Use cross-validation and regularization to enhance performance. Consider ensemble methods or transfer learning for better results.",
+          "deepseek": "Fine-tune on failure cases, expand quality data, optimize reward model, and implement adversarial training.",
+          "grok": "Optimize parameters, increase training data, refine algorithms, or evolve through more generations to boost fitness score."
+        },
+        "synthesis": {
+          "success": true,
+          "valid_apis": [
+            "gemini",
+            "mistral",
+            "deepseek",
+            "grok"
+          ],
+          "insights": {
+            "gemini": {
+              "answer": "Refine the fitness function, tune hyperparameters, increase population size, or use more diverse training data.",
+              "keywords": [
+                "hyperparameters",
+                "increase",
+                "population"
+              ],
+              "length": 111,
+              "quality": 0.8999999999999999
+            },
+            "mistral": {
+              "answer": "To improve an AI system with fitness 1.49, focus on data quality, hyperparameter tuning, and model architecture. Use cross-validation and regularization to enhance performance. Consider ensemble methods or transfer learning for better results.",
+              "keywords": [
+                "enhance",
+                "hyperparameter",
+                "performance",
+                "regularization",
+                "improve",
+                "architecture",
+                "validation"
+              ],
+              "length": 243,
+              "quality": 0.9999999999999999
+            },
+            "deepseek": {
+              "answer": "Fine-tune on failure cases, expand quality data, optimize reward model, and implement adversarial training.",
+              "keywords": [
+                "adversarial",
+                "optimize",
+                "implement"
+              ],
+              "length": 107,
+              "quality": 0.8999999999999999
+            },
+            "grok": {
+              "answer": "Optimize parameters, increase training data, refine algorithms, or evolve through more generations to boost fitness score.",
+              "keywords": [
+                "evolve",
+                "increase",
+                "parameters",
+                "optimize",
+                "generations",
+                "algorithms"
+              ],
+              "length": 122,
+              "quality": 0.9999999999999999
+            }
+          },
+          "consensus": {
+            "common_themes": [
+              "increase",
+              "optimize",
+              "hyperparameters",
+              "population",
+              "enhance"
+            ],
+            "best_response": "mistral",
+            "best_quality": 0.9999999999999999,
+            "apis_agree": 2
+          },
+          "application": {
+            "query": "How to improve AI system with fitness 1.49? Be concise (max 20 words).",
+            "action": "applied",
+            "timestamp": "2025-09-30T21:24:38.133377",
+            "type": "optimization",
+            "params_adjusted": [
+              "increase",
+              "optimize",
+              "hyperparameters",
+              "population",
+              "enhance"
+            ]
+          }
+        },
+        "applied": true,
+        "elapsed": 21.839059352874756
+      },
+      "oracle_total_queries": 2,
+      "knowledge_applied": 2
+    },
+    {
+      "cycle": 7,
+      "vision_confidence": 0.3398118317127228,
+      "fitness": 1.6575001167404895,
+      "teis_reward": 8.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.017894588981083644,
+      "oracle_result": null,
+      "oracle_total_queries": 2,
+      "knowledge_applied": 2
+    },
+    {
+      "cycle": 8,
+      "vision_confidence": 0.3856049180030823,
+      "fitness": 1.5970017796222415,
+      "teis_reward": 9.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.018499572352266125,
+      "oracle_result": null,
+      "oracle_total_queries": 2,
+      "knowledge_applied": 2
+    },
+    {
+      "cycle": 9,
+      "vision_confidence": 0.3600144386291504,
+      "fitness": 1.8302261268803293,
+      "teis_reward": 10.0,
+      "teis_loss": 0.0,
+      "consciousness": 0.020831815824847003,
+      "oracle_result": {
+        "responses": {
+          "openai": "Erro: OpenAI API error: 429",
+          "anthropic": "Erro: Anthropic API error: 401",
+          "gemini": "Tune hyperparameters, use more diverse data, run more generations, or refine the model architecture/fitness function.",
+          "mistral": "To improve an AI system with fitness 1.83, optimize hyperparameters, enhance data quality, and use regularization. Increase model complexity if underfitting, or simplify if overfitting. Monitor performance and retrain periodically.",
+          "deepseek": "Optimize reward function, diversify training data, implement regularization, and refine action space for better generalization.",
+          "grok": "Evolve via selection, crossover, and mutation to boost fitness beyond 1.83 in genetic algorithms."
+        },
+        "synthesis": {
+          "success": true,
+          "valid_apis": [
+            "gemini",
+            "mistral",
+            "deepseek",
+            "grok"
+          ],
+          "insights": {
+            "gemini": {
+              "answer": "Tune hyperparameters, use more diverse data, run more generations, or refine the model architecture/fitness function.",
+              "keywords": [
+                "hyperparameters",
+                "architecture",
+                "generations"
+              ],
+              "length": 117,
+              "quality": 0.7999999999999999
+            },
+            "mistral": {
+              "answer": "To improve an AI system with fitness 1.83, optimize hyperparameters, enhance data quality, and use regularization. Increase model complexity if underfitting, or simplify if overfitting. Monitor performance and retrain periodically.",
+              "keywords": [
+                "underfitting",
+                "enhance",
+                "performance",
+                "overfitting",
+                "increase",
+                "hyperparameters",
+                "complexity",
+                "periodically",
+                "optimize",
+                "regularization"
+              ],
+              "length": 231,
+              "quality": 0.9999999999999999
+            },
+            "deepseek": {
+              "answer": "Optimize reward function, diversify training data, implement regularization, and refine action space for better generalization.",
+              "keywords": [
+                "implement",
+                "generalization",
+                "diversify",
+                "optimize",
+                "regularization"
+              ],
+              "length": 127,
+              "quality": 0.8999999999999999
+            },
+            "grok": {
+              "answer": "Evolve via selection, crossover, and mutation to boost fitness beyond 1.83 in genetic algorithms.",
+              "keywords": [
+                "selection",
+                "crossover",
+                "evolve",
+                "algorithms"
+              ],
+              "length": 97,
+              "quality": 0.7
+            }
+          },
+          "consensus": {
+            "common_themes": [
+              "hyperparameters",
+              "optimize",
+              "regularization",
+              "architecture",
+              "generations"
+            ],
+            "best_response": "mistral",
+            "best_quality": 0.9999999999999999,
+            "apis_agree": 3
+          },
+          "application": {
+            "query": "How to improve AI system with fitness 1.83? Be concise (max 20 words).",
+            "action": "applied",
+            "timestamp": "2025-09-30T21:25:14.386820",
+            "type": "optimization",
+            "params_adjusted": [
+              "hyperparameters",
+              "optimize",
+              "regularization",
+              "architecture",
+              "generations"
+            ]
+          }
+        },
+        "applied": true,
+        "elapsed": 36.17106080055237
+      },
+      "oracle_total_queries": 3,
+      "knowledge_applied": 3
+    }
+  ]
+}

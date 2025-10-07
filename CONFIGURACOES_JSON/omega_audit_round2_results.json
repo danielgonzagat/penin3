@@ -1,0 +1,85 @@
+{
+  "audit_round": 2,
+  "timestamp": "2025-09-27T21:22:15.558840",
+  "duration_seconds": 223.231206,
+  "tests_executed": 2,
+  "total_tests": 4,
+  "success_rate": 0.5,
+  "detailed_results": {
+    "creativity": {
+      "neural_farm": {
+        "novelty": false,
+        "divergent_thinking": false,
+        "conceptual_blending": false,
+        "timestamp": "2025-09-27T21:23:48.963097",
+        "creativity_score": 0.0
+      },
+      "teis": {
+        "novelty": false,
+        "divergent_thinking": false,
+        "conceptual_blending": false,
+        "timestamp": "2025-09-27T21:23:48.967347",
+        "creativity_score": 0.0
+      },
+      "ia_cubed": {
+        "novelty": false,
+        "divergent_thinking": false,
+        "conceptual_blending": true,
+        "timestamp": "2025-09-27T21:23:59.109465",
+        "creativity_score": 0.3333333333333333
+      }
+    },
+    "self_modification": {
+      "ia_cubed": {
+        "code_modification": true,
+        "parameter_tuning": false,
+        "architecture_evolution": false,
+        "timestamp": "2025-09-27T21:24:57.059968",
+        "self_modification_score": 0.3333333333333333
+      },
+      "teis": {
+        "code_modification": true,
+        "parameter_tuning": true,
+        "architecture_evolution": false,
+        "timestamp": "2025-09-27T21:24:57.493346",
+        "self_modification_score": 0.6666666666666666
+      },
+      "neural_farm": {
+        "code_modification": true,
+        "parameter_tuning": false,
+        "architecture_evolution": false,
+        "timestamp": "2025-09-27T21:24:58.082472",
+        "self_modification_score": 0.3333333333333333
+      }
+    }
+  },
+  "overall_scores": {
+    "ia_cubed": {
+      "individual_scores": [
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "average_score": 0.3333333333333333,
+      "max_score": 0.3333333333333333,
+      "min_score": 0.3333333333333333
+    },
+    "teis": {
+      "individual_scores": [
+        0.0,
+        0.6666666666666666
+      ],
+      "average_score": 0.3333333333333333,
+      "max_score": 0.6666666666666666,
+      "min_score": 0.0
+    },
+    "neural_farm": {
+      "individual_scores": [
+        0.0,
+        0.3333333333333333
+      ],
+      "average_score": 0.16666666666666666,
+      "max_score": 0.3333333333333333,
+      "min_score": 0.0
+    }
+  }
+}

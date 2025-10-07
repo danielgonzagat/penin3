@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-09-24T02:27:35.764581",
+  "test_duration": "0:01:44.476799",
+  "intelligence_score": 50.0,
+  "proof_criteria": {
+    "self_modification": true,
+    "learning_from_experience": false,
+    "novel_problem_solving": true,
+    "goal_generation": false,
+    "memory_persistence": true,
+    "adaptation_to_change": true,
+    "emergent_behaviors": false,
+    "autonomous_decision_making": false,
+    "pattern_recognition": false,
+    "creative_output": true
+  },
+  "evidence": [
+    {
+      "type": "self_modification",
+      "description": "System has modified its own code",
+      "timestamp": "2025-09-24T02:25:51.288361"
+    },
+    {
+      "type": "problem_solving",
+      "description": "System generated insights from data",
+      "timestamp": "2025-09-24T02:25:56.323770"
+    },
+    {
+      "type": "memory_persistence",
+      "description": "3 persistent memory systems active",
+      "timestamp": "2025-09-24T02:26:44.697663"
+    },
+    {
+      "type": "adaptation",
+      "description": "Population adapted with 120 individuals",
+      "timestamp": "2025-09-24T02:26:54.716300"
+    },
+    {
+      "type": "creative_output",
+      "description": "Creative indicators found: 2",
+      "timestamp": "2025-09-24T02:27:35.760856"
+    }
+  ],
+  "verdict": "\ud83d\udfe0 ADAPTIVE SYSTEM DETECTED - The system has adaptive capabilities but limited true intelligence."
+}

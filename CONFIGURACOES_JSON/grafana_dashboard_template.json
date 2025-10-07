@@ -1,0 +1,141 @@
+{
+  "dashboard": {
+    "title": "Intelligence System - Real-time Monitoring",
+    "tags": ["intelligence", "IA³", "emergence"],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Average Reward (last 100 episodes)",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "brain_avg_reward_100",
+            "legendFormat": "Avg Reward"
+          }
+        ],
+        "gridPos": {"x": 0, "y": 0, "w": 12, "h": 8}
+      },
+      {
+        "id": 2,
+        "title": "Best Reward",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "brain_best_reward",
+            "legendFormat": "Best"
+          }
+        ],
+        "gridPos": {"x": 12, "y": 0, "w": 6, "h": 4}
+      },
+      {
+        "id": 3,
+        "title": "Episodes",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "brain_episode",
+            "legendFormat": "Episodes"
+          }
+        ],
+        "gridPos": {"x": 18, "y": 0, "w": 6, "h": 4}
+      },
+      {
+        "id": 4,
+        "title": "IA³ Signal",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "brain_ia3_signal",
+            "legendFormat": "IA³"
+          }
+        ],
+        "gridPos": {"x": 0, "y": 8, "w": 12, "h": 8}
+      },
+      {
+        "id": 5,
+        "title": "Coherence & Novelty",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "brain_coherence",
+            "legendFormat": "Coherence"
+          },
+          {
+            "expr": "brain_novelty",
+            "legendFormat": "Novelty"
+          }
+        ],
+        "gridPos": {"x": 12, "y": 8, "w": 12, "h": 8}
+      },
+      {
+        "id": 6,
+        "title": "Active Neurons",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "brain_active_neurons",
+            "legendFormat": "Active"
+          }
+        ],
+        "gridPos": {"x": 12, "y": 4, "w": 6, "h": 4}
+      },
+      {
+        "id": 7,
+        "title": "Surprises Detected",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "surprises_total",
+            "legendFormat": "Surprises"
+          }
+        ],
+        "gridPos": {"x": 18, "y": 4, "w": 6, "h": 4}
+      },
+      {
+        "id": 8,
+        "title": "Learning Progress",
+        "type": "gauge",
+        "targets": [
+          {
+            "expr": "brain_learning_progress",
+            "legendFormat": "Progress"
+          }
+        ],
+        "gridPos": {"x": 0, "y": 16, "w": 8, "h": 6}
+      },
+      {
+        "id": 9,
+        "title": "System Connections",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "system_connections_total",
+            "legendFormat": "Connections"
+          }
+        ],
+        "gridPos": {"x": 8, "y": 16, "w": 8, "h": 6}
+      },
+      {
+        "id": 10,
+        "title": "Max Surprise Score (sigma)",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "surprises_max_score",
+            "legendFormat": "Max σ"
+          }
+        ],
+        "gridPos": {"x": 16, "y": 16, "w": 8, "h": 6}
+      }
+    ],
+    "refresh": "5s",
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "timepicker": {
+      "refresh_intervals": ["5s", "10s", "30s", "1m", "5m"]
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "intelligence_score": 30.0,
+  "db_findings": [
+    {
+      "database": "intelligence.db",
+      "tables": 11,
+      "findings": {
+        "cycles": {
+          "records": 831,
+          "has_temporal": true,
+          "samples": 100,
+          "growth_rate": 9.090909090909092,
+          "intelligence_indicator": true
+        },
+        "sqlite_sequence": {
+          "records": 3,
+          "has_temporal": false
+        },
+        "api_responses": {
+          "records": 0,
+          "has_temporal": false
+        },
+        "errors": {
+          "records": 0,
+          "has_temporal": false
+        },
+        "integrated_data": {
+          "records": 0,
+          "has_temporal": false
+        },
+        "evolution_history": {
+          "records": 0,
+          "has_temporal": false
+        },
+        "model_checkpoints": {
+          "records": 0,
+          "has_temporal": false
+        },
+        "emergence_patterns": {
+          "records": 0,
+          "has_temporal": false
+        },
+        "schema_version": {
+          "records": 1,
+          "has_temporal": false
+        },
+        "events": {
+          "records": 3839,
+          "has_temporal": true,
+          "samples": 100,
+          "growth_rate": 9.090909090909092,
+          "intelligence_indicator": true
+        },
+        "brain_metrics": {
+          "records": 64457,
+          "has_temporal": true,
+          "samples": 100,
+          "growth_rate": 9.090909090909092,
+          "intelligence_indicator": true
+        }
+      },
+      "intelligence_indicators": 3
+    }
+  ],
+  "ckpt_findings": [],
+  "log_findings": [
+    {
+      "status": "analyzed",
+      "log": "unified_brain.log",
+      "lines_analyzed": 500,
+      "keyword_matches": 1,
+      "top_keywords": [
+        [
+          "emergence",
+          1
+        ],
+        [
+          "breakthrough",
+          0
+        ],
+        [
+          "discovered",
+          0
+        ],
+        [
+          "adapted",
+          0
+        ],
+        [
+          "learned",
+          0
+        ]
+      ],
+      "intelligence_indicator": true
+    },
+    {
+      "status": "analyzed",
+      "log": "intelligence_v7.log",
+      "lines_analyzed": 500,
+      "keyword_matches": 11,
+      "top_keywords": [
+        [
+          "emergence",
+          6
+        ],
+        [
+          "discovered",
+          5
+        ],
+        [
+          "breakthrough",
+          0
+        ],
+        [
+          "adapted",
+          0
+        ],
+        [
+          "learned",
+          0
+        ]
+      ],
+      "intelligence_indicator": true
+    }
+  ]
+}

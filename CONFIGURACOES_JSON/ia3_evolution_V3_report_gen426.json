@@ -1,0 +1,2616 @@
+{
+  "current_generation": 426,
+  "current_population": 10,
+  "history": [
+    {
+      "generation": 101,
+      "population": 10198,
+      "avg_fitness": 0.5000404229144715,
+      "deaths": 7623,
+      "births": 500,
+      "timestamp": 1758851659.7751853
+    },
+    {
+      "generation": 102,
+      "population": 6517,
+      "avg_fitness": 0.5002395107591122,
+      "deaths": 4181,
+      "births": 500,
+      "timestamp": 1758851748.6543083
+    },
+    {
+      "generation": 103,
+      "population": 4543,
+      "avg_fitness": 0.2195908781601202,
+      "deaths": 2474,
+      "births": 500,
+      "timestamp": 1758851776.1817572
+    },
+    {
+      "generation": 104,
+      "population": 3764,
+      "avg_fitness": 0.2910307628872792,
+      "deaths": 1279,
+      "births": 500,
+      "timestamp": 1758851778.5767486
+    },
+    {
+      "generation": 105,
+      "population": 3459,
+      "avg_fitness": 0.339998129133717,
+      "deaths": 805,
+      "births": 500,
+      "timestamp": 1758851794.9423742
+    },
+    {
+      "generation": 106,
+      "population": 2405,
+      "avg_fitness": 0.4999303553500042,
+      "deaths": 1554,
+      "births": 500,
+      "timestamp": 1758851797.1405847
+    },
+    {
+      "generation": 107,
+      "population": 1936,
+      "avg_fitness": 0.5015712573473766,
+      "deaths": 969,
+      "births": 500,
+      "timestamp": 1758851809.9585032
+    },
+    {
+      "generation": 108,
+      "population": 1678,
+      "avg_fitness": 0.5035570735989277,
+      "deaths": 758,
+      "births": 500,
+      "timestamp": 1758851811.7125611
+    },
+    {
+      "generation": 109,
+      "population": 1308,
+      "avg_fitness": 0.8977689834695898,
+      "deaths": 801,
+      "births": 431,
+      "timestamp": 1758851818.2844634
+    },
+    {
+      "generation": 110,
+      "population": 929,
+      "avg_fitness": 0.9289282104160598,
+      "deaths": 686,
+      "births": 307,
+      "timestamp": 1758851819.754231
+    },
+    {
+      "generation": 111,
+      "population": 619,
+      "avg_fitness": 0.9472100422336052,
+      "deaths": 509,
+      "births": 199,
+      "timestamp": 1758851825.4651275
+    },
+    {
+      "generation": 112,
+      "population": 446,
+      "avg_fitness": 0.058429206656788586,
+      "deaths": 319,
+      "births": 146,
+      "timestamp": 1758851826.3084784
+    },
+    {
+      "generation": 113,
+      "population": 311,
+      "avg_fitness": 0.06808768021727958,
+      "deaths": 236,
+      "births": 101,
+      "timestamp": 1758851827.9927666
+    },
+    {
+      "generation": 114,
+      "population": 215,
+      "avg_fitness": 0.08463613929113199,
+      "deaths": 163,
+      "births": 67,
+      "timestamp": 1758851828.1926231
+    },
+    {
+      "generation": 115,
+      "population": 190,
+      "avg_fitness": 0.4999185355596764,
+      "deaths": 86,
+      "births": 61,
+      "timestamp": 1758851828.9113111
+    },
+    {
+      "generation": 116,
+      "population": 169,
+      "avg_fitness": 0.5002594177660189,
+      "deaths": 75,
+      "births": 54,
+      "timestamp": 1758851829.1179166
+    },
+    {
+      "generation": 117,
+      "population": 139,
+      "avg_fitness": 0.5004682990573567,
+      "deaths": 76,
+      "births": 46,
+      "timestamp": 1758851829.5115337
+    },
+    {
+      "generation": 118,
+      "population": 112,
+      "avg_fitness": 0.07029894444582274,
+      "deaths": 62,
+      "births": 35,
+      "timestamp": 1758851829.6243618
+    },
+    {
+      "generation": 119,
+      "population": 78,
+      "avg_fitness": 0.08150456632886614,
+      "deaths": 59,
+      "births": 25,
+      "timestamp": 1758851829.962095
+    },
+    {
+      "generation": 120,
+      "population": 59,
+      "avg_fitness": 0.08819912297603412,
+      "deaths": 38,
+      "births": 19,
+      "timestamp": 1758851830.1241076
+    },
+    {
+      "generation": 121,
+      "population": 53,
+      "avg_fitness": 0.49953575609094003,
+      "deaths": 22,
+      "births": 16,
+      "timestamp": 1758851830.435938
+    },
+    {
+      "generation": 122,
+      "population": 54,
+      "avg_fitness": 0.5035266482605124,
+      "deaths": 17,
+      "births": 18,
+      "timestamp": 1758851830.4878814
+    },
+    {
+      "generation": 123,
+      "population": 58,
+      "avg_fitness": 0.5047901703251733,
+      "deaths": 12,
+      "births": 16,
+      "timestamp": 1758851830.9324558
+    },
+    {
+      "generation": 124,
+      "population": 46,
+      "avg_fitness": 0.9858321206064651,
+      "deaths": 25,
+      "births": 13,
+      "timestamp": 1758851831.130615
+    },
+    {
+      "generation": 125,
+      "population": 46,
+      "avg_fitness": 0.9867379006417617,
+      "deaths": 15,
+      "births": 15,
+      "timestamp": 1758851831.499668
+    },
+    {
+      "generation": 126,
+      "population": 42,
+      "avg_fitness": 0.9859325813657575,
+      "deaths": 16,
+      "births": 12,
+      "timestamp": 1758851831.6265407
+    },
+    {
+      "generation": 127,
+      "population": 42,
+      "avg_fitness": 0.03027118183672428,
+      "deaths": 13,
+      "births": 13,
+      "timestamp": 1758851831.9229145
+    },
+    {
+      "generation": 128,
+      "population": 34,
+      "avg_fitness": 0.031236384396574328,
+      "deaths": 16,
+      "births": 8,
+      "timestamp": 1758851831.9839334
+    },
+    {
+      "generation": 129,
+      "population": 18,
+      "avg_fitness": 0.033893861533964384,
+      "deaths": 20,
+      "births": 4,
+      "timestamp": 1758851832.201251
+    },
+    {
+      "generation": 130,
+      "population": 16,
+      "avg_fitness": 0.4999154971705543,
+      "deaths": 6,
+      "births": 4,
+      "timestamp": 1758851832.3344052
+    },
+    {
+      "generation": 131,
+      "population": 19,
+      "avg_fitness": 0.5001729689538479,
+      "deaths": 3,
+      "births": 6,
+      "timestamp": 1758851832.682618
+    },
+    {
+      "generation": 132,
+      "population": 18,
+      "avg_fitness": 0.5002314275816867,
+      "deaths": 6,
+      "births": 5,
+      "timestamp": 1758851832.7029607
+    },
+    {
+      "generation": 133,
+      "population": 17,
+      "avg_fitness": 0.045938139160474144,
+      "deaths": 6,
+      "births": 5,
+      "timestamp": 1758851832.7834098
+    },
+    {
+      "generation": 134,
+      "population": 19,
+      "avg_fitness": 0.059757956687141865,
+      "deaths": 4,
+      "births": 6,
+      "timestamp": 1758851832.7956092
+    },
+    {
+      "generation": 135,
+      "population": 18,
+      "avg_fitness": 0.06924650543614437,
+      "deaths": 6,
+      "births": 5,
+      "timestamp": 1758851832.917935
+    },
+    {
+      "generation": 136,
+      "population": 18,
+      "avg_fitness": 0.4983708295557234,
+      "deaths": 5,
+      "births": 5,
+      "timestamp": 1758851832.9394007
+    },
+    {
+      "generation": 137,
+      "population": 20,
+      "avg_fitness": 0.5025597761074702,
+      "deaths": 4,
+      "births": 6,
+      "timestamp": 1758851833.0900965
+    },
+    {
+      "generation": 138,
+      "population": 20,
+      "avg_fitness": 0.5060690701007843,
+      "deaths": 6,
+      "births": 6,
+      "timestamp": 1758851833.1212761
+    },
+    {
+      "generation": 139,
+      "population": 24,
+      "avg_fitness": 0.9843888079440705,
+      "deaths": 4,
+      "births": 8,
+      "timestamp": 1758851833.2273679
+    },
+    {
+      "generation": 140,
+      "population": 27,
+      "avg_fitness": 0.9862461234175631,
+      "deaths": 6,
+      "births": 9,
+      "timestamp": 1758851833.2528036
+    },
+    {
+      "generation": 141,
+      "population": 20,
+      "avg_fitness": 0.9871005219277186,
+      "deaths": 13,
+      "births": 6,
+      "timestamp": 1758851833.4426155
+    },
+    {
+      "generation": 142,
+      "population": 23,
+      "avg_fitness": 0.03152681468054652,
+      "deaths": 4,
+      "births": 7,
+      "timestamp": 1758851833.4564762
+    },
+    {
+      "generation": 143,
+      "population": 23,
+      "avg_fitness": 0.034367568345497486,
+      "deaths": 7,
+      "births": 7,
+      "timestamp": 1758851833.6051295
+    },
+    {
+      "generation": 144,
+      "population": 19,
+      "avg_fitness": 0.034174578426324806,
+      "deaths": 10,
+      "births": 6,
+      "timestamp": 1758851833.658273
+    },
+    {
+      "generation": 145,
+      "population": 18,
+      "avg_fitness": 0.4998501978422466,
+      "deaths": 6,
+      "births": 5,
+      "timestamp": 1758851833.8677027
+    },
+    {
+      "generation": 146,
+      "population": 16,
+      "avg_fitness": 0.5001609060499403,
+      "deaths": 5,
+      "births": 3,
+      "timestamp": 1758851834.0106587
+    },
+    {
+      "generation": 147,
+      "population": 14,
+      "avg_fitness": 0.500310504809022,
+      "deaths": 6,
+      "births": 4,
+      "timestamp": 1758851834.2926955
+    },
+    {
+      "generation": 148,
+      "population": 15,
+      "avg_fitness": 0.04976695350238255,
+      "deaths": 3,
+      "births": 4,
+      "timestamp": 1758851834.3272376
+    },
+    {
+      "generation": 149,
+      "population": 15,
+      "avg_fitness": 0.0501327633857727,
+      "deaths": 4,
+      "births": 4,
+      "timestamp": 1758851834.5547295
+    },
+    {
+      "generation": 150,
+      "population": 18,
+      "avg_fitness": 0.055607519547144574,
+      "deaths": 2,
+      "births": 5,
+      "timestamp": 1758851834.572597
+    },
+    {
+      "generation": 151,
+      "population": 21,
+      "avg_fitness": 0.49514206250508624,
+      "deaths": 3,
+      "births": 6,
+      "timestamp": 1758851834.676311
+    },
+    {
+      "generation": 152,
+      "population": 19,
+      "avg_fitness": 0.5000795480750856,
+      "deaths": 7,
+      "births": 5,
+      "timestamp": 1758851834.7017238
+    },
+    {
+      "generation": 153,
+      "population": 18,
+      "avg_fitness": 0.5044771417191154,
+      "deaths": 6,
+      "births": 5,
+      "timestamp": 1758851834.8057923
+    },
+    {
+      "generation": 154,
+      "population": 18,
+      "avg_fitness": 0.9852437773753717,
+      "deaths": 6,
+      "births": 6,
+      "timestamp": 1758851834.8882337
+    },
+    {
+      "generation": 155,
+      "population": 17,
+      "avg_fitness": 0.9883028144314198,
+      "deaths": 6,
+      "births": 5,
+      "timestamp": 1758851835.0543864
+    },
+    {
+      "generation": 156,
+      "population": 19,
+      "avg_fitness": 0.984352943366894,
+      "deaths": 4,
+      "births": 6,
+      "timestamp": 1758851835.072468
+    },
+    {
+      "generation": 157,
+      "population": 20,
+      "avg_fitness": 0.029116116954307807,
+      "deaths": 5,
+      "births": 6,
+      "timestamp": 1758851835.1099472
+    },
+    {
+      "generation": 158,
+      "population": 16,
+      "avg_fitness": 0.03174585956148803,
+      "deaths": 9,
+      "births": 5,
+      "timestamp": 1758851835.122006
+    },
+    {
+      "generation": 159,
+      "population": 16,
+      "avg_fitness": 0.030168877390678972,
+      "deaths": 3,
+      "births": 3,
+      "timestamp": 1758851835.152188
+    },
+    {
+      "generation": 160,
+      "population": 17,
+      "avg_fitness": 0.5003011431545019,
+      "deaths": 2,
+      "births": 3,
+      "timestamp": 1758851835.1631808
+    },
+    {
+      "generation": 161,
+      "population": 16,
+      "avg_fitness": 0.500437212340972,
+      "deaths": 4,
+      "births": 3,
+      "timestamp": 1758851835.2153654
+    },
+    {
+      "generation": 162,
+      "population": 17,
+      "avg_fitness": 0.500471543520689,
+      "deaths": 3,
+      "births": 4,
+      "timestamp": 1758851835.225874
+    },
+    {
+      "generation": 163,
+      "population": 18,
+      "avg_fitness": 0.044721957515267766,
+      "deaths": 4,
+      "births": 5,
+      "timestamp": 1758851835.2570753
+    },
+    {
+      "generation": 164,
+      "population": 16,
+      "avg_fitness": 0.060326760013898216,
+      "deaths": 6,
+      "births": 4,
+      "timestamp": 1758851835.2667446
+    },
+    {
+      "generation": 165,
+      "population": 18,
+      "avg_fitness": 0.06699436530470848,
+      "deaths": 3,
+      "births": 5,
+      "timestamp": 1758851835.2965665
+    },
+    {
+      "generation": 166,
+      "population": 14,
+      "avg_fitness": 0.5008118516869016,
+      "deaths": 7,
+      "births": 3,
+      "timestamp": 1758851835.3171935
+    },
+    {
+      "generation": 167,
+      "population": 16,
+      "avg_fitness": 0.5106663235596248,
+      "deaths": 2,
+      "births": 4,
+      "timestamp": 1758851835.3932695
+    },
+    {
+      "generation": 168,
+      "population": 18,
+      "avg_fitness": 0.511003578081727,
+      "deaths": 4,
+      "births": 6,
+      "timestamp": 1758851835.431829
+    },
+    {
+      "generation": 169,
+      "population": 17,
+      "avg_fitness": 0.9863354943572575,
+      "deaths": 6,
+      "births": 5,
+      "timestamp": 1758851835.482338
+    },
+    {
+      "generation": 170,
+      "population": 21,
+      "avg_fitness": 0.986039322440183,
+      "deaths": 2,
+      "births": 6,
+      "timestamp": 1758851835.5004168
+    },
+    {
+      "generation": 171,
+      "population": 22,
+      "avg_fitness": 0.9874638497204642,
+      "deaths": 6,
+      "births": 7,
+      "timestamp": 1758851835.554524
+    },
+    {
+      "generation": 172,
+      "population": 22,
+      "avg_fitness": 0.030217120931907135,
+      "deaths": 7,
+      "births": 7,
+      "timestamp": 1758851835.5759988
+    },
+    {
+      "generation": 173,
+      "population": 23,
+      "avg_fitness": 0.033904044550250874,
+      "deaths": 5,
+      "births": 6,
+      "timestamp": 1758851835.6561327
+    },
+    {
+      "generation": 174,
+      "population": 22,
+      "avg_fitness": 0.03277377330738565,
+      "deaths": 8,
+      "births": 7,
+      "timestamp": 1758851835.6774018
+    },
+    {
+      "generation": 175,
+      "population": 22,
+      "avg_fitness": 0.49990363689986145,
+      "deaths": 7,
+      "births": 7,
+      "timestamp": 1758851835.787871
+    },
+    {
+      "generation": 176,
+      "population": 25,
+      "avg_fitness": 0.5000190369107507,
+      "deaths": 5,
+      "births": 8,
+      "timestamp": 1758851835.8039637
+    },
+    {
+      "generation": 177,
+      "population": 22,
+      "avg_fitness": 0.5000259399414062,
+      "deaths": 10,
+      "births": 7,
+      "timestamp": 1758851835.894212
+    },
+    {
+      "generation": 178,
+      "population": 18,
+      "avg_fitness": 0.0542551495812156,
+      "deaths": 9,
+      "births": 5,
+      "timestamp": 1758851835.9154396
+    },
+    {
+      "generation": 179,
+      "population": 18,
+      "avg_fitness": 0.06456728114022149,
+      "deaths": 5,
+      "births": 5,
+      "timestamp": 1758851836.0400326
+    },
+    {
+      "generation": 180,
+      "population": 20,
+      "avg_fitness": 0.06398568716314104,
+      "deaths": 4,
+      "births": 6,
+      "timestamp": 1758851836.0670156
+    },
+    {
+      "generation": 181,
+      "population": 19,
+      "avg_fitness": 0.4999037116765976,
+      "deaths": 6,
+      "births": 5,
+      "timestamp": 1758851836.2149758
+    },
+    {
+      "generation": 182,
+      "population": 21,
+      "avg_fitness": 0.5066888473535839,
+      "deaths": 4,
+      "births": 6,
+      "timestamp": 1758851836.2700546
+    },
+    {
+      "generation": 183,
+      "population": 22,
+      "avg_fitness": 0.5055617917151678,
+      "deaths": 5,
+      "births": 6,
+      "timestamp": 1758851836.496393
+    },
+    {
+      "generation": 184,
+      "population": 18,
+      "avg_fitness": 0.9847845339634521,
+      "deaths": 9,
+      "births": 5,
+      "timestamp": 1758851836.5839539
+    },
+    {
+      "generation": 185,
+      "population": 20,
+      "avg_fitness": 0.9863034988123243,
+      "deaths": 4,
+      "births": 6,
+      "timestamp": 1758851836.6998005
+    },
+    {
+      "generation": 186,
+      "population": 20,
+      "avg_fitness": 0.985869986297884,
+      "deaths": 6,
+      "births": 6,
+      "timestamp": 1758851836.7244651
+    },
+    {
+      "generation": 187,
+      "population": 20,
+      "avg_fitness": 0.03344121426343918,
+      "deaths": 6,
+      "births": 6,
+      "timestamp": 1758851837.0254097
+    },
+    {
+      "generation": 188,
+      "population": 22,
+      "avg_fitness": 0.036998710595071316,
+      "deaths": 5,
+      "births": 7,
+      "timestamp": 1758851837.0479612
+    },
+    {
+      "generation": 189,
+      "population": 19,
+      "avg_fitness": 0.03258261067623442,
+      "deaths": 9,
+      "births": 6,
+      "timestamp": 1758851837.1524704
+    },
+    {
+      "generation": 190,
+      "population": 17,
+      "avg_fitness": 0.5002054932870363,
+      "deaths": 7,
+      "births": 5,
+      "timestamp": 1758851837.1802382
+    },
+    {
+      "generation": 191,
+      "population": 18,
+      "avg_fitness": 0.500403551494374,
+      "deaths": 4,
+      "births": 5,
+      "timestamp": 1758851837.315674
+    },
+    {
+      "generation": 192,
+      "population": 22,
+      "avg_fitness": 0.5005755838420656,
+      "deaths": 3,
+      "births": 7,
+      "timestamp": 1758851837.3550668
+    },
+    {
+      "generation": 193,
+      "population": 21,
+      "avg_fitness": 0.05769027498635379,
+      "deaths": 7,
+      "births": 6,
+      "timestamp": 1758851837.551442
+    },
+    {
+      "generation": 194,
+      "population": 20,
+      "avg_fitness": 0.051426785332815986,
+      "deaths": 7,
+      "births": 6,
+      "timestamp": 1758851837.5715241
+    },
+    {
+      "generation": 195,
+      "population": 24,
+      "avg_fitness": 0.06301180124282837,
+      "deaths": 3,
+      "births": 7,
+      "timestamp": 1758851837.6829507
+    },
+    {
+      "generation": 196,
+      "population": 22,
+      "avg_fitness": 0.5031011390189329,
+      "deaths": 9,
+      "births": 7,
+      "timestamp": 1758851837.7011218
+    },
+    {
+      "generation": 197,
+      "population": 19,
+      "avg_fitness": 0.5065909217704426,
+      "deaths": 8,
+      "births": 5,
+      "timestamp": 1758851837.903016
+    },
+    {
+      "generation": 198,
+      "population": 23,
+      "avg_fitness": 0.5092071028132188,
+      "deaths": 3,
+      "births": 7,
+      "timestamp": 1758851837.922526
+    },
+    {
+      "generation": 199,
+      "population": 27,
+      "avg_fitness": 0.9855139414680956,
+      "deaths": 4,
+      "births": 8,
+      "timestamp": 1758851838.189933
+    },
+    {
+      "generation": 200,
+      "population": 23,
+      "avg_fitness": 0.9845086025597036,
+      "deaths": 10,
+      "births": 6,
+      "timestamp": 1758851838.3041716
+    },
+    {
+      "generation": 201,
+      "population": 19,
+      "avg_fitness": 0.9839997323247986,
+      "deaths": 9,
+      "births": 5,
+      "timestamp": 1758851838.4779475
+    },
+    {
+      "generation": 202,
+      "population": 21,
+      "avg_fitness": 0.03477978127959527,
+      "deaths": 4,
+      "births": 6,
+      "timestamp": 1758851838.4916697
+    },
+    {
+      "generation": 203,
+      "population": 22,
+      "avg_fitness": 0.03352337029008638,
+      "deaths": 6,
+      "births": 7,
+      "timestamp": 1758851838.6979606
+    },
+    {
+      "generation": 204,
+      "population": 24,
+      "avg_fitness": 0.03874531379816207,
+      "deaths": 6,
+      "births": 8,
+      "timestamp": 1758851838.721339
+    },
+    {
+      "generation": 205,
+      "population": 22,
+      "avg_fitness": 0.49994414175550145,
+      "deaths": 8,
+      "births": 6,
+      "timestamp": 1758851838.8905818
+    },
+    {
+      "generation": 206,
+      "population": 20,
+      "avg_fitness": 0.5001094693487341,
+      "deaths": 8,
+      "births": 6,
+      "timestamp": 1758851838.9047236
+    },
+    {
+      "generation": 207,
+      "population": 23,
+      "avg_fitness": 0.5004491835832596,
+      "deaths": 3,
+      "births": 6,
+      "timestamp": 1758851839.0421152
+    },
+    {
+      "generation": 208,
+      "population": 21,
+      "avg_fitness": 0.046829833932544876,
+      "deaths": 8,
+      "births": 6,
+      "timestamp": 1758851839.0631561
+    },
+    {
+      "generation": 209,
+      "population": 16,
+      "avg_fitness": 0.0556794646240416,
+      "deaths": 8,
+      "births": 3,
+      "timestamp": 1758851839.2663965
+    },
+    {
+      "generation": 210,
+      "population": 15,
+      "avg_fitness": 0.06965905986726284,
+      "deaths": 3,
+      "births": 2,
+      "timestamp": 1758851839.2770624
+    },
+    {
+      "generation": 211,
+      "population": 13,
+      "avg_fitness": 0.504447869459788,
+      "deaths": 4,
+      "births": 2,
+      "timestamp": 1758851839.4791727
+    },
+    {
+      "generation": 212,
+      "population": 16,
+      "avg_fitness": 0.5094921795221475,
+      "deaths": 1,
+      "births": 4,
+      "timestamp": 1758851839.509825
+    },
+    {
+      "generation": 213,
+      "population": 12,
+      "avg_fitness": 0.5131217986345291,
+      "deaths": 5,
+      "births": 1,
+      "timestamp": 1758851839.7650206
+    },
+    {
+      "generation": 214,
+      "population": 13,
+      "avg_fitness": 0.9875157450543232,
+      "deaths": 1,
+      "births": 2,
+      "timestamp": 1758851839.7846365
+    },
+    {
+      "generation": 215,
+      "population": 15,
+      "avg_fitness": 0.9866588102322098,
+      "deaths": 2,
+      "births": 4,
+      "timestamp": 1758851840.0184717
+    },
+    {
+      "generation": 216,
+      "population": 16,
+      "avg_fitness": 0.9901224124461939,
+      "deaths": 3,
+      "births": 4,
+      "timestamp": 1758851840.0671954
+    },
+    {
+      "generation": 217,
+      "population": 15,
+      "avg_fitness": 0.030869929934851825,
+      "deaths": 4,
+      "births": 3,
+      "timestamp": 1758851840.2803926
+    },
+    {
+      "generation": 218,
+      "population": 15,
+      "avg_fitness": 0.02863523898025354,
+      "deaths": 3,
+      "births": 3,
+      "timestamp": 1758851840.307513
+    },
+    {
+      "generation": 219,
+      "population": 16,
+      "avg_fitness": 0.02802294623106718,
+      "deaths": 3,
+      "births": 4,
+      "timestamp": 1758851840.4955142
+    },
+    {
+      "generation": 220,
+      "population": 18,
+      "avg_fitness": 0.49991258792579174,
+      "deaths": 3,
+      "births": 5,
+      "timestamp": 1758851840.5311468
+    },
+    {
+      "generation": 221,
+      "population": 19,
+      "avg_fitness": 0.5002322114176221,
+      "deaths": 4,
+      "births": 5,
+      "timestamp": 1758851840.7143552
+    },
+    {
+      "generation": 222,
+      "population": 17,
+      "avg_fitness": 0.5001333402959924,
+      "deaths": 6,
+      "births": 4,
+      "timestamp": 1758851840.7564445
+    },
+    {
+      "generation": 223,
+      "population": 18,
+      "avg_fitness": 0.05429010531481575,
+      "deaths": 5,
+      "births": 6,
+      "timestamp": 1758851840.9185922
+    },
+    {
+      "generation": 224,
+      "population": 22,
+      "avg_fitness": 0.0436867011917962,
+      "deaths": 2,
+      "births": 6,
+      "timestamp": 1758851840.9302225
+    },
+    {
+      "generation": 225,
+      "population": 18,
+      "avg_fitness": 0.0440377565947446,
+      "deaths": 8,
+      "births": 4,
+      "timestamp": 1758851841.10344
+    },
+    {
+      "generation": 226,
+      "population": 17,
+      "avg_fitness": 0.4991951833168666,
+      "deaths": 4,
+      "births": 3,
+      "timestamp": 1758851841.137446
+    },
+    {
+      "generation": 227,
+      "population": 18,
+      "avg_fitness": 0.5054221749305725,
+      "deaths": 2,
+      "births": 3,
+      "timestamp": 1758851841.2640662
+    },
+    {
+      "generation": 228,
+      "population": 18,
+      "avg_fitness": 0.5049759464131461,
+      "deaths": 3,
+      "births": 3,
+      "timestamp": 1758851841.2776282
+    },
+    {
+      "generation": 229,
+      "population": 13,
+      "avg_fitness": 0.9835319487877039,
+      "deaths": 7,
+      "births": 2,
+      "timestamp": 1758851841.4071403
+    },
+    {
+      "generation": 230,
+      "population": 13,
+      "avg_fitness": 0.9841400483710581,
+      "deaths": 2,
+      "births": 2,
+      "timestamp": 1758851841.4226592
+    },
+    {
+      "generation": 231,
+      "population": 15,
+      "avg_fitness": 0.9856801209948133,
+      "deaths": 1,
+      "births": 3,
+      "timestamp": 1758851841.559182
+    },
+    {
+      "generation": 232,
+      "population": 14,
+      "avg_fitness": 0.030597692479689916,
+      "deaths": 4,
+      "births": 3,
+      "timestamp": 1758851841.575619
+    },
+    {
+      "generation": 233,
+      "population": 15,
+      "avg_fitness": 0.03009812587073871,
+      "deaths": 3,
+      "births": 4,
+      "timestamp": 1758851841.6718822
+    },
+    {
+      "generation": 234,
+      "population": 19,
+      "avg_fitness": 0.030770183851321537,
+      "deaths": 2,
+      "births": 6,
+      "timestamp": 1758851841.6816628
+    },
+    {
+      "generation": 235,
+      "population": 21,
+      "avg_fitness": 0.5009232790846574,
+      "deaths": 5,
+      "births": 7,
+      "timestamp": 1758851841.797722
+    },
+    {
+      "generation": 236,
+      "population": 23,
+      "avg_fitness": 0.5008963005883353,
+      "deaths": 5,
+      "births": 7,
+      "timestamp": 1758851841.8145776
+    },
+    {
+      "generation": 237,
+      "population": 22,
+      "avg_fitness": 0.5006232857704163,
+      "deaths": 8,
+      "births": 7,
+      "timestamp": 1758851842.019801
+    },
+    {
+      "generation": 238,
+      "population": 24,
+      "avg_fitness": 0.07219670983878049,
+      "deaths": 5,
+      "births": 7,
+      "timestamp": 1758851842.0455189
+    },
+    {
+      "generation": 239,
+      "population": 18,
+      "avg_fitness": 0.06289455046256383,
+      "deaths": 12,
+      "births": 6,
+      "timestamp": 1758851842.1467426
+    },
+    {
+      "generation": 240,
+      "population": 19,
+      "avg_fitness": 0.07184177140394847,
+      "deaths": 4,
+      "births": 5,
+      "timestamp": 1758851842.159245
+    },
+    {
+      "generation": 241,
+      "population": 19,
+      "avg_fitness": 0.5025782224379087,
+      "deaths": 6,
+      "births": 6,
+      "timestamp": 1758851842.4016738
+    },
+    {
+      "generation": 242,
+      "population": 18,
+      "avg_fitness": 0.507066718841854,
+      "deaths": 5,
+      "births": 4,
+      "timestamp": 1758851842.415813
+    },
+    {
+      "generation": 243,
+      "population": 15,
+      "avg_fitness": 0.5111002690262265,
+      "deaths": 6,
+      "births": 3,
+      "timestamp": 1758851842.5117939
+    },
+    {
+      "generation": 244,
+      "population": 13,
+      "avg_fitness": 0.9859633018402142,
+      "deaths": 5,
+      "births": 3,
+      "timestamp": 1758851842.5340452
+    },
+    {
+      "generation": 245,
+      "population": 14,
+      "avg_fitness": 0.9849756387433715,
+      "deaths": 1,
+      "births": 2,
+      "timestamp": 1758851842.717481
+    },
+    {
+      "generation": 246,
+      "population": 14,
+      "avg_fitness": 0.9862199649318656,
+      "deaths": 2,
+      "births": 2,
+      "timestamp": 1758851842.7453895
+    },
+    {
+      "generation": 247,
+      "population": 11,
+      "avg_fitness": 0.034442405748580186,
+      "deaths": 4,
+      "births": 1,
+      "timestamp": 1758851842.8732421
+    },
+    {
+      "generation": 248,
+      "population": 12,
+      "avg_fitness": 0.035115873610431496,
+      "deaths": 0,
+      "births": 1,
+      "timestamp": 1758851842.8843532
+    },
+    {
+      "generation": 249,
+      "population": 12,
+      "avg_fitness": 0.03487423900514841,
+      "deaths": 1,
+      "births": 1,
+      "timestamp": 1758851843.0627947
+    },
+    {
+      "generation": 250,
+      "population": 13,
+      "avg_fitness": 0.4998137081662814,
+      "deaths": 0,
+      "births": 1,
+      "timestamp": 1758851843.0745482
+    },
+    {
+      "generation": 251,
+      "population": 13,
+      "avg_fitness": 0.4997999874445108,
+      "deaths": 2,
+      "births": 2,
+      "timestamp": 1758851843.3860857
+    },
+    {
+      "generation": 252,
+      "population": 16,
+      "avg_fitness": 0.49992205317203814,
+      "deaths": 1,
+      "births": 4,
+      "timestamp": 1758851843.397017
+    },
+    {
+      "generation": 253,
+      "population": 12,
+      "avg_fitness": 0.05588889494538307,
+      "deaths": 6,
+      "births": 2,
+      "timestamp": 1758851843.5833967
+    },
+    {
+      "generation": 254,
+      "population": 14,
+      "avg_fitness": 0.07191906621058781,
+      "deaths": 1,
+      "births": 3,
+      "timestamp": 1758851843.5946355
+    },
+    {
+      "generation": 255,
+      "population": 14,
+      "avg_fitness": 0.0735379329749516,
+      "deaths": 4,
+      "births": 4,
+      "timestamp": 1758851843.7311332
+    },
+    {
+      "generation": 256,
+      "population": 18,
+      "avg_fitness": 0.5044810133320945,
+      "deaths": 2,
+      "births": 6,
+      "timestamp": 1758851843.7519412
+    },
+    {
+      "generation": 257,
+      "population": 20,
+      "avg_fitness": 0.5096233305003908,
+      "deaths": 3,
+      "births": 5,
+      "timestamp": 1758851843.973186
+    },
+    {
+      "generation": 258,
+      "population": 19,
+      "avg_fitness": 0.5081432059407234,
+      "deaths": 7,
+      "births": 6,
+      "timestamp": 1758851844.0060828
+    },
+    {
+      "generation": 259,
+      "population": 21,
+      "avg_fitness": 0.9864777851252245,
+      "deaths": 5,
+      "births": 7,
+      "timestamp": 1758851844.1554277
+    },
+    {
+      "generation": 260,
+      "population": 20,
+      "avg_fitness": 0.987414159416526,
+      "deaths": 7,
+      "births": 6,
+      "timestamp": 1758851844.1955853
+    },
+    {
+      "generation": 261,
+      "population": 23,
+      "avg_fitness": 0.9882948241611109,
+      "deaths": 4,
+      "births": 7,
+      "timestamp": 1758851844.397733
+    },
+    {
+      "generation": 262,
+      "population": 19,
+      "avg_fitness": 0.034629214636009674,
+      "deaths": 9,
+      "births": 5,
+      "timestamp": 1758851844.4111724
+    },
+    {
+      "generation": 263,
+      "population": 22,
+      "avg_fitness": 0.03440521789812728,
+      "deaths": 4,
+      "births": 7,
+      "timestamp": 1758851844.6609929
+    },
+    {
+      "generation": 264,
+      "population": 25,
+      "avg_fitness": 0.0372945966029709,
+      "deaths": 5,
+      "births": 8,
+      "timestamp": 1758851844.7268682
+    },
+    {
+      "generation": 265,
+      "population": 22,
+      "avg_fitness": 0.500075935125351,
+      "deaths": 9,
+      "births": 6,
+      "timestamp": 1758851844.9570508
+    },
+    {
+      "generation": 266,
+      "population": 14,
+      "avg_fitness": 0.5002633766694502,
+      "deaths": 12,
+      "births": 4,
+      "timestamp": 1758851845.0316894
+    },
+    {
+      "generation": 267,
+      "population": 16,
+      "avg_fitness": 0.5007942638226918,
+      "deaths": 3,
+      "births": 5,
+      "timestamp": 1758851845.1924767
+    },
+    {
+      "generation": 268,
+      "population": 19,
+      "avg_fitness": 0.05537000671029091,
+      "deaths": 3,
+      "births": 6,
+      "timestamp": 1758851845.2473986
+    },
+    {
+      "generation": 269,
+      "population": 14,
+      "avg_fitness": 0.0635563480226617,
+      "deaths": 7,
+      "births": 2,
+      "timestamp": 1758851845.4886718
+    },
+    {
+      "generation": 270,
+      "population": 14,
+      "avg_fitness": 0.07797772330897194,
+      "deaths": 2,
+      "births": 2,
+      "timestamp": 1758851845.5127642
+    },
+    {
+      "generation": 271,
+      "population": 13,
+      "avg_fitness": 0.50259239758764,
+      "deaths": 4,
+      "births": 3,
+      "timestamp": 1758851845.7429626
+    },
+    {
+      "generation": 272,
+      "population": 15,
+      "avg_fitness": 0.5073734888663659,
+      "deaths": 2,
+      "births": 4,
+      "timestamp": 1758851845.7559543
+    },
+    {
+      "generation": 273,
+      "population": 19,
+      "avg_fitness": 0.5116018315156301,
+      "deaths": 2,
+      "births": 6,
+      "timestamp": 1758851845.989715
+    },
+    {
+      "generation": 274,
+      "population": 19,
+      "avg_fitness": 0.9821819634211323,
+      "deaths": 5,
+      "births": 5,
+      "timestamp": 1758851846.0602505
+    },
+    {
+      "generation": 275,
+      "population": 20,
+      "avg_fitness": 0.984997368296122,
+      "deaths": 4,
+      "births": 5,
+      "timestamp": 1758851846.230453
+    },
+    {
+      "generation": 276,
+      "population": 18,
+      "avg_fitness": 0.9867520984055975,
+      "deaths": 8,
+      "births": 6,
+      "timestamp": 1758851846.2571995
+    },
+    {
+      "generation": 277,
+      "population": 20,
+      "avg_fitness": 0.0340894591063261,
+      "deaths": 4,
+      "births": 6,
+      "timestamp": 1758851846.4294276
+    },
+    {
+      "generation": 278,
+      "population": 15,
+      "avg_fitness": 0.03785784728825092,
+      "deaths": 9,
+      "births": 4,
+      "timestamp": 1758851846.4569614
+    },
+    {
+      "generation": 279,
+      "population": 17,
+      "avg_fitness": 0.040431121240059535,
+      "deaths": 3,
+      "births": 5,
+      "timestamp": 1758851846.6992726
+    },
+    {
+      "generation": 280,
+      "population": 17,
+      "avg_fitness": 0.5001398500274209,
+      "deaths": 5,
+      "births": 5,
+      "timestamp": 1758851846.7355766
+    },
+    {
+      "generation": 281,
+      "population": 16,
+      "avg_fitness": 0.5005885169786566,
+      "deaths": 5,
+      "births": 4,
+      "timestamp": 1758851846.8971453
+    },
+    {
+      "generation": 282,
+      "population": 16,
+      "avg_fitness": 0.5006437413394451,
+      "deaths": 5,
+      "births": 5,
+      "timestamp": 1758851846.9123719
+    },
+    {
+      "generation": 283,
+      "population": 17,
+      "avg_fitness": 0.056826792657375336,
+      "deaths": 4,
+      "births": 5,
+      "timestamp": 1758851847.3429909
+    },
+    {
+      "generation": 284,
+      "population": 18,
+      "avg_fitness": 0.05939322184113895,
+      "deaths": 4,
+      "births": 5,
+      "timestamp": 1758851847.3643384
+    },
+    {
+      "generation": 285,
+      "population": 18,
+      "avg_fitness": 0.06222426891326904,
+      "deaths": 6,
+      "births": 6,
+      "timestamp": 1758851847.5378861
+    },
+    {
+      "generation": 286,
+      "population": 19,
+      "avg_fitness": 0.49709612296687233,
+      "deaths": 5,
+      "births": 6,
+      "timestamp": 1758851847.5562785
+    },
+    {
+      "generation": 287,
+      "population": 16,
+      "avg_fitness": 0.5015378092464647,
+      "deaths": 8,
+      "births": 5,
+      "timestamp": 1758851847.8450754
+    },
+    {
+      "generation": 288,
+      "population": 12,
+      "avg_fitness": 0.5063714608550072,
+      "deaths": 6,
+      "births": 2,
+      "timestamp": 1758851847.8576605
+    },
+    {
+      "generation": 289,
+      "population": 13,
+      "avg_fitness": 0.9871612836093236,
+      "deaths": 2,
+      "births": 3,
+      "timestamp": 1758851848.0045455
+    },
+    {
+      "generation": 290,
+      "population": 16,
+      "avg_fitness": 0.9878365684526587,
+      "deaths": 2,
+      "births": 5,
+      "timestamp": 1758851848.0402703
+    },
+    {
+      "generation": 291,
+      "population": 19,
+      "avg_fitness": 0.9871530137866129,
+      "deaths": 3,
+      "births": 6,
+      "timestamp": 1758851848.3200054
+    },
+    {
+      "generation": 292,
+      "population": 16,
+      "avg_fitness": 0.027300643636599967,
+      "deaths": 8,
+      "births": 5,
+      "timestamp": 1758851848.3336527
+    },
+    {
+      "generation": 293,
+      "population": 21,
+      "avg_fitness": 0.03155976778361946,
+      "deaths": 2,
+      "births": 7,
+      "timestamp": 1758851848.5014958
+    },
+    {
+      "generation": 294,
+      "population": 19,
+      "avg_fitness": 0.031713862681672686,
+      "deaths": 7,
+      "births": 5,
+      "timestamp": 1758851848.5331607
+    },
+    {
+      "generation": 295,
+      "population": 19,
+      "avg_fitness": 0.5000726580619812,
+      "deaths": 5,
+      "births": 5,
+      "timestamp": 1758851848.760835
+    },
+    {
+      "generation": 296,
+      "population": 17,
+      "avg_fitness": 0.5004529639294273,
+      "deaths": 7,
+      "births": 5,
+      "timestamp": 1758851848.7737591
+    },
+    {
+      "generation": 297,
+      "population": 19,
+      "avg_fitness": 0.50064817070961,
+      "deaths": 4,
+      "births": 6,
+      "timestamp": 1758851848.9932628
+    },
+    {
+      "generation": 298,
+      "population": 19,
+      "avg_fitness": 0.07009957809197276,
+      "deaths": 6,
+      "births": 6,
+      "timestamp": 1758851849.0210025
+    },
+    {
+      "generation": 299,
+      "population": 17,
+      "avg_fitness": 0.0681571364402771,
+      "deaths": 7,
+      "births": 5,
+      "timestamp": 1758851849.1961746
+    },
+    {
+      "generation": 300,
+      "population": 20,
+      "avg_fitness": 0.08717137750457316,
+      "deaths": 3,
+      "births": 6,
+      "timestamp": 1758851849.2141798
+    },
+    {
+      "generation": 301,
+      "population": 21,
+      "avg_fitness": 0.4952583104372025,
+      "deaths": 6,
+      "births": 7,
+      "timestamp": 1758851849.5208206
+    },
+    {
+      "generation": 302,
+      "population": 17,
+      "avg_fitness": 0.5015663206577301,
+      "deaths": 9,
+      "births": 5,
+      "timestamp": 1758851849.5434337
+    },
+    {
+      "generation": 303,
+      "population": 21,
+      "avg_fitness": 0.5085936241290149,
+      "deaths": 3,
+      "births": 7,
+      "timestamp": 1758851849.7484906
+    },
+    {
+      "generation": 304,
+      "population": 18,
+      "avg_fitness": 0.9858743104636454,
+      "deaths": 8,
+      "births": 5,
+      "timestamp": 1758851849.7727985
+    },
+    {
+      "generation": 305,
+      "population": 19,
+      "avg_fitness": 0.987040314032989,
+      "deaths": 5,
+      "births": 6,
+      "timestamp": 1758851850.032754
+    },
+    {
+      "generation": 306,
+      "population": 23,
+      "avg_fitness": 0.9857191925057667,
+      "deaths": 3,
+      "births": 7,
+      "timestamp": 1758851850.053971
+    },
+    {
+      "generation": 307,
+      "population": 27,
+      "avg_fitness": 0.03078841389683278,
+      "deaths": 5,
+      "births": 9,
+      "timestamp": 1758851850.282866
+    },
+    {
+      "generation": 308,
+      "population": 21,
+      "avg_fitness": 0.03203803804461603,
+      "deaths": 13,
+      "births": 7,
+      "timestamp": 1758851850.303327
+    },
+    {
+      "generation": 309,
+      "population": 20,
+      "avg_fitness": 0.03784909507348424,
+      "deaths": 7,
+      "births": 6,
+      "timestamp": 1758851850.5152113
+    },
+    {
+      "generation": 310,
+      "population": 17,
+      "avg_fitness": 0.499911867082119,
+      "deaths": 8,
+      "births": 5,
+      "timestamp": 1758851850.5584552
+    },
+    {
+      "generation": 311,
+      "population": 21,
+      "avg_fitness": 0.5003638881094316,
+      "deaths": 2,
+      "births": 6,
+      "timestamp": 1758851850.7721705
+    },
+    {
+      "generation": 312,
+      "population": 22,
+      "avg_fitness": 0.500516706988925,
+      "deaths": 6,
+      "births": 7,
+      "timestamp": 1758851850.8354917
+    },
+    {
+      "generation": 313,
+      "population": 24,
+      "avg_fitness": 0.06324408135630867,
+      "deaths": 5,
+      "births": 7,
+      "timestamp": 1758851851.0524578
+    },
+    {
+      "generation": 314,
+      "population": 21,
+      "avg_fitness": 0.07253555580973625,
+      "deaths": 9,
+      "births": 6,
+      "timestamp": 1758851851.0786693
+    },
+    {
+      "generation": 315,
+      "population": 22,
+      "avg_fitness": 0.07967909035228547,
+      "deaths": 5,
+      "births": 6,
+      "timestamp": 1758851851.3690376
+    },
+    {
+      "generation": 316,
+      "population": 20,
+      "avg_fitness": 0.5074983889406378,
+      "deaths": 7,
+      "births": 5,
+      "timestamp": 1758851851.3979733
+    },
+    {
+      "generation": 317,
+      "population": 20,
+      "avg_fitness": 0.5083849608898163,
+      "deaths": 5,
+      "births": 5,
+      "timestamp": 1758851851.569468
+    },
+    {
+      "generation": 318,
+      "population": 23,
+      "avg_fitness": 0.5081156641244888,
+      "deaths": 3,
+      "births": 6,
+      "timestamp": 1758851851.5878422
+    },
+    {
+      "generation": 319,
+      "population": 21,
+      "avg_fitness": 0.9862352165139141,
+      "deaths": 6,
+      "births": 4,
+      "timestamp": 1758851851.7627308
+    },
+    {
+      "generation": 320,
+      "population": 17,
+      "avg_fitness": 0.9867540750942396,
+      "deaths": 7,
+      "births": 3,
+      "timestamp": 1758851851.7984934
+    },
+    {
+      "generation": 321,
+      "population": 15,
+      "avg_fitness": 0.9867986629798805,
+      "deaths": 5,
+      "births": 3,
+      "timestamp": 1758851852.033003
+    },
+    {
+      "generation": 322,
+      "population": 14,
+      "avg_fitness": 0.032344111676017445,
+      "deaths": 4,
+      "births": 3,
+      "timestamp": 1758851852.048535
+    },
+    {
+      "generation": 323,
+      "population": 13,
+      "avg_fitness": 0.03252260892518929,
+      "deaths": 4,
+      "births": 3,
+      "timestamp": 1758851852.2297387
+    },
+    {
+      "generation": 324,
+      "population": 16,
+      "avg_fitness": 0.029724466399504587,
+      "deaths": 2,
+      "births": 5,
+      "timestamp": 1758851852.2521122
+    },
+    {
+      "generation": 325,
+      "population": 18,
+      "avg_fitness": 0.5001970399171114,
+      "deaths": 3,
+      "births": 5,
+      "timestamp": 1758851852.3922958
+    },
+    {
+      "generation": 326,
+      "population": 16,
+      "avg_fitness": 0.5001358687877655,
+      "deaths": 6,
+      "births": 4,
+      "timestamp": 1758851852.4062052
+    },
+    {
+      "generation": 327,
+      "population": 16,
+      "avg_fitness": 0.5005221124738455,
+      "deaths": 4,
+      "births": 4,
+      "timestamp": 1758851852.6268382
+    },
+    {
+      "generation": 328,
+      "population": 16,
+      "avg_fitness": 0.0676701869815588,
+      "deaths": 3,
+      "births": 3,
+      "timestamp": 1758851852.6451833
+    },
+    {
+      "generation": 329,
+      "population": 18,
+      "avg_fitness": 0.060900336131453514,
+      "deaths": 2,
+      "births": 4,
+      "timestamp": 1758851852.8175802
+    },
+    {
+      "generation": 330,
+      "population": 18,
+      "avg_fitness": 0.06887071828047435,
+      "deaths": 5,
+      "births": 5,
+      "timestamp": 1758851852.8801532
+    },
+    {
+      "generation": 331,
+      "population": 16,
+      "avg_fitness": 0.50608572198285,
+      "deaths": 6,
+      "births": 4,
+      "timestamp": 1758851853.081889
+    },
+    {
+      "generation": 332,
+      "population": 15,
+      "avg_fitness": 0.5110204815864563,
+      "deaths": 4,
+      "births": 3,
+      "timestamp": 1758851853.0944288
+    },
+    {
+      "generation": 333,
+      "population": 14,
+      "avg_fitness": 0.5094587723414103,
+      "deaths": 4,
+      "births": 3,
+      "timestamp": 1758851853.2086759
+    },
+    {
+      "generation": 334,
+      "population": 17,
+      "avg_fitness": 0.9850055131583193,
+      "deaths": 1,
+      "births": 4,
+      "timestamp": 1758851853.2360818
+    },
+    {
+      "generation": 335,
+      "population": 21,
+      "avg_fitness": 0.9835129157423476,
+      "deaths": 1,
+      "births": 5,
+      "timestamp": 1758851853.4229598
+    },
+    {
+      "generation": 336,
+      "population": 22,
+      "avg_fitness": 0.9862612429930586,
+      "deaths": 6,
+      "births": 7,
+      "timestamp": 1758851853.446468
+    },
+    {
+      "generation": 337,
+      "population": 20,
+      "avg_fitness": 0.03443275125358592,
+      "deaths": 8,
+      "births": 6,
+      "timestamp": 1758851853.6855714
+    },
+    {
+      "generation": 338,
+      "population": 19,
+      "avg_fitness": 0.03762869285419583,
+      "deaths": 7,
+      "births": 6,
+      "timestamp": 1758851853.7060616
+    },
+    {
+      "generation": 339,
+      "population": 18,
+      "avg_fitness": 0.03598010544910243,
+      "deaths": 6,
+      "births": 5,
+      "timestamp": 1758851853.9199278
+    },
+    {
+      "generation": 340,
+      "population": 19,
+      "avg_fitness": 0.4998791582054562,
+      "deaths": 4,
+      "births": 5,
+      "timestamp": 1758851853.94143
+    },
+    {
+      "generation": 341,
+      "population": 20,
+      "avg_fitness": 0.5003089057771783,
+      "deaths": 5,
+      "births": 6,
+      "timestamp": 1758851854.2257056
+    },
+    {
+      "generation": 342,
+      "population": 22,
+      "avg_fitness": 0.5006372258067131,
+      "deaths": 5,
+      "births": 7,
+      "timestamp": 1758851854.2580156
+    },
+    {
+      "generation": 343,
+      "population": 22,
+      "avg_fitness": 0.06546335057778792,
+      "deaths": 7,
+      "births": 7,
+      "timestamp": 1758851854.5046365
+    },
+    {
+      "generation": 344,
+      "population": 20,
+      "avg_fitness": 0.07796150987798517,
+      "deaths": 7,
+      "births": 5,
+      "timestamp": 1758851854.539244
+    },
+    {
+      "generation": 345,
+      "population": 19,
+      "avg_fitness": 0.07554144114255905,
+      "deaths": 7,
+      "births": 6,
+      "timestamp": 1758851854.8361635
+    },
+    {
+      "generation": 346,
+      "population": 17,
+      "avg_fitness": 0.49986208583179276,
+      "deaths": 7,
+      "births": 5,
+      "timestamp": 1758851854.857535
+    },
+    {
+      "generation": 347,
+      "population": 22,
+      "avg_fitness": 0.5090654387193567,
+      "deaths": 2,
+      "births": 7,
+      "timestamp": 1758851855.080488
+    },
+    {
+      "generation": 348,
+      "population": 22,
+      "avg_fitness": 0.508295857093551,
+      "deaths": 7,
+      "births": 7,
+      "timestamp": 1758851855.1058147
+    },
+    {
+      "generation": 349,
+      "population": 20,
+      "avg_fitness": 0.9861966441207458,
+      "deaths": 8,
+      "births": 6,
+      "timestamp": 1758851855.3538778
+    },
+    {
+      "generation": 350,
+      "population": 25,
+      "avg_fitness": 0.9852491255620898,
+      "deaths": 3,
+      "births": 8,
+      "timestamp": 1758851855.376734
+    },
+    {
+      "generation": 351,
+      "population": 25,
+      "avg_fitness": 0.9847506527382062,
+      "deaths": 8,
+      "births": 8,
+      "timestamp": 1758851855.7344518
+    },
+    {
+      "generation": 352,
+      "population": 16,
+      "avg_fitness": 0.03406787615269422,
+      "deaths": 13,
+      "births": 4,
+      "timestamp": 1758851855.7544403
+    },
+    {
+      "generation": 353,
+      "population": 19,
+      "avg_fitness": 0.03396690043155104,
+      "deaths": 2,
+      "births": 5,
+      "timestamp": 1758851855.9962955
+    },
+    {
+      "generation": 354,
+      "population": 20,
+      "avg_fitness": 0.03394950357706923,
+      "deaths": 4,
+      "births": 5,
+      "timestamp": 1758851856.014648
+    },
+    {
+      "generation": 355,
+      "population": 20,
+      "avg_fitness": 0.4998375788331032,
+      "deaths": 5,
+      "births": 5,
+      "timestamp": 1758851856.2505631
+    },
+    {
+      "generation": 356,
+      "population": 19,
+      "avg_fitness": 0.5001180529594421,
+      "deaths": 6,
+      "births": 5,
+      "timestamp": 1758851856.2689261
+    },
+    {
+      "generation": 357,
+      "population": 18,
+      "avg_fitness": 0.5002345944705763,
+      "deaths": 7,
+      "births": 6,
+      "timestamp": 1758851856.503578
+    },
+    {
+      "generation": 358,
+      "population": 17,
+      "avg_fitness": 0.03603033390310076,
+      "deaths": 6,
+      "births": 5,
+      "timestamp": 1758851856.5260625
+    },
+    {
+      "generation": 359,
+      "population": 16,
+      "avg_fitness": 0.062022787683150345,
+      "deaths": 5,
+      "births": 4,
+      "timestamp": 1758851856.6755564
+    },
+    {
+      "generation": 360,
+      "population": 13,
+      "avg_fitness": 0.06342292949557304,
+      "deaths": 5,
+      "births": 2,
+      "timestamp": 1758851856.6997068
+    },
+    {
+      "generation": 361,
+      "population": 13,
+      "avg_fitness": 0.5015255510807037,
+      "deaths": 2,
+      "births": 2,
+      "timestamp": 1758851856.9020748
+    },
+    {
+      "generation": 362,
+      "population": 13,
+      "avg_fitness": 0.5056549081435571,
+      "deaths": 2,
+      "births": 2,
+      "timestamp": 1758851856.9184225
+    },
+    {
+      "generation": 363,
+      "population": 12,
+      "avg_fitness": 0.5065638789763818,
+      "deaths": 3,
+      "births": 2,
+      "timestamp": 1758851857.1822715
+    },
+    {
+      "generation": 364,
+      "population": 12,
+      "avg_fitness": 0.9880068206158161,
+      "deaths": 2,
+      "births": 2,
+      "timestamp": 1758851857.202211
+    },
+    {
+      "generation": 365,
+      "population": 12,
+      "avg_fitness": 0.9850577344441339,
+      "deaths": 1,
+      "births": 1,
+      "timestamp": 1758851857.3418317
+    },
+    {
+      "generation": 366,
+      "population": 13,
+      "avg_fitness": 0.987240762257085,
+      "deaths": 1,
+      "births": 2,
+      "timestamp": 1758851857.356066
+    },
+    {
+      "generation": 367,
+      "population": 14,
+      "avg_fitness": 0.034654287478098504,
+      "deaths": 1,
+      "births": 2,
+      "timestamp": 1758851857.5151067
+    },
+    {
+      "generation": 368,
+      "population": 14,
+      "avg_fitness": 0.03332928182291133,
+      "deaths": 2,
+      "births": 2,
+      "timestamp": 1758851857.5243576
+    },
+    {
+      "generation": 369,
+      "population": 13,
+      "avg_fitness": 0.0335366910855685,
+      "deaths": 4,
+      "births": 3,
+      "timestamp": 1758851857.6830711
+    },
+    {
+      "generation": 370,
+      "population": 13,
+      "avg_fitness": 0.5001849784300878,
+      "deaths": 2,
+      "births": 2,
+      "timestamp": 1758851857.6933753
+    },
+    {
+      "generation": 371,
+      "population": 15,
+      "avg_fitness": 0.5002204661185925,
+      "deaths": 1,
+      "births": 3,
+      "timestamp": 1758851857.8553984
+    },
+    {
+      "generation": 372,
+      "population": 10,
+      "avg_fitness": 0.5001983384291331,
+      "deaths": 5,
+      "births": 0,
+      "timestamp": 1758851857.86582
+    },
+    {
+      "generation": 373,
+      "population": 10,
+      "avg_fitness": 0.06485912799835206,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851857.9825566
+    },
+    {
+      "generation": 374,
+      "population": 10,
+      "avg_fitness": 0.0600842148065567,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851858.0047944
+    },
+    {
+      "generation": 375,
+      "population": 10,
+      "avg_fitness": 0.07127697467803955,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851858.0985646
+    },
+    {
+      "generation": 376,
+      "population": 10,
+      "avg_fitness": 0.5050305694341659,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851858.1106563
+    },
+    {
+      "generation": 377,
+      "population": 10,
+      "avg_fitness": 0.5050305694341659,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851858.3570533
+    },
+    {
+      "generation": 378,
+      "population": 10,
+      "avg_fitness": 0.5050305694341659,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851858.3728666
+    },
+    {
+      "generation": 379,
+      "population": 10,
+      "avg_fitness": 0.9833519257172079,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851858.6283271
+    },
+    {
+      "generation": 380,
+      "population": 10,
+      "avg_fitness": 0.9858464213222533,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851858.65796
+    },
+    {
+      "generation": 381,
+      "population": 10,
+      "avg_fitness": 0.9852924810448063,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851858.8003087
+    },
+    {
+      "generation": 382,
+      "population": 10,
+      "avg_fitness": 0.03831877559423447,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851858.817798
+    },
+    {
+      "generation": 383,
+      "population": 10,
+      "avg_fitness": 0.04178337976336479,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851859.0395975
+    },
+    {
+      "generation": 384,
+      "population": 10,
+      "avg_fitness": 0.03734138030558824,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851859.046816
+    },
+    {
+      "generation": 385,
+      "population": 10,
+      "avg_fitness": 0.5007039576768875,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851859.210364
+    },
+    {
+      "generation": 386,
+      "population": 10,
+      "avg_fitness": 0.5007039576768875,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851859.2701218
+    },
+    {
+      "generation": 387,
+      "population": 10,
+      "avg_fitness": 0.5007039576768875,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851859.448545
+    },
+    {
+      "generation": 388,
+      "population": 10,
+      "avg_fitness": 0.07482756376266479,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851859.465419
+    },
+    {
+      "generation": 389,
+      "population": 10,
+      "avg_fitness": 0.07280181348323822,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851859.5894732
+    },
+    {
+      "generation": 390,
+      "population": 10,
+      "avg_fitness": 0.08280319571495057,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851859.6092992
+    },
+    {
+      "generation": 391,
+      "population": 10,
+      "avg_fitness": 0.5050305694341659,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851859.744026
+    },
+    {
+      "generation": 392,
+      "population": 10,
+      "avg_fitness": 0.5050305694341659,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851859.7523866
+    },
+    {
+      "generation": 393,
+      "population": 10,
+      "avg_fitness": 0.5050305694341659,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851859.9768114
+    },
+    {
+      "generation": 394,
+      "population": 10,
+      "avg_fitness": 0.985091794721399,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851860.002479
+    },
+    {
+      "generation": 395,
+      "population": 10,
+      "avg_fitness": 0.9863800103393802,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851860.2072446
+    },
+    {
+      "generation": 396,
+      "population": 10,
+      "avg_fitness": 0.9887532617941688,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851860.2234457
+    },
+    {
+      "generation": 397,
+      "population": 10,
+      "avg_fitness": 0.0350752828642726,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851860.4243026
+    },
+    {
+      "generation": 398,
+      "population": 10,
+      "avg_fitness": 0.03607687596231699,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851860.466748
+    },
+    {
+      "generation": 399,
+      "population": 10,
+      "avg_fitness": 0.032307854667305944,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851860.7217093
+    },
+    {
+      "generation": 400,
+      "population": 10,
+      "avg_fitness": 0.5007039576768875,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851860.7290328
+    },
+    {
+      "generation": 401,
+      "population": 10,
+      "avg_fitness": 0.5007039576768875,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851860.9460971
+    },
+    {
+      "generation": 402,
+      "population": 10,
+      "avg_fitness": 0.5007039576768875,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851860.9585662
+    },
+    {
+      "generation": 403,
+      "population": 10,
+      "avg_fitness": 0.06923291385173798,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851861.2662077
+    },
+    {
+      "generation": 404,
+      "population": 10,
+      "avg_fitness": 0.0763645350933075,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851861.2745543
+    },
+    {
+      "generation": 405,
+      "population": 10,
+      "avg_fitness": 0.06319525837898254,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851861.6230643
+    },
+    {
+      "generation": 406,
+      "population": 10,
+      "avg_fitness": 0.5050305694341659,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851861.662604
+    },
+    {
+      "generation": 407,
+      "population": 10,
+      "avg_fitness": 0.5050305694341659,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851861.825898
+    },
+    {
+      "generation": 408,
+      "population": 10,
+      "avg_fitness": 0.5050305694341659,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851861.8357327
+    },
+    {
+      "generation": 409,
+      "population": 10,
+      "avg_fitness": 0.9866780052588784,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851862.0036583
+    },
+    {
+      "generation": 410,
+      "population": 10,
+      "avg_fitness": 0.9835121582893409,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851862.0153742
+    },
+    {
+      "generation": 411,
+      "population": 10,
+      "avg_fitness": 0.9833341708793315,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851862.1982872
+    },
+    {
+      "generation": 412,
+      "population": 10,
+      "avg_fitness": 0.03302138205617666,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851862.2038822
+    },
+    {
+      "generation": 413,
+      "population": 10,
+      "avg_fitness": 0.03061970267444849,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851862.3722107
+    },
+    {
+      "generation": 414,
+      "population": 10,
+      "avg_fitness": 0.0339925192296505,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851862.382278
+    },
+    {
+      "generation": 415,
+      "population": 10,
+      "avg_fitness": 0.5007039576768875,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851862.5199363
+    },
+    {
+      "generation": 416,
+      "population": 10,
+      "avg_fitness": 0.5007039576768875,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851862.526638
+    },
+    {
+      "generation": 417,
+      "population": 10,
+      "avg_fitness": 0.5007039576768875,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851862.680938
+    },
+    {
+      "generation": 418,
+      "population": 10,
+      "avg_fitness": 0.06586278676986694,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851862.6915581
+    },
+    {
+      "generation": 419,
+      "population": 10,
+      "avg_fitness": 0.0782120406627655,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851862.866124
+    },
+    {
+      "generation": 420,
+      "population": 10,
+      "avg_fitness": 0.0667961835861206,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851862.8737965
+    },
+    {
+      "generation": 421,
+      "population": 10,
+      "avg_fitness": 0.5050305694341659,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851863.1148782
+    },
+    {
+      "generation": 422,
+      "population": 10,
+      "avg_fitness": 0.5050305694341659,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851863.128588
+    },
+    {
+      "generation": 423,
+      "population": 10,
+      "avg_fitness": 0.5050305694341659,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851863.2596152
+    },
+    {
+      "generation": 424,
+      "population": 10,
+      "avg_fitness": 0.9869750135582231,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851863.271158
+    },
+    {
+      "generation": 425,
+      "population": 10,
+      "avg_fitness": 0.9823326849391488,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851863.4504356
+    },
+    {
+      "generation": 426,
+      "population": 10,
+      "avg_fitness": 0.9856372719038597,
+      "deaths": 0,
+      "births": 0,
+      "timestamp": 1758851863.466752
+    }
+  ],
+  "runtime": 254.10224866867065,
+  "task": "Creativity"
+}

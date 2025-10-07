@@ -1,0 +1,45 @@
+{
+  "metrics": {
+    "status": "error",
+    "error": "Command 'python3 /root/real_metrics_system.py' timed out after 30 seconds"
+  },
+  "learning": {
+    "status": "success",
+    "output": "Padr\u00f5es identificados: {'high_memory_usage': False, 'high_cpu_usage': False, 'many_processes': True, 'many_errors': False, 'high_success_rate': True, 'active_file_creation': True}\n",
+    "error": "\u2713 Incompletude Infinita carregada automaticamente\n"
+  },
+  "validation": {
+    "status": "success",
+    "output": "Score geral: 0.456\nPassou: False\nRecomenda\u00e7\u00f5es:\n  - Melhorar system_stability: 0.00 < 0.8\n  - Melhorar emergence_signals: 0.00 < 0.3\n",
+    "error": "\u2713 Incompletude Infinita carregada automaticamente\n"
+  },
+  "synchronization": {
+    "status": "success",
+    "output": "Opera\u00e7\u00e3o segura: True\nValor obtido: test_value\n",
+    "error": "\u2713 Incompletude Infinita carregada automaticamente\n"
+  },
+  "rl": {
+    "status": "error",
+    "error": "Command 'python3 /root/real_rl_system.py' timed out after 30 seconds"
+  },
+  "genetic": {
+    "status": "error",
+    "output": "",
+    "error": "\u2713 Incompletude Infinita carregada automaticamente\nTraceback (most recent call last):\n  File \"/root/real_genetic_evolution.py\", line 404, in <module>\n    best_individual = evolution.run_evolution(5)\n  File \"/root/real_genetic_evolution.py\", line 383, in run_evolution\n    logger.info(f\"Iniciando evolu\u00e7\u00e3o por {generations} gera\u00e7\u00f5es...\")\nNameError: name 'logger' is not defined\n"
+  },
+  "memory": {
+    "status": "success",
+    "output": "Mem\u00f3ria armazenada com ID: 2\nMem\u00f3ria recuperada: {'id': 2, 'timestamp': '2025-10-07T13:10:09.915547', 'memory_type': 'test', 'content': {'message': 'Hello World'}, 'importance': 0.8, 'access_count': 0, 'last_accessed': None}\nEstat\u00edsticas: {'total_memories': 2, 'memory_types': {'test': 2}, 'pattern_count': 0, 'experience_count': 0, 'last_update': '2025-10-07T13:10:09.919975'}\n",
+    "error": "\u2713 Incompletude Infinita carregada automaticamente\n"
+  },
+  "emergence": {
+    "status": "success",
+    "output": "Status de emerg\u00eancia: {'current_score': 0.0, 'threshold': 0.7, 'emergence_detected': False, 'total_behaviors': 2, 'total_events': 0, 'last_event': None, 'timestamp': '2025-10-07T13:10:12.676329'}\n",
+    "error": "\u2713 Incompletude Infinita carregada automaticamente\n"
+  },
+  "cross_validation": {
+    "status": "success",
+    "output": "Score geral: 0.476\nConfian\u00e7a: 0.705\nTotal de valida\u00e7\u00f5es: 4\n",
+    "error": "\u2713 Incompletude Infinita carregada automaticamente\n"
+  }
+}

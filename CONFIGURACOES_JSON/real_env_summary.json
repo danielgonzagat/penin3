@@ -1,0 +1,82 @@
+{
+  "last_cycle": 1000,
+  "blocks": [
+    {
+      "block_start_cycle": 0,
+      "avg_success_rate": 0.6909568342004595,
+      "avg_behavior_diversity": 6.2719502719502715,
+      "max_completed_objectives": 2,
+      "samples": 1287
+    },
+    {
+      "block_start_cycle": 100,
+      "avg_success_rate": 0.696242644259013,
+      "avg_behavior_diversity": 6.276923076923077,
+      "max_completed_objectives": 4,
+      "samples": 1300
+    },
+    {
+      "block_start_cycle": 200,
+      "avg_success_rate": 0.6983639753489094,
+      "avg_behavior_diversity": 6.383847549909256,
+      "max_completed_objectives": 7,
+      "samples": 1102
+    },
+    {
+      "block_start_cycle": 300,
+      "avg_success_rate": 0.6972711580560951,
+      "avg_behavior_diversity": 6.349090909090909,
+      "max_completed_objectives": 9,
+      "samples": 1100
+    },
+    {
+      "block_start_cycle": 400,
+      "avg_success_rate": 0.6970224502932892,
+      "avg_behavior_diversity": 6.367272727272727,
+      "max_completed_objectives": 12,
+      "samples": 1100
+    },
+    {
+      "block_start_cycle": 500,
+      "avg_success_rate": 0.6971891571173191,
+      "avg_behavior_diversity": 6.327272727272727,
+      "max_completed_objectives": 14,
+      "samples": 1100
+    },
+    {
+      "block_start_cycle": 600,
+      "avg_success_rate": 0.6974344078400038,
+      "avg_behavior_diversity": 6.361818181818182,
+      "max_completed_objectives": 17,
+      "samples": 1100
+    },
+    {
+      "block_start_cycle": 700,
+      "avg_success_rate": 0.6975013409445173,
+      "avg_behavior_diversity": 6.340909090909091,
+      "max_completed_objectives": 19,
+      "samples": 1100
+    },
+    {
+      "block_start_cycle": 800,
+      "avg_success_rate": 0.6975094412811955,
+      "avg_behavior_diversity": 6.319090909090909,
+      "max_completed_objectives": 22,
+      "samples": 1100
+    },
+    {
+      "block_start_cycle": 900,
+      "avg_success_rate": 0.698006746091591,
+      "avg_behavior_diversity": 6.346363636363637,
+      "max_completed_objectives": 24,
+      "samples": 1100
+    },
+    {
+      "block_start_cycle": 1000,
+      "avg_success_rate": 0.6980492424242425,
+      "avg_behavior_diversity": 6.181818181818182,
+      "max_completed_objectives": 24,
+      "samples": 11
+    }
+  ]
+}

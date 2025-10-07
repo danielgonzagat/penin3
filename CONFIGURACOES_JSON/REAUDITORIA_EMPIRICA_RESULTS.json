@@ -1,0 +1,20 @@
+{
+  "tests": {
+    "brain_spec": "True",
+    "brain_router": "True",
+    "unified_brain_core": "True",
+    "brain_system_integration": "True",
+    "bug1_router_clamp": "True",
+    "bug2_adapters_train": "True",
+    "bug3_registry_load": "True",
+    "system_works": "True",
+    "performance": "True",
+    "bug9_metrics_deque": "True",
+    "bug8_alpha_adaptive": "True"
+  },
+  "passed": 11,
+  "failed": 0,
+  "total": 11,
+  "realidade_pct": 100.0,
+  "teatro_pct": 0.0
+}

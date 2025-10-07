@@ -1,0 +1,48 @@
+{
+  "current_generation": 45,
+  "current_population": 24716,
+  "history": [
+    {
+      "generation": 41,
+      "population": 24353,
+      "avg_fitness": 0.5,
+      "deaths": 0,
+      "births": 500,
+      "timestamp": 1758845061.9710538
+    },
+    {
+      "generation": 42,
+      "population": 24699,
+      "avg_fitness": 0.5000008172613539,
+      "deaths": 154,
+      "births": 500,
+      "timestamp": 1758845342.3790822
+    },
+    {
+      "generation": 43,
+      "population": 24677,
+      "avg_fitness": 0.4847893382311881,
+      "deaths": 522,
+      "births": 500,
+      "timestamp": 1758845756.672991
+    },
+    {
+      "generation": 44,
+      "population": 24703,
+      "avg_fitness": 0.4851963520726359,
+      "deaths": 474,
+      "births": 500,
+      "timestamp": 1758846065.0158868
+    },
+    {
+      "generation": 45,
+      "population": 24716,
+      "avg_fitness": 0.48462736112325483,
+      "deaths": 487,
+      "births": 500,
+      "timestamp": 1758846483.6028867
+    }
+  ],
+  "runtime": 1804.9734025001526,
+  "task": "Logic"
+}

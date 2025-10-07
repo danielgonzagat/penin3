@@ -1,0 +1,30 @@
+{
+  "cycle_count": 270,
+  "emergence_score": 0.4826931029947097,
+  "last_cycle": "2025-10-07T17:13:56.665467",
+  "last_analysis": {
+    "pattern_detected": true,
+    "total_surprises": 20,
+    "systems_affected": [
+      "v7_ultimate"
+    ],
+    "avg_surprise_score": 5.745177944194102,
+    "max_surprise": 10.0,
+    "trend": "stable",
+    "meta_surprise": false,
+    "recommendation": "MONITOR_CLOSELY",
+    "darwin_stagnant": true
+  },
+  "last_darwin_stats": {
+    "generation": 5,
+    "population_size": 24,
+    "best_fitness": 0.39151409522842995,
+    "avg_fitness": 0.035072277661209676,
+    "min_fitness": 0.0,
+    "std_fitness": 0.09802035169492719,
+    "coverage": 0.0449438202247191,
+    "novelty_archive_size": 144,
+    "champion_accepted": true,
+    "champion_score": 0.39151409522842995
+  }
+}

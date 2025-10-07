@@ -1,0 +1,429 @@
+{
+  "top_hits": [
+    {
+      "path": "darwinacci_omega/logs/cerebrum_24_7.log",
+      "score": 821,
+      "lines": [
+        "2025-10-05 22:12:13 | INFO     | \ud83e\udde0 DARWINACCI CEREBRUM - MODO CONT\u00cdNUO 24/7",
+        "2025-10-05 22:12:13 | INFO     | [Darwinacci] Engine initialized: pop_size=30, max_cycles=7, seed=43, bins=89, novelty=(k=7, max=2000), arena_hist=8",
+        "2025-10-05 22:12:13 | INFO     | [Cerebrum] \ud83e\udde0 DARWINACCI CEREBRUM initialized"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/core/engine.py",
+      "score": 223,
+      "lines": [
+        "from .worm import Worm",
+        "from .golden_spiral import GoldenSpiralArchive",
+        "from .novelty_phi import Novelty"
+      ]
+    },
+    {
+      "path": "intelligence_emergence_maestro.py",
+      "score": 181,
+      "lines": [
+        "INTELLIGENCE EMERGENCE MAESTRO - TOP 10 SYSTEMS COORDINATOR",
+        "logging.FileHandler('intelligence_emergence_maestro.log'),",
+        "class RealAnomalyDetector:"
+      ]
+    },
+    {
+      "path": "true_emergent_intelligence_system.py",
+      "score": 119,
+      "lines": [
+        "TRUE EMERGENT INTELLIGENCE SYSTEM - ELEVATED",
+        "Sistema de Intelig\u00eancia Emergente Verdadeira",
+        "Elevated to REAL_INTELLIGENCE_SYSTEM.py level with:"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/core/universal_connector.py",
+      "score": 110,
+      "lines": [
+        "DARWINACCI UNIVERSAL CONNECTOR",
+        "Conecta Darwinacci-\u03a9 como n\u00facleo sin\u00e1ptico universal de TODOS os sistemas",
+        "- V7 Intelligence System"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/api/app.py",
+      "score": 60,
+      "lines": [
+        "from darwinacci_omega.core.engine import DarwinacciEngine",
+        "from darwinacci_omega.plugins import toy",
+        "from darwinacci_omega.core.evaluator import EvaluatorPipeline"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/data/worm.csv",
+      "score": 34,
+      "lines": [
+        "1759613218,GENESIS,051071634828b885093604689eda79e9cc094b72c5e43b74e382f5444a2f45f8,{\"accepted\": true, \"best_score\": 5.974700948231714e-09, \"checkpoint\": true, \"coverage\": 0.12359550561797752, \"cx\": 0.6109423525312737, \"cycle\": 1, \"elite\": 4, \"mut\": 0.1047213595499958, \"novelty\": 0.0, \"objective\": 0.23916358497863743, \"reasons\": {\"consent\": 1.0, \"ece\": 0.05, \"eco_ok\": 1.0, \"rho\": 0.9, \"rho_bias\": 1.0}}",
+        "1759613218,051071634828b885093604689eda79e9cc094b72c5e43b74e382f5444a2f45f8,b0dde5f0688cd38a1ddbc1545c1a70108cc30adee954553709aa3b7ea66a375d,{\"accepted\": true, \"best_score\": 1.2009326436480607, \"checkpoint\": true, \"coverage\": 0.15730337078651685, \"cx\": 0.6968847050625474, \"cycle\": 2, \"elite\": 4, \"mut\": 0.08944271909999159, \"novelty\": 4.924733598829953, \"objective\": 2.123174533694523, \"reasons\": {\"consent\": 1.0, \"ece\": 0.05, \"eco_ok\": 1.0, \"rho\": 0.9, \"rho_bias\": 1.0}}",
+        "1759613218,b0dde5f0688cd38a1ddbc1545c1a70108cc30adee954553709aa3b7ea66a375d,dad411266db2e67df0da4b21bdfbe9d4339670f6eef8614fbdd72ce0a3e04682,{\"accepted\": false, \"best_score\": 1.1267091181013842, \"checkpoint\": false, \"coverage\": 0.1797752808988764, \"cx\": 0.557827057593821, \"cycle\": 3, \"elite\": 4, \"mut\": 0.11416407864998737, \"novelty\": 4.493977611222291, \"objective\": 2.3454582511189073, \"reasons\": {\"consent\": 1.0, \"ece\": 0.05, \"eco_ok\": 1.0, \"rho\": 0.9, \"rho_bias\": 1.0}}"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/scripts/run.py",
+      "score": 33,
+      "lines": [
+        "from darwinacci_omega.core.engine import DarwinacciEngine",
+        "from darwinacci_omega.core.evaluator import EvaluatorPipeline",
+        "from darwinacci_omega.core.env_plugins import load_portfolio_preset"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/core/evaluator.py",
+      "score": 29,
+      "lines": [
+        "class EvaluatorPipeline:",
+        "- World-model stub (predictive error placeholder if no obs available)",
+        "- Portfolio of tasks (routes to sub-evaluators)"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/core/open_ended.py",
+      "score": 29,
+      "lines": [
+        "Open-Ended Evolution for Darwinacci",
+        "self.task_archive: List[OpenEndedTask] = []",
+        "self.task_archive.extend(base_tasks)"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/monitoring/prometheus_grafana.md",
+      "score": 28,
+      "lines": [
+        "# Darwinacci-\u03a9 Prometheus/Grafana quick start",
+        "- Exporter: set `DARWINACCI_PROMETHEUS=1` and optionally `DARWINACCI_PROM_PORT` (default 8011)",
+        "- Key gauges: `darwinacci_best_score`, `darwinacci_coverage`, `darwinacci_novelty_size`, `darwinacci_mut`, `darwinacci_cx`, `darwinacci_elite`, `darwinacci_z_best`, `darwinacci_z_cov`, `darwinacci_accepted_rate`, `darwinacci_canary_pass_rate`"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/tests/test_checkpoint_roundtrip.py",
+      "score": 25,
+      "lines": [
+        "from darwinacci_omega.core.engine import DarwinacciEngine",
+        "from darwinacci_omega.plugins import toy",
+        "os.environ['DARWINACCI_TRIALS'] = '1'"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/core/golden_spiral.py",
+      "score": 22,
+      "lines": [
+        "class GoldenSpiralArchive:",
+        "self.archive: Dict[int, SpiralBin] = {}",
+        "# Light-weight skills cache: top K genomes/behaviors for biasing/recall"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/core/worm.py",
+      "score": 16,
+      "lines": [
+        "class Worm:",
+        "def __init__(self, path: str = \"data/worm.csv\", head: str = \"data/worm_head.txt\"):",
+        "env_path = os.getenv(\"DARWINACCI_WORM_PATH\")"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/tests/test_worm_cli.py",
+      "score": 13,
+      "lines": [
+        "def test_worm_cli_inspect(tmp_path):",
+        "path = tmp_path / 'worm.csv'",
+        "head = tmp_path / 'worm_head.txt'"
+      ]
+    },
+    {
+      "path": "unified_intelligence_system.py",
+      "score": 13,
+      "lines": [
+        "Unified Intelligence System - The Next Frontier",
+        "1.  **TEIS V2 Enhanced (Adaptive Social Intelligence):** Provides the multi-agent",
+        "2.  **Neural Farm IA\u00b3 (Evolutionary Creative Intelligence):** Provides the"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/monitoring/alert_rules.yml",
+      "score": 12,
+      "lines": [
+        "- name: darwinacci.rules",
+        "- alert: DarwinacciCoverageDrop",
+        "expr: min_over_time(darwinacci_coverage[10m]) < 0.2"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/tests/test_checkpoint_restore_enriched.py",
+      "score": 11,
+      "lines": [
+        "from darwinacci_omega.core.engine import DarwinacciEngine",
+        "from darwinacci_omega.plugins import toy",
+        "os.environ['DARWINACCI_TRIALS'] = '1'"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/core/novelty_phi.py",
+      "score": 10,
+      "lines": [
+        "class Novelty:",
+        "K-NN novelty with optional FAISS backend. Supports N-D behavior.",
+        "Configure with DARWINACCI_NOVELTY_BACKEND in {\"faiss\",\"naive\"} (default naive)."
+      ]
+    },
+    {
+      "path": "darwinacci_omega/tests/test_properties.py",
+      "score": 10,
+      "lines": [
+        "from darwinacci_omega.core.darwin_ops import prune_genes",
+        "from darwinacci_omega.core.novelty_phi import Novelty",
+        "def test_novelty_non_increase_after_self_add(b):"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/dashboard/app.py",
+      "score": 9,
+      "lines": [
+        "st.set_page_config(page_title=\"Darwinacci Metrics\", layout=\"wide\")",
+        "mpath = os.getenv('DARWINACCI_METRICS_PATH', 'data/metrics.jsonl')",
+        "st.title(\"Darwinacci-\u03a9 Live Metrics\")"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/scripts/run_external_cartpole.py",
+      "score": 9,
+      "lines": [
+        "Run DarwinacciEngine with an external, objective fitness on CartPole-v1.",
+        "from darwinacci_omega.core.engine import DarwinacciEngine",
+        "os.environ[\"DARWINACCI_TRIALS\"] = \"1\""
+      ]
+    },
+    {
+      "path": "darwinacci_omega/monitoring/grafana_dashboard.json",
+      "score": 9,
+      "lines": [
+        "{\"type\": \"timeseries\", \"title\": \"Best Score\", \"targets\": [{\"expr\": \"darwinacci_best_score\"}], \"gridPos\": {\"h\": 8, \"w\": 12, \"x\": 0, \"y\": 0}},",
+        "{\"type\": \"timeseries\", \"title\": \"Coverage\", \"targets\": [{\"expr\": \"darwinacci_coverage\"}], \"gridPos\": {\"h\": 8, \"w\": 12, \"x\": 12, \"y\": 0}},",
+        "{\"type\": \"timeseries\", \"title\": \"Z-Scores\", \"targets\": [{\"expr\": \"darwinacci_z_best\"}, {\"expr\": \"darwinacci_z_cov\"}], \"gridPos\": {\"h\": 8, \"w\": 12, \"x\": 0, \"y\": 8}},"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/monitoring/grafana_provisioning/dashboards/json/darwinacci.json",
+      "score": 9,
+      "lines": [
+        "{\"type\": \"timeseries\", \"title\": \"Best Score\", \"targets\": [{\"expr\": \"darwinacci_best_score\"}], \"gridPos\": {\"h\": 8, \"w\": 12, \"x\": 0, \"y\": 0}},",
+        "{\"type\": \"timeseries\", \"title\": \"Coverage\", \"targets\": [{\"expr\": \"darwinacci_coverage\"}], \"gridPos\": {\"h\": 8, \"w\": 12, \"x\": 12, \"y\": 0}},",
+        "{\"type\": \"timeseries\", \"title\": \"Z-Scores\", \"targets\": [{\"expr\": \"darwinacci_z_best\"}, {\"expr\": \"darwinacci_z_cov\"}], \"gridPos\": {\"h\": 8, \"w\": 12, \"x\": 0, \"y\": 8}},"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/tests/test_portfolio.py",
+      "score": 9,
+      "lines": [
+        "from darwinacci_omega.core.evaluator import EvaluatorPipeline",
+        "from darwinacci_omega.core.env_plugins import REGISTRY",
+        "def test_portfolio_dummy_symbolic():"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/tests/test_long_run_seed.py",
+      "score": 8,
+      "lines": [
+        "from darwinacci_omega.core.engine import DarwinacciEngine",
+        "from darwinacci_omega.plugins import toy",
+        "os.environ['DARWINACCI_TRIALS'] = '1'"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/tests/test_time_and_archive.py",
+      "score": 6,
+      "lines": [
+        "from darwinacci_omega.core.f_clock import TimeCrystal",
+        "from darwinacci_omega.core.golden_spiral import GoldenSpiralArchive",
+        "tc = TimeCrystal(max_cycles=5)"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/checkpoints/darwinacci_cycle_0005.pkl",
+      "score": 5,
+      "lines": [
+        "objective_stdG\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007noveltyG@aoR",
+        "G?\u0016,ue\u0007archive}(\u00014}(h\u0015G>\u0014P\u0018h\u0016](G?\u0000\u0000\u0000\u0000\u0000\u0000G?2}1xeu\u000220}(h\u0015G>\u0014P\u0018h\u0016](G?\u0000\u0000\u0000\u0000\u0000\u0000G?\u0011Y?\u0001eu\u00015}(h\u0015G>\u0014P\u0018h\u0016](G?\u0000\u0000\u0000\u0000\u0000\u0000G?\u06cd\u000fT",
+        "novelty_mem](](G?\u0000\u0000\u0000\u0000\u0000\u0000G?2}1xe](G?\u0000\u0000\u0000\u0000\u0000\u0000G?\u0011Y?\u0001e](G?\u0000\u0000\u0000\u0000\u0000\u0000G?\u06cd\u000fT"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/core/schemas.py",
+      "score": 5,
+      "lines": [
+        "class CheckpointArchiveEntry(BaseModel):",
+        "archive: List[CheckpointArchiveEntry]",
+        "novelty_size: int = Field(..., ge=0)"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/tests/quick_test.py",
+      "score": 5,
+      "lines": [
+        "from darwinacci_omega.core.engine import DarwinacciEngine",
+        "from darwinacci_omega.plugins import toy",
+        "eng=DarwinacciEngine(toy.init_genome, toy.evaluate, max_cycles=3, pop_size=32, seed=42)"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/tests/test_cli_resume.py",
+      "score": 5,
+      "lines": [
+        "os.environ['DARWINACCI_CKPT_DIR'] = str(ck_dir)",
+        "os.environ['DARWINACCI_CHECKPOINT'] = '1'",
+        "os.environ['DARWINACCI_TRIALS'] = '1'"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/scripts/worm_cli.py",
+      "score": 4,
+      "lines": [
+        "key = os.getenv('DARWINACCI_HMAC_KEY')",
+        "ap = argparse.ArgumentParser(description=\"WORM CLI\")",
+        "ins = sub.add_parser('inspect', help='show last N entries of worm ledger')"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/core/multiobj.py",
+      "score": 4,
+      "lines": [
+        "nov =float(m.get(\"novelty\",0.0))",
+        "def dominates(a:Dict[str,float], b:Dict[str,float], keys=(\"objective\",\"novelty\"))->bool:"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/core/env_plugins.py",
+      "score": 3,
+      "lines": [
+        "class EnvPluginRegistry:",
+        "REGISTRY = EnvPluginRegistry()",
+        "def load_portfolio_preset(name: str) -> (list, list):"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/monitoring/prometheus.yml",
+      "score": 3,
+      "lines": [
+        "- /etc/prometheus/alert_rules.yml",
+        "- job_name: 'darwinacci'",
+        "- targets: ['darwinacci:8011']"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/monitoring/grafana_provisioning/datasources/datasource.yml",
+      "score": 3,
+      "lines": [
+        "- name: Prometheus",
+        "type: prometheus",
+        "url: http://prometheus:9090"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/tests/test_run_presets.py",
+      "score": 3,
+      "lines": [
+        "os.environ['DARWINACCI_CKPT_DIR'] = str(tmp_path)",
+        "os.environ['DARWINACCI_CHECKPOINT'] = '1'",
+        "cmd = [sys.executable, '-m', 'darwinacci_omega.scripts.run', '--preset', 'fast']"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/tests/test_api.py",
+      "score": 3,
+      "lines": [
+        "from darwinacci_omega.api.app import app",
+        "def test_portfolio_listing():",
+        "r = client.get('/portfolio')"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/monitoring/grafana_provisioning/dashboards/dashboards.yml",
+      "score": 2,
+      "lines": [
+        "- name: 'DarwinacciDashboards'",
+        "path: /etc/grafana/provisioning/dashboards/json"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/plugins/__init__.py",
+      "score": 1,
+      "lines": [
+        "# Darwinacci plugins"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/checkpoints/darwinacci_emergency_0004.json",
+      "score": 1,
+      "lines": [
+        "\"archive_size\": 11,"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/checkpoints/darwinacci_emergency_0001.json",
+      "score": 1,
+      "lines": [
+        "\"archive_size\": 7,"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/checkpoints/darwinacci_emergency_0006.json",
+      "score": 1,
+      "lines": [
+        "\"archive_size\": 10,"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/checkpoints/darwinacci_emergency_0005.json",
+      "score": 1,
+      "lines": [
+        "\"archive_size\": 10,"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/checkpoints/darwinacci_emergency_0002.json",
+      "score": 1,
+      "lines": [
+        "\"archive_size\": 34,"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/core/champion.py",
+      "score": 1,
+      "lines": [
+        "class Arena:"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/core/f_clock.py",
+      "score": 1,
+      "lines": [
+        "class TimeCrystal:"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/tests/test_dashboard_import.py",
+      "score": 1,
+      "lines": [
+        "import darwinacci_omega.dashboard.app as app  # noqa: F401"
+      ]
+    },
+    {
+      "path": "darwinacci_omega/tests/test_env_plugins.py",
+      "score": 1,
+      "lines": [
+        "from darwinacci_omega.core.env_plugins import REGISTRY, register_gym_env"
+      ]
+    }
+  ],
+  "by_dir": {
+    "darwinacci_omega": 1600,
+    "intelligence_emergence_maestro.py": 181,
+    "true_emergent_intelligence_system.py": 119,
+    "unified_intelligence_system.py": 13
+  }
+}

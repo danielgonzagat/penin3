@@ -1,0 +1,493 @@
+{
+  "current": {
+    "timestamp": "2025-10-07T13:15:09.077880",
+    "environmental_factors": {
+      "system_load": 41359.70654296875,
+      "memory_usage": 0.696,
+      "disk_usage": 0.48200000000000004,
+      "network_activity": 1.0,
+      "cpu_temperature": 0.6119230769230769,
+      "external_events": 0,
+      "user_interactions": 1.0,
+      "time_of_day": 0.08333333333333333,
+      "random_noise": 0.3600967897010323,
+      "system_stress": 1.0,
+      "resource_contention": 0.0,
+      "interrupt_frequency": 0.0
+    },
+    "system_metrics": {
+      "cpu_usage": 99.1,
+      "memory_usage": 69.6,
+      "disk_usage": 48.2,
+      "active_processes": 66971
+    },
+    "external_events_count": 77,
+    "stress_level": 1.0,
+    "unpredictability_factor": 0.0018668022410878171
+  },
+  "timestamp": "2025-10-07T13:15:23.690560",
+  "external_events": [
+    {
+      "event": "cache_miss",
+      "timestamp": "2025-10-07T13:07:24.855944",
+      "impact": 0.12724805598265093,
+      "source": "real_system"
+    },
+    {
+      "event": "interrupt_handled",
+      "timestamp": "2025-10-07T13:07:40.872166",
+      "impact": 0.28594964005576484,
+      "source": "real_system"
+    },
+    {
+      "event": "memory_allocated",
+      "timestamp": "2025-10-07T13:07:42.874226",
+      "impact": 0.29738765554847496,
+      "source": "real_system"
+    },
+    {
+      "event": "network_packet_arrived",
+      "timestamp": "2025-10-07T13:07:44.876312",
+      "impact": 0.7830134559540025,
+      "source": "real_system"
+    },
+    {
+      "event": "network_packet_arrived",
+      "timestamp": "2025-10-07T13:07:48.880435",
+      "impact": 0.11762651730923321,
+      "source": "real_system"
+    },
+    {
+      "event": "cache_miss",
+      "timestamp": "2025-10-07T13:07:52.883931",
+      "impact": 0.3696971488627736,
+      "source": "real_system"
+    },
+    {
+      "event": "process_forked",
+      "timestamp": "2025-10-07T13:07:56.888064",
+      "impact": 0.7818342964283277,
+      "source": "real_system"
+    },
+    {
+      "event": "cache_miss",
+      "timestamp": "2025-10-07T13:07:58.889911",
+      "impact": 0.3078095531279297,
+      "source": "real_system"
+    },
+    {
+      "event": "context_switch",
+      "timestamp": "2025-10-07T13:08:02.894057",
+      "impact": 0.23261309328855936,
+      "source": "real_system"
+    },
+    {
+      "event": "process_forked",
+      "timestamp": "2025-10-07T13:08:04.896167",
+      "impact": 0.5689888537449095,
+      "source": "real_system"
+    },
+    {
+      "event": "process_forked",
+      "timestamp": "2025-10-07T13:08:08.900306",
+      "impact": 0.4152091742320716,
+      "source": "real_system"
+    },
+    {
+      "event": "process_forked",
+      "timestamp": "2025-10-07T13:08:14.905998",
+      "impact": 0.5530124266716336,
+      "source": "real_system"
+    },
+    {
+      "event": "network_packet_arrived",
+      "timestamp": "2025-10-07T13:08:16.908114",
+      "impact": 0.5439050953793974,
+      "source": "real_system"
+    },
+    {
+      "event": "network_packet_arrived",
+      "timestamp": "2025-10-07T13:08:20.912250",
+      "impact": 0.46442891283551313,
+      "source": "real_system"
+    },
+    {
+      "event": "memory_allocated",
+      "timestamp": "2025-10-07T13:08:22.914342",
+      "impact": 0.13662203360225614,
+      "source": "real_system"
+    },
+    {
+      "event": "disk_io_completed",
+      "timestamp": "2025-10-07T13:08:44.936042",
+      "impact": 0.1095137228858212,
+      "source": "real_system"
+    },
+    {
+      "event": "context_switch",
+      "timestamp": "2025-10-07T13:08:46.937903",
+      "impact": 0.7022340763627897,
+      "source": "real_system"
+    },
+    {
+      "event": "process_forked",
+      "timestamp": "2025-10-07T13:08:50.942546",
+      "impact": 0.12215887838698422,
+      "source": "real_system"
+    },
+    {
+      "event": "syscall_executed",
+      "timestamp": "2025-10-07T13:08:54.946673",
+      "impact": 0.19851189498881072,
+      "source": "real_system"
+    },
+    {
+      "event": "context_switch",
+      "timestamp": "2025-10-07T13:08:56.948767",
+      "impact": 0.5328115097822691,
+      "source": "real_system"
+    },
+    {
+      "event": "cache_miss",
+      "timestamp": "2025-10-07T13:09:06.957897",
+      "impact": 0.6687003869385034,
+      "source": "real_system"
+    },
+    {
+      "event": "interrupt_handled",
+      "timestamp": "2025-10-07T13:09:08.959987",
+      "impact": 0.40934840043766174,
+      "source": "real_system"
+    },
+    {
+      "event": "context_switch",
+      "timestamp": "2025-10-07T13:09:16.968040",
+      "impact": 0.19873008772039621,
+      "source": "real_system"
+    },
+    {
+      "event": "network_packet_arrived",
+      "timestamp": "2025-10-07T13:09:24.975940",
+      "impact": 0.13533307087281304,
+      "source": "real_system"
+    },
+    {
+      "event": "network_packet_arrived",
+      "timestamp": "2025-10-07T13:09:28.980100",
+      "impact": 0.5578609182278097,
+      "source": "real_system"
+    },
+    {
+      "event": "syscall_executed",
+      "timestamp": "2025-10-07T13:09:34.985898",
+      "impact": 0.15491161598102848,
+      "source": "real_system"
+    },
+    {
+      "event": "process_forked",
+      "timestamp": "2025-10-07T13:09:51.001898",
+      "impact": 0.17708018480912185,
+      "source": "real_system"
+    },
+    {
+      "event": "interrupt_handled",
+      "timestamp": "2025-10-07T13:09:53.003961",
+      "impact": 0.6649693730792207,
+      "source": "real_system"
+    },
+    {
+      "event": "context_switch",
+      "timestamp": "2025-10-07T13:09:59.009981",
+      "impact": 0.5980034280474655,
+      "source": "real_system"
+    },
+    {
+      "event": "syscall_executed",
+      "timestamp": "2025-10-07T13:10:07.017891",
+      "impact": 0.19140832552165626,
+      "source": "real_system"
+    },
+    {
+      "event": "context_switch",
+      "timestamp": "2025-10-07T13:10:09.019981",
+      "impact": 0.7055085863943052,
+      "source": "real_system"
+    },
+    {
+      "event": "memory_allocated",
+      "timestamp": "2025-10-07T13:10:11.022078",
+      "impact": 0.13048213341183507,
+      "source": "real_system"
+    },
+    {
+      "event": "interrupt_handled",
+      "timestamp": "2025-10-07T13:10:13.022180",
+      "impact": 0.6760712119280377,
+      "source": "real_system"
+    },
+    {
+      "event": "network_packet_arrived",
+      "timestamp": "2025-10-07T13:10:19.028370",
+      "impact": 0.6764580448825638,
+      "source": "real_system"
+    },
+    {
+      "event": "syscall_executed",
+      "timestamp": "2025-10-07T13:10:39.047948",
+      "impact": 0.3484294201748023,
+      "source": "real_system"
+    },
+    {
+      "event": "interrupt_handled",
+      "timestamp": "2025-10-07T13:10:49.058207",
+      "impact": 0.7859818869340349,
+      "source": "real_system"
+    },
+    {
+      "event": "syscall_executed",
+      "timestamp": "2025-10-07T13:10:55.064372",
+      "impact": 0.28521554416931105,
+      "source": "real_system"
+    },
+    {
+      "event": "process_forked",
+      "timestamp": "2025-10-07T13:10:57.065899",
+      "impact": 0.7246112675581589,
+      "source": "real_system"
+    },
+    {
+      "event": "syscall_executed",
+      "timestamp": "2025-10-07T13:10:59.067979",
+      "impact": 0.5936404126191764,
+      "source": "real_system"
+    },
+    {
+      "event": "syscall_executed",
+      "timestamp": "2025-10-07T13:11:01.070058",
+      "impact": 0.3644311287314932,
+      "source": "real_system"
+    },
+    {
+      "event": "cache_miss",
+      "timestamp": "2025-10-07T13:11:03.072143",
+      "impact": 0.6489638337954023,
+      "source": "real_system"
+    },
+    {
+      "event": "disk_io_completed",
+      "timestamp": "2025-10-07T13:11:19.087955",
+      "impact": 0.3849047653760398,
+      "source": "real_system"
+    },
+    {
+      "event": "cache_miss",
+      "timestamp": "2025-10-07T13:11:29.097897",
+      "impact": 0.10144823250562231,
+      "source": "real_system"
+    },
+    {
+      "event": "disk_io_completed",
+      "timestamp": "2025-10-07T13:11:37.105893",
+      "impact": 0.711119278376501,
+      "source": "real_system"
+    },
+    {
+      "event": "memory_allocated",
+      "timestamp": "2025-10-07T13:11:45.114114",
+      "impact": 0.3166142523770842,
+      "source": "real_system"
+    },
+    {
+      "event": "network_packet_arrived",
+      "timestamp": "2025-10-07T13:11:49.117893",
+      "impact": 0.3265788191959325,
+      "source": "real_system"
+    },
+    {
+      "event": "network_packet_arrived",
+      "timestamp": "2025-10-07T13:11:51.119970",
+      "impact": 0.3965755976693143,
+      "source": "real_system"
+    },
+    {
+      "event": "interrupt_handled",
+      "timestamp": "2025-10-07T13:11:55.123960",
+      "impact": 0.11526094958105433,
+      "source": "real_system"
+    },
+    {
+      "event": "memory_allocated",
+      "timestamp": "2025-10-07T13:12:05.134006",
+      "impact": 0.6823164555309021,
+      "source": "real_system"
+    },
+    {
+      "event": "cache_miss",
+      "timestamp": "2025-10-07T13:12:21.150099",
+      "impact": 0.24656596942408135,
+      "source": "real_system"
+    },
+    {
+      "event": "interrupt_handled",
+      "timestamp": "2025-10-07T13:12:25.154237",
+      "impact": 0.17331995595136357,
+      "source": "real_system"
+    },
+    {
+      "event": "process_forked",
+      "timestamp": "2025-10-07T13:12:27.156332",
+      "impact": 0.4773041423540043,
+      "source": "real_system"
+    },
+    {
+      "event": "syscall_executed",
+      "timestamp": "2025-10-07T13:12:35.163934",
+      "impact": 0.7291742602114183,
+      "source": "real_system"
+    },
+    {
+      "event": "cache_miss",
+      "timestamp": "2025-10-07T13:12:49.178057",
+      "impact": 0.3268939787546627,
+      "source": "real_system"
+    },
+    {
+      "event": "disk_io_completed",
+      "timestamp": "2025-10-07T13:12:53.181879",
+      "impact": 0.5408972003919948,
+      "source": "real_system"
+    },
+    {
+      "event": "network_packet_arrived",
+      "timestamp": "2025-10-07T13:12:55.183951",
+      "impact": 0.5663580351445949,
+      "source": "real_system"
+    },
+    {
+      "event": "disk_io_completed",
+      "timestamp": "2025-10-07T13:12:57.186046",
+      "impact": 0.4238356160536154,
+      "source": "real_system"
+    },
+    {
+      "event": "cache_miss",
+      "timestamp": "2025-10-07T13:13:05.192316",
+      "impact": 0.38694068607183163,
+      "source": "real_system"
+    },
+    {
+      "event": "memory_allocated",
+      "timestamp": "2025-10-07T13:13:07.194409",
+      "impact": 0.3733121483363241,
+      "source": "real_system"
+    },
+    {
+      "event": "memory_allocated",
+      "timestamp": "2025-10-07T13:13:11.197890",
+      "impact": 0.777013304798848,
+      "source": "real_system"
+    },
+    {
+      "event": "memory_allocated",
+      "timestamp": "2025-10-07T13:13:13.199973",
+      "impact": 0.26143453485762447,
+      "source": "real_system"
+    },
+    {
+      "event": "process_forked",
+      "timestamp": "2025-10-07T13:13:15.201899",
+      "impact": 0.1998728746269482,
+      "source": "real_system"
+    },
+    {
+      "event": "process_forked",
+      "timestamp": "2025-10-07T13:13:17.203980",
+      "impact": 0.7521029880405161,
+      "source": "real_system"
+    },
+    {
+      "event": "context_switch",
+      "timestamp": "2025-10-07T13:13:21.207988",
+      "impact": 0.5972142555006003,
+      "source": "real_system"
+    },
+    {
+      "event": "network_packet_arrived",
+      "timestamp": "2025-10-07T13:13:29.215966",
+      "impact": 0.7319356350647394,
+      "source": "real_system"
+    },
+    {
+      "event": "network_packet_arrived",
+      "timestamp": "2025-10-07T13:13:42.954881",
+      "impact": 0.7386476180209992,
+      "source": "real_system"
+    },
+    {
+      "event": "cache_miss",
+      "timestamp": "2025-10-07T13:13:45.657920",
+      "impact": 0.11050787063548972,
+      "source": "real_system"
+    },
+    {
+      "event": "interrupt_handled",
+      "timestamp": "2025-10-07T13:13:47.721961",
+      "impact": 0.4714770681944883,
+      "source": "real_system"
+    },
+    {
+      "event": "memory_allocated",
+      "timestamp": "2025-10-07T13:13:51.903086",
+      "impact": 0.2819328778757517,
+      "source": "real_system"
+    },
+    {
+      "event": "interrupt_handled",
+      "timestamp": "2025-10-07T13:14:06.581915",
+      "impact": 0.5294617162956812,
+      "source": "real_system"
+    },
+    {
+      "event": "syscall_executed",
+      "timestamp": "2025-10-07T13:14:23.157965",
+      "impact": 0.6097491983675202,
+      "source": "real_system"
+    },
+    {
+      "event": "syscall_executed",
+      "timestamp": "2025-10-07T13:14:29.165901",
+      "impact": 0.29948366474159643,
+      "source": "real_system"
+    },
+    {
+      "event": "context_switch",
+      "timestamp": "2025-10-07T13:14:45.395965",
+      "impact": 0.14068040558492684,
+      "source": "real_system"
+    },
+    {
+      "event": "memory_allocated",
+      "timestamp": "2025-10-07T13:15:03.445919",
+      "impact": 0.6356553476216231,
+      "source": "real_system"
+    },
+    {
+      "event": "network_packet_arrived",
+      "timestamp": "2025-10-07T13:15:05.448017",
+      "impact": 0.6266900527069891,
+      "source": "real_system"
+    },
+    {
+      "event": "process_forked",
+      "timestamp": "2025-10-07T13:15:11.593642",
+      "impact": 0.7188131739071322,
+      "source": "real_system"
+    },
+    {
+      "event": "cache_miss",
+      "timestamp": "2025-10-07T13:15:13.797957",
+      "impact": 0.3260366232249863,
+      "source": "real_system"
+    }
+  ]
+}

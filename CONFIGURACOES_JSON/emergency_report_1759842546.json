@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-10-07T13:09:06.901916",
+  "emergence_level": 1.0,
+  "signals": [
+    "significant_evolution",
+    "coordinated_behavior"
+  ],
+  "anomalies": [
+    {
+      "file": "/root/continuous_emergence_monitor.log",
+      "line": "2025-10-07 00:57:39,239 - INFO - \ud83d\udd0d INTELLIGENCE_CUBED: 0 inesperadas, 0 adapta\u00e7\u00f5es",
+      "timestamp": "2025-10-07T13:08:36.913401"
+    },
+    {
+      "file": "/root/continuous_emergence_monitor.log",
+      "line": "2025-10-07 00:57:41,206 - ERROR - Erro ao monitorar EMERGENCE_DETECTOR: Object of type bool_ is not JSON serializable",
+      "timestamp": "2025-10-07T13:08:36.913412"
+    },
+    {
+      "file": "/root/continuous_emergence_monitor.log",
+      "line": "2025-10-07 00:57:30,223 - INFO - \u2705 Par\u00e2metros otimizados salvos em /root/intelligence_system/config/v7_config.yaml",
+      "timestamp": "2025-10-07T13:08:51.933127"
+    },
+    {
+      "file": "/root/continuous_emergence_monitor.log",
+      "line": "2025-10-07 00:57:30,472 - ERROR - Erro ao monitorar EMERGENCE_DETECTOR: Object of type bool_ is not JSON serializable",
+      "timestamp": "2025-10-07T13:08:51.933170"
+    },
+    {
+      "file": "/root/continuous_emergence_monitor.log",
+      "line": "2025-10-07 00:57:31,270 - ERROR - Erro ao obter contexto do processo intelligence_cubed_system.py: can only join an iterable",
+      "timestamp": "2025-10-07T13:08:51.933278"
+    },
+    {
+      "file": "/root/continuous_emergence_monitor.log",
+      "line": "2025-10-07 00:57:31,285 - INFO - \u2705 Par\u00e2metros otimizados salvos em /root/intelligence_cubed_config.yaml",
+      "timestamp": "2025-10-07T13:08:51.933289"
+    },
+    {
+      "file": "/root/continuous_emergence_monitor.log",
+      "line": "2025-10-07 00:57:31,299 - INFO - \ud83d\udd27 Otimizado INTELLIGENCE_CUBED - Emerg\u00eancia: 0.800",
+      "timestamp": "2025-10-07T13:08:51.933299"
+    },
+    {
+      "file": "/root/continuous_emergence_monitor.log",
+      "line": "2025-10-07 00:57:39,238 - ERROR - Erro ao monitorar processo INTELLIGENCE_CUBED: can only join an iterable",
+      "timestamp": "2025-10-07T13:08:51.933347"
+    },
+    {
+      "file": "/root/continuous_emergence_monitor.log",
+      "line": "2025-10-07 00:57:39,239 - INFO - \ud83d\udd0d INTELLIGENCE_CUBED: 0 inesperadas, 0 adapta\u00e7\u00f5es",
+      "timestamp": "2025-10-07T13:08:51.933400"
+    },
+    {
+      "file": "/root/continuous_emergence_monitor.log",
+      "line": "2025-10-07 00:57:41,206 - ERROR - Erro ao monitorar EMERGENCE_DETECTOR: Object of type bool_ is not JSON serializable",
+      "timestamp": "2025-10-07T13:08:51.933415"
+    }
+  ],
+  "system_metrics": {
+    "novel_behavior_score": 0.0,
+    "goal_achievement_score": 0.0,
+    "adaptation_speed_score": 0.0,
+    "creativity_score": 0.0,
+    "self_improvement_score": 0.0,
+    "understanding_score": 0.0,
+    "transfer_learning_score": 0.0,
+    "emergence_level": 1.0,
+    "consciousness_indicators": 0,
+    "reality_breaking_events": 0,
+    "unpredictable_actions": 0,
+    "code_modifications": 0,
+    "system_evolution_events": 0,
+    "timestamp": "2025-10-07T13:09:06.901459",
+    "uptime": 1759842546.9014807,
+    "total_anomalies": 80,
+    "total_signals": 24,
+    "active_systems": 1,
+    "system_resources": {
+      "cpu_percent": 20.0,
+      "memory_percent": 18.7,
+      "disk_usage": 48.2
+    },
+    "high_cpu_processes": 2
+  }
+}

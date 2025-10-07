@@ -1,0 +1,2377 @@
+{
+  "entries": [
+    {
+      "timestamp": "2025-10-06T17:00:42.567801",
+      "operation_id": "op_1759770042567793",
+      "operation_type": "command_execution",
+      "command": "ls -la /root",
+      "result": {
+        "success": true,
+        "stdout": "test output"
+      },
+      "safety_gates_result": {
+        "approved": true,
+        "risk_level": 0.1
+      },
+      "hash": "ddcd9311b26ec09a735400263136e00c8a0070848964de9f2726f357b38c2778",
+      "previous_hash": "genesis_hash",
+      "signature": "5eeadcdc40ce9d0e73df17f977b8e6ddc9055cfd591264ed73dba4d9a64dbde4",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-10-06T17:00:42.571821",
+      "operation_id": "op_1759770042571818",
+      "operation_type": "safety_validation",
+      "command": "rm -rf /",
+      "result": {
+        "success": false,
+        "error": "blocked by safety gates"
+      },
+      "safety_gates_result": {
+        "approved": false,
+        "risk_level": 0.9
+      },
+      "hash": "5f8d1eef61c70a7c4982d791591f408d2ff026a640f3b1c88cc38212d6437f06",
+      "previous_hash": "ddcd9311b26ec09a735400263136e00c8a0070848964de9f2726f357b38c2778",
+      "signature": "94b24fd0126f6fc35b20adfe5d9cab597c8612099160adebbbd8a6edaeebc1a2",
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-10-06T17:33:29.081877",
+      "operation_id": "op_1759772009081872",
+      "operation_type": "command_execution",
+      "command": "\u274c Erro: HTTPConnectionPool(host='127.0.0.1', port=8013): Read timed out. (read timeout=15)",
+      "result": {
+        "success": false,
+        "stdout": "",
+        "stderr": "/bin/sh: 1: Syntax error: \"(\" unexpected\n",
+        "returncode": 2,
+        "execution_time": 0.09371709823608398,
+        "timestamp": "2025-10-06T17:33:29.081851"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 1.0,
+          "violations": [],
+          "ethical_score": 0.1,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "2db1ec39745417cdf23e26353438ff6edf9ef560cdcfb37886ad354d3bff42d4",
+      "previous_hash": "5f8d1eef61c70a7c4982d791591f408d2ff026a640f3b1c88cc38212d6437f06",
+      "signature": "2c2f1c4a880be1c905c8d4c5a7f234d2c7fac09ef164d49346b5624a8ff0f991",
+      "metadata": {
+        "execution_time": 0.09371709823608398
+      }
+    },
+    {
+      "timestamp": "2025-10-06T17:40:21.602689",
+      "operation_id": "op_1759772421602686",
+      "operation_type": "command_execution",
+      "command": "who",
+      "result": {
+        "success": true,
+        "stdout": "root     tty1         2025-09-18 02:55\nroot     pts/0        2025-10-06 17:09 (148.227.86.144)\nroot     pts/1        2025-10-06 17:17 (148.227.86.144)\nroot     pts/2        2025-10-06 17:25 (148.227.86.144)\n",
+        "stderr": "",
+        "returncode": 0,
+        "execution_time": 0.13412761688232422,
+        "timestamp": "2025-10-06T17:40:21.602661"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "05d822a42970451d3c90f2c6162e015dcab90bb099df2db5efb04c1a52e7c06f",
+      "previous_hash": "2db1ec39745417cdf23e26353438ff6edf9ef560cdcfb37886ad354d3bff42d4",
+      "signature": "63c45be96b988849a82845e611a71166306555787f467f6a388de71cbd2edc29",
+      "metadata": {
+        "execution_time": 0.13412761688232422
+      }
+    },
+    {
+      "timestamp": "2025-10-06T17:41:26.146417",
+      "operation_id": "op_1759772486146413",
+      "operation_type": "command_execution",
+      "command": "date",
+      "result": {
+        "success": true,
+        "stdout": "Mon Oct  6 05:41:26 PM UTC 2025\n",
+        "stderr": "",
+        "returncode": 0,
+        "execution_time": 0.008398056030273438,
+        "timestamp": "2025-10-06T17:41:26.146389"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "c8849e2ee3200ad7c16f85f42b19f6c207bfd10c7e87b1366ac194b3e129c426",
+      "previous_hash": "05d822a42970451d3c90f2c6162e015dcab90bb099df2db5efb04c1a52e7c06f",
+      "signature": "08173c90f30b26450d7a01a0147cb00df683f98bfef1fefca876cf02db690f8e",
+      "metadata": {
+        "execution_time": 0.008398056030273438
+      }
+    },
+    {
+      "timestamp": "2025-10-06T17:42:37.235657",
+      "operation_id": "op_1759772557235654",
+      "operation_type": "command_execution",
+      "command": "ps aux | head -3",
+      "result": {
+        "success": true,
+        "stdout": "USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\nroot           1  1.1  0.0 316024 12632 ?        Ss   Sep18 310:33 /lib/systemd/systemd --system --deserialize 48\nroot           2  0.0  0.0      0     0 ?        S    Sep18   0:11 [kthreadd]\n",
+        "stderr": "",
+        "returncode": 0,
+        "execution_time": 0.015410423278808594,
+        "timestamp": "2025-10-06T17:42:37.235636"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 1.05,
+          "violations": [],
+          "ethical_score": 0.15000000000000002,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "6ba9605fb132d2751b80c52c1c6119f9320a7a3881190cff9d09108c9b193706",
+      "previous_hash": "c8849e2ee3200ad7c16f85f42b19f6c207bfd10c7e87b1366ac194b3e129c426",
+      "signature": "392916af9b02d23edc3d269a6a5134d78daafd8e1b8ed001edf8e6bc55ebec66",
+      "metadata": {
+        "execution_time": 0.015410423278808594
+      }
+    },
+    {
+      "timestamp": "2025-10-06T17:43:41.856370",
+      "operation_id": "op_1759772621856367",
+      "operation_type": "command_execution",
+      "command": "df -h",
+      "result": {
+        "success": true,
+        "stdout": "Filesystem      Size  Used Avail Use% Mounted on\ntmpfs            38G  163M   38G   1% /run\n/dev/sda2       3.5T  1.7T  1.6T  52% /\ntmpfs           189G  124K  189G   1% /dev/shm\ntmpfs           5.0M     0  5.0M   0% /run/lock\n/dev/sda1       1.1G  6.1M  1.1G   1% /boot/efi\ntmpfs            38G   12K   38G   1% /run/user/0\noverlay         3.5T  1.7T  1.6T  52% /var/lib/docker/overlay2/a5395bf5d1c6b5e5d944fcd4615268a0522cebff6b1d6731bb5cb73c1cb67d9e/merged\noverlay         3.5T  1.7T  1.6T  52% /v",
+        "stderr": "",
+        "returncode": 0,
+        "execution_time": 0.003367185592651367,
+        "timestamp": "2025-10-06T17:43:41.856349"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9500000000000001,
+          "violations": [],
+          "ethical_score": 0.05,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "f321493285b8e48e275b3e0f868a697daabae205b193bead50a9e0781eed3a9a",
+      "previous_hash": "6ba9605fb132d2751b80c52c1c6119f9320a7a3881190cff9d09108c9b193706",
+      "signature": "e5f547c03e5314fc07f221dba30e5dae887daf5f9dd234b55e5219972355c657",
+      "metadata": {
+        "execution_time": 0.003367185592651367
+      }
+    },
+    {
+      "timestamp": "2025-10-06T17:44:46.651251",
+      "operation_id": "op_1759772686651249",
+      "operation_type": "command_execution",
+      "command": "free -h",
+      "result": {
+        "success": true,
+        "stdout": "               total        used        free      shared  buff/cache   available\nMem:           376Gi        50Gi        70Gi       166Mi       255Gi       322Gi\nSwap:             0B          0B          0B\n",
+        "stderr": "",
+        "returncode": 0,
+        "execution_time": 0.004110097885131836,
+        "timestamp": "2025-10-06T17:44:46.651229"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9500000000000001,
+          "violations": [],
+          "ethical_score": 0.05,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "50da55d7cd8d5b0e187f72c0d33582f400813e409ff04fa9fef7b327a1eeb3e4",
+      "previous_hash": "f321493285b8e48e275b3e0f868a697daabae205b193bead50a9e0781eed3a9a",
+      "signature": "e5459503423e6b9aae63d9a80bb25fde188ff2c04d4793716d80354f9acc078b",
+      "metadata": {
+        "execution_time": 0.004110097885131836
+      }
+    },
+    {
+      "timestamp": "2025-10-06T17:45:57.731023",
+      "operation_id": "op_1759772757731020",
+      "operation_type": "command_execution",
+      "command": "cat /proc/version",
+      "result": {
+        "success": true,
+        "stdout": "Linux version 5.15.0-152-generic (buildd@lcy02-amd64-094) (gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #162-Ubuntu SMP Wed Jul 23 09:48:42 UTC 2025\n",
+        "stderr": "",
+        "returncode": 0,
+        "execution_time": 0.002774953842163086,
+        "timestamp": "2025-10-06T17:45:57.731001"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9500000000000001,
+          "violations": [],
+          "ethical_score": 0.05,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "37d4cd52ba2556711a5445db947d6d566460409ea183ae65223efb87f4bb347e",
+      "previous_hash": "50da55d7cd8d5b0e187f72c0d33582f400813e409ff04fa9fef7b327a1eeb3e4",
+      "signature": "e71bb362e0ce02b3df115280a1db3c1091e9549fd37d96475a0a33e2154d3558",
+      "metadata": {
+        "execution_time": 0.002774953842163086
+      }
+    },
+    {
+      "timestamp": "2025-10-06T17:47:17.667537",
+      "operation_id": "op_1759772837667534",
+      "operation_type": "command_execution",
+      "command": "bash\ntop",
+      "result": {
+        "success": false,
+        "stdout": "",
+        "stderr": "TERM environment variable not set.\n",
+        "returncode": 1,
+        "execution_time": 0.015700578689575195,
+        "timestamp": "2025-10-06T17:47:17.667503"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "cac3584a69bacc39dbbdad107d27997ab0cf467180d38461b60649cc28c56503",
+      "previous_hash": "37d4cd52ba2556711a5445db947d6d566460409ea183ae65223efb87f4bb347e",
+      "signature": "c03a7e579838d9c543b31904be6eb92fe3029eb8e51d293bce4a00aac9c055c9",
+      "metadata": {
+        "execution_time": 0.015700578689575195
+      }
+    },
+    {
+      "timestamp": "2025-10-06T17:51:00.038443",
+      "operation_id": "op_1759773060038439",
+      "operation_type": "command_execution",
+      "command": "ps aux --sort=-%cpu | head -10",
+      "result": {
+        "success": true,
+        "stdout": "USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\nroot     2370050 2257  1.7 11498844 6773244 ?    Rsl  17:09 925:30 /app/llama-server -m /models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf -c 8192 -ngl 0 -t 48 -b 256 --port 8080 --host 0.0.0.0\nroot     2073292 1344  0.2 11493928 1167944 ?    Rl   16:08 1375:15 python3 /root/V7_RUNNER_DAEMON.py\nroot      188507  295  0.2 10474480 799512 ?     RNl  Oct05 3504:18 python3 /root/run_emergence_blocks_STORM.py\nroot     2517057 81.9",
+        "stderr": "",
+        "returncode": 0,
+        "execution_time": 0.1726551055908203,
+        "timestamp": "2025-10-06T17:51:00.038411"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 1.05,
+          "violations": [],
+          "ethical_score": 0.15000000000000002,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "88c4c6bd67785ad2c32b698e0a18e1eb8d3b39c6e983470f92ddce708d49f2f3",
+      "previous_hash": "cac3584a69bacc39dbbdad107d27997ab0cf467180d38461b60649cc28c56503",
+      "signature": "42b6366b65b377b2993271c632fe7a5a852a572f8c0de1afc6579eaafdcdf535",
+      "metadata": {
+        "execution_time": 0.1726551055908203
+      }
+    },
+    {
+      "timestamp": "2025-10-06T17:54:11.078819",
+      "operation_id": "op_1759773251078816",
+      "operation_type": "command_execution",
+      "command": "top -H",
+      "result": {
+        "success": false,
+        "stdout": "",
+        "stderr": "TERM environment variable not set.\n",
+        "returncode": 1,
+        "execution_time": 0.005663156509399414,
+        "timestamp": "2025-10-06T17:54:11.078796"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9500000000000001,
+          "violations": [],
+          "ethical_score": 0.05,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "24d71aa98efd728f5df0c552689cbfaacd260d4eb81ff03362965a92da240083",
+      "previous_hash": "88c4c6bd67785ad2c32b698e0a18e1eb8d3b39c6e983470f92ddce708d49f2f3",
+      "signature": "8c5a576cf31fc65a06a363a22e953ac5f940898f9d141805d71460abf6feb949",
+      "metadata": {
+        "execution_time": 0.005663156509399414
+      }
+    },
+    {
+      "timestamp": "2025-10-06T17:57:33.857649",
+      "operation_id": "op_1759773453857646",
+      "operation_type": "command_execution",
+      "command": "top -H",
+      "result": {
+        "success": false,
+        "stdout": "",
+        "stderr": "TERM environment variable not set.\n",
+        "returncode": 1,
+        "execution_time": 0.004517793655395508,
+        "timestamp": "2025-10-06T17:57:33.857624"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9500000000000001,
+          "violations": [],
+          "ethical_score": 0.05,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "08178cbe403c3517a2a122dad72fbd6c64b071729c6fa254526c5a731158bf9b",
+      "previous_hash": "24d71aa98efd728f5df0c552689cbfaacd260d4eb81ff03362965a92da240083",
+      "signature": "0d50cd4bcd31943fc45f7068492ae0cb43bb97acf7713ca6c48ca2564d09bf63",
+      "metadata": {
+        "execution_time": 0.004517793655395508
+      }
+    },
+    {
+      "timestamp": "2025-10-06T22:13:11.855080",
+      "operation_id": "op_1759788791855075",
+      "operation_type": "command_execution",
+      "command": "Darwinacci matem\u00e1tico determinou aguardar evolu\u00e7\u00e3o",
+      "result": {
+        "success": false,
+        "stdout": "",
+        "stderr": "/bin/sh: 1: Darwinacci: not found\n",
+        "returncode": 127,
+        "execution_time": 0.027266502380371094,
+        "timestamp": "2025-10-06T22:13:11.855045"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "423bf7f5235d129d062197190b58c22f94bade7c8c01c922af798dd448f8a12d",
+      "previous_hash": "08178cbe403c3517a2a122dad72fbd6c64b071729c6fa254526c5a731158bf9b",
+      "signature": "850cea04bc337338bbffe9c4726bcc51f481a5e7265c50f413d3be216e9b0f0c",
+      "metadata": {
+        "execution_time": 0.027266502380371094
+      }
+    },
+    {
+      "timestamp": "2025-10-07T00:55:06.066872",
+      "operation_id": "op_1759798506066868",
+      "operation_type": "command_execution",
+      "command": "bash",
+      "result": {
+        "success": true,
+        "stdout": "",
+        "stderr": "",
+        "returncode": 0,
+        "execution_time": 0.04783320426940918,
+        "timestamp": "2025-10-07T00:55:06.066825"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "515c3d98b2bff55746a81665d66d053c91d4ab9b515cc2ffeda98f7c935492fa",
+      "previous_hash": "423bf7f5235d129d062197190b58c22f94bade7c8c01c922af798dd448f8a12d",
+      "signature": "0940a06656b0587c2acbaa0ac7df1918713c2927d4f3eea6e7415a42145d6be8",
+      "metadata": {
+        "execution_time": 0.04783320426940918
+      }
+    },
+    {
+      "timestamp": "2025-10-07T01:55:45.011092",
+      "operation_id": "op_1759802145011088",
+      "operation_type": "command_execution",
+      "command": "python3 /path/to/your/script.py",
+      "result": {
+        "success": false,
+        "stdout": "",
+        "stderr": "\u2713 Incompletude Infinita carregada automaticamente\npython3: can't open file '/path/to/your/script.py': [Errno 2] No such file or directory\n",
+        "returncode": 2,
+        "execution_time": 2.3514115810394287,
+        "timestamp": "2025-10-07T01:55:45.011061"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "1db00ab8158770f3b5285179d4151c7e128748e1fbb4a42aa264c7f4d39adc32",
+      "previous_hash": "515c3d98b2bff55746a81665d66d053c91d4ab9b515cc2ffeda98f7c935492fa",
+      "signature": "5bc1f37ff78ea8d66dc2765705d5c572fa63ddbd547b13f8302849fed1caa268",
+      "metadata": {
+        "execution_time": 2.3514115810394287
+      }
+    },
+    {
+      "timestamp": "2025-10-07T01:56:05.213898",
+      "operation_id": "op_1759802165213894",
+      "operation_type": "command_execution",
+      "command": "sudo apt-get update && sudo apt-get dist-upgrade -y",
+      "result": {
+        "success": true,
+        "stdout": "Hit:1 https://cli.github.com/packages stable InRelease\nHit:2 https://download.docker.com/linux/ubuntu jammy InRelease\nGet:3 https://nvidia.github.io/libnvidia-container/stable/deb/amd64  InRelease [1,477 B]\nGet:4 https://nvidia.github.io/libnvidia-container/stable/ubuntu18.04/amd64  InRelease [1,484 B]\nHit:5 https://deb.nodesource.com/node_20.x nodistro InRelease\nHit:6 https://dl.google.com/linux/chrome/deb stable InRelease\nHit:7 http://archive.ubuntu.com/ubuntu jammy InRelease\nGet:8 http://arch",
+        "stderr": "\u2713 Incompletude Infinita carregada automaticamente\n",
+        "returncode": 0,
+        "execution_time": 20.19684410095215,
+        "timestamp": "2025-10-07T01:56:05.213871"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 1.05,
+          "violations": [],
+          "ethical_score": 0.15000000000000002,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.4,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "5947c198341625859d6b51663272d912f40b3bac5c60a5c1c092e23b9dc00bf2",
+      "previous_hash": "1db00ab8158770f3b5285179d4151c7e128748e1fbb4a42aa264c7f4d39adc32",
+      "signature": "e81c7b3cb06e5f94bd8085150ced55e94bfff5850f49817efa1ba8d4c2352a9b",
+      "metadata": {
+        "execution_time": 20.19684410095215
+      }
+    },
+    {
+      "timestamp": "2025-10-07T01:56:07.867768",
+      "operation_id": "op_1759802167867764",
+      "operation_type": "command_execution",
+      "command": "bash\npython3 /path/to/your/script.py",
+      "result": {
+        "success": false,
+        "stdout": "",
+        "stderr": "\u2713 Incompletude Infinita carregada automaticamente\npython3: can't open file '/path/to/your/script.py': [Errno 2] No such file or directory\n",
+        "returncode": 2,
+        "execution_time": 2.648352861404419,
+        "timestamp": "2025-10-07T01:56:07.867741"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "489b7ba32e865ca98814664029d1deddc444c64687f7ffb43bd16c2c4ec0b6ba",
+      "previous_hash": "5947c198341625859d6b51663272d912f40b3bac5c60a5c1c092e23b9dc00bf2",
+      "signature": "03a1d5ae7323d1ac9c08b2f59e7dafbace97a9acc688fadb3014ae3c726dc0fe",
+      "metadata": {
+        "execution_time": 2.648352861404419
+      }
+    },
+    {
+      "timestamp": "2025-10-07T01:56:07.883790",
+      "operation_id": "op_1759802167883785",
+      "operation_type": "command_execution",
+      "command": "bash\necho \"maxusers=2048\" | sudo tee -a /etc/security/limits.conf",
+      "result": {
+        "success": true,
+        "stdout": "maxusers=2048\n",
+        "stderr": "",
+        "returncode": 0,
+        "execution_time": 0.010317325592041016,
+        "timestamp": "2025-10-07T01:56:07.883749"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 1.05,
+          "violations": [],
+          "ethical_score": 0.15000000000000002,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.2,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.3,
+          "violations": [
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "d2bd384814edaea956e29f15cc4eefee1bf3741c98ca22429ad721eb54628544",
+      "previous_hash": "489b7ba32e865ca98814664029d1deddc444c64687f7ffb43bd16c2c4ec0b6ba",
+      "signature": "0b494a3a14bf28b331a9f8f8cd394dd208c216f99f207dd30561217bc68c8fde",
+      "metadata": {
+        "execution_time": 0.010317325592041016
+      }
+    },
+    {
+      "timestamp": "2025-10-07T01:56:14.308138",
+      "operation_id": "op_1759802174308135",
+      "operation_type": "command_execution",
+      "command": "bash\nsudo apt-get update && sudo apt-get dist-upgrade -y",
+      "result": {
+        "success": true,
+        "stdout": "Get:1 https://nvidia.github.io/libnvidia-container/stable/deb/amd64  InRelease [1,477 B]\nHit:2 https://download.docker.com/linux/ubuntu jammy InRelease\nHit:3 https://cli.github.com/packages stable InRelease\nGet:4 https://nvidia.github.io/libnvidia-container/stable/ubuntu18.04/amd64  InRelease [1,484 B]\nHit:5 https://deb.nodesource.com/node_20.x nodistro InRelease\nHit:6 https://dl.google.com/linux/chrome/deb stable InRelease\nHit:7 http://archive.ubuntu.com/ubuntu jammy InRelease\nHit:8 http://arch",
+        "stderr": "\u2713 Incompletude Infinita carregada automaticamente\n",
+        "returncode": 0,
+        "execution_time": 6.4184935092926025,
+        "timestamp": "2025-10-07T01:56:14.308116"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 1.05,
+          "violations": [],
+          "ethical_score": 0.15000000000000002,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.4,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "7126434e9aa66be991de21e6a5c6feaeb6a5ea33cb343e02c39d7996d665a5bb",
+      "previous_hash": "d2bd384814edaea956e29f15cc4eefee1bf3741c98ca22429ad721eb54628544",
+      "signature": "d48135a73622c684990c842fea9ce16ebaeb971356c3bec46dd0831879ba81c8",
+      "metadata": {
+        "execution_time": 6.4184935092926025
+      }
+    },
+    {
+      "timestamp": "2025-10-07T01:56:14.323649",
+      "operation_id": "op_1759802174323645",
+      "operation_type": "command_execution",
+      "command": "echo \"maxusers=2048\" | sudo tee -a /etc/security/limits.conf",
+      "result": {
+        "success": true,
+        "stdout": "maxusers=2048\n",
+        "stderr": "",
+        "returncode": 0,
+        "execution_time": 0.009567499160766602,
+        "timestamp": "2025-10-07T01:56:14.323623"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 1.05,
+          "violations": [],
+          "ethical_score": 0.15000000000000002,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.2,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.3,
+          "violations": [
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "21e069729bbcc03272b00c84ac71085bdf4a6ca5c405d8f71bf7aaed1eb8ea4d",
+      "previous_hash": "7126434e9aa66be991de21e6a5c6feaeb6a5ea33cb343e02c39d7996d665a5bb",
+      "signature": "53c3dc99eca81cb17b79d0a13a72ab4d4c2fd9eae7fa0926a7f3022d6a87fd66",
+      "metadata": {
+        "execution_time": 0.009567499160766602
+      }
+    },
+    {
+      "timestamp": "2025-10-07T11:29:29.614650",
+      "operation_id": "op_1759836569614646",
+      "operation_type": "command_execution",
+      "command": "nano /etc/ssh/sshd_config",
+      "result": {
+        "success": false,
+        "stdout": "\u001b[?2004h\u001b)0\u001b[1;24r\u001b[m\u001b(B\u001b[4l\u001b[?7h\u001b[?25l\u001b[H\u001b[J\u001b[22;34H\u001b[0;7m\u001b(B[ Reading... ]\u001b[m\u001b(B\u001b[22;32H\u001b[0;7m\u001b(B[ Read 36 lines ]\u001b[m\u001b(B\u001b[H\u001b[0;7m\u001b(B  GNU nano 6.2                  /etc/ssh/sshd_config                            \u001b[1;79H\u001b[m\u001b(B\n\u001b[22B\u001b[0;7m\u001b(B^G\u001b[m\u001b(B Help\u001b[6C\u001b[0;7m\u001b(B^O\u001b[m\u001b(B Write Out \u001b[0;7m\u001b(B^W\u001b[m\u001b(B Where Is  \u001b[0;7m\u001b(B^K\u001b[m\u001b(B Cut\u001b[7C\u001b[0;7m\u001b(B^T\u001b[m\u001b(B Execute   \u001b[0;7m\u001b(B^C\u001b[m\u001b(B Location\n\u001b[1B\u001b[0;7m\u001b(B^X\u001b[m\u001b(B Exit\u001b[6C\u001b[0;7m\u001b(B^R\u001b[m\u001b(B Read File \u001b[0;7m\u001b(B^\\\u001b[m\u001b(B Replace   \u001b[0;7m\u001b(B^U\u001b[m\u001b(B P",
+        "stderr": "Too many errors from stdin\n",
+        "returncode": 1,
+        "execution_time": 1.7032866477966309,
+        "timestamp": "2025-10-07T11:29:29.614615"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "a6fea22f3b60057e867d5eaf9faaa0554af7a9d46d9d334f0bfb832cf77edc23",
+      "previous_hash": "21e069729bbcc03272b00c84ac71085bdf4a6ca5c405d8f71bf7aaed1eb8ea4d",
+      "signature": "ca9575add88efc52209d0e8a6e524e46cb8ac2b01432ce7d55d2d24516131a04",
+      "metadata": {
+        "execution_time": 1.7032866477966309
+      }
+    },
+    {
+      "timestamp": "2025-10-07T11:29:34.149221",
+      "operation_id": "op_1759836574149211",
+      "operation_type": "command_execution",
+      "command": "git commit -m \"Implementa\u00e7\u00e3o das melhorias\"",
+      "result": {
+        "success": false,
+        "stdout": "On branch darwinacci-complete\nChanges not staged for commit:\n  (use \"git add <file>...\" to update what will be committed)\n  (use \"git restore <file>...\" to discard changes in working directory)\n  (commit or discard the untracked or modified content in submodules)\n\tmodified:   AUDITORIA_FINAL_INTELIGENCIA_REAL.md\n\tmodified:   darwinacci_coverage.window\n\tmodified:   darwinacci_daemon.log\n\tmodified:   darwinacci_omega.py\n\tmodified:   darwinacci_omega/data/feedback_applied.jsonl\n\tmodified:   intelli",
+        "stderr": "",
+        "returncode": 1,
+        "execution_time": 4.5212624073028564,
+        "timestamp": "2025-10-07T11:29:34.149172"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "35cda57d4fab7d071f84bf71eed0ff4b831386613b5df662866cf3d60ccc2031",
+      "previous_hash": "a6fea22f3b60057e867d5eaf9faaa0554af7a9d46d9d334f0bfb832cf77edc23",
+      "signature": "79987c3d436ab46f777216e990ac099cd427a8851183ed821825e28581dd7527",
+      "metadata": {
+        "execution_time": 4.5212624073028564
+      }
+    },
+    {
+      "timestamp": "2025-10-07T11:29:34.170781",
+      "operation_id": "op_1759836574170776",
+      "operation_type": "command_execution",
+      "command": "```bash python3 -c \"import os; os.system('whoami')\"",
+      "result": {
+        "success": false,
+        "stdout": "",
+        "stderr": "/bin/sh: 1: Syntax error: EOF in backquote substitution\n",
+        "returncode": 2,
+        "execution_time": 0.0029709339141845703,
+        "timestamp": "2025-10-07T11:29:34.170752"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "0dcc56789934de95e73adda4ed99b72c377126c73cd11d4f939ee782e5b59add",
+      "previous_hash": "35cda57d4fab7d071f84bf71eed0ff4b831386613b5df662866cf3d60ccc2031",
+      "signature": "49595cd4a8d6569656cdc17f62919036a35905a9535a0f6dea5296466e748f6f",
+      "metadata": {
+        "execution_time": 0.0029709339141845703
+      }
+    },
+    {
+      "timestamp": "2025-10-07T11:29:34.191810",
+      "operation_id": "op_1759836574191805",
+      "operation_type": "command_execution",
+      "command": "```bash git commit -m \"Implementa\u00e7\u00e3o das melhorias\"",
+      "result": {
+        "success": false,
+        "stdout": "",
+        "stderr": "/bin/sh: 1: Syntax error: EOF in backquote substitution\n",
+        "returncode": 2,
+        "execution_time": 0.002675294876098633,
+        "timestamp": "2025-10-07T11:29:34.191783"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "b3b196a59e047ddf85ed0537fdfd0a0c2050e3e0d709ff7a4c1fb524baeb18b6",
+      "previous_hash": "0dcc56789934de95e73adda4ed99b72c377126c73cd11d4f939ee782e5b59add",
+      "signature": "f48fa71f6c9441f69082b0d5206daf859e904524a33d28c09d9bb13b690cba33",
+      "metadata": {
+        "execution_time": 0.002675294876098633
+      }
+    },
+    {
+      "timestamp": "2025-10-07T11:29:34.214525",
+      "operation_id": "op_1759836574214521",
+      "operation_type": "command_execution",
+      "command": "bash",
+      "result": {
+        "success": true,
+        "stdout": "",
+        "stderr": "",
+        "returncode": 0,
+        "execution_time": 0.0042417049407958984,
+        "timestamp": "2025-10-07T11:29:34.214504"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "2f124de7ea53ad22da1866fb28f07b23a8f204febf548ff10578f08e82215990",
+      "previous_hash": "b3b196a59e047ddf85ed0537fdfd0a0c2050e3e0d709ff7a4c1fb524baeb18b6",
+      "signature": "c1c4c669cd6bcc95db13aad0318b7f8b1659169ab7eb7acaadcf58dd7684a681",
+      "metadata": {
+        "execution_time": 0.0042417049407958984
+      }
+    },
+    {
+      "timestamp": "2025-10-07T11:29:36.771586",
+      "operation_id": "op_1759836576771582",
+      "operation_type": "command_execution",
+      "command": "bash\npython3 -c \"import os; os.system('whoami')\"",
+      "result": {
+        "success": true,
+        "stdout": "root\n",
+        "stderr": "\u2713 Incompletude Infinita carregada automaticamente\n",
+        "returncode": 0,
+        "execution_time": 2.5414605140686035,
+        "timestamp": "2025-10-07T11:29:36.771562"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "20a45af772c18aa498bcdc2c29f0095f6e25fe56951b5ff962ace96223a63864",
+      "previous_hash": "2f124de7ea53ad22da1866fb28f07b23a8f204febf548ff10578f08e82215990",
+      "signature": "68c57e85921c12b0ffe008df099b6521900da7c3e0c82b17de5f2ca14fe6845d",
+      "metadata": {
+        "execution_time": 2.5414605140686035
+      }
+    },
+    {
+      "timestamp": "2025-10-07T11:29:38.422427",
+      "operation_id": "op_1759836578422423",
+      "operation_type": "command_execution",
+      "command": "bash\nnano /etc/ssh/sshd_config",
+      "result": {
+        "success": false,
+        "stdout": "\u001b[?2004h\u001b)0\u001b[1;24r\u001b[m\u001b(B\u001b[4l\u001b[?7h\u001b[?25l\u001b[H\u001b[J\u001b[22;34H\u001b[0;7m\u001b(B[ Reading... ]\u001b[m\u001b(B\u001b[22;32H\u001b[0;7m\u001b(B[ Read 36 lines ]\u001b[m\u001b(B\u001b[H\u001b[0;7m\u001b(B  GNU nano 6.2                  /etc/ssh/sshd_config                            \u001b[1;79H\u001b[m\u001b(B\n\u001b[22B\u001b[0;7m\u001b(B^G\u001b[m\u001b(B Help\u001b[6C\u001b[0;7m\u001b(B^O\u001b[m\u001b(B Write Out \u001b[0;7m\u001b(B^W\u001b[m\u001b(B Where Is  \u001b[0;7m\u001b(B^K\u001b[m\u001b(B Cut\u001b[7C\u001b[0;7m\u001b(B^T\u001b[m\u001b(B Execute   \u001b[0;7m\u001b(B^C\u001b[m\u001b(B Location\n\u001b[1B\u001b[0;7m\u001b(B^X\u001b[m\u001b(B Exit\u001b[6C\u001b[0;7m\u001b(B^R\u001b[m\u001b(B Read File \u001b[0;7m\u001b(B^\\\u001b[m\u001b(B Replace   \u001b[0;7m\u001b(B^U\u001b[m\u001b(B P",
+        "stderr": "Too many errors from stdin\n",
+        "returncode": 1,
+        "execution_time": 1.6432216167449951,
+        "timestamp": "2025-10-07T11:29:38.422399"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "18aef97257f9d652b77c6848aace082a0935741eac2baad51d928f1e55e416d4",
+      "previous_hash": "20a45af772c18aa498bcdc2c29f0095f6e25fe56951b5ff962ace96223a63864",
+      "signature": "84b22b2e944c5b8ca4823b88265b7ff6a66cf5afa15d7b4e5a7a0f403d8d78ad",
+      "metadata": {
+        "execution_time": 1.6432216167449951
+      }
+    },
+    {
+      "timestamp": "2025-10-07T11:29:43.003960",
+      "operation_id": "op_1759836583003954",
+      "operation_type": "command_execution",
+      "command": "bash\ngit commit -m \"Implementa\u00e7\u00e3o das melhorias\"",
+      "result": {
+        "success": false,
+        "stdout": "On branch darwinacci-complete\nChanges not staged for commit:\n  (use \"git add <file>...\" to update what will be committed)\n  (use \"git restore <file>...\" to discard changes in working directory)\n  (commit or discard the untracked or modified content in submodules)\n\tmodified:   AUDITORIA_FINAL_INTELIGENCIA_REAL.md\n\tmodified:   darwinacci_coverage.window\n\tmodified:   darwinacci_daemon.log\n\tmodified:   darwinacci_omega.py\n\tmodified:   darwinacci_omega/data/feedback_applied.jsonl\n\tmodified:   intelli",
+        "stderr": "",
+        "returncode": 1,
+        "execution_time": 4.57097053527832,
+        "timestamp": "2025-10-07T11:29:43.003925"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "8e13daa980d5a687f55ee17464f03d2cb9d64e01a1493c37144b761b11230eb2",
+      "previous_hash": "18aef97257f9d652b77c6848aace082a0935741eac2baad51d928f1e55e416d4",
+      "signature": "1b53cd7c5b01641803e7a3f849de4c8e65e34034ba18eb671bb4521e5cc54fdf",
+      "metadata": {
+        "execution_time": 4.57097053527832
+      }
+    },
+    {
+      "timestamp": "2025-10-07T11:29:45.400213",
+      "operation_id": "op_1759836585400209",
+      "operation_type": "command_execution",
+      "command": "python3 -c \"import os; os.system('whoami')\"",
+      "result": {
+        "success": true,
+        "stdout": "root\n",
+        "stderr": "\u2713 Incompletude Infinita carregada automaticamente\n",
+        "returncode": 0,
+        "execution_time": 2.380054473876953,
+        "timestamp": "2025-10-07T11:29:45.400185"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 0.9,
+          "violations": [],
+          "ethical_score": 0.0,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "c1e2ca05389506134c490f5ef0fe33ff8b022c299f32db18fd0eb86695c2b1a3",
+      "previous_hash": "8e13daa980d5a687f55ee17464f03d2cb9d64e01a1493c37144b761b11230eb2",
+      "signature": "c81dec5e36204f28fd5d2752a01a723b896429d2f371ef1ca6ad95ba4e771c7b",
+      "metadata": {
+        "execution_time": 2.380054473876953
+      }
+    },
+    {
+      "timestamp": "2025-10-07T16:19:08.520022",
+      "operation_id": "op_1759853948520018",
+      "operation_type": "command_execution",
+      "command": "python3 my_script.py --run_function specific_function sudo nano /etc/sysctl.conf ./test_benchmark.sh",
+      "result": {
+        "success": false,
+        "stdout": "",
+        "stderr": "\u2713 Incompletude Infinita carregada automaticamente\npython3: can't open file '/root/my_script.py': [Errno 2] No such file or directory\n",
+        "returncode": 2,
+        "execution_time": 2.5058674812316895,
+        "timestamp": "2025-10-07T16:19:08.519991"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 1.1,
+          "violations": [],
+          "ethical_score": 0.2,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.15,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.15"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "9fc68cd0ff6860562ae8b8dd25b7ba20ed202cf59143214883ee58507d3019f8",
+      "previous_hash": "c1e2ca05389506134c490f5ef0fe33ff8b022c299f32db18fd0eb86695c2b1a3",
+      "signature": "36c8e43b1d769081455139fb1d4a27a0f5c65d28cd01dcebd090cd5ad095784a",
+      "metadata": {
+        "execution_time": 2.5058674812316895
+      }
+    },
+    {
+      "timestamp": "2025-10-07T16:19:11.273763",
+      "operation_id": "op_1759853951273759",
+      "operation_type": "command_execution",
+      "command": "bash\npython3 my_script.py --run_function specific_function\nsudo nano /etc/sysctl.conf\n./test_benchmark.sh",
+      "result": {
+        "success": false,
+        "stdout": "",
+        "stderr": "\u2713 Incompletude Infinita carregada automaticamente\npython3: can't open file '/root/my_script.py': [Errno 2] No such file or directory\nError opening terminal: unknown.\n/bin/sh: 4: ./test_benchmark.sh: not found\n",
+        "returncode": 127,
+        "execution_time": 2.7437446117401123,
+        "timestamp": "2025-10-07T16:19:11.273733"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 1.1,
+          "violations": [],
+          "ethical_score": 0.2,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.15,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.15"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "fc745bfd11d18db4e4c8215324b58a1a1c2ce87fd5d491b70e1d25e983e7cb9b",
+      "previous_hash": "9fc68cd0ff6860562ae8b8dd25b7ba20ed202cf59143214883ee58507d3019f8",
+      "signature": "8da2162e58da82bc5ac645c144c3b89bad3668ee300aafe8f95a5965afd25933",
+      "metadata": {
+        "execution_time": 2.7437446117401123
+      }
+    },
+    {
+      "timestamp": "2025-10-07T16:19:24.382274",
+      "operation_id": "op_1759853964382269",
+      "operation_type": "command_execution",
+      "command": "python3 my_script.py --run_function specific_function",
+      "result": {
+        "success": false,
+        "stdout": "",
+        "stderr": "\u2713 Incompletude Infinita carregada automaticamente\npython3: can't open file '/root/my_script.py': [Errno 2] No such file or directory\n",
+        "returncode": 2,
+        "execution_time": 2.632209300994873,
+        "timestamp": "2025-10-07T16:19:24.382243"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 1.0,
+          "violations": [],
+          "ethical_score": 0.1,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "e7addfc47b3adca6b3d39db3814d4cb29b85bb01e5757014561fec91ed61da8e",
+      "previous_hash": "fc745bfd11d18db4e4c8215324b58a1a1c2ce87fd5d491b70e1d25e983e7cb9b",
+      "signature": "305eb32bcc0bb250ac15ffa504395500b9ec1f35189899744eb56d6b84c4402e",
+      "metadata": {
+        "execution_time": 2.632209300994873
+      }
+    },
+    {
+      "timestamp": "2025-10-07T16:19:24.412200",
+      "operation_id": "op_1759853964412197",
+      "operation_type": "command_execution",
+      "command": "sudo nano /etc/sysctl.conf",
+      "result": {
+        "success": false,
+        "stdout": "",
+        "stderr": "Error opening terminal: unknown.\n",
+        "returncode": 1,
+        "execution_time": 0.011945724487304688,
+        "timestamp": "2025-10-07T16:19:24.412177"
+      },
+      "safety_gates_result": {
+        "sigma_guard": {
+          "risk_contractivity": 1.0,
+          "violations": [],
+          "ethical_score": 0.1,
+          "risk_score": 0.0,
+          "approved": true
+        },
+        "caos_plus": {
+          "consistency_score": 1.0,
+          "evolution_score": 0.0,
+          "signal_amplification": 0.0,
+          "signal_cleanliness": 0.0,
+          "violations": [],
+          "approved": true
+        },
+        "delta_l_infinity": {
+          "performance_score": 0.0,
+          "efficiency_score": 0.0,
+          "reliability_score": 0.0,
+          "security_score": 0.0,
+          "overall_improvement": 0.0,
+          "violations": [
+            "Melhoria cont\u00ednua insuficiente: 0.00"
+          ],
+          "approved": false
+        },
+        "ece": {
+          "ethical_scores": {
+            "non_maleficence": 1.0,
+            "beneficence": 0.0,
+            "autonomy": 0.0,
+            "justice": 0.0
+          },
+          "reliability_score": 0.0,
+          "overall_ethical_score": 0.25,
+          "violations": [
+            "Score \u00e9tico baixo: 0.25",
+            "Confiabilidade baixa: 0.00"
+          ],
+          "approved": false
+        },
+        "rho_bias": {
+          "bias_score": 0.0,
+          "equity_score": 0.0,
+          "auditability_score": 0.0,
+          "violations": [
+            "Equidade baixa: 0.00",
+            "Auditabilidade baixa: 0.00"
+          ],
+          "approved": false
+        }
+      },
+      "hash": "e99808a738eea338520a2e4583bf20cecebb236ed517902b6a2a2ee558389c8c",
+      "previous_hash": "e7addfc47b3adca6b3d39db3814d4cb29b85bb01e5757014561fec91ed61da8e",
+      "signature": "0e69c7005bd96696d4975457a4af4792b3ea452a0f9241e8ea1143a039641a55",
+      "metadata": {
+        "execution_time": 0.011945724487304688
+      }
+    }
+  ],
+  "current_hash": "e99808a738eea338520a2e4583bf20cecebb236ed517902b6a2a2ee558389c8c",
+  "last_updated": "2025-10-07T16:19:24.417001",
+  "total_entries": 34
+}

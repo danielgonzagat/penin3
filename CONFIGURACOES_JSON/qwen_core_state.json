@@ -1,0 +1,51 @@
+{
+  "command_history": [
+    {
+      "command": "sudo apt-get update && sudo apt-get upgrade -y",
+      "result": {
+        "success": true,
+        "stdout": "Hit:1 https://cli.github.com/packages stable InRelease\nHit:2 https://download.docker.com/linux/ubuntu jammy InRelease\nGet:3 https://nvidia.github.io/libnvidia-container/stable/deb/amd64  InRelease [1,477 B]\nGet:4 https://nvidia.github.io/libnvidia-container/stable/ubuntu18.04/amd64  InRelease [1,484 B]\nHit:5 https://deb.nodesource.com/node_20.x nodistro InRelease\nHit:6 https://dl.google.com/linux/chrome/deb stable InRelease\nHit:7 http://archive.ubuntu.com/ubuntu jammy InRelease\nHit:9 http://archive.ubuntu.com/ubuntu jammy-updates InRelease\nHit:10 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy InRelease\nHit:11 http://archive.ubuntu.com/ubuntu jammy-backports InRelease\nHit:12 http://archive.ubuntu.com/ubuntu jammy-security InRelease\nHit:8 https://packagecloud.io/github/git-lfs/ubuntu jammy InRelease\nFetched 2,961 B in 2s (1,814 B/s)\nReading package lists...\nReading package lists...\nBuilding dependency tree...\nReading state information...\nCalculating upgrade...\nThe following packages were automatically installed and are no longer required:\n  linux-headers-5.15.0-156 linux-headers-5.15.0-156-generic\n  linux-image-5.15.0-156-generic linux-modules-5.15.0-156-generic\n  linux-modules-extra-5.15.0-156-generic\nUse 'sudo apt autoremove' to remove them.\n0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.\n",
+        "stderr": "\u2713 Incompletude Infinita carregada automaticamente\n",
+        "returncode": 0,
+        "execution_time": 7.230368375778198,
+        "timestamp": "2025-10-06T16:57:20.077235"
+      }
+    },
+    {
+      "command": "sudo apt-get update && sudo apt-get upgrade -y",
+      "result": {
+        "success": true,
+        "stdout": "Hit:1 https://download.docker.com/linux/ubuntu jammy InRelease\nHit:2 https://cli.github.com/packages stable InRelease\nGet:3 https://nvidia.github.io/libnvidia-container/stable/deb/amd64  InRelease [1,477 B]\nHit:4 https://deb.nodesource.com/node_20.x nodistro InRelease\nGet:5 https://nvidia.github.io/libnvidia-container/stable/ubuntu18.04/amd64  InRelease [1,484 B]\nHit:6 https://dl.google.com/linux/chrome/deb stable InRelease\nHit:7 http://archive.ubuntu.com/ubuntu jammy InRelease\nHit:8 http://archive.ubuntu.com/ubuntu jammy-updates InRelease\nHit:9 http://archive.ubuntu.com/ubuntu jammy-backports InRelease\nHit:10 http://archive.ubuntu.com/ubuntu jammy-security InRelease\nHit:11 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy InRelease\nHit:12 https://packagecloud.io/github/git-lfs/ubuntu jammy InRelease\nFetched 2,961 B in 2s (1,761 B/s)\nReading package lists...\nReading package lists...\nBuilding dependency tree...\nReading state information...\nCalculating upgrade...\nThe following packages were automatically installed and are no longer required:\n  linux-headers-5.15.0-156 linux-headers-5.15.0-156-generic\n  linux-image-5.15.0-156-generic linux-modules-5.15.0-156-generic\n  linux-modules-extra-5.15.0-156-generic\nUse 'sudo apt autoremove' to remove them.\n0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.\n",
+        "stderr": "\u2713 Incompletude Infinita carregada automaticamente\n",
+        "returncode": 0,
+        "execution_time": 7.803759336471558,
+        "timestamp": "2025-10-06T17:02:35.788826"
+      }
+    },
+    {
+      "command": "sudo apt-get update && sudo apt-get upgrade -y",
+      "result": {
+        "success": true,
+        "stdout": "Hit:1 https://cli.github.com/packages stable InRelease\nGet:2 https://nvidia.github.io/libnvidia-container/stable/deb/amd64  InRelease [1,477 B]\nGet:3 https://nvidia.github.io/libnvidia-container/stable/ubuntu18.04/amd64  InRelease [1,484 B]\nHit:4 https://download.docker.com/linux/ubuntu jammy InRelease\nHit:5 https://deb.nodesource.com/node_20.x nodistro InRelease\nHit:6 https://dl.google.com/linux/chrome/deb stable InRelease\nHit:7 http://archive.ubuntu.com/ubuntu jammy InRelease\nHit:8 http://archive.ubuntu.com/ubuntu jammy-updates InRelease\nHit:9 http://archive.ubuntu.com/ubuntu jammy-backports InRelease\nHit:10 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy InRelease\nHit:11 http://archive.ubuntu.com/ubuntu jammy-security InRelease\nHit:12 https://packagecloud.io/github/git-lfs/ubuntu jammy InRelease\nFetched 2,961 B in 2s (1,808 B/s)\nReading package lists...\nReading package lists...\nBuilding dependency tree...\nReading state information...\nCalculating upgrade...\nThe following packages were automatically installed and are no longer required:\n  linux-headers-5.15.0-156 linux-headers-5.15.0-156-generic\n  linux-image-5.15.0-156-generic linux-modules-5.15.0-156-generic\n  linux-modules-extra-5.15.0-156-generic\nUse 'sudo apt autoremove' to remove them.\n0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.\n",
+        "stderr": "\u2713 Incompletude Infinita carregada automaticamente\n",
+        "returncode": 0,
+        "execution_time": 7.130208253860474,
+        "timestamp": "2025-10-06T17:23:58.799887"
+      }
+    },
+    {
+      "command": "sudo apt-get update && sudo apt-get upgrade -y",
+      "result": {
+        "success": true,
+        "stdout": "Get:1 https://nvidia.github.io/libnvidia-container/stable/deb/amd64  InRelease [1,477 B]\nHit:2 https://cli.github.com/packages stable InRelease\nGet:3 https://nvidia.github.io/libnvidia-container/stable/ubuntu18.04/amd64  InRelease [1,484 B]\nHit:4 https://deb.nodesource.com/node_20.x nodistro InRelease\nHit:5 https://download.docker.com/linux/ubuntu jammy InRelease\nHit:6 http://archive.ubuntu.com/ubuntu jammy InRelease\nHit:7 https://dl.google.com/linux/chrome/deb stable InRelease\nHit:8 http://archive.ubuntu.com/ubuntu jammy-updates InRelease\nHit:9 http://archive.ubuntu.com/ubuntu jammy-backports InRelease\nHit:10 http://archive.ubuntu.com/ubuntu jammy-security InRelease\nHit:11 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy InRelease\nHit:12 https://packagecloud.io/github/git-lfs/ubuntu jammy InRelease\nFetched 2,961 B in 2s (1,969 B/s)\nReading package lists...\nReading package lists...\nBuilding dependency tree...\nReading state information...\nCalculating upgrade...\nThe following packages were automatically installed and are no longer required:\n  linux-headers-5.15.0-156 linux-headers-5.15.0-156-generic\n  linux-image-5.15.0-156-generic linux-modules-5.15.0-156-generic\n  linux-modules-extra-5.15.0-156-generic\nUse 'sudo apt autoremove' to remove them.\n0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.\n",
+        "stderr": "\u2713 Incompletude Infinita carregada automaticamente\n",
+        "returncode": 0,
+        "execution_time": 7.058277606964111,
+        "timestamp": "2025-10-06T17:29:29.158873"
+      }
+    },
+    {
+      "command": "sudo apt-get update && sudo apt-get upgrade -y",
+      "result": {
+        "success": true,
+        "stdout": "Hit:1 https://download.docker.com/linux/ubuntu jammy InRelease\nHit:2 https://cli.github.com/packages stable InRelease\nGet:3 https://nvidia.github.io/libnvidia-container/stable/deb/amd64  InRelease [1,477 B]\nGet:4 https://nvidia.github.io/libnvidia-container/stable/ubuntu18.04/amd64  InRelease [1,484 B]\nHit:5 https://deb.nodesource.com/node_20.x nodistro InRelease\nHit:6 https://dl.google.com/linux/chrome/deb stable InRelease\nHit:7 http://archive.ubuntu.com/ubuntu jammy InRelease\nHit:8 http://archive.ubuntu.com/ubuntu jammy-updates InRelease\nHit:9 http://archive.ubuntu.com/ubuntu jammy-backports InRelease\nHit:10 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy InRelease\nHit:12 http://archive.ubuntu.com/ubuntu jammy-security InRelease\nHit:11 https://packagecloud.io/github/git-lfs/ubuntu jammy InRelease\nFetched 2,961 B in 2s (1,727 B/s)\nReading package lists...\nReading package lists...\nBuilding dependency tree...\nReading state information...\nCalculating upgrade...\nThe following packages were automatically installed and are no longer required:\n  linux-headers-5.15.0-156 linux-headers-5.15.0-156-generic\n  linux-image-5.15.0-156-gene

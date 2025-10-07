@@ -1,0 +1,134 @@
+{
+  "timestamp": "2025-10-04T01:14:42.071465",
+  "total_neurons": 1377442,
+  "files_scanned": 13125,
+  "files_failed": 0,
+  "by_source": {
+    "pt_files": 1356596,
+    "py_files": 8239,
+    "databases": 12426,
+    "json_files": 181
+  },
+  "top_20_files": [
+    {
+      "file": "/root/neuron_soup_chunk_0.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 1.253819465637207
+    },
+    {
+      "file": "/root/neuron_soup_chunk_2.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 0.7543840408325195
+    },
+    {
+      "file": "/root/neuron_soup_chunk_7.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 2.8926868438720703
+    },
+    {
+      "file": "/root/neuron_soup_chunk_17.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 2.7481231689453125
+    },
+    {
+      "file": "/root/neuron_soup_chunk_12.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 2.7911386489868164
+    },
+    {
+      "file": "/root/neuron_soup_chunk_11.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 2.8122873306274414
+    },
+    {
+      "file": "/root/neuron_soup_chunk_16.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 2.753183364868164
+    },
+    {
+      "file": "/root/neuron_soup_chunk_18.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 2.753734588623047
+    },
+    {
+      "file": "/root/neuron_soup_chunk_3.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 0.20323657989501953
+    },
+    {
+      "file": "/root/neuron_soup_chunk_9.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 2.8570804595947266
+    },
+    {
+      "file": "/root/neuron_soup_chunk_22.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 2.7361621856689453
+    },
+    {
+      "file": "/root/neuron_soup_chunk_20.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 2.7309722900390625
+    },
+    {
+      "file": "/root/neuron_soup_chunk_6.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 0.31621265411376953
+    },
+    {
+      "file": "/root/neuron_soup_chunk_15.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 2.7655115127563477
+    },
+    {
+      "file": "/root/neuron_soup_chunk_21.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 2.7519969940185547
+    },
+    {
+      "file": "/root/neuron_soup_chunk_1.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 16.676520347595215
+    },
+    {
+      "file": "/root/neuron_soup_chunk_19.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 2.739217758178711
+    },
+    {
+      "file": "/root/neuron_soup_chunk_14.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 2.7798242568969727
+    },
+    {
+      "file": "/root/neuron_soup_chunk_5.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 0.6300554275512695
+    },
+    {
+      "file": "/root/neuron_soup_chunk_4.pt",
+      "count": 50000,
+      "type": "pt_list",
+      "size_mb": 0.6989030838012695
+    }
+  ]
+}

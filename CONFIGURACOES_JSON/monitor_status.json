@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-10-07T00:57:45.223500",
+  "processes": {
+    "brain_daemon": {
+      "status": "dead",
+      "pid": 747447,
+      "cpu": 0,
+      "memory": 0
+    },
+    "darwin_bridge": {
+      "status": "dead",
+      "pid": 665123,
+      "cpu": 0,
+      "memory": 0
+    },
+    "needle_bridge": {
+      "status": "dead",
+      "pid": 665626,
+      "cpu": 0,
+      "memory": 0
+    },
+    "auto_evolution": {
+      "status": "dead",
+      "pid": 676483,
+      "cpu": 0,
+      "memory": 0
+    },
+    "multi_env_test": {
+      "status": "dead",
+      "pid": 685640,
+      "cpu": 0,
+      "memory": 0
+    }
+  },
+  "system": {
+    "cpu": 99.3,
+    "memory": 25.1,
+    "disk": 51.3,
+    "timestamp": 1759798666.2248993
+  },
+  "alerts": [
+    "\u274c brain_daemon is DEAD!",
+    "\u274c darwin_bridge is DEAD!",
+    "\u274c needle_bridge is DEAD!",
+    "\u274c auto_evolution is DEAD!",
+    "\u274c multi_env_test is DEAD!",
+    "\u26a0\ufe0f  CPU HIGH: 99.3%"
+  ]
+}

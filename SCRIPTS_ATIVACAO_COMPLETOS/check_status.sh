@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "🧠 INTELLIGENCE SYSTEM STATUS - $(date)"
+echo "=========================================="
+echo ""
+echo "PROCESSOS:"
+echo "  Brain Daemon: $(pgrep -f brain_daemon_real_env.py | wc -l) running"
+echo "  Darwin Evolution: $(pgrep -f darwin_runner.py | wc -l) running"
+echo "  Monitors: $(pgrep -f 'guardian|health_monitor|emergencia' | wc -l) running"
+echo ""
+echo "METRICS (intelligence.db):"
+LATEST=$(sqlite3 /root/intelligence_system/data/intelligence.db "SELECT episode, energy FROM brain_metrics ORDER BY timestamp DESC LIMIT 1" 2>/dev/null)
+echo "  Latest: $LATEST"
+echo ""
+echo "EMERGENCE (emergence_surprises.db):"
+echo "  Raw metrics: $(sqlite3 /root/intelligence_system/data/emergence_surprises.db 'SELECT COUNT(*) FROM metrics_raw' 2>/dev/null)"
+echo "  Diagnostics: $(sqlite3 /root/intelligence_system/data/emergence_surprises.db 'SELECT COUNT(*) FROM diagnostics' 2>/dev/null)"
+echo "  Surprises: $(sqlite3 /root/intelligence_system/data/emergence_surprises.db 'SELECT COUNT(*) FROM surprises' 2>/dev/null)"
