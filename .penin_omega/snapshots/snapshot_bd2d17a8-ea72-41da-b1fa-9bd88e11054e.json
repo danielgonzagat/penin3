@@ -1,0 +1,95 @@
+{
+  "id": "bd2d17a8-ea72-41da-b1fa-9bd88e11054e",
+  "tag": "demo_final",
+  "timestamp": "2025-09-24T03:10:30.452628+00:00",
+  "state": {
+    "state_id": "bf953e4e-0ab8-49d8-a894-994a3e2541f8",
+    "timestamp": "2025-09-24T03:10:28.913285+00:00",
+    "version": "6.0.0",
+    "ece": 0.0,
+    "rho_bias": 1.0,
+    "consent": true,
+    "eco_ok": true,
+    "rho": 0.5,
+    "uncertainty": 0.5,
+    "C": 0.6,
+    "A": 0.6,
+    "O": 0.6,
+    "S": 0.6,
+    "caos_pre": 1.2155987389817406,
+    "caos_post": 1.2155987389817406,
+    "sr_score": 0.803059273422562,
+    "C_cal": 0.8,
+    "E_ok": 1.0,
+    "M": 0.7,
+    "A_eff": 0.6,
+    "A_t": false,
+    "C_t": false,
+    "E_t": false,
+    "V_t": true,
+    "delta_linf": 0.0,
+    "mdl_gain": 0.0,
+    "ppl_ood": 100.0,
+    "novelty_sim": 1.0,
+    "rag_recall": 1.0,
+    "throughput": 0.0,
+    "latency_p95": 0.0,
+    "cache_hit_ratio": 0.0,
+    "cpu_usage": 0.0,
+    "memory_usage": 0.0,
+    "gpu_available": false,
+    "kill_switch": false,
+    "trust_region": 0.1,
+    "rollback_ready": true,
+    "hashes": [],
+    "proof_ids": [
+      "17394a77-ef37-4156-b41f-7adc126e6b9e"
+    ],
+    "cycle_count": 0,
+    "mutations": []
+  },
+  "metrics": {
+    "cycles": 0,
+    "promotions": 0,
+    "rollbacks": 0,
+    "extinctions": 3
+  },
+  "config": {
+    "ethics": {
+      "ece_max": 0.01,
+      "rho_bias_max": 1.05,
+      "consent_required": true,
+      "eco_ok_required": true
+    },
+    "iric": {
+      "rho_max": 0.95,
+      "contraction_factor": 0.98
+    },
+    "caos_plus": {
+      "kappa": 2.0,
+      "pmin": 0.05,
+      "pmax": 2.0,
+      "chaos_probability": 0.01
+    },
+    "sr_omega": {
+      "weights": {
+        "C": 0.2,
+        "E": 0.4,
+        "M": 0.3,
+        "A": 0.1
+      },
+      "tau_sr": 0.8
+    },
+    "llm": {
+      "providers": [
+        "local"
+      ],
+      "cache_size": 500
+    },
+    "performance": {
+      "target_throughput": 50000,
+      "target_latency_p95": 10,
+      "cache_target_ratio": 0.95
+    }
+  }
+}

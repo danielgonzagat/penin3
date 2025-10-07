@@ -1,0 +1,323 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+PENIN-Ω Unified Bridge
+Fecha o laço: comportamento (Crucible/Falcon/AGI) -> indicadores (Emergence/Consciousness DB)
+-> prob. de emergência -> ações (Self-Modification/Promotion via Crucible)
+
+Escopo mínimo seguro:
+- Lê sinais do Emergence Detector (emergence_detection.db) e reports do Crucible
+- Agrega indicadores comportamentais (success_rate, avg_score, trend)
+- Escreve em consciousness_emergence.db (tabela emergence_indicators)
+- Mantém logs em /root/.penin_omega/logs/unified_bridge.log
+"""
+from __future__ import annotations
+import os
+import sys
+import json
+import time
+import sqlite3
+import logging
+from pathlib import Path
+from datetime import datetime, timedelta
+from typing import Dict, Any, Tuple, List, Optional
+
+ROOT = Path("/root/.penin_omega")
+EM_DB = ROOT / "emergence_detection.db"
+CS_DB = ROOT / "consciousness_emergence.db"
+CRUCIBLE_DIR = ROOT / "crucible" / "reports"
+LOG_FILE = ROOT / "logs" / "unified_bridge.log"
+MODULES_DIR = ROOT / "modules"
+BH_DB = ROOT / "behavior_metrics.db"
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='[%(asctime)s][UNIFIED] %(message)s',
+    handlers=[
+        logging.FileHandler(LOG_FILE),
+        logging.StreamHandler()
+    ]
+)
+log = logging.getLogger(__name__)
+
+
+def _ensure_emergence_indicators_table() -> None:
+    conn = sqlite3.connect(str(CS_DB))
+    try:
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS emergence_indicators (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                indicator_name TEXT,
+                indicator_value REAL,
+                timestamp REAL,
+                trend REAL
+            )
+            """
+        )
+        conn.commit()
+    finally:
+        conn.close()
+
+
+def _read_emergence_counts(window_s: int = 600) -> Tuple[int, float]:
+    """Conta eventos recentes e média de força em EMERGENCE DB."""
+    if not EM_DB.exists():
+        return 0, 0.0
+    cutoff = time.time() - window_s
+    conn = sqlite3.connect(str(EM_DB))
+    try:
+        cur = conn.cursor()
+        cur.execute(
+            "SELECT COUNT(*), AVG(event_strength) FROM emergence_events WHERE timestamp >= ?",
+            (cutoff,)
+        )
+        cnt, avg_strength = cur.fetchone() or (0, 0.0)
+        return int(cnt or 0), float(avg_strength or 0.0)
+    finally:
+        conn.close()
+
+
+def _read_crucible_summary() -> Tuple[int, int, float]:
+    """Lê o summary mais recente do Crucible e retorna (avaliados, promovidos, avg_delta_linf)."""
+    if not CRUCIBLE_DIR.exists():
+        return 0, 0, 0.0
+    latest = None
+    latest_mtime = -1
+    for p in CRUCIBLE_DIR.glob("crucible_*.json"):
+        m = p.stat().st_mtime
+        if m > latest_mtime:
+            latest_mtime, latest = m, p
+    if latest is None:
+        return 0, 0, 0.0
+    try:
+        data = json.loads(latest.read_text(encoding="utf-8"))
+        summary = data.get("summary", {})
+        return (
+            int(summary.get("tot_candidates", 0)),
+            int(summary.get("promoted", 0)),
+            float(summary.get("avg_delta_linf", 0.0)),
+        )
+    except Exception:
+        return 0, 0, 0.0
+
+
+def _read_latest_promotion_patchset() -> List[Dict[str, Any]]:
+    """Lê a promotion.json mais recente do Crucible e retorna patchset (se houver)."""
+    if not CRUCIBLE_DIR.exists():
+        return []
+    latest = None
+    latest_mtime = -1
+    for p in CRUCIBLE_DIR.glob("**/promotion.json"):
+        m = p.stat().st_mtime
+        if m > latest_mtime:
+            latest_mtime, latest = m, p
+    if latest is None:
+        # fallback via report JSON
+        rep = None
+        rep_m = -1
+        for p in CRUCIBLE_DIR.glob("crucible_*.json"):
+            m = p.stat().st_mtime
+            if m > rep_m:
+                rep_m, rep = m, p
+        try:
+            if rep:
+                data = json.loads(rep.read_text(encoding="utf-8"))
+                artifacts = data.get("artifacts", {})
+                promo_path = artifacts.get("promotion_json")
+                if promo_path and Path(promo_path).exists():
+                    latest = Path(promo_path)
+        except Exception:
+            pass
+    if not latest:
+        return []
+    try:
+        promo = json.loads(Path(latest).read_text(encoding="utf-8"))
+        return promo.get("patchset", [])
+    except Exception:
+        return []
+
+
+def _write_indicator(name: str, value: float, trend: float) -> None:
+    conn = sqlite3.connect(str(CS_DB))
+    try:
+        conn.execute(
+            "INSERT INTO emergence_indicators (indicator_name, indicator_value, timestamp, trend) VALUES (?, ?, ?, ?)",
+            (name, float(value), time.time(), float(trend)),
+        )
+        conn.commit()
+    finally:
+        conn.close()
+
+
+def _compute_trend(prev: float, curr: float) -> float:
+    return max(-1.0, min(1.0, curr - prev))
+
+
+class Rolling:
+    def __init__(self):
+        self.prev: Dict[str, float] = {}
+        self.ema: Dict[str, float] = {}
+        self.alpha: float = 0.3  # EMA smoothing
+
+    def trend(self, key: str, current: float) -> float:
+        p = self.prev.get(key, current)
+        t = _compute_trend(p, current)
+        self.prev[key] = current
+        return t
+
+    def smooth(self, key: str, current: float) -> float:
+        prev = self.ema.get(key, current)
+        val = self.alpha * current + (1 - self.alpha) * prev
+        self.ema[key] = val
+        return val
+
+
+def run_loop(interval_s: int = 5) -> None:
+    log.info("Unified Bridge iniciado")
+    _ensure_emergence_indicators_table()
+    roll = Rolling()
+    while True:
+        try:
+            # 1) Emergence: eventos fortes recentes
+            cnt, avg_strength_raw = _read_emergence_counts(600)
+            # Normalização e decaimento: força média -> [0,1] via mapeamento logístico simples
+            norm_strength = 1 - pow(2.71828, -max(0.0, avg_strength_raw) / 10.0)
+            # Success rate: taxa de eventos por minuto comparada a um baseline (3/min)
+            per_min = cnt / 10.0
+            success_rate_raw = min(1.0, per_min / 3.0)
+            # Score em 0..10 a partir de força normalizada
+            avg_score_raw = norm_strength * 10.0
+            success_rate = roll.smooth("success_rate", success_rate_raw)
+            avg_score = roll.smooth("avg_score", avg_score_raw)
+
+            _write_indicator("success_rate", success_rate, roll.trend("success_rate", success_rate))
+            _write_indicator("avg_score", avg_score, roll.trend("avg_score", avg_score))
+
+            # 2) Crucible: promoção real
+            tot, promoted, avg_delta = _read_crucible_summary()
+            promo_rate = (promoted / tot) if tot > 0 else 0.0
+            promo_rate = roll.smooth("promotion_rate", promo_rate)
+            avg_delta = roll.smooth("avg_delta_linf", avg_delta)
+            _write_indicator("promotion_rate", promo_rate, roll.trend("promotion_rate", promo_rate))
+            _write_indicator("avg_delta_linf", avg_delta, roll.trend("avg_delta_linf", avg_delta))
+
+            # 3) Behavior Harness: integrar métricas comportamentais reais
+            try:
+                bconn = sqlite3.connect(str(BH_DB))
+                cur = bconn.cursor()
+                cur.execute("SELECT COUNT(*), AVG(success), AVG(score), AVG(duration_ms) FROM results WHERE created_at > datetime('now','-10 minutes')")
+                row = cur.fetchone() or (0, 0.0, 0.0, 0.0)
+                bcount, bsucc, bscore, bdur = int(row[0] or 0), float(row[1] or 0.0), float(row[2] or 0.0), float(row[3] or 0.0)
+                if bcount > 0:
+                    _write_indicator("behavior_success_rate", roll.smooth("bh_succ", bsucc), roll.trend("bh_succ", bsucc))
+                    _write_indicator("behavior_avg_score", roll.smooth("bh_score", bscore), roll.trend("bh_score", bscore))
+                    _write_indicator("behavior_avg_ms", roll.smooth("bh_ms", bdur), roll.trend("bh_ms", bdur))
+                bconn.close()
+            except Exception:
+                pass
+
+            # 3.1) Auto-inspection: analisar sistema e ajustar comportamento
+            try:
+                import penin_auto_inspection as ai  # type: ignore
+                inspection_result = ai.auto_inspect_and_propose()
+                total_issues = inspection_result["inspection"].get("total_issues", 0)
+                _write_indicator("system_complexity_issues", float(total_issues), roll.trend("sys_complex", float(total_issues)))
+                # Ajusta comportamento baseado em inspeção
+                if total_issues > 50:
+                    log.warning("Sistema detectou alta complexidade - reduzindo tarefas")
+                    # Sinal para behavior harness reduzir carga
+                    _write_indicator("behavior_load_reduction", 1.0, roll.trend("load_red", 1.0))
+            except Exception as e:
+                log.debug(f"Auto-inspection failed: {e}")
+
+            # 4) Crucible -> Self-Modification bridge (best-effort)
+            try:
+                import penin_self_modification as sm  # type: ignore
+                patchset = _read_latest_promotion_patchset()
+                bridged = 0
+                for item in patchset:
+                    patch_file = item.get("patch_file")
+                    if not patch_file or not Path(patch_file).exists():
+                        continue
+                    # Espera JSON com chaves: target_file, target_function, old_code, new_code
+                    if Path(patch_file).suffix.lower() == ".json":
+                        try:
+                            patch = json.loads(Path(patch_file).read_text(encoding="utf-8"))
+                        except Exception:
+                            continue
+                        tf = patch.get("target_file")
+                        tfunc = patch.get("target_function", "")
+                        old = patch.get("old_code", "")
+                        new = patch.get("new_code", "")
+                        if tf and old and new:
+                            try:
+                                sm.start_self_modification()
+                            except Exception:
+                                pass
+                            try:
+                                sm.propose_modification(
+                                    modification_type="CODE_CHANGE",
+                                    target_file=tf,
+                                    target_function=tfunc or "",
+                                    old_code=old,
+                                    new_code=new,
+                                    safety_level="MEDIUM_RISK",
+                                )
+                                bridged += 1
+                            except Exception:
+                                pass
+                if bridged:
+                    _write_indicator("bridged_patches", float(bridged), roll.trend("bridged_patches", float(bridged)))
+            except Exception:
+                pass
+
+            log.info(
+                json.dumps(
+                    {
+                        "events_recent": cnt,
+                        "avg_strength_raw": round(avg_strength_raw, 3),
+                        "norm_strength": round(norm_strength, 3),
+                        "success_rate": round(success_rate, 3),
+                        "avg_score": round(avg_score, 3),
+                        "promotion_rate": round(promo_rate, 3),
+                        "avg_delta_linf": round(avg_delta, 5),
+                        "behavior": {
+                            "count": bcount if 'bcount' in locals() else 0,
+                            "succ": round(bsucc, 3) if 'bsucc' in locals() else 0.0,
+                            "score": round(bscore, 3) if 'bscore' in locals() else 0.0,
+                            "ms": round(bdur, 1) if 'bdur' in locals() else 0.0,
+                        },
+                    },
+                    ensure_ascii=False,
+                )
+            )
+        except Exception as e:
+            log.exception("Erro no Unified Bridge: %s", e)
+        time.sleep(interval_s)
+
+
+# Instância global
+if __name__ == "__main__":
+    # Tenta iniciar motores de Consciência e Emergência para fechar o laço end-to-end
+    try:
+        if str(MODULES_DIR) not in sys.path:
+            sys.path.insert(0, str(MODULES_DIR))
+    except Exception:
+        pass
+
+    try:
+        import penin_consciousness_engine as ce  # type: ignore
+        ce.start_consciousness_engine()
+        log.info("Consciousness Engine iniciado")
+    except Exception as e:
+        log.warning("Não foi possível iniciar Consciousness Engine: %s", e)
+
+    try:
+        import penin_emergence_detector as ed  # type: ignore
+        ed.start_emergence_detection()
+        log.info("Emergence Detector iniciado")
+    except Exception as e:
+        log.warning("Não foi possível iniciar Emergence Detector: %s", e)
+
+    run_loop()

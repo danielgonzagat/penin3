@@ -1,0 +1,95 @@
+{
+  "system": {
+    "name": "PENIN-\u03a9",
+    "version": "1.0.0",
+    "environment": "development",
+    "debug": true,
+    "max_threads": 4,
+    "timeout_seconds": 30
+  },
+  "paths": {
+    "root": "/root/.penin_omega",
+    "logs": "/root/.penin_omega/logs",
+    "cache": "/root/.penin_omega/cache",
+    "worm": "/root/.penin_omega/worm",
+    "state": "/root/.penin_omega/state",
+    "modules": "/root/.penin_omega/modules",
+    "config": "/root/.penin_omega/config"
+  },
+  "logging": {
+    "level": "DEBUG",
+    "max_file_size_mb": 10,
+    "backup_count": 5,
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "enable_structured": true,
+    "reduce_verbosity": true
+  },
+  "performance": {
+    "enable_optimization": true,
+    "cache_size_mb": 100,
+    "gc_threshold": [
+      700,
+      10,
+      10
+    ],
+    "max_memory_mb": 512,
+    "enable_profiling": true
+  },
+  "security": {
+    "enable_dlp": true,
+    "enable_worm": true,
+    "sigma_guard_threshold": 0.8,
+    "ir_ic_threshold": 1.0,
+    "sr_omega_threshold": 0.8,
+    "max_violations": 10
+  },
+  "database": {
+    "worm_db_path": "/root/.penin_omega/worm/worm_ledger.db",
+    "state_db_path": "/root/.penin_omega/state/global_state.db",
+    "dlp_db_path": "/root/.penin_omega/security/dlp_violations.db",
+    "backup_interval_hours": 24,
+    "vacuum_interval_hours": 168
+  },
+  "modules": {
+    "enable_all": true,
+    "core_module": "penin_omega_1_core_v6",
+    "strategy_module": "penin_omega_2_strategy",
+    "acquisition_module": "penin_omega_3_acquisition",
+    "mutation_module": "penin_omega_4_mutation",
+    "crucible_module": "penin_omega_5_crucible",
+    "autorewrite_module": "penin_omega_6_autorewrite",
+    "nexus_module": "penin_omega_7_nexus",
+    "governance_module": "penin_omega_8_governance_hub"
+  },
+  "pipeline": {
+    "enable_real_data": true,
+    "max_candidates": 10,
+    "timeout_per_stage": 30,
+    "enable_parallel": false,
+    "retry_attempts": 3
+  },
+  "autonomous": {
+    "enable_evolution": true,
+    "evolution_interval_seconds": 30,
+    "enable_creativity": true,
+    "creativity_interval_seconds": 60,
+    "enable_administration": true,
+    "admin_interval_seconds": 120
+  },
+  "testing": {
+    "enable_automated": true,
+    "test_timeout": 10,
+    "parallel_tests": false,
+    "generate_reports": true
+  },
+  "api": {
+    "enable_multi_api": true,
+    "timeout_seconds": 15,
+    "max_retries": 3,
+    "enable_fallback": true
+  },
+  "_metadata": {
+    "last_updated": "2025-09-18T02:09:56.884798+00:00",
+    "version": "1.0.0"
+  }
+}

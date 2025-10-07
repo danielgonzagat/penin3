@@ -1,0 +1,13 @@
+
+            Advanced Neural Network Calibration Techniques:
+            
+            1. Temperature Scaling: Post-hoc calibration method that applies a single scalar parameter T to the logits before softmax. Optimized on validation set using NLL loss.
+            
+            2. Platt Scaling: Fits a sigmoid function to the outputs. Effective for small datasets but can overfit.
+            
+            3. Isotonic Regression: Non-parametric method that learns a monotonic mapping. More flexible than Platt scaling.
+            
+            4. Bayesian Neural Networks: Incorporate uncertainty directly into the model architecture using weight distributions.
+            
+            5. Ensemble Calibration: Combine multiple calibrated models to improve both accuracy and calibration.
+            

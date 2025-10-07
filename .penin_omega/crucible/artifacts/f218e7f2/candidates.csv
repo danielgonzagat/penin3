@@ -1,0 +1,2 @@
+cand_id,dist_tr,verdict,rationale,delta_linf,mdl_gain,ppl_ood,ece,rho,sr,caos,p95_ms,cost,sigma_ok,iric_ok,sr_ok,tr_ok
+test_cand,0.000000,CANARY,Marginal gain - canary recommended,0.002789,0.000000,89.062911,0.009435,0.502086,0.801099,1.001394,59.97,0.101003,1,1,1,1

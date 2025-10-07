@@ -1,0 +1,12 @@
+{
+  "source_table": "evolution_history",
+  "data": [
+    12991,
+    5,
+    0.15384615384615385,
+    0.14615384615384613,
+    "def solve(x):\n    if x > 5:\n        return x * 2\n    else:\n        return x + 2",
+    "2025-09-16T08:29:16.653135"
+  ],
+  "timestamp": "2025-09-18T02:06:08.666145"
+}

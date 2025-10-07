@@ -1,0 +1,12 @@
+{
+  "source_table": "evolution_history",
+  "data": [
+    145607,
+    6,
+    0.12820512820512822,
+    0.11975759739997492,
+    "def solve(x):\n    result = 0\n    for i in range(4):\n        result += x * 1\n    return result",
+    "2025-09-17T18:57:29.712581"
+  ],
+  "timestamp": "2025-09-18T02:06:27.778053"
+}

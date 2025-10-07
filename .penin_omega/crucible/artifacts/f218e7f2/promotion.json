@@ -1,0 +1,34 @@
+{
+  "top": [
+    "test_cand"
+  ],
+  "patchset": [
+    {
+      "cand_id": "test_cand",
+      "patch_file": null,
+      "build_steps": [],
+      "env_caps": {
+        "no_net": true,
+        "cpu_only": true
+      }
+    }
+  ],
+  "canary_scope": {
+    "traffic_pct": 0.1,
+    "duration_min": 30,
+    "rollback_criteria": {
+      "rho_spike": 0.03,
+      "ppl_ood_increase": 0.05
+    }
+  },
+  "budgets_left": {
+    "max_cost": 10.0,
+    "max_tokens": 100000,
+    "max_llm_calls": 12,
+    "max_latency_ms": 10000,
+    "quota_local": 0.8,
+    "used_llm_calls": 1,
+    "used_tokens": 0,
+    "used_cost": 0.5
+  }
+}

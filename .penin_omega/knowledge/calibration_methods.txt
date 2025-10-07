@@ -1,0 +1,8 @@
+
+        Métodos para reduzir Expected Calibration Error (ECE):
+        1. Temperature scaling após treinamento
+        2. Platt scaling para calibração probabilística
+        3. Isotonic regression para calibração não-paramétrica
+        4. Ensemble methods para melhor incerteza
+        5. Bayesian neural networks para incerteza epistêmica
+        

@@ -1,0 +1,24 @@
+{
+  "event_id": "evolution_965_1758115847",
+  "event_type": "optimization",
+  "description": "Ciclo evolutivo #965",
+  "metrics_before": {
+    "response_quality": 1.0,
+    "memory_utilization": 1.0,
+    "learning_rate": 1.0,
+    "creativity_index": 0.47393035512621473,
+    "coherence_score": 0.61526121038038,
+    "adaptation_speed": 1.0
+  },
+  "metrics_after": {
+    "response_quality": 1.0,
+    "memory_utilization": 1.0,
+    "learning_rate": 1.0,
+    "creativity_index": 0.6620850241818429,
+    "coherence_score": 0.7471403125290782,
+    "adaptation_speed": 1.0
+  },
+  "improvement": 0.3200337712043264,
+  "timestamp": "2025-09-17T13:30:47.665688+00:00",
+  "success": true
+}

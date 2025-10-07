@@ -1,0 +1,32 @@
+
+Métricas de Performance para Sistemas de IA
+
+1. MÉTRICAS DE CLASSIFICAÇÃO
+- Accuracy: (TP + TN) / (TP + TN + FP + FN)
+- Precision: TP / (TP + FP)
+- Recall: TP / (TP + FN)
+- F1-Score: 2 * (Precision * Recall) / (Precision + Recall)
+
+2. MÉTRICAS DE CALIBRAÇÃO
+- Expected Calibration Error (ECE)
+- Maximum Calibration Error (MCE)
+- Brier Score: média de (p - y)²
+- Reliability diagram analysis
+
+3. MÉTRICAS DE INCERTEZA
+- Entropy: -Σ p_i * log(p_i)
+- Mutual Information entre predições
+- Epistemic vs Aleatoric uncertainty
+- Confidence intervals
+
+4. MÉTRICAS DE ROBUSTEZ
+- Adversarial accuracy sob ataques
+- Certified robustness bounds
+- Lipschitz constants
+- Gradient norms
+
+5. MÉTRICAS COMPUTACIONAIS
+- FLOPs (Floating Point Operations)
+- Memory usage (RAM, VRAM)
+- Inference latency
+- Training time
